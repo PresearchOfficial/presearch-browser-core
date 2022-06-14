@@ -1715,7 +1715,6 @@ Are you sure you want to do this?
         private product analytics.
       </message>
       <message name="IDS_BRE_BANNER_TITLE_TEXT" desc="BRE banner title text">
-        Need a refresher on Rewards?
       </message>
       <message name="IDS_BRE_BANNER_TEXT" desc="BRE banner text">
         Take a quick tour to brush up on how it works to go down in history as a Rewards rockstar!
