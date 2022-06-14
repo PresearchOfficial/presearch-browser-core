@@ -1,0 +1,12 @@
+diff --git a/content/browser/browser_main_loop.h b/content/browser/browser_main_loop.h
+index a8c8c6b5d161c5603febb9fbedc0ed652d20e6e3..02efef0b960fbb7d9c521b02c1cd6b616d881a0e 100644
+--- a/content/browser/browser_main_loop.h
++++ b/content/browser/browser_main_loop.h
+@@ -158,6 +158,7 @@ class CONTENT_EXPORT BrowserMainLoop {
+   void RunMainMessageLoop();
+ 
+   // Performs the pre-shutdown steps.
++  virtual
+   void PreShutdown();
+ 
+   // Performs the shutdown sequence, starting with PostMainMessageLoopRun

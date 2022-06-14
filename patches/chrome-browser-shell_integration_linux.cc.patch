@@ -1,0 +1,13 @@
+diff --git a/chrome/browser/shell_integration_linux.cc b/chrome/browser/shell_integration_linux.cc
+index 070acc504b606c793fc6463faf1e6b9cd7f34827..2efba78e8a175e2a39f90ba2e87acc77bb2eede0 100644
+--- a/chrome/browser/shell_integration_linux.cc
++++ b/chrome/browser/shell_integration_linux.cc
+@@ -466,7 +466,7 @@ std::string GetIconName() {
+ #if BUILDFLAG(GOOGLE_CHROME_BRANDING)
+   return "google-chrome";
+ #else  // BUILDFLAG(CHROMIUM_BRANDING)
+-  return "chromium-browser";
++  return "brave-browser";
+ #endif
+ }
+ 

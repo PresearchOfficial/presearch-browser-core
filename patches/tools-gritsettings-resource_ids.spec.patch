@@ -1,0 +1,33 @@
+diff --git a/tools/gritsettings/resource_ids.spec b/tools/gritsettings/resource_ids.spec
+index 6a91282809a76ca60dd1b329c683705b127eb22a..90686384bbef18be9fef1ba58778791058bc35b4 100644
+--- a/tools/gritsettings/resource_ids.spec
++++ b/tools/gritsettings/resource_ids.spec
+@@ -41,6 +41,9 @@
+   "chrome/app/chromium_strings.grd": {
+     "messages": [400],
+   },
++  "chrome/app/brave_strings.grd": {
++    "messages": [400],
++  },
+   "chrome/app/google_chrome_strings.grd": {
+     "messages": [400],
+   },
+@@ -181,7 +184,7 @@
+     "includes": [1600],
+   },
+   "<(SHARED_INTERMEDIATE_DIR)/chrome/browser/resources/history/history_resources.grd": {
+-    "META": {"sizes": {"includes": [40]}},
++    "META": {"sizes": {"includes": [44]}},
+     "includes": [1620],
+   },
+   "<(SHARED_INTERMEDIATE_DIR)/chrome/browser/resources/image_editor/resources.grd": {
+@@ -617,6 +620,9 @@
+   "components/components_chromium_strings.grd": {
+     "messages": [3520],
+   },
++  "components/components_brave_strings.grd": {
++    "messages": [3520],
++  },
+   "components/components_google_chrome_strings.grd": {
+     "messages": [3520],
+   },

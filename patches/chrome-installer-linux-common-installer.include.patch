@@ -1,0 +1,37 @@
+diff --git a/chrome/installer/linux/common/installer.include b/chrome/installer/linux/common/installer.include
+index 9f0f85bea5dbcd301e91625a8bddb163242fb1cd..0ed060cd1d4fb3725baf590774a1c5deaaddc817 100644
+--- a/chrome/installer/linux/common/installer.include
++++ b/chrome/installer/linux/common/installer.include
+@@ -75,6 +75,7 @@ process_template() (
+     -e "s#@@PACKAGE@@#${PACKAGE}#g" \
+     -e "s#@@PACKAGE_ORIG@@#${PACKAGE_ORIG}#g" \
+     -e "s#@@PACKAGE_FILENAME@@#${PACKAGE_FILENAME}#g" \
++    -e "s#@@PACKAGEANDCHANNEL@@#${PACKAGEANDCHANNEL}#g" \
+     -e "s#@@SNAPNAME@@#${SNAPNAME}#g" \
+     -e "s#@@PROGNAME@@#${PROGNAME}#g" \
+     -e "s#@@CHANNEL@@#${CHANNEL}#g" \
+@@ -166,6 +167,8 @@ stage_install_common() {
+     install -m 644 "${OUTPUTDIR}/ui_resources_100_percent.pak" "${STAGEDIR}/${INSTALLDIR}/"
+   fi
+ 
++  source "${OUTPUTDIR}/installer/common/brave_installer.include"
++  brave_stage_install_common
+   # ICU data file; Necessary when the GN icu_use_data_file flag is true.
+   install -m 644 "${OUTPUTDIR}/icudtl.dat" "${STAGEDIR}/${INSTALLDIR}/"
+ 
+@@ -302,11 +305,13 @@ stage_install_common() {
+ 
+   # app icons
+   local icon_regex=".*product_logo_[0-9]\+\."
+-  if [ "$BRANDING" = "google_chrome" ]; then
++  if [ "$BRANDING" = "brave" ]; then
+     if [ "$CHANNEL" = "beta" ]; then
+       icon_regex=".*product_logo_[0-9]\+_beta\."
+-    elif [ "$CHANNEL" = "unstable" ]; then
++    elif [ "$CHANNEL" = "unstable" -o "$CHANNEL" = "dev" ]; then
+       icon_regex=".*product_logo_[0-9]\+_dev\."
++    elif [ "$CHANNEL" = "nightly" ]; then
++      icon_regex=".*product_logo_[0-9]\+_nightly\."
+     fi
+   fi
+   LOGO_RESOURCES_PNG=$(find "${OUTPUTDIR}/installer/theme/" \

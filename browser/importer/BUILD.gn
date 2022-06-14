@@ -1,0 +1,13 @@
+import("//build/config/features.gni")
+
+source_set("importer") {
+  sources = [
+    "brave_importer_p3a.cc",
+    "brave_importer_p3a.h",
+  ]
+
+  deps = [
+    "//base",
+    "//chrome/common/importer",
+  ]
+}

@@ -1,0 +1,11 @@
+source_set("cpp") {
+  sources = [
+    "ledger_client_mojo_bridge.cc",
+    "ledger_client_mojo_bridge.h",
+  ]
+
+  deps = [
+    "//brave/components/services/bat_ledger/public/interfaces",
+    "//brave/vendor/bat-native-ledger",
+  ]
+}

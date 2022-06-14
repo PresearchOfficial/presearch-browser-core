@@ -1,0 +1,12 @@
+diff --git a/components/sync_device_info/device_info.h b/components/sync_device_info/device_info.h
+index 0c856c39529b10ec04e793882e781de0321aafca..492f394cdba10bba3ebe1a452d1376d17f347143 100644
+--- a/components/sync_device_info/device_info.h
++++ b/components/sync_device_info/device_info.h
+@@ -116,6 +116,7 @@ class DeviceInfo {
+   DeviceInfo(const DeviceInfo&) = delete;
+   DeviceInfo& operator=(const DeviceInfo&) = delete;
+ 
++  virtual
+   ~DeviceInfo();
+ 
+   // Sync specific unique identifier for the device. Note if a device

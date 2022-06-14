@@ -1,0 +1,70 @@
+import("//brave/build/config.gni")
+import("//build/buildflag_header.gni")
+import("//build/config/features.gni")
+import("//chrome/common/features.gni")
+
+buildflag_header("sparkle_buildflags") {
+  header = "sparkle_buildflags.h"
+  flags = [ "ENABLE_SPARKLE=$enable_sparkle" ]
+}
+
+source_set("browser_process") {
+  visibility = [
+    "//brave/browser/*",
+    "//chrome/browser/*",
+  ]
+
+  sources = [ "brave_browser_process.h" ]
+
+  deps = [
+    "//brave/browser/ethereum_remote_client/buildflags",
+    "//brave/components/brave_referrals/buildflags",
+    "//brave/components/greaselion/browser/buildflags",
+    "//brave/components/ipfs/buildflags",
+    "//brave/components/speedreader:buildflags",
+    "//brave/components/tor/buildflags",
+    "//chrome/browser:browser_process",
+    "//extensions/buildflags",
+  ]
+}
+
+group("browser") {
+  visibility = [
+    "//brave:browser_dependencies",
+    "//brave/browser/*",
+    "//brave/test:*",
+    "//brave/vendor/bat-native-ledger:headers",
+
+    # these are layering violation and need to be fixed
+    "//brave/components/brave_ads/test:brave_ads_unit_tests",
+    "//brave/components/brave_rewards/browser:testutil",
+    "//brave/components/brave_rewards/test:brave_rewards_unit_tests",
+    "//brave/components/ipfs/test:*",
+  ]
+
+  if (enable_sparkle) {
+    deps = [ "//brave/vendor/sparkle:sparkle_framework_bundle_data" ]
+  }
+
+  # Group depending on upstream's counterpart to make it easier to manage
+  # dependencies in brave/ (//chrome/browser does not depend on this target
+  # so //brave/browser becomes essentially an alias for //chrome/browser now).
+  public_deps = [ "//chrome/browser" ]
+}
+
+source_set("unit_tests") {
+  testonly = true
+
+  sources = []
+  deps = []
+
+  if (is_win) {
+    sources += [ "default_protocol_handler_utils_win_unittest.cc" ]
+
+    deps += [
+      "//base",
+      "//brave/browser",
+      "//testing/gtest",
+    ]
+  }
+}

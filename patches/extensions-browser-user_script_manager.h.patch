@@ -1,0 +1,21 @@
+diff --git a/extensions/browser/user_script_manager.h b/extensions/browser/user_script_manager.h
+index 35ce347683f04937bf835574edd373099b759016..ea0f0d61b8fe5daf5fb4cd8b851d67de6187a827 100644
+--- a/extensions/browser/user_script_manager.h
++++ b/extensions/browser/user_script_manager.h
+@@ -26,7 +26,7 @@
+ namespace content {
+ class BrowserContext;
+ }
+-
++class EthereumRemoteClientService;
+ namespace extensions {
+ class UserScriptLoader;
+ 
+@@ -50,6 +50,7 @@ class UserScriptManager : public ExtensionRegistryObserver {
+   WebUIUserScriptLoader* GetUserScriptLoaderForWebUI(const GURL& url);
+ 
+  private:
++  friend class ::EthereumRemoteClientService;
+   // ExtensionRegistryObserver implementation.
+   void OnExtensionWillBeInstalled(content::BrowserContext* browser_context,
+                                   const Extension* extension,

@@ -1,0 +1,13 @@
+diff --git a/chrome/browser/resources/settings/settings_page/main_page_mixin.ts b/chrome/browser/resources/settings/settings_page/main_page_mixin.ts
+index edd2054d9099c7b6cb371951f61281f149023891..1390e4dae935ab9654a8625b4cbdf09830199a7f 100644
+--- a/chrome/browser/resources/settings/settings_page/main_page_mixin.ts
++++ b/chrome/browser/resources/settings/settings_page/main_page_mixin.ts
+@@ -38,7 +38,7 @@ guestTopLevelRoute = routes.PRIVACY;
+ // </if>
+ 
+ const TOP_LEVEL_EQUIVALENT_ROUTE: Route =
+-    loadTimeData.getBoolean('isGuest') ? guestTopLevelRoute : routes.PEOPLE;
++    loadTimeData.getBoolean('isGuest') ? guestTopLevelRoute : routes.GET_STARTED;
+ 
+ function classifyRoute(route: Route|null): RouteState {
+   if (!route) {

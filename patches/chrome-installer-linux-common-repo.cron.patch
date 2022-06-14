@@ -1,0 +1,14 @@
+diff --git a/chrome/installer/linux/common/repo.cron b/chrome/installer/linux/common/repo.cron
+index 594040185a8c1793f9e2634f301c93a79cde1e80..ad500fabe554ab9df1f2cfdc76dcc8a8fe407411 100755
+--- a/chrome/installer/linux/common/repo.cron
++++ b/chrome/installer/linux/common/repo.cron
+@@ -17,6 +17,9 @@
+ # "false" as desired. An empty $DEFAULTS_FILE is the same as setting both values
+ # to "false".
+ 
++# Don't add the Chrome repo (brave/brave-browser#1084)
++exit 0
++
+ @@include@@../common/variables.include
+ 
+ @@include@@apt.include

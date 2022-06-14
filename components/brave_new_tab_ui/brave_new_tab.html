@@ -1,0 +1,31 @@
+﻿<!doctype html>
+<html data-test-id="brave-new-tab-page" dir="$i18n{textdirection}">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width">
+<title>New Tab</title>
+<link rel="stylesheet" href="chrome://brave-resources/css/reset.css">
+<link rel="stylesheet" href="chrome://resources/css/text_defaults.css">
+<link rel="stylesheet" href="chrome://brave-resources/fonts/poppins.css">
+<link rel="stylesheet" href="chrome://brave-resources/fonts/muli.css">
+<link rel="stylesheet" href="chrome://brave-resources/fonts/crypto_fonts.css">
+<script src="chrome://resources/js/load_time_data.js"></script>
+<script src="/strings.js"></script>
+<script src="/brave_new_tab.bundle.js"></script>
+<style>
+  #root { height: 100%; }
+  body {
+    --default-bg-color: white;
+    background-color: var(--default-bg-color)
+  }
+  @media (prefers-color-scheme: dark) {
+    body {
+      --default-bg-color: #333639;
+    }
+  }
+</style>
+</head>
+<body>
+<div id="root"></div>
+</body>
+</html>

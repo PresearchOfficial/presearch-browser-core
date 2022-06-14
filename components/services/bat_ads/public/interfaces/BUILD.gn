@@ -1,0 +1,14 @@
+import("//mojo/public/tools/bindings/mojom.gni")
+
+mojom("interfaces") {
+  support_lazy_serialization = true
+
+  sources = [ "bat_ads.mojom" ]
+
+  public_deps = [ "//mojo/public/mojom/base" ]
+
+  deps = [
+    "//brave/components/brave_federated/public/interfaces",
+    "//brave/vendor/bat-native-ads/include/bat/ads/public/interfaces",
+  ]
+}

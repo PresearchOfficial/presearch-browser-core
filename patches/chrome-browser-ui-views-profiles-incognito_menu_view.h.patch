@@ -1,0 +1,12 @@
+diff --git a/chrome/browser/ui/views/profiles/incognito_menu_view.h b/chrome/browser/ui/views/profiles/incognito_menu_view.h
+index c3a642858ebee027e32a88d07801f06a5967254e..f03cca20757cc59c420570850d05326a646f0cbf 100644
+--- a/chrome/browser/ui/views/profiles/incognito_menu_view.h
++++ b/chrome/browser/ui/views/profiles/incognito_menu_view.h
+@@ -33,6 +33,7 @@ class IncognitoMenuView : public ProfileMenuViewBase {
+   // ProfileMenuViewBase:
+   void BuildMenu() override;
+ 
++  BRAVE_INCOGNITO_MENU_VIEW_H_
+  private:
+   // views::BubbleDialogDelegateView:
+   std::u16string GetAccessibleWindowTitle() const override;

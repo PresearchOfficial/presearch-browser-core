@@ -1,0 +1,12 @@
+diff --git a/extensions/browser/sandboxed_unpacker.cc b/extensions/browser/sandboxed_unpacker.cc
+index 92ed57fd370a0a800872768ea6ede09206b85452..8ab97a0bd345438df1adf450d52da80bf8163d05 100644
+--- a/extensions/browser/sandboxed_unpacker.cc
++++ b/extensions/browser/sandboxed_unpacker.cc
+@@ -1000,6 +1000,7 @@ absl::optional<base::Value> SandboxedUnpacker::RewriteManifestFile(
+   DCHECK(!public_key_.empty());
+   base::Value final_manifest = manifest.Clone();
+   final_manifest.SetStringKey(manifest_keys::kPublicKey, public_key_);
++  BRAVE_SANDBOXEDUNPACKER_REWRITEMANIFESTFILE
+ 
+   {
+     std::string differential_fingerprint;

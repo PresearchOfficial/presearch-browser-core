@@ -1,0 +1,34 @@
+import("//brave/components/ipfs/buildflags/buildflags.gni")
+import("//brave/components/sidebar/buildflags/buildflags.gni")
+import("//brave/resources/brave_grit.gni")
+import("//chrome/common/features.gni")
+
+brave_grit("brave_theme_resources") {
+  source = "brave_theme_resources.grd"
+  defines = chrome_grit_defines
+  defines += [
+    "enable_sidebar=$enable_sidebar",
+    "enable_ipfs=$enable_ipfs",
+  ]
+  outputs = [
+    "grit/brave_theme_resources.h",
+    "grit/brave_theme_resources_map.cc",
+    "grit/brave_theme_resources_map.h",
+    "brave_theme_resources_100_percent.pak",
+    "brave_theme_resources_200_percent.pak",
+    "brave_theme_resources_300_percent.pak",
+  ]
+
+  output_dir = "$root_gen_dir/brave"
+}
+
+brave_grit("brave_unscaled_resources") {
+  source = "brave_unscaled_resources.grd"
+  defines = chrome_grit_defines
+  outputs = [
+    "grit/brave_unscaled_resources.h",
+    "brave_unscaled_resources.pak",
+  ]
+
+  output_dir = "$root_gen_dir/brave"
+}

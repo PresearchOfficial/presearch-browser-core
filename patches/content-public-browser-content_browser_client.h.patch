@@ -1,0 +1,12 @@
+diff --git a/content/public/browser/content_browser_client.h b/content/public/browser/content_browser_client.h
+index ae3dda4b9b40bb0d4c1a10eaedda9270d3543a8b..119ebabeb12de4d15a75ba5de93207c512bd6f9b 100644
+--- a/content/public/browser/content_browser_client.h
++++ b/content/public/browser/content_browser_client.h
+@@ -1971,6 +1971,7 @@ class CONTENT_EXPORT ContentBrowserClient {
+   virtual ui::AXMode GetAXModeForBrowserContext(
+       BrowserContext* browser_context);
+ 
++  BRAVE_CONTENT_BROWSER_CLIENT_H
+ #if BUILDFLAG(IS_ANDROID)
+   // Defines the heuristics we can use to enable wide color gamut (WCG).
+   enum class WideColorGamutHeuristic {

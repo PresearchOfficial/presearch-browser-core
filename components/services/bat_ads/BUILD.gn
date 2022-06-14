@@ -1,0 +1,25 @@
+static_library("lib") {
+  visibility = [
+    "//brave/test:*",
+    "//chrome/utility:*",
+  ]
+
+  sources = [
+    "bat_ads_client_mojo_bridge.cc",
+    "bat_ads_client_mojo_bridge.h",
+    "bat_ads_impl.cc",
+    "bat_ads_impl.h",
+    "bat_ads_service_impl.cc",
+    "bat_ads_service_impl.h",
+  ]
+
+  public_deps = [
+    "public/interfaces",
+    "//brave/vendor/bat-native-ads",
+  ]
+
+  deps = [
+    "//mojo/public/cpp/bindings",
+    "//mojo/public/cpp/system",
+  ]
+}

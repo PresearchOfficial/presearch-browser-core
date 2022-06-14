@@ -1,0 +1,97 @@
+diff --git a/chrome/installer/linux/debian/build.sh b/chrome/installer/linux/debian/build.sh
+index 67c0de84efcd65f3c608083cac78c31af894b0a9..e716558029a1907f94c31f918524f65fa0ddd048 100755
+--- a/chrome/installer/linux/debian/build.sh
++++ b/chrome/installer/linux/debian/build.sh
+@@ -21,7 +21,7 @@ gen_changelog() {
+   process_template "${SCRIPTDIR}/changelog.template" "${DEB_CHANGELOG}"
+   debchange -a --nomultimaint -m --changelog "${DEB_CHANGELOG}" \
+     "Release Notes: ${RELEASENOTES}"
+-  GZLOG="${STAGEDIR}/usr/share/doc/${PACKAGE}-${CHANNEL}/changelog.gz"
++  GZLOG="${STAGEDIR}/usr/share/doc/${PACKAGEANDCHANNEL}/changelog.gz"
+   mkdir -p "$(dirname "${GZLOG}")"
+   gzip -9 -c "${DEB_CHANGELOG}" > "${GZLOG}"
+   chmod 644 "${GZLOG}"
+@@ -30,7 +30,7 @@ gen_changelog() {
+ # Create the Debian control file needed by dpkg-deb.
+ gen_control() {
+   dpkg-gencontrol -v"${VERSIONFULL}" -c"${DEB_CONTROL}" -l"${DEB_CHANGELOG}" \
+-  -f"${DEB_FILES}" -p"${PACKAGE}-${CHANNEL}" -P"${STAGEDIR}" \
++  -f"${DEB_FILES}" -p"${PACKAGEANDCHANNEL}" -P"${STAGEDIR}" \
+   -O > "${STAGEDIR}/DEBIAN/control"
+   rm -f "${DEB_CONTROL}"
+ }
+@@ -41,7 +41,7 @@ prep_staging_debian() {
+   install -m 755 -d "${STAGEDIR}/DEBIAN" \
+     "${STAGEDIR}/etc/cron.daily" \
+     "${STAGEDIR}/usr/share/menu" \
+-    "${STAGEDIR}/usr/share/doc/${USR_BIN_SYMLINK_NAME}"
++    "${STAGEDIR}/usr/share/doc/${PACKAGEANDCHANNEL}"
+ }
+ 
+ # Put the package contents in the staging area.
+@@ -85,6 +85,7 @@ stage_install_debian() {
+   process_template "${OUTPUTDIR}/installer/debian/postrm" \
+     "${STAGEDIR}/DEBIAN/postrm"
+   chmod 755 "${STAGEDIR}/DEBIAN/postrm"
++  cd "${STAGEDIR}/${INSTALLDIR}/"; zip -qr "${OUTPUTDIR}/${PACKAGEANDCHANNEL}-${VERSIONFULL}-linux-${ARCHITECTURE}.zip" .; cd -
+ }
+ 
+ verify_package() {
+@@ -92,7 +93,7 @@ verify_package() {
+   local EXPECTED_DEPENDS="${TMPFILEDIR}/expected_deb_depends"
+   local ACTUAL_DEPENDS="${TMPFILEDIR}/actual_deb_depends"
+   echo ${DEPENDS} | sed 's/, /\n/g' | LANG=C sort > "${EXPECTED_DEPENDS}"
+-  dpkg -I "${PACKAGE}-${CHANNEL}_${VERSIONFULL}_${ARCHITECTURE}.deb" | \
++  dpkg -I "${PACKAGEANDCHANNEL}_${VERSIONFULL}_${ARCHITECTURE}.deb" | \
+       grep '^ Depends: ' | sed 's/^ Depends: //' | sed 's/, /\n/g' | \
+       LANG=C sort > "${ACTUAL_DEPENDS}"
+   BAD_DIFF=0
+@@ -160,8 +161,11 @@ verify_channel() {
+       ;;
+     dev|unstable|alpha )
+       CHANNEL=unstable
++      CHANNEL=dev
+       RELEASENOTES="https://chromereleases.googleblog.com/search/label/Dev%20updates"
+       ;;
++    nightly )
++      ;;
+     * )
+       echo
+       echo "ERROR: '$CHANNEL' is not a valid channel type."
+@@ -169,6 +173,7 @@ verify_channel() {
+       exit 1
+       ;;
+   esac
++  RELEASENOTES="https://brave.com/latest/"
+ }
+ 
+ process_opts() {
+@@ -248,6 +253,17 @@ fi
+ eval $(sed -e "s/^\([^=]\+\)=\(.*\)$/export \1='\2'/" \
+   "${OUTPUTDIR}/installer/theme/BRANDING")
+ 
++PACKAGEANDCHANNEL="${PACKAGE}-${CHANNEL}"
++if [ "$CHANNEL" = "unstable" ]; then
++  PACKAGEANDCHANNEL="${PACKAGE}-dev"
++fi
++if [ "$CHANNEL" = "dev" ]; then
++  PACKAGEANDCHANNEL="${PACKAGE}-dev"
++fi
++if [ "$CHANNEL" = "stable" ]; then
++  PACKAGEANDCHANNEL="${PACKAGE}"
++fi
++
+ verify_channel
+ 
+ # Some Debian packaging tools want these set.
+@@ -261,6 +277,10 @@ COMMON_PREDEPS="dpkg (>= 1.14.0)"
+ MANUAL_RECOMMENDS="${SCRIPTDIR}/manual_recommends"
+ COMMON_RECOMMENDS=$(grep -v ^$ "${MANUAL_RECOMMENDS}" | grep -v ^# |
+                         sed ':a;N;$!ba;s/\n/, /g')
++# Ensure that our signing key is up-to-date (brave/brave-browser#4205).
++if [ "$CHANNEL" = "stable" ]; then
++  COMMON_DEPS="${COMMON_DEPS}, brave-keyring"
++fi
+ 
+ # Make everything happen in the OUTPUTDIR.
+ cd "${OUTPUTDIR}"

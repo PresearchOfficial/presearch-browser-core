@@ -1,0 +1,178 @@
+<receiver android:name="org.chromium.chrome.browser.notifications.retention.RetentionNotificationPublisher"
+    android:exported="false">
+</receiver>
+
+<activity android:name="org.chromium.chrome.browser.BraveRewardsDonationSentActivity"
+    android:theme="@android:style/Theme.Translucent.NoTitleBar"
+    android:configChanges="orientation|keyboardHidden|keyboard|screenSize|mcc|mnc|screenLayout|smallestScreenSize" />
+
+<activity android:name="org.chromium.chrome.browser.BraveRewardsSiteBannerActivity"
+    android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+
+<activity
+    android:name="org.chromium.chrome.browser.BraveRewardsVerifyWalletActivity"
+    android:theme="@style/Theme.Chromium.Activity.Fullscreen"/>
+
+<activity
+    android:name="org.chromium.chrome.browser.BraveRewardsUserWalletActivity"
+    android:theme="@style/BraveTranslucent"/>
+
+<!-- Onboarding notification -->
+<receiver android:name="org.chromium.chrome.browser.notifications.BraveOnboardingNotification"
+    android:exported="false">
+</receiver>
+<activity
+    android:name="org.chromium.chrome.browser.onboarding.OnboardingActivity"
+    android:theme="@style/Theme.Chromium.Activity.Fullscreen"
+    android:screenOrientation="sensorPortrait"
+    tools:ignore="LockedOrientationActivity"/>
+<activity
+    android:name="org.chromium.chrome.browser.onboarding.SearchActivity"
+    android:theme="@style/Theme.Chromium.Activity.Fullscreen"
+    android:screenOrientation="sensorPortrait"
+    tools:ignore="LockedOrientationActivity"/>
+
+<activity
+    android:name="org.chromium.chrome.browser.firstrun.P3aOnboardingActivity"
+    android:theme="@style/Theme.Chromium.Activity.Fullscreen"
+    android:screenOrientation="sensorPortrait"
+    tools:ignore="LockedOrientationActivity"/>
+
+<activity
+    android:name="org.chromium.chrome.browser.set_default_browser.SetDefaultBrowserActivity"
+    android:theme="@style/Theme.Chromium.Activity.Fullscreen"
+    android:screenOrientation="sensorPortrait"
+    tools:ignore="LockedOrientationActivity"/>
+
+<activity android:name="org.chromium.chrome.browser.crypto_wallet.activities.BraveWalletActivity"
+    android:theme="@style/Theme.Chromium.Activity"
+    android:screenOrientation="sensorPortrait"
+    tools:ignore="LockedOrientationActivity"/>
+
+<activity android:name="org.chromium.chrome.browser.crypto_wallet.activities.AssetDetailActivity"
+    android:theme="@style/Theme.Chromium.Activity"
+    android:screenOrientation="sensorPortrait"
+    tools:ignore="LockedOrientationActivity"/>
+
+<activity android:name="org.chromium.chrome.browser.crypto_wallet.activities.AddAccountActivity"
+    android:theme="@style/Theme.Chromium.Activity"
+    android:screenOrientation="sensorPortrait"
+    tools:ignore="LockedOrientationActivity"/>
+
+<activity android:name="org.chromium.chrome.browser.crypto_wallet.activities.AccountDetailActivity"
+    android:theme="@style/Theme.Chromium.Activity"
+    android:screenOrientation="sensorPortrait"
+    tools:ignore="LockedOrientationActivity"/>
+
+<activity android:name="org.chromium.chrome.browser.crypto_wallet.activities.AccountPrivateKeyActivity"
+    android:theme="@style/Theme.Chromium.Activity"
+    android:screenOrientation="sensorPortrait"
+    tools:ignore="LockedOrientationActivity"/>
+
+<activity android:name="org.chromium.chrome.browser.crypto_wallet.activities.AccountDetailsWithQrActivity"
+    android:theme="@style/Theme.Chromium.Activity"
+    android:screenOrientation="sensorPortrait"
+    tools:ignore="LockedOrientationActivity"/>
+
+<activity android:name="org.chromium.chrome.browser.crypto_wallet.activities.BuySendSwapActivity"
+    android:theme="@style/Theme.Chromium.Activity"
+    android:screenOrientation="sensorPortrait"
+    tools:ignore="LockedOrientationActivity"/>
+
+<activity android:name="org.chromium.chrome.browser.crypto_wallet.activities.NetworkSelectorActivity"
+    android:theme="@style/Theme.Chromium.Activity"
+    android:screenOrientation="sensorPortrait"
+    tools:ignore="LockedOrientationActivity"/>
+
+<activity android:name="org.chromium.chrome.browser.crypto_wallet.activities.AdvanceTxSettingActivity"
+    android:theme="@style/Theme.Chromium.Activity"
+    android:screenOrientation="sensorPortrait"
+    tools:ignore="LockedOrientationActivity"/>
+
+<activity android:name="org.chromium.chrome.browser.crypto_wallet.activities.BraveWalletDAppsActivity"
+    android:theme="@style/Theme.Chromium.Activity"
+    android:screenOrientation="sensorPortrait"
+    tools:ignore="LockedOrientationActivity"/>
+
+<activity
+    android:name="org.chromium.chrome.browser.vpn.activities.BraveVpnPlansActivity"
+    android:theme="@style/Theme.Chromium.Activity"
+    android:noHistory="true"
+    android:launchMode="singleTask"
+    android:screenOrientation="sensorPortrait"
+    tools:ignore="LockedOrientationActivity"/>
+
+<activity
+    android:name="org.chromium.chrome.browser.vpn.activities.BraveVpnProfileActivity"
+    android:theme="@style/Theme.Chromium.Activity"
+    android:noHistory="true"
+    android:launchMode="singleTask"
+    android:screenOrientation="sensorPortrait"
+    tools:ignore="LockedOrientationActivity"/>
+
+<activity
+    android:name="org.chromium.chrome.browser.vpn.activities.BraveVpnParentActivity"
+    android:theme="@style/Theme.Chromium.Activity"
+    android:screenOrientation="sensorPortrait"
+    tools:ignore="LockedOrientationActivity"/>
+
+<activity
+    android:name="org.chromium.chrome.browser.vpn.activities.BraveVpnSupportActivity"
+    android:theme="@style/Theme.Chromium.Activity"
+    android:screenOrientation="sensorPortrait"
+    tools:ignore="LockedOrientationActivity"/>
+
+<activity
+    android:name="org.chromium.chrome.browser.widget.crypto.binance.BinanceActivity"
+    android:theme="@style/Theme.Chromium.Activity.Fullscreen"
+    android:exported="true">
+    <intent-filter>
+        <action android:name="android.intent.action.VIEW" />
+        <category android:name="android.intent.category.BROWSABLE" />
+        <category android:name="android.intent.category.DEFAULT" />
+        <data android:scheme="com.brave.binance" />
+    </intent-filter>
+</activity>
+
+<activity android:name="org.chromium.chrome.browser.settings.BraveSettingsActivity"
+    android:theme="@style/Theme.Chromium.Settings"
+    android:configChanges="orientation|keyboardHidden|keyboard|screenSize|mcc|mnc|screenLayout|smallestScreenSize"
+    android:label="@string/settings"
+    android:exported="false">
+</activity>
+
+<meta-data
+        android:name="com.google.android.play.billingclient.version"
+        android:value="4.0.0" />
+
+<activity android:name="com.android.billingclient.api.ProxyBillingActivity"
+    android:theme="@style/BraveProxyBillingActivityTheme"
+    android:exported="false"
+    android:screenOrientation="sensorPortrait"
+    tools:ignore="LockedOrientationActivity"/>
+
+<!-- Upgrade related -->
+<receiver android:name="org.chromium.chrome.browser.upgrade.BravePackageReplacedBroadcastReceiver"
+    android:exported="false">
+    <intent-filter>
+        <action android:name="android.intent.action.MY_PACKAGE_REPLACED" />
+    </intent-filter>
+</receiver>
+
+<service android:name="org.chromium.chrome.browser.upgrade.BraveUpgradeJobIntentService"
+    android:permission="android.permission.BIND_JOB_SERVICE"
+    android:exported="false"/>
+
+<service
+    android:name="org.chromium.chrome.browser.vpn.wireguard.WireguardService"
+    android:exported="false">
+</service>
+
+<service
+    android:name="com.wireguard.android.backend.GoBackend$VpnService"
+    android:permission="android.permission.BIND_VPN_SERVICE"
+    android:exported="false">
+    <intent-filter>
+        <action android:name="android.net.VpnService" />
+    </intent-filter>
+</service>

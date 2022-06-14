@@ -1,0 +1,52 @@
+<style include="settings-shared">
+</style>
+<settings-toggle-button
+  class="cr-row"
+  pref="{{prefs.brave.location_bar_is_wide}}"
+  label="$i18n{appearanceSettingsLocationBarIsWide}">
+</settings-toggle-button>
+<settings-toggle-button
+  class="cr-row"
+  pref="{{prefs.brave.autocomplete_enabled}}"
+  label="$i18n{appearanceSettingsShowAutocompleteInAddressBar}">
+</settings-toggle-button>
+<settings-toggle-button
+  class="cr-row"
+  pref="{{prefs.brave.top_site_suggestions_enabled}}"
+  label="$i18n{appearanceSettingsUseTopSiteSuggestions}">
+</settings-toggle-button>
+<settings-toggle-button
+  class="cr-row"
+  pref="{{prefs.brave.brave_suggested_site_suggestions_enabled}}"
+  label="$i18n{appearanceSettingsUseBraveSuggestedSiteSuggestions}">
+</settings-toggle-button>
+<settings-toggle-button
+  pref="{{prefs.brave.show_brave_rewards_button}}"
+  class="cr-row"
+  label="$i18n{appearanceSettingsShowBraveRewardsButtonLabel}">
+</settings-toggle-button>
+<if expr="enable_brave_vpn">
+  <template is="dom-if" if="[[showBraveVPNOption_()]]">
+    <settings-toggle-button
+      pref="{{prefs.brave.brave_vpn.show_button}}"
+      class="cr-row"
+      label="$i18n{showBraveVPNButton}"
+      sub-label="$i18n{showBraveVPNButtonSubLabel}">
+    </settings-toggle-button>
+  </template>
+</if>
+<settings-toggle-button
+  pref="{{prefs.brave.always_show_bookmark_bar_on_ntp}}"
+  class="cr-row"
+  label="$i18n{appearanceSettingsAlwaysShowBookmarkBarOnNTP}">
+</settings-toggle-button>
+<settings-toggle-button
+  pref="{{prefs.omnibox.prevent_url_elisions}}"
+  class="cr-row"
+  label="$i18n{showFullUrls}">
+</settings-toggle-button>
+<settings-toggle-button
+  pref="{{prefs.brave.tabs_search_show}}"
+  class="cr-row"
+  label="$i18n{showSearchTabsBtn}">
+</settings-toggle-button>

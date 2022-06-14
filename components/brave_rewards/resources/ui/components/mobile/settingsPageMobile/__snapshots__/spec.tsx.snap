@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SettingsPageMobile tests basic tests matches the snapshot 1`] = `
+<div
+  className="sc-bdVaJa czstDi"
+  id="page"
+>
+  <div
+    className="sc-bwzfXH czmUXT"
+  />
+</div>
+`;

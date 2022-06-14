@@ -1,0 +1,12 @@
+diff --git a/chrome/browser/resources/signin/profile_picker/profile_creation_flow/local_profile_customization.html b/chrome/browser/resources/signin/profile_picker/profile_creation_flow/local_profile_customization.html
+index b910e0777bc840b933f8dee4045475e6aeff1095..3ef8552de8f7e60cae3a194917ebb105a9505b52 100644
+--- a/chrome/browser/resources/signin/profile_picker/profile_creation_flow/local_profile_customization.html
++++ b/chrome/browser/resources/signin/profile_picker/profile_creation_flow/local_profile_customization.html
+@@ -172,6 +172,7 @@
+   #doneButton {
+     width : 32px;
+   }
++  .banner { visibility: hidden; }
+ 
+   @media (forced-colors: none) {
+     #backButton {

@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TableContribute tests basic tests matches the snapshot 1`] = `
+<div
+  id="table"
+>
+  <div>
+    <div
+      className="sc-gzVnrw beRiAf"
+    />
+  </div>
+</div>
+`;

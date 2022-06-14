@@ -1,0 +1,258 @@
+// Copyright (c) 2019 The Brave Authors. All rights reserved.
+// This Source Code Form is subject to the terms of the Mozilla Public
+// License, v. 2.0. If a copy of the MPL was not distributed with this file,
+// You can obtain one at http://mozilla.org/MPL/2.0/.
+module bat_ledger.mojom;
+
+import "brave/vendor/bat-native-ledger/include/bat/ledger/public/interfaces/ledger.mojom";
+import "brave/vendor/bat-native-ledger/include/bat/ledger/public/interfaces/ledger_database.mojom";
+
+interface BatLedgerService {
+  Create(pending_associated_remote<BatLedgerClient> bat_ledger_client,
+         pending_associated_receiver<BatLedger> database) => ();
+  SetEnvironment(ledger.mojom.Environment environment);
+  SetDebug(bool isDebug);
+  SetGeminiRetries(int32 retries);
+  SetReconcileInterval(int32 interval);
+  SetRetryInterval(int32 interval);
+  SetTesting();
+
+  GetEnvironment() => (ledger.mojom.Environment environment);
+  GetDebug() => (bool debug);
+  GetGeminiRetries() => (int32 retries);
+  GetReconcileInterval() => (int32 interval);
+  GetRetryInterval() => (int32 retry_interval);
+};
+
+interface BatLedger {
+  Initialize(bool execute_create_script) => (ledger.mojom.Result result);
+  CreateWallet() => (ledger.mojom.Result result);
+  GetRewardsParameters() => (ledger.mojom.RewardsParameters properties);
+
+  GetAutoContributeProperties() => (ledger.mojom.AutoContributeProperties props);
+  GetPublisherMinVisitTime() => (int32 min_visit_time);
+  GetPublisherMinVisits() => (int32 min_visits);
+  GetPublisherAllowNonVerified() => (bool allowed);
+  GetPublisherAllowVideos() => (bool allowed);
+  GetAutoContributeEnabled() => (bool auto_contribute);
+  GetReconcileStamp() => (uint64 reconcile_stamp);
+
+  OnLoad(ledger.mojom.VisitData visit_data, uint64 current_time);
+  OnUnload(uint32 tab_id, uint64 current_time);
+  OnShow(uint32 tab_id, uint64 current_time);
+  OnHide(uint32 tab_id, uint64 current_time);
+  OnForeground(uint32 tab_id, uint64 current_time);
+  OnBackground(uint32 tab_id, uint64 current_time);
+
+  OnPostData(string url,
+             string first_party_url,
+             string referrer,
+             string post_data,
+             ledger.mojom.VisitData visit_data);
+  OnXHRLoad(uint32 tab_id,
+            string url,
+            map<string, string> parts,
+            string first_party_url,
+            string referrer,
+            ledger.mojom.VisitData visit_data);
+
+  SetPublisherExclude(string publisher_key, ledger.mojom.PublisherExclude exclude) => (ledger.mojom.Result result);
+  RestorePublishers() => (ledger.mojom.Result result);
+  FetchPromotions() => (ledger.mojom.Result result, array<ledger.mojom.Promotion> promotion);
+  ClaimPromotion(string promotion_id, string payload) => (ledger.mojom.Result result, string response);
+  AttestPromotion(string promotion_id, string solution) => (ledger.mojom.Result result, ledger.mojom.Promotion? promotion);
+  RecoverWallet(string passPhrase) => (ledger.mojom.Result result);
+
+  SetPublisherMinVisitTime(int32 duration_in_seconds);
+  SetPublisherMinVisits(int32 visits);
+  SetPublisherAllowNonVerified(bool allow);
+  SetPublisherAllowVideos(bool allow);
+  SetAutoContributionAmount(double amount);
+  SetAutoContributeEnabled(bool enabled);
+
+  GetBalanceReport(ledger.mojom.ActivityMonth month, int32 year) =>
+      (ledger.mojom.Result result, ledger.mojom.BalanceReportInfo report);
+
+  GetPublisherActivityFromUrl(uint64 window_id,
+      ledger.mojom.VisitData visit_data,
+      string publisher_blob);
+  GetAutoContributionAmount() => (double contribution_amount);
+  GetPublisherBanner(string publisher_id) =>
+      (ledger.mojom.PublisherBanner? banner);
+
+  OneTimeTip(string publisher_id, double amount) => (ledger.mojom.Result result);
+
+  RemoveRecurringTip(string publisher_key) => (ledger.mojom.Result result);
+  GetCreationStamp() => (uint64 boot_stamp);
+
+  HasSufficientBalanceToReconcile() => (bool sufficient);
+
+  GetRewardsInternalsInfo() => (ledger.mojom.RewardsInternalsInfo info);
+
+  SaveRecurringTip(ledger.mojom.RecurringTip info) => (ledger.mojom.Result result);
+  GetRecurringTips() => (array<ledger.mojom.PublisherInfo> list);
+  GetOneTimeTips() => (array<ledger.mojom.PublisherInfo> list);
+
+  GetActivityInfoList(uint32 start, uint32 limit, ledger.mojom.ActivityInfoFilter? filter) =>
+      (array<ledger.mojom.PublisherInfo> list);
+
+  GetExcludedList() => (array<ledger.mojom.PublisherInfo> list);
+
+  RefreshPublisher(string publisher_key) => (ledger.mojom.PublisherStatus status);
+
+  StartMonthlyContribution();
+
+  SaveMediaInfo(string type, map<string, string> args) =>
+    (ledger.mojom.Result result, ledger.mojom.PublisherInfo? publisher_info);
+
+  UpdateMediaDuration(uint64 window_id, string publisher_key, uint64 duration, bool first_visit);
+
+  GetPublisherInfo(string publisher_key) => (ledger.mojom.Result result, ledger.mojom.PublisherInfo? info);
+
+  GetPublisherPanelInfo(string publisher_key) =>
+      (ledger.mojom.Result result, ledger.mojom.PublisherInfo? info);
+
+  SavePublisherInfo(uint64 window_id, ledger.mojom.PublisherInfo publisher_info) =>
+      (ledger.mojom.Result result);
+
+  SetInlineTippingPlatformEnabled(ledger.mojom.InlineTipsPlatforms platform, bool enabled);
+
+  GetInlineTippingPlatformEnabled(ledger.mojom.InlineTipsPlatforms platform) => (bool enabled);
+
+  GetShareURL(map<string, string> args) => (string url);
+
+  GetPendingContributions() => (array<ledger.mojom.PendingContributionInfo> list);
+
+  RemovePendingContribution(uint64 id) => (ledger.mojom.Result result);
+
+  RemoveAllPendingContributions() => (ledger.mojom.Result result);
+
+  GetPendingContributionsTotal() => (double amount);
+
+  FetchBalance() => (ledger.mojom.Result result, ledger.mojom.Balance? balance);
+
+  GetExternalWallet(string wallet_type) => (ledger.mojom.Result result, ledger.mojom.ExternalWallet? wallet);
+
+  ExternalWalletAuthorization(string wallet_type, map<string, string> args) => (ledger.mojom.Result result, map<string, string> args);
+
+  DisconnectWallet(string wallet_type) => (ledger.mojom.Result result);
+
+  GetAnonWalletStatus() => (ledger.mojom.Result result);
+
+  GetTransactionReport(ledger.mojom.ActivityMonth month, int32 year) => (array<ledger.mojom.TransactionReportInfo> list);
+
+  GetContributionReport(ledger.mojom.ActivityMonth month, int32 year) => (array<ledger.mojom.ContributionReportInfo> list);
+
+  GetAllContributions() => (array<ledger.mojom.ContributionInfo> list);
+
+  SavePublisherInfoForTip(ledger.mojom.PublisherInfo info) => (ledger.mojom.Result result);
+
+  GetMonthlyReport(ledger.mojom.ActivityMonth month, int32 year) => (ledger.mojom.Result result, ledger.mojom.MonthlyReportInfo report);
+
+  GetAllMonthlyReportIds() => (array<string> ids);
+
+  GetAllPromotions() => (map<string, ledger.mojom.Promotion> items);
+
+  Shutdown() => (ledger.mojom.Result result);
+
+  GetEventLogs() => (array<ledger.mojom.EventLog> logs);
+
+  GetBraveWallet() => (ledger.mojom.BraveWallet? wallet);
+
+  GetWalletPassphrase() => (string passphrase);
+};
+
+interface BatLedgerClient {
+  [Sync]
+  LoadLedgerState() => (ledger.mojom.Result result, string data);
+  LoadPublisherState() => (ledger.mojom.Result result, string data);
+
+  OnReconcileComplete(ledger.mojom.Result result, ledger.mojom.ContributionInfo contribution);
+
+  OnPanelPublisherInfo(ledger.mojom.Result result,
+                       ledger.mojom.PublisherInfo publisher_info,
+                       uint64 window_id);
+  FetchFavIcon(string url, string favicon_key) => (bool success,
+      string favicon_url);
+
+  LoadURL(ledger.mojom.UrlRequest request) => (ledger.mojom.UrlResponse response);
+
+  [Sync]
+  URIEncode(string value) => (string encoded_value);
+
+  PublisherListNormalized(array<ledger.mojom.PublisherInfo> list);
+
+  [Sync]
+  GetBooleanState(string name) => (bool value);
+  [Sync]
+  SetBooleanState(string name, bool value) => ();
+  [Sync]
+  GetIntegerState(string name) => (int32 value);
+  [Sync]
+  SetIntegerState(string name, int32 value) => ();
+  [Sync]
+  GetDoubleState(string name) => (double value);
+  [Sync]
+  SetDoubleState(string name, double value) => ();
+  [Sync]
+  GetStringState(string name) => (string value);
+  [Sync]
+  SetStringState(string name, string value) => ();
+  [Sync]
+  GetInt64State(string name) => (int64 value);
+  [Sync]
+  SetInt64State(string name, int64 value) => ();
+  [Sync]
+  GetUint64State(string name) => (uint64 value);
+  [Sync]
+  SetUint64State(string name, uint64 value) => ();
+  [Sync]
+  ClearState(string name) => ();
+
+  [Sync]
+  GetBooleanOption(string name) => (bool value);
+  [Sync]
+  GetIntegerOption(string name) => (int32 value);
+  [Sync]
+  GetDoubleOption(string name) => (double value);
+  [Sync]
+  GetStringOption(string name) => (string value);
+  [Sync]
+  GetInt64Option(string name) => (int64 value);
+  [Sync]
+  GetUint64Option(string name) => (uint64 value);
+
+  OnContributeUnverifiedPublishers(ledger.mojom.Result result, string publisher_key,
+      string publisher_name);
+
+  [Sync]
+  GetLegacyWallet() => (string wallet);
+
+  ShowNotification(string type, array<string> args) => (ledger.mojom.Result result);
+
+  [Sync]
+  GetClientInfo() => (ledger.mojom.ClientInfo info);
+  UnblindedTokensReady();
+
+  ReconcileStampReset();
+
+  RunDBTransaction(ledger.mojom.DBTransaction transaction) => (ledger.mojom.DBCommandResponse response);
+
+  GetCreateScript() => (string script, int32 table_version);
+
+  PendingContributionSaved(ledger.mojom.Result result);
+
+  Log(string file, int32 line, int32 verbose_level, string message);
+
+  ClearAllNotifications();
+
+  WalletDisconnected(string wallet_type);
+
+  DeleteLog() => (ledger.mojom.Result result);
+
+  [Sync]
+  EncryptString(string value) => (string? encrypted);
+
+  [Sync]
+  DecryptString(string value) => (string? decrypted);
+};

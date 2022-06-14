@@ -1,0 +1,12 @@
+source_set("sync") {
+  sources = [
+    "brave_sync_service_impl_delegate.cc",
+    "brave_sync_service_impl_delegate.h",
+  ]
+
+  deps = [
+    "//base",
+    "//components/sync/driver",
+    "//components/sync_device_info",
+  ]
+}

@@ -1,0 +1,20 @@
+diff --git a/chrome/browser/ui/webui/settings/site_settings_helper.cc b/chrome/browser/ui/webui/settings/site_settings_helper.cc
+index 211050f2e19ef477d925eea19d50e3fa5877e016..3777d36feaabee39c7944e9d0a78688cc24c82f7 100644
+--- a/chrome/browser/ui/webui/settings/site_settings_helper.cc
++++ b/chrome/browser/ui/webui/settings/site_settings_helper.cc
+@@ -169,6 +169,7 @@ const ContentSettingsTypeNameEntry kContentSettingsTypeGroupNames[] = {
+     {ContentSettingsType::AUTO_DARK_WEB_CONTENT, nullptr},
+     {ContentSettingsType::REQUEST_DESKTOP_SITE, nullptr},
+     {ContentSettingsType::GET_DISPLAY_MEDIA_SET_SELECT_ALL_SCREENS, nullptr},
++    BRAVE_CONTENT_SETTINGS_TYPE_GROUP_NAMES_LIST
+ };
+ 
+ static_assert(std::size(kContentSettingsTypeGroupNames) ==
+@@ -393,6 +394,7 @@ bool HasRegisteredGroupName(ContentSettingsType type) {
+ }
+ 
+ ContentSettingsType ContentSettingsTypeFromGroupName(base::StringPiece name) {
++  BRAVE_SITE_SETTINGS_HELPER_CONTENT_SETTINGS_TYPE_FROM_GROUP_NAME
+   for (size_t i = 0; i < std::size(kContentSettingsTypeGroupNames); ++i) {
+     if (name == kContentSettingsTypeGroupNames[i].name)
+       return kContentSettingsTypeGroupNames[i].type;

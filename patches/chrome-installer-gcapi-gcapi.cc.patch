@@ -1,0 +1,29 @@
+diff --git a/chrome/installer/gcapi/gcapi.cc b/chrome/installer/gcapi/gcapi.cc
+index 2267362fdb6b081e4b044123266d47cb66358e13..a86431590c4b80fdc00ae4c2776c8fa35c9b4555 100644
+--- a/chrome/installer/gcapi/gcapi.cc
++++ b/chrome/installer/gcapi/gcapi.cc
+@@ -58,6 +58,16 @@ using Microsoft::WRL::ComPtr;
+ 
+ namespace {
+ 
++#if defined(OFFICIAL_BUILD)
++const wchar_t kGCAPITempKey[] = L"Software\\BraveSoftware\\GCAPITemp";
++const wchar_t kChromeRegVersion[] = L"pv";
++const wchar_t kNoChromeOfferUntil[] =
++    L"SOFTWARE\\BraveSoftware\\No Chrome Offer Until";
++const wchar_t kC1FPendingKey[] =
++    L"Software\\BraveSoftware\\Common\\Rlz\\Events\\C";
++const wchar_t kC1FSentKey[] =
++    L"Software\\BraveSoftware\\Common\\Rlz\\StatefulEvents\\C";
++#else
+ const wchar_t kGCAPITempKey[] = L"Software\\Google\\GCAPITemp";
+ 
+ const wchar_t kChromeRegVersion[] = L"pv";
+@@ -67,6 +77,7 @@ const wchar_t kNoChromeOfferUntil[] =
+ const wchar_t kC1FPendingKey[] = L"Software\\Google\\Common\\Rlz\\Events\\C";
+ const wchar_t kC1FSentKey[] =
+     L"Software\\Google\\Common\\Rlz\\StatefulEvents\\C";
++#endif
+ const wchar_t kC1FKey[] = L"C1F";
+ 
+ const wchar_t kRelaunchBrandcodeValue[] = L"RelaunchBrandcode";

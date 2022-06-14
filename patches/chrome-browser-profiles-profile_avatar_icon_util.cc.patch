@@ -1,0 +1,29 @@
+diff --git a/chrome/browser/profiles/profile_avatar_icon_util.cc b/chrome/browser/profiles/profile_avatar_icon_util.cc
+index d315b900ff513f4c39aa71c51856c3e0fff05dd3..0bcb85d1eb8273b919c0aa31d526720c40198d2a 100644
+--- a/chrome/browser/profiles/profile_avatar_icon_util.cc
++++ b/chrome/browser/profiles/profile_avatar_icon_util.cc
+@@ -350,7 +350,7 @@ constexpr size_t kDefaultAvatarIconsCount = 1;
+ #elif BUILDFLAG(IS_CHROMEOS_ASH)
+ constexpr size_t kDefaultAvatarIconsCount = 27;
+ #else
+-constexpr size_t kDefaultAvatarIconsCount = 56;
++constexpr size_t kDefaultAvatarIconsCount = 56 + kBraveDefaultAvatarIconsCount;
+ #endif
+ 
+ #if !BUILDFLAG(IS_ANDROID)
+@@ -462,6 +462,7 @@ size_t GetPlaceholderAvatarIndex() {
+ 
+ size_t GetModernAvatarIconStartIndex() {
+ #if !BUILDFLAG(IS_CHROMEOS_ASH) && !BUILDFLAG(IS_ANDROID)
++  BRAVE_GET_MODERN_AVATAR_ICON_START_INDEX
+   return GetPlaceholderAvatarIndex() + 1;
+ #else
+   // Only use the placeholder avatar on ChromeOS and Android.
+@@ -495,6 +496,7 @@ std::string GetPlaceholderAvatarIconUrl() {
+ 
+ const IconResourceInfo* GetDefaultAvatarIconResourceInfo(size_t index) {
+   CHECK_LT(index, kDefaultAvatarIconsCount);
++  BRAVE_GET_DEFAULT_AVATAR_ICON_RESOURCE_INFO
+   static const IconResourceInfo resource_info[kDefaultAvatarIconsCount] = {
+   // Old avatar icons:
+ #if !BUILDFLAG(IS_ANDROID)

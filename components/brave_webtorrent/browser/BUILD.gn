@@ -1,0 +1,27 @@
+import("//extensions/buildflags/buildflags.gni")
+
+assert(enable_extensions)
+
+static_library("browser") {
+  # Remove when https://github.com/brave/brave-browser/issues/10649 is resolved
+  check_includes = false
+  sources = [
+    "content_browser_client_helper.h",
+    "webtorrent_util.cc",
+    "webtorrent_util.h",
+  ]
+
+  deps = [
+    "//base",
+    "//brave/common",
+    "//components/pref_registry",
+    "//components/prefs",
+    "//content/public/browser",
+    "//extensions/browser",
+    "//extensions/buildflags",
+    "//extensions/common",
+    "//net",
+  ]
+
+  public_deps = [ "buildflags" ]
+}

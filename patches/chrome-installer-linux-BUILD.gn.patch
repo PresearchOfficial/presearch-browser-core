@@ -1,0 +1,61 @@
+diff --git a/chrome/installer/linux/BUILD.gn b/chrome/installer/linux/BUILD.gn
+index 3f0414a3ee4011541275bf93662c5b889d2ae0c4..62226eb6bc4c4af0ce08e3d94a78b1424db167c1 100644
+--- a/chrome/installer/linux/BUILD.gn
++++ b/chrome/installer/linux/BUILD.gn
+@@ -88,6 +88,7 @@ if (build_with_internal_optimization_guide) {
+       [ "$root_out_dir/liboptimization_guide_internal.so" ]
+ }
+ 
++packaging_files_executables -= excluded_packaging_files_executables packaging_files_executables += brave_packaging_files_executables
+ packaging_files_binaries = packaging_files_executables + packaging_files_shlibs
+ 
+ # TODO(mmoss) Any convenient way to get all the relevant build files?
+@@ -176,6 +177,7 @@ action("merge_rpm_dependencies") {
+ strip_binary("strip_chrome_binary") {
+   binary_input = "$root_out_dir/chrome"
+   deps = [ "//chrome" ]
++  binary_input = "$root_out_dir/brave" symbol_output = "$root_out_dir/brave.debug" stripped_binary_output = "$root_out_dir/brave.stripped" deps += strip_chrome_binary_deps
+ }
+ 
+ strip_binary("strip_chrome_crashpad_handler") {
+@@ -191,6 +193,7 @@ strip_binary("strip_chrome_management_service") {
+ strip_binary("strip_chrome_sandbox") {
+   binary_input = "$root_out_dir/chrome_sandbox"
+   deps = [ "//sandbox/linux:chrome_sandbox" ]
++  binary_input = "$root_out_dir/brave_sandbox" symbol_output = "$root_out_dir/brave_sandbox.debug" stripped_binary_output = "$root_out_dir/brave_sandbox.stripped" deps += strip_chrome_sandbox_deps
+ }
+ 
+ strip_binary("strip_libEGL_shlib") {
+@@ -281,6 +284,7 @@ copy("common_packaging_files") {
+   }
+ 
+   sources += [ "//buildtools/third_party/eu-strip/bin/eu-strip" ]
++  sources -= common_packaging_files_excluded_sources sources += common_packaging_files_sources
+ 
+   outputs = [ "$root_out_dir/installer/common/{{source_file_part}}" ]
+ }
+@@ -381,6 +385,7 @@ group("installer_deps") {
+     "//components/crash/core/app:chrome_crashpad_handler",
+     "//sandbox/linux:chrome_sandbox",
+   ]
++  public_deps += brave_installer_deps
+   if (enable_nacl) {
+     public_deps += [
+       ":strip_nacl_helper",
+@@ -435,6 +440,9 @@ group("installer_deps") {
+ template("linux_package") {
+   assert(defined(invoker.channel))
+   channel = invoker.channel
++  if (channel == "unstable" ) {
++    channel = "dev"
++  }
+ 
+   if (is_chrome_branded) {
+     package = "google-chrome"
+@@ -598,3 +606,6 @@ linux_package("beta") {
+ linux_package("unstable") {
+   channel = "unstable"
+ }
++linux_package("nightly") {
++  channel = "nightly"
++}

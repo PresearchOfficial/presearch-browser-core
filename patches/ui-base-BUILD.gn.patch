@@ -1,0 +1,12 @@
+diff --git a/ui/base/BUILD.gn b/ui/base/BUILD.gn
+index 028a97becd88fb12481b1de0395c7c81857d3af3..430d2ba424cb01b7f58b6bf4623d0dd22d5aaa93 100644
+--- a/ui/base/BUILD.gn
++++ b/ui/base/BUILD.gn
+@@ -469,6 +469,7 @@ component("base") {
+     "//ui/strings",
+     "//url",
+   ]
++  deps += [ "//brave/ui/base:chromium_deps" ]
+ 
+   if (is_debug || dcheck_always_on) {
+     deps += [ "//third_party/re2" ]

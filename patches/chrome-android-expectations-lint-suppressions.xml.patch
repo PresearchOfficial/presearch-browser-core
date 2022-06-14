@@ -1,0 +1,10 @@
+diff --git a/chrome/android/expectations/lint-suppressions.xml b/chrome/android/expectations/lint-suppressions.xml
+index 5572d76f0d852840b4dcb0228a483a0575a34b47..5e08f61c689fadd2da5c5c2169a8826422b23842 100644
+--- a/chrome/android/expectations/lint-suppressions.xml
++++ b/chrome/android/expectations/lint-suppressions.xml
+@@ -296,4 +296,5 @@ https://chromium.googlesource.com/chromium/src/+/main/build/android/docs/lint.md
+     <!-- Discussed in crbug.com/1069204, ignoring this class of errors since these are Q+ constants. -->
+     <ignore regexp="Must be one of: LineBreaker.BREAK_STRATEGY_SIMPLE, LineBreaker.BREAK_STRATEGY_HIGH_QUALITY, LineBreaker.BREAK_STRATEGY_BALANCED"/>
+   </issue>
++  <issue id="DuplicateDefinition"><ignore regexp="chrome/android/java/res/values/brave_colors.xml"/></issue><issue id="StringFormatCount"><ignore regexp="sponsored_images_bottom_sheet_text"/><ignore regexp="notification_marketing"/><ignore regexp="renew_monthly_save"/><ignore regexp="wallet_swap_fees_notice"/></issue><issue id="WrongConstant"><ignore regexp="ContentSettingsType.BRAVE_CONTENT_SETTINGS_TYPES_LIST"/></issue>
+ </lint>

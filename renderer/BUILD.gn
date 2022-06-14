@@ -1,0 +1,25 @@
+import("//build/config/features.gni")
+
+source_set("renderer") {
+  visibility = [
+    "//brave:child_dependencies",
+    "//brave/renderer/*",
+    "//brave/test:*",
+    "//chrome/renderer/*",
+  ]
+
+  public_deps = [ "//chrome/renderer" ]
+
+  deps = [
+    "//brave/components/brave_ads/common",
+    "//brave/components/brave_ads/renderer",
+    "//brave/components/brave_search/common",
+    "//brave/components/brave_search/renderer",
+    "//brave/components/brave_shields/common",
+    "//brave/components/brave_wallet/renderer",
+    "//brave/components/cosmetic_filters/renderer",
+    "//brave/components/skus/renderer",
+    "//brave/renderer/brave_wallet/",
+    "//v8",
+  ]
+}

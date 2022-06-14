@@ -1,0 +1,12 @@
+diff --git a/chrome/browser/net/proxy_config_monitor.cc b/chrome/browser/net/proxy_config_monitor.cc
+index 88fad9811069e7851363c8068f9702a9019669cc..72e1e184f5e9ab923cc02e44cf99e002e9bf24d6 100644
+--- a/chrome/browser/net/proxy_config_monitor.cc
++++ b/chrome/browser/net/proxy_config_monitor.cc
+@@ -51,6 +51,7 @@ ProxyConfigMonitor::ProxyConfigMonitor(Profile* profile) {
+             profile->GetPrefs(), g_browser_process->local_state());
+   }
+ 
++  BRAVE_PROXY_CONFIG_MONITOR
+   proxy_config_service_ = ProxyServiceFactory::CreateProxyConfigService(
+       pref_proxy_config_tracker_.get(), profile);
+ 

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (c) 2019 The Brave Authors. All rights reserved.
+     This Source Code Form is subject to the terms of the Mozilla Public
+     License, v. 2.0. If a copy of the MPL was not distributed with this file,
+     You can obtain one at http://mozilla.org/MPL/2.0/.
+-->
+
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Onboarding dimens -->
+    <dimen name="onboarding_text_size">16sp</dimen>
+    <dimen name="onboarding_bottom_sheet_height">250dp</dimen>
+    <dimen name="onboarding_counter_layout_height">350dp</dimen>
+    <dimen name="onboarding_counter_height">250dp</dimen>
+
+    <!-- Verify wallet activity dimensions -->
+    <dimen name="verify_wallet_header1_font_size">14sp</dimen>
+    <dimen name="verify_wallet_header2_font_size">12sp</dimen>
+    <dimen name="verify_wallet_header3_font_size">10sp</dimen>
+    <dimen name="verify_wallet_header4_font_size">10sp</dimen>
+    <dimen name="verify_wallet_btn_size">26dp</dimen>
+    <dimen name="verify_wallet_margin1">10dp</dimen>
+    <dimen name="verify_wallet_margin2">7dp</dimen>
+    <dimen name="verify_wallet_margin3">4dp</dimen>
+
+
+    <dimen name="verify_wallet_header1_font_size_land">14sp</dimen>
+    <dimen name="verify_wallet_header2_font_size_land">12sp</dimen>
+    <dimen name="verify_wallet_header3_font_size_land">10sp</dimen>
+    <dimen name="verify_wallet_header4_font_size_land">10sp</dimen>
+    <dimen name="verify_wallet_btn_size_land">26dp</dimen>
+    <dimen name="verify_wallet_margin1_land">10dp</dimen>
+    <dimen name="verify_wallet_margin2_land">7dp</dimen>
+    <dimen name="verify_wallet_margin3_land">4dp</dimen>
+
+    <dimen name="onboarding_2_title_size">22sp</dimen>
+    <dimen name="onboarding_2_text_size">16sp</dimen>
+    <dimen name="onboarding_2_layout_height">200dp</dimen>
+    <dimen name="onboarding_2_animation_height">233dp</dimen>
+    <dimen name="onboarding_2_animation_width">318dp</dimen>
+
+    <!-- Bottom toolbar dimensions -->
+    <dimen name="bottom_toolbar_padding">12dp</dimen>
+    <dimen name="search_accelerator_width">64dp</dimen>
+    <dimen name="search_accelerator_height">36dp</dimen>
+    <dimen name="search_accelerator_height_padding">6dp</dimen>
+    <dimen name="search_accelerator_width_margin">4dp</dimen>
+
+    <dimen name="shields_tooltip_margin">-10dp</dimen>
+    <dimen name="shields_tooltip_padding">32dp</dimen>
+    <dimen name="shields_tooltip_arrow_width">30dp</dimen>
+    <dimen name="shields_tooltip_arrow_height">15dp</dimen>
+
+    <dimen name="zero_margin"> 0dp </dimen>
+</resources>

@@ -1,0 +1,12 @@
+diff --git a/chrome/browser/resources/settings/privacy_page/privacy_page.ts b/chrome/browser/resources/settings/privacy_page/privacy_page.ts
+index a849f644e2c7241067b2a774ad950e3ac4a19a91..a669dd94e03cc54401e66a55f07a525581648c97 100644
+--- a/chrome/browser/resources/settings/privacy_page/privacy_page.ts
++++ b/chrome/browser/resources/settings/privacy_page/privacy_page.ts
+@@ -20,6 +20,7 @@ import '../site_settings/site_data_details_subpage.js';
+ import '../settings_page/settings_animated_pages.js';
+ import '../settings_page/settings_subpage.js';
+ import '../settings_shared_css.js';
++import './personalization_options.js';
+ import './privacy_guide/privacy_guide_dialog.js';
+ 
+ import {IPHBubbleElement} from 'chrome://resources/cr_components/iph_bubble/iph_bubble.js';

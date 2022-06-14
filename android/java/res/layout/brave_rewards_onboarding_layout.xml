@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (c) 2020 The Brave Authors. All rights reserved.
+     This Source Code Form is subject to the terms of the Mozilla Public
+     License, v. 2.0. If a copy of the MPL was not distributed with this file,
+     You can obtain one at http://mozilla.org/MPL/2.0/. -->
+
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="320dp"
+    android:layout_height="wrap_content"
+    android:layout_margin="4dp"
+    android:gravity="center"
+    android:visibility="gone"
+    android:layout_gravity="center_horizontal"
+    app:cardBackgroundColor="@color/rewards_panel_card_bg_color"
+    app:cardElevation="10dp"
+    app:cardUseCompatPadding="true"
+    app:cardCornerRadius="12dp">
+
+    <FrameLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:padding="16dp">
+
+      <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="vertical"
+        android:fadeScrollbars="false">
+
+          <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <org.chromium.chrome.browser.custom_layout.HeightWrappingViewPager
+              android:id="@+id/brave_rewards_view_pager"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"/>
+
+              <com.google.android.material.tabs.TabLayout
+                android:id="@+id/brave_rewards_tab_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:tabBackground="@drawable/brave_rewards_onboarding_selector"
+                android:background="@android:color/transparent"
+                android:layout_gravity="bottom|center"
+                app:tabGravity="center"
+                app:tabIndicatorHeight="0dp"/>
+
+              <LinearLayout
+                android:id="@+id/onboarding_first_screen_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:visibility="gone"
+                android:orientation="vertical">
+
+                <android.widget.Button
+                    android:id="@+id/btn_start_quick_tour"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:background="@android:color/transparent"
+                    android:clickable="true"
+                    android:drawableEnd="@drawable/ic_chevron_right"
+                    android:drawablePadding="4dp"
+                    android:drawableTint="@color/rewards_panel_action_color"
+                    android:focusable="true"
+                    android:fontFamily="@font/poppins_regular"
+                    android:text="@string/lets_take_a_quick_tour"
+                    android:textColor="@color/rewards_panel_action_color" />
+
+                <android.widget.Button
+                    android:id="@+id/btn_skip"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:background="@android:color/transparent"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:text="@string/skip"
+                    android:fontFamily="@font/poppins_regular"
+                    android:textColor="@color/rewards_panel_secondary_text_color" />
+
+              </LinearLayout>
+
+              <LinearLayout
+                android:id="@+id/onboarding_action_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:visibility="gone"
+                android:orientation="horizontal">
+
+                <android.widget.Button
+                    android:id="@+id/btn_go_back"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start"
+                    android:background="@android:color/transparent"
+                    android:clickable="true"
+                    android:drawableStart="@drawable/ic_chevron_left"
+                    android:drawablePadding="4dp"
+                    android:drawableTint="@color/rewards_panel_secondary_text_color"
+                    android:focusable="true"
+                    android:fontFamily="@font/poppins_regular"
+                    android:text="@string/go_back"
+                    android:textColor="@color/rewards_panel_secondary_text_color" />
+
+                <View
+                  android:layout_width="0dp"
+                  android:layout_height="1dp"
+                  android:layout_weight="1"/>
+
+                <android.widget.Button
+                    android:id="@+id/btn_next"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="end"
+                    android:background="@android:color/transparent"
+                    android:clickable="true"
+                    android:drawableEnd="@drawable/ic_chevron_right"
+                    android:drawablePadding="4dp"
+                    android:drawableTint="@color/rewards_panel_action_color"
+                    android:focusable="true"
+                    android:fontFamily="@font/poppins_regular"
+                    android:text="@string/next"
+                    android:textColor="@color/rewards_panel_action_color" />
+
+              </LinearLayout>
+
+            </LinearLayout>
+
+      </androidx.core.widget.NestedScrollView>
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/brave_rewards_onboarding_layout_modal_close"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:contentDescription="@null"
+                android:layout_gravity="end|top"
+                android:src="@drawable/btn_close"/>
+
+    </FrameLayout>
+
+</androidx.cardview.widget.CardView>

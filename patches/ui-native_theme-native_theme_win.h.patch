@@ -1,0 +1,12 @@
+diff --git a/ui/native_theme/native_theme_win.h b/ui/native_theme/native_theme_win.h
+index dc95e970a5ee1cf4aea458f0fc06a805f53dc903..f9f8dcc4b258cb0829e41fc35a2447f01657e8e4 100644
+--- a/ui/native_theme/native_theme_win.h
++++ b/ui/native_theme/native_theme_win.h
+@@ -76,6 +76,7 @@ class NATIVE_THEME_EXPORT NativeThemeWin : public NativeTheme,
+   PreferredContrast CalculatePreferredContrast() const override;
+   ColorScheme GetDefaultSystemColorScheme() const override;
+ 
++  BRAVE_UI_NATIVE_THEME_NATIVE_THEME_WIN_H_
+  protected:
+   friend class NativeTheme;
+   friend class base::NoDestructor<NativeThemeWin>;

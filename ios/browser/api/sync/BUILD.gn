@@ -1,0 +1,47 @@
+# Copyright (c) 2020 The Brave Authors. All rights reserved.
+# This Source Code Form is subject to the terms of the Mozilla Public
+# License, v. 2.0. If a copy of the MPL was not distributed with this file,
+# You can obtain one at http://mozilla.org/MPL/2.0/.
+
+import("//build/config/ios/rules.gni")
+import("//ios/build/config.gni")
+
+source_set("sync") {
+  configs += [ "//build/config/compiler:enable_arc" ]
+
+  sources = [
+    "brave_sync_api.h",
+    "brave_sync_api.mm",
+    "brave_sync_internals.h",
+    "brave_sync_internals.mm",
+    "brave_sync_worker.cc",
+    "brave_sync_worker.h",
+  ]
+
+  deps = [
+    "driver",
+    "//base",
+    "//brave/components/brave_sync",
+    "//brave/components/brave_sync:crypto",
+    "//brave/components/brave_sync:prefs",
+    "//brave/components/brave_sync:sync_service_impl_helper",
+    "//components/sync/driver",
+    "//components/sync_device_info",
+    "//ios/chrome/browser",
+    "//ios/chrome/browser/browser_state",
+    "//ios/chrome/browser/sync",
+    "//ios/components/webui:url_constants",
+    "//ios/web/js_messaging:js_messaging",
+    "//ios/web/public/thread",
+    "//ios/web/public/webui",
+    "//ios/web/web_state",
+    "//ios/web/webui",
+    "//ui/base",
+  ]
+
+  frameworks = [
+    "Foundation.framework",
+    "UIKit.framework",
+    "WebKit.framework",
+  ]
+}

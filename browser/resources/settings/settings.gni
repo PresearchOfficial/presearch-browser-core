@@ -1,0 +1,18 @@
+import("//chrome/browser/resources/settings/settings.gni")
+
+settings_namespace_rewrites = [
+  "settings.BraveAppearanceBrowserProxyImpl|BraveAppearanceBrowserProxyImpl",
+  "settings.BraveIPFSBrowserProxyImpl|BraveIPFSBrowserProxyImpl",
+  "settings.BraveWalletBrowserProxyImpl|BraveWalletBrowserProxyImpl",
+  "settings.BraveDefaultExtensionsBrowserProxyImpl|BraveDefaultExtensionsBrowserProxyImpl",
+  "settings.BraveNewTabBrowserProxyImpl|BraveNewTabBrowserProxyImpl",
+  "settings.BravePrivacyBrowserProxyImpl|BravePrivacyBrowserProxyImpl",
+  "settings.BraveRewardsBrowserProxyImpl|BraveRewardsBrowserProxyImpl",
+  "settings.BraveSyncBrowserProxy|BraveSyncBrowserProxy",
+  "settings.DefaultBraveShieldsBrowserProxyImpl|DefaultBraveShieldsBrowserProxyImpl",
+  "settings.SocialBlockingPageProxyImpl|SocialBlockingPageProxyImpl",
+  "settings.Router|Router",
+]
+
+settings_auto_imports =
+    [ "chrome/browser/resources/settings/router.html|Router,Route" ]

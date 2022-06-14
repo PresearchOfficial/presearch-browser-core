@@ -1,0 +1,12 @@
+diff --git a/chrome/browser/ui/views/profiles/avatar_toolbar_button.h b/chrome/browser/ui/views/profiles/avatar_toolbar_button.h
+index a8dfa6fefb752b122e57c964321b8a7b5a4f83bc..41a813b11a275eed15884f8d2df5cce28a0300d7 100644
+--- a/chrome/browser/ui/views/profiles/avatar_toolbar_button.h
++++ b/chrome/browser/ui/views/profiles/avatar_toolbar_button.h
+@@ -78,6 +78,7 @@ class AvatarToolbarButton : public ToolbarButton,
+   static void SetIPHMinDelayAfterCreationForTesting(base::TimeDelta delay);
+ 
+  private:
++  BRAVE_AVATAR_BUTTON_H
+   FRIEND_TEST_ALL_PREFIXES(AvatarToolbarButtonTest,
+                            HighlightMeetsMinimumContrast);
+ 

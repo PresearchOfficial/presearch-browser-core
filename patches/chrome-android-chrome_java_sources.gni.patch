@@ -1,0 +1,10 @@
+diff --git a/chrome/android/chrome_java_sources.gni b/chrome/android/chrome_java_sources.gni
+index d9c173d124155b84030a6b87fdd24c8fde6cdffb..063d6f4d92c215efa5b1f60b139c4e6bbaafbcfc 100644
+--- a/chrome/android/chrome_java_sources.gni
++++ b/chrome/android/chrome_java_sources.gni
+@@ -1240,3 +1240,4 @@ chrome_java_sources = [
+   "java/src/org/chromium/chrome/browser/webauth/authenticator/CableAuthenticatorUSBActivity.java",
+   "java/src/org/chromium/chrome/browser/webshare/ShareServiceImplementationFactory.java",
+ ]
++chrome_java_sources -= ["java/src/org/chromium/chrome/browser/ntp/IncognitoNewTabPageView.java",]
+\ No newline at end of file

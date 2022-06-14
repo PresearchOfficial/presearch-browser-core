@@ -1,0 +1,29 @@
+import("//build/buildflag_header.gni")
+import("//build/config/features.gni")
+
+declare_args() {
+  webcompat_report_api_endpoint = "https://webcompat.brave.com/1/webcompat"
+}
+
+buildflag_header("buildflags") {
+  header = "buildflags.h"
+  flags = [ "WEBCOMPAT_REPORT_ENDPOINT=\"$webcompat_report_api_endpoint\"" ]
+}
+
+static_library("browser") {
+  sources = [
+    "webcompat_report_uploader.cc",
+    "webcompat_report_uploader.h",
+  ]
+
+  deps = [
+    ":buildflags",
+    "//base",
+    "//brave/common",
+    "//brave/components/brave_referrals/browser",
+    "//brave/components/brave_stats/browser",
+    "//content/public/browser",
+    "//net",
+    "//services/network/public/cpp",
+  ]
+}

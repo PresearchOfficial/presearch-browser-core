@@ -1,0 +1,33 @@
+import("//build/buildflag_header.gni")
+import("//build/config/android/rules.gni")
+
+declare_args() {
+  brave_safetynet_api_key = ""
+}
+
+buildflag_header("buildflags") {
+  header = "buildflags.h"
+  flags = [ "SAFETYNET_API_KEY=\"$brave_safetynet_api_key\"" ]
+}
+
+group("android") {
+  public_deps = [ ":safetynet" ]
+}
+
+source_set("safetynet") {
+  sources = [
+    "safetynet_check.cc",
+    "safetynet_check.h",
+  ]
+
+  deps = [
+    ":buildflags",
+    ":jni_headers",
+    "//base",
+    "//net",
+  ]
+}
+
+generate_jni("jni_headers") {
+  sources = [ "java/org/chromium/chrome/browser/util/SafetyNetCheck.java" ]
+}

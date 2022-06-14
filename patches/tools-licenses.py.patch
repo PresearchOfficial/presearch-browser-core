@@ -1,0 +1,40 @@
+diff --git a/tools/licenses.py b/tools/licenses.py
+index b083d3509433aa97aa85c59a4269def5ef5a5359..018830f339721d590b9b7cc3bd71312d3ace59d8 100755
+--- a/tools/licenses.py
++++ b/tools/licenses.py
+@@ -35,6 +35,7 @@ else:
+ _REPOSITORY_ROOT = os.path.abspath(os.path.dirname(os.path.dirname(__file__)))
+ sys.path.insert(0, os.path.join(_REPOSITORY_ROOT, 'build/android/gyp'))
+ from util import build_utils
++from brave_license_helper import AddBraveCredits, BRAVE_THIRD_PARTY_DIRS, CheckBraveMissingLicense
+ 
+ 
+ # Paths from the root of the tree to directories to skip.
+@@ -341,6 +342,7 @@ SPECIAL_CASES = {
+         "/third_party/swiftshader/third_party/SPIRV-Tools/LICENSE",
+     },
+ }
++(PRUNE_DIRS, ADDITIONAL_PATHS) = AddBraveCredits(PRUNE_PATHS, SPECIAL_CASES, PRUNE_DIRS, ADDITIONAL_PATHS)
+ 
+ # Special value for 'License File' field used to indicate that the license file
+ # should not be used in about:credits.
+@@ -534,7 +536,8 @@ def FindThirdPartyDirs(prune_paths, root, extra_third_party_dirs=None):
+       if skip in dirs:
+         dirs.remove(skip)
+ 
+-    if os.path.basename(path) == 'third_party':
++    if (os.path.basename(path) == 'third_party' or
++        os.path.basename(path) in BRAVE_THIRD_PARTY_DIRS):
+       # Add all subdirectories that are not marked for skipping.
+       for dir in dirs:
+         dirpath = os.path.join(path, dir)
+@@ -738,7 +741,8 @@ def GenerateCredits(file_template_file,
+   for path in third_party_dirs:
+     try:
+       metadata = ParseDir(path, _REPOSITORY_ROOT)
+-    except LicenseError:
++    except LicenseError as e:
++      CheckBraveMissingLicense(target_os, path, e)
+       # TODO(phajdan.jr): Convert to fatal error (http://crbug.com/39240).
+       continue
+     if metadata['License File'] == NOT_SHIPPED:

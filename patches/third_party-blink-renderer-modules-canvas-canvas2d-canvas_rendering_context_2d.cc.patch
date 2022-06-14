@@ -1,0 +1,12 @@
+diff --git a/third_party/blink/renderer/modules/canvas/canvas2d/canvas_rendering_context_2d.cc b/third_party/blink/renderer/modules/canvas/canvas2d/canvas_rendering_context_2d.cc
+index 59416d0a53c08cb7be7412086c7f3249873294d6..c591002f680d7d2f70fff001778d3540564c372c 100644
+--- a/third_party/blink/renderer/modules/canvas/canvas2d/canvas_rendering_context_2d.cc
++++ b/third_party/blink/renderer/modules/canvas/canvas2d/canvas_rendering_context_2d.cc
+@@ -910,6 +910,7 @@ TextMetrics* CanvasRenderingContext2D::measureText(const String& text) {
+   if (!canvas()->GetDocument().GetFrame())
+     return MakeGarbageCollected<TextMetrics>();
+ 
++  BRAVE_CANVAS_RENDERING_CONTEXT_2D_MEASURE_TEXT
+   canvas()->GetDocument().UpdateStyleAndLayoutTreeForNode(canvas());
+ 
+   const Font& font = AccessFont();

@@ -1,0 +1,12 @@
+diff --git a/services/network/public/cpp/cors/cors.cc b/services/network/public/cpp/cors/cors.cc
+index 9b1aa044977dc1759ccbc9627d2a1d21c735e9a2..279fa99eb92da4d1b3f73e2c5bad1f6e10d47aa5 100644
+--- a/services/network/public/cpp/cors/cors.cc
++++ b/services/network/public/cpp/cors/cors.cc
+@@ -344,6 +344,7 @@ bool IsCorsSafelistedHeader(const std::string& name, const std::string& value) {
+       // was introduced to enable safely experimenting with sending a reduced
+       // user agent string in the `User-Agent` header.
+       "sec-ch-ua-reduced",
++      "x-brave-partner", // Prevent Allow-Cross-Origin-Request-Header failures
+ 
+       // The `Sec-CH-Prefers-Color-Scheme` header field is modeled after the
+       // prefers-color-scheme user preference media feature. It reflects the

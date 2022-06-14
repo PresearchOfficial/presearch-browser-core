@@ -1,0 +1,12 @@
+diff --git a/chrome/browser/ui/views/overlay/overlay_window_views.cc b/chrome/browser/ui/views/overlay/overlay_window_views.cc
+index 850b34e3b40f7ff1848c66158976db079e0853bd..347dfd9ab4fd933fd27d55ffd9371b30d2fbb148 100644
+--- a/chrome/browser/ui/views/overlay/overlay_window_views.cc
++++ b/chrome/browser/ui/views/overlay/overlay_window_views.cc
+@@ -539,6 +539,7 @@ void OverlayWindowViews::UpdateMaxSize(const gfx::Rect& work_area) {
+ 
+   max_size_ = new_max_size;
+ 
++  BRAVE_UPDATE_MAX_SIZE
+   if (!native_widget())
+     return;
+ 

@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (c) 2019 The Brave Authors. All rights reserved.
+     This Source Code Form is subject to the terms of the Mozilla Public
+     License, v. 2.0. If a copy of the MPL was not distributed with this file,
+     You can obtain one at http://mozilla.org/MPL/2.0/.
+-->
+
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Theme colors -->
+    <color name="brave_white">@android:color/white</color>
+
+    <!-- Overriding chromium theme colors to brave theme colors -->
+    <color name="baseline_primary_100">#F9C3B6</color>
+    <color name="baseline_primary_200">#FF7654</color>
+    <color name="baseline_primary_600">#EA3A0D</color>
+    <color name="baseline_primary_800">@color/modern_blue_600</color>
+    <color name="baseline_primary_900">@color/modern_blue_700</color>
+    <color name="black_alpha_30">#4D000000</color>
+    <color name="black_alpha_50">#80000000</color>
+    <color name="modern_blue_300">#FF7654</color>
+    <color name="modern_blue_600">#EA3A0D</color>
+    <color name="modern_blue_700">#C22700</color>
+    <color name="dialog_bg_color_dark_baseline">@color/toolbar_background_primary_dark</color>
+
+    <!-- Day/Night colors -->
+    <color name="brave_wallet_day_night_text_color">@android:color/black</color>
+    <color name="brave_wallet_day_night_icon_color">@android:color/black</color>
+
+    <!-- Text colors -->
+    <color name="brave_theme_hint_text">#868E96</color>
+
+    <!-- Onborading colors -->
+    <color name="onboarding_orange">#fb542b</color>
+    <color name="onboarding_gray">#84889c</color>
+    <color name="onboarding_black">#1e2029</color>
+    <color name="onboarding_radio_button_active">#f0f1ff</color>
+
+    <color name="onboarding_timer_color">#4f30ab</color>
+
+    <color name="onboarding_text_color">@color/onboarding_black</color>
+    <color name="onboarding_bg_color">@android:color/white</color>
+
+    <color name="onboarding_progressbar_secondary_bg">#ced4da</color>
+    <color name="onboarding_progress_start_color">#FA7250</color>
+    <color name="onboarding_progress_mid_color">#FF1893</color>
+    <color name="onboarding_progress_end_color">#4F30AB</color>
+    <color name="onboarding_indicator_selected_color">#FF7654</color>
+    <color name="onboarding_indicator_default_color">#C2C4CF</color>
+
+    <!-- Set Default Browser colors -->
+    <color name="set_default_bottom_sheet_bg_color">@android:color/white</color>
+    <color name="set_default_text_color">#212529</color>
+    <color name="set_default_bottom_sheet_button_disable_color">#DADCE8</color>
+
+    <!-- Sync colors -->
+    <color name="brave_sync_bg_color">@android:color/transparent</color>
+    <color name="brave_sync_border_color">@color/modern_grey_50</color>
+    <color name="brave_sync_bg_secondary_color">@android:color/white</color>
+
+    <color name="brave_set_default_dialog_text_color">@color/modern_grey_700</color>
+
+    <!-- Theme colors -->
+    <color name="brave_theme_color">#fb542b</color>
+    <color name="brave_tab_view_card_selected_bg">@color/baseline_primary_200</color>
+    <color name="brave_wallet_button_pressed">#737ADE</color>
+
+    <!-- Brave news colors -->
+    <!-- <color name="card_background">#DC353535</color> -->
+    <color name="card_background">#F23B3E4F</color>
+    <color name="card_background_solid">#353535</color>
+    <color name="blurple">#5455cd</color>
+    <color name="news_text_color">@android:color/white</color>
+    <color name="news_time_color">#9CD2D5CF</color>
+    <color name="news_promoted_background_color">#495057</color>
+
+
+    <!-- Incognito mode colors -->
+    <color name="ntp_bg_incognito">@color/incognito_modern_primary_color</color>
+
+    <!-- Incognito background and branding colors -->
+    <color name="incognito_modern_primary_color">#210950</color>
+
+    <color name="toolbar_text_box_background_incognito">#3D2742</color>
+
+    <color name="compositor_tab_title_bar_text_incognito">@android:color/white</color>
+
+    <!-- Incognito NTP Colors. -->
+    <color name="incognito_emphasis">@android:color/white</color>
+
+    <color name="find_in_page_query_incognito_hint_color">@color/white_alpha_70</color>
+
+    <color name="new_tab_menu_text_dark_color">@android:color/white</color>
+    <color name="new_tab_menu_bg_dark_color">@color/modern_grey_800</color>
+    <color name="ntp_non_disruptive_banner_bg_color">#E6343a40</color>
+    <color name="translucent_activity_background_color">#AA3B3B3B</color>
+    <color name="user_wallet_background">#F1F3F5</color>
+    <color name="user_wallet_status">#49CC69</color>
+
+    <!-- User wallet -->
+    <color name="user_wallet_dimmed_note">#E6E3F4</color>
+
+    <color name="qr_button_color">@android:color/white</color>
+    <color name="section_divider_color">#c8c7cc</color>
+    <color name="shield_title_color">@android:color/black</color>
+    <color name="shield_text_color">#212529</color>
+
+    <color name="shield_bg_color">#FFFFFF</color>
+    <color name="shield_back_button_tint">@color/brave_theme_color</color>
+
+    <color name="shield_toggle_button_tint">#5E6175</color>
+    <color name="shield_toggle_bg_color">#F8F9FA</color>
+
+    <color name="shield_secondary_color">#868E96</color>
+    <color name="shield_divider_color">#c8c7cc</color>
+    <color name="shield_option_text_color">#777777</color>
+    <color name="shield_rounded_button_color">#C2C4CF</color>
+    <color name="shield_thank_you_icon_color">#212529</color>
+
+    <color name="brave_stats_ads_color">#FF7654</color>
+    <color name="brave_stats_data_saved_color">#737ADE</color>
+    <color name="brave_state_time_count_color">#FFFFFF</color>
+
+    <color name="brave_stats_title_color">#868E96</color>
+    <color name="brave_stats_text_color">#212529</color>
+    <color name="brave_stats_text_light_color">#212529</color>
+    <color name="brave_stats_text_dark_color">#F0F2FF</color>
+    <!-- <color name="ntp_stats_bg_color">#212529</color> -->
+    <!-- <color name="ntp_stats_text_color">#C2C4CF</color> -->
+
+    <color name="brave_stats_bg_color">#FFFFFF</color>
+    <!-- <color name="brave_bg_transparent">#0000003D</color> -->
+    <color name="brave_stats_bg_color_20_alpha">#33212529</color>
+    <color name="brave_stats_close_button_color">#495057</color>
+    <color name="brave_stats_radio_group_bg">#E9E9F4</color>
+    <color name="brave_stats_empty_text_color">#339AF0</color>
+    <color name="brave_stats_empty_bg_color">#335DB5FC</color>
+    <color name="brave_stats_empty_border_color">#5DB5FC</color>
+    <color name="brave_stats_radio_button_active">@android:color/white</color>
+    <color name="brave_stats_share_data_save_no">#A1A5E6</color>
+    <color name="brave_stats_share_info">@android:color/white</color>
+    <color name="brave_stats_share_time_saved_no">@android:color/white</color>
+    <color name="brave_stats_share_trackers_ads_no">@color/onboarding_indicator_selected_color</color>
+
+    <color name="topsite_bg_color">#DADCE8</color>
+    <color name="spinner_bg_color">#DADCE8</color>
+
+    <color name="binance_theme_color">#F0B90B</color>
+    <color name="binance_theme_color_alpha_50">#80F0B90B</color>
+    <color name="binance_text_color">#F8F9FA</color>
+    <color name="binance_bottom_sheet_bg_color">#1F1F1F</color>
+    <color name="white_alpha_50">#80FFFFFF</color>
+    <color name="binance_divider_color">#C0C0C0</color>
+
+    <color name="brave_rewards_modal_text_color">#495057</color>
+    <color name="brave_rewards_modal_theme_color">#4C54D2</color>
+    <color name="brave_rewards_modal_close_button_color">#5E5F6C</color>
+    <color name="brave_rewards_tos_color">#868E96</color>
+    <color name="brave_rewards_opt_in_bg_color">#E7E9FE</color>
+    <color name="brave_rewards_opt_in_text_color">#474958</color>
+    <color name="brave_blue_tint_color">#4C54D2</color>
+
+    <color name="shields_tooltip_arrow_color_1">#DD295B</color>
+    <color name="shields_tooltip_arrow_color_2">#2673DD</color>
+
+    <color name="wallet_text_color">#212529</color>
+    <color name="wallet_secondary_text_color">#686978</color>
+    <color name="wallet_secondary_layout_text_color">#495057</color>
+    <color name="recovery_phrase_text_color">#F8F9FA</color>
+    <color name="wallet_toolbar_bg_color">#F8F9FA</color>
+    <color name="tab_color">#FF4081</color>
+    <color name="wallet_bg">#FFFFFF</color>
+    <color name="wallet_edittext_outline_color">#AEB1C2</color>
+    <color name="wallet_warning_box_bg_color">#FFFFFF</color>
+    <color name="recovery_phrase_warning_text_color">#868E96</color>
+    <color name="brave_action_color">#4C54D2</color>
+    <color name="wallet_positive_trend_color">#51CF66</color>
+    <color name="wallet_negative_trend_color">#CF5159</color>
+    <color name="wallet_asset_graph_color">#12A378</color>
+    <color name="wallet_top_banner_color">#33E32444</color>
+    <color name="wallet_error_text_color">#FF4B6A</color>
+
+    <color name="vpn_callout_bg_color">#381E85</color>
+    <color name="brave_plan_bg">#27155E</color>
+
+    <color name="rewards_settings_button_color">#4C54D2</color>
+
+
+    <color name="rewards_panel_bg_color">#FAFCFF</color>
+    <color name="rewards_panel_text_color">#212529</color>
+    <color name="rewards_panel_secondary_text_color">#868E96</color>
+    <color name="rewards_panel_card_bg_color">#FFFFFF</color>
+    <color name="rewards_panel_action_color">#4C54D2</color>
+    <color name="rewards_panel_verified_button_border">#E9E9F4</color>
+    <color name="rewards_panel_summary_title_bg">#66FFFFFF</color>
+    <color name="rewards_panel_summary_bg">#FFFFFF</color>
+    <color name="rewards_panel_summary_divider_color">#E9E9F4</color>
+
+    <color name="rewards_panel_foreground_color">#80000000</color>
+    <color name="rewards_divider_color">#E9E9F4</color>
+
+    <!--  Brave Wallet DApp  -->
+    <color name="brave_wallet_dapp_text_color">#171919</color>
+</resources>

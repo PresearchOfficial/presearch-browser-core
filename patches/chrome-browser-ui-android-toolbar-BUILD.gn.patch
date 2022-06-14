@@ -1,0 +1,12 @@
+diff --git a/chrome/browser/ui/android/toolbar/BUILD.gn b/chrome/browser/ui/android/toolbar/BUILD.gn
+index d9fe7ba2585193d52106a7c501b2ab9b1a104b07..d61b9cb5235c6c5241c6ea200e6e56b5964d8e2a 100644
+--- a/chrome/browser/ui/android/toolbar/BUILD.gn
++++ b/chrome/browser/ui/android/toolbar/BUILD.gn
+@@ -97,6 +97,7 @@ android_library("java") {
+     "java/src/org/chromium/chrome/browser/toolbar/top/TopToolbarSceneLayer.java",
+     "java/src/org/chromium/chrome/browser/toolbar/top/ViewShiftingActionBarDelegate.java",
+   ]
++  sources += brave_browser_ui_android_toolbar_sources
+ 
+   deps = [
+     ":java_resources",

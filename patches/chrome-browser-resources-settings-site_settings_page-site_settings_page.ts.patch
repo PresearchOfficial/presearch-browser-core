@@ -1,0 +1,12 @@
+diff --git a/chrome/browser/resources/settings/site_settings_page/site_settings_page.ts b/chrome/browser/resources/settings/site_settings_page/site_settings_page.ts
+index 5edd5c2c941dbe50be15f20a0bbcad0e75de249f..73f5c38430fa5afacc92bb1eddc97dde70fe25a7 100644
+--- a/chrome/browser/resources/settings/site_settings_page/site_settings_page.ts
++++ b/chrome/browser/resources/settings/site_settings_page/site_settings_page.ts
+@@ -8,6 +8,7 @@
+  * security site settings.
+  */
+ 
++import '../brave_overrides/config.js'
+ import 'chrome://resources/cr_elements/cr_expand_button/cr_expand_button.m.js';
+ import 'chrome://resources/cr_elements/cr_link_row/cr_link_row.js';
+ import 'chrome://resources/cr_elements/shared_style_css.m.js';

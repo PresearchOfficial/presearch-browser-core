@@ -1,0 +1,12 @@
+diff --git a/chrome/installer/linux/debian/changelog.template b/chrome/installer/linux/debian/changelog.template
+index 17d097b4506739cd917d49a5ec2132e5ccdc9859..38fff15cea1c5cb9da9c28f76445e36a52fa88ff 100644
+--- a/chrome/installer/linux/debian/changelog.template
++++ b/chrome/installer/linux/debian/changelog.template
+@@ -1,5 +1,5 @@
+-@@PACKAGE@@-@@CHANNEL@@ (@@VERSIONFULL@@) @@CHANNEL@@; urgency=low
++@@PACKAGEANDCHANNEL@@ (@@VERSIONFULL@@) @@CHANNEL@@; urgency=low
+ 
+-  * Build spec: https://chromium.googlesource.com/chromium/src.git/+/@@VERSION@@/
++  * Build spec: https://github.com/brave/brave-browser/releases/tag/v@@VERSION@@
+ 
+  -- @@MAINTNAME@@ <@@MAINTMAIL@@>  @@DATE_RFC5322@@

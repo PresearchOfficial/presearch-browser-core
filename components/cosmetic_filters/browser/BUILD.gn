@@ -1,0 +1,15 @@
+import("//build/config/features.gni")
+
+static_library("browser") {
+  sources = [
+    "cosmetic_filters_resources.cc",
+    "cosmetic_filters_resources.h",
+  ]
+
+  deps = [
+    "//base",
+    "//brave/components/brave_shields/browser",
+    "//brave/components/cosmetic_filters/common:mojom",
+    "//components/content_settings/core/browser",
+  ]
+}

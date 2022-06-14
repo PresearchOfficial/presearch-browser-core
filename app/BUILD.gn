@@ -1,0 +1,33 @@
+import("//brave/components/brave_vpn/buildflags/buildflags.gni")
+import("//brave/components/sidebar/buildflags/buildflags.gni")
+import("//brave/components/speedreader/buildflags.gni")
+import("//brave/resources/brave_grit.gni")
+import("//build/config/features.gni")
+import("//build/config/locales.gni")
+
+source_set("command_ids") {
+  sources = [ "brave_command_ids.h" ]
+}
+
+brave_grit("brave_generated_resources_grit") {
+  defines = [
+    "enable_sidebar=$enable_sidebar",
+    "enable_speedreader=$enable_speedreader",
+    "enable_brave_vpn=$enable_brave_vpn",
+  ]
+  source = "brave_generated_resources.grd"
+  output_dir = "$root_gen_dir/brave"
+  outputs = [
+    "grit/brave_generated_resources.h",
+
+    # This is needed for the includes and not the localized messages
+    "brave_generated_resources.pak",
+  ]
+
+  foreach(locale, all_chrome_locales) {
+    outputs += [ "brave_generated_resources_$locale.pak" ]
+  }
+}
+
+group("app") {
+}

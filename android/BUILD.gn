@@ -1,0 +1,21 @@
+import("//brave/components/p3a/buildflags.gni")
+import("//build/config/android/rules.gni")
+
+declare_args() {
+  brave_android_developer_options_code = ""
+}
+
+java_cpp_enum("brave_android_java_enums_srcjar") {
+  sources = [
+    "//brave/chromium_src/chrome/browser/notifications/notification_handler.h",
+    "//brave/components/decentralized_dns/constants.h",
+  ]
+}
+
+java_cpp_template("brave_config_java") {
+  sources = [ "//brave/build/android/java/templates/BraveConfig.template" ]
+  defines = [
+    "BRAVE_ANDROID_DEVELOPER_OPTIONS_CODE=\"$brave_android_developer_options_code\"",
+    "BRAVE_ANDROID_P3A_ENABLED=$brave_p3a_enabled",
+  ]
+}

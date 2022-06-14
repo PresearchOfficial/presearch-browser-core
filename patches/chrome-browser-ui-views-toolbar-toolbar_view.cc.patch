@@ -1,0 +1,20 @@
+diff --git a/chrome/browser/ui/views/toolbar/toolbar_view.cc b/chrome/browser/ui/views/toolbar/toolbar_view.cc
+index 1ab19d8ef449316a4be072d3ed8f88a42a4e8eb6..eea63acd4417a93c084581f4a918a333e81c24fb 100644
+--- a/chrome/browser/ui/views/toolbar/toolbar_view.cc
++++ b/chrome/browser/ui/views/toolbar/toolbar_view.cc
+@@ -302,6 +302,7 @@ void ToolbarView::Init() {
+   }
+ 
+   std::unique_ptr<SidePanelToolbarButton> side_panel_button;
++  BRAVE_TOOLBAR_VIEW_DEACTIVATE_SIDE_PANEL
+   if (browser_view_->right_aligned_side_panel()) {
+     side_panel_button = std::make_unique<SidePanelToolbarButton>(browser_);
+   }
+@@ -370,6 +371,7 @@ void ToolbarView::Init() {
+   } else {
+     // TODO(crbug.com/932818): Remove this once the
+     // |kAutofillEnableToolbarStatusChip| is fully launched.
++    BRAVE_TOOLBAR_VIEW_INIT
+     avatar_ =
+         AddChildView(std::make_unique<AvatarToolbarButton>(browser_view_));
+     avatar_->SetVisible(show_avatar_toolbar_button);

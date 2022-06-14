@@ -1,0 +1,150 @@
+import("//brave/browser/ethereum_remote_client/buildflags/buildflags.gni")
+import("//brave/components/brave_vpn/buildflags/buildflags.gni")
+import("//brave/components/crypto_dot_com/browser/buildflags/buildflags.gni")
+import("//brave/components/decentralized_dns/buildflags/buildflags.gni")
+import("//brave/components/ftx/browser/buildflags/buildflags.gni")
+import("//brave/components/ipfs/buildflags/buildflags.gni")
+import("//brave/components/sidebar/buildflags/buildflags.gni")
+import("//brave/components/speedreader/buildflags.gni")
+import("//brave/components/tor/buildflags/buildflags.gni")
+import("//brave/resources/brave_grit.gni")
+import("//build/config/locales.gni")
+import("//extensions/buildflags/buildflags.gni")
+import("//tools/grit/repack.gni")
+
+brave_grit("static_resources") {
+  source = "brave_components_resources.grd"
+
+  output_name = "brave_components_resources_new"
+
+  outputs = [
+    "grit/brave_components_resources.h",
+    "brave_components_static.pak",
+  ]
+  deps = [
+    ":strings",
+    "//brave/components/brave_rewards/resources",
+  ]
+
+  if (enable_extensions) {
+    deps += [
+      "//brave/components/brave_extension/extension/brave_extension",
+      "//brave/components/brave_rewards/resources/extension:resources",
+    ]
+  }
+
+  if (enable_tor) {
+    deps += [ "//brave/components/tor/resources" ]
+  }
+
+  defines = [
+    "enable_speedreader=$enable_speedreader",
+    "enable_ipfs=$enable_ipfs",
+    "crypto_dot_com_enabled=$crypto_dot_com_enabled",
+    "decentralized_dns_enabled=$decentralized_dns_enabled",
+    "enable_ftx=$enable_ftx",
+    "enable_brave_vpn=$enable_brave_vpn",
+  ]
+
+  output_dir = "$root_gen_dir/components"
+}
+
+repack("resources") {
+  deps = [ ":static_resources" ]
+  sources = [ "$root_gen_dir/components/brave_components_static.pak" ]
+
+  if (!is_ios) {
+    deps += [
+      "//brave/components/brave_adblock_ui:generated_resources",
+      "//brave/components/cosmetic_filters/resources/data:generated_resources",
+    ]
+
+    sources += [
+      "$root_gen_dir/brave/components/brave_adblock/resources/brave_adblock_generated.pak",
+      "$root_gen_dir/brave/components/cosmetic_filters/resources/cosmetic_filters_generated.pak",
+    ]
+  }
+
+  if (!is_android && !is_ios) {
+    deps += [
+      "//brave/components/brave_new_tab_ui:generated_resources",
+      "//brave/components/brave_shields/resources/panel:brave_shields_panel_generated",
+      "//brave/components/brave_welcome_ui:generated_resources",
+      "//brave/components/webcompat_reporter/ui:generated_resources",
+    ]
+
+    sources += [
+      "$root_gen_dir/brave/components/brave_new_tab/resources/brave_new_tab_generated.pak",
+      "$root_gen_dir/brave/components/brave_shields/resources/panel/brave_shields_panel_generated.pak",
+      "$root_gen_dir/brave/components/brave_welcome/resources/brave_welcome_generated.pak",
+      "$root_gen_dir/brave/components/webcompat_reporter/resources/webcompat_reporter_generated.pak",
+    ]
+  }
+
+  if (enable_ipfs) {
+    deps += [ "//brave/components/ipfs_ui:generated_resources" ]
+    sources += [
+      "$root_gen_dir/brave/components/ipfs_ui/resources/ipfs_generated.pak",
+    ]
+  }
+
+  if (!is_android && !is_ios) {
+    deps += [ "//brave/components/brave_wallet_ui:resources" ]
+    sources += [
+      "$root_gen_dir/brave/components/brave_wallet/resources/brave_wallet.pak",
+    ]
+  }
+
+  deps += [ "//brave/components/brave_wallet/resources:ethereum_provider_generated_resources" ]
+  sources += [ "$root_gen_dir/brave/components/brave_wallet/resources/brave_wallet_script_generated.pak" ]
+
+  if (enable_brave_vpn && !is_android) {
+    deps += [
+      "//brave/components/brave_vpn/resources/panel:brave_vpn_panel_generated",
+    ]
+    sources += [ "$root_gen_dir/brave/components/brave_vpn/resources/panel/brave_vpn_panel_generated.pak" ]
+  }
+
+  if (ethereum_remote_client_enabled) {
+    if (!is_android && !is_ios) {
+      sources += [ "$root_gen_dir/brave/components/ethereum_remote_client_page/resources/ethereum_remote_client_page_generated.pak" ]
+      deps += [ "//brave/browser/ui/webui/ethereum_remote_client:ethereum_remote_client_page_generated" ]
+    }
+  }
+
+  output = "$root_gen_dir/components/brave_components_resources.pak"
+}
+
+brave_grit("strings") {
+  source = "brave_components_strings.grd"
+
+  outputs = [ "grit/brave_components_strings.h" ]
+
+  defines = [
+    "enable_speedreader=$enable_speedreader",
+    "enable_ipfs=$enable_ipfs",
+    "ethereum_remote_client_enabled=$ethereum_remote_client_enabled",
+    "decentralized_dns_enabled=$decentralized_dns_enabled",
+    "crypto_dot_com_enabled=$crypto_dot_com_enabled",
+    "enable_tor=$enable_tor",
+    "enable_sidebar=$enable_sidebar",
+    "enable_ftx=$enable_ftx",
+    "enable_brave_vpn=$enable_brave_vpn",
+  ]
+
+  foreach(locale, all_chrome_locales) {
+    outputs += [ "brave_components_strings_$locale.pak" ]
+  }
+
+  output_dir = "$root_gen_dir/components"
+}
+
+action("about_credits") {
+  script = "//brave/script/check_npm_licenses.py"
+
+  inputs = [ "//brave/package.json" ]
+
+  outputs = [ "$root_gen_dir/npm_licenses.checked" ]
+
+  args = [ rebase_path("$root_gen_dir/npm_licenses.checked") ]
+}

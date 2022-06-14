@@ -1,0 +1,12 @@
+diff --git a/ios/chrome/browser/BUILD.gn b/ios/chrome/browser/BUILD.gn
+index e711fa5698fb1f64f7449942f99c7e901d5a9dda..bc1a70ad141d5b7ae8f361a97e852889bc9aa1e8 100644
+--- a/ios/chrome/browser/BUILD.gn
++++ b/ios/chrome/browser/BUILD.gn
+@@ -130,6 +130,7 @@ source_set("browser") {
+     ":pref_names",
+     ":utils",
+   ]
++  public_deps += [ "//brave/ios/browser:chromium_src" ]
+   allow_circular_includes_from = [
+     "//ios/chrome/browser/sync/glue",
+     "//ios/chrome/browser/browser_state",

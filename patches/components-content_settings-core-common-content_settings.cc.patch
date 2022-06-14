@@ -1,0 +1,12 @@
+diff --git a/components/content_settings/core/common/content_settings.cc b/components/content_settings/core/common/content_settings.cc
+index 3512b57674bfd8ba84fd809cdcd2f31ebfc6101d..ce4ca6961e5845bf922ffc97f67813fa907884a2 100644
+--- a/components/content_settings/core/common/content_settings.cc
++++ b/components/content_settings/core/common/content_settings.cc
+@@ -103,6 +103,7 @@ constexpr HistogramValue kHistogramValue[] = {
+     {ContentSettingsType::AUTO_DARK_WEB_CONTENT, 83},
+     {ContentSettingsType::REQUEST_DESKTOP_SITE, 84},
+     {ContentSettingsType::FEDERATED_IDENTITY_API, 85},
++    BRAVE_HISTOGRAM_VALUE_LIST
+ };
+ 
+ void FilterRulesForType(ContentSettingsForOneType& settings,

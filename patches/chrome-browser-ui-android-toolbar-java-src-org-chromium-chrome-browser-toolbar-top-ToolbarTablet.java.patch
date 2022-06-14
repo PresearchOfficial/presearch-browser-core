@@ -1,0 +1,25 @@
+diff --git a/chrome/browser/ui/android/toolbar/java/src/org/chromium/chrome/browser/toolbar/top/ToolbarTablet.java b/chrome/browser/ui/android/toolbar/java/src/org/chromium/chrome/browser/toolbar/top/ToolbarTablet.java
+index 8bc757f8ddb15eb8d191da7d5376d2186deb1d7b..41eb5daee0fe7cd956704447e8a8eeaa8393dcfb 100644
+--- a/chrome/browser/ui/android/toolbar/java/src/org/chromium/chrome/browser/toolbar/top/ToolbarTablet.java
++++ b/chrome/browser/ui/android/toolbar/java/src/org/chromium/chrome/browser/toolbar/top/ToolbarTablet.java
+@@ -348,10 +348,12 @@ public class ToolbarTablet extends ToolbarLayout
+             mOfflineDownloader.downloadPage(getContext(), getToolbarDataProvider().getTab());
+             RecordUserAction.record("MobileToolbarDownloadPage");
+         }
++        BraveToolbarLayout.class.cast(this).onClickImpl(v);
+     }
+ 
+     @Override
+     public boolean onLongClick(View v) {
++        if (BraveToolbarLayout.class.cast(this).onLongClickImpl(v)) return true;
+         String description = null;
+         Context context = getContext();
+         Resources resources = context.getResources();
+@@ -427,6 +429,7 @@ public class ToolbarTablet extends ToolbarLayout
+         mLocationBar.getTabletCoordinator().getBackground().setTint(textBoxColor);
+         mLocationBar.updateVisualsForState();
+         setToolbarHairlineColor(color);
++        super.onThemeColorChanged(color, shouldAnimate);
+     }
+ 
+     /**

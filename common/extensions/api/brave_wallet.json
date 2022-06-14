@@ -1,0 +1,171 @@
+// This Source Code Form is subject to the terms of the Mozilla Public
+// License, v. 2.0. If a copy of the MPL was not distributed with this
+// file, You can obtain one at http://mozilla.org/MPL/2.0/.
+
+[
+  {
+    "namespace": "braveWallet",
+    "description": "Use the <code>chrome.braveWallet</code> API to receive notifications about Dapp detection.",
+    "compiler_options": {
+      "implemented_in": "brave/browser/extensions/api/brave_wallet_api.h"
+    },
+    "events": [
+    ],
+    "functions": [
+      {
+        "name": "ready",
+        "type": "function",
+        "description": "Called by Crypto Wallets when it is ready",
+        "parameters": []
+      }, {
+        "name": "shouldPromptForSetup",
+        "type": "function",
+        "description": "Called to determine if a brave wallet prompt should be shown to opt into install",
+        "parameters": [
+          {
+            "type": "function",
+            "name": "callback",
+            "parameters": [
+              {
+                "name": "enabled",
+                "type": "boolean"
+              }
+            ]
+          }
+        ]
+      }, {
+        "name": "notifyWalletUnlock",
+        "type": "function",
+        "description": "Called to notify Brave that the wallet was unlocked",
+        "parameters": []
+      }, {
+        "name": "getWalletSeed",
+        "type": "function",
+        "description": "Called when website detects a Dapp",
+        "parameters": [
+          {
+            "name": "key",
+            "type": "binary"
+          }, {
+            "name": "seedCallback",
+            "type": "function",
+            "name": "callback",
+            "parameters": [
+              {
+                "name": "seed",
+                "type": "binary"
+              }
+            ]
+          }
+        ]
+      }, {
+        "name": "getProjectID",
+        "type": "function",
+        "description": "Called to get the configured infura project ID",
+        "parameters": [
+          {
+            "name": "cb",
+            "type": "function",
+            "name": "callback",
+            "parameters": [
+              {
+                "name": "projectID",
+                "type": "string"
+              }
+            ]
+          }
+        ]
+      }, {
+        "name": "getBraveKey",
+        "type": "function",
+        "description": "Called to get the Brave service key",
+        "parameters": [
+          {
+            "name": "cb",
+            "type": "function",
+            "name": "callback",
+            "parameters": [
+              {
+                "name": "key",
+                "type": "string"
+              }
+            ]
+          }
+        ]
+      }, {
+        "name": "resetWallet",
+        "type": "function",
+        "description": "Called to restore Crypto Wallets to its original state",
+        "parameters": []
+      }, {
+        "name": "getWeb3Provider",
+        "type": "function",
+        "description": "Called to get the configured web3 provider extension ID",
+        "parameters": [
+          {
+            "name": "cb",
+            "type": "function",
+            "name": "callback",
+            "parameters": [
+              {
+                "name": "extensionID",
+                "type": "string"
+              }
+            ]
+          }
+        ]
+      }, {
+        "name": "getWeb3ProviderList",
+        "type": "function",
+        "description": "Get available web3 providers",
+        "parameters": [
+          {
+            "name": "callback",
+            "type": "function",
+            "description": "Function called when brave web3 provider list is fetched",
+            "parameters": [
+              {
+                "name": "types",
+                "type": "string",
+                "description": "json stringified avalable web3 provider list"
+              }
+            ]
+          }
+        ]
+      }, {
+        "name": "isNativeWalletEnabled",
+        "type": "function",
+        "description": "Determine if the native wallet is enabled",
+        "parameters": [
+          {
+            "name": "callback",
+            "type": "function",
+            "description": "Function called with a boolean indicating if the native wallet is enabled",
+            "parameters": [
+              {
+                "name": "val",
+                "type": "boolean"
+              }
+            ]
+          }
+        ]
+      }, {
+        "name": "loadUI",
+        "type": "function",
+        "description": "Called when brave://wallet WebUI wants to load the real UI",
+        "parameters": [
+          {
+            "name": "cb",
+            "type": "function",
+            "name": "callback",
+            "parameters": []
+          }
+        ]
+      }
+    ],
+    "types": [
+    ],
+    "properties": {
+    }
+  }
+]

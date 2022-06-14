@@ -1,0 +1,12 @@
+diff --git a/chrome/browser/ui/views/page_info/page_info_main_view.cc b/chrome/browser/ui/views/page_info/page_info_main_view.cc
+index 0641b5511129dee177ef75ef759b3638d62cd06d..5ae74532fabe1696d26637fa18425431a7b82c10 100644
+--- a/chrome/browser/ui/views/page_info/page_info_main_view.cc
++++ b/chrome/browser/ui/views/page_info/page_info_main_view.cc
+@@ -501,6 +501,7 @@ gfx::Size PageInfoMainView::CalculatePreferredSize() const {
+   if (site_settings_view_) {
+     width = std::max(width, site_settings_view_->GetPreferredSize().width());
+     width = std::max(width, permissions_view_->GetPreferredSize().width());
++    BRAVE_PAGE_INFO_MAIN_VIEW_CALCULATE_PREFERRED_SIZE
+   }
+   return gfx::Size(width, views::View::GetHeightForWidth(width));
+ }

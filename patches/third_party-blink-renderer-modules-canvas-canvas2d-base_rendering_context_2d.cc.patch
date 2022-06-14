@@ -1,0 +1,20 @@
+diff --git a/third_party/blink/renderer/modules/canvas/canvas2d/base_rendering_context_2d.cc b/third_party/blink/renderer/modules/canvas/canvas2d/base_rendering_context_2d.cc
+index b7c5e74c9792cd8dcd4cb38009cf22a000592387..62123730f9fef2a21004c2f03209507b34c48a41 100644
+--- a/third_party/blink/renderer/modules/canvas/canvas2d/base_rendering_context_2d.cc
++++ b/third_party/blink/renderer/modules/canvas/canvas2d/base_rendering_context_2d.cc
+@@ -1937,6 +1937,7 @@ ImageData* BaseRenderingContext2D::getImageData(
+ }
+ 
+ ImageData* BaseRenderingContext2D::getImageDataInternal(
++    BRAVE_GET_IMAGE_DATA_PARAMS
+     int sx,
+     int sy,
+     int sw,
+@@ -2047,6 +2048,7 @@ ImageData* BaseRenderingContext2D::getImageDataInternal(
+       DCHECK(!bounds.intersect(SkIRect::MakeXYWH(sx, sy, sw, sh)));
+     }
+   }
++  BRAVE_GET_IMAGE_DATA
+ 
+   return image_data;
+ }

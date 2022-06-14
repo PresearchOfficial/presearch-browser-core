@@ -1,0 +1,52 @@
+import("//brave/build/config.gni")
+import("//brave/components/brave_adaptive_captcha/buildflags/buildflags.gni")
+
+source_set("browser") {
+  sources = [
+    "ads_p2a.cc",
+    "ads_p2a.h",
+    "ads_service.cc",
+    "ads_service.h",
+    "ads_service_observer.h",
+    "ads_storage_cleanup.cc",
+    "ads_storage_cleanup.h",
+    "component_updater/component_info.cc",
+    "component_updater/component_info.h",
+    "component_updater/component_util.cc",
+    "component_updater/component_util.h",
+    "component_updater/components.h",
+    "component_updater/resource_component.cc",
+    "component_updater/resource_component.h",
+    "component_updater/resource_component_observer.h",
+    "component_updater/resource_info.h",
+    "frequency_capping_helper.cc",
+    "frequency_capping_helper.h",
+  ]
+
+  deps = [
+    "//base",
+    "//brave/components/brave_ads/common",
+    "//brave/components/brave_ads/resources",
+    "//brave/components/brave_component_updater/browser",
+    "//brave/components/l10n/browser",
+    "//brave/components/l10n/common",
+    "//brave/components/weekly_storage",
+    "//components/keyed_service/core",
+    "//components/pref_registry",
+    "//components/prefs",
+    "//components/sessions",
+    "//content/public/browser",
+    "//sql",
+    "//url",
+  ]
+
+  public_deps = [
+    "//brave/components/brave_adaptive_captcha/buildflags",
+    "//brave/vendor/bat-native-ads",
+  ]
+
+  if (brave_adaptive_captcha_enabled) {
+    sources += [ "ads_tooltips_delegate.h" ]
+    deps += [ "//brave/components/brave_adaptive_captcha" ]
+  }
+}

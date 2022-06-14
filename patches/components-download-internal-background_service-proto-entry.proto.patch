@@ -1,0 +1,12 @@
+diff --git a/components/download/internal/background_service/proto/entry.proto b/components/download/internal/background_service/proto/entry.proto
+index e91853831b03cc024081b0a70b029c3ffffc3ed8..f79007f690155f86e78c9cee2ecfae40fcdfb8ee 100644
+--- a/components/download/internal/background_service/proto/entry.proto
++++ b/components/download/internal/background_service/proto/entry.proto
+@@ -27,6 +27,7 @@ enum DownloadClient {
+ 
+   // New clients should be added above here.
+   BOUNDARY = 10;
++  CUSTOM_LIST_SUBSCRIPTIONS = 256;
+ }
+ 
+ // Custom key value pair provided by the client and will be sent back to client

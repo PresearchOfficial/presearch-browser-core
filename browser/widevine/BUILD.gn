@@ -1,0 +1,82 @@
+import("//third_party/widevine/cdm/widevine.gni")
+
+source_set("widevine") {
+  # Remove when https://github.com/brave/brave-browser/issues/10644 is resolved
+  check_includes = false
+  deps = [
+    ":constants",
+    "//base",
+    "//brave/app:brave_generated_resources_grit",
+    "//brave/common:pref_names",
+    "//chrome/common",
+    "//components/component_updater/",
+    "//components/content_settings/core/common",
+    "//components/permissions",
+    "//components/pref_registry",
+    "//components/prefs",
+    "//components/subresource_filter/content/browser",
+    "//components/vector_icons",
+    "//content/public/browser",
+    "//content/public/common",
+    "//third_party/widevine/cdm:buildflags",
+    "//third_party/widevine/cdm:headers",
+    "//ui/base",
+    "//url",
+  ]
+
+  sources = [
+    "widevine_permission_request.cc",
+    "widevine_permission_request.h",
+    "widevine_utils.cc",
+    "widevine_utils.h",
+  ]
+}
+
+source_set("constants") {
+  sources = [ "constants.h" ]
+}
+
+source_set("unittest") {
+  testonly = true
+  if (enable_widevine && !is_android) {
+    sources = [ "widevine_cdm_component_installer_unittest.cc" ]
+    deps = [
+      "//testing/gtest",
+      "//third_party/widevine/cdm:buildflags",
+    ]
+  }
+}
+
+source_set("browser_tests") {
+  testonly = true
+  defines = [ "HAS_OUT_OF_PROC_TEST_RUNNER" ]
+
+  if (enable_widevine) {
+    sources = [
+      "widevine_permission_request_browsertest.cc",
+      "widevine_prefs_migration_browsertest.cc",
+    ]
+
+    deps = [
+      ":constants",
+      ":widevine",
+      "//base",
+      "//brave/browser",
+      "//brave/common",
+      "//brave/common:pref_names",
+      "//chrome/browser",
+      "//chrome/browser:browser_process",
+      "//chrome/browser/profiles:profile",
+      "//chrome/browser/ui",
+      "//chrome/common",
+      "//chrome/test:test_support_ui",
+      "//components/prefs",
+      "//content/public/browser",
+      "//content/test:test_support",
+      "//testing/gtest",
+      "//third_party/widevine/cdm:buildflags",
+      "//ui/views",
+      "//url",
+    ]
+  }
+}

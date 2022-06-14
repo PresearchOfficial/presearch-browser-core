@@ -1,0 +1,27 @@
+diff --git a/chrome/installer/util/google_update_settings.cc b/chrome/installer/util/google_update_settings.cc
+index 973812e86ccc2d3be8544e0ca79e6430bff152cf..6444c0a29c90f13d80fc03184372d15ca1a97ace 100644
+--- a/chrome/installer/util/google_update_settings.cc
++++ b/chrome/installer/util/google_update_settings.cc
+@@ -30,7 +30,11 @@ using base::win::RegKey;
+ using installer::InstallationState;
+ 
+ const wchar_t GoogleUpdateSettings::kPoliciesKey[] =
++#if defined(OFFICIAL_BUILD)
++    L"SOFTWARE\\Policies\\BraveSoftware\\Update";
++#else
+     L"SOFTWARE\\Policies\\Google\\Update";
++#endif
+ const wchar_t GoogleUpdateSettings::kUpdatePolicyValue[] = L"UpdateDefault";
+ const wchar_t GoogleUpdateSettings::kDownloadPreferencePolicyValue[] =
+     L"DownloadPreference";
+@@ -42,6 +46,10 @@ const wchar_t GoogleUpdateSettings::kCheckPeriodOverrideMinutes[] =
+ const int GoogleUpdateSettings::kCheckPeriodOverrideMinutesMax =
+     60 * 24 * 7 * 6;
+ 
++#if defined(OFFICIAL_BUILD)
++#undef BUILDFLAG_INTERNAL_GOOGLE_CHROME_BRANDING
++#define BUILDFLAG_INTERNAL_GOOGLE_CHROME_BRANDING() (1)
++#endif
+ const GoogleUpdateSettings::UpdatePolicy
+     GoogleUpdateSettings::kDefaultUpdatePolicy =
+ #if BUILDFLAG(GOOGLE_CHROME_BRANDING)

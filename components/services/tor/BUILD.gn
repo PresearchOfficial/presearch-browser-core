@@ -1,0 +1,18 @@
+static_library("tor") {
+  visibility = [
+    "//brave/test:*",
+    "//chrome/utility:*",
+  ]
+
+  sources = [
+    "tor_launcher_impl.cc",
+    "tor_launcher_impl.h",
+  ]
+
+  deps = [
+    "public/interfaces",
+    "//base",
+    "//brave/components/child_process_monitor",
+    "//mojo/public/cpp/bindings",
+  ]
+}

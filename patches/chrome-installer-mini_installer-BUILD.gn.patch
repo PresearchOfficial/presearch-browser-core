@@ -1,0 +1,22 @@
+diff --git a/chrome/installer/mini_installer/BUILD.gn b/chrome/installer/mini_installer/BUILD.gn
+index 51fa0d7f4cf77cd03e7332a3e3c0a22a173bf6ca..0efed0f32ae29bb2eb1b56fb81b9d1f223f6ba0f 100644
+--- a/chrome/installer/mini_installer/BUILD.gn
++++ b/chrome/installer/mini_installer/BUILD.gn
+@@ -13,6 +13,7 @@ import("//third_party/icu/config.gni")
+ import("//tools/v8_context_snapshot/v8_context_snapshot.gni")
+ import("//ui/base/ui_features.gni")
+ import("//v8/gni/v8.gni")
++import("//brave/build/config.gni")
+ 
+ declare_args() {
+   # The Chrome archive is compressed in official builds to reduce the size of
+@@ -171,6 +172,9 @@ action("mini_installer_archive") {
+     "//mojo/core:shared_library",
+     "//third_party/icu:icudata",
+   ]
++  if (skip_signing) { args += [ "--skip_signing" ] }
++  if (build_delta_installer) { args += [ "--setup_exe_format=DIFF", "--diff_algorithm=COURGETTE", "--last_chrome_installer",rebase_path("$root_out_dir/$last_chrome_installer", root_build_dir) ] }
++  deps += [ "//brave:mini_installer_dependencies" ]
+ 
+   if (enable_hidpi) {
+     args += [ "--enable_hidpi=1" ]

@@ -1,0 +1,12 @@
+diff --git a/chrome/browser/ui/toolbar/chrome_location_bar_model_delegate.h b/chrome/browser/ui/toolbar/chrome_location_bar_model_delegate.h
+index b35ab3ad929823c79952fd5212875d933c0676e0..0f7bfdcf3e25a9ff58f41d10b12bd9074d599f73 100644
+--- a/chrome/browser/ui/toolbar/chrome_location_bar_model_delegate.h
++++ b/chrome/browser/ui/toolbar/chrome_location_bar_model_delegate.h
+@@ -64,6 +64,7 @@ class ChromeLocationBarModelDelegate : public LocationBarModelDelegate {
+ 
+   // Helper method to get the navigation entry from the navigation controller.
+   content::NavigationEntry* GetNavigationEntry() const;
++  BRAVE_CHROME_LOCATION_BAR_MODEL_DELEGATE_H_
+ 
+  private:
+   // The state of URL elision in the omnibox.

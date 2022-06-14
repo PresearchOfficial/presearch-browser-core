@@ -1,0 +1,30 @@
+diff --git a/chrome/browser/ui/BUILD.gn b/chrome/browser/ui/BUILD.gn
+index 3480cadf84faf1897ebf25414a6e5e2c45587cff..1bc69b4d501578e8dd5f84155ef198dc979f9d1f 100644
+--- a/chrome/browser/ui/BUILD.gn
++++ b/chrome/browser/ui/BUILD.gn
+@@ -658,6 +658,7 @@ static_library("ui") {
+     "//ui/webui",
+     "//v8:v8_version",
+   ]
++  deps+= [ "//brave/browser/ui" ]
+ 
+   # TODO(crbug/925153): Remove this circular dependency.
+   allow_circular_includes_from = [
+@@ -3846,10 +3847,13 @@ static_library("ui") {
+       ]
+       deps += [ "//google_update" ]
+     } else {
+-      sources += [
+-        "webui/help/version_updater_basic.cc",
+-        "webui/help/version_updater_basic.h",
+-      ]
++      if (!is_official_build) {
++        # In official build, //brave/browser/ui handles.
++        sources += [
++          "webui/help/version_updater_basic.cc",
++          "webui/help/version_updater_basic.h",
++        ]
++      }
+     }
+   } else {  # 'OS!="win"
+     # The Cast Linux build sets toolkit_views to false, but many files in this

@@ -1,0 +1,12 @@
+diff --git a/chrome/installer/mini_installer/mini_installer.cc b/chrome/installer/mini_installer/mini_installer.cc
+index dd3d726c1ce77dfb9069773522abc3cb6b6f3a61..209a07e0746060447f376c92e8fd6c3a536c4310 100644
+--- a/chrome/installer/mini_installer/mini_installer.cc
++++ b/chrome/installer/mini_installer/mini_installer.cc
+@@ -591,6 +591,7 @@ ProcessExitResult RunSetup(const Configuration& configuration,
+   // on to setup.exe
+   AppendCommandLineFlags(configuration.command_line(), &cmd_line);
+ 
++  BRAVE_RUN_SETUP
+   return RunProcessAndWait(setup_exe.get(), cmd_line.get(),
+                            RUN_SETUP_FAILED_FILE_NOT_FOUND,
+                            RUN_SETUP_FAILED_PATH_NOT_FOUND,

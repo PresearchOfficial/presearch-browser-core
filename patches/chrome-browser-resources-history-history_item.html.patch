@@ -1,0 +1,10 @@
+diff --git a/chrome/browser/resources/history/history_item.html b/chrome/browser/resources/history/history_item.html
+index 3254453e4b20486fd7ce1bfb5622d1ca6b688eaa..67135e6dde3f6c899e937f58729b90e9d684d8ad 100644
+--- a/chrome/browser/resources/history/history_item.html
++++ b/chrome/browser/resources/history/history_item.html
+@@ -1,4 +1,4 @@
+-    <style include="shared-style cr-icons">
++    <style include="shared-style cr-icons brave-history-item">
+       :host {
+         display: block;
+         outline: none;

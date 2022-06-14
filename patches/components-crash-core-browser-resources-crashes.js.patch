@@ -1,0 +1,13 @@
+diff --git a/components/crash/core/browser/resources/crashes.js b/components/crash/core/browser/resources/crashes.js
+index 2ee8847924549c71376a6f5580b5e37c2db2ef1b..772981687af92238a9604e5cac0dfa3d1dc5b18b 100644
+--- a/components/crash/core/browser/resources/crashes.js
++++ b/components/crash/core/browser/resources/crashes.js
+@@ -108,7 +108,7 @@ function updateCrashList({
+         crashLink.href = `https://goto.google.com/crash/${crash.id}`;
+         crashLink.target = '_blank';
+         crashLink.textContent = crash.id;
+-        uploadIdValue.appendChild(crashLink);
++        //uploadIdValue.appendChild(crashLink); // feature disabled in Brave
+       } else {
+         uploadIdValue.textContent = crash.id;
+       }
