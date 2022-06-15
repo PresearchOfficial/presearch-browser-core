@@ -318,24 +318,10 @@ public abstract class BraveToolbarLayoutImpl extends ToolbarLayout
         mBraveShieldsContentSettings.addObserver(mBraveShieldsContentSettingsObserver);
 
         SharedPreferences sharedPreferences = ContextUtils.getAppSharedPreferences();
-        if (ChromeFeatureList.isEnabled(BraveFeatureList.BRAVE_REWARDS)
-                && !BravePrefServiceBridge.getInstance().getSafetynetCheckFailed()
-                && sharedPreferences.getBoolean(
-                        AppearancePreferences.PREF_SHOW_BRAVE_REWARDS_ICON, true)
-                && mRewardsLayout != null) {
-            mRewardsLayout.setVisibility(View.VISIBLE);
-        }
+        mRewardsLayout.setVisibility(View.GONE);
         if (mShieldsLayout != null) {
-            updateShieldsLayoutBackground(
-                    !(mRewardsLayout != null && mRewardsLayout.getVisibility() == View.VISIBLE));
+            updateShieldsLayoutBackground(true);
             mShieldsLayout.setVisibility(View.VISIBLE);
-        }
-        mBraveRewardsNativeWorker = BraveRewardsNativeWorker.getInstance();
-        if (mBraveRewardsNativeWorker != null) {
-            mBraveRewardsNativeWorker.AddObserver(this);
-            mBraveRewardsNativeWorker.AddPublisherObserver(this);
-            mBraveRewardsNativeWorker.TriggerOnNotifyFrontTabUrlChanged();
-            mBraveRewardsNativeWorker.GetAllNotifications();
         }
     }
 
