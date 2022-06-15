@@ -45,7 +45,6 @@ public class P3aOnboardingActivity extends FirstRunActivityBase {
     private boolean mInvokePostWorkAtInitializeViews;
     private boolean mIsP3aEnabled;
     private FirstRunFlowSequencer mFirstRunFlowSequencer;
-    private CheckBox mP3aOnboardingCheckbox;
     private Button mBtnContinue;
 
     private void initializeViews() {
@@ -59,67 +58,20 @@ public class P3aOnboardingActivity extends FirstRunActivityBase {
                         ? getResources().getString(R.string.p3a_onboarding_title_text_1)
                         : getResources().getString(R.string.p3a_onboarding_title_text_2));
         mIsP3aEnabled = true;
-        mP3aOnboardingCheckbox = findViewById(R.id.p3a_onboarding_checkbox);
-        mP3aOnboardingCheckbox.setChecked(mIsP3aEnabled);
         ImageView p3aOnboardingImg = findViewById(R.id.p3a_onboarding_img);
         p3aOnboardingImg.setImageResource(isFirstInstall
                         ? R.drawable.ic_brave_logo
                         : (GlobalNightModeStateProviderHolder.getInstance().isInNightMode()
                                         ? R.drawable.ic_spot_graphic_dark
                                         : R.drawable.ic_spot_graphic));
-        TextView p3aOnboardingText = findViewById(R.id.p3a_onboarding_text);
         mBtnContinue = findViewById(R.id.btn_continue);
         mBtnContinue.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                if (PackageUtils.isFirstInstall(P3aOnboardingActivity.this)
-                        && !OnboardingPrefManager.getInstance().isNewOnboardingShown()
-                        && BraveActivity.getBraveActivity() != null) {
-                    BraveActivity.getBraveActivity().showOnboardingV2(false);
-                }
                 OnboardingPrefManager.getInstance().setP3aOnboardingShown(true);
-                OnboardingPrefManager.getInstance().setShowDefaultBrowserModalAfterP3A(true);
                 accept();
             }
         });
-
-        String productAnalysisString =
-                String.format(getResources().getString(R.string.p3a_onboarding_checkbox_text,
-                        getResources().getString(R.string.private_product_analysis_text)));
-        int productAnalysisIndex = productAnalysisString.indexOf(
-                getResources().getString(R.string.private_product_analysis_text));
-        SpannableString productAnalysisTextSS = new SpannableString(productAnalysisString);
-
-        ClickableSpan productAnalysisClickableSpan = new ClickableSpan() {
-            @Override
-            public void onClick(@NonNull View textView) {
-                CustomTabActivity.showInfoPage(P3aOnboardingActivity.this, BraveActivity.P3A_URL);
-            }
-            @Override
-            public void updateDrawState(@NonNull TextPaint ds) {
-                super.updateDrawState(ds);
-                ds.setUnderlineText(false);
-            }
-        };
-
-        productAnalysisTextSS.setSpan(productAnalysisClickableSpan, productAnalysisIndex,
-                Math.min(productAnalysisIndex
-                                + getResources()
-                                          .getString(R.string.private_product_analysis_text)
-                                          .length(),
-                        productAnalysisTextSS.length()),
-                Spanned.SPAN_EXCLUSIVE_EXCLUSIVE);
-        productAnalysisTextSS.setSpan(
-                new ForegroundColorSpan(getResources().getColor(R.color.brave_blue_tint_color)),
-                productAnalysisIndex,
-                Math.min(productAnalysisIndex
-                                + getResources()
-                                          .getString(R.string.private_product_analysis_text)
-                                          .length(),
-                        productAnalysisTextSS.length()),
-                Spanned.SPAN_EXCLUSIVE_EXCLUSIVE);
-        p3aOnboardingText.setMovementMethod(LinkMovementMethod.getInstance());
-        p3aOnboardingText.setText(productAnalysisTextSS);
 
         mInitializeViewsDone = true;
         if (mInvokePostWorkAtInitializeViews) {
@@ -135,20 +87,6 @@ public class P3aOnboardingActivity extends FirstRunActivityBase {
         } catch (Exception e) {
             Log.e("P3aOnboarding", e.getMessage());
         }
-        mP3aOnboardingCheckbox.setChecked(mIsP3aEnabled);
-        mP3aOnboardingCheckbox.setOnCheckedChangeListener(
-                new CompoundButton.OnCheckedChangeListener() {
-                    @Override
-                    public void onCheckedChanged(CompoundButton buttonView, boolean isChecked) {
-                        try {
-                            BravePrefServiceBridge.getInstance().setP3AEnabled(isChecked);
-                            BravePrefServiceBridge.getInstance().setP3ANoticeAcknowledged(true);
-                        } catch (Exception e) {
-                            Log.e("P3aOnboarding", e.getMessage());
-                        }
-                    }
-                });
-
         mBtnContinue.setEnabled(true);
     }
 

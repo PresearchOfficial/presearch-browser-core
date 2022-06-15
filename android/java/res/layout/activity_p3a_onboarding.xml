@@ -52,32 +52,6 @@
             android:textSize="16sp"
             android:textColor="@color/onboarding_text_color"/>
 
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="24dp"
-            android:layout_marginEnd="24dp"
-            android:layout_marginBottom="32dp"
-            android:orientation="horizontal">
-
-            <android.widget.CheckBox
-                android:id="@+id/p3a_onboarding_checkbox"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:button="@drawable/brave_checkbox"
-                android:layout_marginTop="4dp"
-                android:layout_marginEnd="8dp"/>
-
-            <TextView
-                android:id="@+id/p3a_onboarding_text"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="@string/private_product_analysis_text"
-                android:textSize="16sp"
-                android:textColor="@color/onboarding_text_color"/>
-
-        </LinearLayout>
-
         <android.widget.Button
             android:id="@+id/btn_continue"
             android:enabled="false"
@@ -89,7 +63,7 @@
             android:layout_marginEnd="24dp"
             android:layout_marginBottom="16dp"
             android:background="@drawable/orange_rounded_button"
-            android:text="@string/continue_button"
+            android:text="@string/p3a_onboarding_checkbox_text"
             android:textAllCaps="false"
             android:textColor="@android:color/white"
             android:textSize="16sp"

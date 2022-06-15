@@ -39,7 +39,7 @@
     <color name="onboarding_timer_color">#123966</color>
 
     <color name="onboarding_text_color">@color/onboarding_black</color>
-    <color name="onboarding_bg_color">@android:color/white</color>
+    <color name="onboarding_bg_color">#2d8eff</color>
 
     <color name="onboarding_progressbar_secondary_bg">#ced4da</color>
     <color name="onboarding_progress_start_color">#4299ff</color>
