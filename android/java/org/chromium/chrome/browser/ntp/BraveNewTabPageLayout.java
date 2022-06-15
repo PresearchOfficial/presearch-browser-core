@@ -355,35 +355,7 @@ public class BraveNewTabPageLayout extends NewTabPageLayout implements Connectio
         }
         mNTPBackgroundImagesBridge.removeObserver(mNTPBackgroundImageServiceObserver);
 
-        if (ChromeFeatureList.isEnabled(BraveFeatureList.BRAVE_NEWS)) {
-            if (mNewsItemsFeedCard != null && mNewsItemsFeedCard.size() > 0) {
-                if (BraveActivity.getBraveActivity() != null) {
-                    BraveActivity.getBraveActivity().setNewsItemsFeedCards(mNewsItemsFeedCard);
-                }
-            }
-            mTouchScroll = false;
 
-            if (mSettingsBar != null) {
-                mSettingsBar.setVisibility(View.INVISIBLE);
-                mSettingsBar.setAlpha(0f);
-                if (BraveActivity.getBraveActivity() != null) {
-                    BraveActivity.getBraveActivity().removeSettingsBar();
-                }
-            }
-
-            if (mNewContentButton != null) {
-                mNewContentButton.setVisibility(View.INVISIBLE);
-            }
-
-            if (mBraveNewsController != null) {
-                mBraveNewsController.close();
-                mBraveNewsController = null;
-            }
-
-            // removes preference observer
-            SharedPreferencesManager.getInstance().removeObserver(mPreferenceObserver);
-            mPreferenceObserver = null;
-        }
         super.onDetachedFromWindow();
     }
 

@@ -595,9 +595,9 @@ public abstract class BraveActivity<C extends ChromeActivityComponent> extends C
                     this, dataTypesArray, TimePeriod.ALL_TIME);
         }
 
-        setLoadedFeed(false);
+        // setLoadedFeed(false);
         setComesFromNewTab(false);
-        setNewsItemsFeedCards(null);
+        // setNewsItemsFeedCards(null);
         BraveSearchEngineUtils.initializeBraveSearchEngineStates(getTabModelSelector());
     }
 
