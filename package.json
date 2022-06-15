@@ -1,13 +1,13 @@
 {
-  "name": "brave-core",
+  "name": "presearch-core",
   "version": "1.39.122",
-  "description": "Brave Core is a set of changes, APIs and scripts used for customizing Chromium to make Brave.",
+  "description": "Presearch Core is a set of changes, APIs and scripts used for customizing Chromium to make Presearch.",
   "main": "index.js",
   "scripts": {
     "audit_deps": "node ./build/commands/scripts/audit.js -- --audit_dev_deps",
     "check_security": "node ./build/commands/scripts/checkSecurity.js",
     "cibuild": "node ./build/commands/scripts/commands.js cibuild",
-    "init": "cd ../../ && npm run --prefix src/brave sync -- --init",
+    "init": "cd ../../ && npm run --prefix src/presearch sync -- --init",
     "delete_string_translations": "node ./build/commands/scripts/commands.js delete_string_translations",
     "create_dist": "node ./build/commands/scripts/commands.js create_dist",
     "sync": "node ./build/commands/scripts/sync.js",
@@ -43,12 +43,20 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/brave/brave-core.git"
+    "url": "git+https://github.com/PresearchOfficial/presearch-browser-core.git"
   },
   "author": {
-    "name": "Brave Software <support@brave.com>"
+    "name": "Presearch <support@presearch.io>"
   },
   "contributors": [
+    {
+      "name": "Rakotomalala Mamy Tiana",
+      "email": "devopsmdg@gmail.com"
+    },
+    {
+      "name": "Brave Software",
+      "email": "support@brave.com"
+    },
     {
       "name": "Cezar Augusto",
       "email": "cezar@brave.com"
@@ -248,9 +256,9 @@
   ],
   "license": "MPL-2.0",
   "bugs": {
-    "url": "https://github.com/brave/brave-browser/issues"
+    "url": "https://github.com/PresearchOfficial/presearch-browser-core/issues"
   },
-  "homepage": "https:/github.com/brave/brave-core#readme",
+  "homepage": "https://github.com/PresearchOfficial/presearch-browser-core#readme",
   "config": {
     "projects": {
       "chrome": {
