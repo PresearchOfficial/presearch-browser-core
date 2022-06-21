@@ -52,7 +52,7 @@ public class BraveUpgradeJobIntentServiceImpl extends BraveUpgradeJobIntentServi
                                     // Reset flag and update UI
                                     BravePrefServiceBridge.getInstance().setSafetynetCheckFailed(
                                             false);
-                                    TabUtils.enableRewardsButton();
+                                    // TabUtils.enableRewardsButton();
                                 };
                                 // Re-perform safetynet check
                                 SafetyNetCheck.updateSafetynetStatus(callback);

@@ -108,13 +108,13 @@
       android:layout_height="40dp"
       android:visibility="gone" >
 
-      <ImageButton android:id="@+id/brave_rewards_button"
+      <!-- <ImageButton android:id="@+id/brave_rewards_button"
           style="@style/ToolbarButton"
           android:layout_marginTop="8dp"
           android:layout_marginBottom="8dp"
           android:src="@drawable/btn_bat"
           android:layout_gravity="center"
-          android:contentDescription="@string/accessibility_toolbar_btn_brave_rewards" />
+          android:contentDescription="@string/accessibility_toolbar_btn_brave_rewards" /> -->
 
       <ImageView 
           android:id="@+id/br_rewards_onboarding_icon"

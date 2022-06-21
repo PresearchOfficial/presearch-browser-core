@@ -60,7 +60,7 @@ public class P3aOnboardingActivity extends FirstRunActivityBase {
         mIsP3aEnabled = true;
         ImageView p3aOnboardingImg = findViewById(R.id.p3a_onboarding_img);
         p3aOnboardingImg.setImageResource(isFirstInstall
-                        ? R.drawable.ic_brave_logo
+                        ? R.drawable.ic_presearch_logo_borderless
                         : (GlobalNightModeStateProviderHolder.getInstance().isInNightMode()
                                         ? R.drawable.ic_spot_graphic_dark
                                         : R.drawable.ic_spot_graphic));

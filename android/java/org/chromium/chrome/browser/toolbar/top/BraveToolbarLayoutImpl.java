@@ -150,7 +150,6 @@ public abstract class BraveToolbarLayoutImpl extends ToolbarLayout
 
     private ImageButton mBraveWalletButton;
     private ImageButton mBraveShieldsButton;
-    private ImageButton mBraveRewardsButton;
     private HomeButton mHomeButton;
     private FrameLayout mWalletLayout;
     private FrameLayout mShieldsLayout;
@@ -217,7 +216,6 @@ public abstract class BraveToolbarLayoutImpl extends ToolbarLayout
         mBraveRewardsOnboardingIcon = findViewById(R.id.br_rewards_onboarding_icon);
         mBraveWalletButton = (ImageButton) findViewById(R.id.brave_wallet_button);
         mBraveShieldsButton = (ImageButton) findViewById(R.id.brave_shields_button);
-        mBraveRewardsButton = (ImageButton) findViewById(R.id.brave_rewards_button);
         mHomeButton = (HomeButton) findViewById(R.id.home_button);
 
         if (mHomeButton != null) {
@@ -228,12 +226,6 @@ public abstract class BraveToolbarLayoutImpl extends ToolbarLayout
             mBraveShieldsButton.setClickable(true);
             mBraveShieldsButton.setOnClickListener(this);
             mBraveShieldsButton.setOnLongClickListener(this);
-        }
-
-        if (mBraveRewardsButton != null) {
-            mBraveRewardsButton.setClickable(true);
-            mBraveRewardsButton.setOnClickListener(this);
-            mBraveRewardsButton.setOnLongClickListener(this);
         }
 
         if (mBraveWalletButton != null) {
@@ -883,34 +875,6 @@ public abstract class BraveToolbarLayoutImpl extends ToolbarLayout
         }
         if (mBraveShieldsButton == v && mBraveShieldsButton != null) {
             showShieldsMenu(mBraveShieldsButton);
-        } else if (mBraveRewardsButton == v && mBraveRewardsButton != null) {
-            // Context context = getContext();
-            // if (checkForRewardsOnboarding()) {
-            //   OnboardingPrefManager.getInstance().showOnboarding(context);
-            //   hideRewardsOnboardingIcon();
-            // } else {
-            //   if (null != mRewardsPopup) {
-            //     return;
-            //   }
-            //   mRewardsPopup = new BraveRewardsPanelPopup(v);
-            //   mRewardsPopup.showLikePopDownMenu();
-            // }
-            if (null != mRewardsPopup) {
-                return;
-            }
-            hideRewardsOnboardingIcon();
-            OnboardingPrefManager.getInstance().setOnboardingShown(true);
-            mRewardsPopup = new BraveRewardsPanel(v);
-            mRewardsPopup.showLikePopDownMenu();
-            if (mBraveRewardsNotificationsCount.isShown()) {
-                SharedPreferences sharedPref = ContextUtils.getAppSharedPreferences();
-                SharedPreferences.Editor editor = sharedPref.edit();
-                editor.putBoolean(
-                        BraveRewardsPanelPopup.PREF_WAS_TOOLBAR_BAT_LOGO_BUTTON_PRESSED, true);
-                editor.apply();
-                mBraveRewardsNotificationsCount.setVisibility(View.INVISIBLE);
-                mIsInitialNotificationPosted = false;
-            }
         } else if (mHomeButton == v) {
             // Helps Brave News know how to behave on home button action
             BraveActivity.getBraveActivity().setComesFromNewTab(true);
@@ -977,8 +941,6 @@ public abstract class BraveToolbarLayoutImpl extends ToolbarLayout
 
         if (v == mBraveShieldsButton) {
             description = resources.getString(R.string.accessibility_toolbar_btn_brave_shields);
-        } else if (v == mBraveRewardsButton) {
-            description = resources.getString(R.string.accessibility_toolbar_btn_brave_rewards);
         } else if (v == mHomeButton) {
             description = resources.getString(R.string.accessibility_toolbar_btn_home);
         } else if (v == mBraveWalletButton) {
@@ -1157,7 +1119,7 @@ public abstract class BraveToolbarLayoutImpl extends ToolbarLayout
     }
 
     public void openRewardsPanel() {
-        onClick(mBraveRewardsButton);
+        mRewardsPopup = null;
     }
 
     public void openBraveTalkOptInPopup(BraveTalkOptInPopupListener popupListener) {
@@ -1170,8 +1132,8 @@ public abstract class BraveToolbarLayoutImpl extends ToolbarLayout
             mBraveTalkOptInPopup.dismissPopup();
         }
 
-        mBraveTalkOptInPopup = new BraveTalkOptInPopup(mBraveRewardsButton, popupListener);
-        mBraveTalkOptInPopup.showLikePopDownMenu();
+        // mBraveTalkOptInPopup = new BraveTalkOptInPopup(mBraveRewardsButton, popupListener);
+        // mBraveTalkOptInPopup.showLikePopDownMenu();
     }
 
     public void onBraveTalkOptInPopupDismiss() {
@@ -1263,7 +1225,7 @@ public abstract class BraveToolbarLayoutImpl extends ToolbarLayout
 
         if (checkForRewardsOnboarding()) {
             if (mBraveRewardsOnboardingIcon != null) {
-                mBraveRewardsOnboardingIcon.setVisibility(View.VISIBLE);
+                mBraveRewardsOnboardingIcon.setVisibility(View.GONE);
             }
             if (mBraveRewardsNotificationsCount != null) {
                 mBraveRewardsNotificationsCount.setVisibility(View.GONE);

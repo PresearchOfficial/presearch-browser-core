@@ -240,8 +240,8 @@ public class NTPUtil {
                 @Override
                 public void onClick(View view) {
                     if (BraveActivity.getBraveActivity() != null) {
-                        BraveRewardsHelper.setShowBraveRewardsOnboardingOnce(true);
-                        BraveActivity.getBraveActivity().openRewardsPanel();
+                        // BraveRewardsHelper.setShowBraveRewardsOnboardingOnce(true);
+                        // BraveActivity.getBraveActivity().openRewardsPanel();
                     }
                     breBottomBannerLayout.setVisibility(View.GONE);
                 }
