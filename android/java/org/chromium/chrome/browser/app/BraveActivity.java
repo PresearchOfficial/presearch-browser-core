@@ -201,23 +201,23 @@ public abstract class BraveActivity<C extends ChromeActivityComponent> extends C
     public static final int VERIFY_WALLET_ACTIVITY_REQUEST_CODE = 34;
     public static final int USER_WALLET_ACTIVITY_REQUEST_CODE = 35;
     public static final int MONTHLY_CONTRIBUTION_REQUEST_CODE = 36;
-    public static final String ADD_FUNDS_URL = "brave://rewards/#add-funds";
-    public static final String BRAVE_REWARDS_SETTINGS_URL = "brave://rewards/";
+    public static final String ADD_FUNDS_URL = "presearch://";
+    public static final String BRAVE_REWARDS_SETTINGS_URL = "presearch://";
     public static final String BRAVE_REWARDS_SETTINGS_WALLET_VERIFICATION_URL =
-            "brave://rewards/#verify";
-    public static final String REWARDS_AC_SETTINGS_URL = "brave://rewards/contribute";
-    public static final String REWARDS_LEARN_MORE_URL = "https://brave.com/faq-rewards/#unclaimed-funds";
+            "presearch://";
+    public static final String REWARDS_AC_SETTINGS_URL = "presearch://";
+    public static final String REWARDS_LEARN_MORE_URL = " https://support.presearch.org/";
     public static final String BRAVE_TERMS_PAGE =
-            "https://basicattentiontoken.org/user-terms-of-service/";
-    public static final String P3A_URL = "https://brave.com/p3a";
-    public static final String BRAVE_PRIVACY_POLICY = "https://brave.com/privacy/#rewards";
+            "https://presearch.com/terms";
+    public static final String P3A_URL = "https://presearch.com/";
+    public static final String BRAVE_PRIVACY_POLICY = "https://presearch.com/privacy";
     private static final String PREF_CLOSE_TABS_ON_EXIT = "close_tabs_on_exit";
     private static final String PREF_CLEAR_ON_EXIT = "clear_on_exit";
     public static final String OPEN_URL = "open_url";
 
-    public static final String BRAVE_PRODUCTION_PACKAGE_NAME = "com.brave.browser";
-    public static final String BRAVE_BETA_PACKAGE_NAME = "com.brave.browser_beta";
-    public static final String BRAVE_NIGHTLY_PACKAGE_NAME = "com.brave.browser_nightly";
+    public static final String BRAVE_PRODUCTION_PACKAGE_NAME = "com.presearch.browser";
+    public static final String BRAVE_BETA_PACKAGE_NAME = "com.presearch.browser_beta";
+    public static final String BRAVE_NIGHTLY_PACKAGE_NAME = "com.presearch.browser_nightly";
 
     private static final int DAYS_1 = 1;
     private static final int DAYS_4 = 4;
@@ -227,7 +227,7 @@ public abstract class BraveActivity<C extends ChromeActivityComponent> extends C
     /**
      * Settings for sending local notification reminders.
      */
-    public static final String CHANNEL_ID = "com.brave.browser";
+    public static final String CHANNEL_ID = "com.presearch.browser";
 
     // Explicitly declare this variable to avoid build errors.
     // It will be removed in asm and parent variable will be used instead.
@@ -656,7 +656,7 @@ public abstract class BraveActivity<C extends ChromeActivityComponent> extends C
         if (tab == null)
             return;
 
-        // Set proper active DSE whenever brave returns to foreground.
+        // Set proper active DSE whenever presearch returns to foreground.
         // If active tab is private, set private DSE as an active DSE.
         BraveSearchEngineUtils.updateActiveDSE(tab.isIncognito());
         BraveStatsUtil.removeShareStatsFile();
@@ -669,8 +669,8 @@ public abstract class BraveActivity<C extends ChromeActivityComponent> extends C
         if (tab == null)
             return;
 
-        // Set normal DSE as an active DSE when brave goes in background
-        // because currently set DSE is used by outside of brave(ex, brave search widget).
+        // Set normal DSE as an active DSE when presearch goes in background
+        // because currently set DSE is used by outside of presearch(ex, presearch search widget).
         if (tab.isIncognito()) {
             BraveSearchEngineUtils.updateActiveDSE(false);
         }
@@ -826,7 +826,7 @@ public abstract class BraveActivity<C extends ChromeActivityComponent> extends C
             Tab tab = getActivityTab();
 
             if (tab != null) {
-                // if it's new tab add the brave news settings bar to the layout
+                // if it's new tab add the presearch news settings bar to the layout
                 if (tab != null && tab.getUrl().getSpec() != null
                         && UrlUtilities.isNTPUrl(tab.getUrl().getSpec())
                         && BravePrefServiceBridge.getInstance().getNewsOptIn()) {
