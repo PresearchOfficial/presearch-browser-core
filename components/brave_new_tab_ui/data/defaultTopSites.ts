@@ -30,7 +30,7 @@ export const defaultTopSitesData = [
   },
   {
     name: 'Play Store',
-    url: 'https://play.google.com/store/apps/details?id=com.brave.browser&hl=en_US',
+    url: 'https://play.google.com/store/apps/details?id=com.presearch.browser&hl=en_US',
     favicon: PlayStoreFavicon,
     background: 'rgba(255,255,255,0.8)'
   },

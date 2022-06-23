@@ -74,7 +74,7 @@ TEST_F(BraveExtensionsAPIClientTests, IsBraveProtectedUrlBinance) {
   WebRequestInfo blocked3(
       create_request_params("https://accounts.binance.com/fr/oauth/authorize"));
   WebRequestInfo blocked4(
-      create_request_params("com.brave.binance://authorization?code=Asv4EWY3"));
+      create_request_params("com.presearch.binance://authorization?code=Asv4EWY3"));
 
   ASSERT_TRUE(ShouldHideBrowserNetworkRequest(blocked1));
   ASSERT_TRUE(ShouldHideBrowserNetworkRequest(blocked2));
@@ -102,7 +102,7 @@ TEST_F(BraveExtensionsAPIClientTests, IsBraveProtectedUrlGemini) {
   WebRequestInfo blocked2(create_request_params(
       "https://exchange.gemini.com/auth/token"));
   WebRequestInfo blocked3(
-      create_request_params("com.brave.gemini://authorization?code=Sggjh9s"));
+      create_request_params("com.presearch.gemini://authorization?code=Sggjh9s"));
 
   ASSERT_TRUE(ShouldHideBrowserNetworkRequest(blocked1));
   ASSERT_TRUE(ShouldHideBrowserNetworkRequest(blocked2));

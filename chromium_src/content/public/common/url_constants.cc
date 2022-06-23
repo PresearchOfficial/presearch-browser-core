@@ -7,8 +7,8 @@
 
 namespace content {
 const char kBraveUIScheme[] = "brave";
-const char kBinanceScheme[] = "com.brave.binance";
-const char kGeminiScheme[] = "com.brave.gemini";
-const char kFTXScheme[] = "com.brave.ftx";
+const char kBinanceScheme[] = "com.presearch.binance";
+const char kGeminiScheme[] = "com.presearch.gemini";
+const char kFTXScheme[] = "com.presearch.ftx";
 }
 

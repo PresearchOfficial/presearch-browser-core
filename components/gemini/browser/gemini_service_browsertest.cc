@@ -328,7 +328,7 @@ IN_PROC_BROWSER_TEST_F(GeminiAPIBrowserTest, GetOAuthClientURL) {
     "https://exchange.gemini.com/auth?"
     "response_type=code&"
     "client_id=fake-client-id&"
-    "redirect_uri=com.brave.gemini%3A%2F%2Fauthorization&"
+    "redirect_uri=com.presearch.gemini%3A%2F%2Fauthorization&"
     "scope=addresses%3Aread%2Cbalances%3Aread%2Corders%3Acreate&"
     "code_challenge=da0KASk6XZX4ksgvIGAa87iwNSVvmWdys2GYh3kjBZw&"
     "code_challenge_method=S256&"

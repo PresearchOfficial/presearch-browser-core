@@ -30,7 +30,7 @@ describe('binance utilities tests', () => {
     })
 
     it('accepts an expected url', () => {
-      expect(binanceUtils.isValidClientURL('https://accounts.binance.com/en/oauth/authorize?response_type=code&client_id=some_id&redirect_uri=com.brave.binance%3A%2F%2Fauthorization&scope=user%3Aemail%2Cuser%3Aaddress%2Casset%3Abalance%2Casset%3Aocbs&code_challenge=code&code_challenge_method=S256')).toBe(true)
+      expect(binanceUtils.isValidClientURL('https://accounts.binance.com/en/oauth/authorize?response_type=code&client_id=some_id&redirect_uri=com.presearch.binance%3A%2F%2Fauthorization&scope=user%3Aemail%2Cuser%3Aaddress%2Casset%3Abalance%2Casset%3Aocbs&code_challenge=code&code_challenge_method=S256')).toBe(true)
     })
   })
 })

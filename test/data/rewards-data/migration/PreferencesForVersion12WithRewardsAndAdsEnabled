@@ -202,7 +202,7 @@
     "last_chrome_version": "79.1.2.42"
   },
   "gcm": {
-    "product_category_for_subtypes": "com.brave.macosx"
+    "product_category_for_subtypes": "com.presearch.macosx"
   },
   "google": {
     "services": {

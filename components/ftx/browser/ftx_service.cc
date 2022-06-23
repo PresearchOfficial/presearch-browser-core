@@ -35,7 +35,7 @@
 namespace {
 
 const char api_host[] = "ftx.com";
-const char oauth_callback[] = "com.brave.ftx://authorization";
+const char oauth_callback[] = "com.presearch.ftx://authorization";
 const unsigned int kRetriesCountOnNetworkChange = 1;
 
 net::NetworkTrafficAnnotationTag GetNetworkTrafficAnnotationTag() {
