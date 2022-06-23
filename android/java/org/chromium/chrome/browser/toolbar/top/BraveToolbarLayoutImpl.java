@@ -222,11 +222,11 @@ public abstract class BraveToolbarLayoutImpl extends ToolbarLayout
             mBraveShieldsButton.setOnLongClickListener(this);
         }
 
-        if (mBraveWalletButton != null) {
-            mBraveWalletButton.setClickable(true);
-            mBraveWalletButton.setOnClickListener(this);
-            mBraveWalletButton.setOnLongClickListener(this);
-        }
+        // if (mBraveWalletButton != null) {
+        //     mBraveWalletButton.setClickable(true);
+        //     mBraveWalletButton.setOnClickListener(this);
+        //     mBraveWalletButton.setOnLongClickListener(this);
+        // }
 
         mBraveShieldsHandler = new BraveShieldsHandler(getContext());
         mBraveShieldsHandler.addObserver(new BraveShieldsMenuObserver() {
