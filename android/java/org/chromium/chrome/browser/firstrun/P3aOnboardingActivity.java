@@ -54,16 +54,10 @@ public class P3aOnboardingActivity extends FirstRunActivityBase {
         boolean isFirstInstall = PackageUtils.isFirstInstall(this);
 
         TextView p3aOnboardingTitle = findViewById(R.id.p3a_onboarding_title);
-        p3aOnboardingTitle.setText(isFirstInstall
-                        ? getResources().getString(R.string.p3a_onboarding_title_text_1)
-                        : getResources().getString(R.string.p3a_onboarding_title_text_2));
+        p3aOnboardingTitle.setText(getResources().getString(R.string.p3a_onboarding_title_text_1));
         mIsP3aEnabled = true;
         ImageView p3aOnboardingImg = findViewById(R.id.p3a_onboarding_img);
-        p3aOnboardingImg.setImageResource(isFirstInstall
-                        ? R.drawable.ic_presearch_logo_borderless
-                        : (GlobalNightModeStateProviderHolder.getInstance().isInNightMode()
-                                        ? R.drawable.ic_spot_graphic_dark
-                                        : R.drawable.ic_spot_graphic));
+        p3aOnboardingImg.setImageResource(R.drawable.ic_presearch_logo_borderless);
         mBtnContinue = findViewById(R.id.btn_continue);
         mBtnContinue.setOnClickListener(new View.OnClickListener() {
             @Override
