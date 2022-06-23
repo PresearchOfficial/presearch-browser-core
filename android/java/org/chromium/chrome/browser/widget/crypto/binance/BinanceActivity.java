@@ -20,7 +20,7 @@ import org.chromium.components.embedder_support.util.UrlConstants;
 import java.util.List;
 
 public class BinanceActivity extends AsyncInitializationActivity {
-    private static final String REDIRECT_URI_ROOT = "com.brave.binance";
+    private static final String REDIRECT_URI_ROOT = "com.presearch.binance";
     private static final String CODE = "code";
 
     @Override
