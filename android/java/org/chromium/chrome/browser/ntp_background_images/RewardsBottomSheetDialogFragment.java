@@ -53,8 +53,8 @@ import org.chromium.chrome.browser.util.TabUtils;
 import org.chromium.ui.base.DeviceFormFactor;
 
 public class RewardsBottomSheetDialogFragment extends BottomSheetDialogFragment {
-    private static final String BRAVE_TERMS_PAGE = "https://basicattentiontoken.org/user-terms-of-service/";
-    private static final String BRAVE_REWARDS_LEARN_MORE = "https://brave.com/faq-rewards";
+    private static final String BRAVE_TERMS_PAGE = "https://presearch.com/terms";
+    private static final String BRAVE_REWARDS_LEARN_MORE = "https://support.presearch.org/";
 
     private int ntpType;
     private NewTabPageListener newTabPageListener;

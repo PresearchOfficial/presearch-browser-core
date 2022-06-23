@@ -57,13 +57,12 @@ void BraveAddLocalizedStrings(content::WebUIDataSource*, Profile*);
 namespace settings {
 
 const char16_t kWebRTCLearnMoreURL[] =
-    u"https://support.brave.com/hc/en-us/articles/"
-    u"360017989132-How-do-I-change-my-Privacy-Settings-#webrtc";
+    u"https://support.presearch.org/";
 const char16_t kBraveBuildInstructionsUrl[] =
-    u"https://github.com/brave/brave-browser/wiki";
+    u" https://support.presearch.org/";
 const char16_t kBraveLicenseUrl[] = u"https://mozilla.org/MPL/2.0/";
 const char16_t kBraveReleaseTagPrefix[] =
-    u"https://github.com/brave/brave-browser/releases/tag/v";
+    u"https://github.com/PresearchOfficial/presearch-browser-android/releases/tag/v";
 const char16_t kGoogleLoginLearnMoreURL[] =
     u"https://github.com/brave/brave-browser/wiki/"
     u"Allow-Google-login---Third-Parties-and-Extensions";
@@ -73,9 +72,9 @@ const char16_t kUnstoppableDomainsLearnMoreURL[] =
     u"https://github.com/brave/brave-browser/wiki/"
     u"Resolve-Methods-for-Unstoppable-Domains";
 const char16_t kBraveAdsLearnMoreURL[] =
-    u"https://support.brave.com/hc/en-us/articles/360026361072-Brave-Ads-FAQ";
-const char16_t kBraveTermsOfUseURL[] = u"https://brave.com/terms-of-use/";
-const char16_t kBravePrivacyPolicyURL[] = u"https://brave.com/privacy/browser/";
+    u" https://support.presearch.org/";
+const char16_t kBraveTermsOfUseURL[] = u"https://presearch.com/terms";
+const char16_t kBravePrivacyPolicyURL[] = u"https://presearch.com/privacy";
 
 void BraveAddCommonStrings(content::WebUIDataSource* html_source,
                            Profile* profile) {
