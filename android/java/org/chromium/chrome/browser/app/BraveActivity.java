@@ -193,6 +193,7 @@ import java.util.concurrent.CopyOnWriteArrayList;
 import java.io.InputStream;
 import java.io.ByteArrayOutputStream;
 import java.io.FileOutputStream;
+import java.io.File;
 
 /**
  * Brave's extension for ChromeActivity
