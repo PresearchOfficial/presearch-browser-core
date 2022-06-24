@@ -605,7 +605,7 @@ public abstract class BraveActivity<C extends ChromeActivityComponent> extends C
             loadAdblockFilter(R.raw.regional_catalog_json, "regional_catalog.json");
             loadAdblockFilter(R.raw.resources_json,  "resources.json" );
             loadAdblockFilter(R.raw.manifest_json, "manifest.json");
-            loadAdblockFilter(R.raw.manifest_fingeprint, "manifest.fingerprint");
+            loadAdblockFilter(R.raw.manifest_fingerprint, "manifest.fingerprint");
         }
     }
 

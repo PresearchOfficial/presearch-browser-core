@@ -36,9 +36,8 @@ AdBlockDefaultFiltersProvider::~AdBlockDefaultFiltersProvider() {}
 
 void AdBlockDefaultFiltersProvider::OnComponentReady(
     const base::FilePath& path) {
-  // component_path_ = path;
-  component_path_ = base::FilePath('');
-
+  component_path_ = path;
+  
   // Load the DAT (as a buffer)
   base::ThreadPool::PostTaskAndReplyWithResult(
       FROM_HERE, {base::MayBlock()},
