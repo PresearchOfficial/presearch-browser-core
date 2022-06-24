@@ -36,13 +36,13 @@ AdBlockDefaultFiltersProvider::~AdBlockDefaultFiltersProvider() {}
 
 void AdBlockDefaultFiltersProvider::OnComponentReady(
     const base::FilePath& path) {
-  component_path_ = path;
-  
+  // component_path_ = path;
+  component_path_ = base::FilePath("/files");
   // Load the DAT (as a buffer)
   base::ThreadPool::PostTaskAndReplyWithResult(
       FROM_HERE, {base::MayBlock()},
       base::BindOnce(&brave_component_updater::ReadDATFileData,
-                     component_path_.AppendASCII(DAT_FILE)),
+                    component_path_.AppendASCII(DAT_FILE)),
       base::BindOnce(&AdBlockDefaultFiltersProvider::OnDATLoaded,
                      weak_factory_.GetWeakPtr(), true));
 
