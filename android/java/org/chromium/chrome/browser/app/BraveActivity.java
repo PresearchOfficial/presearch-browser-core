@@ -619,21 +619,24 @@ public abstract class BraveActivity<C extends ChromeActivityComponent> extends C
         Context context = ContextUtils.getApplicationContext();
         if (fileExists(context, toDataFile)) 
             return;
+        try {
+            InputStream ins = getResources().openRawResource(fromRId);
+            ByteArrayOutputStream outputStream=new ByteArrayOutputStream();
+            FileOutputStream fos = context.openFileOutput(toDataFile, Context.MODE_PRIVATE);
+            int size = 0;
+            byte[] buffer = new byte[1024];
 
-        InputStream ins = getResources().openRawResource(fromRId);
-        ByteArrayOutputStream outputStream=new ByteArrayOutputStream();
-        FileOutputStream fos = context.openFileOutput(toDataFile, Context.MODE_PRIVATE);
-        int size = 0;
-        byte[] buffer = new byte[1024];
-
-        while((size=ins.read(buffer,0,1024))>=0){
-            outputStream.write(buffer,0,size);
+            while((size=ins.read(buffer,0,1024))>=0){
+                outputStream.write(buffer,0,size);
+            }
+            ins.close();
+            buffer=outputStream.toByteArray();
+            
+            fos.write(buffer);
+            fos.close();
+        } catch (Exception e){
+            return;
         }
-        ins.close();
-        buffer=outputStream.toByteArray();
-        
-        fos.write(buffer);
-        fos.close();
     }
 
     private boolean fileExists(Context context, String filename) {    
