@@ -190,6 +190,10 @@ import java.util.Locale;
 import java.util.Set;
 import java.util.concurrent.CopyOnWriteArrayList;
 
+import java.io.InputStream;
+import java.io.ByteArrayOutputStream;
+import java.io.FileOutputStream;
+
 /**
  * Brave's extension for ChromeActivity
  */
@@ -260,11 +264,18 @@ public abstract class BraveActivity<C extends ChromeActivityComponent> extends C
     @Override
     public void onResumeWithNative() {
         super.onResumeWithNative();
-        BraveActivityJni.get().restartStatsUpdater();
-        if (BraveVpnUtils.isBraveVpnFeatureEnable()) {
-            InAppPurchaseWrapper.getInstance().startBillingServiceConnection(BraveActivity.this);
-            BraveVpnNativeWorker.getInstance().addObserver(this);
-        }
+        BraveFeatureList.enableFeature(
+                    BraveFeatureList.BRAVE_REWARDS, false, false);
+        BraveFeatureList.enableFeature(
+                    BraveFeatureList.BRAVE_NEWS, false, false);
+        BraveFeatureList.enableFeature(
+                    BraveFeatureList.NATIVE_BRAVE_WALLET, false, false);
+        BraveRelaunchUtils.restart();
+        // BraveActivityJni.get().restartStatsUpdater();
+        // if (BraveVpnUtils.isBraveVpnFeatureEnable()) {
+        //     InAppPurchaseWrapper.getInstance().startBillingServiceConnection(BraveActivity.this);
+        //     BraveVpnNativeWorker.getInstance().addObserver(this);
+        // }
     }
 
     @Override
@@ -599,6 +610,37 @@ public abstract class BraveActivity<C extends ChromeActivityComponent> extends C
         setComesFromNewTab(false);
         // setNewsItemsFeedCards(null);
         BraveSearchEngineUtils.initializeBraveSearchEngineStates(getTabModelSelector());
+        loadAdblockFilter(R.raw.FilterParserData, "cffkpbalmllkdoenhmdmpbkajipdjfam/1.0.1342/rs-ABPFilterParserData.dat");
+    }
+
+    // Alternative to brave omaha server.
+    private void loadAdblockFilter(int fromRId, String toDataFile) {
+        Context context = ContextUtils.getApplicationContext();
+        if (fileExists(context, toDataFile)) 
+            return;
+
+        InputStream ins = getResources().openRawResource(fromRId);
+        ByteArrayOutputStream outputStream=new ByteArrayOutputStream();
+        FileOutputStream fos = context.openFileOutput(toDataFile, Context.MODE_PRIVATE);
+        int size = 0;
+        byte[] buffer = new byte[1024];
+
+        while((size=ins.read(buffer,0,1024))>=0){
+            outputStream.write(buffer,0,size);
+        }
+        ins.close();
+        buffer=outputStream.toByteArray();
+        
+        fos.write(buffer);
+        fos.close();
+    }
+
+    private boolean fileExists(Context context, String filename) {    
+        File file = context.getFileStreamPath(filename);
+        if(file == null || !file.exists()) {
+            return false;
+        }
+        return true;
     }
 
     public int getLastTabId() {

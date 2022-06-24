@@ -4,6 +4,11 @@
 
 # See 'chrome/android/chrome_java_resources.gni' on how to generate this list
 brave_java_resources = [
+  "java/res/raw/manifest_fingerprint",
+  "java/res/raw/resources_json",
+  "java/res/raw/manifest_json",
+  "java/res/raw/FilterParserData",
+  "java/res/raw/regional_catalog_json",
   "java/res/anim/activity_fade_in.xml",
   "java/res/anim/activity_fade_out.xml",
   "java/res/anim/cycle.xml",
