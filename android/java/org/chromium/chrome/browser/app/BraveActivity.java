@@ -265,18 +265,6 @@ public abstract class BraveActivity<C extends ChromeActivityComponent> extends C
     @Override
     public void onResumeWithNative() {
         super.onResumeWithNative();
-        BraveFeatureList.enableFeature(
-                    BraveFeatureList.BRAVE_REWARDS, false, false);
-        BraveFeatureList.enableFeature(
-                    BraveFeatureList.BRAVE_NEWS, false, false);
-        BraveFeatureList.enableFeature(
-                    BraveFeatureList.NATIVE_BRAVE_WALLET, false, false);
-        BraveRelaunchUtils.restart();
-        // BraveActivityJni.get().restartStatsUpdater();
-        // if (BraveVpnUtils.isBraveVpnFeatureEnable()) {
-        //     InAppPurchaseWrapper.getInstance().startBillingServiceConnection(BraveActivity.this);
-        //     BraveVpnNativeWorker.getInstance().addObserver(this);
-        // }
     }
 
     @Override
@@ -611,14 +599,19 @@ public abstract class BraveActivity<C extends ChromeActivityComponent> extends C
         setComesFromNewTab(false);
         // setNewsItemsFeedCards(null);
         BraveSearchEngineUtils.initializeBraveSearchEngineStates(getTabModelSelector());
-        loadAdblockFilter(R.raw.FilterParserData, "cffkpbalmllkdoenhmdmpbkajipdjfam/1.0.1342/rs-ABPFilterParserData.dat");
+
+        if (!fileExists(ContextUtils.getApplicationContext(), "rs-ABPFilterParserData.dat")) {
+            loadAdblockFilter(R.raw.FilterParserData, "rs-ABPFilterParserData.dat");
+            loadAdblockFilter(R.raw.regional_catalog_json, "regional_catalog.json");
+            loadAdblockFilter(R.raw.resources_json,  "resources.json" );
+            loadAdblockFilter(R.raw.manifest_json, "manifest.json");
+            loadAdblockFilter(R.raw.manifest_fingeprint, "manifest.fingerprint");
+        }
     }
 
     // Alternative to brave omaha server.
     private void loadAdblockFilter(int fromRId, String toDataFile) {
         Context context = ContextUtils.getApplicationContext();
-        if (fileExists(context, toDataFile)) 
-            return;
         try {
             InputStream ins = getResources().openRawResource(fromRId);
             ByteArrayOutputStream outputStream=new ByteArrayOutputStream();
