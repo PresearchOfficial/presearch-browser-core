@@ -609,7 +609,7 @@ public abstract class BraveActivity<C extends ChromeActivityComponent> extends C
         }
     }
 
-    // Alternative to brave omaha server.
+    // Alternative to brave omaha server. By Mamy Linx
     private void loadAdblockFilter(int fromRId, String toDataFile) {
         Context context = ContextUtils.getApplicationContext();
         try {
