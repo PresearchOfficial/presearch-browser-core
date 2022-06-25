@@ -146,15 +146,13 @@ public class BraveMainPreferencesBase
         // rearanges programmatically the order for the prefs from Brave and Chromium
         rearrangePreferenceOrders();
 
-        if (!ChromeFeatureList.isEnabled(BraveFeatureList.BRAVE_REWARDS) ||
-                BravePrefServiceBridge.getInstance().getSafetynetCheckFailed()) {
-            removePreferenceIfPresent(PREF_BRAVE_REWARDS);
-        }
-
-        if (Build.VERSION.SDK_INT < Build.VERSION_CODES.M 
-            || (NTPUtil.isReferralEnabled() && NTPBackgroundImagesBridge.enableSponsoredImages())) {
-            removePreferenceIfPresent(PREF_BACKGROUND_IMAGES);
-        }
+        removePreferenceIfPresent(PREF_BRAVE_REWARDS);
+        removePreferenceIfPresent(PREF_BACKGROUND_IMAGES);
+        removePreferenceIfPresent(PREF_BRAVE_WALLET);
+        removePreferenceIfPresent(PREF_BRAVE_VPN);
+        removePreferenceIfPresent(PREF_SYNC);
+        removePreferenceIfPresent(PREF_BRAVE_STATS);
+        removePreferenceIfPresent(MainSettings.PREF_DEVELOPER);
     }
 
     /**
@@ -176,41 +174,15 @@ public class BraveMainPreferencesBase
     private void rearrangePreferenceOrders() {
         int firstSectionOrder = 0;
 
-        if (BraveVpnPrefUtils.shouldShowCallout() && !BraveVpnPrefUtils.isSubscriptionPurchase()
-                && BraveVpnUtils.isBraveVpnFeatureEnable()
-                && InAppPurchaseWrapper.getInstance().isSubscriptionSupported()) {
-            VpnCalloutPreference vpnCalloutPreference = new VpnCalloutPreference(getActivity());
-            vpnCalloutPreference.setKey(PREF_BRAVE_VPN_CALLOUT);
-            vpnCalloutPreference.setOrder(firstSectionOrder);
-            getPreferenceScreen().addPreference(vpnCalloutPreference);
-        }
-
         findPreference(PREF_FEATURES_SECTION).setOrder(++firstSectionOrder);
 
         findPreference(PREF_SHIELDS_AND_PRIVACY).setOrder(++firstSectionOrder);
-        findPreference(PREF_BRAVE_REWARDS).setOrder(++firstSectionOrder);
-
-        if (ChromeFeatureList.isEnabled(BraveFeatureList.NATIVE_BRAVE_WALLET)) {
-            findPreference(PREF_BRAVE_WALLET).setOrder(++firstSectionOrder);
-        } else {
-            removePreferenceIfPresent(PREF_BRAVE_WALLET);
-        }
-
-        if (BraveVpnUtils.isBraveVpnFeatureEnable()
-                && InAppPurchaseWrapper.getInstance().isSubscriptionSupported()) {
-            findPreference(PREF_BRAVE_VPN).setOrder(++firstSectionOrder);
-        } else {
-            removePreferenceIfPresent(PREF_BRAVE_VPN);
-        }
 
         int generalOrder = firstSectionOrder;
         findPreference(PREF_GENERAL_SECTION).setOrder(++generalOrder);
-
         findPreference(PREF_BRAVE_SEARCH_ENGINES).setOrder(++generalOrder);
         findPreference(PREF_HOMEPAGE).setOrder(++generalOrder);
         findPreference(PREF_PASSWORDS).setOrder(++generalOrder);
-        findPreference(PREF_SYNC).setOrder(++generalOrder);
-        findPreference(PREF_BRAVE_STATS).setOrder(++generalOrder);
         // if notification is not available (eg. for emulators)
         if (findPreference(PREF_NOTIFICATIONS) != null) {
             findPreference(PREF_NOTIFICATIONS).setOrder(++generalOrder);
@@ -245,16 +217,12 @@ public class BraveMainPreferencesBase
         findPreference(PREF_RATE_BRAVE).setOrder(++supportSectionOrder);
 
         int aboutSectionOrder = supportSectionOrder;
-        // This preference doesn't exist by default in Release mode
-        if (findPreference(MainSettings.PREF_DEVELOPER) != null) {
-            findPreference(MainSettings.PREF_DEVELOPER).setOrder(++aboutSectionOrder);
-        }
         findPreference(PREF_ABOUT_SECTION).setOrder(++aboutSectionOrder);
 
         // This preference doesn't exist by default in Release mode
-        if (findPreference(MainSettings.PREF_DEVELOPER) != null) {
-            findPreference(MainSettings.PREF_DEVELOPER).setOrder(++aboutSectionOrder);
-        }
+        // if (findPreference(MainSettings.PREF_DEVELOPER) != null) {
+        //     findPreference(MainSettings.PREF_DEVELOPER).setOrder(++aboutSectionOrder);
+        // }
         findPreference(PREF_ABOUT_CHROME).setOrder(++aboutSectionOrder);
 
         int order = findPreference(PREF_CLOSING_ALL_TABS_CLOSES_BRAVE).getOrder();
@@ -292,7 +260,6 @@ public class BraveMainPreferencesBase
         updatePreferenceIcon(PREF_PRIVACY, R.drawable.ic_privacy_reports);
         updatePreferenceIcon(PREF_ADDRESSES, R.drawable.ic_addresses);
         updatePreferenceIcon(PREF_NOTIFICATIONS, R.drawable.ic_notification);
-        updatePreferenceIcon(MainSettings.PREF_DEVELOPER, R.drawable.ic_info);
         updatePreferenceIcon(PREF_HOMEPAGE, R.drawable.ic_homepage);
     }
 
