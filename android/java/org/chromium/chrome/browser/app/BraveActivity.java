@@ -263,11 +263,6 @@ public abstract class BraveActivity<C extends ChromeActivityComponent> extends C
     }
 
     @Override
-    public void onResumeWithNative() {
-        super.onResumeWithNative();
-    }
-
-    @Override
     public void onPauseWithNative() {
         if (BraveVpnUtils.isBraveVpnFeatureEnable()) {
             BraveVpnNativeWorker.getInstance().removeObserver(this);
