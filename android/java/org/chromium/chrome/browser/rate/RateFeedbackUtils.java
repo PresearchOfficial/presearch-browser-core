@@ -34,7 +34,7 @@ import java.nio.charset.StandardCharsets;
 
 public class RateFeedbackUtils {
     private static final String TAG = "Rate_Brave";
-    private static final String RATE_URL = "https://laptop-updates.brave.com/1/feedback";
+    private static final String RATE_URL = "";
 
     public interface RateFeedbackCallback {
         void rateFeedbackSubmitted();
