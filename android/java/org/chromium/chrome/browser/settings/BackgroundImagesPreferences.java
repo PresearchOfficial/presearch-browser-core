@@ -54,6 +54,33 @@ public class BackgroundImagesPreferences
         if (preference != null) getPreferenceScreen().removePreference(preference);
     }
 
+    @Override
+    public void onActivityCreated(Bundle savedInstanceState) {
+        super.onActivityCreated(savedInstanceState);
+        showBackgroundImagesPref = (ChromeSwitchPreference) findPreference(PREF_SHOW_BACKGROUND_IMAGES);
+        if (showBackgroundImagesPref != null) {
+            showBackgroundImagesPref.setEnabled(false);
+            showBackgroundImagesPref.setChecked(false);
+            showBackgroundImagesPref.setOnPreferenceChangeListener(this);
+        }
+        showSponsoredImagesPref = (ChromeSwitchPreference) findPreference(PREF_SHOW_SPONSORED_IMAGES);
+        if (showSponsoredImagesPref != null) {
+            showSponsoredImagesPref.setEnabled(false);
+            showSponsoredImagesPref.setChecked(false);
+            showSponsoredImagesPref.setOnPreferenceChangeListener(this);
+        }
+    }
+
+    @Override
+    public boolean onPreferenceChange(Preference preference, Object newValue) {
+        if (PREF_SHOW_BACKGROUND_IMAGES.equals(preference.getKey()) && showSponsoredImagesPref != null) {
+            showSponsoredImagesPref.setEnabled(false);
+        }
+        setOnPreferenceValue(preference.getKey(), (boolean)newValue);
+        BraveRelaunchUtils.askForRelaunch(getActivity());
+        return true;
+    }
+
     public static void setOnPreferenceValue(String preferenceName, boolean newValue) {
         if (PREF_SHOW_BACKGROUND_IMAGES.equals(preferenceName)) {
             UserPrefs.get(Profile.getLastUsedRegularProfile()).setBoolean(BravePref.NEW_TAB_PAGE_SHOW_BACKGROUND_IMAGE, newValue);
