@@ -123,7 +123,6 @@ void AdBlockComponentInstallerPolicy::ComponentReady(
 bool AdBlockComponentInstallerPolicy::VerifyInstallation(
     const base::Value& manifest,
     const base::FilePath& install_dir) const {
-  LOG(ERROR) << "Mamy Linx" << install_dir;
   return true;
 }
 
