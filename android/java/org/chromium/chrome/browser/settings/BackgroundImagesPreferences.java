@@ -45,41 +45,13 @@ public class BackgroundImagesPreferences
         super.onCreate(savedInstanceState);
         getActivity().setTitle(R.string.prefs_new_tab_page);
         SettingsUtils.addPreferencesFromResource(this, R.xml.background_images_preferences);
-        if (!NTPBackgroundImagesBridge.enableSponsoredImages()) {
-            removePreferenceIfPresent(PREF_SHOW_SPONSORED_IMAGES);
-        }
+        removePreferenceIfPresent(PREF_SHOW_SPONSORED_IMAGES);
+        removePreferenceIfPresent(PREF_SHOW_BACKGROUND_IMAGES);
     }
 
     private void removePreferenceIfPresent(String key) {
         Preference preference = getPreferenceScreen().findPreference(key);
         if (preference != null) getPreferenceScreen().removePreference(preference);
-    }
-
-    @Override
-    public void onActivityCreated(Bundle savedInstanceState) {
-        super.onActivityCreated(savedInstanceState);
-        showBackgroundImagesPref = (ChromeSwitchPreference) findPreference(PREF_SHOW_BACKGROUND_IMAGES);
-        if (showBackgroundImagesPref != null) {
-            showBackgroundImagesPref.setEnabled(true);
-            showBackgroundImagesPref.setChecked(UserPrefs.get(Profile.getLastUsedRegularProfile()).getBoolean(BravePref.NEW_TAB_PAGE_SHOW_BACKGROUND_IMAGE));
-            showBackgroundImagesPref.setOnPreferenceChangeListener(this);
-        }
-        showSponsoredImagesPref = (ChromeSwitchPreference) findPreference(PREF_SHOW_SPONSORED_IMAGES);
-        if (showSponsoredImagesPref != null) {
-            showSponsoredImagesPref.setEnabled(UserPrefs.get(Profile.getLastUsedRegularProfile()).getBoolean(BravePref.NEW_TAB_PAGE_SHOW_BACKGROUND_IMAGE));
-            showSponsoredImagesPref.setChecked(UserPrefs.get(Profile.getLastUsedRegularProfile()).getBoolean(BravePref.NEW_TAB_PAGE_SHOW_SPONSORED_IMAGES_BACKGROUND_IMAGE));
-            showSponsoredImagesPref.setOnPreferenceChangeListener(this);
-        }
-    }
-
-    @Override
-    public boolean onPreferenceChange(Preference preference, Object newValue) {
-        if (PREF_SHOW_BACKGROUND_IMAGES.equals(preference.getKey()) && showSponsoredImagesPref != null) {
-            showSponsoredImagesPref.setEnabled((boolean)newValue);
-        }
-        setOnPreferenceValue(preference.getKey(), (boolean)newValue);
-        BraveRelaunchUtils.askForRelaunch(getActivity());
-        return true;
     }
 
     public static void setOnPreferenceValue(String preferenceName, boolean newValue) {

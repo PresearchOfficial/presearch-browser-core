@@ -290,9 +290,9 @@ public class BraveNewTabPageLayout extends NewTabPageLayout implements Connectio
     @Override
     protected void onAttachedToWindow() {
         super.onAttachedToWindow();
-        if (sponsoredTab == null) {
-            initilizeSponsoredTab();
-        }
+        // if (sponsoredTab == null) {
+        //     initilizeSponsoredTab();
+        // }
         // checkAndShowNTPImage(false);
         mNTPBackgroundImagesBridge.addObserver(mNTPBackgroundImageServiceObserver);
         
