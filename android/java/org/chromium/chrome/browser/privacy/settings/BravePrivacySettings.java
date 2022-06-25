@@ -477,30 +477,30 @@ public class BravePrivacySettings extends PrivacySettings {
 
 	// disable and remove P3A sending data
 	mSendP3A.setChecked(false);
-	removePreferenceIfPresent(mSendP3A);
+	removePreferenceIfPresent(PREF_SEND_P3A);
 	// Dont send crash report
 	mSendCrashReports.setChecked(false);
-	removePreferenceIfPresent(mSendCrashReports);
+	removePreferenceIfPresent(PREF_SEND_CRASH_REPORTS);
 	// Dont share usage data
 	mBraveStatsUsagePing.setChecked(false);
-	removePreferenceIfPresent(mBraveStatsUsagePing);
+	removePreferenceIfPresent(PREF_BRAVE_STATS_USAGE_PING);
 
 	mWebrtcPolicy.setSummary(
 		webrtcPolicyToString(BravePrefServiceBridge.getInstance().getWebrtcPolicy()));
 
 	mAutocompleteTopSites.setChecked(false);
-	removePreferenceIfPresent(mAutocompleteTopSites);
+	removePreferenceIfPresent(PREF_AUTOCOMPLETE_TOP_SITES);
 	mAutocompleteBraveSuggestedSites.setChecked(false);
-	removePreferenceIfPresent(mAutocompleteBraveSuggestedSites);
+	removePreferenceIfPresent(PREF_AUTOCOMPLETE_BRAVE_SUGGESTED_SITES);
 
 	mClearBrowsingDataOnExit.setChecked(
 		sharedPreferences.getBoolean(PREF_CLEAR_ON_EXIT, false));
 
 	boolean autocompleteEnabled = false;
 	mShowAutocompleteInAddressBar.setChecked(autocompleteEnabled);
-	removePreferenceIfPresent(mShowAutocompleteInAddressBar);
+	removePreferenceIfPresent(PREF_SHOW_AUTOCOMPLETE_IN_ADDRESS_BAR);
 	mSearchSuggestions.setEnabled(autocompleteEnabled);
-	removePreferenceIfPresent(mSearchSuggestions);
+	removePreferenceIfPresent(PREF_SEARCH_SUGGESTIONS);
 	mAutocompleteTopSites.setEnabled(autocompleteEnabled);
 	mAutocompleteBraveSuggestedSites.setEnabled(autocompleteEnabled);
     }
