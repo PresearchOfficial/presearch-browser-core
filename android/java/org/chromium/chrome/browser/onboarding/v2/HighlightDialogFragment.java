@@ -174,13 +174,6 @@ public class HighlightDialogFragment extends DialogFragment {
         @Override
         public void onNextPage() {
             if (viewpager != null) {
-                if (!OnboardingPrefManager.getInstance().isBraveStatsEnabled()) {
-                    OnboardingPrefManager.getInstance().setBraveStatsEnabled(true);
-                    RetentionNotificationUtil.scheduleNotificationForEverySunday(getActivity(), RetentionNotificationUtil.EVERY_SUNDAY);
-                    if (onboardingV2PagerAdapter != null) {
-                        onboardingV2PagerAdapter.notifyDataSetChanged();
-                    }
-                }
                 int currentPage = viewpager.getCurrentItem();
                 if ((OnboardingPrefManager.getInstance().isBraveStatsEnabled() && currentPage == 2)
                         || currentPage == 3

@@ -895,23 +895,12 @@ public abstract class BraveActivity<C extends ChromeActivityComponent> extends C
                         BraveVpnUtils.SUBSCRIPTION_PARAM_TEXT, getPackageName());
             }
         }
-        if (PackageUtils.isFirstInstall(this)
-                && (OnboardingPrefManager.getInstance().isDormantUsersEngagementEnabled()
-                        || getPackageName().equals(BRAVE_PRODUCTION_PACKAGE_NAME))) {
-            OnboardingPrefManager.getInstance().setDormantUsersPrefs();
-            if (!OnboardingPrefManager.getInstance().isDormantUsersNotificationsStarted()) {
-                RetentionNotificationUtil.scheduleDormantUsersNotifications(this);
-                OnboardingPrefManager.getInstance().setDormantUsersNotificationsStarted(true);
-            }
-        }
         InitBraveWalletService();
         InitKeyringService();
         InitJsonRpcService();
     }
 
     public void setDormantUsersPrefs() {
-        OnboardingPrefManager.getInstance().setDormantUsersPrefs();
-        RetentionNotificationUtil.scheduleDormantUsersNotifications(this);
     }
 
     private void showVpnCalloutDialog() {
@@ -1077,31 +1066,6 @@ public abstract class BraveActivity<C extends ChromeActivityComponent> extends C
         if (notifIntent != null && notifIntent.getStringExtra(RetentionNotificationUtil.NOTIFICATION_TYPE) != null) {
             String notificationType = notifIntent.getStringExtra(RetentionNotificationUtil.NOTIFICATION_TYPE);
             switch (notificationType) {
-            case RetentionNotificationUtil.HOUR_3:
-            case RetentionNotificationUtil.HOUR_24:
-            case RetentionNotificationUtil.EVERY_SUNDAY:
-                checkForBraveStats();
-                break;
-            case RetentionNotificationUtil.DAY_6:
-            case RetentionNotificationUtil.BRAVE_STATS_ADS_TRACKERS:
-            case RetentionNotificationUtil.BRAVE_STATS_DATA:
-            case RetentionNotificationUtil.BRAVE_STATS_TIME:
-                if (getActivityTab() != null && getActivityTab().getUrl().getSpec() != null
-                        && !UrlUtilities.isNTPUrl(getActivityTab().getUrl().getSpec())) {
-                    getTabCreator(false).launchUrl(
-                            UrlConstants.NTP_URL, TabLaunchType.FROM_CHROME_UI);
-                }
-                break;
-            case RetentionNotificationUtil.DAY_10:
-            case RetentionNotificationUtil.DAY_30:
-            case RetentionNotificationUtil.DAY_35:
-                openRewardsPanel();
-                break;
-            case RetentionNotificationUtil.DORMANT_USERS_DAY_14:
-            case RetentionNotificationUtil.DORMANT_USERS_DAY_25:
-            case RetentionNotificationUtil.DORMANT_USERS_DAY_40:
-                showDormantUsersEngagementDialog(notificationType);
-                break;
             case RetentionNotificationUtil.DEFAULT_BROWSER_1:
             case RetentionNotificationUtil.DEFAULT_BROWSER_2:
             case RetentionNotificationUtil.DEFAULT_BROWSER_3:
@@ -1169,8 +1133,8 @@ public abstract class BraveActivity<C extends ChromeActivityComponent> extends C
         // Create the NotificationChannel, but only on API 26+ because
         // the NotificationChannel class is new and not in the support library
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O) {
-            CharSequence name = "Brave Browser";
-            String description = "Notification channel for Brave Browser";
+            CharSequence name = "Presearch Browser";
+            String description = "Notification channel for Presearch Browser";
             int importance = NotificationManager.IMPORTANCE_DEFAULT;
             NotificationChannel channel = new NotificationChannel(CHANNEL_ID, name, importance);
             channel.setDescription(description);

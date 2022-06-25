@@ -59,9 +59,7 @@ public class AppearancePreferences extends BravePreferenceFragment
             removePreferenceIfPresent(PREF_UI_THEME);
         }
 
-        if (!ChromeFeatureList.isEnabled(BraveFeatureList.BRAVE_REWARDS)) {
-            removePreferenceIfPresent(PREF_SHOW_BRAVE_REWARDS_ICON);
-        }
+        removePreferenceIfPresent(PREF_SHOW_BRAVE_REWARDS_ICON);
     }
 
     @Override
@@ -81,7 +79,7 @@ public class AppearancePreferences extends BravePreferenceFragment
         if (showBraveRewardsIconPref != null) {
             SharedPreferences sharedPreferences = ContextUtils.getAppSharedPreferences();
             showBraveRewardsIconPref.setChecked(
-                    sharedPreferences.getBoolean(PREF_SHOW_BRAVE_REWARDS_ICON, true));
+                    sharedPreferences.getBoolean(PREF_SHOW_BRAVE_REWARDS_ICON, false));
             showBraveRewardsIconPref.setOnPreferenceChangeListener(this);
         }
 
@@ -157,7 +155,7 @@ public class AppearancePreferences extends BravePreferenceFragment
         } else if (PREF_SHOW_BRAVE_REWARDS_ICON.equals(key)) {
             SharedPreferences sharedPreferences = ContextUtils.getAppSharedPreferences();
             SharedPreferences.Editor sharedPreferencesEditor = sharedPreferences.edit();
-            sharedPreferencesEditor.putBoolean(PREF_SHOW_BRAVE_REWARDS_ICON, !(boolean) newValue);
+            sharedPreferencesEditor.putBoolean(PREF_SHOW_BRAVE_REWARDS_ICON, false);
             sharedPreferencesEditor.apply();
             BraveRelaunchUtils.askForRelaunch(getActivity());
         } else if (PREF_BRAVE_NIGHT_MODE_ENABLED.equals(key)) {

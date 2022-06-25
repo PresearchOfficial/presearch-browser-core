@@ -28,16 +28,6 @@ public final class BravePackageReplacedBroadcastReceiver extends BroadcastReceiv
         BraveUpgradeJobIntentServiceImpl.maybePerformUpgradeTasks(context);
         try {
             SharedPreferencesManager.getInstance().writeInt(BravePreferenceKeys.BRAVE_APP_OPEN_COUNT, 0);
-            // Set dormant users notifications
-            if (OnboardingPrefManager.getInstance().isDormantUsersEngagementEnabled()
-                    || context.getPackageName().equals(
-                            BraveActivity.BRAVE_PRODUCTION_PACKAGE_NAME)) {
-                OnboardingPrefManager.getInstance().setDormantUsersPrefs();
-                if (!OnboardingPrefManager.getInstance().isDormantUsersNotificationsStarted()) {
-                    RetentionNotificationUtil.scheduleDormantUsersNotifications(context);
-                    OnboardingPrefManager.getInstance().setDormantUsersNotificationsStarted(true);
-                }
-            }
         } catch (Exception exc) {
             // Sometimes the pref is not registered yet in the app
         }

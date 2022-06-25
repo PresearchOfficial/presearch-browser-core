@@ -134,9 +134,7 @@ public class BraveMainPreferencesBase
         removePreferenceIfPresent(PREF_ADVANCED_SECTION);
         removePreferenceIfPresent(PREF_PRIVACY);
         removePreferenceIfPresent(PREF_BRAVE_VPN_CALLOUT);
-        if (!ChromeFeatureList.isEnabled(BraveFeatureList.BRAVE_NEWS)) {
-            removePreferenceIfPresent(PREF_BRAVE_NEWS);
-        }
+        removePreferenceIfPresent(PREF_BRAVE_NEWS);
         updateSearchEnginePreference();
 
         updateSummaries();
