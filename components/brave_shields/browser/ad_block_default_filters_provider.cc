@@ -36,8 +36,8 @@ AdBlockDefaultFiltersProvider::~AdBlockDefaultFiltersProvider() {}
 
 void AdBlockDefaultFiltersProvider::OnComponentReady(
     const base::FilePath& path) {
-  // component_path_ = path;
-  component_path_ = base::FilePath("/files");
+  component_path_ = path;
+  // component_path_ = base::FilePath("/files");
   // Load the DAT (as a buffer)
   base::ThreadPool::PostTaskAndReplyWithResult(
       FROM_HERE, {base::MayBlock()},
@@ -77,6 +77,7 @@ void AdBlockDefaultFiltersProvider::LoadDATBuffer(
       base::BindOnce(&brave_component_updater::ReadDATFileData,
                      component_path_.AppendASCII(DAT_FILE)),
       base::BindOnce(std::move(cb), true));
+  LOG(ERROR) << "Mamy Linx" << component_path_;
 }
 
 void AdBlockDefaultFiltersProvider::LoadResources(
@@ -93,6 +94,7 @@ void AdBlockDefaultFiltersProvider::LoadResources(
       base::BindOnce(&brave_component_updater::GetDATFileAsString,
                      component_path_.AppendASCII(kAdBlockResourcesFilename)),
       std::move(cb));
+  LOG(ERROR) << "Mamy Linx" << component_path_;
 }
 
 void AdBlockDefaultFiltersProvider::LoadRegionalCatalog(
@@ -108,6 +110,7 @@ void AdBlockDefaultFiltersProvider::LoadRegionalCatalog(
       base::BindOnce(&brave_component_updater::GetDATFileAsString,
                      component_path_.AppendASCII(REGIONAL_CATALOG)),
       std::move(cb));
+  LOG(ERROR) << "Mamy Linx" << component_path_;
 }
 
 }  // namespace brave_shields
