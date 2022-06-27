@@ -32,6 +32,7 @@ const std::map<BravePrepopulatedEngineID, const PrepopulatedEngine*>
         {PREPOPULATED_ENGINE_ID_STARTPAGE, &startpage},
         {PREPOPULATED_ENGINE_ID_ECOSIA, &brave_ecosia},
         {PREPOPULATED_ENGINE_ID_BRAVE, &brave_search},
+        {PREPOPULATED_ENGINE_ID_PRESEARCH, &presearch}
 };
 
 PrepopulatedEngine ModifyEngineParams(const PrepopulatedEngine& engine,
@@ -64,6 +65,29 @@ PrepopulatedEngine ModifyEngineParams(const PrepopulatedEngine& engine,
 }
 
 }  // namespace
+
+const PrepopulatedEngine presearch = {
+    L"Presearch",
+    L":s",
+    "https://presearch.com/images/favicon-16x16.png",
+    "https://presearch.com/search?q={searchTerms}",
+    "UTF-8",
+    NULL,
+    NULL,
+    NULL,
+    NULL,
+    NULL,
+    NULL,
+    NULL,
+    NULL,
+    NULL,
+    NULL,
+    NULL,
+    0,
+    SEARCH_ENGINE_OTHER,
+    NULL,
+    PREPOPULATED_ENGINE_ID_PRESEARCH,
+};
 
 const PrepopulatedEngine duckduckgo = {
     L"DuckDuckGo",

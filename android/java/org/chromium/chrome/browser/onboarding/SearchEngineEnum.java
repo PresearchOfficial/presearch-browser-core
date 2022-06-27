@@ -14,6 +14,8 @@ public enum SearchEngineEnum {
             R.string.google_desc),
     BRAVE(R.drawable.search_engine_brave, SearchEngineEnumConstants.SEARCH_BRAVE_ID,
             R.string.brave_desc),
+    PRESEARCH(R.drawable.search_engine_presearch, SearchEngineEnumConstants.SEARCH_PRESEARCH_ID,
+            R.string.presearch_desc),
     DUCKDUCKGO(R.drawable.search_engine_duckduckgo, SearchEngineEnumConstants.SEARCH_DUCKDUCKGO_ID,
             R.string.ddg_desc),
     QWANT(R.drawable.search_engine_qwant, SearchEngineEnumConstants.SEARCH_QWANT_ID,
@@ -57,5 +59,6 @@ public enum SearchEngineEnum {
         static final int SEARCH_STARTPAGE_ID = 5;
         static final int SEARCH_YANDEX_ID = 6;
         static final int SEARCH_ECOSIA_ID = 7;
+        static final int SEARCH_PRESEARCH_ID = 1;
     }
 }

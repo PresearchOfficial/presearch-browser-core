@@ -1687,6 +1687,9 @@ Are you sure you want to do this?
       <message name="IDS_BRAVE_DESC" desc="Onboarding SE text">
         Private, independent, user-first
       </message>
+      <message name="IDS_PRESEARCH_DESC" desc="Onboarding SE text">
+        Blockchain based, Private, Community
+      </message>
       <message name="IDS_ONBOARDING_SE_TEXT" desc="Onboarding SE title text">
         Some search engines protect your privacy better than others when you search the web.
       </message>
