@@ -608,7 +608,7 @@ public abstract class BraveActivity<C extends ChromeActivityComponent> extends C
     private void loadAdblockFilter(int fromRId, String toDataFile) {
         Context context = ContextUtils.getApplicationContext();
         String dataPath = context.getApplicationInfo().dataDir + File.separator
-                    + 'app_chrome' + File.separator + "1.0.0" + File.separator + toDataFile;
+                    + "app_chrome" + File.separator + "1.0.0" + File.separator + toDataFile;
         try {
             InputStream ins = getResources().openRawResource(fromRId);
             ByteArrayOutputStream outputStream=new ByteArrayOutputStream();
