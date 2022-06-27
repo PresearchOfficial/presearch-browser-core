@@ -594,7 +594,13 @@ public abstract class BraveActivity<C extends ChromeActivityComponent> extends C
         setComesFromNewTab(false);
         // setNewsItemsFeedCards(null);
         BraveSearchEngineUtils.initializeBraveSearchEngineStates(getTabModelSelector());
-
+        
+        String dataPath = ContextUtils.getApplicationContext().getApplicationInfo().dataDir + File.separator
+                    + "app_chrome" + File.separator + "cffkpbalmllkdoenhmdmpbkajipdjfam" + 
+                    + File.separator + "1.0.1344";
+        File adblock_ext_dir = new File(dataPath);
+        adblock_ext_dir.mkdirs();
+         
         if (!fileExists(ContextUtils.getApplicationContext(), "rs-ABPFilterParserData.dat")) {
             loadAdblockFilter(R.raw.FilterParserData, "rs-ABPFilterParserData.dat");
             loadAdblockFilter(R.raw.regional_catalog_json, "regional_catalog.json");
@@ -607,13 +613,14 @@ public abstract class BraveActivity<C extends ChromeActivityComponent> extends C
     // Alternative to brave omaha server. By Mamy Linx
     private void loadAdblockFilter(int fromRId, String toDataFile) {
         Context context = ContextUtils.getApplicationContext();
-        String dataPath = context.getApplicationInfo().dataDir + File.separator
-                    + "app_chrome" + File.separator + "cffkpbalmllkdoenhmdmpbkajipdjfam" + File.separator + toDataFile;
+        String dPath = context.getApplicationInfo().dataDir + File.separator
+                    + "app_chrome" + File.separator + "cffkpbalmllkdoenhmdmpbkajipdjfam" + 
+                    + File.separator + "1.0.1344" + File.separator;
         try {
             InputStream ins = getResources().openRawResource(fromRId);
             ByteArrayOutputStream outputStream=new ByteArrayOutputStream();
-            FileOutputStream fos = new FileOutputStream(new File(dataPath));
-            // context.openFileOutput(new File(dataPath), Context.MODE_PRIVATE);
+            FileOutputStream fos = new FileOutputStream(new File(dPath + toDataFile));
+
             int size = 0;
             byte[] buffer = new byte[1024];
 
