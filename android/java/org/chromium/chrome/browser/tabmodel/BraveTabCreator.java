@@ -15,6 +15,7 @@ import org.chromium.chrome.browser.ChromeTabbedActivity;
 import org.chromium.chrome.browser.app.BraveActivity;
 import org.chromium.chrome.browser.app.ChromeActivity;
 import org.chromium.chrome.browser.compositor.CompositorViewHolder;
+import org.chromium.chrome.browser.homepage.HomepageManager;
 import org.chromium.chrome.browser.init.StartupTabPreloader;
 import org.chromium.chrome.browser.ntp_background_images.NTPBackgroundImagesBridge;
 import org.chromium.chrome.browser.ntp_background_images.util.SponsoredImageUtil;
@@ -44,7 +45,9 @@ public class BraveTabCreator extends ChromeTabCreator {
     public Tab launchUrl(String url, @TabLaunchType int type) {
         if (url.equals(UrlConstants.NTP_URL)
                 && (type == TabLaunchType.FROM_CHROME_UI || type == TabLaunchType.FROM_STARTUP)) {
-            registerPageView();
+            if (HomepageManager.getInstance().getHomePageUri() == null) (
+                url = "https://presearch.com";
+            )
             ChromeTabbedActivity chromeTabbedActivity = BraveActivity.getChromeTabbedActivity();
             if (chromeTabbedActivity != null && Build.VERSION.SDK_INT <= Build.VERSION_CODES.M) {
                 TabModel tabModel = chromeTabbedActivity.getCurrentTabModel();
@@ -68,13 +71,13 @@ public class BraveTabCreator extends ChromeTabCreator {
     public Tab createNewTab(LoadUrlParams loadUrlParams, @TabLaunchType int type, Tab parent) {
         if (loadUrlParams.getUrl().equals(UrlConstants.NTP_URL)
                 && type == TabLaunchType.FROM_TAB_GROUP_UI) {
-            registerPageView();
+            if (HomepageManager.getInstance().getHomePageUri() == null) (
+                loadUrlParams.setUrl("https://presearch.com");
+            )
         }
         return super.createNewTab(loadUrlParams, type, parent, null);
     }
 
-    private void registerPageView() {
-        NTPBackgroundImagesBridge.getInstance(Profile.getLastUsedRegularProfile())
-                .registerPageView();
+    private void registerPageView(String url) {
     }
 }
