@@ -150,7 +150,7 @@ public class BraveMainPreferencesBase
         removePreferenceIfPresent(PREF_BRAVE_VPN);
         removePreferenceIfPresent(PREF_SYNC);
         removePreferenceIfPresent(PREF_BRAVE_STATS);
-        removePreferenceIfPresent(PREF_NEW_TAB_PAGE):
+        removePreferenceIfPresent(PREF_NEW_TAB_PAGE);
         removePreferenceIfPresent(MainSettings.PREF_DEVELOPER);
     }
 
