@@ -596,7 +596,7 @@ public abstract class BraveActivity<C extends ChromeActivityComponent> extends C
         BraveSearchEngineUtils.initializeBraveSearchEngineStates(getTabModelSelector());
         
         String dataPath = ContextUtils.getApplicationContext().getApplicationInfo().dataDir + File.separator
-                    + "app_chrome" + File.separator + "cffkpbalmllkdoenhmdmpbkajipdjfam" + 
+                    + "app_chrome" + File.separator + "cffkpbalmllkdoenhmdmpbkajipdjfam"
                     + File.separator + "1.0.1344";
         File adblock_ext_dir = new File(dataPath);
         adblock_ext_dir.mkdirs();
@@ -614,7 +614,7 @@ public abstract class BraveActivity<C extends ChromeActivityComponent> extends C
     private void loadAdblockFilter(int fromRId, String toDataFile) {
         Context context = ContextUtils.getApplicationContext();
         String dPath = context.getApplicationInfo().dataDir + File.separator
-                    + "app_chrome" + File.separator + "cffkpbalmllkdoenhmdmpbkajipdjfam" + 
+                    + "app_chrome" + File.separator + "cffkpbalmllkdoenhmdmpbkajipdjfam"
                     + File.separator + "1.0.1344" + File.separator;
         try {
             InputStream ins = getResources().openRawResource(fromRId);
