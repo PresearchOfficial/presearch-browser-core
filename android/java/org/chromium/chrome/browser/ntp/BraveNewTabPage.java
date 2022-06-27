@@ -63,31 +63,31 @@ public class BraveNewTabPage extends NewTabPage {
         }
     }
 
-    // @Override
-    // protected void initializeMainView(Activity activity, WindowAndroid windowAndroid,
-    //         SnackbarManager snackbarManager, NewTabPageUma uma, boolean isInNightMode,
-    //         BottomSheetController bottomSheetController,
-    //         Supplier<ShareDelegate> shareDelegateSupplier, String url) {
-    //     // Override surface provider
-    //     Profile profile = Profile.fromWebContents(mTab.getWebContents());
+    @Override
+    protected void initializeMainView(Activity activity, WindowAndroid windowAndroid,
+            SnackbarManager snackbarManager, NewTabPageUma uma, boolean isInNightMode,
+            BottomSheetController bottomSheetController,
+            Supplier<ShareDelegate> shareDelegateSupplier, String url) {
+        // Override surface provider
+        Profile profile = Profile.fromWebContents(mTab.getWebContents());
 
-    //     LayoutInflater inflater = LayoutInflater.from(activity);
-    //     mNewTabPageLayout = (NewTabPageLayout) inflater.inflate(R.layout.new_tab_page_layout, null);
+        LayoutInflater inflater = LayoutInflater.from(activity);
+        mNewTabPageLayout = (NewTabPageLayout) inflater.inflate(R.layout.new_tab_page_layout, null);
 
-    //     assert !FeedFeatures.isFeedEnabled();
-    //     mFeedSurfaceProvider = new BraveFeedSurfaceCoordinator(activity, snackbarManager,
-    //             windowAndroid, new SnapScrollHelperImpl(mNewTabPageManager, mNewTabPageLayout),
-    //             mNewTabPageLayout, mBrowserControlsStateProvider.getTopControlsHeight(),
-    //             isInNightMode, this, profile,
-    //             /* isPlaceholderShownInitially= */ false, bottomSheetController,
-    //             shareDelegateSupplier, /* externalScrollableContainerDelegate= */ null,
-    //             NewTabPageUtils.decodeOriginFromNtpUrl(url),
-    //             PrivacyPreferencesManagerImpl.getInstance(), mToolbarSupplier,
-    //             new FeedLaunchReliabilityLoggingState(SurfaceType.NEW_TAB_PAGE, mConstructedTimeNs),
-    //             FeedSwipeRefreshLayout.create(activity, R.id.toolbar_container),
-    //             /* overScrollDisabled= */ false, /* viewportView= */ null,
-    //             /* actionDelegate= */ null, HelpAndFeedbackLauncherImpl.getInstance());
-    // }
+        assert !FeedFeatures.isFeedEnabled();
+        mFeedSurfaceProvider = new BraveFeedSurfaceCoordinator(activity, snackbarManager,
+                windowAndroid, new SnapScrollHelperImpl(mNewTabPageManager, mNewTabPageLayout),
+                mNewTabPageLayout, mBrowserControlsStateProvider.getTopControlsHeight(),
+                isInNightMode, this, profile,
+                /* isPlaceholderShownInitially= */ false, bottomSheetController,
+                shareDelegateSupplier, /* externalScrollableContainerDelegate= */ null,
+                NewTabPageUtils.decodeOriginFromNtpUrl(url),
+                PrivacyPreferencesManagerImpl.getInstance(), mToolbarSupplier,
+                new FeedLaunchReliabilityLoggingState(SurfaceType.NEW_TAB_PAGE, mConstructedTimeNs),
+                FeedSwipeRefreshLayout.create(activity, R.id.toolbar_container),
+                /* overScrollDisabled= */ false, /* viewportView= */ null,
+                /* actionDelegate= */ null, HelpAndFeedbackLauncherImpl.getInstance());
+    }
 
     public void updateSearchProviderHasLogo() {
         // Search provider logo is not used in Brave's NTP.
