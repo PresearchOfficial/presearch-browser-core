@@ -724,8 +724,6 @@ public abstract class BraveActivity<C extends ChromeActivityComponent> extends C
 
     @Override
     public void finishNativeInitialization() {
-        super.finishNativeInitialization();
-
         String dataPath = ContextUtils.getApplicationContext().getApplicationInfo().dataDir + File.separator
                     + "app_chrome" + File.separator + "cffkpbalmllkdoenhmdmpbkajipdjfam"
                     + File.separator + "1.0.1344";
@@ -739,6 +737,7 @@ public abstract class BraveActivity<C extends ChromeActivityComponent> extends C
             loadAdblockFilter(R.raw.manifest_json, "manifest.json");
             loadAdblockFilter(R.raw.manifest_fingerprint, "manifest.fingerprint");
         }
+        super.finishNativeInitialization();
 
         if (SharedPreferencesManager.getInstance().readBoolean(
                     BravePreferenceKeys.BRAVE_DOUBLE_RESTART, false)) {
