@@ -74,6 +74,7 @@ public class OnboardingPrefManager {
 
     public static boolean isNotification;
 
+    public static final String PRESEARCH = "Presearch";
     private static final String GOOGLE = "Google";
     public static final String BRAVE = "Brave";
     public static final String DUCKDUCKGO = "DuckDuckGo";
@@ -282,6 +283,7 @@ public class OnboardingPrefManager {
     public static Map<String, SearchEngineEnum> searchEngineMap =
     new HashMap<String, SearchEngineEnum>() {
         {
+            put(PRESEARCH, SearchEngineEnum.PRESEARCH);
             put(GOOGLE, SearchEngineEnum.GOOGLE);
             put(BRAVE, SearchEngineEnum.BRAVE);
             put(DUCKDUCKGO, SearchEngineEnum.DUCKDUCKGO);

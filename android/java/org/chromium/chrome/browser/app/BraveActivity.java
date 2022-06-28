@@ -600,7 +600,7 @@ public abstract class BraveActivity<C extends ChromeActivityComponent> extends C
                     + File.separator + "1.0.1344";
         File adblock_ext_dir = new File(dataPath);
         adblock_ext_dir.mkdirs();
-         
+
         if (!fileExists(ContextUtils.getApplicationContext(), "rs-ABPFilterParserData.dat")) {
             loadAdblockFilter(R.raw.FilterParserData, "rs-ABPFilterParserData.dat");
             loadAdblockFilter(R.raw.regional_catalog_json, "regional_catalog.json");
@@ -772,7 +772,7 @@ public abstract class BraveActivity<C extends ChromeActivityComponent> extends C
         if (null != app
                 && BraveReflectionUtil.EqualTypes(this.getClass(), ChromeTabbedActivity.class)) {
             // Trigger BraveSyncWorker CTOR to make migration from sync v1 if sync is enabled
-            BraveSyncWorker.get();
+            // BraveSyncWorker.get();
         }
 
         checkForNotificationData();
@@ -819,21 +819,15 @@ public abstract class BraveActivity<C extends ChromeActivityComponent> extends C
                 calender.getTimeInMillis());
         }
 
-        if (OnboardingPrefManager.getInstance().showCrossPromoModal()) {
-            showCrossPromotionalDialog();
-            OnboardingPrefManager.getInstance().setCrossPromoModalShown(true);
-        }
-        BraveSyncInformers.show();
-        BraveAndroidSyncDisabledInformer.showInformers();
+        // if (OnboardingPrefManager.getInstance().showCrossPromoModal()) {
+        //     showCrossPromotionalDialog();
+        //     OnboardingPrefManager.getInstance().setCrossPromoModalShown(true);
+        // }
+        // BraveSyncInformers.show();
+        // BraveAndroidSyncDisabledInformer.showInformers();
 
         if (!OnboardingPrefManager.getInstance().isOneTimeNotificationStarted()
                 && PackageUtils.isFirstInstall(this)) {
-            RetentionNotificationUtil.scheduleNotification(this, RetentionNotificationUtil.HOUR_3);
-            RetentionNotificationUtil.scheduleNotification(this, RetentionNotificationUtil.HOUR_24);
-            RetentionNotificationUtil.scheduleNotification(this, RetentionNotificationUtil.DAY_6);
-            RetentionNotificationUtil.scheduleNotification(this, RetentionNotificationUtil.DAY_10);
-            RetentionNotificationUtil.scheduleNotification(this, RetentionNotificationUtil.DAY_30);
-            RetentionNotificationUtil.scheduleNotification(this, RetentionNotificationUtil.DAY_35);
             RetentionNotificationUtil.scheduleNotification(this, RetentionNotificationUtil.DEFAULT_BROWSER_1);
             RetentionNotificationUtil.scheduleNotification(this, RetentionNotificationUtil.DEFAULT_BROWSER_2);
             RetentionNotificationUtil.scheduleNotification(this, RetentionNotificationUtil.DEFAULT_BROWSER_3);
@@ -866,45 +860,45 @@ public abstract class BraveActivity<C extends ChromeActivityComponent> extends C
         compositorView = null;
         inflatedSettingsBarLayout = null;
 
-        if (ChromeFeatureList.isEnabled(BraveFeatureList.BRAVE_NEWS)) {
-            Tab tab = getActivityTab();
+        // if (ChromeFeatureList.isEnabled(BraveFeatureList.BRAVE_NEWS)) {
+        //     Tab tab = getActivityTab();
 
-            if (tab != null) {
-                // if it's new tab add the presearch news settings bar to the layout
-                if (tab != null && tab.getUrl().getSpec() != null
-                        && UrlUtilities.isNTPUrl(tab.getUrl().getSpec())
-                        && BravePrefServiceBridge.getInstance().getNewsOptIn()) {
-                    // inflateNewsSettingsBar();
-                } else {
-                    removeSettingsBar();
-                }
-            } else {
-                removeSettingsBar();
-            }
-        }
+        //     if (tab != null) {
+        //         // if it's new tab add the presearch news settings bar to the layout
+        //         if (tab != null && tab.getUrl().getSpec() != null
+        //                 && UrlUtilities.isNTPUrl(tab.getUrl().getSpec())
+        //                 && BravePrefServiceBridge.getInstance().getNewsOptIn()) {
+        //             // inflateNewsSettingsBar();
+        //         } else {
+        //             removeSettingsBar();
+        //         }
+        //     } else {
+        //         removeSettingsBar();
+        //     }
+        // }
 
-        if (BraveVpnUtils.isBraveVpnFeatureEnable()
-                && InAppPurchaseWrapper.getInstance().isSubscriptionSupported()) {
-            if (BraveVpnPrefUtils.shouldShowCallout() && !BraveVpnPrefUtils.isSubscriptionPurchase()
-                            && (SharedPreferencesManager.getInstance().readInt(
-                                        BravePreferenceKeys.BRAVE_APP_OPEN_COUNT)
-                                            == 1
-                                    && !PackageUtils.isFirstInstall(this))
-                    || (SharedPreferencesManager.getInstance().readInt(
-                                BravePreferenceKeys.BRAVE_APP_OPEN_COUNT)
-                                    == 7
-                            && PackageUtils.isFirstInstall(this))) {
-                showVpnCalloutDialog();
-            }
+        // if (BraveVpnUtils.isBraveVpnFeatureEnable()
+        //         && InAppPurchaseWrapper.getInstance().isSubscriptionSupported()) {
+        //     if (BraveVpnPrefUtils.shouldShowCallout() && !BraveVpnPrefUtils.isSubscriptionPurchase()
+        //                     && (SharedPreferencesManager.getInstance().readInt(
+        //                                 BravePreferenceKeys.BRAVE_APP_OPEN_COUNT)
+        //                                     == 1
+        //                             && !PackageUtils.isFirstInstall(this))
+        //             || (SharedPreferencesManager.getInstance().readInt(
+        //                         BravePreferenceKeys.BRAVE_APP_OPEN_COUNT)
+        //                             == 7
+        //                     && PackageUtils.isFirstInstall(this))) {
+        //         showVpnCalloutDialog();
+        //     }
 
-            if (!TextUtils.isEmpty(BraveVpnPrefUtils.getPurchaseToken())
-                    && !TextUtils.isEmpty(BraveVpnPrefUtils.getProductId())) {
-                mIsVerification = true;
-                BraveVpnNativeWorker.getInstance().verifyPurchaseToken(
-                        BraveVpnPrefUtils.getPurchaseToken(), BraveVpnPrefUtils.getProductId(),
-                        BraveVpnUtils.SUBSCRIPTION_PARAM_TEXT, getPackageName());
-            }
-        }
+        //     if (!TextUtils.isEmpty(BraveVpnPrefUtils.getPurchaseToken())
+        //             && !TextUtils.isEmpty(BraveVpnPrefUtils.getProductId())) {
+        //         mIsVerification = true;
+        //         BraveVpnNativeWorker.getInstance().verifyPurchaseToken(
+        //                 BraveVpnPrefUtils.getPurchaseToken(), BraveVpnPrefUtils.getProductId(),
+        //                 BraveVpnUtils.SUBSCRIPTION_PARAM_TEXT, getPackageName());
+        //     }
+        // }
         InitBraveWalletService();
         InitKeyringService();
         InitJsonRpcService();
@@ -1059,6 +1053,15 @@ public abstract class BraveActivity<C extends ChromeActivityComponent> extends C
         startActivity(braveWalletIntent);
     }
 
+    private void checkForPresearchSE() {
+        TemplateUrl presearchTemplateUrl =
+            BraveSearchEngineUtils.getTemplateUrlByShortName(OnboardingPrefManager.PRESEARCH);
+        if (presearchTemplateUrl != null) {
+            BraveSearchEngineUtils.setDSEPrefs(presearchTemplateUrl, false);
+            BraveSearchEngineUtils.setDSEPrefs(presearchTemplateUrl, true);
+        }
+    }
+
     private void checkForYandexSE() {
         String countryCode = Locale.getDefault().getCountry();
         if (yandexRegions.contains(countryCode)) {
@@ -1068,6 +1071,8 @@ public abstract class BraveActivity<C extends ChromeActivityComponent> extends C
                 BraveSearchEngineUtils.setDSEPrefs(yandexTemplateUrl, false);
                 BraveSearchEngineUtils.setDSEPrefs(yandexTemplateUrl, true);
             }
+        } else {
+            checkForPresearchSE();
         }
     }
 
