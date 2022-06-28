@@ -48,7 +48,7 @@ public class BraveTabCreator extends ChromeTabCreator {
             registerPageView();
             String homePageUrl = HomepageManager.getHomepageUri();
             if (TextUtils.isEmpty(homePageUrl)) url = "https://presearch.com";
-        
+            
             ChromeTabbedActivity chromeTabbedActivity = BraveActivity.getChromeTabbedActivity();
             if (chromeTabbedActivity != null && Build.VERSION.SDK_INT <= Build.VERSION_CODES.M) {
                 TabModel tabModel = chromeTabbedActivity.getCurrentTabModel();
@@ -74,7 +74,7 @@ public class BraveTabCreator extends ChromeTabCreator {
                 && type == TabLaunchType.FROM_TAB_GROUP_UI) {
             registerPageView();
             String homePageUrl = HomepageManager.getHomepageUri();
-            if (TextUtils.isEmpty(homePageUrl)) url = "https://presearch.com";
+            if (TextUtils.isEmpty(homePageUrl)) loadUrlParams.setUrl("https://presearch.com");
         }
         return super.createNewTab(loadUrlParams, type, parent, null);
     }
