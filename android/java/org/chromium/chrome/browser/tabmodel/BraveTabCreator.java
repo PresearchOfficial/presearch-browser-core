@@ -9,6 +9,7 @@ import android.app.Activity;
 import android.os.Build;
 import android.text.TextUtils;
 
+import org.chromium.base.Log;
 import org.chromium.base.BraveReflectionUtil;
 import org.chromium.base.supplier.ObservableSupplier;
 import org.chromium.base.supplier.Supplier;
@@ -44,44 +45,20 @@ public class BraveTabCreator extends ChromeTabCreator {
 
     @Override
     public Tab launchUrl(String url, @TabLaunchType int type) {
-        if (url.equals(UrlConstants.NTP_URL)
-                && (type == TabLaunchType.FROM_CHROME_UI || type == TabLaunchType.FROM_STARTUP)) {
-            // registerPageView();
-            String homePageUrl = HomepageManager.getHomepageUri();
-            if (TextUtils.isEmpty(homePageUrl)) url = "https://presearch.com";
-            
-            // ChromeTabbedActivity chromeTabbedActivity = BraveActivity.getChromeTabbedActivity();
-            // if (chromeTabbedActivity != null && Build.VERSION.SDK_INT <= Build.VERSION_CODES.M) {
-            //     TabModel tabModel = chromeTabbedActivity.getCurrentTabModel();
-            //     if (tabModel.getCount() >= SponsoredImageUtil.MAX_TABS
-            //             && UserPrefs.get(Profile.getLastUsedRegularProfile())
-            //                        .getBoolean(BravePref.NEW_TAB_PAGE_SHOW_BACKGROUND_IMAGE)) {
-            //         Tab tab = BraveActivity.class.cast(chromeTabbedActivity)
-            //                           .selectExistingTab(UrlConstants.NTP_URL);
-            //         if (tab != null) {
-            //             BraveReflectionUtil.InvokeMethod(
-            //                     ChromeTabbedActivity.class, chromeTabbedActivity, "hideOverview");
-            //             return tab;
-            //         }
-            //     }
-            // }
-        }
+        String homePageUrl = HomepageManager.getHomepageUri();
+        if (url.equals(UrlConstants.NTP_URL) && TextUtils.isEmpty(homePageUrl))
+            url = "https://presearch.com";
+        Log.e("Mamy Linx - launchUrl", url + '--' + homePageUrl);
         return super.launchUrl(url, type);
     }
 
     @Override
     public Tab createNewTab(LoadUrlParams loadUrlParams, @TabLaunchType int type, Tab parent) {
+        String homePageUrl = HomepageManager.getHomepageUri();
         if (loadUrlParams.getUrl().equals(UrlConstants.NTP_URL)
-                && type == TabLaunchType.FROM_TAB_GROUP_UI) {
-            // registerPageView();
-            String homePageUrl = HomepageManager.getHomepageUri();
-            if (TextUtils.isEmpty(homePageUrl)) loadUrlParams.setUrl("https://presearch.com");
-        }
+                && type == TabLaunchType.FROM_TAB_GROUP_UI && TextUtils.isEmpty(homePageUrl))
+            loadUrlParams.setUrl("https://presearch.com");
+        Log.e("Mamy Linx - createNewTab", url + '--' + homePageUrl);
         return super.createNewTab(loadUrlParams, type, parent, null);
-    }
-
-    private void registerPageView() {
-        NTPBackgroundImagesBridge.getInstance(Profile.getLastUsedRegularProfile())
-                .registerPageView();
     }
 }
