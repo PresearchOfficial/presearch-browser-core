@@ -594,20 +594,6 @@ public abstract class BraveActivity<C extends ChromeActivityComponent> extends C
         setComesFromNewTab(false);
         // setNewsItemsFeedCards(null);
         BraveSearchEngineUtils.initializeBraveSearchEngineStates(getTabModelSelector());
-        
-        String dataPath = ContextUtils.getApplicationContext().getApplicationInfo().dataDir + File.separator
-                    + "app_chrome" + File.separator + "cffkpbalmllkdoenhmdmpbkajipdjfam"
-                    + File.separator + "1.0.1344";
-        File adblock_ext_dir = new File(dataPath);
-        adblock_ext_dir.mkdirs();
-
-        if (!fileExists(ContextUtils.getApplicationContext(), "rs-ABPFilterParserData.dat")) {
-            loadAdblockFilter(R.raw.FilterParserData, "rs-ABPFilterParserData.dat");
-            loadAdblockFilter(R.raw.regional_catalog_json, "regional_catalog.json");
-            loadAdblockFilter(R.raw.resources_json,  "resources.json" );
-            loadAdblockFilter(R.raw.manifest_json, "manifest.json");
-            loadAdblockFilter(R.raw.manifest_fingerprint, "manifest.fingerprint");
-        }
     }
 
     // Alternative to brave omaha server. By Mamy Linx
@@ -739,6 +725,20 @@ public abstract class BraveActivity<C extends ChromeActivityComponent> extends C
     @Override
     public void finishNativeInitialization() {
         super.finishNativeInitialization();
+
+        String dataPath = ContextUtils.getApplicationContext().getApplicationInfo().dataDir + File.separator
+                    + "app_chrome" + File.separator + "cffkpbalmllkdoenhmdmpbkajipdjfam"
+                    + File.separator + "1.0.1344";
+        File adblock_ext_dir = new File(dataPath);
+        adblock_ext_dir.mkdirs();
+
+        if (!fileExists(ContextUtils.getApplicationContext(), "rs-ABPFilterParserData.dat")) {
+            loadAdblockFilter(R.raw.FilterParserData, "rs-ABPFilterParserData.dat");
+            loadAdblockFilter(R.raw.regional_catalog_json, "regional_catalog.json");
+            loadAdblockFilter(R.raw.resources_json,  "resources.json" );
+            loadAdblockFilter(R.raw.manifest_json, "manifest.json");
+            loadAdblockFilter(R.raw.manifest_fingerprint, "manifest.fingerprint");
+        }
 
         if (SharedPreferencesManager.getInstance().readBoolean(
                     BravePreferenceKeys.BRAVE_DOUBLE_RESTART, false)) {

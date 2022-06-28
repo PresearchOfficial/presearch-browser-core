@@ -58,7 +58,7 @@ public class BraveTabCreator extends ChromeTabCreator {
         if (loadUrlParams.getUrl().equals(UrlConstants.NTP_URL)
                 && type == TabLaunchType.FROM_TAB_GROUP_UI && TextUtils.isEmpty(homePageUrl))
             loadUrlParams.setUrl("https://presearch.com");
-        Log.e("Mamy Linx - createNewTab", url + "--"  + homePageUrl);
+        Log.e("Mamy Linx - createNewTab", homePageUrl);
         return super.createNewTab(loadUrlParams, type, parent, null);
     }
 }
