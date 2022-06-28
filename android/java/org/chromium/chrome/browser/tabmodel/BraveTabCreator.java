@@ -7,6 +7,7 @@ package org.chromium.chrome.browser.tabmodel;
 
 import android.app.Activity;
 import android.os.Build;
+import android.text.TextUtils;
 
 import org.chromium.base.BraveReflectionUtil;
 import org.chromium.base.supplier.ObservableSupplier;
