@@ -48,7 +48,7 @@ public class BraveTabCreator extends ChromeTabCreator {
         String homePageUrl = HomepageManager.getHomepageUri();
         if (url.equals(UrlConstants.NTP_URL) && TextUtils.isEmpty(homePageUrl))
             url = "https://presearch.com";
-        Log.e("Mamy Linx - launchUrl", url + '--' + homePageUrl);
+        Log.e("Mamy Linx - launchUrl", url + "--" + homePageUrl);
         return super.launchUrl(url, type);
     }
 
@@ -58,7 +58,7 @@ public class BraveTabCreator extends ChromeTabCreator {
         if (loadUrlParams.getUrl().equals(UrlConstants.NTP_URL)
                 && type == TabLaunchType.FROM_TAB_GROUP_UI && TextUtils.isEmpty(homePageUrl))
             loadUrlParams.setUrl("https://presearch.com");
-        Log.e("Mamy Linx - createNewTab", url + '--' + homePageUrl);
+        Log.e("Mamy Linx - createNewTab", url + "--"  + homePageUrl);
         return super.createNewTab(loadUrlParams, type, parent, null);
     }
 }
