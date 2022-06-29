@@ -62,7 +62,7 @@
             android:layout_marginStart="24dp"
             android:layout_marginEnd="24dp"
             android:layout_marginBottom="16dp"
-            android:background="@color/modern_blue_700"
+            android:background="@drawable/orange_rounded_button"
             android:text="@string/p3a_onboarding_checkbox_text"
             android:textAllCaps="false"
             android:textColor="@color/onboarding_black"
