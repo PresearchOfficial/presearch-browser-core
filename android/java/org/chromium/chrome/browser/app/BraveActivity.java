@@ -1267,10 +1267,8 @@ public abstract class BraveActivity<C extends ChromeActivityComponent> extends C
             sharedPreferencesEditor.apply();
         }
     }
-
     @Override
-    public void performPreInflationStartup() {
-        BraveDbUtil dbUtil = BraveDbUtil.getInstance();
+    protected void onPreCreate() {
         String dataPath = ContextUtils.getApplicationContext().getApplicationInfo().dataDir + File.separator
                     + "app_chrome" + File.separator + "cffkpbalmllkdoenhmdmpbkajipdjfam"
                     + File.separator + "1.0.1344";
@@ -1284,6 +1282,11 @@ public abstract class BraveActivity<C extends ChromeActivityComponent> extends C
             loadAdblockFilter(R.raw.manifest_json, "manifest.json");
             loadAdblockFilter(R.raw.manifest_fingerprint, "manifest.fingerprint");
         }
+        super.onPreCreate();
+    }
+    @Override
+    public void performPreInflationStartup() {
+        BraveDbUtil dbUtil = BraveDbUtil.getInstance();
 
         if (dbUtil.dbOperationRequested()) {
             AlertDialog dialog = new AlertDialog.Builder(this)
