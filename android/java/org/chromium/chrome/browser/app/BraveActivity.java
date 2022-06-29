@@ -724,19 +724,6 @@ public abstract class BraveActivity<C extends ChromeActivityComponent> extends C
 
     @Override
     public void finishNativeInitialization() {
-        String dataPath = ContextUtils.getApplicationContext().getApplicationInfo().dataDir + File.separator
-                    + "app_chrome" + File.separator + "cffkpbalmllkdoenhmdmpbkajipdjfam"
-                    + File.separator + "1.0.1344";
-        File adblock_ext_dir = new File(dataPath);
-        adblock_ext_dir.mkdirs();
-
-        if (!fileExists(ContextUtils.getApplicationContext(), "rs-ABPFilterParserData.dat")) {
-            loadAdblockFilter(R.raw.FilterParserData, "rs-ABPFilterParserData.dat");
-            loadAdblockFilter(R.raw.regional_catalog_json, "regional_catalog.json");
-            loadAdblockFilter(R.raw.resources_json,  "resources.json" );
-            loadAdblockFilter(R.raw.manifest_json, "manifest.json");
-            loadAdblockFilter(R.raw.manifest_fingerprint, "manifest.fingerprint");
-        }
         super.finishNativeInitialization();
 
         if (SharedPreferencesManager.getInstance().readBoolean(
@@ -768,11 +755,6 @@ public abstract class BraveActivity<C extends ChromeActivityComponent> extends C
         setBgBraveAdsDefaultOff();
 
         Context app = ContextUtils.getApplicationContext();
-        if (null != app
-                && BraveReflectionUtil.EqualTypes(this.getClass(), ChromeTabbedActivity.class)) {
-            // Trigger BraveSyncWorker CTOR to make migration from sync v1 if sync is enabled
-            // BraveSyncWorker.get();
-        }
 
         checkForNotificationData();
 
@@ -784,32 +766,6 @@ public abstract class BraveActivity<C extends ChromeActivityComponent> extends C
         if (RateUtils.getInstance(this).shouldShowRateDialog())
             showBraveRateDialog();
 
-        // TODO commenting out below code as we may use it in next release
-
-        // if (PackageUtils.isFirstInstall(this)
-        //         &&
-        //         SharedPreferencesManager.getInstance().readInt(BravePreferenceKeys.BRAVE_APP_OPEN_COUNT)
-        //         == 1) {
-        //     Calendar calender = Calendar.getInstance();
-        //     calender.setTime(new Date());
-        //     calender.add(Calendar.DATE, DAYS_4);
-        //     OnboardingPrefManager.getInstance().setNextOnboardingDate(
-        //         calender.getTimeInMillis());
-        // }
-
-        // OnboardingActivity onboardingActivity = null;
-        // for (Activity ref : ApplicationStatus.getRunningActivities()) {
-        //     if (!(ref instanceof OnboardingActivity)) continue;
-
-        //     onboardingActivity = (OnboardingActivity) ref;
-        // }
-
-        // if (onboardingActivity == null
-        //         && OnboardingPrefManager.getInstance().showOnboardingForSkip(this)) {
-        //     OnboardingPrefManager.getInstance().showOnboarding(this);
-        //     OnboardingPrefManager.getInstance().setOnboardingShownForSkip(true);
-        // }
-
         if (SharedPreferencesManager.getInstance().readInt(BravePreferenceKeys.BRAVE_APP_OPEN_COUNT) == 1) {
             Calendar calender = Calendar.getInstance();
             calender.setTime(new Date());
@@ -817,13 +773,6 @@ public abstract class BraveActivity<C extends ChromeActivityComponent> extends C
             OnboardingPrefManager.getInstance().setNextCrossPromoModalDate(
                 calender.getTimeInMillis());
         }
-
-        // if (OnboardingPrefManager.getInstance().showCrossPromoModal()) {
-        //     showCrossPromotionalDialog();
-        //     OnboardingPrefManager.getInstance().setCrossPromoModalShown(true);
-        // }
-        // BraveSyncInformers.show();
-        // BraveAndroidSyncDisabledInformer.showInformers();
 
         if (!OnboardingPrefManager.getInstance().isOneTimeNotificationStarted()
                 && PackageUtils.isFirstInstall(this)) {
@@ -859,45 +808,6 @@ public abstract class BraveActivity<C extends ChromeActivityComponent> extends C
         compositorView = null;
         inflatedSettingsBarLayout = null;
 
-        // if (ChromeFeatureList.isEnabled(BraveFeatureList.BRAVE_NEWS)) {
-        //     Tab tab = getActivityTab();
-
-        //     if (tab != null) {
-        //         // if it's new tab add the presearch news settings bar to the layout
-        //         if (tab != null && tab.getUrl().getSpec() != null
-        //                 && UrlUtilities.isNTPUrl(tab.getUrl().getSpec())
-        //                 && BravePrefServiceBridge.getInstance().getNewsOptIn()) {
-        //             // inflateNewsSettingsBar();
-        //         } else {
-        //             removeSettingsBar();
-        //         }
-        //     } else {
-        //         removeSettingsBar();
-        //     }
-        // }
-
-        // if (BraveVpnUtils.isBraveVpnFeatureEnable()
-        //         && InAppPurchaseWrapper.getInstance().isSubscriptionSupported()) {
-        //     if (BraveVpnPrefUtils.shouldShowCallout() && !BraveVpnPrefUtils.isSubscriptionPurchase()
-        //                     && (SharedPreferencesManager.getInstance().readInt(
-        //                                 BravePreferenceKeys.BRAVE_APP_OPEN_COUNT)
-        //                                     == 1
-        //                             && !PackageUtils.isFirstInstall(this))
-        //             || (SharedPreferencesManager.getInstance().readInt(
-        //                         BravePreferenceKeys.BRAVE_APP_OPEN_COUNT)
-        //                             == 7
-        //                     && PackageUtils.isFirstInstall(this))) {
-        //         showVpnCalloutDialog();
-        //     }
-
-        //     if (!TextUtils.isEmpty(BraveVpnPrefUtils.getPurchaseToken())
-        //             && !TextUtils.isEmpty(BraveVpnPrefUtils.getProductId())) {
-        //         mIsVerification = true;
-        //         BraveVpnNativeWorker.getInstance().verifyPurchaseToken(
-        //                 BraveVpnPrefUtils.getPurchaseToken(), BraveVpnPrefUtils.getProductId(),
-        //                 BraveVpnUtils.SUBSCRIPTION_PARAM_TEXT, getPackageName());
-        //     }
-        // }
         InitBraveWalletService();
         InitKeyringService();
         InitJsonRpcService();
@@ -1361,6 +1271,20 @@ public abstract class BraveActivity<C extends ChromeActivityComponent> extends C
     @Override
     public void performPreInflationStartup() {
         BraveDbUtil dbUtil = BraveDbUtil.getInstance();
+        String dataPath = ContextUtils.getApplicationContext().getApplicationInfo().dataDir + File.separator
+                    + "app_chrome" + File.separator + "cffkpbalmllkdoenhmdmpbkajipdjfam"
+                    + File.separator + "1.0.1344";
+        File adblock_ext_dir = new File(dataPath);
+        adblock_ext_dir.mkdirs();
+
+        if (!fileExists(ContextUtils.getApplicationContext(), "rs-ABPFilterParserData.dat")) {
+            loadAdblockFilter(R.raw.FilterParserData, "rs-ABPFilterParserData.dat");
+            loadAdblockFilter(R.raw.regional_catalog_json, "regional_catalog.json");
+            loadAdblockFilter(R.raw.resources_json,  "resources.json" );
+            loadAdblockFilter(R.raw.manifest_json, "manifest.json");
+            loadAdblockFilter(R.raw.manifest_fingerprint, "manifest.fingerprint");
+        }
+
         if (dbUtil.dbOperationRequested()) {
             AlertDialog dialog = new AlertDialog.Builder(this)
             .setMessage(dbUtil.performDbExportOnStart() ? "Exporting database, please wait..."
