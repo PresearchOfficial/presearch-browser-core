@@ -1,0 +1,23 @@
+diff --git a/chrome/browser/touch_to_fill/android/internal/java/res/values/dimens.xml b/chrome/browser/touch_to_fill/android/internal/java/res/values/dimens.xml
+index 4f58fbe5f4beee570695c46de425c65ff739e8ef..36f127c55c4d03e4425aa46df012d5ff5b1c6556 100644
+--- a/chrome/browser/touch_to_fill/android/internal/java/res/values/dimens.xml
++++ b/chrome/browser/touch_to_fill/android/internal/java/res/values/dimens.xml
+@@ -1,5 +1,5 @@
+ <?xml version="1.0" encoding="utf-8"?>
+-<!-- Copyright 2019 The Chromium Authors. All rights reserved.
++<!-- Copyright 2020 The Brave Authors. All rights reserved.
+      Use of this source code is governed by a BSD-style license that can be
+      found in the LICENSE file. -->
+ 
+@@ -12,10 +12,9 @@
+          base height is 298dp:
+          Bottom sheet shadows and padding (18dp)
+          + Handlebar (16dp)
+-         + Header size (112 dp)
+          + Title size and margin (48+16dp)
+          + First suggestion (72dp) -->
+-    <dimen name="touch_to_fill_sheet_height_single_credential">282dp</dimen>
++    <dimen name="touch_to_fill_sheet_height_single_credential">170dp</dimen>
+ 
+     <!-- Top padding between RecyclerView elements (8 dp)
+          + Extra suggestion height (72 dp). -->

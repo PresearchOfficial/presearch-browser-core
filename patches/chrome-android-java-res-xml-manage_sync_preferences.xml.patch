@@ -1,0 +1,65 @@
+diff --git a/chrome/android/java/res/xml/manage_sync_preferences.xml b/chrome/android/java/res/xml/manage_sync_preferences.xml
+index 0d52112a55dc74f282d7d928e31c671108eef76f..b3b11477a242d0193ea32f1386a2fc7501e86f3f 100644
+--- a/chrome/android/java/res/xml/manage_sync_preferences.xml
++++ b/chrome/android/java/res/xml/manage_sync_preferences.xml
+@@ -1,7 +1,8 @@
+ <?xml version="1.0" encoding="utf-8"?>
+-<!-- Copyright 2019 The Chromium Authors. All rights reserved.
+-     Use of this source code is governed by a BSD-style license that can be
+-     found in the LICENSE file. -->
++<!-- Copyright (c) 2020 The Brave Authors. All rights reserved.
++     This Source Code Form is subject to the terms of the Mozilla Public
++     License, v. 2.0. If a copy of the MPL was not distributed with this file,
++     You can obtain one at http://mozilla.org/MPL/2.0/. -->
+ 
+ <PreferenceScreen
+     xmlns:android="http://schemas.android.com/apk/res/android"
+@@ -21,37 +22,37 @@
+         android:title="@string/sync_everything_pref"
+         android:persistent="false"/>
+ 
+-    <org.chromium.components.browser_ui.settings.ChromeBaseCheckBoxPreference
++    <org.chromium.chrome.browser.ui.brave_tricks.checkbox_to_switch.CheckBoxPreference
+         android:key="sync_autofill"
+         android:title="@string/sync_autofill"
+         android:persistent="false"/>
+ 
+-    <org.chromium.components.browser_ui.settings.ChromeBaseCheckBoxPreference
++    <org.chromium.chrome.browser.ui.brave_tricks.checkbox_to_switch.CheckBoxPreference
+         android:key="sync_bookmarks"
+         android:title="@string/sync_bookmarks"
+         android:persistent="false"/>
+ 
+-    <org.chromium.components.browser_ui.settings.ChromeBaseCheckBoxPreference
++    <org.chromium.chrome.browser.ui.brave_tricks.checkbox_to_switch.CheckBoxPreference
+         android:key="sync_payments_integration"
+         android:title="@string/sync_payments_integration"
+         android:persistent="false"/>
+ 
+-    <org.chromium.components.browser_ui.settings.ChromeBaseCheckBoxPreference
++    <org.chromium.chrome.browser.ui.brave_tricks.checkbox_to_switch.CheckBoxPreference
+         android:key="sync_history"
+         android:title="@string/sync_history"
+         android:persistent="false"/>
+ 
+-    <org.chromium.components.browser_ui.settings.ChromeBaseCheckBoxPreference
+-        android:key="sync_passwords"
+-        android:title="@string/sync_passwords"
+-        android:persistent="false"/>
+-
+-    <org.chromium.components.browser_ui.settings.ChromeBaseCheckBoxPreference
++    <org.chromium.chrome.browser.ui.brave_tricks.checkbox_to_switch.CheckBoxPreference
+         android:key="sync_recent_tabs"
+         android:title="@string/sync_recent_tabs"
+         android:persistent="false"/>
+ 
+-    <org.chromium.components.browser_ui.settings.ChromeBaseCheckBoxPreference
++    <org.chromium.chrome.browser.ui.brave_tricks.checkbox_to_switch.CheckBoxPreference
++        android:key="sync_passwords"
++        android:title="@string/sync_passwords"
++        android:persistent="false"/>
++
++    <org.chromium.chrome.browser.ui.brave_tricks.checkbox_to_switch.CheckBoxPreference
+         android:key="sync_settings"
+         android:title="@string/sync_settings"
+         android:persistent="false"/>

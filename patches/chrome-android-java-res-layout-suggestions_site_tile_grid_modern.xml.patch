@@ -1,0 +1,20 @@
+diff --git a/chrome/android/java/res/layout/suggestions_site_tile_grid_modern.xml b/chrome/android/java/res/layout/suggestions_site_tile_grid_modern.xml
+index 96789ed587098590ea9efdef876bffd6e2e4d9c6..4a077eb4f8ae23d4333e609719b83d84f321bebf 100644
+--- a/chrome/android/java/res/layout/suggestions_site_tile_grid_modern.xml
++++ b/chrome/android/java/res/layout/suggestions_site_tile_grid_modern.xml
+@@ -1,5 +1,5 @@
+ <?xml version="1.0" encoding="utf-8"?>
+-<!-- Copyright 2017 The Chromium Authors. All rights reserved.
++<!-- Copyright 2020 The Chromium Authors. All rights reserved.
+      Use of this source code is governed by a BSD-style license that can be
+      found in the LICENSE file. -->
+ 
+@@ -8,5 +8,5 @@
+     android:id="@+id/tile_grid_layout"
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+-    android:layout_marginBottom="@dimen/tile_grid_layout_bottom_margin"
+-    android:layout_gravity="center_horizontal" />
++    android:padding="8dp"
++    android:layout_gravity="center_horizontal" />
+\ No newline at end of file

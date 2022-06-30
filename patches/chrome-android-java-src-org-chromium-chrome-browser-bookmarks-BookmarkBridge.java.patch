@@ -277,7 +277,7 @@ index b30c291c3fe951f44977f2fba74cc0a6b9e54650..b91117faf29a9bc950e03e609aa2cbf2
 +        if (success == false) {
 +            ((Activity)window.getContext().get()).runOnUiThread(new Runnable() {
 +                public void run() {
-+                    WindowAndroid.showError(R.string.saving_file_error);
++                    window.showError(R.string.saving_file_error);
 +                }
 +            });
 +        } else {

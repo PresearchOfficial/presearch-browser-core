@@ -1,0 +1,30 @@
+diff --git a/chrome/browser/ui/android/toolbar/java/res/layout/tab_switcher_toolbar.xml b/chrome/browser/ui/android/toolbar/java/res/layout/tab_switcher_toolbar.xml
+index 1d4a8fe66527747287cd3f54f3efaea1a0df02f1..0b7c4dec64312d86580d85ce60c411d8408df3a7 100644
+--- a/chrome/browser/ui/android/toolbar/java/res/layout/tab_switcher_toolbar.xml
++++ b/chrome/browser/ui/android/toolbar/java/res/layout/tab_switcher_toolbar.xml
+@@ -1,9 +1,9 @@
+ <?xml version="1.0" encoding="utf-8"?>
+-<!-- Copyright 2018 The Chromium Authors. All rights reserved.
++<!-- Copyright 2020 The Brave Authors. All rights reserved.
+      Use of this source code is governed by a BSD-style license that can be
+      found in the LICENSE file. -->
+ 
+-<org.chromium.chrome.browser.toolbar.top.TabSwitcherModeTopToolbar
++<org.chromium.chrome.browser.toolbar.top.BraveTabSwitcherModeTopToolbar
+     xmlns:android="http://schemas.android.com/apk/res/android"
+     xmlns:app="http://schemas.android.com/apk/res-auto"
+     xmlns:tools="http://schemas.android.com/tools"
+@@ -70,7 +70,6 @@
+         android:layout_marginBottom="4dp"/>
+ 
+     <LinearLayout
+-        android:id="@+id/tab_switcher_switches_and_menu"
+         android:orientation="horizontal"
+         android:layout_width="wrap_content"
+         android:layout_height="match_parent"
+@@ -101,4 +100,4 @@
+ 
+     </LinearLayout>
+ 
+-</org.chromium.chrome.browser.toolbar.top.TabSwitcherModeTopToolbar>
++</org.chromium.chrome.browser.toolbar.top.BraveTabSwitcherModeTopToolbar>

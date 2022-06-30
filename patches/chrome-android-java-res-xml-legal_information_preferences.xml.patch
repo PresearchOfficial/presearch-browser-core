@@ -1,0 +1,29 @@
+diff --git a/chrome/android/java/res/xml/legal_information_preferences.xml b/chrome/android/java/res/xml/legal_information_preferences.xml
+index 898f5a89899a8b20cd962eb06ccd836c252775bd..4a0a3a024ba75ead09d58e61a4e4477232037bae 100644
+--- a/chrome/android/java/res/xml/legal_information_preferences.xml
++++ b/chrome/android/java/res/xml/legal_information_preferences.xml
+@@ -11,15 +11,15 @@
+         android:title="@string/open_source_license_title"
+         app:url="@string/open_source_license_url" />
+     <org.chromium.chrome.browser.about_settings.HyperlinkPreference
+-        android:key="google_terms_of_service"
++        android:key="terms_of_service"
+         android:title="@string/google_terms_of_service_title"
+-        app:url="@string/google_terms_of_service_url" />
+-    <org.chromium.chrome.browser.about_settings.HyperlinkPreference
+-        android:key="chrome_additional_terms_of_service"
+-        android:title="@string/chrome_additional_terms_of_service_title"
+-        app:url="@string/chrome_additional_terms_of_service_url" />
++        app:url="@string/brave_terms_of_service_url" />
+     <org.chromium.chrome.browser.about_settings.HyperlinkPreference
+         android:key="privacy_policy"
+         android:title="@string/privacy_policy_title"
+-        app:url="@string/google_privacy_policy_url" />
+-</PreferenceScreen>
++        app:url="@string/brave_privacy_notice_url" />
++    <Preference
++        android:fragment="org.chromium.chrome.browser.settings.BraveLicensePreferences"
++        android:key="brave_license"
++        android:title="@string/brave_license_text" />
++</PreferenceScreen>
+\ No newline at end of file

@@ -1,0 +1,22 @@
+diff --git a/chrome/browser/touch_to_fill/android/internal/java/res/layout/touch_to_fill_header_item.xml b/chrome/browser/touch_to_fill/android/internal/java/res/layout/touch_to_fill_header_item.xml
+index 0b73a70c43586439439bc82ca3c20309b3793320..c7edaaa41f272b98fb88b21e1e64bd200ef7bbca 100644
+--- a/chrome/browser/touch_to_fill/android/internal/java/res/layout/touch_to_fill_header_item.xml
++++ b/chrome/browser/touch_to_fill/android/internal/java/res/layout/touch_to_fill_header_item.xml
+@@ -1,5 +1,5 @@
+ <?xml version="1.0" encoding="utf-8"?>
+-<!-- Copyright 2019 The Chromium Authors. All rights reserved.
++<!-- Copyright 2020 The Brave Authors. All rights reserved.
+      Use of this source code is governed by a BSD-style license that can be
+      found in the LICENSE file. -->
+ 
+@@ -18,7 +18,9 @@
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_gravity="center_horizontal"
+-        android:importantForAccessibility="no" />
++        android:importantForAccessibility="no"
++        app:srcCompat="@drawable/touch_to_fill_header_image"
++        android:visibility="gone" />
+ 
+     <org.chromium.ui.widget.TextViewWithLeading
+         android:id="@+id/touch_to_fill_sheet_title"

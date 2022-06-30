@@ -1,5 +1,5 @@
 diff --git a/chrome/browser/download/android/java/src/org/chromium/chrome/browser/download/dialogs/DownloadLocationCustomView.java b/chrome/browser/download/android/java/src/org/chromium/chrome/browser/download/dialogs/DownloadLocationCustomView.java
-index 8abf7ed59880344832205454e3aca2fb868c060e..7a52e34d2d079ff714c713a539a5b9c719ccadf4 100644
+index 8abf7ed59880344832205454e3aca2fb868c060e..23e6b42bf0661ab4efbd76afe17d911f8571ca4f 100644
 --- a/chrome/browser/download/android/java/src/org/chromium/chrome/browser/download/dialogs/DownloadLocationCustomView.java
 +++ b/chrome/browser/download/android/java/src/org/chromium/chrome/browser/download/dialogs/DownloadLocationCustomView.java
 @@ -49,7 +49,7 @@ public class DownloadLocationCustomView
@@ -11,7 +11,7 @@ index 8abf7ed59880344832205454e3aca2fb868c060e..7a52e34d2d079ff714c713a539a5b9c7
      private @DownloadLocationDialogType int mDialogType;
      private long mTotalBytes;
  
-@@ -72,7 +72,7 @@ public class DownloadLocationCustomView
+@@ -72,14 +72,14 @@ public class DownloadLocationCustomView
          mDontShowAgain = findViewById(R.id.show_again_checkbox);
      }
  
@@ -20,6 +20,23 @@ index 8abf7ed59880344832205454e3aca2fb868c060e..7a52e34d2d079ff714c713a539a5b9c7
          // TODO(xingliu): Remove this function, currently used by smart suggestion.
          mDialogType = dialogType;
          mTotalBytes = totalBytes;
+         mDirectoryAdapter.update();
+     }
+ 
+-    void setTitle(CharSequence title) {
++    public void setTitle(CharSequence title) {
+         mTitle.setText(title);
+     }
+ 
+@@ -87,7 +87,7 @@ public class DownloadLocationCustomView
+         mSubtitleView.setText(subtitle);
+     }
+ 
+-    void setFileName(CharSequence fileName) {
++    public void setFileName(CharSequence fileName) {
+         mFileName.setText(fileName);
+     }
+ 
 @@ -125,7 +125,7 @@ public class DownloadLocationCustomView
       * @return  The text that the user inputted as the name of the file.
       */

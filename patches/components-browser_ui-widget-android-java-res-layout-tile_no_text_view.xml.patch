@@ -1,0 +1,40 @@
+diff --git a/components/browser_ui/widget/android/java/res/layout/tile_no_text_view.xml b/components/browser_ui/widget/android/java/res/layout/tile_no_text_view.xml
+index 8580a2819c1871c23aec09293e926c0179e33cc6..9ad3144e6981ffc2cad44e093e5d8ec388bcef5b 100644
+--- a/components/browser_ui/widget/android/java/res/layout/tile_no_text_view.xml
++++ b/components/browser_ui/widget/android/java/res/layout/tile_no_text_view.xml
+@@ -9,7 +9,6 @@
+     xmlns:app="http://schemas.android.com/apk/res-auto"
+     xmlns:tools="http://schemas.android.com/tools" >
+ 
+-    <!-- The icon background. -->
+     <View
+         android:id="@+id/tile_view_icon_background"
+         android:layout_width="@dimen/tile_view_icon_size"
+@@ -24,7 +23,6 @@
+         android:layout_width="@dimen/tile_view_icon_size_modern"
+         android:layout_height="@dimen/tile_view_icon_size_modern"
+         android:layout_gravity="center_horizontal"
+-        android:layout_marginTop="@dimen/tile_view_icon_margin_top_modern"
+         tools:ignore="ContentDescription" />
+ 
+     <!-- The touch highlight. -->
+@@ -33,7 +31,6 @@
+         android:layout_width="@dimen/tile_view_icon_size"
+         android:layout_height="@dimen/tile_view_icon_size"
+         android:layout_gravity="center_horizontal"
+-        android:layout_marginTop="@dimen/tile_view_icon_background_margin_top_modern"
+         android:background="@drawable/tile_view_highlight" />
+ 
+     <!-- The offline badge. -->
+@@ -42,9 +39,8 @@
+         android:layout_width="@dimen/tile_view_offline_badge_size_modern"
+         android:layout_height="@dimen/tile_view_offline_badge_size_modern"
+         android:layout_gravity="top|end"
+-        android:layout_marginTop="@dimen/tile_view_offline_badge_margin_top_modern"
+         android:layout_marginEnd="@dimen/tile_view_offline_badge_margin_end_modern"
+         android:visibility="gone"
+         android:contentDescription="@string/accessibility_ntp_offline_badge"
+         app:srcCompat="@drawable/ic_offline_pin_blue_white" />
+-</merge>
++</merge>
+\ No newline at end of file
