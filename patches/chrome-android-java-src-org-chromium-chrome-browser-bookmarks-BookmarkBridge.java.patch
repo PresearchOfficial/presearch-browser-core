@@ -153,11 +153,11 @@ index b30c291c3fe951f44977f2fba74cc0a6b9e54650..b91117faf29a9bc950e03e609aa2cbf2
 +                        AlertDialog.Builder alert =
 +                                new AlertDialog.Builder(context, R.style.ThemeOverlay_BrowserUI_AlertDialog);
 +                        AlertDialog alertDialog =
-+                                alert.setTitle(R.string.bookmark_manager_menu_export)
++                                alert.setTitle(R.string.export_bookmarks_alert_title)
 +                                        .setMessage(context.getString(R.string.export_bookmarks_alert_message, actualFilePath))
 +                                        .setPositiveButton(
-+                                                R.string.confirm_messagebox_yes_button_label, onClickListener)
-+                                        .setNegativeButton(R.string.confirm_messagebox_no_button_label, onClickListener)
++                                                R.string.export_bookmarks_alert_message_yes, onClickListener)
++                                        .setNegativeButton(R.string.export_bookmarks_alert_message_no, onClickListener)
 +                                        .create();
 +                        alertDialog.getDelegate().setHandleNativeActionModesEnabled(false);
 +
@@ -211,7 +211,7 @@ index b30c291c3fe951f44977f2fba74cc0a6b9e54650..b91117faf29a9bc950e03e609aa2cbf2
 +                mCustomView = (DownloadLocationCustomView) LayoutInflater.from(context).inflate(
 +                        R.layout.download_location_dialog, null);
 +                mCustomView.initialize(DownloadLocationDialogType.DEFAULT, /*totalBytes*/ 0);
-+                mCustomView.setTitle(context.getString(R.string.bookmark_manager_menu_export));
++                mCustomView.setTitle(context.getString(R.string.export_bookmarks_alert_title));
 +                mCustomView.setFileName(standardBoorkmarkName);
 +                mCustomView.mDontShowAgain.setVisibility(View.GONE);
 +

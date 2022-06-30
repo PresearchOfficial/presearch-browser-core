@@ -1,5 +1,5 @@
 diff --git a/chrome/common/BUILD.gn b/chrome/common/BUILD.gn
-index ae37955102c878ac4603a7397925d859ae48cda2..5bb4aa010336927597ce75b25301c3f537755bcd 100644
+index ae37955102c878ac4603a7397925d859ae48cda2..91e46b55f60241432162b3d2ab4b3a0018043661 100644
 --- a/chrome/common/BUILD.gn
 +++ b/chrome/common/BUILD.gn
 @@ -86,6 +86,7 @@ source_set("channel_info") {
@@ -10,7 +10,17 @@ index ae37955102c878ac4603a7397925d859ae48cda2..5bb4aa010336927597ce75b25301c3f5
  }
  
  source_set("ini_parser") {
-@@ -517,6 +518,7 @@ static_library("non_code_constants") {
+@@ -383,6 +384,9 @@ static_library("common") {
+     sources += [
+       "media/chrome_media_drm_bridge_client.cc",
+       "media/chrome_media_drm_bridge_client.h",
++      ## Bromite dependencies for bookmark import functionality
++      "importer/imported_bookmark_entry.cc",
++      "importer/imported_bookmark_entry.h",
+     ]
+   } else {
+     # Non-Android.
+@@ -517,6 +521,7 @@ static_library("non_code_constants") {
      "//printing/buildflags",
      "//ui/base:buildflags",
    ]
