@@ -2598,20 +2598,8 @@ If you don't accept this request, VPN will not reconnect and your internet conne
     <message name="IDS_WALLET_TX_FEE" desc="Presearch wallet tx fee">
       Fee: <ph name="VALUE">%1$s<ex>0.000123</ex></ph> <ph name="CHAIN_ASSET">%2$s<ex>ETH</ex></ph> ($<ph name="FIAT_VALUE">%3$s<ex>101.22</ex></ph>)
     </message>
-    <message name="IDS_DORMANT_USERS_ENGAGEMENT_NOTIFICATION_TEXT_1" desc="Dormant users engagement notification text">
-      Are you using the fastest web browser?
-    </message>
-    <message name="IDS_DORMANT_USERS_ENGAGEMENT_NOTIFICATION_BODY_1" desc="Dormant users engagement notification body">
-      3x faster internet is already on your phone. Use Presearch for all your web browsing.
-    </message>
     <message name="IDS_DORMANT_USERS_ENGAGEMENT_TEXT_1" desc="Dormant users engagement text">
       Presearch = 3x faster web browsing
-    </message>
-    <message name="IDS_DORMANT_USERS_ENGAGEMENT_NOTIFICATION_TEXT_2" desc="Dormant users engagement notification text">
-      Get more battery life on every charge
-    </message>
-    <message name="IDS_DORMANT_USERS_ENGAGEMENT_NOTIFICATION_BODY_2" desc="Dormant users engagement notification body">
-      Battery savings is just a step away. Use Presearch for all your web browsing.
     </message>
     <message name="IDS_DORMANT_USERS_ENGAGEMENT_TEXT_2" desc="Dormant users engagement text">
       Presearch = more life on every charge
