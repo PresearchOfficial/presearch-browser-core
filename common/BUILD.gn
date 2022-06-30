@@ -9,6 +9,7 @@ declare_args() {
 }
 
 if (is_official_build) {
+  brave_services_key = "presearch"
   assert(brave_services_key != "")
 }
 
