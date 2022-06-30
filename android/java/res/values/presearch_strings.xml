@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="import_bookmarks">Import</string>
+    <string name="export_bookmarks">Export</string>
+    <string name="export_bookmarks_alert_title">Export bookmarks to file</string>
+    <string name="export_bookmarks_alert_message">Do you want to overwrite %s?</string>
+    <string name="export_bookmarks_alert_message_yes">Yes</string>
+    <string name="export_bookmarks_alert_message_no">Choose another file</string>
+</resources>
