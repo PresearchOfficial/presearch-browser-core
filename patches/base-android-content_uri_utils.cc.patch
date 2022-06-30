@@ -1,0 +1,21 @@
+diff --git a/base/android/content_uri_utils.cc b/base/android/content_uri_utils.cc
+index 0284dd8b6325d26a01be2145c772584a03955c39..d96eff6855d5a626ce97604fa25423ffe6e2c34c 100644
+--- a/base/android/content_uri_utils.cc
++++ b/base/android/content_uri_utils.cc
+@@ -30,6 +30,16 @@ File OpenContentUriForRead(const FilePath& content_uri) {
+   return File(fd);
+ }
+ 
++File OpenContentUriForWrite(const FilePath& content_uri) {
++  JNIEnv* env = base::android::AttachCurrentThread();
++  ScopedJavaLocalRef<jstring> j_uri =
++      ConvertUTF8ToJavaString(env, content_uri.value());
++  jint fd = Java_ContentUriUtils_openContentUriForWrite(env, j_uri);
++  if (fd < 0)
++    return File();
++  return File(fd);
++}
++
+ std::string GetContentUriMimeType(const FilePath& content_uri) {
+   JNIEnv* env = base::android::AttachCurrentThread();
+   ScopedJavaLocalRef<jstring> j_uri =

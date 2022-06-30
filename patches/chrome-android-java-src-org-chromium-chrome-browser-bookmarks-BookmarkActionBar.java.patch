@@ -1,0 +1,44 @@
+diff --git a/chrome/android/java/src/org/chromium/chrome/browser/bookmarks/BookmarkActionBar.java b/chrome/android/java/src/org/chromium/chrome/browser/bookmarks/BookmarkActionBar.java
+index 7412777d2f3e3fbe22af1fa8d6dce321eaa1c2ed..608ba21c3d7672f583936e01e4011acc2d34eacf 100644
+--- a/chrome/android/java/src/org/chromium/chrome/browser/bookmarks/BookmarkActionBar.java
++++ b/chrome/android/java/src/org/chromium/chrome/browser/bookmarks/BookmarkActionBar.java
+@@ -86,6 +86,12 @@ public class BookmarkActionBar extends SelectableListToolbar<BookmarkId>
+         } else if (menuItem.getItemId() == R.id.search_menu_id) {
+             mDelegate.openSearchUI();
+             return true;
++        } else if (menuItem.getItemId() == R.id.import_menu_id) {
++            mDelegate.importBookmarks();
++            return true;
++        } else if (menuItem.getItemId() == R.id.export_menu_id) {
++            mDelegate.exportBookmarks();
++            return true;
+         }
+ 
+         SelectionDelegate<BookmarkId> selectionDelegate = mDelegate.getSelectionDelegate();
+@@ -137,6 +143,8 @@ public class BookmarkActionBar extends SelectableListToolbar<BookmarkId>
+     void showLoadingUi() {
+         setTitle(null);
+         setNavigationButton(NAVIGATION_BUTTON_NONE);
++        getMenu().findItem(R.id.import_menu_id).setVisible(false);
++        getMenu().findItem(R.id.export_menu_id).setVisible(false);
+         getMenu().findItem(R.id.search_menu_id).setVisible(false);
+         getMenu().findItem(R.id.edit_menu_id).setVisible(false);
+     }
+@@ -146,6 +154,8 @@ public class BookmarkActionBar extends SelectableListToolbar<BookmarkId>
+         super.showNormalView();
+ 
+         if (mDelegate == null) {
++            getMenu().findItem(R.id.import_menu_id).setVisible(false);
++            getMenu().findItem(R.id.export_menu_id).setVisible(false);
+             getMenu().findItem(R.id.search_menu_id).setVisible(false);
+             getMenu().findItem(R.id.edit_menu_id).setVisible(false);
+         }
+@@ -175,6 +185,8 @@ public class BookmarkActionBar extends SelectableListToolbar<BookmarkId>
+     @Override
+     public void onFolderStateSet(BookmarkId folder) {
+         mCurrentFolder = mDelegate.getModel().getBookmarkById(folder);
++        getMenu().findItem(R.id.import_menu_id).setVisible(true);
++        getMenu().findItem(R.id.export_menu_id).setVisible(true);
+         getMenu().findItem(R.id.search_menu_id).setVisible(true);
+         getMenu().findItem(R.id.edit_menu_id).setVisible(mCurrentFolder.isEditable());
+ 

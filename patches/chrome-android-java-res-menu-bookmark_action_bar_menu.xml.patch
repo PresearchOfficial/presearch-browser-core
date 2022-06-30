@@ -1,0 +1,25 @@
+diff --git a/chrome/android/java/res/menu/bookmark_action_bar_menu.xml b/chrome/android/java/res/menu/bookmark_action_bar_menu.xml
+index fe31b06a40667b0a41cbe5ada4e422a8ad9eb125..7018cc3832d599546a27a35f9f622f3d90c9af37 100644
+--- a/chrome/android/java/res/menu/bookmark_action_bar_menu.xml
++++ b/chrome/android/java/res/menu/bookmark_action_bar_menu.xml
+@@ -21,6 +21,20 @@
+             android:visible="false"
+             app:showAsAction="ifRoom"
+             app:iconTint="@color/default_icon_color_secondary_tint_list" />
++        <item
++            android:id="@+id/import_menu_id"
++            android:icon="@drawable/ic_folder_blue_24dp"
++            android:title="@string/bookmark_manager_menu_import"
++            android:visible="true"
++            app:showAsAction="ifRoom"
++            app:iconTint="@color/default_icon_color_tint_list" />
++        <item
++            android:id="@+id/export_menu_id"
++            android:icon="@drawable/ic_file_download_white_24dp"
++            android:title="@string/bookmark_manager_menu_export"
++            android:visible="true"
++            app:showAsAction="ifRoom"
++            app:iconTint="@color/default_icon_color_tint_list" />
+         <item
+             android:id="@+id/close_menu_id"
+             android:icon="@drawable/btn_close"

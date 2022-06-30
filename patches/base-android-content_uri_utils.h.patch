@@ -1,0 +1,15 @@
+diff --git a/base/android/content_uri_utils.h b/base/android/content_uri_utils.h
+index 139ef9009497d8b7ae1846a35f08697016b8b243..6ff3e48f2975c57e3353b8bef3c72a3d48c1d442 100644
+--- a/base/android/content_uri_utils.h
++++ b/base/android/content_uri_utils.h
+@@ -18,6 +18,10 @@ namespace base {
+ // Returns -1 if the URI is invalid.
+ BASE_EXPORT File OpenContentUriForRead(const FilePath& content_uri);
+ 
++// Opens a content URI for write and returns the file descriptor to the caller.
++// Returns -1 if the URI is invalid.
++BASE_EXPORT File OpenContentUriForWrite(const FilePath& content_uri);
++
+ // Check whether a content URI exists.
+ BASE_EXPORT bool ContentUriExists(const FilePath& content_uri);
+ 

@@ -1,0 +1,21 @@
+diff --git a/chrome/android/java/src/org/chromium/chrome/browser/bookmarks/BookmarkDelegate.java b/chrome/android/java/src/org/chromium/chrome/browser/bookmarks/BookmarkDelegate.java
+index b6c838a54e5a2c165bcc6c543ed1ed698830f92f..080567c2efda8bdcf52f5aaee131a74e01eb5266 100644
+--- a/chrome/android/java/src/org/chromium/chrome/browser/bookmarks/BookmarkDelegate.java
++++ b/chrome/android/java/src/org/chromium/chrome/browser/bookmarks/BookmarkDelegate.java
+@@ -67,6 +67,16 @@ interface BookmarkDelegate {
+      */
+     void openSearchUI();
+ 
++    /**
++     * Imports bookmarks from user-selected file.
++     */
++    void importBookmarks();
++
++    /**
++     * Exports bookmarks to downloads directory.
++     */
++    void exportBookmarks();
++
+     /**
+      * Dismisses the search UI.
+      */

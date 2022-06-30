@@ -1,0 +1,13 @@
+diff --git a/ui/shell_dialogs/select_file_dialog_android.h b/ui/shell_dialogs/select_file_dialog_android.h
+index 32499c59eec0476dab79cef207c5cddd3dba8208..552ee7cfb73fd73ef89c09c74f27dd1ba6565c4b 100644
+--- a/ui/shell_dialogs/select_file_dialog_android.h
++++ b/ui/shell_dialogs/select_file_dialog_android.h
+@@ -57,6 +57,8 @@ class SelectFileDialogImpl : public SelectFileDialog {
+                       gfx::NativeWindow owning_window,
+                       void* params) override;
+ 
++  void ShowToast(const std::string& message) override;
++
+  protected:
+   ~SelectFileDialogImpl() override;
+ 

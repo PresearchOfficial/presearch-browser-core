@@ -1,0 +1,12 @@
+diff --git a/chrome/browser/flags/android/chrome_feature_list.h b/chrome/browser/flags/android/chrome_feature_list.h
+index 0db16128e90cb16f20bb42e38720416aae792dc1..a3b013e2efe2eb833be7c74448d7439ac7df178c 100644
+--- a/chrome/browser/flags/android/chrome_feature_list.h
++++ b/chrome/browser/flags/android/chrome_feature_list.h
+@@ -154,6 +154,7 @@ extern const base::Feature kToolbarMicIphAndroid;
+ extern const base::Feature kToolbarUseHardwareBitmapDraw;
+ extern const base::Feature kTrustedWebActivityLocationDelegation;
+ extern const base::Feature kTrustedWebActivityNewDisclosure;
++extern const base::Feature kBookmarksExportUseSaf;
+ extern const base::Feature kTrustedWebActivityPostMessage;
+ extern const base::Feature kTrustedWebActivityQualityEnforcement;
+ extern const base::Feature kTrustedWebActivityQualityEnforcementForced;

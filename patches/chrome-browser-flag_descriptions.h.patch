@@ -1,0 +1,14 @@
+diff --git a/chrome/browser/flag_descriptions.h b/chrome/browser/flag_descriptions.h
+index bb76767a3cc0eaa055e62c4f294df139951a225d..72de5b5aaef51c5bb974cbc500025eda701eedbc 100644
+--- a/chrome/browser/flag_descriptions.h
++++ b/chrome/browser/flag_descriptions.h
+@@ -3395,6 +3395,9 @@ extern const char kWebKioskEnableLacrosName[];
+ extern const char kWebKioskEnableLacrosDescription[];
+ #endif  // BUILDFLAG(IS_CHROMEOS_ASH)
+ 
++extern const char kBookmarksExportUseSafName[];
++extern const char kBookmarksExportUseSafDescription[];
++
+ // ============================================================================
+ // Don't just add flags to the end, put them in the right section in
+ // alphabetical order. See top instructions for more.

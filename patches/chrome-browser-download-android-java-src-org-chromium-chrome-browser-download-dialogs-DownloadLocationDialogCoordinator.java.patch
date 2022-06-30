@@ -1,0 +1,29 @@
+diff --git a/chrome/browser/download/android/java/src/org/chromium/chrome/browser/download/dialogs/DownloadLocationDialogCoordinator.java b/chrome/browser/download/android/java/src/org/chromium/chrome/browser/download/dialogs/DownloadLocationDialogCoordinator.java
+index c8d406b43e5c279916da6e121ba5b32100ee0ef8..f96476be447ca6a0996365f068352ce6345fd0fc 100644
+--- a/chrome/browser/download/android/java/src/org/chromium/chrome/browser/download/dialogs/DownloadLocationDialogCoordinator.java
++++ b/chrome/browser/download/android/java/src/org/chromium/chrome/browser/download/dialogs/DownloadLocationDialogCoordinator.java
+@@ -37,12 +37,12 @@ import java.util.ArrayList;
+ public class DownloadLocationDialogCoordinator implements ModalDialogProperties.Controller {
+     @NonNull
+     private DownloadLocationDialogController mController;
+-    private PropertyModel mDialogModel;
++    protected PropertyModel mDialogModel;
+     private PropertyModel mDownloadLocationDialogModel;
+     private PropertyModelChangeProcessor<PropertyModel, DownloadLocationCustomView, PropertyKey>
+             mPropertyModelChangeProcessor;
+-    private DownloadLocationCustomView mCustomView;
+-    private ModalDialogManager mModalDialogManager;
++    protected DownloadLocationCustomView mCustomView;
++    protected ModalDialogManager mModalDialogManager;
+     private long mTotalBytes;
+     private @DownloadLocationDialogType int mDialogType;
+     private String mSuggestedPath;
+@@ -131,7 +131,7 @@ public class DownloadLocationDialogCoordinator implements ModalDialogProperties.
+      * Called after retrieved the download directory options.
+      * @param dirs An list of available download directories.
+      */
+-    private void onDirectoryOptionsRetrieved(ArrayList<DirectoryOption> dirs) {
++    protected void onDirectoryOptionsRetrieved(ArrayList<DirectoryOption> dirs) {
+         // If there is only one directory available, don't show the default dialog, and set the
+         // download directory to default. Dialog will still show for other types of dialogs, like
+         // name conflict or disk error or if Incognito download warning is needed.

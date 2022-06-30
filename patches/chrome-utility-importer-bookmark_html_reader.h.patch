@@ -1,0 +1,19 @@
+diff --git a/chrome/utility/importer/bookmark_html_reader.h b/chrome/utility/importer/bookmark_html_reader.h
+index f45103c9f9b45dd7ba112c9f8ad8cc92e8843f99..daaeb8b3a1374fcbec2df1a822532c193e9386a3 100644
+--- a/chrome/utility/importer/bookmark_html_reader.h
++++ b/chrome/utility/importer/bookmark_html_reader.h
+@@ -50,6 +50,14 @@ void ImportBookmarksFile(
+     std::vector<importer::SearchEngineInfo>* search_engines,
+     favicon_base::FaviconUsageDataList* favicons);
+ 
++void ImportBookmarksFile(
++    const base::RepeatingCallback<bool(void)> cancellation_callback,
++    const base::RepeatingCallback<bool(const GURL&)> valid_url_callback,
++    const std::string& content,
++    std::vector<ImportedBookmarkEntry>* bookmarks,
++    std::vector<importer::SearchEngineInfo>* search_engines,
++    favicon_base::FaviconUsageDataList* favicons);
++
+ // Returns true if |url| should be imported as a search engine, i.e. because it
+ // has replacement terms. Chrome treats such bookmarks as search engines rather
+ // than true bookmarks.

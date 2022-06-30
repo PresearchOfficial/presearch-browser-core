@@ -1,0 +1,24 @@
+diff --git a/chrome/browser/importer/profile_writer.h b/chrome/browser/importer/profile_writer.h
+index eae61642e2203e6e6669b539d97559bf2dff43ff..c819ed8db5e69b2180c0f7af67b35eaa5b88ed84 100644
+--- a/chrome/browser/importer/profile_writer.h
++++ b/chrome/browser/importer/profile_writer.h
+@@ -11,6 +11,7 @@
+ #include "base/memory/raw_ptr.h"
+ #include "base/memory/ref_counted.h"
+ #include "build/build_config.h"
++#include "components/bookmarks/browser/bookmark_model.h"
+ #include "components/favicon_base/favicon_usage_data.h"
+ #include "components/history/core/browser/history_types.h"
+ #include "components/search_engines/template_url_service.h"
+@@ -71,6 +72,11 @@ class ProfileWriter : public base::RefCountedThreadSafe<ProfileWriter> {
+   virtual void AddBookmarks(const std::vector<ImportedBookmarkEntry>& bookmarks,
+                             const std::u16string& top_level_folder_name);
+ 
++  virtual void AddBookmarksWithModel(
++      bookmarks::BookmarkModel* model,
++      const std::vector<ImportedBookmarkEntry>& bookmarks,
++      const std::u16string& top_level_folder_name);
++
+   virtual void AddFavicons(const favicon_base::FaviconUsageDataList& favicons);
+ 
+   // Adds the TemplateURLs in |template_urls| to the local store.

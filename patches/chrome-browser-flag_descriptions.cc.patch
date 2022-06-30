@@ -1,0 +1,16 @@
+diff --git a/chrome/browser/flag_descriptions.cc b/chrome/browser/flag_descriptions.cc
+index f89f2842ffc1794dd6d56ce8ab532f4521a47dad..78b3d09069a6ec800221a27811a99205b31ed79b 100644
+--- a/chrome/browser/flag_descriptions.cc
++++ b/chrome/browser/flag_descriptions.cc
+@@ -5859,6 +5859,11 @@ const char kWebKioskEnableLacrosDescription[] =
+     "ChromeOS. When disabled, the Ash-chrome will be used";
+ #endif  // BUILDFLAG(IS_CHROMEOS_ASH)
+ 
++const char kBookmarksExportUseSafName[] = "Use saf for bookmarks export";
++const char kBookmarksExportUseSafDescription[] =
++    "When enabled user can choose where save the exported bookmarks "
++    "file.";
++
+ // ============================================================================
+ // Don't just add flags to the end, put them in the right section in
+ // alphabetical order just like the header file.
