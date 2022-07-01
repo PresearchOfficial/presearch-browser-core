@@ -1,0 +1,13 @@
+diff --git a/chrome/android/java/src/org/chromium/chrome/browser/quickactionsearchwidget/QuickActionSearchWidgetProvider.java b/chrome/android/java/src/org/chromium/chrome/browser/quickactionsearchwidget/QuickActionSearchWidgetProvider.java
+index 171242579ac25e0f845d44f3bbd9c501e6e35d95..5600a028ec7bacefa7e1793244820e8366516190 100644
+--- a/chrome/android/java/src/org/chromium/chrome/browser/quickactionsearchwidget/QuickActionSearchWidgetProvider.java
++++ b/chrome/android/java/src/org/chromium/chrome/browser/quickactionsearchwidget/QuickActionSearchWidgetProvider.java
+@@ -213,7 +213,7 @@ public abstract class QuickActionSearchWidgetProvider extends AppWidgetProvider
+             // Make the Widget available to all Chrome users who participated in an experiment in
+             // the past. This can trigger disk access. Unfortunately, we need to keep it for a
+             // little bit longer -- see: https://crbug.com/1309116
+-            setWidgetEnabled(true, true);
++            setWidgetEnabled(true, false);
+         });
+ 
+         SearchActivityPreferencesManager.addObserver(prefs -> {

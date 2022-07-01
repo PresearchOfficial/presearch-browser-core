@@ -1,0 +1,28 @@
+diff --git a/chrome/browser/ui/android/quickactionsearchwidget/java/src/org/chromium/chrome/browser/ui/quickactionsearchwidget/QuickActionSearchWidgetProviderDelegate.java b/chrome/browser/ui/android/quickactionsearchwidget/java/src/org/chromium/chrome/browser/ui/quickactionsearchwidget/QuickActionSearchWidgetProviderDelegate.java
+index e8120ce7c94d1fb7b13e6b452a35bcf712cfabd7..5ef69e49a96bac90bf5f9bb376556a2120919c96 100644
+--- a/chrome/browser/ui/android/quickactionsearchwidget/java/src/org/chromium/chrome/browser/ui/quickactionsearchwidget/QuickActionSearchWidgetProviderDelegate.java
++++ b/chrome/browser/ui/android/quickactionsearchwidget/java/src/org/chromium/chrome/browser/ui/quickactionsearchwidget/QuickActionSearchWidgetProviderDelegate.java
+@@ -128,7 +128,7 @@ public class QuickActionSearchWidgetProviderDelegate {
+             voiceSearchVisible = prefs.voiceSearchAvailable;
+             incognitoModeVisible = prefs.incognitoAvailable;
+             googleLensVisible = prefs.googleLensAvailable;
+-            dinoGameVisible = true;
++            dinoGameVisible = false;
+         }
+ 
+         /**
+@@ -251,12 +251,11 @@ public class QuickActionSearchWidgetProviderDelegate {
+ 
+         views.setViewVisibility(R.id.voice_search_quick_action_button,
+                 settings.voiceSearchVisible ? View.VISIBLE : View.GONE);
+-        views.setViewVisibility(R.id.incognito_quick_action_button,
+-                settings.incognitoModeVisible ? View.VISIBLE : View.GONE);
++        views.setViewVisibility(R.id.incognito_quick_action_button, View.GONE);
+         views.setViewVisibility(R.id.lens_quick_action_button,
+                 settings.googleLensVisible ? View.VISIBLE : View.GONE);
+         views.setViewVisibility(
+-                R.id.dino_quick_action_button, settings.dinoGameVisible ? View.VISIBLE : View.GONE);
++                R.id.dino_quick_action_button, View.GONE);
+     }
+ 
+     /**
