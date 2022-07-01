@@ -6,4 +6,5 @@
     <string name="export_bookmarks_alert_message">Do you want to overwrite %s?</string>
     <string name="export_bookmarks_alert_message_yes">Yes</string>
     <string name="export_bookmarks_alert_message_no">Choose another file</string>
+    <string name="saving_file_error">Failed to save selected file</string>
 </resources>
