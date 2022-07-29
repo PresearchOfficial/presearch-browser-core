@@ -2,11 +2,7 @@
 <layer-list xmlns:android="http://schemas.android.com/apk/res/android">
     <item android:id="@android:id/background">
         <shape>
-            <gradient
-	            android:angle="315"
-	            android:startColor="#F73A1C"
-	            android:endColor="#BF14A2"
-	            android:type="linear" />
+            <solid android:color="@color/shields_tooltip_arrow_color_2" />
 	        <corners android:radius="6dp" />
         </shape>
     </item>
