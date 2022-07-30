@@ -141,16 +141,6 @@
     android:exported="false">
 </activity>
 
-<!-- <meta-data
-        android:name="com.google.android.play.billingclient.version"
-        android:value="4.0.0" /> -->
-
-<!-- <activity android:name="com.android.billingclient.api.ProxyBillingActivity"
-    android:theme="@style/BraveProxyBillingActivityTheme"
-    android:exported="false"
-    android:screenOrientation="sensorPortrait"
-    tools:ignore="LockedOrientationActivity"/> -->
-
 <!-- Upgrade related -->
 <receiver android:name="org.chromium.chrome.browser.upgrade.BravePackageReplacedBroadcastReceiver"
     android:exported="false">
@@ -162,17 +152,3 @@
 <service android:name="org.chromium.chrome.browser.upgrade.BraveUpgradeJobIntentService"
     android:permission="android.permission.BIND_JOB_SERVICE"
     android:exported="false"/>
-
-<!-- <service
-    android:name="org.chromium.chrome.browser.vpn.wireguard.WireguardService"
-    android:exported="false">
-</service>
-
-<service
-    android:name="com.wireguard.android.backend.GoBackend$VpnService"
-    android:permission="android.permission.BIND_VPN_SERVICE"
-    android:exported="false">
-    <intent-filter>
-        <action android:name="android.net.VpnService" />
-    </intent-filter>
-</service> -->
