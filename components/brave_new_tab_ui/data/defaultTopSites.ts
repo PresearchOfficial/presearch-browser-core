@@ -12,13 +12,13 @@ import YouTubeFavicon from '../../img/newtab/defaultTopSitesIcon/youtube.png'
 export const defaultTopSitesData = [
   {
     name: 'App Store',
-    url: 'https://itunes.apple.com/app/brave-browser-fast-adblocker/id1052879175?mt=8',
+    url: 'https://apps.apple.com/us/app/presearch-privacy-browser/id1565192485',
     favicon: AppStoreFavicon,
     background: 'rgba(255,255,255,0.8)'
   },
   {
-    name: 'Brave Software',
-    url: 'https://brave.com',
+    name: 'Presearch.com Global Limited',
+    url: 'https://presearch.io',
     favicon: BraveFavicon,
     background: 'rgba(255,255,255,0.8)'
   },
@@ -30,19 +30,19 @@ export const defaultTopSitesData = [
   },
   {
     name: 'Play Store',
-    url: 'https://play.google.com/store/apps/details?id=com.presearch.browser&hl=en_US',
+    url: 'https://play.google.com/store/apps/details?id=com.presearch&hl=en_US',
     favicon: PlayStoreFavicon,
     background: 'rgba(255,255,255,0.8)'
   },
   {
     name: 'Twitter',
-    url: 'https://twitter.com/brave',
+    url: 'https://twitter.com/presearchnews',
     favicon: TwitterFavicon,
     background: 'rgba(255,255,255,0.8)'
   },
   {
     name: 'YouTube',
-    url: 'https://www.youtube.com/bravesoftware',
+    url: 'https://www.youtube.com/presearch',
     favicon: YouTubeFavicon,
     background: 'rgba(255,255,255,0.8)'
   }

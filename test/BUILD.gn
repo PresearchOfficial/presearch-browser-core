@@ -1178,7 +1178,7 @@ if (!is_android) {
 
 # All in this section is for running instrumentation java tests
 if (is_android) {
-  brave_public_test_manifest_package = "com.presearch.browser.tests"
+  brave_public_test_manifest_package = "com.presearch.tests"
 
   brave_public_test_apk_manifest =
       "$root_gen_dir/brave_public_test_apk_manifest/AndroidManifest.xml"

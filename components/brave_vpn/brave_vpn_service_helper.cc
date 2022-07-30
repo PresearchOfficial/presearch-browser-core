@@ -160,7 +160,7 @@ base::Value GetValueWithTicketInfos(const std::string& email,
   dict.SetStringKey("email", email_trimmed);
   dict.SetStringKey("subject", subject_trimmed);
   dict.SetStringKey("support-ticket", body_encoded);
-  dict.SetStringKey("partner-client-id", "com.presearch.browser");
+  dict.SetStringKey("partner-client-id", "com.presearch");
 
   // optional (but encouraged) fields
   dict.SetStringKey("subscriber-credential", "");

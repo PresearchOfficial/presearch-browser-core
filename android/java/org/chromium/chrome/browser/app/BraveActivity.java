@@ -220,7 +220,7 @@ public abstract class BraveActivity<C extends ChromeActivityComponent> extends C
     private static final String PREF_CLEAR_ON_EXIT = "clear_on_exit";
     public static final String OPEN_URL = "open_url";
 
-    public static final String BRAVE_PRODUCTION_PACKAGE_NAME = "com.presearch.browser";
+    public static final String BRAVE_PRODUCTION_PACKAGE_NAME = "com.presearch";
     public static final String BRAVE_BETA_PACKAGE_NAME = "com.presearch.browser_beta";
     public static final String BRAVE_NIGHTLY_PACKAGE_NAME = "com.presearch.browser_nightly";
 
@@ -232,7 +232,7 @@ public abstract class BraveActivity<C extends ChromeActivityComponent> extends C
     /**
      * Settings for sending local notification reminders.
      */
-    public static final String CHANNEL_ID = "com.presearch.browser";
+    public static final String CHANNEL_ID = "com.presearch";
 
     // Explicitly declare this variable to avoid build errors.
     // It will be removed in asm and parent variable will be used instead.
