@@ -2,13 +2,6 @@ diff --git a/chrome/android/java/AndroidManifest.xml b/chrome/android/java/Andro
 index b31d14a673bb536c55ca146a3ad0100f6814e13f..297eff506b1d3cb8ca5b31a54f1a92732fe1f926 100644
 --- a/chrome/android/java/AndroidManifest.xml
 +++ b/chrome/android/java/AndroidManifest.xml
-@@ -26,6 +26,7 @@ by a child template that "extends" this file.
-     <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
-     <uses-permission-sdk-23 android:name="android.permission.ACCESS_WIFI_STATE" />
-     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
- 
-     <!--
-       Enable runtime permissions as uses-permission in tip of tree builds
 @@ -59,18 +60,26 @@ by a child template that "extends" this file.
      <uses-permission-sdk-23 android:name="android.permission.BLUETOOTH_SCAN"
                              android:usesPermissionFlags="neverForLocation"/>
