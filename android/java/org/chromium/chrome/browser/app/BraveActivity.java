@@ -1159,6 +1159,7 @@ public abstract class BraveActivity<C extends ChromeActivityComponent> extends C
         if (url.equals(UrlConstants.NTP_URL)) {
             url = ( TextUtils.isEmpty(homePageUrl) || "chrome://newtab/".equals(homePageUrl)) ? 
                     "https://presearch.com" : homePageUrl;
+        }
 
         TabModel tabModel = getCurrentTabModel();
         int tabRewardsIndex = TabModelUtils.getTabIndexByUrl(tabModel, url);
