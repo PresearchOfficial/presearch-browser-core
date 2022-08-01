@@ -45,13 +45,9 @@ public class BraveTabCreator extends ChromeTabCreator {
 
     @Override
     public Tab launchUrl(String url, @TabLaunchType int type) {
-        String homePageUrl = HomepageManager.getHomepageUri();
-
         if (url.equals(UrlConstants.NTP_URL)
                 && (type == TabLaunchType.FROM_CHROME_UI || type == TabLaunchType.FROM_STARTUP)) {
-            url = ( TextUtils.isEmpty(homePageUrl) || "chrome://newtab/".equals(homePageUrl)) ? 
-                    "https://presearch.com" : homePageUrl;
-
+            // registerPageView();
             ChromeTabbedActivity chromeTabbedActivity = BraveActivity.getChromeTabbedActivity();
             if (chromeTabbedActivity != null && Build.VERSION.SDK_INT <= Build.VERSION_CODES.M) {
                 TabModel tabModel = chromeTabbedActivity.getCurrentTabModel();
@@ -71,13 +67,17 @@ public class BraveTabCreator extends ChromeTabCreator {
         return super.launchUrl(url, type);
     }
 
-    @Override
-    public Tab createNewTab(LoadUrlParams loadUrlParams, @TabLaunchType int type, Tab parent) {
-        String homePageUrl = HomepageManager.getHomepageUri();
-        if (loadUrlParams.getUrl().equals(UrlConstants.NTP_URL)
-                && type == TabLaunchType.FROM_TAB_GROUP_UI )
-            loadUrlParams.setUrl(( TextUtils.isEmpty(homePageUrl) || "chrome://newtab/".equals(homePageUrl)) ? 
-                                "https://presearch.com" : homePageUrl);
-        return super.createNewTab(loadUrlParams, type, parent, null);
-    }
+    // @Override
+    // public Tab createNewTab(LoadUrlParams loadUrlParams, @TabLaunchType int type, Tab parent) {
+    //     if (loadUrlParams.getUrl().equals(UrlConstants.NTP_URL)
+    //             && type == TabLaunchType.FROM_TAB_GROUP_UI) {
+    //         registerPageView();
+    //     }
+    //     return super.createNewTab(loadUrlParams, type, parent, null);
+    // }
+
+    // private void registerPageView() {
+    //     NTPBackgroundImagesBridge.getInstance(Profile.getLastUsedRegularProfile())
+    //             .registerPageView();
+    // }
 }

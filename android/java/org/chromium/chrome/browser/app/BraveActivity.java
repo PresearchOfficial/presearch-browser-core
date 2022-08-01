@@ -92,6 +92,7 @@ import org.chromium.chrome.browser.BraveSyncWorker;
 import org.chromium.chrome.browser.ChromeTabbedActivity;
 import org.chromium.chrome.browser.CrossPromotionalModalDialogFragment;
 import org.chromium.chrome.browser.DormantUsersEngagementDialogFragment;
+import org.chromium.chrome.browser.homepage.HomepageManager;
 import org.chromium.chrome.browser.InternetConnection;
 import org.chromium.chrome.browser.LaunchIntentDispatcher;
 import org.chromium.chrome.browser.bookmarks.BookmarkBridge;
@@ -1154,6 +1155,11 @@ public abstract class BraveActivity<C extends ChromeActivityComponent> extends C
     }
 
     public Tab openNewOrSelectExistingTab(String url) {
+        String homePageUrl = HomepageManager.getHomepageUri();
+        if (url.equals(UrlConstants.NTP_URL)) {
+            url = ( TextUtils.isEmpty(homePageUrl) || "chrome://newtab/".equals(homePageUrl)) ? 
+                    "https://presearch.com" : homePageUrl;
+
         TabModel tabModel = getCurrentTabModel();
         int tabRewardsIndex = TabModelUtils.getTabIndexByUrl(tabModel, url);
         Tab tab = selectExistingTab(url);
