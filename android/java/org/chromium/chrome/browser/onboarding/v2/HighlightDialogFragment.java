@@ -40,7 +40,7 @@ import java.util.Locale;
 
 public class HighlightDialogFragment extends DialogFragment {
     final public static String TAG_FRAGMENT = "HIGHLIGHT_FRAG";
-    private final static String NTP_TUTORIAL_PAGE = "https://brave.com/ja/android-ntp-tutorial";
+    private final static String NTP_TUTORIAL_PAGE = "https://docs.presearch.org";
 
     public interface HighlightDialogListener {
         void onNextPage();

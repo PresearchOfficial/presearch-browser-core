@@ -419,7 +419,6 @@ public class BraveShieldsHandler implements BraveRewardsHelper.LargeIconReadyCal
         SwitchCompat mShieldMainSwitch = mMainLayout.findViewById(R.id.site_switch);
 
         ImageView helpImage = (ImageView) mMainLayout.findViewById(R.id.help);
-        ImageView shareImage = (ImageView) mMainLayout.findViewById(R.id.share);
 
         helpImage.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -427,16 +426,6 @@ public class BraveShieldsHandler implements BraveRewardsHelper.LargeIconReadyCal
                 mMainLayout.setVisibility(View.GONE);
                 mAboutLayout.setVisibility(View.VISIBLE);
                 setUpAboutLayout();
-            }
-        });
-
-        shareImage.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                mMainLayout.setVisibility(View.GONE);
-                if (BraveStatsUtil.hasWritePermission(BraveActivity.getBraveActivity())) {
-                    BraveStatsUtil.shareStats(R.layout.brave_stats_share_layout);
-                }
             }
         });
 

@@ -19,9 +19,9 @@ import org.chromium.chrome.browser.feedback.HelpAndFeedbackLauncherImpl;
 import javax.annotation.Nonnull;
 
 public class BraveHelpAndFeedbackLauncher extends HelpAndFeedbackLauncherImpl {
-    protected static final String FALLBACK_SUPPORT_URL = "https://community.brave.com/";
+    protected static final String FALLBACK_SUPPORT_URL = "https://community.presearch.com/";
     private static final String SAFE_BROWSING_URL =
-            "https://brave.com/privacy/browser/#safe-browsing";
+            "https://community.presearch.com/";
     private static final String TAG = "BraveHelpAndFeedbackLauncher";
 
     @Override

@@ -117,7 +117,7 @@ int OnBeforeURLRequest_StaticRedirectWorkForGURL(
 
   if (crxDownload_pattern.MatchesURL(request_url)) {
     replacements.SetSchemeStr("https");
-    replacements.SetHostStr("crxdownload.brave.com");
+    replacements.SetHostStr("ad-blocking-lists.presearch.com");
     *new_url = request_url.ReplaceComponents(replacements);
     return net::OK;
   }
@@ -129,49 +129,49 @@ int OnBeforeURLRequest_StaticRedirectWorkForGURL(
     return net::OK;
   }
 
-  if (crlSet_pattern1.MatchesURL(request_url)) {
-    replacements.SetSchemeStr("https");
-    replacements.SetHostStr("redirector.brave.com");
-    *new_url = request_url.ReplaceComponents(replacements);
-    return net::OK;
-  }
+  // if (crlSet_pattern1.MatchesURL(request_url)) {
+  //   replacements.SetSchemeStr("https");
+  //   replacements.SetHostStr("redirector.brave.com");
+  //   *new_url = request_url.ReplaceComponents(replacements);
+  //   return net::OK;
+  // }
 
-  if (crlSet_pattern2.MatchesURL(request_url)) {
-    replacements.SetSchemeStr("https");
-    replacements.SetHostStr("redirector.brave.com");
-    *new_url = request_url.ReplaceComponents(replacements);
-    return net::OK;
-  }
+  // if (crlSet_pattern2.MatchesURL(request_url)) {
+  //   replacements.SetSchemeStr("https");
+  //   replacements.SetHostStr("redirector.brave.com");
+  //   *new_url = request_url.ReplaceComponents(replacements);
+  //   return net::OK;
+  // }
 
-  if (crlSet_pattern3.MatchesURL(request_url)) {
-    replacements.SetSchemeStr("https");
-    replacements.SetHostStr("redirector.brave.com");
-    *new_url = request_url.ReplaceComponents(replacements);
-    return net::OK;
-  }
+  // if (crlSet_pattern3.MatchesURL(request_url)) {
+  //   replacements.SetSchemeStr("https");
+  //   replacements.SetHostStr("redirector.brave.com");
+  //   *new_url = request_url.ReplaceComponents(replacements);
+  //   return net::OK;
+  // }
 
-  if (crlSet_pattern4.MatchesURL(request_url)) {
-    replacements.SetSchemeStr("https");
-    replacements.SetHostStr("redirector.brave.com");
-    *new_url = request_url.ReplaceComponents(replacements);
-    return net::OK;
-  }
+  // if (crlSet_pattern4.MatchesURL(request_url)) {
+  //   replacements.SetSchemeStr("https");
+  //   replacements.SetHostStr("redirector.brave.com");
+  //   *new_url = request_url.ReplaceComponents(replacements);
+  //   return net::OK;
+  // }
 
-  if (gvt1_pattern.MatchesURL(request_url) &&
-      !widevine_gvt1_pattern.MatchesURL(request_url)) {
-    replacements.SetSchemeStr("https");
-    replacements.SetHostStr(kBraveRedirectorProxy);
-    *new_url = request_url.ReplaceComponents(replacements);
-    return net::OK;
-  }
+  // if (gvt1_pattern.MatchesURL(request_url) &&
+  //     !widevine_gvt1_pattern.MatchesURL(request_url)) {
+  //   replacements.SetSchemeStr("https");
+  //   replacements.SetHostStr(kBraveRedirectorProxy);
+  //   *new_url = request_url.ReplaceComponents(replacements);
+  //   return net::OK;
+  // }
 
-  if (googleDl_pattern.MatchesURL(request_url) &&
-      !widevine_google_dl_pattern.MatchesURL(request_url)) {
-    replacements.SetSchemeStr("https");
-    replacements.SetHostStr(kBraveRedirectorProxy);
-    *new_url = request_url.ReplaceComponents(replacements);
-    return net::OK;
-  }
+  // if (googleDl_pattern.MatchesURL(request_url) &&
+  //     !widevine_google_dl_pattern.MatchesURL(request_url)) {
+  //   replacements.SetSchemeStr("https");
+  //   replacements.SetHostStr(kBraveRedirectorProxy);
+  //   *new_url = request_url.ReplaceComponents(replacements);
+  //   return net::OK;
+  // }
 
   return net::OK;
 }

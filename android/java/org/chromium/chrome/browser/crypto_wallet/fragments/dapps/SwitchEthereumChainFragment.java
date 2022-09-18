@@ -51,7 +51,7 @@ public class SwitchEthereumChainFragment extends Fragment {
 
         List<TwoLineItemDataSource> details = new ArrayList<>();
         details.add(new TwoLineItemDataSource("Network name", "Rinkeby Test Network"));
-        details.add(new TwoLineItemDataSource("Network URL", "rinkeyby-infura.brave.com"));
+        details.add(new TwoLineItemDataSource("Network URL", "rinkeyby-infura.presearch.org"));
         details.add(new TwoLineItemDataSource("Chain ID", info.chainId));
         details.add(new TwoLineItemDataSource("Currency symbol", info.symbol));
         details.add(
