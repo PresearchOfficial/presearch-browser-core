@@ -154,6 +154,7 @@ void RegisterComponent(component_updater::ComponentUpdateService* cus,
       std::make_unique<BraveComponentInstallerPolicy>(
           name, base64_public_key, std::move(ready_callback)));
   installer->Register(cus, std::move(registered_callback));
+  LOG(ERROR) << "Mamy Linx Here " << name;
 }
 
 }  // namespace brave

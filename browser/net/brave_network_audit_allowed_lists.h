@@ -20,7 +20,7 @@ constexpr const char* kAllowedUrlPrefixes[] = {
     // allowed because it 307's to https://componentupdater.brave.com
     "https://componentupdater.brave.com/service/update2",
     "https://crxdownload.brave.com/crx/blobs/",
-    "https://ad-blocking-lists.presearch.com//release/cffkpbalmllkdoenhmdmpbkajipdjfam/",
+    "https://ad-blocking-lists.presearch.com/release/",
 
     // Omaha/Sparkle
     "https://updates.bravesoftware.com/",
