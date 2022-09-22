@@ -11,9 +11,9 @@
 #include <vector>
 
 #include "base/strings/string_piece_forward.h"
-#include "brave/browser/translate/buildflags/buildflags.h"
+#include "brave/browser/net/brave_geolocation_buildflags.h"
+#include "brave/browser/safebrowsing/buildflags.h"
 #include "brave/common/network_constants.h"
-#include "brave/common/translate_network_constants.h"
 #include "extensions/common/url_pattern.h"
 #include "net/base/net_errors.h"
 
@@ -28,7 +28,7 @@ bool g_safebrowsing_api_endpoint_for_testing_ = false;
 base::StringPiece GetSafeBrowsingEndpoint() {
   if (g_safebrowsing_api_endpoint_for_testing_)
     return kSafeBrowsingTestingEndpoint;
-  return SAFEBROWSING_ENDPOINT;
+  return BUILDFLAG(SAFEBROWSING_ENDPOINT);
 }
 
 }  // namespace
@@ -88,14 +88,8 @@ int OnBeforeURLRequest_StaticRedirectWorkForGURL(
       URLPattern::SCHEME_HTTP | URLPattern::SCHEME_HTTPS,
       kWidevineGoogleDlPrefix);
 
-#if BUILDFLAG(ENABLE_BRAVE_TRANSLATE_GO)
-  static URLPattern translate_pattern(URLPattern::SCHEME_HTTPS,
-      kTranslateElementJSPattern);
-  static URLPattern translate_language_pattern(URLPattern::SCHEME_HTTPS,
-      kTranslateLanguagePattern);
-#endif
   if (geo_pattern.MatchesURL(request_url)) {
-    *new_url = GURL(GOOGLEAPIS_ENDPOINT GOOGLEAPIS_API_KEY);
+    *new_url = GURL(BUILDFLAG(GOOGLEAPIS_URL));
     return net::OK;
   }
 
@@ -137,28 +131,28 @@ int OnBeforeURLRequest_StaticRedirectWorkForGURL(
 
   if (crlSet_pattern1.MatchesURL(request_url)) {
     replacements.SetSchemeStr("https");
-    replacements.SetHostStr("presearch.com");
+    replacements.SetHostStr("redirector.brave.com");
     *new_url = request_url.ReplaceComponents(replacements);
     return net::OK;
   }
 
   if (crlSet_pattern2.MatchesURL(request_url)) {
     replacements.SetSchemeStr("https");
-    replacements.SetHostStr("presearch.com");
+    replacements.SetHostStr("redirector.brave.com");
     *new_url = request_url.ReplaceComponents(replacements);
     return net::OK;
   }
 
   if (crlSet_pattern3.MatchesURL(request_url)) {
     replacements.SetSchemeStr("https");
-    replacements.SetHostStr("presearch.com");
+    replacements.SetHostStr("redirector.brave.com");
     *new_url = request_url.ReplaceComponents(replacements);
     return net::OK;
   }
 
   if (crlSet_pattern4.MatchesURL(request_url)) {
     replacements.SetSchemeStr("https");
-    replacements.SetHostStr("presearch.com");
+    replacements.SetHostStr("redirector.brave.com");
     *new_url = request_url.ReplaceComponents(replacements);
     return net::OK;
   }
@@ -179,23 +173,7 @@ int OnBeforeURLRequest_StaticRedirectWorkForGURL(
     return net::OK;
   }
 
-#if BUILDFLAG(ENABLE_BRAVE_TRANSLATE_GO)
-  if (translate_pattern.MatchesURL(request_url)) {
-    replacements.SetQueryStr(request_url.query_piece());
-    replacements.SetPathStr(request_url.path_piece());
-    *new_url =
-      GURL(kBraveTranslateEndpoint).ReplaceComponents(replacements);
-    return net::OK;
-  }
-
-  if (translate_language_pattern.MatchesURL(request_url)) {
-    *new_url = GURL(kBraveTranslateLanguageEndpoint);
-    return net::OK;
-  }
-#endif
-
   return net::OK;
 }
-
 
 }  // namespace brave
