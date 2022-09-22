@@ -115,12 +115,12 @@ int OnBeforeURLRequest_StaticRedirectWorkForGURL(
     return net::OK;
   }
 
-  if (crxDownload_pattern.MatchesURL(request_url)) {
-    replacements.SetSchemeStr("https");
-    replacements.SetHostStr("ad-blocking-lists.presearch.com");
-    *new_url = request_url.ReplaceComponents(replacements);
-    return net::OK;
-  }
+  // if (crxDownload_pattern.MatchesURL(request_url)) {
+  //   replacements.SetSchemeStr("https");
+  //   replacements.SetHostStr("ad-blocking-lists.presearch.com");
+  //   *new_url = request_url.ReplaceComponents(replacements);
+  //   return net::OK;
+  // }
 
   if (autofill_pattern.MatchesURL(request_url)) {
     replacements.SetSchemeStr("https");
