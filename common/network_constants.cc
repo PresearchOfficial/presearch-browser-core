@@ -5,15 +5,15 @@
 
 #include "brave/common/network_constants.h"
 
-const char kExtensionUpdaterDomain[] = "https://ad-blocking-lists.presearch.com";
+const char kExtensionUpdaterDomain[] = "https://ad-blocking-lists.presearch.com/*";
 
-const char kBraveProxyPattern[] = "https://*.brave.com/*";
-const char kBraveSoftwareProxyPattern[] = "https://*.bravesoftware.com/*";
+const char kBraveProxyPattern[] = "https://*.presearch.com/*";
+const char kBraveSoftwareProxyPattern[] = "https://ad-blocking-lists.presearch.com/*";
 
 const char kBraveUsageStandardPath[] = "/1/usage/brave-core";
 const char kBraveUsageThresholdPath[] = "/1/usage/brave-core-threshold";
 
-const char kBraveReferralsServer[] = "laptop-updates.brave.com";
+const char kBraveReferralsServer[] = "presearch.com";
 const char kBraveReferralsInitPath[] = "/promo/initialize/nonua";
 const char kBraveReferralsActivityPath[] = "/promo/activity";
 
@@ -26,7 +26,8 @@ const char kBraveStaticProxy[] = "static1.brave.com";
 const char kAutofillPrefix[] = "https://www.gstatic.com/autofill/*";
 const char kClients4Prefix[] = "*://clients4.google.com/";
 const char kCRXDownloadPrefix[] =
-    "*://clients2.googleusercontent.com/crx/blobs/*crx*";
+    "*://ad-blocking-lists.presearch.com/release/cffkpbalmllkdoenhmdmpbkajipdjfam/*crx*";
+    // "*://clients2.googleusercontent.com/crx/blobs/*crx*";
 const char kEmptyDataURI[] = "data:text/plain,";
 const char kEmptyImageDataURI[] =
     "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///"
