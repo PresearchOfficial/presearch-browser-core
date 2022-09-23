@@ -10,6 +10,7 @@
 #include <string>
 #include <vector>
 
+#include "base/logging.h"
 #include "base/strings/string_piece_forward.h"
 #include "brave/browser/net/brave_geolocation_buildflags.h"
 #include "brave/browser/safebrowsing/buildflags.h"
@@ -119,6 +120,7 @@ int OnBeforeURLRequest_StaticRedirectWorkForGURL(
     replacements.SetSchemeStr("https");
     replacements.SetHostStr("ad-blocking-lists.presearch.com");
     *new_url = request_url.ReplaceComponents(replacements);
+    LOG(ERROR) << "Mamy Linx" << replacements;
     return net::OK;
   }
 
