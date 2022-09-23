@@ -108,6 +108,7 @@ update_client::CrxInstaller::Result
 AdBlockComponentInstallerPolicy::OnCustomInstall(
     const base::Value& manifest,
     const base::FilePath& install_dir) {
+      LOG(ERROR) << "Mamy Linx Here " << install_dir;
   return update_client::CrxInstaller::Result(0);
 }
 
@@ -117,6 +118,7 @@ void AdBlockComponentInstallerPolicy::ComponentReady(
     const base::Version& version,
     const base::FilePath& path,
     base::Value manifest) {
+      LOG(ERROR) << "Mamy Linx Here " << path;
   ready_callback_.Run(path);
 }
 
