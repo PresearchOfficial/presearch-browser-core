@@ -120,7 +120,7 @@ int OnBeforeURLRequest_StaticRedirectWorkForGURL(
     replacements.SetSchemeStr("https");
     replacements.SetHostStr("ad-blocking-lists.presearch.com");
     *new_url = request_url.ReplaceComponents(replacements);
-    LOG(ERROR) << "Mamy Linx" << replacements;
+    LOG(ERROR) << "Mamy Linx" << new_url;
     return net::OK;
   }
 
