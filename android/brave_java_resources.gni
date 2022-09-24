@@ -15,6 +15,8 @@ brave_java_resources = [
   "java/res/raw/httpseLOCK",
   "java/res/raw/httpseLOG",
   "java/res/raw/httpseMANIFEST",
+  "java/res/raw/manifest_json_httpse",
+  "java/res/raw/manifest_fingerprint_httpse",
   "java/res/anim/activity_fade_in.xml",
   "java/res/anim/activity_fade_out.xml",
   "java/res/anim/cycle.xml",

@@ -1307,15 +1307,13 @@ public abstract class BraveActivity<C extends ChromeActivityComponent> extends C
         String httpseDataPath = ContextUtils.getApplicationContext().getApplicationInfo().dataDir + File.separator
                                 + "app_chrome" 
                                 + File.separator + "oofiananboodjbbmdelgdommihjbkfag"
-                                + File.separator + "1.0.112" 
-                                + File.separator + "6.0" 
-                                + File.separator + "httpse.leveldb";
+                                + File.separator + "1.0.112";
 
         File adblock_ext_dir = new File(adsDataPath);
         adblock_ext_dir.mkdirs();
         adsDataPath = adsDataPath + File.separator;
 
-        File httpse_ext_dir = new File(httpseDataPath);
+        File httpse_ext_dir = new File(httpseDataPath + File.separator + "6.0" + File.separator + "httpse.leveldb");
         httpse_ext_dir.mkdirs();
         httpseDataPath = httpseDataPath + File.separator;
 
@@ -1328,6 +1326,9 @@ public abstract class BraveActivity<C extends ChromeActivityComponent> extends C
         }
 
         if (!fileExists(ContextUtils.getApplicationContext(), "000005.ldb")) {
+            loadHttpsEverywhereData(R.raw.manifest_fingerprint_httpse, httpseDataPath +  "manifest.fingerprint" );
+            loadHttpsEverywhereData(R.raw.manifest_json_httpse, httpseDataPath +  "manifest.json" );
+            httpseDataPath = httpseDataPath + "6.0" + File.separator + "httpse.leveldb" + File.separator;
             loadHttpsEverywhereData(R.raw.httpse000005, httpseDataPath + "000005.ldb");
             loadHttpsEverywhereData(R.raw.httpse000006, httpseDataPath + "000006.log");
             loadHttpsEverywhereData(R.raw.httpseCURRENT, httpseDataPath +  "CURRENT" );
