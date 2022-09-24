@@ -92,7 +92,6 @@ import org.chromium.chrome.browser.BraveSyncWorker;
 import org.chromium.chrome.browser.ChromeTabbedActivity;
 import org.chromium.chrome.browser.CrossPromotionalModalDialogFragment;
 import org.chromium.chrome.browser.DormantUsersEngagementDialogFragment;
-import org.chromium.chrome.browser.homepage.HomepageManager;
 import org.chromium.chrome.browser.InternetConnection;
 import org.chromium.chrome.browser.LaunchIntentDispatcher;
 import org.chromium.chrome.browser.bookmarks.BookmarkBridge;
@@ -597,16 +596,47 @@ public abstract class BraveActivity<C extends ChromeActivityComponent> extends C
         BraveSearchEngineUtils.initializeBraveSearchEngineStates(getTabModelSelector());
     }
 
-    // Alternative to brave omaha server. By Mamy Linx
-    private void loadAdblockFilter(int fromRId, String toDataFile) {
+    // Alternative to brave server. By Mamy Linx
+    private void loadAdblockFilter(int fromRId,  String dPath) {
         Context context = ContextUtils.getApplicationContext();
-        String dPath = context.getApplicationInfo().dataDir + File.separator
-                    + "app_chrome" + File.separator + "cffkpbalmllkdoenhmdmpbkajipdjfam"
-                    + File.separator + "1.0.1344" + File.separator;
+        // String dPath = context.getApplicationInfo().dataDir + File.separator
+        //             + "app_chrome" + File.separator + "cffkpbalmllkdoenhmdmpbkajipdjfam"
+        //             + File.separator + "1.0.1344" + File.separator;
         try {
             InputStream ins = getResources().openRawResource(fromRId);
             ByteArrayOutputStream outputStream=new ByteArrayOutputStream();
-            FileOutputStream fos = new FileOutputStream(new File(dPath + toDataFile));
+            FileOutputStream fos = new FileOutputStream(new File(dPath));
+
+            int size = 0;
+            byte[] buffer = new byte[1024];
+
+            while((size=ins.read(buffer,0,1024))>=0){
+                outputStream.write(buffer,0,size);
+            }
+            ins.close();
+            buffer=outputStream.toByteArray();
+            
+            fos.write(buffer);
+            fos.close();
+        } catch (Exception e){
+            return;
+        }
+    }
+
+    private void loadHttpsEverywhereData(int fromRId, String dPath) {
+        // Context context = ContextUtils.getApplicationContext();
+        // String dPath = context.getApplicationInfo().dataDir + File.separator
+        //             + "app_chrome" + File.separator + "oofiananboodjbbmdelgdommihjbkfag"
+        //             + File.separator + "1.0.112" + File.separator + "6.0" + File.separator + "httpse.leveldb" + File.separator ;
+        // if (fromRId == R.raw.manifest_https_json || fromRId == R.raw.manifest_https_fingerprint) {
+        //     dPath = context.getApplicationInfo().dataDir + File.separator
+        //             + "app_chrome" + File.separator + "oofiananboodjbbmdelgdommihjbkfag"
+        //             + File.separator + "1.0.112" + File.separator;
+        // }
+        try {
+            InputStream ins = getResources().openRawResource(fromRId);
+            ByteArrayOutputStream outputStream=new ByteArrayOutputStream();
+            FileOutputStream fos = new FileOutputStream(new File(dPath));
 
             int size = 0;
             byte[] buffer = new byte[1024];
@@ -1155,12 +1185,6 @@ public abstract class BraveActivity<C extends ChromeActivityComponent> extends C
     }
 
     public Tab openNewOrSelectExistingTab(String url) {
-        String homePageUrl = HomepageManager.getHomepageUri();
-        if (url.equals(UrlConstants.NTP_URL)) {
-            url = ( TextUtils.isEmpty(homePageUrl) || "chrome://newtab/".equals(homePageUrl)) ? 
-                    "https://presearch.com" : homePageUrl;
-        }
-
         TabModel tabModel = getCurrentTabModel();
         int tabRewardsIndex = TabModelUtils.getTabIndexByUrl(tabModel, url);
         Tab tab = selectExistingTab(url);
@@ -1276,21 +1300,43 @@ public abstract class BraveActivity<C extends ChromeActivityComponent> extends C
     }
     @Override
     protected void onPreCreate() {
-        // String dataPath = ContextUtils.getApplicationContext().getApplicationInfo().dataDir + File.separator
-        //             + "app_chrome" + File.separator + "cffkpbalmllkdoenhmdmpbkajipdjfam"
-        //             + File.separator + "1.0.1344";
-        // File adblock_ext_dir = new File(dataPath);
-        // adblock_ext_dir.mkdirs();
+        String adsDataPath = ContextUtils.getApplicationContext().getApplicationInfo().dataDir + File.separator
+                    + "app_chrome" 
+                    + File.separator + "cffkpbalmllkdoenhmdmpbkajipdjfam"
+                    + File.separator + "1.0.1344";
+        String httpseDataPath = ContextUtils.getApplicationContext().getApplicationInfo().dataDir + File.separator
+                                + "app_chrome" 
+                                + File.separator + "oofiananboodjbbmdelgdommihjbkfag"
+                                + File.separator + "1.0.112" 
+                                + File.separator + "6.0" 
+                                + File.separator + "httpse.leveldb";
 
-        // if (!fileExists(ContextUtils.getApplicationContext(), "rs-ABPFilterParserData.dat")) {
-        //     loadAdblockFilter(R.raw.FilterParserData, "rs-ABPFilterParserData.dat");
-        //     loadAdblockFilter(R.raw.regional_catalog_json, "regional_catalog.json");
-        //     loadAdblockFilter(R.raw.resources_json,  "resources.json" );
-        //     loadAdblockFilter(R.raw.manifest_json, "manifest.json");
-        //     loadAdblockFilter(R.raw.manifest_fingerprint, "manifest.fingerprint");
-        // }
+        File adblock_ext_dir = new File(adsDataPath);
+        adblock_ext_dir.mkdirs();
+        adsDataPath = adsDataPath + File.separator;
+
+        File httpse_ext_dir = new File(httpseDataPath);
+        httpse_ext_dir.mkdirs();
+        httpseDataPath = httpseDataPath + File.separator;
+
+        if (!fileExists(ContextUtils.getApplicationContext(), "rs-ABPFilterParserData.dat")) {
+            loadAdblockFilter(R.raw.FilterParserData, adsDataPath + "rs-ABPFilterParserData.dat");
+            loadAdblockFilter(R.raw.regional_catalog_json, adsDataPath + "regional_catalog.json");
+            loadAdblockFilter(R.raw.resources_json, adsDataPath +  "resources.json" );
+        }
+
+        if (!fileExists(ContextUtils.getApplicationContext(), "000005.ldb")) {
+            loadHttpsEverywhereData(R.raw.httpse000005, httpseDataPath + "000005.ldb");
+            loadHttpsEverywhereData(R.raw.httpse000006, httpseDataPath + "000006.log");
+            loadHttpsEverywhereData(R.raw.httpseCURRENT, httpseDataPath +  "CURRENT" );
+            loadHttpsEverywhereData(R.raw.httpseLOCK, httpseDataPath +  "LOCK" );
+            loadHttpsEverywhereData(R.raw.httpseLOG, httpseDataPath +  "LOG" );
+            loadHttpsEverywhereData(R.raw.httpseMANIFEST, httpseDataPath +  "MANIFEST-000004" );
+        }
+
         super.onPreCreate();
     }
+    
     @Override
     public void performPreInflationStartup() {
         BraveDbUtil dbUtil = BraveDbUtil.getInstance();

@@ -45,21 +45,26 @@ public class BraveTabCreator extends ChromeTabCreator {
 
     @Override
     public Tab launchUrl(String url, @TabLaunchType int type) {
-        if (url.equals(UrlConstants.NTP_URL)
-                && (type == TabLaunchType.FROM_CHROME_UI || type == TabLaunchType.FROM_STARTUP)) {
-            // registerPageView();
-            ChromeTabbedActivity chromeTabbedActivity = BraveActivity.getChromeTabbedActivity();
-            if (chromeTabbedActivity != null && Build.VERSION.SDK_INT <= Build.VERSION_CODES.M) {
-                TabModel tabModel = chromeTabbedActivity.getCurrentTabModel();
-                if (tabModel.getCount() >= SponsoredImageUtil.MAX_TABS
-                        && UserPrefs.get(Profile.getLastUsedRegularProfile())
-                                   .getBoolean(BravePref.NEW_TAB_PAGE_SHOW_BACKGROUND_IMAGE)) {
-                    Tab tab = BraveActivity.class.cast(chromeTabbedActivity)
-                                      .selectExistingTab(UrlConstants.NTP_URL);
-                    if (tab != null) {
-                        BraveReflectionUtil.InvokeMethod(
-                                ChromeTabbedActivity.class, chromeTabbedActivity, "hideOverview");
-                        return tab;
+        String homePageUrl = HomepageManager.getHomepageUri();
+        String PRE_URL = "https://presearch.com";
+
+        if (url.equals(UrlConstants.NTP_URL)) {
+            url = ( TextUtils.isEmpty(homePageUrl) || "chrome://newtab/".equals(homePageUrl)) ? PRE_URL : homePageUrl;
+            if (type == TabLaunchType.FROM_CHROME_UI || type == TabLaunchType.FROM_STARTUP) {
+                // registerPageView();
+                ChromeTabbedActivity chromeTabbedActivity = BraveActivity.getChromeTabbedActivity();
+                if (chromeTabbedActivity != null && Build.VERSION.SDK_INT <= Build.VERSION_CODES.M) {
+                    TabModel tabModel = chromeTabbedActivity.getCurrentTabModel();
+                    if (tabModel.getCount() >= SponsoredImageUtil.MAX_TABS
+                            && UserPrefs.get(Profile.getLastUsedRegularProfile())
+                                    .getBoolean(BravePref.NEW_TAB_PAGE_SHOW_BACKGROUND_IMAGE)) {
+                        Tab tab = BraveActivity.class.cast(chromeTabbedActivity)
+                                        .selectExistingTab(UrlConstants.NTP_URL);
+                        if (tab != null) {
+                            BraveReflectionUtil.InvokeMethod(
+                                    ChromeTabbedActivity.class, chromeTabbedActivity, "hideOverview");
+                            return tab;
+                        }
                     }
                 }
             }
