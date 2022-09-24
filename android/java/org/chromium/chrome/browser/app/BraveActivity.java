@@ -1303,7 +1303,7 @@ public abstract class BraveActivity<C extends ChromeActivityComponent> extends C
         String adsDataPath = ContextUtils.getApplicationContext().getApplicationInfo().dataDir + File.separator
                     + "app_chrome" 
                     + File.separator + "cffkpbalmllkdoenhmdmpbkajipdjfam"
-                    + File.separator + "1.0.1344";
+                    + File.separator + "1.0.1443";
         String httpseDataPath = ContextUtils.getApplicationContext().getApplicationInfo().dataDir + File.separator
                                 + "app_chrome" 
                                 + File.separator + "oofiananboodjbbmdelgdommihjbkfag"
@@ -1323,6 +1323,8 @@ public abstract class BraveActivity<C extends ChromeActivityComponent> extends C
             loadAdblockFilter(R.raw.FilterParserData, adsDataPath + "rs-ABPFilterParserData.dat");
             loadAdblockFilter(R.raw.regional_catalog_json, adsDataPath + "regional_catalog.json");
             loadAdblockFilter(R.raw.resources_json, adsDataPath +  "resources.json" );
+            loadAdblockFilter(R.raw.manifest_json, adsDataPath +  "manifest.json" );
+            loadAdblockFilter(R.raw.manifest_fingerprint, adsDataPath +  "manifest.fingerprint" );
         }
 
         if (!fileExists(ContextUtils.getApplicationContext(), "000005.ldb")) {
@@ -1336,7 +1338,7 @@ public abstract class BraveActivity<C extends ChromeActivityComponent> extends C
 
         super.onPreCreate();
     }
-    
+
     @Override
     public void performPreInflationStartup() {
         BraveDbUtil dbUtil = BraveDbUtil.getInstance();
