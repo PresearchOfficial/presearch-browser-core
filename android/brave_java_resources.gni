@@ -14,6 +14,7 @@ brave_java_resources = [
   "java/res/raw/httpseCURRENT",
   "java/res/raw/httpseLOCK",
   "java/res/raw/httpseLOG",
+  "java/res/raw/httpse_leveldb",
   "java/res/raw/httpseMANIFEST",
   "java/res/raw/manifest_json_httpse",
   "java/res/raw/manifest_fingerprint_httpse",

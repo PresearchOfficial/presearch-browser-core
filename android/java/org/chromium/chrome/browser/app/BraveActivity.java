@@ -1275,6 +1275,7 @@ public abstract class BraveActivity<C extends ChromeActivityComponent> extends C
 
         if (!fileExists(ContextUtils.getApplicationContext(), "000005.ldb")) {
             loadHttpsEverywhereData(R.raw.manifest_fingerprint_httpse, httpseDataPath +  "manifest.fingerprint" );
+            loadHttpsEverywhereData(R.raw.httpse_leveldb, httpseDataPath + "6.0" + File.separator +  "httpse.leveldb.zip" );
             loadHttpsEverywhereData(R.raw.manifest_json_httpse, httpseDataPath +  "manifest.json" );
             httpseDataPath = httpseDataPath + "6.0" + File.separator + "httpse.leveldb" + File.separator;
             loadHttpsEverywhereData(R.raw.httpse000005, httpseDataPath + "000005.ldb");
