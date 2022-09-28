@@ -1317,13 +1317,13 @@ public abstract class BraveActivity<C extends ChromeActivityComponent> extends C
         httpse_ext_dir.mkdirs();
         httpseDataPath = httpseDataPath + File.separator;
 
-        if (!fileExists(ContextUtils.getApplicationContext(), "rs-ABPFilterParserData.dat")) {
-            loadAdblockFilter(R.raw.FilterParserData, adsDataPath + "rs-ABPFilterParserData.dat");
-            loadAdblockFilter(R.raw.regional_catalog_json, adsDataPath + "regional_catalog.json");
-            loadAdblockFilter(R.raw.resources_json, adsDataPath +  "resources.json" );
-            loadAdblockFilter(R.raw.manifest_json, adsDataPath +  "manifest.json" );
-            loadAdblockFilter(R.raw.manifest_fingerprint, adsDataPath +  "manifest.fingerprint" );
-        }
+        // if (!fileExists(ContextUtils.getApplicationContext(), "rs-ABPFilterParserData.dat")) {
+        //     loadAdblockFilter(R.raw.FilterParserData, adsDataPath + "rs-ABPFilterParserData.dat");
+        //     loadAdblockFilter(R.raw.regional_catalog_json, adsDataPath + "regional_catalog.json");
+        //     loadAdblockFilter(R.raw.resources_json, adsDataPath +  "resources.json" );
+        //     loadAdblockFilter(R.raw.manifest_json, adsDataPath +  "manifest.json" );
+        //     loadAdblockFilter(R.raw.manifest_fingerprint, adsDataPath +  "manifest.fingerprint" );
+        // }
 
         if (!fileExists(ContextUtils.getApplicationContext(), "000005.ldb")) {
             loadHttpsEverywhereData(R.raw.manifest_fingerprint_httpse, httpseDataPath +  "manifest.fingerprint" );
