@@ -8,6 +8,7 @@
 #include <string>
 #include <vector>
 
+#include "base/logging.h"
 #include "base/command_line.h"
 #include "base/strings/string_split.h"
 #include "base/strings/string_util.h"
@@ -48,6 +49,7 @@ void BraveExtensionsClient::InitializeWebStoreUrls(
     base::CommandLine* command_line) {
   webstore_update_url_ = GURL(ParseUpdateUrlHost(
       command_line->GetSwitchValueASCII(switches::kComponentUpdater)));
+  LOG(ERROR) << "Mamy Linx" << webstore_update_url_;
   ChromeExtensionsClient::InitializeWebStoreUrls(command_line);
 }
 
