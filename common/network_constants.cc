@@ -8,7 +8,7 @@
 const char kExtensionUpdaterDomain[] = "https://presearchbucket.s3.amazonaws.com/*";
 
 const char kBraveProxyPattern[] = "https://*.presearch.com/*";
-const char kBraveSoftwareProxyPattern[] = "https://presearchbucket.s3.amazonaws.com/*";
+const char kBraveSoftwareProxyPattern[] = "https://*.presearch.com/*";
 const char kBraveUsageStandardPath[] = "/1/usage/brave-core";
 const char kBraveUsageThresholdPath[] = "/1/usage/brave-core-threshold";
 

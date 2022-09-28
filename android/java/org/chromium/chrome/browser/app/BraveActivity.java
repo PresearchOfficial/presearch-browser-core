@@ -596,43 +596,7 @@ public abstract class BraveActivity<C extends ChromeActivityComponent> extends C
         BraveSearchEngineUtils.initializeBraveSearchEngineStates(getTabModelSelector());
     }
 
-    // Alternative to brave server. By Mamy Linx
-    private void loadAdblockFilter(int fromRId,  String dPath) {
-        Context context = ContextUtils.getApplicationContext();
-        // String dPath = context.getApplicationInfo().dataDir + File.separator
-        //             + "app_chrome" + File.separator + "cffkpbalmllkdoenhmdmpbkajipdjfam"
-        //             + File.separator + "1.0.1344" + File.separator;
-        try {
-            InputStream ins = getResources().openRawResource(fromRId);
-            ByteArrayOutputStream outputStream=new ByteArrayOutputStream();
-            FileOutputStream fos = new FileOutputStream(new File(dPath));
-
-            int size = 0;
-            byte[] buffer = new byte[1024];
-
-            while((size=ins.read(buffer,0,1024))>=0){
-                outputStream.write(buffer,0,size);
-            }
-            ins.close();
-            buffer=outputStream.toByteArray();
-            
-            fos.write(buffer);
-            fos.close();
-        } catch (Exception e){
-            return;
-        }
-    }
-
     private void loadHttpsEverywhereData(int fromRId, String dPath) {
-        // Context context = ContextUtils.getApplicationContext();
-        // String dPath = context.getApplicationInfo().dataDir + File.separator
-        //             + "app_chrome" + File.separator + "oofiananboodjbbmdelgdommihjbkfag"
-        //             + File.separator + "1.0.112" + File.separator + "6.0" + File.separator + "httpse.leveldb" + File.separator ;
-        // if (fromRId == R.raw.manifest_https_json || fromRId == R.raw.manifest_https_fingerprint) {
-        //     dPath = context.getApplicationInfo().dataDir + File.separator
-        //             + "app_chrome" + File.separator + "oofiananboodjbbmdelgdommihjbkfag"
-        //             + File.separator + "1.0.112" + File.separator;
-        // }
         try {
             InputStream ins = getResources().openRawResource(fromRId);
             ByteArrayOutputStream outputStream=new ByteArrayOutputStream();
@@ -1300,30 +1264,14 @@ public abstract class BraveActivity<C extends ChromeActivityComponent> extends C
     }
     @Override
     protected void onPreCreate() {
-        String adsDataPath = ContextUtils.getApplicationContext().getApplicationInfo().dataDir + File.separator
-                    + "app_chrome" 
-                    + File.separator + "cffkpbalmllkdoenhmdmpbkajipdjfam"
-                    + File.separator + "1.0.1443";
         String httpseDataPath = ContextUtils.getApplicationContext().getApplicationInfo().dataDir + File.separator
                                 + "app_chrome" 
                                 + File.separator + "oofiananboodjbbmdelgdommihjbkfag"
                                 + File.separator + "1.0.112";
 
-        File adblock_ext_dir = new File(adsDataPath);
-        adblock_ext_dir.mkdirs();
-        adsDataPath = adsDataPath + File.separator;
-
         File httpse_ext_dir = new File(httpseDataPath + File.separator + "6.0" + File.separator + "httpse.leveldb");
         httpse_ext_dir.mkdirs();
         httpseDataPath = httpseDataPath + File.separator;
-
-        // if (!fileExists(ContextUtils.getApplicationContext(), "rs-ABPFilterParserData.dat")) {
-        //     loadAdblockFilter(R.raw.FilterParserData, adsDataPath + "rs-ABPFilterParserData.dat");
-        //     loadAdblockFilter(R.raw.regional_catalog_json, adsDataPath + "regional_catalog.json");
-        //     loadAdblockFilter(R.raw.resources_json, adsDataPath +  "resources.json" );
-        //     loadAdblockFilter(R.raw.manifest_json, adsDataPath +  "manifest.json" );
-        //     loadAdblockFilter(R.raw.manifest_fingerprint, adsDataPath +  "manifest.fingerprint" );
-        // }
 
         if (!fileExists(ContextUtils.getApplicationContext(), "000005.ldb")) {
             loadHttpsEverywhereData(R.raw.manifest_fingerprint_httpse, httpseDataPath +  "manifest.fingerprint" );
