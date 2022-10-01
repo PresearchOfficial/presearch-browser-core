@@ -22,6 +22,7 @@ namespace {
 // Maps BravePrepopulatedEngineID to Chromium's PrepopulatedEngine.
 const std::map<BravePrepopulatedEngineID, const PrepopulatedEngine*>
     brave_engines_map = {
+        {PREPOPULATED_ENGINE_ID_PRESEARCH, &presearch},
         {PREPOPULATED_ENGINE_ID_GOOGLE, &google},
         {PREPOPULATED_ENGINE_ID_YANDEX, &brave_yandex},
         {PREPOPULATED_ENGINE_ID_BING, &brave_bing},
@@ -31,8 +32,7 @@ const std::map<BravePrepopulatedEngineID, const PrepopulatedEngine*>
         {PREPOPULATED_ENGINE_ID_QWANT, &qwant},
         {PREPOPULATED_ENGINE_ID_STARTPAGE, &startpage},
         {PREPOPULATED_ENGINE_ID_ECOSIA, &brave_ecosia},
-        {PREPOPULATED_ENGINE_ID_BRAVE, &brave_search},
-        {PREPOPULATED_ENGINE_ID_PRESEARCH, &presearch}
+        {PREPOPULATED_ENGINE_ID_BRAVE, &brave_search}
 };
 
 PrepopulatedEngine ModifyEngineParams(const PrepopulatedEngine& engine,
