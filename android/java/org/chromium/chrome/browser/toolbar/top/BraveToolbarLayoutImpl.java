@@ -1050,17 +1050,9 @@ public abstract class BraveToolbarLayoutImpl extends ToolbarLayout
         mBraveShieldsButton.setImageResource(
                 isShieldsOnForTab(tab) ? R.drawable.btn_brave : R.drawable.ic_chrome);
 
-        SharedPreferences sharedPreferences = ContextUtils.getAppSharedPreferences();
-
         if (isIncognito()) {
             updateShieldsLayoutBackground(true);
-        } else if (isNativeLibraryReady()
-                && ChromeFeatureList.isEnabled(BraveFeatureList.BRAVE_REWARDS)
-                && !BravePrefServiceBridge.getInstance().getSafetynetCheckFailed()
-                && sharedPreferences.getBoolean(
-                        AppearancePreferences.PREF_SHOW_BRAVE_REWARDS_ICON, true)) {
-            updateShieldsLayoutBackground(false);
-        }
+        } 
     }
 
     private boolean isShieldsOnForTab(Tab tab) {
