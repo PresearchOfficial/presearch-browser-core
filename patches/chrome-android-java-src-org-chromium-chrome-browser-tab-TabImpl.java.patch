@@ -1,0 +1,13 @@
+diff --git a/chrome/android/java/src/org/chromium/chrome/browser/tab/TabImpl.java b/chrome/android/java/src/org/chromium/chrome/browser/tab/TabImpl.java
+index 7ccd26ee285745a6221dfb35b6820bc0b384aa0d..1618e6e8097ac26df4cd89088570d684c8df5754 100644
+--- a/chrome/android/java/src/org/chromium/chrome/browser/tab/TabImpl.java
++++ b/chrome/android/java/src/org/chromium/chrome/browser/tab/TabImpl.java
+@@ -1055,7 +1055,7 @@ public class TabImpl implements Tab, TabObscuringHandler.Observer {
+     void didFinishPageLoad(GURL url) {
+         updateTitle();
+ 
+-        for (TabObserver observer : mObservers) observer.onPageLoadFinished(this, url);
++        // for (TabObserver observer : mObservers) observer.onPageLoadFinished(this, url);
+         mIsBeingRestored = false;
+     }
+ 
