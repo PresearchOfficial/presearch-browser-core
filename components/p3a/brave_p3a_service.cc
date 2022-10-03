@@ -52,11 +52,11 @@ constexpr uint64_t kSuspendedMetricBucket = INT_MAX - 1;
 
 constexpr char kLastRotationTimeStampPref[] = "p3a.last_rotation_timestamp";
 
-constexpr char kP3AServerUrl[] = "https://p3a.brave.com/";
-constexpr char kP2AServerUrl[] = "https://p2a.brave.com/";
+constexpr char kP3AServerUrl[] = "#";
+constexpr char kP2AServerUrl[] = "#";
 
-constexpr char kP3AJsonServerUrl[] = "https://p3a-json.brave.com/";
-constexpr char kP2AJsonServerUrl[] = "https://p2a-json.brave.com/";
+constexpr char kP3AJsonServerUrl[] = "#";
+constexpr char kP2AJsonServerUrl[] = "#";
 
 constexpr uint64_t kDefaultUploadIntervalSeconds = 60;  // 1 minute.
 
