@@ -1,8 +1,8 @@
 diff --git a/chrome/android/java/AndroidManifest.xml b/chrome/android/java/AndroidManifest.xml
-index b31d14a673bb536c55ca146a3ad0100f6814e13f..297eff506b1d3cb8ca5b31a54f1a92732fe1f926 100644
+index b31d14a673bb536c55ca146a3ad0100f6814e13f..32d252ca7c72d3d1e7ef1a4ddb4ef2fb71235f26 100644
 --- a/chrome/android/java/AndroidManifest.xml
 +++ b/chrome/android/java/AndroidManifest.xml
-@@ -59,18 +60,26 @@ by a child template that "extends" this file.
+@@ -59,18 +59,26 @@ by a child template that "extends" this file.
      <uses-permission-sdk-23 android:name="android.permission.BLUETOOTH_SCAN"
                              android:usesPermissionFlags="neverForLocation"/>
  
@@ -33,7 +33,7 @@ index b31d14a673bb536c55ca146a3ad0100f6814e13f..297eff506b1d3cb8ca5b31a54f1a9273
      <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
      <uses-permission android:name="android.permission.QUERY_ALL_PACKAGES" />
      <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
-@@ -78,7 +87,9 @@ by a child template that "extends" this file.
+@@ -78,7 +86,9 @@ by a child template that "extends" this file.
      <uses-permission-sdk-23 android:name="android.permission.READ_MEDIA_VIDEO"/>
      <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED"/>
      <uses-permission android:name="android.permission.RECORD_AUDIO"/>
@@ -44,7 +44,7 @@ index b31d14a673bb536c55ca146a3ad0100f6814e13f..297eff506b1d3cb8ca5b31a54f1a9273
      <uses-permission-sdk-23 android:name="android.permission.USE_BIOMETRIC"/>
      <uses-permission-sdk-23 android:name="android.permission.USE_FINGERPRINT"/>
      <uses-permission android:name="android.permission.VIBRATE"/>
-@@ -123,7 +134,9 @@ by a child template that "extends" this file.
+@@ -123,7 +133,9 @@ by a child template that "extends" this file.
      <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
      <uses-permission android:name="com.android.launcher.permission.INSTALL_SHORTCUT"/>
  
@@ -55,7 +55,7 @@ index b31d14a673bb536c55ca146a3ad0100f6814e13f..297eff506b1d3cb8ca5b31a54f1a9273
  
      {% block extra_uses_permissions %}
      {% endblock %}
-@@ -170,6 +183,7 @@ by a child template that "extends" this file.
+@@ -170,6 +182,7 @@ by a child template that "extends" this file.
      <!-- Set android:largeHeap to "true" to allow more than the default
           Java heap limit (32Mb on Nexus S, 48Mb on Xoom). -->
        <application android:name="{% block application_name %}org.chromium.chrome.browser.base.SplitChromeApplication{% endblock %}"
@@ -63,7 +63,7 @@ index b31d14a673bb536c55ca146a3ad0100f6814e13f..297eff506b1d3cb8ca5b31a54f1a9273
          android:icon="@drawable/ic_launcher"
          android:roundIcon="@drawable/ic_launcher_round"
          android:label="{% block application_label %}@string/app_name{% endblock %}"
-@@ -326,6 +340,7 @@ by a child template that "extends" this file.
+@@ -326,6 +339,7 @@ by a child template that "extends" this file.
              <intent-filter>
                  <action android:name="com.sec.android.airview.HOVER" />
              </intent-filter>
@@ -71,7 +71,7 @@ index b31d14a673bb536c55ca146a3ad0100f6814e13f..297eff506b1d3cb8ca5b31a54f1a9273
              <meta-data android:name="android.app.searchable"
                  android:resource="@xml/searchable" />
          </activity-alias>
-@@ -975,7 +990,7 @@ by a child template that "extends" this file.
+@@ -975,7 +989,7 @@ by a child template that "extends" this file.
          </receiver>
  
          <!-- Bookmarks widget -->
@@ -80,7 +80,7 @@ index b31d14a673bb536c55ca146a3ad0100f6814e13f..297eff506b1d3cb8ca5b31a54f1a9273
              android:label="@string/bookmark_widget_title"
              android:exported="true">
              <intent-filter>
-@@ -990,10 +1005,10 @@ by a child template that "extends" this file.
+@@ -990,10 +1004,10 @@ by a child template that "extends" this file.
              android:permission="android.permission.BIND_REMOTEVIEWS"
              android:exported="false" />
          <receiver android:name="org.chromium.chrome.browser.bookmarkswidget.BookmarkWidgetProxy"
@@ -93,7 +93,7 @@ index b31d14a673bb536c55ca146a3ad0100f6814e13f..297eff506b1d3cb8ca5b31a54f1a9273
                  android:name="org.chromium.chrome.browser.searchwidget.SearchWidgetProvider"
                  android:label="@string/search_widget_title"
                  android:exported="true">
-@@ -1003,7 +1018,7 @@ by a child template that "extends" this file.
+@@ -1003,7 +1017,7 @@ by a child template that "extends" this file.
              <meta-data
                      android:name="android.appwidget.provider"
                      android:resource="@xml/search_widget_info" />
@@ -102,7 +102,7 @@ index b31d14a673bb536c55ca146a3ad0100f6814e13f..297eff506b1d3cb8ca5b31a54f1a9273
  
          <!-- Search Activity -->
          <activity android:name="org.chromium.chrome.browser.searchwidget.SearchActivity"
-@@ -1239,6 +1254,7 @@ by a child template that "extends" this file.
+@@ -1239,6 +1253,7 @@ by a child template that "extends" this file.
              android:configChanges="orientation|keyboardHidden|keyboard|screenSize|mcc|mnc|screenLayout|smallestScreenSize" >
          </activity>
  
@@ -110,7 +110,7 @@ index b31d14a673bb536c55ca146a3ad0100f6814e13f..297eff506b1d3cb8ca5b31a54f1a9273
          {% block extra_application_definitions %}
          {% endblock %}
        {% endmacro %}
-@@ -1317,6 +1333,7 @@ by a child template that "extends" this file.
+@@ -1317,6 +1332,7 @@ by a child template that "extends" this file.
        <!-- ARCore APK integration -->
        <!-- This tag indicates that this application optionally uses ARCore. -->
        <meta-data android:name="com.google.ar.core" android:value="optional" />
