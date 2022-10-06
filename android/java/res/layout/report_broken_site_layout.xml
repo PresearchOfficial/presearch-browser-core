@@ -31,60 +31,9 @@
         android:text="@string/report_broken_site_text_1"/>
 
     <TextView
-        android:id="@+id/report_site_url"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:textSize="16sp"
-        android:textColor="@color/shield_back_button_tint"
-        android:layout_marginBottom="14dp"/>
-
-    <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textSize="16sp"
         android:textColor="@color/default_icon_color_tint_list"
         android:text="@string/report_broken_site_text_2"/>
-
-    <LinearLayout
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        android:layout_marginTop="16dp"
-        android:layout_gravity="end">
-
-        <android.widget.Button
-            android:id="@+id/btn_cancel"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:background="@drawable/transparent_bg_bordered"
-            android:paddingTop="8dp"
-            android:paddingBottom="8dp"
-            android:paddingStart="16dp"
-            android:paddingEnd="16dp"
-            android:layout_marginEnd="8dp"
-            android:text="@android:string/cancel"
-            android:textAllCaps="false"
-            android:textSize="16sp"
-            style="?android:attr/buttonBarButtonStyle"
-            android:textColor="@color/default_icon_color_tint_list"/>
-
-        <android.widget.Button
-            android:id="@+id/btn_submit"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center_horizontal"
-            android:paddingTop="8dp"
-            android:paddingBottom="8dp"
-            android:paddingStart="16dp"
-            android:paddingEnd="16dp"
-            android:background="@drawable/orange_rounded_button"
-            android:text="@string/submit"
-            android:textAllCaps="false"
-            android:textSize="16sp"
-            android:textColor="@android:color/white"
-            style="?android:attr/borderlessButtonStyle"/>
-
-    </LinearLayout>
-
 </LinearLayout>

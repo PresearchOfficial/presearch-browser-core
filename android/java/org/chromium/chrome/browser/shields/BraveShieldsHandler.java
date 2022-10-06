@@ -652,30 +652,6 @@ public class BraveShieldsHandler implements BraveRewardsHelper.LargeIconReadyCal
         });
     }
 
-    private void setUpReportBrokenSiteLayout() {
-        TextView mReportSiteUrlText = mReportBrokenSiteLayout.findViewById(R.id.report_site_url);
-        mReportSiteUrlText.setText(mTitle);
-
-        Button mCancelButton = mReportBrokenSiteLayout.findViewById(R.id.btn_cancel);
-        mCancelButton.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                hideBraveShieldsMenu();
-            }
-        });
-
-        Button mSubmitButton = mReportBrokenSiteLayout.findViewById(R.id.btn_submit);
-        mSubmitButton.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                BraveShieldsUtils.BraveShieldsWorkerTask mWorkerTask = new BraveShieldsUtils.BraveShieldsWorkerTask(mTitle);
-                mWorkerTask.executeOnExecutor(AsyncTask.THREAD_POOL_EXECUTOR);
-                mReportBrokenSiteLayout.setVisibility(View.GONE);
-                mThankYouLayout.setVisibility(View.VISIBLE);
-            }
-        });
-    }
-
     private void setUpMainSwitchLayout(boolean isChecked) {
         if (mContext == null) return;
 
@@ -686,7 +662,6 @@ public class BraveShieldsHandler implements BraveRewardsHelper.LargeIconReadyCal
             public void onClick(View view) {
                 mMainLayout.setVisibility(View.GONE);
                 mReportBrokenSiteLayout.setVisibility(View.VISIBLE);
-                setUpReportBrokenSiteLayout();
             }
         });
 
