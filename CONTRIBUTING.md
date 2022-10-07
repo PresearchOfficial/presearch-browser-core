@@ -16,7 +16,7 @@ Table of contents
   - [Triage help](#triage-help)
 
 ## How can you contribute?
-Brave welcomes contributions of all kinds! You can make a huge impact without writing a single line of code
+Presearch welcomes contributions of all kinds! You can make a huge impact without writing a single line of code
 
 ### Help triage issues
 One of the easiest ways to help is to [look through our issues tab](https://github.com/brave/brave-browser/issues)
@@ -26,15 +26,15 @@ One of the easiest ways to help is to [look through our issues tab](https://gith
 * See our [Triage Guidelines page](https://github.com/brave/brave-browser/wiki/Triage-Guidelines) for more info about this process
 * Making sure issues that are fixed have the appropriate milestone set. There may be pull requests fixing the bug on the different product channels and sometimes the issues are forgotten about (and aren't updated)
 
-### Updating documentation
+### Updating documentatio
 Documentation is extremely important. There are lots of areas we can improve:
 * Having more clear or up-to-date instructions in the README for both [`brave-browser`](https://github.com/brave/brave-browser/blob/master/README.md) and [`brave-core`](https://github.com/brave/brave-core/blob/master/README.md).
-* Capturing/updating helpful information [in our wiki](https://github.com/brave/brave-browser/wiki). You'll need to reach out to a Brave team member to request permission - you can do this by creating a new issue or tagging a Brave team member in an existing issue.
+* Capturing/updating helpful information [in our wiki](https://github.com/brave/brave-browser/wiki). You'll need to reach out to a Presearch team member to request permission - you can do this by creating a new issue or tagging a Presearch team member in an existing issue.
 * Helping to propose a way to bring documentation to other languages. Right now, everything is in English
 * Improving this document :smile:
 
 ### Help with translations
-All text being added to Brave is done initially in English (en-US) and then is translated by real people into other languages.
+All text being added to Presearch is done initially in English (en-US) and then is translated by real people into other languages.
 We're missing translations for many languages and some translations might be incomplete or poor quality.
 
 For everything you'd need to get started, check out https://www.transifex.com/brave/brave/ :smile:
@@ -44,11 +44,11 @@ For everything you'd need to get started, check out https://www.transifex.com/br
 * Check out the [troubleshooting page](https://github.com/brave/brave-browser/wiki/Troubleshooting) if you get stuck
 * Once you're up and running, find an interesting issue to fix. Check out issues labelled with [good first issue](https://github.com/brave/brave-browser/labels/good%20first%20issue)
   - some issues only require knowledge of JavaScript (for example, pages using React and our [Brave UI library](https://github.com/brave/brave-ui))
-  - other issues may require C++ changes in either the Brave code or in Chromium
+  - other issues may require C++ changes in either the Presearch code or in Chromium
 
 ## Getting started
 * Make sure you have a [GitHub account](https://github.com/join).
-* Submit a [ticket](https://github.com/brave/brave-browser/issues) for your issue if one does not already exist. Please include the Brave version, operating system, and steps to reproduce the issue.
+* Submit a [ticket](https://github.com/brave/brave-browser/issues) for your issue if one does not already exist. Please include the Presearch version, operating system, and steps to reproduce the issue.
 * Fork the repository on GitHub (this might be [`brave-browser`](https://github.com/brave/brave-browser), [`brave-core`](https://github.com/brave/brave-core), or both).
 * For changes to JavaScript files, we recommend installing a [Standard](http://standardjs.com/) plugin for your preferred text editor in order to ensure code style consistency.
 * For C++ changes, you can consider setting up [clang-format](https://chromium.googlesource.com/chromium/src/+/master/docs/sublime_ide.md#Format-Selection-with-Clang_Format-Chromium-only) for your editor.
@@ -126,7 +126,7 @@ Some helpful things to consider before submitting your work
 * steps to test the fix (if applicable)
 * for design-related changes, it is helpful to include screenshots
 
-Once you submit a pull request, you should tag reviewers and add labels if needed. If you do not have the necessary GitHub permissions to do so, a Brave member will take care of this for you.
+Once you submit a pull request, you should tag reviewers and add labels if needed. If you do not have the necessary GitHub permissions to do so, a Presearch member will take care of this for you.
 
 #### Employees should
 * Ensure the owner is tagged using the `Assignees` field
@@ -151,7 +151,7 @@ Once you submit a pull request, you should tag reviewers and add labels if neede
 * Improving steps to reproduce is helpful.
 * Testing and adding a comment with "Could not reproduce" if an issue seems obscure is helpful.
 * Testing open pull requests.
-* You can be granted write permission if you've helped a lot with triage by pinging @bbondy, @bsclifton, @kjozwiak, or another Brave team member.
-* Helping make sure issues have a clear and understandable name (ex: not something like "Brave is broken").
+* You can be granted write permission if you've helped a lot with triage by pinging @bbondy, @bsclifton, @kjozwiak, or another Presearch team member.
+* Helping make sure issues have a clear and understandable name (ex: not something like "Presearch is broken").
 * The first comment in an issue ideally would have a clear description of the issue and describe the impact to users. Asking folks for screenshots, steps to reproduce, and more information is highly recommended so that the issue is as clear as possible.
 * If the issue is a duplicate, please let the issue creator know in a polite way how they can follow and track progress of the parent issue (including an ETA if it's marked with a milestone).

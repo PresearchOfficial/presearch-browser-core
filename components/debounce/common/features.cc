@@ -10,7 +10,7 @@
 namespace debounce {
 namespace features {
 
-// When enabled, Brave will try to parse tracking URLs of the form
+// When enabled, Presearch will try to parse tracking URLs of the form
 // https://tracker.example.com/?url=http://final.example.com/
 // and automatically redirect to the final URL without sending any
 // network requests to the tracker.

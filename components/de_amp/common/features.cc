@@ -11,7 +11,7 @@
 namespace de_amp {
 namespace features {
 
-// When enabled, Brave will try to de-AMP a page i.e. load the canonical,
+// When enabled, Presearch will try to de-AMP a page i.e. load the canonical,
 // non-AMP version if the page is an AMP page.
 const base::Feature kBraveDeAMP{"BraveDeAMP", base::FEATURE_ENABLED_BY_DEFAULT};
 

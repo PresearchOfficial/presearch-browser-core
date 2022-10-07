@@ -103,18 +103,18 @@ constexpr char kBraveAdblockCspRulesDescription[] =
 constexpr char kBraveAdblockDefault1pBlockingName[] =
     "Shields first-party network blocking";
 constexpr char kBraveAdblockDefault1pBlockingDescription[] =
-    "Allow Brave Shields to block first-party network requests in Standard "
+    "Allow Presearch Shields to block first-party network requests in Standard "
     "blocking mode";
 
 constexpr char kBraveAdsCustomNotificationsName[] =
-    "Enable Brave Ads custom push notifications";
+    "Enable Presearch Ads custom push notifications";
 constexpr char kBraveAdsCustomNotificationsDescription[] =
-    "Enable Brave Ads custom push notifications to support rich media";
+    "Enable Presearch Ads custom push notifications to support rich media";
 
 constexpr char kBraveAdsCustomNotificationsFallbackName[] =
-    "Allow Brave Ads to fallback from native to custom push notifications";
+    "Allow Presearch Ads to fallback from native to custom push notifications";
 constexpr char kBraveAdsCustomNotificationsFallbackDescription[] =
-    "Allow Brave Ads to fallback from native to custom push notifications on "
+    "Allow Presearch Ads to fallback from native to custom push notifications on "
     "operating systems which do not support native notifications";
 
 constexpr char kBraveDarkModeBlockName[] =
@@ -129,7 +129,7 @@ constexpr char kBraveDomainBlockDescription[] =
 constexpr char kBraveDomainBlock1PESName[] =
     "Enable domain blocking using First Party Ephemeral Storage";
 constexpr char kBraveDomainBlock1PESDescription[] =
-    "When visiting a blocked domain, Brave will try to enable Ephemeral "
+    "When visiting a blocked domain, Presearch will try to enable Ephemeral "
     "Storage for a first party context, meaning neither cookies nor "
     "localStorage data will be persisted after a website is closed. Ephemeral "
     "Storage will be auto-enabled only if no data was previously stored for a "
@@ -176,12 +176,12 @@ constexpr char kBraveSpeedreaderLegacyDescription[] =
     "Enables the legacy backend for SpeedReader. Uses adblock rules to "
     "determine if pages are readable and distills using CSS selector rules.";
 
-constexpr char kBraveSyncName[] = "Enable Brave Sync v2";
+constexpr char kBraveSyncName[] = "Enable Presearch Sync v2";
 constexpr char kBraveSyncDescription[] =
-    "Brave Sync v2 integrates with chromium sync engine with Brave specific "
+    "Presearch Sync v2 integrates with chromium sync engine with Presearch specific "
     "authentication flow and enforce client side encryption";
 
-constexpr char kBraveVPNName[] = "Enable experimental Brave VPN";
+constexpr char kBraveVPNName[] = "Enable experimental Presearch VPN";
 constexpr char kBraveVPNDescription[] = "Experimental native VPN support";
 
 constexpr char kBraveSkusSdkName[] = "Enable experimental SKU SDK";
@@ -193,12 +193,12 @@ constexpr char kBraveSkusProdEnvName[] = "production";
 constexpr char kBraveSkusStagingEnvName[] = "staging";
 constexpr char kBraveSkusDevEnvName[] = "development";
 
-constexpr char kBraveShieldsV1Name[] = "Enable Brave Shields v1";
+constexpr char kBraveShieldsV1Name[] = "Enable Presearch Shields v1";
 constexpr char kBraveShieldsV1Description[] =
-    "Legacy extension-based panel UX/UI for Brave Shields";
-constexpr char kBraveShieldsV2Name[] = "Enable Brave Shields v2";
+    "Legacy extension-based panel UX/UI for Presearch Shields";
+constexpr char kBraveShieldsV2Name[] = "Enable Presearch Shields v2";
 constexpr char kBraveShieldsV2Description[] =
-    "Major UX/UI overhaul of Brave Shields panel";
+    "Major UX/UI overhaul of Presearch Shields panel";
 
 constexpr char kBraveDecentralizedDnsName[] = "Enable decentralized DNS";
 constexpr char kBraveDecentralizedDnsDescription[] =
@@ -222,51 +222,51 @@ constexpr char kBraveFirstPartyEphemeralStorageDescription[] =
     "cookie setting";
 
 #if BUILDFLAG(ENABLE_GEMINI_WALLET)
-constexpr char kBraveRewardsGeminiName[] = "Enable Gemini for Brave Rewards";
+constexpr char kBraveRewardsGeminiName[] = "Enable Gemini for Presearch Rewards";
 constexpr char kBraveRewardsGeminiDescription[] =
-    "Enables support for Gemini as an external wallet provider for Brave";
+    "Enables support for Gemini as an external wallet provider for Presearch";
 #endif
 
 constexpr char kBraveRewardsVerboseLoggingName[] =
-    "Enable Brave Rewards verbose logging";
+    "Enable Presearch Rewards verbose logging";
 constexpr char kBraveRewardsVerboseLoggingDescription[] =
-    "Enables detailed logging of Brave Rewards system events to a log file "
+    "Enables detailed logging of Presearch Rewards system events to a log file "
     "stored on your device. Please note that this log file could include "
     "information such as browsing history and credentials such as passwords "
     "and access tokens depending on your activity. Please do not share it "
-    "unless asked to by Brave staff.";
+    "unless asked to by Presearch staff.";
 
 constexpr char kBraveSearchDefaultAPIName[] =
-    "Enable Brave Search website default search provider API";
+    "Enable Presearch Search website default search provider API";
 constexpr char kBraveSearchDefaultAPIDescription[] =
     "Enable javascript API only on "
-    "Brave Search websites which will allow the user to make the search engine "
+    "Presearch Search websites which will allow the user to make the search engine "
     "their default search provider.";
 
-constexpr char kBraveSuperReferralName[] = "Enable Brave Super Referral";
+constexpr char kBraveSuperReferralName[] = "Enable Presearch Super Referral";
 constexpr char kBraveSuperReferralDescription[] =
-    "Use custom theme for Brave Super Referral";
+    "Use custom theme for Presearch Super Referral";
 
-constexpr char kNativeBraveWalletName[] = "Enable Brave Wallet";
+constexpr char kNativeBraveWalletName[] = "Enable Presearch Wallet";
 constexpr char kNativeBraveWalletDescription[] =
     "Native cryptocurrency wallet support without the use of extensions";
 
 constexpr char kBraveWalletFilecoinName[] =
-    "Enable Brave Wallet Filecoin support";
+    "Enable Presearch Wallet Filecoin support";
 constexpr char kBraveWalletFilecoinDescription[] =
-    "Filecoin support for native Brave Wallet";
+    "Filecoin support for native Presearch Wallet";
 
-constexpr char kBraveWalletSolanaName[] = "Enable Brave Wallet Solana support";
+constexpr char kBraveWalletSolanaName[] = "Enable Presearch Wallet Solana support";
 constexpr char kBraveWalletSolanaDescription[] =
-    "Solana support for native Brave Wallet";
+    "Solana support for native Presearch Wallet";
 constexpr char kBraveWalletSolanaProviderName[] =
-    "Enable Brave Wallet Solana provider support";
+    "Enable Presearch Wallet Solana provider support";
 constexpr char kBraveWalletSolanaProviderDescription[] =
-    "Solana provider support for native Brave Wallet";
+    "Solana provider support for native Presearch Wallet";
 
-constexpr char kBraveNewsName[] = "Enable Brave News";
+constexpr char kBraveNewsName[] = "Enable Presearch News";
 constexpr char kBraveNewsDescription[] =
-    "Brave News is completely private and includes anonymized ads matched on "
+    "Presearch News is completely private and includes anonymized ads matched on "
     "your device.";
 
 constexpr char kCryptoWalletsForNewInstallsName[] =

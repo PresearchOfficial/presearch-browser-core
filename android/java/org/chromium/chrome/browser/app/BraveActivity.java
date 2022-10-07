@@ -196,7 +196,7 @@ import java.io.FileOutputStream;
 import java.io.File;
 
 /**
- * Brave's extension for ChromeActivity
+ * Presearch's extension for ChromeActivity
  */
 @JNINamespace("chrome::android")
 public abstract class BraveActivity<C extends ChromeActivityComponent> extends ChromeActivity
@@ -258,7 +258,7 @@ public abstract class BraveActivity<C extends ChromeActivityComponent> extends C
 
     @SuppressLint("VisibleForTests")
     public BraveActivity() {
-        // Disable key checker to avoid asserts on Brave keys in debug
+        // Disable key checker to avoid asserts on Presearch keys in debug
         SharedPreferencesManager.getInstance().disableKeyCheckerForTesting();
     }
 
@@ -275,7 +275,7 @@ public abstract class BraveActivity<C extends ChromeActivityComponent> extends C
     @Override
     public boolean onMenuOrKeyboardAction(int id, boolean fromMenu) {
         final TabImpl currentTab = (TabImpl) getActivityTab();
-        // Handle items replaced by Brave.
+        // Handle items replaced by Presearch.
         if (id == R.id.info_menu_id && currentTab != null) {
             ShareDelegate shareDelegate = (ShareDelegate) getShareDelegateSupplier().get();
             shareDelegate.share(currentTab, false, ShareOrigin.OVERFLOW_MENU);
@@ -288,7 +288,7 @@ public abstract class BraveActivity<C extends ChromeActivityComponent> extends C
             return true;
         }
 
-        // Handle items added by Brave.
+        // Handle items added by Presearch.
         if (currentTab == null) {
             return false;
         } else if (id == R.id.exit_id) {
@@ -1288,13 +1288,13 @@ public abstract class BraveActivity<C extends ChromeActivityComponent> extends C
         httpse_ext_dir.mkdirs();
         httpseDataPath = httpseDataPath + File.separator;
 
-        if (!fileExists(ContextUtils.getApplicationContext(), "rs-ABPFilterParserData.dat")) {
-            loadAdblockFilter(R.raw.FilterParserData, adsDataPath + "rs-ABPFilterParserData.dat");
-            loadAdblockFilter(R.raw.regional_catalog_json, adsDataPath + "regional_catalog.json");
-            loadAdblockFilter(R.raw.resources_json, adsDataPath +  "resources.json" );
-            loadAdblockFilter(R.raw.manifest_json, adsDataPath +  "manifest.json" );
-            loadAdblockFilter(R.raw.manifest_fingerprint, adsDataPath +  "manifest.fingerprint" );
-        }
+        // if (!fileExists(ContextUtils.getApplicationContext(), "rs-ABPFilterParserData.dat")) {
+        //     loadAdblockFilter(R.raw.FilterParserData, adsDataPath + "rs-ABPFilterParserData.dat");
+        //     loadAdblockFilter(R.raw.regional_catalog_json, adsDataPath + "regional_catalog.json");
+        //     loadAdblockFilter(R.raw.resources_json, adsDataPath +  "resources.json" );
+        //     loadAdblockFilter(R.raw.manifest_json, adsDataPath +  "manifest.json" );
+        //     loadAdblockFilter(R.raw.manifest_fingerprint, adsDataPath +  "manifest.fingerprint" );
+        // }
 
         if (!fileExists(ContextUtils.getApplicationContext(), "000005.ldb")) {
             loadHttpsEverywhereData(R.raw.manifest_fingerprint_httpse, httpseDataPath +  "manifest.fingerprint" );
@@ -1397,7 +1397,7 @@ public abstract class BraveActivity<C extends ChromeActivityComponent> extends C
 
     @Override
     protected boolean supportsDynamicColors() {
-        // Dynamic colors cause styling issues with Brave theme.
+        // Dynamic colors cause styling issues with Presearch theme.
         return false;
     }
 }
