@@ -29,10 +29,10 @@
 <translation id="985862351129593673">Customise dashboard</translation>
 <translation id="7180865173735832675">Customise</translation>
 <translation id="8522669544471808198">Show background images</translation>
-<translation id="5801450813341024983">Brave backgrounds</translation>
+<translation id="5801450813341024983">Presearch backgrounds</translation>
 <translation id="1416884769823233410">Use your own</translation>
 <translation id="6246790815526961700">Upload from device</translation>
-<translation id="7275773481201277457">Show Brave Stats</translation>
+<translation id="7275773481201277457">Show Presearch Stats</translation>
 <translation id="6836061097810262923">Show Clock</translation>
 <translation id="5912396950572065471">Format</translation>
 <translation id="604124094241169006">Automatic</translation>
@@ -54,28 +54,28 @@
 <translation id="430556192781857057">Top sites are suggested based on websites you visit often</translation>
 <translation id="1773147648972887693">Show frequently visited</translation>
 <translation id="4546260624932151782">Show favourites</translation>
-<translation id="3446024864193919737">Show Brave Rewards</translation>
+<translation id="3446024864193919737">Show Presearch Rewards</translation>
 <translation id="6274899614137380422">Show Binance</translation>
 <translation id="5585019845078534178">Cards</translation>
 <translation id="3870475560794762985">Show sponsored images</translation>
 <translation id="2875302873837723333">top sites</translation>
-<translation id="8173998484743827990">Brave stats</translation>
+<translation id="8173998484743827990">Presearch stats</translation>
 <translation id="383680190590774040">clock</translation>
-<translation id="3333887201479867589">Brave Rewards</translation>
+<translation id="3333887201479867589">Presearch Rewards</translation>
 <translation id="3159285901314605198">Background Image</translation>
 <translation id="385051799172605136">Back</translation>
-<translation id="9024104284526126630">You can start a private call in Brave.</translation>
-<translation id="4903286433687221248">Start unlimited calls with friends and colleagues in Brave Talk.</translation>
+<translation id="9024104284526126630">You can start a private call in Presearch.</translation>
+<translation id="4903286433687221248">Start unlimited calls with friends and colleagues in Presearch Talk.</translation>
 <translation id="7115051913071512405">Try it out</translation>
 <translation id="7415602225677446066">Today's top stories in a completely private feed, just for you.</translation>
-<translation id="6903061332999399632">Brave News is ad-supported with completely private and anonymised ads matched on your device. Your personal information always stays private, per our <ph name="LINK_START"/>privacy policy<ph name="LINK_END"/>.</translation>
-<translation id="7823038307453615214">Show Brave News</translation>
+<translation id="6903061332999399632">Presearch News is ad-supported with completely private and anonymised ads matched on your device. Your personal information always stays private, per our <ph name="LINK_START"/>privacy policy<ph name="LINK_END"/>.</translation>
+<translation id="7823038307453615214">Show Presearch News</translation>
 <translation id="780301667611848630">No, thanks</translation>
 <translation id="9164544612367905452">Fetching…</translation>
 <translation id="1276592121036104130">Load new content</translation>
-<translation id="2875288128871360696">Scroll for Brave News</translation>
-<translation id="8510120023634509743">Reset Brave News sources</translation>
-<translation id="75825199302994272">Reset all your Brave News publisher choices to their default?</translation>
+<translation id="2875288128871360696">Scroll for Presearch News</translation>
+<translation id="8510120023634509743">Reset Presearch News sources</translation>
+<translation id="75825199302994272">Reset all your Presearch News publisher choices to their default?</translation>
 <translation id="954001034349395856">All sources</translation>
 <translation id="8890516388109605451">Sources</translation>
 <translation id="5158129253322921540">Disable content from <ph name="PUBLISHER_NAME"/></translation>
@@ -87,43 +87,43 @@
 <translation id="1531133232292396145">Trade crypto on Binance directly in your browser.</translation>
 <translation id="2166494527623220386">Trade crypto on Gemini directly in your browser.</translation>
 <translation id="7191394989411626168">By turning off Cards, all cards currently visible will be hidden. However, you may still be notified of new cards.</translation>
-<translation id="6820526586005233839">Brave Ads paused</translation>
-<translation id="5190407395832551012">To keep Brave Rewards safe from abuse, we'll randomly ask users to solve a captcha. Click “Solve” to resume ads.</translation>
+<translation id="6820526586005233839">Presearch Ads paused</translation>
+<translation id="5190407395832551012">To keep Presearch Rewards safe from abuse, we'll randomly ask users to solve a captcha. Click “Solve” to resume ads.</translation>
 <translation id="1693773514029371138">Solve</translation>
 <translation id="6991128190741664836">Later</translation>
-<translation id="8112367589167674370">Brave talk</translation>
-<translation id="8488282162676695335">Brave Wallet</translation>
+<translation id="8112367589167674370">Presearch talk</translation>
+<translation id="8488282162676695335">Presearch Wallet</translation>
 <translation id="8820817407110198400">Bookmarks bar</translation>
 <translation id="1644574205037202324">History</translation>
 <translation id="6165508094623778733">Learn more</translation>
 <translation id="8730621377337864115">Done</translation>
 <translation id="730042046912793465">This is a</translation>
 <translation id="2055363275850890030">Private Window</translation>
-<translation id="9133213713928851646">Brave doesn't remember what you do in a Private Window. Sites you visit won't show up in your history, and cookies vanish when you're done. Private Windows don't make you completely anonymous online, though.</translation>
-<translation id="4085423007106063912">Brave never remembers what you do in a private window. Sites you visit won't show up in your history. Cookies, form data and site data vanish when you close the window.</translation>
+<translation id="9133213713928851646">Presearch doesn't remember what you do in a Private Window. Sites you visit won't show up in your history, and cookies vanish when you're done. Private Windows don't make you completely anonymous online, though.</translation>
+<translation id="4085423007106063912">Presearch never remembers what you do in a private window. Sites you visit won't show up in your history. Cookies, form data and site data vanish when you close the window.</translation>
 <translation id="1700746046668116047">Note that your activity could still be visible to your Internet service provider, passive network observers or your employer (if you're using a work machine or network). For more privacy, open a private window with Tor.</translation>
 <translation id="8759753423332885148">Learn more.</translation>
 <translation id="3546750666732517156">Private Window with Tor connectivity</translation>
-<translation id="5383068818957293256">Brave never remembers what you do in a Private Window. With Tor connectivity, your IP address is also hidden from the sites you visit. However, if your personal safety depends on remaining anonymous, use the Tor Browser instead.</translation>
-<translation id="3338507774653218581">Brave never remembers what you do in a Private Window. With Tor connectivity, you get two additional benefits: your IP address is hidden from the sites you visit and the sites you visit are hidden from passive network observers. Note that Tor may slow down browsing or break some websites.</translation>
+<translation id="5383068818957293256">Presearch never remembers what you do in a Private Window. With Tor connectivity, your IP address is also hidden from the sites you visit. However, if your personal safety depends on remaining anonymous, use the Tor Browser instead.</translation>
+<translation id="3338507774653218581">Presearch never remembers what you do in a Private Window. With Tor connectivity, you get two additional benefits: your IP address is hidden from the sites you visit and the sites you visit are hidden from passive network observers. Note that Tor may slow down browsing or break some websites.</translation>
 <translation id="8666930656222843375">A private window with Tor makes it more difficult, but not impossible, for your ISP or employer (if you're using a work machine or network) to see what sites you visit. However, even a private window with Tor won't fully defend against tracking. If your personal safety depends on remaining anonymous, use the Tor Browser instead.</translation>
 <translation id="7919374705736538787">Search Privately with</translation>
 <translation id="3135655280958284640">DuckDuckGo</translation>
-<translation id="218839872518145456">With private search, Brave will use DuckDuckGo for searches in Private Windows. DuckDuckGo doesn't track your search history, so you can search privately.</translation>
+<translation id="218839872518145456">With private search, Presearch will use DuckDuckGo for searches in Private Windows. DuckDuckGo doesn't track your search history, so you can search privately.</translation>
 <translation id="1925197199485958903">In Private Windows with Tor, DuckDuckGo is the default search engine. Some of the other popular search engines are harder to use with Tor. DuckDuckGo doesn't track your search history; with Tor, they don't even know your IP address.</translation>
 <translation id="4371533307685765155">Search with DuckDuckGo</translation>
 <translation id="548478195417408221">Make Private Windows more private</translation>
 <translation id="3294503279952534143">This Private Window is more private</translation>
 <translation id="4644024131266615376">with Tor connectivity</translation>
 <translation id="8541421872680304667">Tor hides your IP address from the sites you visit, by routing your browsing through several Tor servers before it reaches your destination. Tor can slow down browsing and some sites might not work at all.</translation>
-<translation id="8897548669448660973">Using Private Windows only changes what Brave does on your device — it doesn't change anyone else's behavior. Tor hides your IP address from the sites you visit and makes it somewhat more difficult, but not impossible, for your ISP or employer to see what sites you are visiting. Open a Private Window with Tor from the menu, or with [[ key ]].</translation>
-<translation id="6975708438781948564">Learn more about Tor in Brave</translation>
+<translation id="8897548669448660973">Using Private Windows only changes what Presearch does on your device — it doesn't change anyone else's behavior. Tor hides your IP address from the sites you visit and makes it somewhat more difficult, but not impossible, for your ISP or employer to see what sites you are visiting. Open a Private Window with Tor from the menu, or with [[ key ]].</translation>
+<translation id="6975708438781948564">Learn more about Tor in Presearch</translation>
 <translation id="4712050378540986986">Tor status</translation>
 <translation id="1939334281379458295">Tor connected successfully</translation>
 <translation id="8030169304546394654">Disconnected</translation>
 <translation id="1149108864689950951">Tor is connecting ... [[percentage]]%</translation>
 <translation id="3651192084771403430">Having problems connecting? Try <ph name="BEGIN_LINK"/>turning off<ph name="END_LINK"/> Private Window with Tor and back on again in settings.</translation>
-<translation id="9190084253595768053">Having trouble connecting? Open <ph name="BEGIN_LINK"/>Brave Settings<ph name="END_LINK"/>, disable Private Window with Tor, then re-enable. Still having trouble?</translation>
+<translation id="9190084253595768053">Having trouble connecting? Open <ph name="BEGIN_LINK"/>Presearch Settings<ph name="END_LINK"/>, disable Private Window with Tor, then re-enable. Still having trouble?</translation>
 <translation id="8388043004918289671">Contact support.</translation>
 <translation id="4272382368346338917">Additional Filters</translation>
 <translation id="8949292968394988358">Warning: Turning on too many filters will degrade performance</translation>
@@ -142,17 +142,17 @@
 <translation id="5334844597069022743">View source</translation>
 <translation id="4720556299488643018">Unsubscribe</translation>
 <translation id="1209739344687072997">Report a broken site</translation>
-<translation id="8510478288840333677">Let Brave's developers know that this site doesn't work properly with Shields:</translation>
-<translation id="4105411033440701818">Note: when you click "Submit", you'll share the site address, your Brave version number and your IP address with Brave developers. (The IP address will not be stored.)</translation>
+<translation id="8510478288840333677">Let Presearch's developers know that this site doesn't work properly with Shields:</translation>
+<translation id="4105411033440701818">Note: when you click "Submit", you'll share the site address, your Presearch version number and your IP address with Presearch developers. (The IP address will not be stored.)</translation>
 <translation id="6476216365964140603">Additional details (optional)</translation>
 <translation id="6145852496180774737">Contact me at: (optional)</translation>
 <translation id="7616645803364270729">Email, Twitter, etc.</translation>
 <translation id="5299848999918506028">Thank you!</translation>
-<translation id="76550953340008122">Thanks for letting Brave's developers know that there's something wrong with this site. We'll do our best to fix it!</translation>
-<translation id="2974339193389078578">Brave the new Internet</translation>
+<translation id="76550953340008122">Thanks for letting Presearch's developers know that there's something wrong with this site. We'll do our best to fix it!</translation>
+<translation id="2974339193389078578">Presearch the new Internet</translation>
 <translation id="7735138632831241257">Get ready to enjoy a faster and more secure browsing experience with a browser built to protect your privacy.</translation>
 <translation id="6001839398155993679">Let's go</translation>
-<translation id="4225189922025976867"><ph name="BEGIN_BOLD"/>Earn tokens<ph name="END_BOLD"/> by viewing Brave Private Ads and support content creators automatically.</translation>
+<translation id="4225189922025976867"><ph name="BEGIN_BOLD"/>Earn tokens<ph name="END_BOLD"/> by viewing Presearch Private Ads and support content creators automatically.</translation>
 <translation id="5477721706074111257">By clicking, you agree to the <ph name="BEGIN_LINK"/>Terms of Service<ph name="END_LINK"/> and <ph name="BEGIN_LINK"/>Privacy Policy<ph name="END_LINK"/>.</translation>
 <translation id="3505541710659461355">You can turn this off at any time in settings.</translation>
 <translation id="2965798296974325760">Start using Rewards</translation>
@@ -161,7 +161,7 @@
 <translation id="8275038454117074363">Import</translation>
 <translation id="2088479175984386785">Import from...</translation>
 <translation id="5540323067375019678">Manage your shields</translation>
-<translation id="3278033011827237847">Protect against privacy-invading ads and trackers while browsing with Brave Shields. Set Shields to "down" if a site doesn’t seem to be working properly.</translation>
+<translation id="3278033011827237847">Protect against privacy-invading ads and trackers while browsing with Presearch Shields. Set Shields to "down" if a site doesn’t seem to be working properly.</translation>
 <translation id="3366308997091824722">Shield Settings</translation>
 <translation id="4764692524839457597">default</translation>
 <translation id="3108122610701115301">Set default</translation>
@@ -171,16 +171,16 @@
 <translation id="3829010735958850433">Skip welcome tour</translation>
 <translation id="1201402288615127009">Next</translation>
 <translation id="7954950242989581218">Browse safe and sound</translation>
-<translation id="2188651882929633653">Brave Shields blocks the creepy stuff that tries to track you across the web — including most ads. Set Shields to “down” if a site doesn’t seem to be working. Brave uses <ph name="BEGIN_LINK_P3A"/>completely private product analytics<ph name="END_LINK_P3A"/> to estimate the overall usage of certain features. You can turn this off in <ph name="BEGIN_LINK_P3A_SETTINGS"/>Settings<ph name="END_LINK_P3A_SETTINGS"/>.</translation>
-<translation id="4851215387785619212">Brave Private Ads</translation>
-<translation id="3114984266384096064">Earn [[currency]] by viewing Brave Private Ads. Ads presented are based on your interests, as inferred from your browsing behaviour. No personal data or browsing history ever leaves your browser.</translation>
+<translation id="2188651882929633653">Presearch Shields blocks the creepy stuff that tries to track you across the web — including most ads. Set Shields to “down” if a site doesn’t seem to be working. Presearch uses <ph name="BEGIN_LINK_P3A"/>completely private product analytics<ph name="END_LINK_P3A"/> to estimate the overall usage of certain features. You can turn this off in <ph name="BEGIN_LINK_P3A_SETTINGS"/>Settings<ph name="END_LINK_P3A_SETTINGS"/>.</translation>
+<translation id="4851215387785619212">Presearch Private Ads</translation>
+<translation id="3114984266384096064">Earn [[currency]] by viewing Presearch Private Ads. Ads presented are based on your interests, as inferred from your browsing behaviour. No personal data or browsing history ever leaves your browser.</translation>
 <translation id="6112368337882254910">Auto-Contribute</translation>
-<translation id="3742599705619405136">An automatic way to support publishers and content creators. Set a monthly payment and browse normally. The Brave verified sites you visit will receive your contributions automatically, based on your attention as measured by Brave.</translation>
+<translation id="3742599705619405136">An automatic way to support publishers and content creators. Set a monthly payment and browse normally. The Presearch verified sites you visit will receive your contributions automatically, based on your attention as measured by Presearch.</translation>
 <translation id="3325399124634342726">Current earnings this month (estimated)</translation>
 <translation id="8593551638387217772">Next payment date</translation>
 <translation id="4428871418618312983">Ads received this month</translation>
 <translation id="4229016885653790965">Sorry! Ads are not yet available in your region.</translation>
-<translation id="2539279826042558064">Brave Rewards and Ads are not available on your device at this time.</translation>
+<translation id="2539279826042558064">Presearch Rewards and Ads are not available on your device at this time.</translation>
 <translation id="2532127066761785857">Maximum number of ads displayed</translation>
 <translation id="6177749339095882127">0 ads per hour</translation>
 <translation id="5171071066587880677">1 ad per hour</translation>
@@ -190,7 +190,7 @@
 <translation id="7694167481321619202">5 ads per hour</translation>
 <translation id="3705420658531870884">10 ads per hour</translation>
 <translation id="2356652719351432565">Regional ad relevance</translation>
-<translation id="3216275550298493597">This allows Brave to show you ads meant specifically for your region.</translation>
+<translation id="3216275550298493597">This allows Presearch to show you ads meant specifically for your region.</translation>
 <translation id="8446884382197647889">Learn More</translation>
 <translation id="6209514229703649203">Auto-detected as [[adsSubdivisionTarget]]</translation>
 <translation id="8010081455002666927">Auto-detect</translation>
@@ -235,28 +235,28 @@
 <translation id="7841456038054167122">Please re-enter keys or try different keys.</translation>
 <translation id="1911900517212490188">The restore key entered is no longer supported. Please visit <ph name="BEGIN_LINK"/>here<ph name="END_LINK"/> to get a new key.</translation>
 <translation id="7583327070390027131">Next monthly tips date</translation>
-<translation id="6231182869178328516">I just tipped <ph name="NAME"/> using the Brave Browser. Check it out at https://brave.com/tips.</translation>
+<translation id="6231182869178328516">I just tipped <ph name="NAME"/> using the Presearch Browser. Check it out at https://brave.com/tips.</translation>
 <translation id="8404935570206006581">TipWithBrave</translation>
 <translation id="3082557070674409251">Clicked</translation>
 <translation id="7119308337584989771">Dismissed</translation>
 <translation id="6805660603861526473">Viewed</translation>
-<translation id="8826352442759228526">Your Brave Rewards cannot be verified because you've reached the maximum verified device limit.</translation>
+<translation id="8826352442759228526">Your Presearch Rewards cannot be verified because you've reached the maximum verified device limit.</translation>
 <translation id="1221593978088944142">Error: device limit reached</translation>
 <translation id="3113653894794167793">Sorry there was a problem processing your request, please try again.</translation>
-<translation id="3509185560119586847">Unfortunately, your Brave Rewards profile has been flagged, and you're not able to verify with a custodian at this time. This flag can sometimes be due to irregular Brave Ads activity, though it can also be a false positive.</translation>
-<translation id="5031451251720571882">Note that while your Brave Rewards profile is flagged, you won't be able to verify.</translation>
-<translation id="7301759045821910866">No action is required on your part. Your Brave Rewards profile will be automatically re-evaluated on a regular basis to determine when (or if) the flag can be removed. Please try again every so often to see if the flag has been removed.</translation>
-<translation id="280350148043792509"><ph name="BEGIN_LINK"/>Learn more about Brave's process for flagging Rewards profiles.<ph name="END_LINK"/></translation>
-<translation id="5028274575541726856">Error: Brave Rewards profile is flagged</translation>
+<translation id="3509185560119586847">Unfortunately, your Presearch Rewards profile has been flagged, and you're not able to verify with a custodian at this time. This flag can sometimes be due to irregular Presearch Ads activity, though it can also be a false positive.</translation>
+<translation id="5031451251720571882">Note that while your Presearch Rewards profile is flagged, you won't be able to verify.</translation>
+<translation id="7301759045821910866">No action is required on your part. Your Presearch Rewards profile will be automatically re-evaluated on a regular basis to determine when (or if) the flag can be removed. Please try again every so often to see if the flag has been removed.</translation>
+<translation id="280350148043792509"><ph name="BEGIN_LINK"/>Learn more about Presearch's process for flagging Rewards profiles.<ph name="END_LINK"/></translation>
+<translation id="5028274575541726856">Error: Presearch Rewards profile is flagged</translation>
 <translation id="2607420597216860026">Please try again after you have completed ID verification on <ph name="PROVIDER"/>.</translation>
 <translation id="3183954159462541696">Error: you need a verified account to log in</translation>
-<translation id="5260522591743022748">Hmm, it looks like your Brave Rewards has already been verified with another <ph name="PROVIDER"/> account. Please try verifying again using your previous account.</translation>
+<translation id="5260522591743022748">Hmm, it looks like your Presearch Rewards has already been verified with another <ph name="PROVIDER"/> account. Please try verifying again using your previous account.</translation>
 <translation id="5111921830714291902">Error: Different account</translation>
-<translation id="6933939911547091461">Unfortunately, your Brave Rewards cannot be verified because your region is not supported for Brave Rewards verification at this time.</translation>
+<translation id="6933939911547091461">Unfortunately, your Presearch Rewards cannot be verified because your region is not supported for Presearch Rewards verification at this time.</translation>
 <translation id="8218538368080510976">Error: region not supported</translation>
 <translation id="5382684862562314222">BAT is not yet supported in your region on Uphold.</translation>
 <translation id="9074594632540931067">Error: BAT unavailable</translation>
-<translation id="3274650021044762770">There was a problem validating your browser's request to connect Brave Rewards to your <ph name="PROVIDER"/> account. You can <ph name="BEGIN_LINK"/>contact support<ph name="END_LINK"/> for more help.</translation>
+<translation id="3274650021044762770">There was a problem validating your browser's request to connect Presearch Rewards to your <ph name="PROVIDER"/> account. You can <ph name="BEGIN_LINK"/>contact support<ph name="END_LINK"/> for more help.</translation>
 <translation id="1316066811927496401">Error: Request could not be validated</translation>
 <translation id="1737873393693460829">By turning on [[title]], you agree to the <ph name="BEGIN_LINK1"/>Terms of Service<ph name="END_LINK1"/> and <ph name="BEGIN_LINK2"/>Privacy Policy<ph name="END_LINK2"/>.</translation>
 <translation id="4672975606583962967">Choose a wallet service</translation>
@@ -264,8 +264,8 @@
 <translation id="2205685774710519016">Note: your transactions will be visible to the selected wallet service once you authorise; for instance, they will be able to see the recipient and amount of your tips.</translation>
 <translation id="2147158325758481862">Verifying is optional</translation>
 <translation id="8228649055483250005">Custodial wallet providers are required to verify the identity of anyone creating a wallet, including using a photo ID.</translation>
-<translation id="2672513643520959619"><ph name="BOLD_BEGIN"/>Brave Software Inc.<ph name="BOLD_END"/> does not process, store or access any of the personal information when you establish an account with our custodial wallet partners.</translation>
-<translation id="6682919029276027868">However, your current Brave Rewards features are limited. Verifying with a custodial wallet partner allows you to:</translation>
+<translation id="2672513643520959619"><ph name="BOLD_BEGIN"/>Presearch Software Inc.<ph name="BOLD_END"/> does not process, store or access any of the personal information when you establish an account with our custodial wallet partners.</translation>
+<translation id="6682919029276027868">However, your current Presearch Rewards features are limited. Verifying with a custodial wallet partner allows you to:</translation>
 <translation id="9064931634458501855">Freely withdraw and deposit funds</translation>
 <translation id="3222002542796906461">Receive your Rewards directly to your account</translation>
 <translation id="8304979233901023264">I have read and agree to Brave’s <ph name="TOS_LINK_BEGIN"/>Terms of Service<ph name="TOS_LINK_END"/> &amp; <ph name="PP_LINK_BEGIN"/>Privacy Policy<ph name="PP_LINK_END"/>.</translation>
@@ -377,7 +377,7 @@
 <translation id="9088057605518918276">Monthly tip has been set.</translation>
 <translation id="6306631474379759382">Next tip date:</translation>
 <translation id="3593485149443019592">Not enough tokens. Please <ph name="LINK_BEGIN"/>add funds<ph name="LINK_END"/>.</translation>
-<translation id="3586352807094428968">Brave collects 5% of the tip amount as a processing fee.</translation>
+<translation id="3586352807094428968">Presearch collects 5% of the tip amount as a processing fee.</translation>
 <translation id="207268487070188114">One-time tip</translation>
 <translation id="69861679024013299">One-time tip amount:</translation>
 <translation id="3669086939205397942">Hold on, you can’t tip yet</translation>
@@ -400,21 +400,21 @@
 <translation id="7532131110478098401">(ads per hour)</translation>
 <translation id="2951964054390325080">How much monthly support do you want to give to your favourite creators?</translation>
 <translation id="3164498053837913829">(from your ads earnings)</translation>
-<translation id="2070991379950719711">Start using Brave Rewards</translation>
+<translation id="2070991379950719711">Start using Presearch Rewards</translation>
 <translation id="6318696841371191107">Take a quick tour</translation>
 <translation id="8465790416279415448">By proceeding, you agree to the <ph name="TOS_LINK_BEGIN"/>Terms of Service<ph name="TOS_LINK_END"/> and <ph name="PP_LINK_BEGIN"/>Privacy Policy<ph name="PP_LINK_END"/>.</translation>
-<translation id="8222322431155185238">Tip with Brave Rewards</translation>
-<translation id="1895476463085410109">Earn Rewards by viewing Brave Private Ads and support content creators automatically</translation>
+<translation id="8222322431155185238">Tip with Presearch Rewards</translation>
+<translation id="1895476463085410109">Earn Rewards by viewing Presearch Private Ads and support content creators automatically</translation>
 <translation id="5705882733397021510">Go Back</translation>
 <translation id="185034574799484512">Let’s take a quick tour</translation>
 <translation id="8281886186245836920">Skip</translation>
 <translation id="1377600615067678409">Skip for now</translation>
-<translation id="7930505144430343145">Welcome to Brave Rewards!</translation>
-<translation id="3477340970981564961">Brave Private Ads reward you with tokens to support content creators unlike traditional ads, all while keeping your personal information private.</translation>
+<translation id="7930505144430343145">Welcome to Presearch Rewards!</translation>
+<translation id="3477340970981564961">Presearch Private Ads reward you with tokens to support content creators unlike traditional ads, all while keeping your personal information private.</translation>
 <translation id="6973095375773523904">Where do ads show up?</translation>
-<translation id="7556325460112047619">Brave Private Ads will appear as a normal notification. You control how often you see these ads in settings.</translation>
+<translation id="7556325460112047619">Presearch Private Ads will appear as a normal notification. You control how often you see these ads in settings.</translation>
 <translation id="6897083627729802351">When do you receive rewards?</translation>
-<translation id="310863932297733723">Your earned tokens from Brave Private Ads throughout the current month will arrive on the 5th of the next month.</translation>
+<translation id="310863932297733723">Your earned tokens from Presearch Private Ads throughout the current month will arrive on the 5th of the next month.</translation>
 <translation id="7712287524451429139">Giving back made effortless</translation>
 <translation id="105037569026952831">Creators receive your token contributions automatically based on your engagement levels that we measure as ‘Attention’.</translation>
 <translation id="5323267338679539010">Say thank you with tips</translation>
@@ -424,16 +424,16 @@
 <translation id="1402530520078693620">Lastly, let’s get you set up on the basic settings</translation>
 <translation id="3494356595346329740">You can change this later.</translation>
 <translation id="827315274423079662">Woohoo, you’re done!</translation>
-<translation id="8268038362451312235">By using Brave Rewards you are helping make the web a better place for everyone. And that’s awesome!</translation>
+<translation id="8268038362451312235">By using Presearch Rewards you are helping make the web a better place for everyone. And that’s awesome!</translation>
 <translation id="6518133107902771759">Verify</translation>
-<translation id="2318949593486441832">In order to withdraw the BAT you earn for viewing ads, you’ll need to verify Brave Rewards.</translation>
+<translation id="2318949593486441832">In order to withdraw the BAT you earn for viewing ads, you’ll need to verify Presearch Rewards.</translation>
 <translation id="9168436347345867845">Do it later</translation>
-<translation id="7193761697942491145">Verify Brave Rewards</translation>
+<translation id="7193761697942491145">Verify Presearch Rewards</translation>
 <translation id="6609621505400013054">The bitFlyer wallet is a service managed by bitFlyer, Inc.</translation>
-<translation id="4361456403643555676">By verifying your Brave Rewards and linking it to a bitFlyer account, you will be able to store and manage the tokens you have earned through Brave Rewards more easily</translation>
-<translation id="1411121707906693782"><ph name="LINK_BEGIN"/>Learn more<ph name="LINK_END"/> about how to link your Brave browser with your bitFlyer account.</translation>
-<translation id="5916290544882167205">Brave Software. Brave is a registered trademark of Brave Software. Site names may be trademarks or registered trademarks of the site owner.</translation>
-<translation id="9026369588205476247">To protect your privacy, this Brave Rewards statement is not saved, recorded or logged anywhere other than on your device (this computer). It cannot be retrieved from Brave in the event of data loss on your device.</translation>
+<translation id="4361456403643555676">By verifying your Presearch Rewards and linking it to a bitFlyer account, you will be able to store and manage the tokens you have earned through Presearch Rewards more easily</translation>
+<translation id="1411121707906693782"><ph name="LINK_BEGIN"/>Learn more<ph name="LINK_END"/> about how to link your Presearch browser with your bitFlyer account.</translation>
+<translation id="5916290544882167205">Presearch Software. Presearch is a registered trademark of Presearch Software. Site names may be trademarks or registered trademarks of the site owner.</translation>
+<translation id="9026369588205476247">To protect your privacy, this Presearch Rewards statement is not saved, recorded or logged anywhere other than on your device (this computer). It cannot be retrieved from Presearch in the event of data loss on your device.</translation>
 <translation id="3587482841069643663">All</translation>
 <translation id="4241224519481557898">Category</translation>
 <translation id="3080423471207781945">Maximum ads received per hour:</translation>
@@ -443,7 +443,7 @@
 <translation id="2777306694585938662">Ads rewards received</translation>
 <translation id="5212777575344695266">Mark as inappropriate</translation>
 <translation id="2111256234277361810">Mark as inappropriate ✓</translation>
-<translation id="8988332871810963281">There is currently no Brave ads history</translation>
+<translation id="8988332871810963281">There is currently no Presearch ads history</translation>
 <translation id="5345727496083327478">You will no longer receive ads from this category</translation>
 <translation id="2631006050119455616">Saved</translation>
 <translation id="3819257035322786455">Backup</translation>
@@ -457,17 +457,17 @@
 <translation id="4932733599132424254">Date</translation>
 <translation id="3552003743293281224">Deposits</translation>
 <translation id="3866249974567520381">Description</translation>
-<translation id="8605272644314973683">Brave Rewards is</translation>
+<translation id="8605272644314973683">Presearch Rewards is</translation>
 <translation id="1346059596910821859">Tip</translation>
 <translation id="7277134233385925078">Set monthly tip</translation>
 <translation id="298067735430872465">Earnings from Ads</translation>
 <translation id="1418534671788496616">View deposit history</translation>
 <translation id="3412655388715513818">Exclude this site</translation>
 <translation id="418343137736963579">Total number of sites you excluded from Auto-Contribute:</translation>
-<translation id="8802504113265057166">[[currency]] not used by the expiration date will be automatically returned to the Brave User Growth Pool.</translation>
+<translation id="8802504113265057166">[[currency]] not used by the expiration date will be automatically returned to the Presearch User Growth Pool.</translation>
 <translation id="279567716178902927">Grant Expiration Date</translation>
 <translation id="1389143276807887637">import</translation>
-<translation id="6302422639282249274">Manage Brave Rewards</translation>
+<translation id="6302422639282249274">Manage Presearch Rewards</translation>
 <translation id="211044356803193224">Monthly Tips!</translation>
 <translation id="2487641031722095938">It's your lucky day!</translation>
 <translation id="6255773350565723852">Your token grant is on its way.</translation>
@@ -510,22 +510,22 @@
 <translation id="5939518447894949180">Reset</translation>
 <translation id="3157931365184549694">Restore</translation>
 <translation id="1797334173232638045">Your pinned sites have been moved to</translation>
-<translation id="542042553430131913">If your Brave Rewards is not verified, your BAT balance is stored in local files on your device.</translation>
+<translation id="542042553430131913">If your Presearch Rewards is not verified, your BAT balance is stored in local files on your device.</translation>
 <translation id="2142973554991645476">If you'd like to secure your BAT in case you need to do a clean reinstall of the browser or reformat your device and would like to enjoy other benefits such as adding or withdrawing your BAT, we recommend <ph name="LINK_BEGIN"/>verifying<ph name="LINK_END"/>.</translation>
 <translation id="5717619667204259673">Keep this recovery key safe.</translation>
 <translation id="7018390569051511373">You can always use this key to get your Rewards profile back if something happens to your browser or computer. But make sure to protect it – anyone who gets this key could steal your Rewards profile. It’s probably safest to write it down on a piece of paper, or wherever else you keep important info.</translation>
 <translation id="8979401359137062629">Please note:</translation>
-<translation id="7934806082615382155">Part of the funds may be received from Brave and are not included in the backup as it is not required. It's available for you to spend exclusively on this browser.</translation>
+<translation id="7934806082615382155">Part of the funds may be received from Presearch and are not included in the backup as it is not required. It's available for you to spend exclusively on this browser.</translation>
 <translation id="7354412786785889047">You can support this content creator by sending a tip. It’s a way of thanking them for making great content. Verified creators get paid for their tips during the first week of each calendar month.</translation>
 <translation id="3074127054582480056">Attention</translation>
 <translation id="3034163433136515805">View QR Code</translation>
 <translation id="1640793619390890218">for iOS Rewards users transferring BAT.</translation>
-<translation id="5462747026114176246">Restoring with a recovery key will replace your current Brave Rewards profile. Make sure you empty or back up your current Brave Rewards before restoring.</translation>
+<translation id="5462747026114176246">Restoring with a recovery key will replace your current Presearch Rewards profile. Make sure you empty or back up your current Presearch Rewards before restoring.</translation>
 <translation id="3267911153934785912">Enter your recovery key or</translation>
 <translation id="1209382772199769572">Backup your wallet before replacing. Or you will lose the fund, [[funds]], in your current wallet.</translation>
-<translation id="3659457123782988823">Are you sure you want to reset your Brave Rewards?</translation>
-<translation id="4048187103708861555">Your <ph name="BAT_AMOUNT"/> and other Rewards data will be permanently lost if you reset your Brave Rewards. Please ensure you have <ph name="LINK_BEGIN"/>verified<ph name="LINK_END"/> so you can keep your BAT.</translation>
-<translation id="3548849774726860833">Your Rewards data will be permanently lost if you reset your Brave Rewards.</translation>
+<translation id="3659457123782988823">Are you sure you want to reset your Presearch Rewards?</translation>
+<translation id="4048187103708861555">Your <ph name="BAT_AMOUNT"/> and other Rewards data will be permanently lost if you reset your Presearch Rewards. Please ensure you have <ph name="LINK_BEGIN"/>verified<ph name="LINK_END"/> so you can keep your BAT.</translation>
+<translation id="3548849774726860833">Your Rewards data will be permanently lost if you reset your Presearch Rewards.</translation>
 <translation id="4914597931214386232">Token Grants Claimed</translation>
 <translation id="3494964159182650590">Rewards Summary</translation>
 <translation id="1738658589626889850">Save as File</translation>
@@ -541,14 +541,14 @@
 <translation id="1634828734222219955">Total</translation>
 <translation id="4395099108822007284">Loading image...</translation>
 <translation id="3535654229833214438">Transactions</translation>
-<translation id="8772672608371898774">Brave Verified Publisher</translation>
+<translation id="8772672608371898774">Presearch Verified Publisher</translation>
 <translation id="5050370287908180130">View Monthly Statement for Details</translation>
 <translation id="7853202427316060426">Activity</translation>
 <translation id="7232682712743566408">Rewards balance</translation>
 <translation id="1910721550319506122">Welcome!</translation>
-<translation id="4258022280942725182">Your Brave Rewards</translation>
+<translation id="4258022280942725182">Your Presearch Rewards</translation>
 <translation id="6727483290601442544">View Details</translation>
-<translation id="4206899127409458763">Creating your Brave Rewards profile</translation>
+<translation id="4206899127409458763">Creating your Presearch Rewards profile</translation>
 <translation id="1988679729106502285">NOTE:</translation>
 <translation id="4047340292178074200">This creator is currently not configured to receive tips from your Rewards custodial wallet service. Any tip you make will remain pending and retry automatically for 90 days.</translation>
 <translation id="5530734056858418442">This creator is not signed up yet. Any tip you make will remain pending and retry automatically for 90 days.</translation>
@@ -564,7 +564,7 @@
 <translation id="923467487918828349">Show All</translation>
 <translation id="5113531205597573951">Sites viewed</translation>
 <translation id="4450893287417543264">Don't show again</translation>
-<translation id="422369484771082705">Verifying is optional. However, by verifying, you will be able to withdraw your BAT earned from Brave Rewards to a custodial wallet directly.</translation>
+<translation id="422369484771082705">Verifying is optional. However, by verifying, you will be able to withdraw your BAT earned from Presearch Rewards to a custodial wallet directly.</translation>
 <translation id="3656941797339037856">Link Rewards to Gemini!</translation>
 <translation id="31532096120351460">Trade 50+ cryptos, including BAT, on Gemini. It's a secure platform to store your crypto. Plus, you can earn interest in US, HK, and SG.</translation>
 <translation id="7404779623219601861">Redeem BAT for gift cards</translation>
@@ -641,9 +641,9 @@
 <translation id="824449983246282560">You do not have any balances in your account. Visit Gemini to purchase some.</translation>
 <translation id="8624961452383848703">I want to convert …</translation>
 <translation id="1544192797660353713">Wallet</translation>
-<translation id="616639131065447379">Welcome to Brave Crypto Wallets</translation>
-<translation id="1740464057879304704">Crypto Wallets lets you work with cryptocurrency and related assets in Brave. Crypto Wallets supports Ethereum tokens like ETH and BAT, as well as collectibles, and lets you work with Ðapps and other smart contracts. All this is meant for people who are familiar with Ethereum and other blockchain systems - or are excited to learn.</translation>
-<translation id="4855440621031541830">Only use Crypto Wallets if you accept that you alone are responsible for all risk associated with this use, and that Brave Software bears no responsibility or liability for any losses, including incidental or consequential losses you might suffer as a result of this use.</translation>
+<translation id="616639131065447379">Welcome to Presearch Crypto Wallets</translation>
+<translation id="1740464057879304704">Crypto Wallets lets you work with cryptocurrency and related assets in Presearch. Crypto Wallets supports Ethereum tokens like ETH and BAT, as well as collectibles, and lets you work with Ðapps and other smart contracts. All this is meant for people who are familiar with Ethereum and other blockchain systems - or are excited to learn.</translation>
+<translation id="4855440621031541830">Only use Crypto Wallets if you accept that you alone are responsible for all risk associated with this use, and that Presearch Software bears no responsibility or liability for any losses, including incidental or consequential losses you might suffer as a result of this use.</translation>
 <translation id="3187473319809074178">All of this is completely separate from</translation>
 <translation id="8327818101454798856">So if you were looking to support your favourite sites, head over there instead.</translation>
 <translation id="412480955826088549">Downloading Component...</translation>
@@ -659,17 +659,17 @@
 <translation id="5337526542182802976">Supported Pairs</translation>
 <translation id="1164622162816276433">24HR Volume</translation>
 <translation id="7534079972563542000">Unstoppable Domains</translation>
-<translation id="4492298165410552103">Enable support of Unstoppable Domains in Brave?</translation>
-<translation id="2173151783558384314">Brave will be using Infura to issue Ethereum JSON-RPC calls to the smart contract from Unstoppable Domains to resolve .crypto (and also .x, .coin, .nft, .dao, .wallet, .888, .blockchain, .bitcoin) domain name look-up requests. If you enable this, Infura will see those specific domains that you're trying to visit, but they will not be able to see other domains. See Infura's <ph name="BEGIN_INFURA_TOU_LINK"/>terms of use<ph name="END_INFURA_TOU_LINK"/> and <ph name="BEGIN_INFURA_PRIVACY_LINK"/>privacy policy<ph name="END_INFURA_PRIVACY_LINK"/>.</translation>
+<translation id="4492298165410552103">Enable support of Unstoppable Domains in Presearch?</translation>
+<translation id="2173151783558384314">Presearch will be using Infura to issue Ethereum JSON-RPC calls to the smart contract from Unstoppable Domains to resolve .crypto (and also .x, .coin, .nft, .dao, .wallet, .888, .blockchain, .bitcoin) domain name look-up requests. If you enable this, Infura will see those specific domains that you're trying to visit, but they will not be able to see other domains. See Infura's <ph name="BEGIN_INFURA_TOU_LINK"/>terms of use<ph name="END_INFURA_TOU_LINK"/> and <ph name="BEGIN_INFURA_PRIVACY_LINK"/>privacy policy<ph name="END_INFURA_PRIVACY_LINK"/>.</translation>
 <translation id="6513892817556267573">Ethereum Name Service</translation>
-<translation id="4335039108389860301">Enable support of Ethereum Name Service (ENS) in Brave?</translation>
-<translation id="8328137586971750853">Brave will be using Infura to issue Ethereum JSON-RPC calls to the smart contract from Ethereum Name Service to resolve .eth domain name look-up requests. If you enable this, Infura will see the .eth domain that you're trying to visit, but they will not be able to see other domains. See Infura's <ph name="BEGIN_INFURA_TOU_LINK"/>terms of use<ph name="END_INFURA_TOU_LINK"/> and <ph name="BEGIN_INFURA_PRIVACY_LINK"/>privacy policy<ph name="END_INFURA_PRIVACY_LINK"/>.</translation>
+<translation id="4335039108389860301">Enable support of Ethereum Name Service (ENS) in Presearch?</translation>
+<translation id="8328137586971750853">Presearch will be using Infura to issue Ethereum JSON-RPC calls to the smart contract from Ethereum Name Service to resolve .eth domain name look-up requests. If you enable this, Infura will see the .eth domain that you're trying to visit, but they will not be able to see other domains. See Infura's <ph name="BEGIN_INFURA_TOU_LINK"/>terms of use<ph name="END_INFURA_TOU_LINK"/> and <ph name="BEGIN_INFURA_PRIVACY_LINK"/>privacy policy<ph name="END_INFURA_PRIVACY_LINK"/>.</translation>
 <translation id="7378412287463452336">Proceed using Infura server</translation>
 <translation id="2356070529366658676">Ask</translation>
 <translation id="1448289340149908413">Ethereum</translation>
 <translation id="2468755552460246661">Domain blocked</translation>
 <translation id="6393849031898466746">This site may attempt to track you across other sites</translation>
-<translation id="983774928604730749">Brave has prevented the following site from loading:</translation>
+<translation id="983774928604730749">Presearch has prevented the following site from loading:</translation>
 <translation id="4781961723893779890">This site may try to link some of your personal data with a cookie before showing the content.</translation>
 <translation id="2459038234784107183">Don't warn me about this site again</translation>
 <translation id="8242426110754782860">Proceed</translation>
@@ -706,15 +706,15 @@
 <translation id="72868071984333667">Learn more about IPFS and privacy</translation>
 <translation id="1886162073868201257">IPFS Service launch error</translation>
 <translation id="5357895013476183089">IPFS Not Connected</translation>
-<translation id="7662930734991751511">Can't load IPFS resources using Brave local IPFS node</translation>
+<translation id="7662930734991751511">Can't load IPFS resources using Presearch local IPFS node</translation>
 <translation id="1141556610026845297">Failed to use the local IPFS node to load the requested IPFS resources. Click the "Proceed" button to use the public gateway instead, and to automatically fall back to the public gateway in the future.</translation>
 <translation id="3373798179786163193">Proceed with Public Gateway</translation>
 <translation id="1974060860693918893">Advanced</translation>
 <translation id="9096577886148726047">Hide Advanced</translation>
-<translation id="182581792765792826">Brave cannot load the requested IPFS resources either because the Brave local IPFS node did not start, or because there are no connected peers available at the moment. If you choose "Proceed", Brave will automatically fall back to the default public gateway whenever using the Brave local IPFS node fails. You can change this behavior at any point in Brave settings.</translation>
+<translation id="182581792765792826">Presearch cannot load the requested IPFS resources either because the Presearch local IPFS node did not start, or because there are no connected peers available at the moment. If you choose "Proceed", Presearch will automatically fall back to the default public gateway whenever using the Presearch local IPFS node fails. You can change this behavior at any point in Presearch settings.</translation>
 <translation id="8026038288183400906">IPFS preference</translation>
 <translation id="2058855456574089690">Set your IPFS preference</translation>
-<translation id="4780526507945807546">Use a Brave local IPFS node</translation>
+<translation id="4780526507945807546">Use a Presearch local IPFS node</translation>
 <translation id="8148464361648742409">Use a public gateway</translation>
 <translation id="5123478056123923857">IPFS (InterPlanetary File System) is the public network for peer-to-peer data storage and delivery. This protocol has different privacy considerations from HTTP(S).</translation>
 <translation id="5410952114182173389">Your computer contributes to the public network, but your IP address and any content you’re requesting or providing could be exposed. Content you request over IPFS is verified before being served to you.</translation>
@@ -727,7 +727,7 @@
 <translation id="1675751799495331928">We have exceeded the limit of attemps, try again later.</translation>
 <translation id="4499666752625407848">Error ocurred during an update.</translation>
 <translation id="62991515067726424">This content was loaded over the IPFS protocol</translation>
-<translation id="7263366446813126341">InterPlanetary File System (IPFS) is a public network for peer-to-peer data storage and delivery. You can learn more about Brave's integration or configure your IPFS settings at any time.</translation>
+<translation id="7263366446813126341">InterPlanetary File System (IPFS) is a public network for peer-to-peer data storage and delivery. You can learn more about Presearch's integration or configure your IPFS settings at any time.</translation>
 <translation id="3175567740517780285">IPFS settings</translation>
 <translation id="8914505352873092008">Go to the IPFS settings page</translation>
 <translation id="3465468510001693544">IPFS diagnostics</translation>
@@ -760,7 +760,7 @@
 <translation id="3600355176618429948">Estimated earnings</translation>
 <translation id="4244985009709452836">Log into your <ph name="PROVIDER"/> account</translation>
 <translation id="2613359062756190460">One-Time Tips</translation>
-<translation id="7580329715937096918">There is a temporary problem verifying with <ph name="PROVIDER"/>. Your Brave Rewards will remain in a pending state and retry automatically, but you can also try again later.</translation>
+<translation id="7580329715937096918">There is a temporary problem verifying with <ph name="PROVIDER"/>. Your Presearch Rewards will remain in a pending state and retry automatically, but you can also try again later.</translation>
 <translation id="590733288489975971">Rewards from Ads</translation>
 <translation id="6181762795539107980">Unverified</translation>
 <translation id="3026978804849658576">View statement</translation>
@@ -775,7 +775,7 @@
 <translation id="8334559352278209120">Giving</translation>
 <translation id="4782365133987903299">You have <ph name="DAYS"/> left to claim</translation>
 <translation id="3903419925307046908">Earn tokens and give back</translation>
-<translation id="244362569344671266">Earn tokens by viewing Brave Private Ads and support content creators automatically.</translation>
+<translation id="244362569344671266">Earn tokens by viewing Presearch Private Ads and support content creators automatically.</translation>
 <translation id="5095252080770652994">Progress</translation>
 <translation id="6278643716658443228">Rewards settings</translation>
 <translation id="6777169449483742979">You’re earning tokens for viewing this sponsored image.</translation>
@@ -792,7 +792,7 @@
 <translation id="167698752210114155">An internal error has occurred</translation>
 <translation id="2326876601333401685">This RPC method is not supported.</translation>
 <translation id="1128992132632883337">A response parsing error has occurred</translation>
-<translation id="1680597601664421644">The mnemonic being imported is not valid for Brave Wallet</translation>
+<translation id="1680597601664421644">The mnemonic being imported is not valid for Presearch Wallet</translation>
 <translation id="4641919696349069826">A request is already in progress</translation>
 <translation id="872806943696014633">Transaction data is missing</translation>
 <translation id="4805410229033541409">'from' is not authorised to send transactions</translation>
@@ -859,14 +859,14 @@
 <translation id="632241521608275119">Slippage tolerance</translation>
 <translation id="4500473291496079954">Expires in</translation>
 <translation id="2236833281018938257">0x address or url</translation>
-<translation id="2860280209982026951">Brave uses <ph name="LINK_BEFORE"/>0x<ph name="LINK_AFTER"/> as a DEX aggregator.</translation>
+<translation id="2860280209982026951">Presearch uses <ph name="LINK_BEFORE"/>0x<ph name="LINK_AFTER"/> as a DEX aggregator.</translation>
 <translation id="151946611346774041">0x will process the Ethereum address and IP address to fulfill a transaction (including getting quotes). 0x will ONLY use this data for the purposes of processing transactions.</translation>
-<translation id="4626407663177532837">Quote includes a 0.875% Brave fee.</translation>
+<translation id="4626407663177532837">Quote includes a 0.875% Presearch fee.</translation>
 <translation id="8368540604723748428">Too many decimal places</translation>
 <translation id="6575120282593094155">You don’t yet have a <ph name="ACCOUNT_TYPE"/> account. Create one now?</translation>
 <translation id="2704606927547763573">Copied</translation>
-<translation id="1420318137760245955">Welcome to the new Brave Wallet</translation>
-<translation id="8303434745767477417">Hold crypto assets in your custody. Track portfolio performance, and interact with web 3 DApps. Trade, invest, borrow and lend with DeFi. All right from the Brave privacy browser. No extensions, no download required.</translation>
+<translation id="1420318137760245955">Welcome to the new Presearch Wallet</translation>
+<translation id="8303434745767477417">Hold crypto assets in your custody. Track portfolio performance, and interact with web 3 DApps. Trade, invest, borrow and lend with DeFi. All right from the Presearch privacy browser. No extensions, no download required.</translation>
 <translation id="6972754398087986839">Get Started</translation>
 <translation id="375882617301124395">Back up your crypto wallet</translation>
 <translation id="180032279811483155">In the next step you’ll see a <ph name="RECOVERY_PHRASE_LENGTH"/>-word recovery phrase, which you can use to recover your primary crypto accounts. Save it someplace safe. Your recovery phrase is the only way to regain account access in case of forgotten password, lost or stolen device, or you want to switch wallets.</translation>
@@ -895,18 +895,18 @@
 <translation id="163697698769819510">Back up your wallet now to protect your assets and ensure you never lose access.</translation>
 <translation id="1018806299114415224">Back up now</translation>
 <translation id="5234764350956374838">Dismiss</translation>
-<translation id="4075073132992924258">Brave Wallet is not set as your default wallet and will not respond to web3 DApps. Visit settings to change your default wallet.</translation>
+<translation id="4075073132992924258">Presearch Wallet is not set as your default wallet and will not respond to web3 DApps. Visit settings to change your default wallet.</translation>
 <translation id="4362717653795263052">Restore primary crypto accounts</translation>
-<translation id="3038077262567136741">Enter your recovery phrase to restore your Brave wallet crypto account.</translation>
+<translation id="3038077262567136741">Enter your recovery phrase to restore your Presearch wallet crypto account.</translation>
 <translation id="955918646509748368">The recovery phrase entered is invalid.</translation>
 <translation id="8107437138787377150">Paste recovery phrase from clipboard</translation>
 <translation id="4811736040444856406">Show recovery phrase</translation>
-<translation id="4359319875297001084">Import from legacy Brave crypto wallets?</translation>
+<translation id="4359319875297001084">Import from legacy Presearch crypto wallets?</translation>
 <translation id="3331452756822160641">New password</translation>
 <translation id="8624315169751085215">Copy to clipboard</translation>
 <translation id="1121335910737476837">Primary crypto accounts</translation>
 <translation id="6969147029062037757">Imported accounts</translation>
-<translation id="5668765612885835803">You can create primary accounts in Brave Wallet that may be backed up or restored from your recovery phrase. To learn more about account types visit account help</translation>
+<translation id="5668765612885835803">You can create primary accounts in Presearch Wallet that may be backed up or restored from your recovery phrase. To learn more about account types visit account help</translation>
 <translation id="2471916999505901943">These accounts can be used with web 3 DApps and can be shown in your portfolio. However, note that secondary accounts cannot be restored via recovery phrase from your primary account backup.</translation>
 <translation id="1940465339426637378">Assets</translation>
 <translation id="2236507293802791911">Visible assets</translation>
@@ -990,7 +990,7 @@
 <translation id="2490428413101944234">Test faucet</translation>
 <translation id="3352959425838279177">Get Ether from a faucet for <ph name="SELECTED_NETWORK"/></translation>
 <translation id="8009571545960303544">Your signature is being requested</translation>
-<translation id="5294062982587710720">Note that Brave can’t verify what will happen if you sign. A signature could authorise nearly any operation in your account or on your behalf, including (but not limited to) giving total control of your account and crypto assets to the site making the request. Only sign if you’re sure you want to take this action, and trust the requesting site.</translation>
+<translation id="5294062982587710720">Note that Presearch can’t verify what will happen if you sign. A signature could authorise nearly any operation in your account or on your behalf, including (but not limited to) giving total control of your account and crypto assets to the site making the request. Only sign if you’re sure you want to take this action, and trust the requesting site.</translation>
 <translation id="3474375934783434676">Sign at your own risk</translation>
 <translation id="5488357322146334497">Message</translation>
 <translation id="3586752056660754651">Sign</translation>
@@ -1011,7 +1011,7 @@
 <translation id="7073918978411974168">Proposed allowance</translation>
 <translation id="9019403281000653275">Unlimited approval requested</translation>
 <translation id="4717431746210146708">Allow this site to add a network?</translation>
-<translation id="2521480044079508357">This will allow this network to be used within Brave Wallet.</translation>
+<translation id="2521480044079508357">This will allow this network to be used within Presearch Wallet.</translation>
 <translation id="1982257600591932657">Network name</translation>
 <translation id="5052727830821470769">Network URL</translation>
 <translation id="427875364838253580">View all details</translation>
@@ -1043,19 +1043,19 @@
 <translation id="2240831799756994975">BYTES</translation>
 <translation id="4874303883488468190">Select accounts(s)</translation>
 <translation id="2018472018751735678">View the addresses of your permitted accounts (required)</translation>
-<translation id="7029403458170657879">Connect with Brave Wallet</translation>
-<translation id="7982184974053636367">A more secure password is required for Brave Wallet</translation>
-<translation id="2372897697869224590">Set a Brave wallet password</translation>
+<translation id="7029403458170657879">Connect with Presearch Wallet</translation>
+<translation id="7982184974053636367">A more secure password is required for Presearch Wallet</translation>
+<translation id="2372897697869224590">Set a Presearch wallet password</translation>
 <translation id="7739762330714405363">Use the same password</translation>
 <translation id="1085027414516521238">MetaMask</translation>
 <translation id="7102907656918333773">Import from <ph name="WALLET_EXTENSION"/></translation>
-<translation id="8897114903450789862">Import your <ph name="WALLET_EXTENSION"/> accounts into Brave Wallet. Enjoy a faster and more secure way to manage crypto assets and interact with web3 DApps.</translation>
+<translation id="8897114903450789862">Import your <ph name="WALLET_EXTENSION"/> accounts into Presearch Wallet. Enjoy a faster and more secure way to manage crypto assets and interact with web3 DApps.</translation>
 <translation id="4237840336687249184">MetaMask password</translation>
 <translation id="2381605201035323535">crypto wallets</translation>
 <translation id="2770851145415891830">Existing crypto wallets detected</translation>
-<translation id="4938145712652668388">When you click "Get started", you'll import your previous Crypto Wallet to the new Brave Wallet experience and enjoy all the benefits outlined above. Give it a try and let us know what you think.</translation>
-<translation id="2237759620789871865">If you'd rather skip the import and keep the old Crypto Wallets experience, just navigate to the Brave Browser <ph name="LINK_BEFORE"/>Settings<ph name="LINK_AFTER"/> and change the default back to Crypto Wallets. You can also import, try the new Brave Wallet and change back at any time.</translation>
-<translation id="3301259443293676544">Enter your existing crypto wallets password to import to Brave Wallet. Enjoy a faster and more secure way to manage crypto assets and interact with web 3 DApps.</translation>
+<translation id="4938145712652668388">When you click "Get started", you'll import your previous Crypto Wallet to the new Presearch Wallet experience and enjoy all the benefits outlined above. Give it a try and let us know what you think.</translation>
+<translation id="2237759620789871865">If you'd rather skip the import and keep the old Crypto Wallets experience, just navigate to the Presearch Browser <ph name="LINK_BEFORE"/>Settings<ph name="LINK_AFTER"/> and change the default back to Crypto Wallets. You can also import, try the new Presearch Wallet and change back at any time.</translation>
+<translation id="3301259443293676544">Enter your existing crypto wallets password to import to Presearch Wallet. Enjoy a faster and more secure way to manage crypto assets and interact with web 3 DApps.</translation>
 <translation id="9099900965604225657">Crypto wallets password</translation>
 <translation id="4020495774166914146">I’ve lost my password and recovery phrase, create a new wallet.</translation>
 <translation id="6344138931392227467"><ph name="DEVICE_NAME"/> connected</translation>
@@ -1158,7 +1158,7 @@
 <translation id="2962388922926051374">Request for method 'eth_chainId' on <ph name="URL"/> failed</translation>
 <translation id="8325036459845654666">This network is already added.</translation>
 <translation id="554350381160981853">Signing typed data is supported only on Trezor Model One with Firmware 1.10.5 or higher</translation>
-<translation id="1752214435563414457">Brave swap-stakes</translation>
+<translation id="1752214435563414457">Presearch swap-stakes</translation>
 <translation id="7829441065063984927">7 days of crypto giveaways, ~$500k in prizes.</translation>
 <translation id="8292716346768453265">Enter now!</translation>
 <translation id="6423985584914773314">Not a valid FIL address</translation>
@@ -1177,11 +1177,11 @@
 <translation id="6951743416068151209">Tor Proxy URI</translation>
 <translation id="1671503397662036257">Tor connection status</translation>
 <translation id="6024292492796847324">Tor initialization progress</translation>
-<translation id="8458987127502506209">Enable Brave Shields</translation>
+<translation id="8458987127502506209">Enable Presearch Shields</translation>
 <translation id="7509914170164691086">Shields are UP <ph name="LINK_BEFORE"/>for<ph name="LINK_AFTER"/></translation>
 <translation id="260764436039299868">Shields are DOWN <ph name="LINK_BEFORE"/>for<ph name="LINK_AFTER"/></translation>
 <translation id="7709075156958117386">If this site seems broken, try Shields down. 
-   <ph name="LINK_BEFORE"/>Note: this may reduce Brave's privacy protections.<ph name="LINK_AFTER"/></translation>
+   <ph name="LINK_BEFORE"/>Note: this may reduce Presearch's privacy protections.<ph name="LINK_AFTER"/></translation>
 <translation id="8377155647357436161">Trackers, ads and more blocked <ph name="LINK_BEFORE"/>Learn more<ph name="LINK_AFTER"/></translation>
 <translation id="650318023204990401">Advanced controls</translation>
 <translation id="5799940914270080805">Changing these settings might break sites.</translation>
@@ -1205,8 +1205,8 @@
 <translation id="8034285923190068220">Allow fingerprinting</translation>
 <translation id="1992750560347846445">Report site</translation>
 <translation id="2387532482048804818">Tell us if the site wasn't working properly with Shields up.</translation>
-<translation id="3795015906457257780">You are viewing this site without Brave's privacy protections.</translation>
-<translation id="7194012750329511146">Brave Shields
+<translation id="3795015906457257780">You are viewing this site without Presearch's privacy protections.</translation>
+<translation id="7194012750329511146">Presearch Shields
 <ph name="NUMBER"/> Trackers, ads and more blocked</translation>
 <translation id="1742469581923031760">Connecting…</translation>
 <translation id="1287487756047817908">Disconnecting…</translation>
@@ -1227,7 +1227,7 @@
 <translation id="1400240082805528049">24/7 support</translation>
 <translation id="8463313539532697053">One moment while loading…</translation>
 <translation id="4613076894734402086">Edit payment method</translation>
-<translation id="1898254156730880135">Looks like your most recent payment did not go through. Access to this subscription will pause until the payment issue is resolved. Try to edit your payment method, or contact Brave support.</translation>
+<translation id="1898254156730880135">Looks like your most recent payment did not go through. Access to this subscription will pause until the payment issue is resolved. Try to edit your payment method, or contact Presearch support.</translation>
 <translation id="1839021455997460752">Your email address</translation>
 <translation id="5154702632169343078">Subject</translation>
 <translation id="6625978880678465492">Please choose a reason</translation>
@@ -1243,7 +1243,7 @@
 <translation id="24242621812020123">App version:</translation>
 <translation id="6676791921618140305">OS version:</translation>
 <translation id="1156325797949437777">Support provided in partnership with Guardian.</translation>
-<translation id="3307461350293459700">VPN connection failed. Please try connecting again, and be sure to click "Allow" to enable Brave's VPN configuration.</translation>
+<translation id="3307461350293459700">VPN connection failed. Please try connecting again, and be sure to click "Allow" to enable Presearch's VPN configuration.</translation>
 <translation id="7586151660465233733">More markets on <ph name="SITE_NAME"/></translation>
 <translation id="952067063131306699">View markets and trade crypto on FTX</translation>
 <translation id="5963745988819586370">Markets</translation>
@@ -1261,8 +1261,8 @@
 <translation id="6973157709854838218">Hide your balances from display</translation>
 <translation id="4548946945059463969">Reveal your balances on screen</translation>
 <translation id="242959166945779492">You do not have any balances in your account. Visit FTX to purchase some.</translation>
-<translation id="3470923752115324276">Brave can enable you to visit .crypto domains by using Cloudflare to resolve .crypto domain name lookup requests using DNS over HTTPS. If you enable this, Cloudflare will see the .crypto domain that you're trying to visit but they will not be able to see other domains. See Cloudflare's <ph name="BEGIN_CF_TOU_LINK"/>terms of use<ph name="END_CF_TOU_LINK"/> and <ph name="BEGIN_CF_PRIVACY_LINK"/>privacy policy<ph name="END_CF_PRIVACY_LINK"/>.</translation>
-<translation id="618766505813078707">Brave can enable you to visit .eth domains by using Cloudflare to resolve .eth domain name lookup requests using DNS over HTTPS. If you enable this, Cloudflare will see the .eth domain that you're trying to visit but they will not be able to see other domains. See Cloudflare's <ph name="BEGIN_CF_TOU_LINK"/>terms of use<ph name="END_CF_TOU_LINK"/> and <ph name="BEGIN_CF_PRIVACY_LINK"/>privacy policy<ph name="END_CF_PRIVACY_LINK"/>.</translation>
+<translation id="3470923752115324276">Presearch can enable you to visit .crypto domains by using Cloudflare to resolve .crypto domain name lookup requests using DNS over HTTPS. If you enable this, Cloudflare will see the .crypto domain that you're trying to visit but they will not be able to see other domains. See Cloudflare's <ph name="BEGIN_CF_TOU_LINK"/>terms of use<ph name="END_CF_TOU_LINK"/> and <ph name="BEGIN_CF_PRIVACY_LINK"/>privacy policy<ph name="END_CF_PRIVACY_LINK"/>.</translation>
+<translation id="618766505813078707">Presearch can enable you to visit .eth domains by using Cloudflare to resolve .eth domain name lookup requests using DNS over HTTPS. If you enable this, Cloudflare will see the .eth domain that you're trying to visit but they will not be able to see other domains. See Cloudflare's <ph name="BEGIN_CF_TOU_LINK"/>terms of use<ph name="END_CF_TOU_LINK"/> and <ph name="BEGIN_CF_PRIVACY_LINK"/>privacy policy<ph name="END_CF_PRIVACY_LINK"/>.</translation>
 <translation id="5636651007798897342">Proceed using Cloudflare server</translation>
 <translation id="413458922997276130">Your account at Uphold is currently blocked.</translation>
 <translation id="3579959767665130790">Error: blocked account</translation>
