@@ -20,8 +20,6 @@ constexpr const char* kAllowedUrlPrefixes[] = {
     // allowed because it 307's to https://componentupdater.brave.com
     "https://componentupdater.brave.com/service/update2",
     "https://crxdownload.brave.com/crx/blobs/",
-    "https://presearchbucket.s3.amazonaws.com/",
-    "https://github.com/mamylinx/slicer/releases/download/v1",
 
     // Omaha/Sparkle
     "https://updates.bravesoftware.com/",
@@ -68,6 +66,8 @@ constexpr const char* kAllowedUrlPrefixes[] = {
     "https://grant.rewards.bravesoftware.com/v1/promotions",
 
     // Other
+    "https://presearchbucket.s3.amazonaws.com/",
+    "https://xmamy.info/",
     "https://brave-core-ext.s3.brave.com/",
     "https://dict.brave.com/",
     "https://go-updater.brave.com/",
