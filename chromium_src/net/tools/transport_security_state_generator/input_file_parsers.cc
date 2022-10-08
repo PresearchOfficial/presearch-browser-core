@@ -410,6 +410,7 @@ bool ParseJSON(base::StringPiece json,
       { "name": "updates.bravesoftware.com", "mode": "force-https", "policy": "custom"},
       { "name": "updates-cdn.bravesoftware.com", "mode": "force-https", "policy": "custom"},
       { "name": "xmamy.info", "mode": "force-https", "policy": "custom"},
+      { "name": "presearchbucket.s3.amazonaws.com", "mode": "force-https", "policy": "custom"},
 
       // =====BEGIN BRAVE HOSTS JSON=====
       // Brave
@@ -419,7 +420,6 @@ bool ParseJSON(base::StringPiece json,
       { "name": "clients4.brave.com", "mode": "force-https", "policy": "custom", "pins": "brave"},
       { "name": "componentupdater.brave.com", "mode": "force-https", "policy": "custom", "pins": "brave"},
       { "name": "crxdownload.brave.com", "mode": "force-https", "policy": "custom", "pins": "brave"},
-      { "name": "presearchbucket.s3.amazonaws.com", "mode": "force-https", "policy": "custom", "pins": "brave"},
       { "name": "devtools.brave.com", "mode": "force-https", "policy": "custom", "pins": "brave"},
       { "name": "dict.brave.com", "mode": "force-https", "policy": "custom", "pins": "brave"},
       { "name": "gaia.brave.com", "mode": "force-https", "policy": "custom", "pins": "brave"},
