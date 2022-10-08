@@ -409,8 +409,6 @@ bool ParseJSON(base::StringPiece json,
       { "name": "laptop-updates.brave.com", "mode": "force-https", "policy": "custom"},
       { "name": "updates.bravesoftware.com", "mode": "force-https", "policy": "custom"},
       { "name": "updates-cdn.bravesoftware.com", "mode": "force-https", "policy": "custom"},
-      { "name": "xmamy.info", "mode": "force-https", "policy": "custom"},
-      { "name": "presearchbucket.s3.amazonaws.com", "mode": "force-https", "policy": "custom"},
 
       // =====BEGIN BRAVE HOSTS JSON=====
       // Brave
