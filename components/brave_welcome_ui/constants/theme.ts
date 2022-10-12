@@ -46,7 +46,7 @@ export const theme = {
   text: {
     fontFamily: '"Muli", sans-serif',
     fontSize: '18px',
-    color: '#76777A',
+    color: '#EAF3FF',
     lineHeight: '34px',
     textAlign: 'center',
     margin: '20px 0'
@@ -70,7 +70,7 @@ export const theme = {
     marginBottom: '40px'
   } as Content,
   skip: {
-    color: '#76777A',
+    color: '#EAF3FF',
     textDecoration: 'underline'
   },
   footer: {
@@ -90,14 +90,14 @@ export const theme = {
     justifyContent: 'flex-end'
   },
   bulletActive: {
-    color: '#FB542B',
-    hoverColor: '#FB542B',
+    color: '#2D8EFF',
+    hoverColor: '#2D8EFF',
     padding: '0 7px',
     fontSize: '40px'
   },
   bullet: {
-    color: '#7D7D7D',
-    hoverColor: '#FB542B',
+    color: '#EAF3FF',
+    hoverColor: '#2D8EFF',
     padding: '0 7px',
     fontSize: '40px'
   }

@@ -16,7 +16,7 @@ const walletLightTheme: ITheme & IThemeWallet = {
     text: colors.neutral900,
     panelBackground: '#F9F9FD',
     panelBackgroundSecondary: colors.neutral000,
-    outlineColor: 'rgba(255,80,0,0.2)'
+    outlineColor: 'rgba(45, 142, 255, 0.2)'
   }
 }
 

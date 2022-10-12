@@ -18,19 +18,17 @@ import { getLocale } from '../../../common/locale'
 
 interface Props {
   index: number
-  currentScreen: number
   onClick: () => void
 }
 
 export default class ThemingBox extends React.PureComponent<Props, {}> {
   render () {
-    const { index, currentScreen, onClick } = this.props
+    const { index, onClick } = this.props
     return (
       <Content
         zIndex={index}
-        active={currentScreen === index}
+        active=true
         screenPosition={'1' + (index + 1) + '0%'}
-        isPrevious={index <= currentScreen}
       >
         <WelcomeLionImage />
         <Title>{getLocale('welcome')}</Title>
