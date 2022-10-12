@@ -13,9 +13,9 @@ const welcomeLightTheme: ITheme & IThemeWelcomePage = {
   color: {
     ...defaultTheme.color,
     text: colors.neutral900,
-    panelBackground: '#F9F9FD',
+    panelBackground: '#EAF3FF',
     panelBackgroundSecondary: colors.neutral000,
-    outlineColor: 'rgba(255,80,0,0.2)'
+    outlineColor: 'rgba(45, 142, 255, 0.3)'
   }
 }
 

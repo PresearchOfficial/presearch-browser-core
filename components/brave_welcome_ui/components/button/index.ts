@@ -32,7 +32,7 @@ export const FooterButton = styled(Button as ComponentType<ButtonProps>)`
   }
 
   &:focus {
-    box-shadow: 0 0 0 2px rgba(255,80,0,0.2);
+    box-shadow: 0 0 0 2px rgba(45, 142, 255, 0.3);
   }
 `
 
@@ -80,11 +80,7 @@ export const Bullet = styled(BaseButton as ComponentType<any>)`
   }
 
   ${p => p.active && css`
-    color: #FB542B;
-
-    &:hover {
-      color: #C72E03;
-    }
+    color: #2D8EFF;
   `}
 `
 

@@ -4,9 +4,9 @@
 
 const locale = {
   // first screen
-  welcome: 'Brave the new Internet',
-  whatIsBrave: 'Get ready to enjoy a faster and more secure browsing experience with a browser built to protect your privacy.',
-  letsGo: 'Let\'s go',
+  welcome: 'Welcome to Presearch Browser',
+  whatIsBrave: 'Presearch is a private, community-driven search engine powered by blockchain technology and thousands of decentralized user nodes.',
+  letsGo: 'Start searching',
   // second screen
   importFromAnotherBrowser: 'Import bookmarks & settings',
   setupImport: 'Set up your usual browsing environment by importing bookmarks and settings from your old browser. Advanced import options can be found in Settings.',

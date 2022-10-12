@@ -66,13 +66,12 @@ interface ContentProps {
   active: boolean
   zIndex: number
   screenPosition: string
-  isPrevious: boolean
 }
 
 export const Content = styled('section')<ContentProps>`
   opacity: 0;
   will-change: transform;
-  transform: translateX(${p => p.isPrevious ? '-' + p.screenPosition : p.screenPosition}) scale(0.8);
+  transform: translateX(${p => p.screenPosition}) scale(0.8);
   transition: opacity 600ms, transform 600ms ease-in-out;
   display: flex;
   flex-direction: column;
@@ -106,16 +105,12 @@ export const Content = styled('section')<ContentProps>`
   `}
 `
 
-interface PageProps {
-  shouldUpdateElementOverflow: boolean
-}
 
 export const Page = styled('div')<PageProps>`
   width: inherit;
   height: inherit;
   background: ${p => p.theme.color.panelBackground};
   overflow-x: hidden;
-  overflow-y: ${p => p.shouldUpdateElementOverflow ? 'initial' : 'hidden'};
 `
 
 export const Panel = styled('div')`

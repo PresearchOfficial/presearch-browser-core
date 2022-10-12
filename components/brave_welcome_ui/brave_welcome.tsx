@@ -18,14 +18,7 @@ import App from './containers/app'
 import store from './store'
 import * as welcomeActions from './actions/welcome_actions'
 
-function loadWelcomeData () {
-  const actions = bindActionCreators(welcomeActions, store.dispatch.bind(store))
-  actions.getSearchEngineProviders()
-  actions.getBrowserProfiles()
-}
-
 function initialize () {
-  loadWelcomeData()
   new Promise(resolve => chrome.braveTheme.getBraveThemeType(resolve))
   .then((themeType: chrome.braveTheme.ThemeType) => {
     render(
