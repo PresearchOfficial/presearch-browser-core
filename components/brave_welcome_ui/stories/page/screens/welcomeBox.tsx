@@ -17,7 +17,6 @@ import locale from '../fakeLocale'
 import { WelcomeLionImage } from '../../../components/images'
 
 interface Props {
-  index: number
   onClick: () => void
 }
 
@@ -25,7 +24,7 @@ export default class ThemingBox extends React.PureComponent<Props, {}> {
   render () {
     return (
       <Content
-        active=true
+        active
       >
         <WelcomeLionImage />
         <Title>{locale.welcome}</Title>
@@ -35,7 +34,7 @@ export default class ThemingBox extends React.PureComponent<Props, {}> {
           type='accent'
           size='large'
           text={locale.letsGo}
-          onClick={onClick}
+          onClick={this.props}
           icon={{ position: 'after', image: <ArrowRightIcon /> }}
         />
       </Content>
