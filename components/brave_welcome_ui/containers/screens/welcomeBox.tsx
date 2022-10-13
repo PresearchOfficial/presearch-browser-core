@@ -22,7 +22,7 @@ interface Props {
 
 export default class ThemingBox extends React.PureComponent<Props, {}> {
   render () {
-    const { onClick } = this.props
+    // const { onClick } = this.props
     return (
       <Content active >
         <WelcomeLionImage />
@@ -33,7 +33,7 @@ export default class ThemingBox extends React.PureComponent<Props, {}> {
           type='accent'
           size='large'
           text={getLocale('letsGo')}
-          onClick={onClick}
+          onClick={this.props}
           icon={{ position: 'after', image: <ArrowRightIcon /> }}
         />
       </Content>
