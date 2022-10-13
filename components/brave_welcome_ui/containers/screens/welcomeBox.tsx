@@ -24,7 +24,7 @@ export default class ThemingBox extends React.PureComponent<Props, {}> {
   render () {
     // const { onClick } = this.props
     return (
-      <Content active >
+      <Content >
         <WelcomeLionImage />
         <Title>{getLocale('welcome')}</Title>
         <Paragraph>{getLocale('whatIsBrave')}</Paragraph>
