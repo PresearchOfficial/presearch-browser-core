@@ -64,8 +64,6 @@ export const FooterRightColumn = styled(BaseColumn)`
 
 interface ContentProps {
   active: boolean
-  zIndex: number
-  screenPosition: string
 }
 
 export const Content = styled('section')<ContentProps>`
