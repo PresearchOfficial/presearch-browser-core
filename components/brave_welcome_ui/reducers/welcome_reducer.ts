@@ -5,7 +5,6 @@
 import { Reducer } from 'redux'
 
 // Constants
-import { loadTimeData } from '../../common/loadTimeData'
 import { types } from '../constants/welcome_types'
 
 // Utils

@@ -23,12 +23,9 @@ interface Props {
 
 export default class ThemingBox extends React.PureComponent<Props, {}> {
   render () {
-    const { index } = this.props
     return (
       <Content
-        zIndex={index}
         active=true
-        screenPosition={'1' + (index + 1) + '0%'}
       >
         <WelcomeLionImage />
         <Title>{locale.welcome}</Title>
