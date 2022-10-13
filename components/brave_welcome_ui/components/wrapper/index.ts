@@ -69,7 +69,6 @@ interface ContentProps {
 export const Content = styled('section')<ContentProps>`
   opacity: 0;
   will-change: transform;
-  transform: translateX(${p => p.screenPosition}) scale(0.8);
   transition: opacity 600ms, transform 600ms ease-in-out;
   display: flex;
   flex-direction: column;
