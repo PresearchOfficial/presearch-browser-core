@@ -4,7 +4,6 @@
 
 import * as React from 'react'
 import { render } from 'react-dom'
-import { bindActionCreators } from 'redux'
 import { Provider } from 'react-redux'
 
 import welcomeDarkTheme from './theme/welcome-dark'
@@ -16,7 +15,6 @@ import App from './containers/app'
 
 // Utils
 import store from './store'
-import * as welcomeActions from './actions/welcome_actions'
 
 function initialize () {
   new Promise(resolve => chrome.braveTheme.getBraveThemeType(resolve))

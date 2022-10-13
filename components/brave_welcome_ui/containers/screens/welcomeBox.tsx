@@ -17,19 +17,14 @@ import { WelcomeLionImage } from '../../components/images'
 import { getLocale } from '../../../common/locale'
 
 interface Props {
-  index: number
   onClick: () => void
 }
 
 export default class ThemingBox extends React.PureComponent<Props, {}> {
   render () {
-    const { index, onClick } = this.props
+    const { onClick } = this.props
     return (
-      <Content
-        zIndex={index}
-        active=true
-        screenPosition={'1' + (index + 1) + '0%'}
-      >
+      <Content active >
         <WelcomeLionImage />
         <Title>{getLocale('welcome')}</Title>
         <Paragraph>{getLocale('whatIsBrave')}</Paragraph>

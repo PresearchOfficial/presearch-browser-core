@@ -106,7 +106,7 @@ export const Content = styled('section')<ContentProps>`
 `
 
 
-export const Page = styled('div')<PageProps>`
+export const Page = styled('div')`
   width: inherit;
   height: inherit;
   background: ${p => p.theme.color.panelBackground};
