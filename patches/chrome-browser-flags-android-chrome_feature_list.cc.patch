@@ -1,16 +1,8 @@
 diff --git a/chrome/browser/flags/android/chrome_feature_list.cc b/chrome/browser/flags/android/chrome_feature_list.cc
-index 52db6c80d153707894dd1fa05b63f5b867b73166..ebafaaa71032abb18494dd9b76831965767df572 100644
+index 52db6c80d153707894dd1fa05b63f5b867b73166..fa756ee86ddd1d2bf70204c1b573ef2074f0305b 100644
 --- a/chrome/browser/flags/android/chrome_feature_list.cc
 +++ b/chrome/browser/flags/android/chrome_feature_list.cc
-@@ -174,6 +174,7 @@ const base::Feature* const kFeaturesExposedToJava[] = {
-     &kBulkTabRestore,
-     &kCastDeviceFilter,
-     &kCloseAllTabsModalDialog,
-+    &kBookmarksExportUseSaf,
-     &kCloseTabSuggestions,
-     &kCriticalPersistedTabData,
-     &kCCTBackgroundTab,
-@@ -375,6 +376,7 @@ const base::Feature* const kFeaturesExposedToJava[] = {
+@@ -375,6 +375,7 @@ const base::Feature* const kFeaturesExposedToJava[] = {
  };
  
  const base::Feature* FindFeatureExposedToJava(const std::string& feature_name) {
@@ -18,14 +10,3 @@ index 52db6c80d153707894dd1fa05b63f5b867b73166..ebafaaa71032abb18494dd9b76831965
    for (const auto* feature : kFeaturesExposedToJava) {
      if (feature->name == feature_name)
        return feature;
-@@ -854,6 +856,10 @@ const base::Feature kWebApkInstallService{"WebApkInstallService",
- const base::Feature kWebApkTrampolineOnInitialIntent{
-     "WebApkTrampolineOnInitialIntent", base::FEATURE_ENABLED_BY_DEFAULT};
- 
-+// disabled by default because of an issue on Android 6.0
-+const base::Feature kBookmarksExportUseSaf{"BookmarksExportUseSaf",
-+                                        base::FEATURE_DISABLED_BY_DEFAULT};
-+
- static jboolean JNI_ChromeFeatureList_IsEnabled(
-     JNIEnv* env,
-     const JavaParamRef<jstring>& jfeature_name) {

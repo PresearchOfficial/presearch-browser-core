@@ -1,22 +1,8 @@
 diff --git a/chrome/browser/BUILD.gn b/chrome/browser/BUILD.gn
-index af2fd82cbc458b396107a161d9c3dd31077e57a7..544c443b697f6e3120f5e203d3bf2c75986ab0a9 100644
+index af2fd82cbc458b396107a161d9c3dd31077e57a7..3c2a06773f36c19106a2141d528a937e44a4e722 100644
 --- a/chrome/browser/BUILD.gn
 +++ b/chrome/browser/BUILD.gn
-@@ -1862,6 +1862,13 @@ static_library("browser") {
-     "webid/federated_identity_sharing_permission_context_factory.h",
-   ]
- 
-+  if (is_android) {
-+    sources += [
-+      "importer/profile_writer.cc",
-+      "importer/profile_writer.h",
-+    ]
-+  }
-+
-   configs += [
-     "//build/config/compiler:wexit_time_destructors",
-     "//build/config:precompiled_headers",
-@@ -2594,6 +2601,7 @@ static_library("browser") {
+@@ -2594,6 +2594,7 @@ static_library("browser") {
        "performance_monitor/metric_evaluator_helper_posix.h",
      ]
    }
@@ -24,21 +10,3 @@ index af2fd82cbc458b396107a161d9c3dd31077e57a7..544c443b697f6e3120f5e203d3bf2c75
  
    if (is_win || is_mac || is_linux || is_chromeos_ash) {
      deps += [ "//chrome/browser/ui/webui/connectors_internals:mojo_bindings" ]
-@@ -3024,6 +3032,8 @@ static_library("browser") {
-       "autofill/manual_filling_view_interface.h",
-       "banners/android/chrome_app_banner_manager_android.cc",
-       "banners/android/chrome_app_banner_manager_android.h",
-+      "bookmarks/bookmark_html_writer.cc",
-+      "bookmarks/bookmark_html_writer.h",
-       "browser_process_platform_part_android.cc",
-       "browser_process_platform_part_android.h",
-       "chrome_browser_field_trials_mobile.cc",
-@@ -3652,8 +3662,6 @@ static_library("browser") {
-       "badging/badge_manager_factory.h",
-       "banners/app_banner_manager_desktop.cc",
-       "banners/app_banner_manager_desktop.h",
--      "bookmarks/bookmark_html_writer.cc",
--      "bookmarks/bookmark_html_writer.h",
-       "cart/cart_db.cc",
-       "cart/cart_db.h",
-       "cart/cart_discount_fetcher.cc",

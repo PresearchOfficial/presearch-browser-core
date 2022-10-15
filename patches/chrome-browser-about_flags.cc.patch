@@ -1,5 +1,5 @@
 diff --git a/chrome/browser/about_flags.cc b/chrome/browser/about_flags.cc
-index 4e330d33700299175dc5b7605ad527bdca9e41fa..589d7ca3fc54ec4f23be2a07a80d3773982ba635 100644
+index 4e330d33700299175dc5b7605ad527bdca9e41fa..a4c603db19000c49ef1578e16cb48d9d720d1179 100644
 --- a/chrome/browser/about_flags.cc
 +++ b/chrome/browser/about_flags.cc
 @@ -3110,6 +3110,7 @@ const FeatureEntry::FeatureVariation kDesktopSharePreviewVariations[] = {
@@ -10,16 +10,3 @@ index 4e330d33700299175dc5b7605ad527bdca9e41fa..589d7ca3fc54ec4f23be2a07a80d3773
  // Include generated flags for flag unexpiry; see //docs/flag_expiry.md and
  // //tools/flags/generate_unexpire_flags.py.
  #include "build/chromeos_buildflags.h"
-@@ -8213,6 +8214,12 @@ const FeatureEntry kFeatureEntries[] = {
-      FEATURE_VALUE_TYPE(features::kRequestDesktopSiteExceptions)},
- #endif
- 
-+    {"export-bookmarks-use-saf",
-+     flag_descriptions::kBookmarksExportUseSafName,
-+     flag_descriptions::kBookmarksExportUseSafDescription, kOsAndroid,
-+     FEATURE_VALUE_TYPE(
-+         chrome::android::kBookmarksExportUseSaf)},
-+
- #if BUILDFLAG(IS_CHROMEOS_ASH)
-     {"snooping-protection", flag_descriptions::kSnoopingProtectionName,
-      flag_descriptions::kSnoopingProtectionDescription, kOsCrOS,
