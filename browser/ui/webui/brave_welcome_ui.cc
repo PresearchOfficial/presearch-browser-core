@@ -36,17 +36,17 @@ using content::WebUIMessageHandler;
 
 namespace {
 
-void OpenJapanWelcomePage(Profile* profile) {
-  DCHECK(profile);
-  Browser* browser = chrome::FindBrowserWithProfile(profile);
-  if (browser) {
-    content::OpenURLParams open_params(
-        GURL("https://docs.presearch.org"), content::Referrer(),
-        WindowOpenDisposition::NEW_BACKGROUND_TAB,
-        ui::PAGE_TRANSITION_AUTO_TOPLEVEL, false);
-    browser->OpenURL(open_params);
-  }
-}
+// void OpenJapanWelcomePage(Profile* profile) {
+//   DCHECK(profile);
+//   Browser* browser = chrome::FindBrowserWithProfile(profile);
+//   if (browser) {
+//     content::OpenURLParams open_params(
+//         GURL("https://docs.presearch.org"), content::Referrer(),
+//         WindowOpenDisposition::NEW_BACKGROUND_TAB,
+//         ui::PAGE_TRANSITION_AUTO_TOPLEVEL, false);
+//     browser->OpenURL(open_params);
+//   }
+// }
 
 void RecordP3AHistogram(int screen_number, bool finished) {
   int answer = 0;
@@ -80,7 +80,7 @@ class WelcomeDOMHandler : public WebUIMessageHandler {
 };
 
 WelcomeDOMHandler::~WelcomeDOMHandler() {
-  RecordP3AHistogram(screen_number_, finished_);
+  // RecordP3AHistogram(screen_number_, finished_);
 }
 
 Browser* WelcomeDOMHandler::GetBrowser() {
@@ -114,7 +114,7 @@ void WelcomeDOMHandler::HandleRecordP3A(const base::Value::List& args) {
     // It is 1-based on JS side, we want 0-based.
     screen_number_--;
   }
-  RecordP3AHistogram(screen_number_, finished_);
+  // RecordP3AHistogram(screen_number_, finished_);
 }
 
 // Converts Chromium country ID to 2 digit country string
@@ -150,18 +150,18 @@ BraveWelcomeUI::BraveWelcomeUI(content::WebUI* web_ui, const std::string& name)
 
   // Open additional page in Japanese region
   int country_id = country_codes::GetCountryIDFromPrefs(profile->GetPrefs());
-  if (!profile->GetPrefs()->GetBoolean(prefs::kHasSeenWelcomePage)) {
-    if (country_id == country_codes::CountryStringToCountryID("JP")) {
-      base::ThreadTaskRunnerHandle::Get()->PostDelayedTask(
-          FROM_HERE, base::BindOnce(&OpenJapanWelcomePage, profile),
-          base::Seconds(3));
-    }
-  }
+  // if (!profile->GetPrefs()->GetBoolean(prefs::kHasSeenWelcomePage)) {
+  //   if (country_id == country_codes::CountryStringToCountryID("JP")) {
+  //     base::ThreadTaskRunnerHandle::Get()->PostDelayedTask(
+  //         FROM_HERE, base::BindOnce(&OpenJapanWelcomePage, profile),
+  //         base::Seconds(3));
+  //   }
+  // }
   // Variables considered when determining which onboarding cards to show
   source->AddString("countryString", CountryIDToCountryString(country_id));
   source->AddBoolean(
-      "showRewardsCard",
-      base::FeatureList::IsEnabled(brave_welcome::features::kShowRewardsCard));
+      "showRewardsCard", false);
+      // base::FeatureList::IsEnabled(brave_welcome::features::kShowRewardsCard));
 
   profile->GetPrefs()->SetBoolean(prefs::kHasSeenWelcomePage, true);
 }
