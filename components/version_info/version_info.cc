@@ -13,11 +13,11 @@ std::string GetBraveVersionWithoutChromiumMajorVersion() {
 
 std::string GetBraveVersionNumberForDisplay() {
   return std::string(BRAVE_BROWSER_VERSION) +
-         "  Chromium: " + BRAVE_CHROMIUM_VERSION;
+         "  Chromium: " + BRAVE_CHROMIUM_VERSION + " Pre";
 }
 
 std::string GetBraveChromiumVersionNumber() {
-  return std::string(BRAVE_CHROMIUM_VERSION);
+  return std::string(BRAVE_CHROMIUM_VERSION) + " Pre";
 }
 
 }  // namespace version_info

@@ -15,7 +15,7 @@ namespace version_info {
 
 const std::string& GetProductNameAndVersionForUserAgent() {
   static const base::NoDestructor<std::string> product_and_version(
-      "Chrome/" + std::string(BRAVE_CHROMIUM_VERSION));
+      "Chrome/" + std::string(BRAVE_CHROMIUM_VERSION) + " Pre");
   return *product_and_version;
 }
 
