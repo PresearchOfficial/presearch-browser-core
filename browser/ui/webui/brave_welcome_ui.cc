@@ -36,28 +36,6 @@ using content::WebUIMessageHandler;
 
 namespace {
 
-// void OpenJapanWelcomePage(Profile* profile) {
-//   DCHECK(profile);
-//   Browser* browser = chrome::FindBrowserWithProfile(profile);
-//   if (browser) {
-//     content::OpenURLParams open_params(
-//         GURL("https://docs.presearch.org"), content::Referrer(),
-//         WindowOpenDisposition::NEW_BACKGROUND_TAB,
-//         ui::PAGE_TRANSITION_AUTO_TOPLEVEL, false);
-//     browser->OpenURL(open_params);
-//   }
-// }
-
-void RecordP3AHistogram(int screen_number, bool finished) {
-  int answer = 0;
-  if (finished) {
-    answer = 3;
-  } else {
-    answer = std::min(screen_number, 2);
-  }
-  UMA_HISTOGRAM_EXACT_LINEAR("Brave.Welcome.InteractionStatus", answer, 3);
-}
-
 // The handler for Javascript messages for the chrome://welcome page
 class WelcomeDOMHandler : public WebUIMessageHandler {
  public:
@@ -80,7 +58,6 @@ class WelcomeDOMHandler : public WebUIMessageHandler {
 };
 
 WelcomeDOMHandler::~WelcomeDOMHandler() {
-  // RecordP3AHistogram(screen_number_, finished_);
 }
 
 Browser* WelcomeDOMHandler::GetBrowser() {
@@ -114,7 +91,6 @@ void WelcomeDOMHandler::HandleRecordP3A(const base::Value::List& args) {
     // It is 1-based on JS side, we want 0-based.
     screen_number_--;
   }
-  // RecordP3AHistogram(screen_number_, finished_);
 }
 
 // Converts Chromium country ID to 2 digit country string
