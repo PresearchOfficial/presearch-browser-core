@@ -12,7 +12,7 @@ import {
   FooterRightColumn,
   Content,
   Page,
-  Panel,
+  // Panel,
   SelectGrid,
   SlideContent
 } from './wrapper'
@@ -32,7 +32,7 @@ export {
   FooterRightColumn,
   Content,
   Page,
-  Panel,
+  // Panel,
   SelectGrid,
   SlideContent,
   SelectBox

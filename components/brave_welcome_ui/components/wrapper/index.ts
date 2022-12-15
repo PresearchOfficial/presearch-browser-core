@@ -127,7 +127,7 @@ export const Panel = styled('div')`
   margin: 0 auto;
   font-size: inherit;
   min-height: ${slideContentHeight + footerTopMargin + footerHeight}px;
-  height: calc(100vh - ${backgroundHeight}px);
+  height: calc(100vh - ${backgroundHeight}%);
 `
 
 export const SlideContent = styled('div')<{}>`

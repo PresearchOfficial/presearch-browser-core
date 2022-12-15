@@ -386,9 +386,9 @@
       <message name="IDS_BRAVE_WEBCOMPATREPORTER_CONFIRMATION_NOTICE" desc="Assures the user that a problem with a website reported as broken will be fixed soon">Thanks for letting Presearch's developers know that there's something wrong with this site. We'll do our best to fix it!</message>
 
       <!-- WebUI welcome page resources -->
-      <message name="IDS_BRAVE_WELCOME_PAGE_MAIN_TITLE" desc="Welcome message title">Presearch the new Internet</message>
-      <message name="IDS_BRAVE_WELCOME_PAGE_MAIN_DESC" desc="Welcome message description">Get ready to enjoy a faster and more secure browsing experience with a browser built to protect your privacy.</message>
-      <message name="IDS_BRAVE_WELCOME_PAGE_MAIN_BUTTON" desc="Button that moves to the next welcome screen">Let's go</message>
+      <message name="IDS_BRAVE_WELCOME_PAGE_MAIN_TITLE" desc="Welcome message title">Welcome to Presearch Browser</message>
+      <message name="IDS_BRAVE_WELCOME_PAGE_MAIN_DESC" desc="Welcome message description">Presearch is a private, community-driven search engine powered by blockchain technology and thousands of decentralized user nodes.</message>
+      <message name="IDS_BRAVE_WELCOME_PAGE_MAIN_BUTTON" desc="Button that moves to the next welcome screen">Start searching</message>
       <message name="IDS_BRAVE_WELCOME_PAGE_REWARDS_TITLE" desc="Welcome message title for Presearch Rewards">Presearch Rewards</message>
       <message name="IDS_BRAVE_WELCOME_PAGE_REWARDS_DESC" desc="Explainer text about Presearch Rewards"><ph name="BEGIN_BOLD">$1</ph>Earn tokens<ph name="END_BOLD">$2</ph> by viewing Presearch Private Ads and support content creators automatically.</message>
       <message name="IDS_BRAVE_WELCOME_PAGE_REWARDS_TERMS" desc="Presearch Rewards terms of service links">By clicking, you agree to the <ph name="BEGIN_LINK">$1</ph>Terms of Service<ph name="END_LINK">$2</ph> and <ph name="BEGIN_LINK">$3</ph>Privacy Policy<ph name="END_LINK">$4</ph>.</message>
