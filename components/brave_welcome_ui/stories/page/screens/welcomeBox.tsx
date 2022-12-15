@@ -34,7 +34,7 @@ export default class ThemingBox extends React.PureComponent<Props, {}> {
           type='accent'
           size='large'
           text={locale.letsGo}
-          onClick={}
+          onClick={this.props}
           icon={{ position: 'after', image: <ArrowRightIcon /> }}
         />
       </Content>
