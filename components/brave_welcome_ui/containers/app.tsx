@@ -13,7 +13,7 @@ import { Page } from '../components'
 import WelcomeBox from './screens/welcomeBox'
 
 // Images
-import { Background, BackgroundContainer } from '../components/images'
+import { Background } from '../components/images'
 
 // Utils
 import * as welcomeActions from '../actions/welcome_actions'
@@ -55,9 +55,7 @@ export class WelcomePage extends React.Component<Props, State> {
       <>
         <Page id='welcomePage'>
           <WelcomeBox onClick={this.onClickLetsGo} />            
-          <BackgroundContainer>
-            <Background/>
-          </BackgroundContainer>
+          <Background/>
         </Page>
       </>
     )

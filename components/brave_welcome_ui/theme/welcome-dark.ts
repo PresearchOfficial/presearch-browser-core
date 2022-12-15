@@ -13,7 +13,7 @@ const welcomeDarkTheme: ITheme & IThemeWelcomePage = {
   color: {
     ...defaultTheme.color,
     text: colors.white,
-    panelBackground: colors.grey900,
+    panelBackground: '#2D8EFF',
     outlineColor: 'rgba(255,255,255,0.5)'
   }
 }

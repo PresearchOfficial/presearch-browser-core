@@ -15,9 +15,9 @@ interface Content {
 
 export const theme = {
   panel: {
-    backgroundColor: 'rgba(255,255,255,0.95)',
+    backgroundColor: 'rgba(45, 142, 255, 0.95)',
     maxWidth: '600px',
-    height: '660px',
+    height: '100%',
     display: 'flex',
     flexDirection: 'column',
     justifyContent: 'space-between'

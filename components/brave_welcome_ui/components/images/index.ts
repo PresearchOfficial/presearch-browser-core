@@ -28,24 +28,11 @@ export const topToBottom = keyframes`
 
 export const backgroundHeight = 100
 
-export const BackgroundContainer = styled('div')<{}>`
-  box-sizing: border-box;
-  width: inherit;
-  height: ${backgroundHeight}%;
-  position: relative;
-  animation-delay: 0s;
-  animation-name: ${topToBottom};
-  animation-duration: 2000ms;
-  animation-timing-function: ease-in-out;
-  animation-fill-mode: forwards;
-  animation-iteration-count: 1;
-`
-
 export const Background = styled('div')<{}>`
   box-sizing: border-box;
   background-color: rgba(45, 142, 255, 1);
   width: 100%;
-  height: ${backgroundHeight}%;
+  height: 100%;
   background-size: cover;
   background-position-x: center;
 `

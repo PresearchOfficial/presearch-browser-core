@@ -5,13 +5,13 @@
 import * as React from 'react'
 
 // Feature-specific components
-import { Page, Panel } from '../../components'
+import { Page } from '../../components'
 
 // Component groups
 import WelcomeBox from './screens/welcomeBox'
 
 // Images
-import { Background, BackgroundContainer } from '../../components/images'
+import { Background } from '../../components/images'
 
 export interface Props {
   isDefaultSearchGoogle: boolean
@@ -36,12 +36,8 @@ export default class WelcomePage extends React.PureComponent<Props, State> {
     return (
       <>
         <Page>
-          <Panel>
-            <WelcomeBox onClick={this.onClickLetsGo} />
-          </Panel>
-          <BackgroundContainer>
-            <Background />
-          </BackgroundContainer>
+          <WelcomeBox onClick={this.onClickLetsGo} />
+          <Background />
         </Page>
       </>
     )
