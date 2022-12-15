@@ -7,7 +7,7 @@ import { bindActionCreators, Dispatch } from 'redux'
 import { connect } from 'react-redux'
 
 // Feature-specific components
-import { Page, Panel } from '../components'
+import { Page } from '../components'
 
 // Component groups
 import WelcomeBox from './screens/welcomeBox'
