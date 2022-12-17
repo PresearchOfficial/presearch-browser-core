@@ -469,7 +469,7 @@ class SolanaProviderTest : public InProcessBrowserTest {
     // This is intentional to trigger
     // TestBraveContentBrowserClient::RegisterBrowserInterfaceBindersForFrame
     ASSERT_TRUE(
-        ui_test_utils::NavigateToURL(browser(), GURL("brave://settings")));
+        ui_test_utils::NavigateToURL(browser(), GURL("presearch://settings")));
 
     GURL url = embedded_test_server()->GetURL("/empty.html");
     ASSERT_TRUE(ui_test_utils::NavigateToURL(browser(), url));

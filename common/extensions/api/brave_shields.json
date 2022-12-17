@@ -76,7 +76,7 @@
       {
         "name": "addSiteCosmeticFilter",
         "type": "function",
-        "description": "Saves an element to hide on a page by creating a new filter of the form `host##cssSelector` in the custom filters of brave://adblock",
+        "description": "Saves an element to hide on a page by creating a new filter of the form `host##cssSelector` in the custom filters of presearch://adblock",
         "parameters": [
           {
             "name": "host",
@@ -93,7 +93,7 @@
       {
         "name": "openFilterManagementPage",
         "type": "function",
-        "description": "Opens brave://adblock for the purpose of adding, editing, or removing custom filters",
+        "description": "Opens presearch://adblock for the purpose of adding, editing, or removing custom filters",
         "parameters": []
       },
       {

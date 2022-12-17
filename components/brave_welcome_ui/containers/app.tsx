@@ -52,12 +52,10 @@ export class WelcomePage extends React.Component<Props, State> {
   render () {
 
     return (
-      <>
         <Page id='welcomePage'>
           <WelcomeBox onClick={this.onClickLetsGo} />            
           <Background/>
         </Page>
-      </>
     )
   }
 }

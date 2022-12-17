@@ -206,7 +206,7 @@ net::NetworkTrafficAnnotationTag GetNetworkTrafficAnnotationTag() {
       policy {
         cookies_allowed: NO
         setting:
-          "You can enable or disable this feature by visiting brave://rewards."
+          "You can enable or disable this feature by visiting presearch://rewards."
         policy_exception_justification:
           "Not implemented."
       }

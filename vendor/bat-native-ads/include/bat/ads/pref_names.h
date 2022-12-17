@@ -10,7 +10,7 @@
 
 namespace ads {
 
-// Ads per hour are user configurable within the brave://rewards ads UI
+// Ads per hour are user configurable within the presearch://rewards ads UI
 const int64_t kMinimumAdNotificationsPerHour = 0;
 const int64_t kMaximumAdNotificationsPerHour = 10;
 const int64_t kDefaultAdNotificationsPerHour = 5;

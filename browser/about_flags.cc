@@ -88,7 +88,7 @@ constexpr char kBraveAdblockCookieListDefaultName[] =
     "Treat 'Easylist-Cookie List' as a default list source";
 constexpr char kBraveAdblockCookieListDefaultDescription[] =
     "Enables the 'Easylist-Cookie List' regional list regardless of its "
-    "toggle setting in brave://adblock";
+    "toggle setting in presearch://adblock";
 
 constexpr char kBraveAdblockCosmeticFilteringName[] =
     "Enable cosmetic filtering";

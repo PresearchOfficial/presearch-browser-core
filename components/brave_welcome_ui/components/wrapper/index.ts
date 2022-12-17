@@ -110,6 +110,18 @@ export const Page = styled('div')`
   overflow-x: hidden;
 `
 
+export const pContent = styled('div')`
+  width: inherit;
+  height: inherit;
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  overflow: hidden auto;
+  background: ${p => p.theme.color.panelBackground};
+`
+
 export const Panel = styled('div')`
   user-select: none;
   /* animation start state must be the same as "from" keyframe */
@@ -127,7 +139,7 @@ export const Panel = styled('div')`
   margin: 0 auto;
   font-size: inherit;
   min-height: ${slideContentHeight + footerTopMargin + footerHeight}px;
-  height: calc(100vh - ${backgroundHeight}%);
+  height: ${backgroundHeight}%;
 `
 
 export const SlideContent = styled('div')<{}>`

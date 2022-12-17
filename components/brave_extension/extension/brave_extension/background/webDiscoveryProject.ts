@@ -12,7 +12,7 @@ declare let window: any
 
 function onCommitted (details: chrome.webNavigation.WebNavigationTransitionCallbackDetails) {
   // Only inject if page is acceptable protocol (to skip internal pages like
-  // devtools://, brave://, etc.). We also make sure to only inject if we
+  // devtools://, presearch://, etc.). We also make sure to only inject if we
   // receive the onCommitted for the main_frame (frameId === 0).
   if (
     details.frameId === 0 &&

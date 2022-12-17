@@ -240,7 +240,7 @@ interface PanelHandler {
 
 // Browser-side handler for requests from WebUI page.
 interface PageHandler {
-  // Used by the brave://wallet page to open up the approval panel
+  // Used by the presearch://wallet page to open up the approval panel
   ShowApprovePanelUI();
 };
 

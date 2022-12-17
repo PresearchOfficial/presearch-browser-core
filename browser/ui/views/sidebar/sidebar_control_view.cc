@@ -210,7 +210,7 @@ void SidebarControlView::AddChildViews() {
 void SidebarControlView::OnButtonPressed(views::View* view) {
   if (view == sidebar_settings_view_) {
     browser_->sidebar_controller()->LoadAtTab(
-        GURL("brave://settings?search=" +
+        GURL("presearch://settings?search=" +
              l10n_util::GetStringUTF8(IDS_SETTINGS_SIDEBAR_SHOW_OPTION_TITLE)));
   }
 }

@@ -118,7 +118,7 @@ IN_PROC_BROWSER_TEST_F(SidebarBrowserTest, BasicTest) {
   EXPECT_TRUE(CanAddCurrentActiveTabToSidebar(browser()));
 
   // If current active tab is NTP, we can't add current url to sidebar.
-  ASSERT_TRUE(ui_test_utils::NavigateToURL(browser(), GURL("brave://newtab/")));
+  ASSERT_TRUE(ui_test_utils::NavigateToURL(browser(), GURL("presearch://newtab/")));
   EXPECT_FALSE(CanAddCurrentActiveTabToSidebar(browser()));
 
   // Check |BrowserView::find_bar_host_view_| is the last child view.
@@ -133,7 +133,7 @@ IN_PROC_BROWSER_TEST_F(SidebarBrowserTest, WebTypePanelTest) {
   // By default, sidebar has 3 items.
   EXPECT_EQ(3UL, model()->GetAllSidebarItems().size());
   ASSERT_TRUE(
-      ui_test_utils::NavigateToURL(browser(), GURL("brave://settings/")));
+      ui_test_utils::NavigateToURL(browser(), GURL("presearch://settings/")));
 
   EXPECT_TRUE(CanAddCurrentActiveTabToSidebar(browser()));
   controller()->AddItemWithCurrentTab();
@@ -145,13 +145,13 @@ IN_PROC_BROWSER_TEST_F(SidebarBrowserTest, WebTypePanelTest) {
 
   // Load NTP in newtab and activate it. (tab index 1)
   ASSERT_TRUE(ui_test_utils::NavigateToURLWithDisposition(
-      browser(), GURL("brave://newtab/"),
+      browser(), GURL("presearch://newtab/"),
       WindowOpenDisposition::NEW_FOREGROUND_TAB,
       ui_test_utils::BROWSER_TEST_WAIT_FOR_LOAD_STOP));
   current_tab_index = tab_model()->active_index();
   EXPECT_EQ(1, tab_model()->active_index());
 
-  // Activate sidebar item(brave://settings) and check existing first tab is
+  // Activate sidebar item(presearch://settings) and check existing first tab is
   // activated.
   auto item = model()->GetAllSidebarItems()[3];
   controller()->ActivateItemAt(3);
@@ -169,7 +169,7 @@ IN_PROC_BROWSER_TEST_F(SidebarBrowserTest, WebTypePanelTest) {
 
 IN_PROC_BROWSER_TEST_F(SidebarBrowserTest,
                        FindBrowserWorksWithoutSidebarController) {
-  NavigateParams navigate_params(browser(), GURL("brave://newtab/"),
+  NavigateParams navigate_params(browser(), GURL("presearch://newtab/"),
                                  ui::PAGE_TRANSITION_TYPED);
   navigate_params.disposition = WindowOpenDisposition::NEW_POPUP;
   ui_test_utils::NavigateToURL(&navigate_params);
@@ -189,7 +189,7 @@ IN_PROC_BROWSER_TEST_F(SidebarBrowserTest, IterateBuiltInWebTypeTest) {
 
   // Create NTP and click wallet item. Then wallet tab(index 0) is activated.
   ASSERT_TRUE(ui_test_utils::NavigateToURLWithDisposition(
-      browser(), GURL("brave://newtab/"),
+      browser(), GURL("presearch://newtab/"),
       WindowOpenDisposition::NEW_FOREGROUND_TAB,
       ui_test_utils::BROWSER_TEST_WAIT_FOR_LOAD_STOP));
   // NTP is active tab.
@@ -202,7 +202,7 @@ IN_PROC_BROWSER_TEST_F(SidebarBrowserTest, IterateBuiltInWebTypeTest) {
 
   // Create NTP.
   ASSERT_TRUE(ui_test_utils::NavigateToURLWithDisposition(
-      browser(), GURL("brave://newtab/"),
+      browser(), GURL("presearch://newtab/"),
       WindowOpenDisposition::NEW_FOREGROUND_TAB,
       ui_test_utils::BROWSER_TEST_WAIT_FOR_LOAD_STOP));
   // NTP is active tab and load wallet on it.

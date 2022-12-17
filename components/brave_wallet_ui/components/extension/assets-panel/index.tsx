@@ -39,7 +39,7 @@ const AssetsPanel = (props: Props) => {
   const getBalance = useBalance(networkList)
 
   const onClickAsset = (symbol: string) => () => {
-    const url = `brave://wallet${WalletRoutes.Portfolio}/${symbol}`
+    const url = `presearch://wallet${WalletRoutes.Portfolio}/${symbol}`
     chrome.tabs.create({ url: url }, () => {
       if (chrome.runtime.lastError) {
         console.error('tabs.create failed: ' + chrome.runtime.lastError.message)

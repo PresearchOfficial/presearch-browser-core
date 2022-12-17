@@ -97,7 +97,7 @@ export const handleExternalWalletLink = (balance: RewardsExtension.Balance, exte
   let link = ''
 
   if (!externalWallet || (externalWallet && externalWallet.status === 0)) {
-    link = 'brave://rewards/#verify'
+    link = 'presearch://rewards/#verify'
   } else {
     link = externalWallet.verifyUrl
   }

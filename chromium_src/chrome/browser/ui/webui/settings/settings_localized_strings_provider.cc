@@ -546,7 +546,7 @@ void BraveAddLocalizedStrings(content::WebUIDataSource* html_source,
   BraveAddAboutStrings(html_source, profile);
   BravePrivacyHandler::AddLoadTimeData(html_source, profile);
 
-  // Load time data for brave://settings/extensions
+  // Load time data for presearch://settings/extensions
   html_source->AddBoolean(
       "signInAllowedOnNextStartupInitialValue",
       profile->GetPrefs()->GetBoolean(prefs::kSigninAllowedOnNextStartup));

@@ -35,7 +35,7 @@ const sampleTorrent = {
       length: 500
     }
   ],
-  serverURL: 'brave://myfile',
+  serverURL: 'presearch://myfile',
   timeRemaining: 42,
   downloaded: 2000,
   uploaded: 8000,

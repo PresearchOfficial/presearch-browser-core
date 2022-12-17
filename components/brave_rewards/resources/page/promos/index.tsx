@@ -70,7 +70,7 @@ const getLink = (type: PromoType) => {
 }
 
 // Ensure that images are retrieved from the root path, since we may be on a
-// rewards page subpath like brave://rewards/uphold.
+// rewards page subpath like presearch://rewards/uphold.
 // TODO: Come up with a more generic solution for this, since it affects other
 // resource loads
 const getRootImagePath = (path: string) => {

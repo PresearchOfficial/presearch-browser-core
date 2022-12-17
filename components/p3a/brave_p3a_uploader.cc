@@ -38,7 +38,7 @@ net::NetworkTrafficAnnotationTag GetNetworkTrafficAnnotation(
         policy {
           cookies_allowed: NO
           setting:
-            "Users can enable or disable it in brave://settings/privacy"
+            "Users can enable or disable it in presearch://settings/privacy"
            policy_exception_justification:
              "Not implemented."
         })");
@@ -61,7 +61,7 @@ net::NetworkTrafficAnnotationTag GetNetworkTrafficAnnotation(
         cookies_allowed: NO
         setting:
           "Users can enable or disable it by enabling or disabling Brave rewards
-         or ads in brave://rewards"
+         or ads in presearch://rewards"
          policy_exception_justification:
            "Not implemented."
       })");

@@ -5,7 +5,7 @@
 import * as React from 'react'
 
 // Feature-specific components
-import { Content, Title, Paragraph, PrimaryButton } from '../../components'
+import { Title, Paragraph, PrimaryButton } from '../../components'
 
 // Shared components
 import { ArrowRightIcon } from 'brave-ui/components/icons'
@@ -15,6 +15,7 @@ import { WelcomeLionImage } from '../../components/images'
 
 // Utils
 import { getLocale } from '../../../common/locale'
+import { Panel } from 'components/brave_welcome_ui/components/wrapper'
 
 interface Props {
   onClick: () => void
@@ -24,7 +25,7 @@ export default class ThemingBox extends React.PureComponent<Props, {}> {
   render () {
     const { onClick } = this.props
     return (
-      <Content active>
+      <Panel>
         <WelcomeLionImage />
         <Title>{getLocale('welcome')}</Title>
         <Paragraph>{getLocale('whatIsBrave')}</Paragraph>
@@ -36,7 +37,7 @@ export default class ThemingBox extends React.PureComponent<Props, {}> {
           onClick={onClick}
           icon={{ position: 'after', image: <ArrowRightIcon /> }}
         />
-      </Content>
+      </Panel>
     )
   }
 }

@@ -9,7 +9,7 @@
 namespace {
 
 const char kBraveStubSessionTag[] = "brave_stub_more_session_tag";
-const char kBraveSyncedTabsUrl[] = "brave://history/syncedTabs";
+const char kBraveSyncedTabsUrl[] = "presearch://history/syncedTabs";
 
 }  //  namespace
 

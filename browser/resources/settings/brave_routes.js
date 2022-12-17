@@ -17,7 +17,7 @@ export default function addBraveRoutes(r) {
     r.MANAGE_PROFILE = r.GET_STARTED.createChild('/manageProfile');
     // We re-section people page into getStarted section (see people_page Brave
     // override), so we need to adjust the route accordingly in order for the
-    // direct navigation to brave://settings/importData to work.
+    // direct navigation to presearch://settings/importData to work.
     if (r.IMPORT_DATA) {
       r.IMPORT_DATA.section = 'getStarted'
     }

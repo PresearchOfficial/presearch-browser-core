@@ -546,8 +546,8 @@ void RewardsDOMHandler::Init() {
 
   ads_service_ = brave_ads::AdsServiceFactory::GetForProfile(profile);
 
-  // Configure a pref change registrar to update brave://rewards when settings
-  // are changed via brave://settings
+  // Configure a pref change registrar to update presearch://rewards when settings
+  // are changed via presearch://settings
   InitPrefChangeRegistrar();
 }
 

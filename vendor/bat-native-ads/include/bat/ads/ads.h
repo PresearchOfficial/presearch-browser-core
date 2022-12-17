@@ -228,7 +228,7 @@ class ADS_EXPORT Ads {
   virtual void GetStatementOfAccounts(
       GetStatementOfAccountsCallback callback) = 0;
 
-  // Called to get ad diagnostics displayed on the brave://rewards-internals
+  // Called to get ad diagnostics displayed on the presearch://rewards-internals
   // page to help diagnose issues. The callback takes two arguments - |bool| is
   // set to |true| if successful otherwise |false|. |std::string|
   // containing info of the obtained ad diagnostics.

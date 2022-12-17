@@ -25,7 +25,7 @@ export const setStoreSettingsChange: actions.SetStoreSettingsChange = (settingsD
 }
 
 /**
- * Perform an update in settings both in brave://settings and Shields store whenever a setting change.
+ * Perform an update in settings both in presearch://settings and Shields store whenever a setting change.
  * This action is bounded to the settings listener and should not be used outside this scope.
  */
 export const settingsDidChange: actions.SettingsDidChange = (settings) => {
@@ -35,7 +35,7 @@ export const settingsDidChange: actions.SettingsDidChange = (settings) => {
 }
 
 /**
- * Get a list of settings values from brave://settings and update if comparison
+ * Get a list of settings values from presearch://settings and update if comparison
  * against settings values from store deosn't match.
  */
 type FetchAndDispatchSettings = () => (dispatch: Dispatch, getState: () => State) => void

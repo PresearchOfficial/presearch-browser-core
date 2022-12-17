@@ -20,9 +20,9 @@ std::string AboutUIHTMLSource::ChromeURLs() const {
   const std::string chrome_internal_pages_header =
       "List of chrome://internals pages";
   const std::string brave_internal_pages_header =
-      "List of brave://internals pages";
+      "List of presearch://internals pages";
   const std::string chrome_url_list = ">chrome://";
-  const std::string brave_url_list = ">brave://";
+  const std::string brave_url_list = ">presearch://";
   RE2::GlobalReplace(&chrome_urls, chrome_header, brave_header);
   RE2::GlobalReplace(&chrome_urls, chrome_pages_header, brave_pages_header);
   RE2::GlobalReplace(&chrome_urls, chrome_internal_pages_header,
@@ -33,7 +33,7 @@ std::string AboutUIHTMLSource::ChromeURLs() const {
   auto html_lines = base::SplitStringPiece(
       chrome_urls, "\n", base::KEEP_WHITESPACE, base::SPLIT_WANT_ALL);
   const base::flat_set<base::StringPiece> kURLsToRemove{
-      "brave://memories",
+      "presearch://memories",
   };
   // URLs in html should be sorted so it's okay to iterate over sorted
   // kURLsToRemove.

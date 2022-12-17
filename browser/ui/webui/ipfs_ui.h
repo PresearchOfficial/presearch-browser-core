@@ -75,7 +75,7 @@ class IPFSDOMHandler : public content::WebUIMessageHandler,
   base::WeakPtrFactory<IPFSDOMHandler> weak_ptr_factory_;
 };
 
-// The WebUI for brave://ipfs
+// The WebUI for presearch://ipfs
 class IPFSUI : public content::WebUIController {
  public:
   IPFSUI(content::WebUI* web_ui, const std::string& host);

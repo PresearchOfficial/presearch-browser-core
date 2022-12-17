@@ -104,7 +104,7 @@ void BraveProfileManager::InitProfileUserPrefs(Profile* profile) {
     pref_service->SetBoolean(kEnableMediaRouterOnRestart, enabled);
   } else {
     // For Desktop, kEnableMediaRouterOnRestart is used to track the current
-    // state of the media router switch in brave://settings/extensions. The
+    // state of the media router switch in presearch://settings/extensions. The
     // value of kEnableMediaRouter is only updated to match
     // kEnableMediaRouterOnRestart on restart
     auto enabled = pref_service->GetBoolean(kEnableMediaRouterOnRestart);

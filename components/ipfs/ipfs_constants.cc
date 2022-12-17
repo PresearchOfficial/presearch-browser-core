@@ -21,7 +21,7 @@ const char kIPFSScheme[] = "ipfs";
 const char kIPNSScheme[] = "ipns";
 const char kDefaultIPFSGateway[] = "https://dweb.link";
 const char kDefaultIPFSLocalGateway[] = "http://localhost";
-const char kIPFSSettingsURL[] = "brave://settings/ipfs";
+const char kIPFSSettingsURL[] = "presearch://settings/ipfs";
 const char kIPFSLearnMorePrivacyURL[] =
     "https://support.brave.com/hc/en-us/articles/"
     "360051406452-How-does-IPFS-Impact-my-Privacy-";

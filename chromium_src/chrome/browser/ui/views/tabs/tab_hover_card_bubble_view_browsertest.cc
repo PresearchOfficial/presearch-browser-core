@@ -124,5 +124,5 @@ IN_PROC_BROWSER_TEST_F(TabHoverCardBubbleViewBrowserTest,
   EXPECT_TRUE(widget->IsVisible());
   HoverMouseOverTabAt(1);
   EXPECT_EQ(GetHoverCardTitle(), u"Settings - Addresses and more");
-  EXPECT_EQ(GetHoverCardDomain(), u"brave://settings");
+  EXPECT_EQ(GetHoverCardDomain(), u"presearch://settings");
 }

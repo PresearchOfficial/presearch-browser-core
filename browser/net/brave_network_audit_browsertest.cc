@@ -275,16 +275,16 @@ class BraveNetworkAuditTest : public InProcessBrowserTest {
   base::FilePath audit_results_path_;
 };
 
-// Loads brave://welcome first to simulate a first run and then loads another
+// Loads presearch://welcome first to simulate a first run and then loads another
 // URL, and finally enables brave rewards, waiting some time after each load to
 // allow gathering network requests.
 IN_PROC_BROWSER_TEST_F(BraveNetworkAuditTest, BasicTests) {
   // Load the Welcome page.
-  ASSERT_TRUE(ui_test_utils::NavigateToURL(browser(), GURL("brave://welcome")));
+  ASSERT_TRUE(ui_test_utils::NavigateToURL(browser(), GURL("presearch://welcome")));
   WaitForTimeout(kMaxTimeoutPerLoadedURL);
 
   // Load the NTP to check requests made from the JS widgets.
-  ASSERT_TRUE(ui_test_utils::NavigateToURL(browser(), GURL("brave://newtab")));
+  ASSERT_TRUE(ui_test_utils::NavigateToURL(browser(), GURL("presearch://newtab")));
   WaitForTimeout(kMaxTimeoutPerLoadedURL);
 
   // Load a simple HTML page from the test server.
@@ -292,12 +292,12 @@ IN_PROC_BROWSER_TEST_F(BraveNetworkAuditTest, BasicTests) {
   ASSERT_TRUE(ui_test_utils::NavigateToURL(browser(), simple_url));
   WaitForTimeout(kMaxTimeoutPerLoadedURL);
 
-  // Finally, load brave://rewards and enable Brave Rewards.
-  ASSERT_TRUE(ui_test_utils::NavigateToURL(browser(), GURL("brave://rewards")));
+  // Finally, load presearch://rewards and enable Brave Rewards.
+  ASSERT_TRUE(ui_test_utils::NavigateToURL(browser(), GURL("presearch://rewards")));
   ASSERT_TRUE(EnableBraveRewards());
   WaitForTimeout(kMaxTimeoutPerLoadedURL);
 
-  ASSERT_TRUE(ui_test_utils::NavigateToURL(browser(), GURL("brave://wallet")));
+  ASSERT_TRUE(ui_test_utils::NavigateToURL(browser(), GURL("presearch://wallet")));
   WaitForTimeout(kMaxTimeoutPerLoadedURL);
 
 #if BUILDFLAG(ENABLE_SIDEBAR)

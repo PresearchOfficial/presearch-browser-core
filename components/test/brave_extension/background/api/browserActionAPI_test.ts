@@ -53,7 +53,7 @@ describe('BrowserAction API', () => {
       expect(enableSpy.mock.calls[0][0]).toBe(tabId)
     })
     it('sets the disabled icon when the protocol is neither https nor http', () => {
-      url = 'brave://welcome'
+      url = 'presearch://welcome'
       browserActionAPI.setIcon(url, tabId, shieldsEnabled)
       expect(disableSpy.mock.calls[0][0]).toBe(tabId)
     })

@@ -258,7 +258,7 @@ IN_PROC_BROWSER_TEST_F(DeAmpBrowserTest, NonHttpScheme) {
       <html amp>
       <head>
       <link rel='canonical' 
-      href='brave://settings'>
+      href='presearch://settings'>
       </head></html>
       )";
   https_server_->RegisterRequestHandler(base::BindRepeating(
