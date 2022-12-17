@@ -5,7 +5,7 @@
 import * as React from 'react'
 
 // Feature-specific components
-import { Title, Paragraph, PrimaryButton } from '../../components'
+import { Panel, Title, Paragraph, PrimaryButton } from '../../components'
 
 // Shared components
 import { ArrowRightIcon } from 'brave-ui/components/icons'
@@ -15,7 +15,6 @@ import { WelcomeLionImage } from '../../components/images'
 
 // Utils
 import { getLocale } from '../../../common/locale'
-import { Panel } from 'components/brave_welcome_ui/components/wrapper'
 
 interface Props {
   onClick: () => void
