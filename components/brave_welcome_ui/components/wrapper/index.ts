@@ -142,6 +142,15 @@ export const Panel = styled('div')`
   height: ${backgroundHeight}%;
 `
 
+export const StyledWrapper = styled.div`
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  padding-top: 32px;
+`
+
 export const SlideContent = styled('div')<{}>`
   display: flex;
   height: ${slideContentHeight}px;

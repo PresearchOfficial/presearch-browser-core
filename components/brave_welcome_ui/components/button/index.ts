@@ -54,6 +54,8 @@ export const SkipButton = styled(BaseButton)`
 export const PrimaryButton = styled(Button as ComponentType<ButtonProps>)`
   outline: none;
 
+  background: #1F63B2;
+
   &:hover {
     opacity: .9;
   }

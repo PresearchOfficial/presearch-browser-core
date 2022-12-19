@@ -97,7 +97,7 @@ provideStrings({
   braveWalletButtonVerify: 'Verify',
 
   // Wallet Onboarding Welcome
-  braveWalletWelcomeTitle: 'Welcome to the new Brave Wallet',
+  braveWalletWelcomeTitle: 'Welcome to the new Presearch Wallet',
   braveWalletWelcomeDescription: 'Hold crypto assets in your custody. Track portfolio performance, and interact with web 3 DApps. Trade, invest, borrow, and lend with DeFi. All right from the Brave privacy browser. No extensions, no download required.',
   braveWalletWelcomeButton: 'Get Started',
   braveWalletWelcomeRestoreButton: 'Restore',

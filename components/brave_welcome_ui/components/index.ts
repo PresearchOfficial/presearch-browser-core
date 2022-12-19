@@ -13,6 +13,7 @@ import {
   Content,
   Page,
   Panel,
+  StyledWrapper,
   SelectGrid,
   SlideContent
 } from './wrapper'
@@ -33,6 +34,7 @@ export {
   Content,
   Page,
   Panel,
+  StyledWrapper,
   SelectGrid,
   SlideContent,
   SelectBox

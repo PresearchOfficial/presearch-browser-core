@@ -12,8 +12,8 @@ export const Title = styled.h1`
   text-align: center;
   line-height: 44px;
   font-weight: 600;
+  line-height: 30px;
 `
-
 export const Paragraph = styled.p`
   color: ${p => p.theme.color.text};
   font-family: ${p => p.theme.fontFamily.body};
