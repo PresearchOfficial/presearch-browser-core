@@ -44,7 +44,7 @@ bool BraveExtensionsAPIProvider::IsAPISchemaGenerated(
 
 base::StringPiece BraveExtensionsAPIProvider::GetAPISchema(
     const std::string& name) {
-  return api::BraveGeneratedSchemas::Get(name);
+  return api::PresearchGeneratedSchemas::Get(name);
 }
 
 void BraveExtensionsAPIProvider::RegisterPermissions(
