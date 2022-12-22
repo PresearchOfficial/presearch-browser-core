@@ -34,7 +34,7 @@ class FocusRingTheme {
       case ui::kColorFocusableBorderFocused:
         return SkColorSetARGB(0x66, 0xfb, 0x54, 0x2b);
       case ui::kColorAlertHighSeverity:
-        return SkColorSetRGB(0xf4, 0x34, 0x05);
+        return SkColorSetRGB(0x6C, 0xAF, 0xFF);
     }
     return gfx::kPlaceholderColor;
   }
