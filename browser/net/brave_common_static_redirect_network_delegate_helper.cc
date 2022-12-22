@@ -19,7 +19,7 @@ namespace brave {
 namespace {
 
 bool RewriteBugReportingURL(const GURL& request_url, GURL* new_url) {
-  GURL url("https://github.com/brave/brave-browser/issues/new");
+  GURL url("https://github.com/presearchofficial/presearch-browser-android/issues/new");
   std::string query = "title=Crash%20Report&labels=crash";
   // We are expecting 3 query keys: comment, template, and labels
   base::StringPairs pairs;
@@ -30,7 +30,7 @@ bool RewriteBugReportingURL(const GURL& request_url, GURL* new_url) {
   for (const auto& pair : pairs) {
     if (pair.first == "comment") {
       query += "&body=" + pair.second;
-      base::ReplaceSubstringsAfterOffset(&query, 0, "Chrome", "Brave");
+      base::ReplaceSubstringsAfterOffset(&query, 0, "Chrome", "Presearch");
     } else if (pair.first != "template" && pair.first != "labels") {
       return false;
     }

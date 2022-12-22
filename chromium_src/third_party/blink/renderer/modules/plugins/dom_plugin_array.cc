@@ -31,7 +31,7 @@ using WTF::StringBuilder;
 namespace brave {
 
 String PluginReplacementName(std::mt19937_64* prng) {
-  std::vector<String> chrome{"Chrome ", "Chromium ",   "Brave ",
+  std::vector<String> chrome{"Chrome ", "Chromium ",   "Presearch ",
                              "Web ",    "Browser ",    "OpenSource ",
                              "Online ", "JavaScript ", ""};
   std::vector<String> pdf{"PDF ",

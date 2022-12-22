@@ -129,7 +129,7 @@ brave_grit("resources") {
 function_registration("generated_api_registration") {
   sources = brave_extensions_api_schema_sources
   impl_dir = "//brave/common/extensions/api/"
-  bundle_name = "Brave"
+  bundle_name = "Presearch"
   root_namespace = brave_extensions_api_root_namespace
 
   deps = [ "//extensions/common" ]
@@ -142,7 +142,7 @@ generated_json_strings("generated_api_json_strings") {
             brave_extensions_api_uncompiled_sources
 
   configs = [ "//build/config:precompiled_headers" ]
-  bundle_name = "Brave"
+  bundle_name = "Presearch"
   schema_include_rules = brave_extensions_api_schema_include_rules
 
   root_namespace = brave_extensions_api_root_namespace
