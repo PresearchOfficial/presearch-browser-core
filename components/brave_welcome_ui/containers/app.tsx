@@ -54,7 +54,6 @@ export class WelcomePage extends React.Component<Props, State> {
     return (
         <Page id='welcomePage'>
           <WelcomeBox onClick={this.onClickLetsGo} />            
-          <Background/>
         </Page>
     )
   }

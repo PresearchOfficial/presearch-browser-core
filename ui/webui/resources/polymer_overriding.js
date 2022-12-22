@@ -80,7 +80,7 @@ function addBraveStyleOverride(moduleName, component, template = component._temp
     `${styleElement.getAttribute('include')} ${overrideModuleName}`
   )
   if (debug)
-    console.log(`Brave Style Override added for ${moduleName}`, styleElement)
+    console.log(`Presearch Style Override added for ${moduleName}`, styleElement)
 }
 
 export function RegisterPolymerComponentBehaviors(behaviorsMap) {

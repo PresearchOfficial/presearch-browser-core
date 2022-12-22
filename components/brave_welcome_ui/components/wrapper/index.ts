@@ -104,10 +104,21 @@ export const Content = styled('section')<ContentProps>`
 
 
 export const Page = styled('div')`
-  width: inherit;
-  height: inherit;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
   background: ${p => p.theme.color.panelBackground};
   overflow-x: hidden;
+`
+
+export const StyledWrapper = styled.div`
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
 `
 
 export const pContent = styled('div')`
@@ -140,15 +151,6 @@ export const Panel = styled('div')`
   font-size: inherit;
   min-height: ${slideContentHeight + footerTopMargin + footerHeight}px;
   height: ${backgroundHeight}%;
-`
-
-export const StyledWrapper = styled.div`
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  width: 100%;
-  padding-top: 32px;
 `
 
 export const SlideContent = styled('div')<{}>`
