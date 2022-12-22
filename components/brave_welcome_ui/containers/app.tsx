@@ -12,9 +12,6 @@ import { Page } from '../components'
 // Component groups
 import WelcomeBox from './screens/welcomeBox'
 
-// Images
-import { Background } from '../components/images'
-
 // Utils
 import * as welcomeActions from '../actions/welcome_actions'
 
