@@ -39,7 +39,7 @@ void BraveExtensionsAPIProvider::AddAPIJSONSources(
 
 bool BraveExtensionsAPIProvider::IsAPISchemaGenerated(
     const std::string& name) {
-  return api::BraveGeneratedSchemas::IsGenerated(name);
+  return api::PresearchGeneratedSchemas::IsGenerated(name);
 }
 
 base::StringPiece BraveExtensionsAPIProvider::GetAPISchema(
