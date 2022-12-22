@@ -111,6 +111,7 @@ export const Page = styled('div')`
   top: 0;
   background: ${p => p.theme.color.panelBackground};
   overflow-x: hidden;
+  padding-top: 70px;
 `
 
 export const StyledWrapper = styled.div`
