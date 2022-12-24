@@ -33,7 +33,7 @@
 namespace {
 
 static base::NoDestructor<std::vector<std::string>> g_vetted_search_engines(
-    {"duckduckgo", "qwant", "bing", "startpage", "google", "yandex", "ecosia",
+    {"duckduckgo", "qwant", "bing", "startpage", "google", "brave", "ecosia",
      "presearch"});
 
 // Entry point to content_cosmetic.ts script.
