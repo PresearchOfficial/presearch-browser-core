@@ -52,12 +52,12 @@ export const ToggleBox = styled.button.attrs<ToggleProps>({
   ${p => p.isOn && css`
     --knob-left: initial;
     --knob-right: 2px;
-    --knob-color: #4C54D2;
-    --bg-color: #E1E2F6;
+    --knob-color: #2D8EFF;
+    --bg-color: #1B5599;
 
     @media (prefers-color-scheme: dark) {
-      --knob-color: #4436E1;
-      --bg-color: #7679B1;
+      --knob-color: #2D8EFF;
+      --bg-color: #1B5599;
     }
   `}
 
