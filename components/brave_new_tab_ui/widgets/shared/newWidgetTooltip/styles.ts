@@ -96,7 +96,7 @@ export const CornerLabel = styled('div')<{}>`
 export const Button = styled('button')<{}>`
   display: block;
   width: 100%;
-  background: #FB542B;
+  background: #2D8EFF;
   padding: 10px 12px;
   border-radius: 100px;
   border: 1px solid transparent;

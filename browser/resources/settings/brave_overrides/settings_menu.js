@@ -103,14 +103,14 @@ RegisterStyleOverride(
       }
 
       a[href]:focus-visible {
-        box-shadow: 0 0 0 4px rgba(160, 165, 235, 1) !important;
+        box-shadow: 0 0 0 4px rgba(66, 153, 255, 1)!important;
         outline: none !important;
         border-radius: 6px !important;
       }
 
       a[href].iron-selected {
         color: none;
-        background: linear-gradient(122.53deg, #4C54D2 0%, #BF14A2 56.25%, #F73A1C 100%) !important;
+        background: linear-gradient(122.53deg, #2471CC 0%, #287FE5 56.25%, #2D8EFF 100%) !important;
 
         -webkit-background-clip: text !important;;
         -webkit-text-fill-color: transparent !important;
@@ -118,7 +118,7 @@ RegisterStyleOverride(
       }
 
       a:hover, iron-icon:hover {
-        color: rgba(76, 84, 210, 1) !important;
+        color: rgba(36, 113, 204, 1) !important;
       }
 
       iron-icon {
@@ -136,7 +136,7 @@ RegisterStyleOverride(
         display: block;
         height: 170%;
         width: 4px;
-        background: linear-gradient(122.53deg, #4C54D2 0%, #BF14A2 56.25%, #F73A1C 100%);
+        background: linear-gradient(122.53deg, #2471CC 0%, #287FE5 56.25%, #2D8EFF 100%);
         border-radius: 0px 2px 2px 0px;
       }
 
@@ -145,7 +145,7 @@ RegisterStyleOverride(
           color: var(--settings-nav-item-color) !important;
         }
         a:hover, iron-icon:hover {
-          color: #737ADE !important;
+          color: rgba(36, 113, 204, 1) !important;
         }
       }
 

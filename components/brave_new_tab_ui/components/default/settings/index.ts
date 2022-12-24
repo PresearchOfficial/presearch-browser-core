@@ -86,7 +86,7 @@ export const SettingsSidebarActiveButtonSlider =
   left: 0;
   height: 48px;
   width: 4px;
-  background: linear-gradient(93.83deg, ${p => p.theme.color.brandBrave} -3.53%, ${p => p.theme.palette.magenta500} 110.11%);
+  background: linear-gradient(93.83deg, #2471CC -3.53%, #2D8EFF 110.11%);
   border-radius: 0px 2px 2px 0px;
   transform: translateY(${p => p.translateTo * 48}px);
   transition-delay: 0.05s;
@@ -127,7 +127,7 @@ export const SettingsSidebarSVGContent = styled('div')<SettingsSidebarSVGContent
     left: 0;
     right: 0;
     bottom: 0;
-    background: linear-gradient(93.83deg, ${p => p.theme.color.brandBrave} -3.53%, ${p => p.theme.palette.magenta500} 110.11%);
+    background: linear-gradient(93.83deg, #2471CC -3.53%, #2D8EFF 110.11%);
     -webkit-mask-image: url(${p => p.src});
     -webkit-mask-repeat: no-repeat;
     -webkit-mask-position: center;
@@ -159,7 +159,7 @@ export const SettingsSidebarButtonText = styled('span')<{ isActive: boolean }>`
   ${p => p.isActive && css`
     --active-opacity: 1;
     font-weight: 600;
-    color: ${p => p.theme.palette.magenta500};
+    color: #2471CC;
   `}
 
   /* Active version (hidden until item is active).
@@ -181,7 +181,7 @@ export const SettingsSidebarButtonText = styled('span')<{ isActive: boolean }>`
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    background-image: linear-gradient(93.83deg, ${p => p.theme.color.brandBrave} -3.53%, ${p => p.theme.palette.magenta500} 110.11%);
+    background-image: linear-gradient(93.83deg, #2471CC -3.53%, #2D8EFF 110.11%);
     overflow: hidden;
     text-overflow: ellipsis;
     transition: opacity var(--sidebar-button-transition-timing) ease-in-out,
@@ -421,7 +421,7 @@ export const StyledWidgetToggle = styled('button')<WidgetToggleProps>`
   border: none;
   margin-top: 15px;
   cursor: pointer;
-  background: ${p => p.isAdd ? '#FB542B' : isDarkTheme(p) ? '#5E6175' : '#212529'};
+  background: ${p => p.isAdd ? '#2D8EFF' : isDarkTheme(p) ? '#5E6175' : '#212529'};
   width: fit-content;
   display: flex;
   align-items: center;
@@ -519,8 +519,7 @@ export const StyledTopSitesCustomizationImageBorder = styled('div')<Customizatio
   border-radius: 11px;
 
   ${p => p.selected && css`
-    background: ${p => isDarkTheme(p) ? 'linear-gradient(314.42deg, #FA7250 6.04%, #FF1893 44.31%, #A78AFF 100%)'
-                                      : 'linear-gradient(122.53deg, #4C54D2 0%, #BF14A2 56.25%, #F73A1C 100%)'};
+    background: linear-gradient(314.42deg, #2471CC 6.04%, #287FE5 44.31%, #2D8EFF 100%);
     padding: 3px;
   `}
 

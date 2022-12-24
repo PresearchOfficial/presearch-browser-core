@@ -22,7 +22,7 @@ export const Tooltip = styled('div').attrs({
   right: -20px;
   border-radius: 6px;
   min-width: 250px;
-  background: linear-gradient(305.95deg, #BF14A2 0%, #F73A1C 98.59%);
+  background: linear-gradient(305.95deg, #1F63B2 0%, #2D8EFF 98.59%);
   padding: 24px 26px;
   color: white;
 
@@ -43,7 +43,7 @@ export const Tooltip = styled('div').attrs({
     bottom: calc(-1 * var(--arrow-width-half));
     left: 0;
     right: 0;
-    background: linear-gradient(305.95deg, #BF14A2 0%, #F73A1C 98.59%);
+    background: linear-gradient(305.95deg,  #1F63B2 0%, #2D8EFF 98.59%);
     clip-path: polygon(
       calc(var(--arrow-start) + var(--arrow-width)) var(--arrow-bottom-clip),
       calc(var(--arrow-start) + var(--arrow-width-half)) 100%,

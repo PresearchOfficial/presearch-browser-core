@@ -90,11 +90,11 @@ export const ToggleBox = styled.button.attrs<ToggleProps>({
       return css`
         animation: ${moveBg} 5s ease infinite;
         --knob-color: white;
-        --bg-color: linear-gradient(305.95deg, #381e85 0%, #6845d1 98.59%, #737ade 100%, #4d56d0 75%, #0e1bd1 100%);
+        --bg-color: linear-gradient(105.95deg, #1F63B2 0%, #2471CC 98.59%, #2D8EFF 100%);
 
         @media (prefers-color-scheme: dark) {
           --knob-color: white;
-          --bg-color: linear-gradient(305.95deg, #381e85 0%, #6845d1 98.59%, #737ade 100%, #4d56d0 75%, #0e1bd1 100%);
+          --bg-color: linear-gradient(105.95deg, #1F63B2 0%, #2471CC 98.59%, #2D8EFF 100%);
         }
       `
     }

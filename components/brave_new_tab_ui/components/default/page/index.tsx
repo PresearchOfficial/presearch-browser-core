@@ -310,9 +310,8 @@ function getPageBackground (p: HasImageProps) {
       ${p => !p.hasImage && css`
         background: linear-gradient(
             to bottom right,
-            #4D54D1,
-            #A51C7B 50%,
-            #EE4A37 100%);
+            #1F63B2 0%, 
+            #2D8EFF 100%);
       `};
       ${p => p.hasImage && p.imageSrc && css`
         opacity: var(--bg-opacity);
