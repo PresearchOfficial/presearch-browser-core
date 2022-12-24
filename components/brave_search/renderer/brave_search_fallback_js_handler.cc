@@ -66,11 +66,11 @@ void BraveSearchFallbackJSHandler::BindFunctionsToObject() {
   v8::Local<v8::Object> global = Context()->Global();
   v8::Local<v8::Object> brave_obj;
   v8::Local<v8::Value> brave_value;
-  if (!global->Get(Context(), gin::StringToV8(isolate_, "brave"))
+  if (!global->Get(Context(), gin::StringToV8(isolate_, "presearch"))
            .ToLocal(&brave_value) ||
       !brave_value->IsObject()) {
     brave_obj = v8::Object::New(isolate_);
-    global->Set(Context(), gin::StringToSymbol(isolate_, "brave"), brave_obj)
+    global->Set(Context(), gin::StringToSymbol(isolate_, "presearch"), brave_obj)
         .Check();
   } else {
     brave_obj = brave_value->ToObject(Context()).ToLocalChecked();

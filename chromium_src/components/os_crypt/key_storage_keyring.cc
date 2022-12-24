@@ -33,10 +33,10 @@ const char* GetApplicationName() {
   if (command_line->HasSwitch("import-chrome")) {
     return "chrome";
   } else if (command_line->HasSwitch("import-chromium") ||
-             command_line->HasSwitch("import-brave")) {
+             command_line->HasSwitch("import-presearch")) {
     return "chromium";
   } else {
-    return "brave";
+    return "presearch";
   }
 }
 

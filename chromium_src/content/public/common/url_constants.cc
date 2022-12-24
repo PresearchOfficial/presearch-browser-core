@@ -6,7 +6,7 @@
 #include "src/content/public/common/url_constants.cc"
 
 namespace content {
-const char kBraveUIScheme[] = "brave";
+const char kBraveUIScheme[] = "presearch";
 const char kBinanceScheme[] = "com.presearch.binance";
 const char kGeminiScheme[] = "com.presearch.gemini";
 const char kFTXScheme[] = "com.presearch.ftx";

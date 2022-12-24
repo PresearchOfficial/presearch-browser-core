@@ -32,7 +32,7 @@ void BraveStatsTabHelper::DidStartNavigation(
     case ui::PAGE_TRANSITION_AUTO_BOOKMARK:
     case ui::PAGE_TRANSITION_GENERATED: {
       auto url = handle->GetURL();
-      if (!(url.SchemeIs("chrome") || url.SchemeIs("brave")))
+      if (!(url.SchemeIs("chrome") || url.SchemeIs("presearch")))
         NotifyStatsUpdater();
       break;
     }

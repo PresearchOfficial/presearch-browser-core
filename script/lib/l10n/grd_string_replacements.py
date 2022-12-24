@@ -10,14 +10,14 @@
 # for XTB files
 branding_replacements = [
     (r'The Chromium Authors. All rights reserved.',
-     r'The Brave Authors. All rights reserved.'),
+     r'The Presearch Authors. All rights reserved.'),
     (r'Google LLC. All rights reserved.',
-     r'The Brave Authors. All rights reserved.'),
-    (r'The Chromium Authors', r'Brave Software Inc'),
-    (r'Google Chrome', r'Brave'),
-    (r'(Google)(?! Play)', r'Brave'),
-    (r'Chromium', r'Brave'),
-    (r'Chrome', r'Brave'),
+     r'The Presearch Authors. All rights reserved.'),
+    (r'The Chromium Authors', r'Presearch Software Inc'),
+    (r'Google Chrome', r'Presearch'),
+    (r'(Google)(?! Play)', r'Presearch'),
+    (r'Chromium', r'Presearch'),
+    (r'Chrome', r'Presearch'),
 ]
 
 

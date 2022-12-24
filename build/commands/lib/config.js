@@ -293,7 +293,7 @@ Config.prototype.buildArgs = function () {
     uphold_client_secret: this.upholdClientSecret,
     uphold_staging_client_id: this.upholdStagingClientId,
     uphold_staging_client_secret: this.upholdStagingClientSecret,
-    brave_product_name: getNPMConfig(['brave_product_name']) || "brave",
+    brave_product_name: getNPMConfig(['brave_product_name']) || "presearch",
     brave_version_major: version_parts[0],
     brave_version_minor: version_parts[1],
     brave_version_build: version_parts[2],

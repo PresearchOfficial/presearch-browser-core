@@ -11,8 +11,8 @@
 
 namespace {
 
-const char kBraveDefaultServiceName[] = "Brave Safe Storage";
-const char kBraveDefaultAccountName[] = "Brave";
+const char kBraveDefaultServiceName[] = "Presearch Safe Storage";
+const char kBraveDefaultAccountName[] = "Presearch";
 
 KeychainPassword::KeychainNameType& GetBraveServiceName();
 KeychainPassword::KeychainNameType& GetBraveAccountName();

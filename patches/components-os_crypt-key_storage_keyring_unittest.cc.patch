@@ -7,7 +7,7 @@ index ae92edbb1f95987a38d1f7578c83d80319431d9e..7585b1f1ff54aa663ee32f7855dcedcb
  const char kApplicationName[] = "chrome";
  #else
 -const char kApplicationName[] = "chromium";
-+const char kApplicationName[] = "brave";
++const char kApplicationName[] = "presearch";
  #endif
  
  // Replaces some of GnomeKeyringLoader's methods with mocked ones.

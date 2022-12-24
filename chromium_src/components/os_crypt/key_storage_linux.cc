@@ -11,7 +11,7 @@
 
 // clang-format off
 #define BRAVE_KEY_STORAGE_LINUX_CREATE_SERVICE_INTERNAL                       \
-  static const base::NoDestructor<std::string> kDefaultApplicationName("brave");
+  static const base::NoDestructor<std::string> kDefaultApplicationName("presearch");
 // clang-format on
 
 #include "src/components/os_crypt/key_storage_linux.cc"

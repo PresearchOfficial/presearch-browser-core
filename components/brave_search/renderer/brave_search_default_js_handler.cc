@@ -63,11 +63,11 @@ void BraveSearchDefaultJSHandler::BindFunctionsToObject(
   v8::Local<v8::Object> global = context->Global();
   v8::Local<v8::Object> brave_obj;
   v8::Local<v8::Value> brave_value;
-  if (!global->Get(context, gin::StringToV8(isolate, "brave"))
+  if (!global->Get(context, gin::StringToV8(isolate, "presearch"))
            .ToLocal(&brave_value) ||
       !brave_value->IsObject()) {
     brave_obj = v8::Object::New(isolate);
-    global->Set(context, gin::StringToSymbol(isolate, "brave"), brave_obj)
+    global->Set(context, gin::StringToSymbol(isolate, "presearch"), brave_obj)
         .Check();
   } else {
     brave_obj = brave_value->ToObject(context).ToLocalChecked();

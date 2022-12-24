@@ -6,5 +6,5 @@
 
 namespace brave_toolbar {
   const char kOriginalInternalUIScheme[] = "chrome";
-  const char kInternalUIScheme[] = "brave";
+  const char kInternalUIScheme[] = "presearch";
 }

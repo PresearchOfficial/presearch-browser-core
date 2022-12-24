@@ -34,7 +34,7 @@ namespace {
 
 static base::NoDestructor<std::vector<std::string>> g_vetted_search_engines(
     {"duckduckgo", "qwant", "bing", "startpage", "google", "yandex", "ecosia",
-     "brave"});
+     "presearch"});
 
 // Entry point to content_cosmetic.ts script.
 const char kObservingScriptletEntryPoint[] =
