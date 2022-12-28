@@ -10,7 +10,7 @@
 
 namespace blink {
 
-ScriptPromise Brave::isBrave(ScriptState* script_state) {
+ScriptPromise Brave::isPresearch(ScriptState* script_state) {
   auto* resolver = MakeGarbageCollected<ScriptPromiseResolver>(script_state);
   ScriptPromise promise = resolver->Promise();
   resolver->Resolve(true);

@@ -5,5 +5,5 @@
 [
     ImplementedAs=NavigatorBrave
 ] partial interface Navigator {
-    readonly attribute Brave brave;
+    readonly attribute Brave presearch;
 };

@@ -25,8 +25,8 @@ class NavigatorBrave final
   static const char kSupplementName[];
 
   static NavigatorBrave& From(Navigator&);
-  static Brave* brave(Navigator&);
-  Brave* brave();
+  static Brave* presearch(Navigator&);
+  Brave* presearch();
 
   explicit NavigatorBrave(Navigator&);
 
@@ -36,7 +36,7 @@ class NavigatorBrave final
   }
 
  private:
-  Member<Brave> brave_;
+  Member<Brave> presearch_;
 };
 
 }  // namespace blink

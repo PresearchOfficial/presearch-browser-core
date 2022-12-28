@@ -26,19 +26,19 @@ NavigatorBrave& NavigatorBrave::From(Navigator& navigator) {
   return *supplement;
 }
 
-Brave* NavigatorBrave::brave(Navigator& navigator) {
-  return NavigatorBrave::From(navigator).brave();
+Brave* NavigatorBrave::presearch(Navigator& navigator) {
+  return NavigatorBrave::From(navigator).presearch();
 }
 
-Brave* NavigatorBrave::brave() {
-  if (!brave_) {
-    brave_ = MakeGarbageCollected<Brave>();
+Brave* NavigatorBrave::presearch() {
+  if (!presearch_) {
+    presearch_ = MakeGarbageCollected<Brave>();
   }
-  return brave_;
+  return presearch_;
 }
 
 void NavigatorBrave::Trace(blink::Visitor* visitor) const {
-  visitor->Trace(brave_);
+  visitor->Trace(presearch_);
   Supplement<Navigator>::Trace(visitor);
 }
 
