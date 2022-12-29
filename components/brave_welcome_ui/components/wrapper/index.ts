@@ -9,15 +9,6 @@ const slideContentHeight = 540
 const footerHeight = 52
 const footerTopMargin = 24
 
-const fadeIn = keyframes`
-  from {
-    opacity: 0;
-  }
-  to {
-    opacity: 1;
-  }
-`
-
 const BaseGrid = styled('div')<{}>`
   box-sizing: border-box;
   display: grid;
