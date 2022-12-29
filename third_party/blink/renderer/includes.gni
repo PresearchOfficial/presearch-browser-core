@@ -33,6 +33,6 @@ brave_static_idl_files_in_modules = [
 # common includes which can help minimize patches for
 # third_party/blink/renderer/bindings/generated_in_modules.gni
 brave_generated_interface_sources_in_modules = [
-  "$root_gen_dir/third_party/blink/renderer/bindings/modules/v8/v8_brave.h",
-  "$root_gen_dir/third_party/blink/renderer/bindings/modules/v8/v8_brave.cc",
+  "$root_gen_dir/third_party/blink/renderer/bindings/modules/v8/v8_presearch.h",
+  "$root_gen_dir/third_party/blink/renderer/bindings/modules/v8/v8_presearch.cc",
 ]
