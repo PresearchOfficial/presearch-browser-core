@@ -1,4 +1,4 @@
-// Copyright (c) 2020 The Brave Authors. All rights reserved.
+// Copyright (c) 2020 The Presearch Authors. All rights reserved.
 // This Source Code Form is subject to the terms of the Mozilla Public
 // License, v. 2.0. If a copy of the MPL was not distributed with this file,
 // you can obtain one at http://mozilla.org/MPL/2.0/.
@@ -13,11 +13,11 @@
 
 namespace {
 
-const char kDetectBraveTest[] = "/detect_brave.html";
+const char kDetectPresearchTest[] = "/detect_brave.html";
 
 }  // namespace
 
-class NavigatorGetBraveDetectedTest : public InProcessBrowserTest {
+class NavigatorGetPresearchDetectedTest : public InProcessBrowserTest {
  public:
   void SetUpOnMainThread() override {
     InProcessBrowserTest::SetUpOnMainThread();
@@ -33,10 +33,10 @@ class NavigatorGetBraveDetectedTest : public InProcessBrowserTest {
   }
 };
 
-IN_PROC_BROWSER_TEST_F(NavigatorGetBraveDetectedTest, IsDetected) {
-  GURL url = embedded_test_server()->GetURL(kDetectBraveTest);
+IN_PROC_BROWSER_TEST_F(NavigatorGetPresearchDetectedTest, IsDetected) {
+  GURL url = embedded_test_server()->GetURL(kDetectPresearchTest);
   ASSERT_TRUE(ui_test_utils::NavigateToURL(browser(), url));
   content::WebContents* contents =
       browser()->tab_strip_model()->GetActiveWebContents();
-  EXPECT_EQ(true, EvalJs(contents, "getBraveDetected()"));
+  EXPECT_EQ(true, EvalJs(contents, "getPresearchDetected()"));
 }

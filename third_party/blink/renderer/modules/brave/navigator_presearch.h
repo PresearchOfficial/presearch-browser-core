@@ -1,4 +1,4 @@
-// Copyright (c) 2020 The Brave Authors. All rights reserved.
+// Copyright (c) 2020 The Presearch Authors. All rights reserved.
 // This Source Code Form is subject to the terms of the Mozilla Public
 // License, v. 2.0. If a copy of the MPL was not distributed with this file,
 // you can obtain one at http://mozilla.org/MPL/2.0/.
@@ -13,30 +13,30 @@
 
 namespace blink {
 
-class Brave;
+class Presearch;
 class Navigator;
 
-class NavigatorBrave final
-    : public GarbageCollected<NavigatorBrave>,
+class NavigatorPresearch final
+    : public GarbageCollected<NavigatorPresearch>,
       public Supplement<Navigator>,
       public NameClient {
 
  public:
   static const char kSupplementName[];
 
-  static NavigatorBrave& From(Navigator&);
-  static Brave* presearch(Navigator&);
-  Brave* presearch();
+  static NavigatorPresearch& From(Navigator&);
+  static Presearch* presearch(Navigator&);
+  Presearch* presearch();
 
-  explicit NavigatorBrave(Navigator&);
+  explicit NavigatorPresearch(Navigator&);
 
   void Trace(blink::Visitor*) const override;
   const char* NameInHeapSnapshot() const override {
-    return "NavigatorBrave";
+    return "NavigatorPresearch";
   }
 
  private:
-  Member<Brave> presearch_;
+  Member<Presearch> presearch_;
 };
 
 }  // namespace blink

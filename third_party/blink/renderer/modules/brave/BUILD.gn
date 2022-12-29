@@ -7,9 +7,9 @@ import("//third_party/blink/renderer/modules/modules.gni")
 
 blink_modules_sources("brave") {
   sources = [
-    "brave.cc",
-    "brave.h",
-    "navigator_brave.cc",
-    "navigator_brave.h",
+    "presearch.cc",
+    "presearch.h",
+    "navigator_presearch.cc",
+    "navigator_presearch.h",
   ]
 }

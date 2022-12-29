@@ -1,4 +1,4 @@
-// Copyright (c) 2020 The Brave Authors. All rights reserved.
+// Copyright (c) 2020 The Presearch Authors. All rights reserved.
 // This Source Code Form is subject to the terms of the Mozilla Public
 // License, v. 2.0. If a copy of the MPL was not distributed with this file,
 // you can obtain one at http://mozilla.org/MPL/2.0/.
@@ -15,12 +15,12 @@ namespace blink {
 class ScriptPromise;
 class ScriptState;
 
-class MODULES_EXPORT Brave final
+class MODULES_EXPORT Presearch final
     : public ScriptWrappable {
   DEFINE_WRAPPERTYPEINFO();
 
  public:
-  Brave() = default;
+  Presearch() = default;
   ScriptPromise isPresearch(ScriptState*);
 };
 
