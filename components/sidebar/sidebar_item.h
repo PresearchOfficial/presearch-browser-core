@@ -18,8 +18,6 @@ struct SidebarItem {
 
   enum class BuiltInItemType {
     kNone = 0,
-    kBraveTalk,
-    kWallet,
     kBookmarks,
     kHistory,
   };

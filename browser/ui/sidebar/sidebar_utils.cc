@@ -76,13 +76,6 @@ bool CanUseSidebar(Browser* browser) {
 GURL ConvertURLToBuiltInItemURL(const GURL& url) {
   if (url == GURL(chrome::kChromeUIBookmarksURL))
     return GURL(kSidebarBookmarksURL);
-
-  if (url.host() == kBraveTalkHost)
-    return GURL(kBraveTalkURL);
-
-  if (url.SchemeIs(content::kChromeUIScheme) && url.host() == kWalletPageHost) {
-    return GURL(kBraveUIWalletPageURL);
-  }
   return url;
 }
 

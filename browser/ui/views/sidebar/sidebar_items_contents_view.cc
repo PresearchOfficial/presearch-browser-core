@@ -115,17 +115,6 @@ void SidebarItemsContentsView::UpdateAllBuiltInItemsViewState() {
     if (!sidebar::IsBuiltInType(item))
       continue;
 
-    // If browser window has tab that loads brave talk, brave talk panel icon
-    // will use colored one for normal state also.
-    if (item.built_in_item_type ==
-        sidebar::SidebarItem::BuiltInItemType::kBraveTalk) {
-      UpdateItemViewStateAt(
-          item_index,
-          browser_->sidebar_controller()->DoesBrowserHaveOpenedTabForItem(
-              item));
-      continue;
-    }
-
     UpdateItemViewStateAt(item_index, item_index == active_index);
   }
 }
@@ -421,14 +410,6 @@ gfx::ImageSkia SidebarItemsContentsView::GetImageForBuiltInItems(
   const gfx::VectorIcon* normal_image_icon = nullptr;
   auto& bundle = ui::ResourceBundle::GetSharedInstance();
   switch (type) {
-    case sidebar::SidebarItem::BuiltInItemType::kWallet:
-      focused_image_resource = IDR_SIDEBAR_CRYPTO_WALLET_FOCUSED;
-      normal_image_icon = &kSidebarCryptoWalletIcon;
-      break;
-    case sidebar::SidebarItem::BuiltInItemType::kBraveTalk:
-      focused_image_resource = IDR_SIDEBAR_BRAVE_TALK_FOCUSED;
-      normal_image_icon = &kSidebarBraveTalkIcon;
-      break;
     case sidebar::SidebarItem::BuiltInItemType::kBookmarks:
       focused_image_resource = IDR_SIDEBAR_BOOKMARKS_FOCUSED;
       normal_image_icon = &kSidebarBookmarksIcon;

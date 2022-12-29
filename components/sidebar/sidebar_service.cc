@@ -31,19 +31,6 @@ namespace {
 
 SidebarItem GetBuiltInItemForType(SidebarItem::BuiltInItemType type) {
   switch (type) {
-    case SidebarItem::BuiltInItemType::kBraveTalk:
-      return SidebarItem::Create(GURL(kBraveTalkURL),
-                                 brave_l10n::GetLocalizedResourceUTF16String(
-                                     IDS_SIDEBAR_BRAVE_TALK_ITEM_TITLE),
-                                 SidebarItem::Type::kTypeBuiltIn,
-                                 SidebarItem::BuiltInItemType::kBraveTalk,
-                                 false);
-    case SidebarItem::BuiltInItemType::kWallet:
-      return SidebarItem::Create(GURL("chrome://wallet/"),
-                                 brave_l10n::GetLocalizedResourceUTF16String(
-                                     IDS_SIDEBAR_WALLET_ITEM_TITLE),
-                                 SidebarItem::Type::kTypeBuiltIn,
-                                 SidebarItem::BuiltInItemType::kWallet, false);
     case SidebarItem::BuiltInItemType::kBookmarks:
       return SidebarItem::Create(GURL(kSidebarBookmarksURL),
                                  brave_l10n::GetLocalizedResourceUTF16String(
@@ -64,12 +51,6 @@ SidebarItem GetBuiltInItemForType(SidebarItem::BuiltInItemType type) {
 }
 
 SidebarItem::BuiltInItemType GetBuiltInItemTypeForURL(const std::string& url) {
-  if (url == "https://together.brave.com/" || url == "https://talk.brave.com/")
-    return SidebarItem::BuiltInItemType::kBraveTalk;
-
-  if (url == "chrome://wallet/")
-    return SidebarItem::BuiltInItemType::kWallet;
-
   if (url == kSidebarBookmarksURL || url == "chrome://bookmarks/")
     return SidebarItem::BuiltInItemType::kBookmarks;
 
@@ -86,9 +67,6 @@ SidebarItem GetBuiltInItemForURL(const std::string& url) {
 
 std::vector<SidebarItem> GetDefaultSidebarItems() {
   std::vector<SidebarItem> items;
-  items.push_back(
-      GetBuiltInItemForType(SidebarItem::BuiltInItemType::kBraveTalk));
-  items.push_back(GetBuiltInItemForType(SidebarItem::BuiltInItemType::kWallet));
   items.push_back(
       GetBuiltInItemForType(SidebarItem::BuiltInItemType::kBookmarks));
   return items;
