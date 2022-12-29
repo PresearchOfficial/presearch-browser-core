@@ -3,7 +3,6 @@
  * You can obtain one at http://mozilla.org/MPL/2.0/. */
 
 import styled, { css, keyframes } from 'styled-components'
-import { backgroundHeight } from '../images'
 
 const contentMaxWidth = 580
 const slideContentHeight = 540
@@ -102,7 +101,6 @@ export const Content = styled('section')<ContentProps>`
   `}
 `
 
-
 export const Page = styled('div')`
   position: fixed;
   width: 100%;
@@ -120,38 +118,6 @@ export const StyledWrapper = styled.div`
   align-items: center;
   justify-content: center;
   width: 100%;
-`
-
-export const pContent = styled('div')`
-  width: inherit;
-  height: inherit;
-  position: fixed;
-  top: 0;
-  left: 0;
-  bottom: 0;
-  right: 0;
-  overflow: hidden auto;
-  background: ${p => p.theme.color.panelBackground};
-`
-
-export const Panel = styled('div')`
-  user-select: none;
-  /* animation start state must be the same as "from" keyframe */
-  opacity: 0;
-  /* animation stuff courtesy of ross */
-  animation-delay: 1s;
-  animation-name: ${fadeIn};
-  animation-duration: 1200ms;
-  animation-timing-function: ease-out;
-  animation-fill-mode: forwards;
-  /* end of animation stuff */
-  box-sizing: border-box;
-  max-width: ${contentMaxWidth}px;
-  width: 100%;
-  margin: 0 auto;
-  font-size: inherit;
-  min-height: ${slideContentHeight + footerTopMargin + footerHeight}px;
-  height: ${backgroundHeight}%;
 `
 
 export const SlideContent = styled('div')<{}>`

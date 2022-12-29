@@ -12,7 +12,6 @@ import {
   FooterRightColumn,
   Content,
   Page,
-  Panel,
   StyledWrapper,
   SelectGrid,
   SlideContent
@@ -33,7 +32,6 @@ export {
   FooterRightColumn,
   Content,
   Page,
-  Panel,
   StyledWrapper,
   SelectGrid,
   SlideContent,
