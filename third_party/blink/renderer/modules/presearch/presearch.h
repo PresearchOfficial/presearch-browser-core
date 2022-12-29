@@ -3,8 +3,8 @@
 // License, v. 2.0. If a copy of the MPL was not distributed with this file,
 // you can obtain one at http://mozilla.org/MPL/2.0/.
 
-#ifndef BRAVE_THIRD_PARTY_BLINK_RENDERER_MODULES_BRAVE_BRAVE_H_
-#define BRAVE_THIRD_PARTY_BLINK_RENDERER_MODULES_BRAVE_BRAVE_H_
+#ifndef BRAVE_THIRD_PARTY_BLINK_RENDERER_MODULES_BRAVE_PRESEARCH_H_
+#define BRAVE_THIRD_PARTY_BLINK_RENDERER_MODULES_BRAVE_PRESEARCH_H_
 
 #include "third_party/blink/renderer/modules/modules_export.h"
 #include "third_party/blink/renderer/platform/bindings/script_wrappable.h"
@@ -26,4 +26,4 @@ class MODULES_EXPORT Presearch final
 
 }  // namespace blink
 
-#endif  // BRAVE_THIRD_PARTY_BLINK_RENDERER_MODULES_BRAVE_BRAVE_H_
+#endif  // BRAVE_THIRD_PARTY_BLINK_RENDERER_MODULES_BRAVE_PRESEARCH_H_

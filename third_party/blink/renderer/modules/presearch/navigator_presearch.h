@@ -3,8 +3,8 @@
 // License, v. 2.0. If a copy of the MPL was not distributed with this file,
 // you can obtain one at http://mozilla.org/MPL/2.0/.
 
-#ifndef BRAVE_THIRD_PARTY_BLINK_RENDERER_MODULES_BRAVE_NAVIGATOR_BRAVE_H_
-#define BRAVE_THIRD_PARTY_BLINK_RENDERER_MODULES_BRAVE_NAVIGATOR_BRAVE_H_
+#ifndef BRAVE_THIRD_PARTY_BLINK_RENDERER_MODULES_BRAVE_NAVIGATOR_PRESEARCH_H_
+#define BRAVE_THIRD_PARTY_BLINK_RENDERER_MODULES_BRAVE_NAVIGATOR_PRESEARCH_H_
 
 #include "third_party/blink/renderer/core/frame/navigator.h"
 #include "third_party/blink/renderer/platform/bindings/name_client.h"
@@ -41,4 +41,4 @@ class NavigatorPresearch final
 
 }  // namespace blink
 
-#endif  // BRAVE_THIRD_PARTY_BLINK_RENDERER_MODULES_BRAVE_NAVIGATOR_BRAVE_H_
+#endif  // BRAVE_THIRD_PARTY_BLINK_RENDERER_MODULES_BRAVE_NAVIGATOR_PRESEARCH_H_
