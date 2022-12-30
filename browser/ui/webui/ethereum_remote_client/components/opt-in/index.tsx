@@ -15,7 +15,6 @@ import {
   StyledSeparator,
   StyledDisclosure,
   StyledText,
-  StyledRewards,
   StyledButtonWrapper,
   StyledButton
 } from './style'

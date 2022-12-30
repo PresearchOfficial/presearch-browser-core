@@ -53,12 +53,6 @@ export const StyledText = styled('span')<{}>`
   display: block;
 `
 
-export const StyledRewards = styled('span')<{}>`
-  color: #0076ff;
-  font-size: 14px;
-  cursor: pointer;
-`
-
 export const StyledButtonWrapper = styled('div')<{}>`
   width: 100%;
   margin-top: 50px;
