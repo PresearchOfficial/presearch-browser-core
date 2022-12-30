@@ -75,6 +75,8 @@ WalletButton::WalletButton(View* backup_anchor_view, PrefService* prefs)
                     nullptr,
                     false),  // Long-pressing is not intended for something that
                              // already shows a panel on click
+                    prefs_(prefs),
+                    backup_anchor_view_(backup_anchor_view) {
   Hide();
 }
 

@@ -320,12 +320,10 @@ views::View* BraveBrowserView::GetWalletButtonAnchorView() {
 
 void BraveBrowserView::CreateWalletBubble() {
   DCHECK(GetWalletButton());
-  GetWalletButton()->ShowWalletBubble();
 }
 
 void BraveBrowserView::CreateApproveWalletBubble() {
   DCHECK(GetWalletButton());
-  GetWalletButton()->ShowApproveWalletBubble();
 }
 
 void BraveBrowserView::CloseWalletBubble() {
