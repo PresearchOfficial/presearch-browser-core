@@ -203,11 +203,11 @@ void BraveBrowserCommandController::UpdateCommandForBraveVPN() {
     return;
   }
 
-  UpdateCommandEnabled(IDC_SHOW_BRAVE_VPN_PANEL, true);
-  UpdateCommandEnabled(IDC_TOGGLE_BRAVE_VPN_TOOLBAR_BUTTON, true);
-  UpdateCommandEnabled(IDC_SEND_BRAVE_VPN_FEEDBACK, true);
-  UpdateCommandEnabled(IDC_ABOUT_BRAVE_VPN, true);
-  UpdateCommandEnabled(IDC_MANAGE_BRAVE_VPN_PLAN, true);
+  UpdateCommandEnabled(IDC_SHOW_BRAVE_VPN_PANEL, false);
+  UpdateCommandEnabled(IDC_TOGGLE_BRAVE_VPN_TOOLBAR_BUTTON, false);
+  UpdateCommandEnabled(IDC_SEND_BRAVE_VPN_FEEDBACK, false);
+  UpdateCommandEnabled(IDC_ABOUT_BRAVE_VPN, false);
+  UpdateCommandEnabled(IDC_MANAGE_BRAVE_VPN_PLAN, false);
 
   if (auto* vpn_service = brave_vpn::BraveVpnServiceFactory::GetForProfile(
           browser_->profile())) {
