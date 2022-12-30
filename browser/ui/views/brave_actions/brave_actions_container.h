@@ -13,8 +13,6 @@
 #include "base/memory/raw_ptr.h"
 #include "base/scoped_observation.h"
 #include "brave/browser/extensions/api/brave_action_api.h"
-#include "brave/browser/ui/views/brave_actions/brave_rewards_action_stub_view.h"
-#include "brave/components/brave_rewards/browser/rewards_service.h"
 #include "chrome/browser/extensions/api/extension_action/extension_action_api.h"
 #include "chrome/browser/ui/browser.h"
 #include "chrome/browser/ui/extensions/extensions_container.h"
@@ -30,7 +28,6 @@
 class BraveActionViewController;
 class BraveActionsContainerTest;
 class BraveShieldsActionView;
-class RewardsBrowserTest;
 
 namespace extensions {
 class ExtensionActionManager;
@@ -48,8 +45,7 @@ class BraveActionsContainer : public views::View,
                               public extensions::BraveActionAPI::Observer,
                               public extensions::ExtensionActionAPI::Observer,
                               public extensions::ExtensionRegistryObserver,
-                              public ToolbarActionView::Delegate,
-                              public BraveRewardsActionStubView::Delegate {
+                              public ToolbarActionView::Delegate {
  public:
   BraveActionsContainer(Browser* browser, Profile* profile);
   BraveActionsContainer(const BraveActionsContainer&) = delete;
@@ -75,9 +71,6 @@ class BraveActionsContainer : public views::View,
                            const gfx::Point& press_pt,
                            const gfx::Point& p) override;
 
-  // BraveRewardsActionStubView::Delegate
-  void OnRewardsStubButtonClicked() override;
-
   // ExtensionRegistryObserver:
   void OnExtensionLoaded(content::BrowserContext* browser_context,
                          const extensions::Extension* extension) override;
@@ -97,15 +90,11 @@ class BraveActionsContainer : public views::View,
       content::WebContents* web_contents,
       content::BrowserContext* browser_context) override;
 
-  // Brave Rewards preferences change observers callback.
-  void OnBraveRewardsPreferencesChanged();
-
   // views::View:
   void ChildPreferredSizeChanged(views::View* child) override;
 
  private:
   friend class ::BraveActionsContainerTest;
-  friend class ::RewardsBrowserTest;
 
   // Special positions in the container designators
   enum ActionPosition : int {
@@ -157,8 +146,6 @@ class BraveActionsContainer : public views::View,
   bool IsContainerAction(const std::string& id) const;
   void AddAction(const extensions::Extension* extension);
   void AddAction(const std::string& id);
-  bool ShouldShowBraveRewardsAction() const;
-  void AddActionStubForRewards();
   void AddActionViewForShields();
   void RemoveAction(const std::string& id);
   void UpdateActionVisibility(const std::string& id);
@@ -172,8 +159,6 @@ class BraveActionsContainer : public views::View,
       std::unique_ptr<std::string> ui_relative_path) override;
 
   bool should_hide_ = false;
-
-  bool is_rewards_pressed_ = false;
 
   ToolbarActionViewController* popup_owner_ = nullptr;
 
@@ -207,12 +192,6 @@ class BraveActionsContainer : public views::View,
       brave_action_observer_{this};
 
   BraveShieldsActionView* shields_action_btn_ = nullptr;
-
-  // Listen for Brave Rewards preferences changes.
-  BooleanPrefMember brave_rewards_enabled_;
-  BooleanPrefMember show_brave_rewards_button_;
-
-  raw_ptr<brave_rewards::RewardsService> rewards_service_ = nullptr;
 
   base::WeakPtrFactory<BraveActionsContainer> weak_ptr_factory_;
 };

@@ -52,7 +52,6 @@ void RewardsBrowserTestContextHelper::OpenPopupFirstTime() {
   auto* brave_actions = brave_location_bar_view->GetBraveActionsContainer();
   ASSERT_NE(brave_actions, nullptr);
 
-  brave_actions->OnRewardsStubButtonClicked();
   loaded_ = true;
 }
 
