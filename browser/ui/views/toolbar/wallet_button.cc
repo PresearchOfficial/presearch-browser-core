@@ -55,8 +55,7 @@ class WalletButtonMenuModel : public ui::SimpleMenuModel,
 
   // ui::SimpleMenuModel::Delegate override:
   void ExecuteCommand(int command_id, int event_flags) override {
-    if (command_id == HideBraveWalletIcon)
-      prefs_->SetBoolean(kShowWalletIconOnToolbar, false);
+    prefs_->SetBoolean(kShowWalletIconOnToolbar, false);
   }
 
   void Build() {
@@ -76,25 +75,7 @@ WalletButton::WalletButton(View* backup_anchor_view, PrefService* prefs)
                     nullptr,
                     false),  // Long-pressing is not intended for something that
                              // already shows a panel on click
-      prefs_(prefs),
-      backup_anchor_view_(backup_anchor_view) {
-  pref_change_registrar_.Init(prefs_);
-  pref_change_registrar_.Add(
-      kShowWalletIconOnToolbar,
-      base::BindRepeating(&WalletButton::OnPreferenceChanged,
-                          base::Unretained(this)));
-
-  // The MenuButtonController makes sure the panel closes when clicked if the
-  // panel is already open.
-  auto menu_button_controller = std::make_unique<views::MenuButtonController>(
-      this,
-      base::BindRepeating(&WalletButton::OnWalletPressed,
-                          base::Unretained(this)),
-      std::make_unique<views::Button::DefaultButtonControllerDelegate>(this));
-  menu_button_controller_ = menu_button_controller.get();
-  SetButtonController(std::move(menu_button_controller));
-
-  UpdateVisibility();
+  Hide();
 }
 
 WalletButton::~WalletButton() = default;
@@ -104,36 +85,19 @@ void WalletButton::OnWalletPressed(const ui::Event& event) {
     CloseWalletBubble();
     return;
   }
-
-  ShowWalletBubble();
 }
 
-void WalletButton::UpdateImageAndText() {
-  const ui::ThemeProvider* tp = GetThemeProvider();
-  SkColor icon_color = tp->GetColor(ThemeProperties::COLOR_TOOLBAR_BUTTON_ICON);
-  SetImage(views::Button::STATE_NORMAL,
-           gfx::CreateVectorIcon(kWalletToolbarButtonIcon, icon_color));
-  SetTooltipText(
-      brave_l10n::GetLocalizedResourceUTF16String(IDS_TOOLTIP_WALLET));
-}
+void WalletButton::UpdateImageAndText() {}
 
-void WalletButton::UpdateVisibility() {
-  SetVisible(prefs_->GetBoolean(kShowWalletIconOnToolbar));
+void WalletButton::Hide() {
+  SetVisible(false);
 }
 
 void WalletButton ::OnPreferenceChanged() {
-  UpdateVisibility();
+  Hide();
 }
 
-void WalletButton::ShowWalletBubble() {
-  brave_wallet::BraveWalletTabHelper::FromWebContents(GetActiveWebContents())
-      ->ShowBubble();
-}
-
-void WalletButton::ShowApproveWalletBubble() {
-  brave_wallet::BraveWalletTabHelper::FromWebContents(GetActiveWebContents())
-      ->ShowApproveWalletBubble();
-}
+void WalletButton::ShowApproveWalletBubble() {}
 
 void WalletButton::CloseWalletBubble() {
   brave_wallet::BraveWalletTabHelper::FromWebContents(GetActiveWebContents())
@@ -141,9 +105,7 @@ void WalletButton::CloseWalletBubble() {
 }
 
 bool WalletButton::IsShowingBubble() {
-  return brave_wallet::BraveWalletTabHelper::FromWebContents(
-             GetActiveWebContents())
-      ->IsShowingBubble();
+  return true;
 }
 
 bool WalletButton::IsBubbleClosedForTesting() {
@@ -154,8 +116,6 @@ bool WalletButton::IsBubbleClosedForTesting() {
 
 views::View* WalletButton::GetAsAnchorView() {
   View* anchor_view = this;
-  if (!prefs_->GetBoolean(kShowWalletIconOnToolbar))
-    anchor_view = backup_anchor_view_;
   return anchor_view;
 }
 

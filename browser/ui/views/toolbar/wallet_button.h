@@ -27,14 +27,13 @@ class WalletButton : public ToolbarButton {
   WalletButton(const WalletButton&) = delete;
   WalletButton& operator=(const WalletButton&) = delete;
 
-  void ShowWalletBubble();
   void ShowApproveWalletBubble();
   void CloseWalletBubble();
   bool IsShowingBubble();
   bool IsBubbleClosedForTesting();
 
   void UpdateImageAndText();
-  void UpdateVisibility();
+  void Hide();
 
   views::View* GetAsAnchorView();
 
