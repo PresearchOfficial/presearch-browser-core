@@ -100,7 +100,7 @@ export const Page = styled('div')`
   top: 0;
   background: ${p => p.theme.color.panelBackground};
   overflow-x: hidden;
-  padding-top: 70px;
+  padding-top: 120px;
 `
 
 export const StyledWrapper = styled.div`
@@ -108,7 +108,8 @@ export const StyledWrapper = styled.div`
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  width: 100%;
+  width: 70%;
+  margin: auto;
 `
 
 export const SlideContent = styled('div')<{}>`
