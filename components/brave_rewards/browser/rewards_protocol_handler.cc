@@ -18,42 +18,6 @@
 #include "content/public/browser/browser_thread.h"
 #include "net/base/escape.h"
 
-namespace {
-
-GURL TranslateUrl(const GURL& url) {
-  if (!url.is_valid()) {
-    return GURL();
-  }
-
-  std::string path = url.path();
-  std::string query;
-
-  if (url.has_query()) {
-    query = base::StrCat({
-      "?",
-      net::EscapeExternalHandlerValue(url.query())
-    });
-  }
-
-  base::ReplaceFirstSubstringAfterOffset(&path, 0, "/", "");
-
-  return GURL(
-      base::StrCat({
-        "chrome://rewards",
-        path,
-        query
-      }));
-}
-
-void LoadRewardsURL(
-    const GURL& url,
-    content::WebContents::OnceGetter web_contents_getter,
-    ui::PageTransition page_transition,
-    bool has_user_gesture) {
-}
-
-}  // namespace
-
 namespace brave_rewards {
 
 void HandleRewardsProtocol(const GURL& url,
