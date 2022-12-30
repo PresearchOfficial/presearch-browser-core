@@ -54,7 +54,7 @@ constexpr float kButtonCornerRadius = 48.0;
 constexpr gfx::Font::Weight kBodyFontWeight = gfx::Font::Weight::NORMAL;
 constexpr gfx::Font::Weight kTitleFontWeight = gfx::Font::Weight::SEMIBOLD;
 
-constexpr SkColor kDefaultButtonColor = SkColorSetRGB(0x4C, 0x54, 0xD2);
+constexpr SkColor kDefaultButtonColor = SkColorSetRGB(0x24, 0x71, 0xCC);
 constexpr SkColor kLightModeButtonColor = SkColorSetRGB(0xFF, 0xFF, 0xFF);
 constexpr SkColor kDarkModeButtonColor = SkColorSetRGB(0x3B, 0x3E, 0x4F);
 constexpr SkColor kLightModeDefaultButtonTextColor =
@@ -67,7 +67,7 @@ constexpr SkColor kLightModeBodyTextColor = SkColorSetRGB(0x49, 0x50, 0x57);
 constexpr SkColor kDarkModeBodyTextColor = SkColorSetRGB(0xC2, 0xC4, 0xCF);
 constexpr SkColor kLightModeTitleTextColor = SkColorSetRGB(0x21, 0x25, 0x29);
 constexpr SkColor kDarkModeTitleTextColor = SkColorSetRGB(0xFF, 0xFF, 0xFF);
-constexpr SkColor kIconColor = SkColorSetRGB(0xE3, 0x24, 0x44);
+constexpr SkColor kIconColor = SkColorSetRGB(0x2D, 0x8E, 0xFF);
 
 constexpr gfx::HorizontalAlignment kTitleHorizontalAlignment = gfx::ALIGN_LEFT;
 constexpr gfx::HorizontalAlignment kBodyHorizontalAlignment = gfx::ALIGN_LEFT;

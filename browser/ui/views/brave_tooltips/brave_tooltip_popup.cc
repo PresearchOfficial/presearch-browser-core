@@ -47,7 +47,7 @@ constexpr int kBorderThickness = 6;
 constexpr SkColor kLightModeBackgroundColor = SkColorSetRGB(0xFF, 0xFF, 0xFF);
 constexpr SkColor kDarkModeBackgroundColor = SkColorSetRGB(0x3B, 0x3E, 0x4F);
 
-constexpr SkColor kBorderColor = SkColorSetRGB(0xF7, 0x3A, 0x1C);
+constexpr SkColor kBorderColor = SkColorSetRGB(0x2D, 0x8E, 0xFF);
 
 #if BUILDFLAG(IS_WIN)
 constexpr int kCornerRadius = 0;
