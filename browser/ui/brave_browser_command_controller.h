@@ -64,6 +64,8 @@ class BraveBrowserCommandController : public chrome::BrowserCommandController
 #endif
 
   void InitBraveCommandState();
+  void UpdateCommandForBraveWallet();
+  void UpdateCommandForBraveSync();
   void UpdateCommandForBraveRewards();
   void UpdateCommandForBraveAdblock();
   void UpdateCommandForWebcompatReporter();
