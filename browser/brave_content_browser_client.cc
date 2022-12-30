@@ -569,12 +569,6 @@ bool BraveContentBrowserClient::HandleExternalProtocol(
   }
 #endif
 
-  if (brave_rewards::IsRewardsProtocol(url)) {
-    brave_rewards::HandleRewardsProtocol(url, web_contents_getter,
-                                         page_transition, has_user_gesture);
-    return true;
-  }
-
 #if BUILDFLAG(BINANCE_ENABLED)
   if (binance::IsBinanceProtocol(url)) {
     binance::HandleBinanceProtocol(url, web_contents_getter, page_transition,

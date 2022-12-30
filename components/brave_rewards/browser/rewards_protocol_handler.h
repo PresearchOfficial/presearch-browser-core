@@ -18,8 +18,6 @@ void HandleRewardsProtocol(const GURL& url,
                            ui::PageTransition page_transition,
                            bool has_user_gesture);
 
-bool IsRewardsProtocol(const GURL& url);
-
 }  // namespace brave_rewards
 
 #endif  // BRAVE_COMPONENTS_BRAVE_REWARDS_BROWSER_REWARDS_PROTOCOL_HANDLER_H_

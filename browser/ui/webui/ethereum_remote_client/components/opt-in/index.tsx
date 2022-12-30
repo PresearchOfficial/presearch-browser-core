@@ -40,10 +40,6 @@ export default class OptIn extends React.PureComponent<Props, State> {
     }
   }
 
-  openRewards = () => {
-    window.open('chrome://rewards', '_blank')
-  }
-
   onWalletOptIn = () => {
     if (!this.state.isLoading) {
       this.setState({ isLoading: true })
@@ -67,9 +63,6 @@ export default class OptIn extends React.PureComponent<Props, State> {
               </StyledText>
               <StyledText>
                 {getLocale('cryptoWalletsDisclosureTwo')}
-              </StyledText>
-              <StyledText>
-                {getLocale('cryptoWalletsDisclosureThree')} <StyledRewards onClick={this.openRewards}>{getLocale('cryptoWalletsBraveRewards')}</StyledRewards>. {getLocale('cryptoWalletsDisclosureFour')}
               </StyledText>
             </StyledDisclosure>
           </StyledContent>
