@@ -1,4 +1,3 @@
 declare_args() {
-  enable_tor = false
-#  !is_android
+  enable_tor = !is_android
 }
