@@ -162,7 +162,7 @@ void BraveBrowserCommandController::InitBraveCommandState() {
 }
 
 void BraveBrowserCommandController::UpdateCommandForBraveRewards() {
-  UpdateCommandEnabled(IDC_SHOW_BRAVE_REWARDS, true);
+  UpdateCommandEnabled(IDC_SHOW_BRAVE_REWARDS, false);
 }
 
 void BraveBrowserCommandController::UpdateCommandForBraveAdblock() {
@@ -170,7 +170,7 @@ void BraveBrowserCommandController::UpdateCommandForBraveAdblock() {
 }
 
 void BraveBrowserCommandController::UpdateCommandForWebcompatReporter() {
-  UpdateCommandEnabled(IDC_SHOW_BRAVE_WEBCOMPAT_REPORTER, true);
+  UpdateCommandEnabled(IDC_SHOW_BRAVE_WEBCOMPAT_REPORTER, false);
 }
 
 #if BUILDFLAG(ENABLE_TOR)
@@ -220,13 +220,13 @@ void BraveBrowserCommandController::UpdateCommandForBraveVPN() {
 }
 
 void BraveBrowserCommandController::UpdateCommandForBraveSync() {
-  UpdateCommandEnabled(IDC_SHOW_BRAVE_SYNC, true);
+  UpdateCommandEnabled(IDC_SHOW_BRAVE_SYNC, false);
 }
 
 void BraveBrowserCommandController::UpdateCommandForBraveWallet() {
-  UpdateCommandEnabled(IDC_SHOW_BRAVE_WALLET, true);
-  UpdateCommandEnabled(IDC_SHOW_BRAVE_WALLET_PANEL, true);
-  UpdateCommandEnabled(IDC_CLOSE_BRAVE_WALLET_PANEL, true);
+  UpdateCommandEnabled(IDC_SHOW_BRAVE_WALLET, false);
+  UpdateCommandEnabled(IDC_SHOW_BRAVE_WALLET_PANEL, false);
+  UpdateCommandEnabled(IDC_CLOSE_BRAVE_WALLET_PANEL, false);
 }
 
 bool BraveBrowserCommandController::ExecuteBraveCommandWithDisposition(
@@ -257,25 +257,25 @@ bool BraveBrowserCommandController::ExecuteBraveCommandWithDisposition(
       NewIncognitoWindow(browser_->profile()->GetOriginalProfile());
       break;
     case IDC_SHOW_BRAVE_REWARDS:
-      brave::ShowBraveRewards(browser_);
+      // brave::ShowBraveRewards(browser_);
       break;
     case IDC_SHOW_BRAVE_ADBLOCK:
       brave::ShowBraveAdblock(browser_);
       break;
     case IDC_SHOW_BRAVE_WEBCOMPAT_REPORTER:
-      brave::ShowWebcompatReporter(browser_);
+      // brave::ShowWebcompatReporter(browser_);
       break;
     case IDC_NEW_OFFTHERECORD_WINDOW_TOR:
-      brave::NewOffTheRecordWindowTor(browser_);
+      // brave::NewOffTheRecordWindowTor(browser_);
       break;
     case IDC_NEW_TOR_CONNECTION_FOR_SITE:
-      brave::NewTorConnectionForSite(browser_);
+      // brave::NewTorConnectionForSite(browser_);
       break;
     case IDC_SHOW_BRAVE_SYNC:
-      brave::ShowSync(browser_);
+      // brave::ShowSync(browser_);
       break;
     case IDC_SHOW_BRAVE_WALLET:
-      brave::ShowBraveWallet(browser_);
+      // brave::ShowBraveWallet(browser_);
       break;
     case IDC_ADD_NEW_PROFILE:
       brave::AddNewProfile();
@@ -287,21 +287,21 @@ bool BraveBrowserCommandController::ExecuteBraveCommandWithDisposition(
       brave::MaybeDistillAndShowSpeedreaderBubble(browser_);
       break;
     case IDC_SHOW_BRAVE_WALLET_PANEL:
-      brave::ShowWalletBubble(browser_);
+      // brave::ShowWalletBubble(browser_);
       break;
     case IDC_CLOSE_BRAVE_WALLET_PANEL:
       brave::CloseWalletBubble(browser_);
       break;
     case IDC_SHOW_BRAVE_VPN_PANEL:
-      brave::ShowBraveVPNBubble(browser_);
+      // brave::ShowBraveVPNBubble(browser_);
       break;
     case IDC_TOGGLE_BRAVE_VPN_TOOLBAR_BUTTON:
-      brave::ToggleBraveVPNButton(browser_);
+      // brave::ToggleBraveVPNButton(browser_);
       break;
     case IDC_SEND_BRAVE_VPN_FEEDBACK:
     case IDC_ABOUT_BRAVE_VPN:
     case IDC_MANAGE_BRAVE_VPN_PLAN:
-      brave::OpenBraveVPNUrls(browser_, id);
+      // brave::OpenBraveVPNUrls(browser_, id);
       break;
     case IDC_APP_MENU_IPFS_OPEN_FILES:
       brave::OpenIpfsFilesWebUI(browser_);
