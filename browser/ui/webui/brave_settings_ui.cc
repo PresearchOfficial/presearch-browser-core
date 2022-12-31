@@ -60,7 +60,7 @@ void BraveSettingsUI::AddResources(content::WebUIDataSource* html_source,
                                  kBraveSettingsResources[i].id);
   }
 
-  html_source->AddBoolean("isSyncDisabled", !syncer::IsSyncAllowedByFlag());
+  // html_source->AddBoolean("isSyncDisabled", !syncer::IsSyncAllowedByFlag());
   html_source->AddString(
       "braveProductVersion",
       version_info::GetBraveVersionWithoutChromiumMajorVersion());
@@ -79,11 +79,11 @@ void BraveSettingsUI::AddResources(content::WebUIDataSource* html_source,
       "isSpeedreaderFeatureEnabled",
       base::FeatureList::IsEnabled(speedreader::kSpeedreaderFeature));
 #endif
-  html_source->AddBoolean(
-      "isNativeBraveWalletFeatureEnabled",
-      base::FeatureList::IsEnabled(
-          brave_wallet::features::kNativeBraveWalletFeature));
-  html_source->AddBoolean(
-      "isDeAmpFeatureEnabled",
-      base::FeatureList::IsEnabled(de_amp::features::kBraveDeAMP));
+  // html_source->AddBoolean(
+  //     "isNativeBraveWalletFeatureEnabled",
+  //     base::FeatureList::IsEnabled(
+  //         brave_wallet::features::kNativeBraveWalletFeature));
+  // html_source->AddBoolean(
+  //     "isDeAmpFeatureEnabled",
+  //     base::FeatureList::IsEnabled(de_amp::features::kBraveDeAMP));
 }
