@@ -21,9 +21,5 @@ void NavigationBarDataProvider::Initialize(content::WebUIDataSource* source) {
     "brToolbarDownloadsTitle", IDS_DOWNLOAD_TITLE);
   source->AddLocalizedString(
     "brToolbarHistoryTitle", IDS_HISTORY_TITLE);
-  source->AddLocalizedString(
-    "brToolbarRewardsTitle", IDS_BRAVE_UI_BRAVE_REWARDS);
-  source->AddLocalizedString(
-    "brToolbarWalletsTitle", IDS_WALLETS_TITLE);
 }
 
