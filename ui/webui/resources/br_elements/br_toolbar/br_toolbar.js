@@ -172,8 +172,6 @@ Polymer({
     this.settingsTitle = loadTimeData.getString('brToolbarSettingsTitle')
     this.bookmarksTitle = loadTimeData.getString('brToolbarBookmarksTitle')
     this.downloadsTitle = loadTimeData.getString('brToolbarDownloadsTitle')
-    this.braveRewardsTitle = loadTimeData.getString('brToolbarRewardsTitle')
-    this.walletsTitle = loadTimeData.getString('brToolbarWalletsTitle')
   },
 
   /** @override */
