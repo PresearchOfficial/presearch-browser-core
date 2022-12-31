@@ -12,7 +12,7 @@ namespace brave_wallet {
 namespace features {
 
 const base::Feature kNativeBraveWalletFeature{"NativeBraveWallet",
-                                              base::FEATURE_ENABLED_BY_DEFAULT};
+                                              base::FEATURE_DISABLED_BY_DEFAULT};
 const base::Feature kBraveWalletFilecoinFeature{
     "BraveWalletFilecoin", base::FEATURE_DISABLED_BY_DEFAULT};
 
