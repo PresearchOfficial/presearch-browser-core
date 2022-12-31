@@ -9,9 +9,6 @@ import OptIn from './opt-in'
 export default class LegacyApp extends React.PureComponent<{}, {}> {
 
   onWalletOptin = () => {
-    chrome.braveWallet.loadUI(() => {
-      window.location.href = 'chrome://wallet'
-    })
   }
 
   render () {

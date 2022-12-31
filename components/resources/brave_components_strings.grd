@@ -964,7 +964,7 @@
       </message>
 
       <!-- WebUI Presearch Toolbar resources -->
-      <message name="IDS_WALLETS_TITLE" desc="The toolbar title for the presearch://wallets page">Wallet</message>
+      <message name="IDS_WALLETS_TITLE" desc="The toolbar title for the chrome://Lbo+Fc5hN2tozPhyO+tJ4g==s page">Wallet</message>
       <!-- WebUI Crypto Wallets resources -->
       <message name="IDS_BRAVE_WALLET_WELCOME" desc="">Welcome to Presearch Crypto Wallets</message>
       <message name="IDS_BRAVE_WALLET_DISCLOSURE_ONE" desc="">Crypto Wallets lets you work with cryptocurrency and related assets in Presearch. Crypto Wallets supports Ethereum tokens like ETH and BAT, as well as collectibles, and lets you work with Ðapps and other smart contracts. All this is meant for people who are familiar with Ethereum and other blockchain systems — or are excited to learn.</message>

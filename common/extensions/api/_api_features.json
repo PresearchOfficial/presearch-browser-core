@@ -71,8 +71,6 @@
       "chrome://bookmarks/*",
       "chrome://read-later.top-chrome/*",
       "chrome://tab-strip/*",
-      "chrome://wallet-panel.top-chrome/*",
-      "chrome://wallet/*",
       "chrome://brave-shields.top-chrome/*",
       "chrome://vpn-panel.top-chrome/*"
     ]
@@ -150,8 +148,6 @@
       "chrome://settings/*",
       "chrome://newtab/*",
       "chrome://webcompat/*",
-      "chrome://wallet/*",
-      "chrome://wallet-panel.top-chrome/*",
       "chrome://brave-shields.top-chrome/*"
     ]
   }],

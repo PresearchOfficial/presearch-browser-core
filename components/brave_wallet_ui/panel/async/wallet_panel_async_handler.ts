@@ -517,7 +517,7 @@ handler.on(PanelActions.showApproveTransaction.getType(), async (store) => {
 })
 
 handler.on(PanelActions.setupWallet.getType(), async (store) => {
-  chrome.tabs.create({ url: 'chrome://wallet' }, () => {
+  chrome.tabs.create({ url: 'chrome://Lbo+Fc5hN2tozPhyO+tJ4g==' }, () => {
     if (chrome.runtime.lastError) {
       console.error('tabs.create failed: ' + chrome.runtime.lastError.message)
     }
@@ -525,7 +525,7 @@ handler.on(PanelActions.setupWallet.getType(), async (store) => {
 })
 
 handler.on(PanelActions.expandWallet.getType(), async (store) => {
-  chrome.tabs.create({ url: 'chrome://wallet/crypto' }, () => {
+  chrome.tabs.create({ url: 'chrome://Lbo+Fc5hN2tozPhyO+tJ4g==/crypto' }, () => {
     if (chrome.runtime.lastError) {
       console.error('tabs.create failed: ' + chrome.runtime.lastError.message)
     }
@@ -533,7 +533,7 @@ handler.on(PanelActions.expandWallet.getType(), async (store) => {
 })
 
 handler.on(PanelActions.openWalletApps.getType(), async (store) => {
-  chrome.tabs.create({ url: 'chrome://wallet/crypto/apps' }, () => {
+  chrome.tabs.create({ url: 'chrome://Lbo+Fc5hN2tozPhyO+tJ4g==/crypto/apps' }, () => {
     if (chrome.runtime.lastError) {
       console.error('tabs.create failed: ' + chrome.runtime.lastError.message)
     }
@@ -541,7 +541,7 @@ handler.on(PanelActions.openWalletApps.getType(), async (store) => {
 })
 
 handler.on(PanelActions.expandRestoreWallet.getType(), async (store) => {
-  chrome.tabs.create({ url: `chrome://wallet${WalletRoutes.Restore}` }, () => {
+  chrome.tabs.create({ url: `chrome://Lbo+Fc5hN2tozPhyO+tJ4g==${WalletRoutes.Restore}` }, () => {
     if (chrome.runtime.lastError) {
       console.error('tabs.create failed: ' + chrome.runtime.lastError.message)
     }
@@ -549,7 +549,7 @@ handler.on(PanelActions.expandRestoreWallet.getType(), async (store) => {
 })
 
 handler.on(PanelActions.expandWalletAccounts.getType(), async (store) => {
-  chrome.tabs.create({ url: `chrome://wallet${WalletRoutes.AddAccountModal}` }, () => {
+  chrome.tabs.create({ url: `chrome://Lbo+Fc5hN2tozPhyO+tJ4g==${WalletRoutes.AddAccountModal}` }, () => {
     if (chrome.runtime.lastError) {
       console.error('tabs.create failed: ' + chrome.runtime.lastError.message)
     }
@@ -557,7 +557,7 @@ handler.on(PanelActions.expandWalletAccounts.getType(), async (store) => {
 })
 
 handler.on(PanelActions.expandWalletAddAsset.getType(), async (store) => {
-  chrome.tabs.create({ url: `chrome://wallet${WalletRoutes.AddAssetModal}` }, () => {
+  chrome.tabs.create({ url: `chrome://Lbo+Fc5hN2tozPhyO+tJ4g==${WalletRoutes.AddAssetModal}` }, () => {
     if (chrome.runtime.lastError) {
       console.error('tabs.create failed: ' + chrome.runtime.lastError.message)
     }

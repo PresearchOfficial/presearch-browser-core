@@ -220,7 +220,7 @@ function ConfirmTransactionPanel ({
         <>
           <FavIcon
             src={
-              originInfo.originSpec.startsWith('chrome://wallet')
+              originInfo.originSpec.startsWith('chrome://Lbo+Fc5hN2tozPhyO+tJ4g==')
                 ? BraveIcon
                 : `chrome://favicon/size/64@1x/${originInfo.originSpec}`
             }

@@ -581,7 +581,7 @@ export enum WalletRoutes {
   CryptoPage = '/crypto/:category/:id?'
 }
 
-export const WalletOrigin = 'chrome://wallet'
+export const WalletOrigin = 'chrome://Lbo+Fc5hN2tozPhyO+tJ4g=='
 
 export type BlockExplorerUrlTypes =
   | 'tx'

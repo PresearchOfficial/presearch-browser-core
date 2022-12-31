@@ -19,8 +19,7 @@
     "channel": "stable",
     "contexts": ["webui"],
     "matches": [
-      "chrome://settings/*",
-      "chrome://wallet/*"
+      "chrome://settings/*"
     ],
     "default_parent": true
   }],

@@ -152,7 +152,7 @@
       }, {
         "name": "loadUI",
         "type": "function",
-        "description": "Called when presearch://wallet WebUI wants to load the real UI",
+        "description": "None",
         "parameters": [
           {
             "name": "cb",

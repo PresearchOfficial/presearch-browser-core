@@ -240,7 +240,6 @@ interface PanelHandler {
 
 // Browser-side handler for requests from WebUI page.
 interface PageHandler {
-  // Used by the presearch://wallet page to open up the approval panel
   ShowApprovePanelUI();
 };
 
@@ -852,7 +851,7 @@ interface TxServiceObserver {
 // For transaction management such as creation, broadcasting, and storing
 // transactions.
 interface TxService {
-  // Used to add a transaction. Missing origin is expected to come from chrome://wallet.
+  // Used to add a transaction. Missing origin is expected to come from chrome://Lbo+Fc5hN2tozPhyO+tJ4g==.
   AddUnapprovedTransaction(TxDataUnion tx_data_union, string from, url.mojom.Origin? origin) => (bool success, string tx_meta_id, string error_message);
 
   // Used to approve a transaction

@@ -484,7 +484,7 @@ export const _ConnectedPanel = (args: { locked: boolean }) => {
   }
 
   const onAddAsset = () => {
-    alert('Will redirect to presearch://wallet/crypto/portfolio/add-asset')
+    alert('Will redirect')
   }
 
   const onClickRetryTransaction = () => {

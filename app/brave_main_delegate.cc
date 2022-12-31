@@ -43,8 +43,6 @@ const char kBraveOriginTrialsPublicKey[] =
     "bYUKPJoPnCxeNvu72j4EmPuK7tr1PAC7SHh8ld9Mw3E=,"
     "fMS4mpO6buLQ/QMd+zJmxzty/VQ6B1EUZqoCU04zoRU=";
 
-// staging "https://sync-v2.bravesoftware.com/v2" can be overriden by
-// syncer::kSyncServiceURL manually
 const char kBraveSyncServiceStagingURL[] = "#";
 
 const char kDummyUrl[] = "https://no-thanks.invalid";

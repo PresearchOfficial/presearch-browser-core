@@ -138,7 +138,7 @@ void EthTxManager::AddUnapprovedTransaction(
   DCHECK(tx_data_union->is_eth_tx_data() ||
          tx_data_union->is_eth_tx_data_1559());
   auto origin_val =
-      origin.value_or(url::Origin::Create(GURL("chrome://wallet")));
+      origin.value_or(url::Origin::Create(GURL("chrome://Lbo+Fc5hN2tozPhyO+tJ4g==")));
   if (tx_data_union->is_eth_tx_data()) {
     AddUnapprovedTransaction(std::move(tx_data_union->get_eth_tx_data()), from,
                              std::move(origin_val), std::move(callback));
