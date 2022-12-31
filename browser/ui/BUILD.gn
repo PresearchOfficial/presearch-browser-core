@@ -130,10 +130,6 @@ source_set("ui") {
       "webui/settings/brave_privacy_handler.h",
       "webui/settings/brave_search_engines_handler.cc",
       "webui/settings/brave_search_engines_handler.h",
-      "webui/settings/brave_sync_handler.cc",
-      "webui/settings/brave_sync_handler.h",
-      "webui/settings/brave_wallet_handler.cc",
-      "webui/settings/brave_wallet_handler.h",
       "webui/settings/default_brave_shields_handler.cc",
       "webui/settings/default_brave_shields_handler.h",
     ]
