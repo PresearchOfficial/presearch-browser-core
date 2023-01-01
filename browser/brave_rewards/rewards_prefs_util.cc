@@ -18,8 +18,7 @@ void MigrateObsoleteProfilePrefs(PrefService* prefs) {
   }
 
   if (!deprecated_hide_button_pref->IsDefaultValue()) {
-    prefs->SetBoolean(prefs::kShowButton,
-                      !prefs->GetBoolean(prefs::kHideButton));
+    prefs->SetBoolean(prefs::kShowButton, false);
   }
 
   prefs->ClearPref(prefs::kHideButton);
