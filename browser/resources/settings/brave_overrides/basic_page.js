@@ -25,7 +25,7 @@ export function getSectionElement (templateContent, sectionName) {
     templateContent.querySelector(`template[if*='pageVisibility.${sectionName}']`) ||
     templateContent.querySelector(`settings-section[section="${sectionName}"]`)
   if (!sectionEl) {
-    console.error(`[Brave Settings Overrides] Could not find section '${sectionName}'`)
+    console.error(`[Presearch Settings Overrides] Could not find section '${sectionName}'`)
   }
   return sectionEl
 }
@@ -71,12 +71,12 @@ RegisterPolymerTemplateModifications({
     // Entire content is wrapped in another conditional template
     const actualTemplate = templateContent.querySelector('template')
     if (!actualTemplate) {
-      console.error('[Brave Settings Overrides] Could not find basic-page template')
+      console.error('[Presearch Settings Overrides] Could not find basic-page template')
       return
     }
     const basicPageEl = actualTemplate.content.querySelector('#basicPage')
     if (!basicPageEl) {
-      console.error('[Brave Settings Overrides] Could not find basicPage element to insert Getting Started section')
+      console.error('[Presearch Settings Overrides] Could not find basicPage element to insert Getting Started section')
     } else {
       const sectionGetStarted = document.createElement('template')
       sectionGetStarted.setAttribute('is', 'dom-if')
@@ -115,28 +115,7 @@ RegisterPolymerTemplateModifications({
           prefs: '{{prefs}}'
         }
       ))
-      const sectionWallet = document.createElement('template')
-      sectionWallet.setAttribute('is', 'dom-if')
-      sectionWallet.setAttribute('restamp', true)
-      sectionWallet.setAttribute('if', '[[showPage_(pageVisibility.braveWallet)]]')
-      sectionWallet.content.appendChild(createSectionElement(
-        'wallet',
-        'braveWallet',
-        'settings-brave-wallet-page',
-        {
-          prefs: '{{prefs}}'
-        }
-      ))
-      const sectionSync = document.createElement('template')
-      sectionSync.setAttribute('is', 'dom-if')
-      sectionSync.setAttribute('restamp', true)
-      sectionSync.setAttribute('if', '[[showPage_(pageVisibility.braveSync)]]')
-      sectionSync.content.appendChild(createSectionElement(
-        'braveSync',
-        'braveSync',
-        'settings-brave-sync-page',
-        {}
-      ))
+     
       const sectionShields = document.createElement('template')
       sectionShields.setAttribute('is', 'dom-if')
       sectionShields.setAttribute('restamp', true)
@@ -149,18 +128,7 @@ RegisterPolymerTemplateModifications({
           prefs: '{{prefs}}'
         }
       ))
-      const sectionRewards = document.createElement('template')
-      sectionRewards.setAttribute('is', 'dom-if')
-      sectionRewards.setAttribute('restamp', true)
-      sectionRewards.setAttribute('if', '[[showPage_(pageVisibility.rewards)]]')
-      sectionRewards.content.appendChild(createSectionElement(
-        'rewards',
-        'braveRewards',
-        'settings-brave-rewards-page',
-        {
-          prefs: '{{prefs}}'
-        }
-      ))
+    
       const sectionSocialBlocking = document.createElement('template')
       sectionSocialBlocking.setAttribute('is', 'dom-if')
       sectionSocialBlocking.setAttribute('restamp', true)
@@ -206,32 +174,26 @@ RegisterPolymerTemplateModifications({
       sectionAppearance.insertAdjacentElement('afterend', sectionNewTab)
       // Insert shields
       sectionNewTab.insertAdjacentElement('afterend', sectionShields)
-      // Insert Rewards
-      sectionShields.insertAdjacentElement('afterend', sectionRewards)
       // Insert Social Blocking
-      sectionRewards.insertAdjacentElement('afterend', sectionSocialBlocking)
+      sectionShields.insertAdjacentElement('afterend', sectionSocialBlocking)
       // Move privacy section to after social blocking
       const sectionPrivacy = getSectionElement(actualTemplate.content, 'privacy')
       sectionSocialBlocking.insertAdjacentElement('afterend', sectionPrivacy)
-      // Insert sync
-      sectionPrivacy.insertAdjacentElement('afterend', sectionSync)
       // Move search
       const sectionSearch = getSectionElement(actualTemplate.content, 'search')
-      sectionSync.insertAdjacentElement('afterend', sectionSearch)
+      sectionSocialBlocking.insertAdjacentElement('afterend', sectionSearch)
       // Insert extensions
       sectionSearch.insertAdjacentElement('afterend', sectionExtensions)
-      // Insert Wallet
-      sectionExtensions.insertAdjacentElement('afterend', sectionWallet)
       // Insert IPFS
-      sectionWallet.insertAdjacentElement('afterend', sectionIPFS)
+      sectionExtensions.insertAdjacentElement('afterend', sectionIPFS)
       // Advanced
       const advancedTemplate = templateContent.querySelector('template[if="[[showAdvancedSettings_(pageVisibility.advancedSettings)]]"]')
       if (!advancedTemplate) {
-        console.error('[Brave Settings Overrides] Could not find advanced section')
+        console.error('[Presearch Settings Overrides] Could not find advanced section')
       }
       const advancedSubSectionsTemplate = advancedTemplate.content.querySelector('settings-idle-load template')
       if (!advancedSubSectionsTemplate) {
-        console.error('[Brave Settings Overrides] Could not find advanced sub-sections container')
+        console.error('[Presearch Settings Overrides] Could not find advanced sub-sections container')
       }
       // Move autofill to before languages
       const sectionAutofill = getSectionElement(actualTemplate.content, 'autofill')

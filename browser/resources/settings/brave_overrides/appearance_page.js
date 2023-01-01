@@ -19,7 +19,7 @@ RegisterPolymerTemplateModifications({
   'settings-appearance-page': (templateContent) => {
     const theme = templateContent.getElementById('themeRow')
     if (!theme) {
-      console.error(`[Brave Settings Overrides] Couldn't find #themeRow`)
+      console.error(`[Presearch Settings Overrides] Couldn't find #themeRow`)
     } else {
       theme.insertAdjacentHTML('beforebegin', `
         <settings-brave-appearance-theme prefs="{{prefs}}"></settings-brave-appearance-theme>
@@ -36,7 +36,7 @@ RegisterPolymerTemplateModifications({
     if (hasSuperReferral) {
       // Routes
       if (!r.APPEARANCE) {
-        console.error('[Brave Settings Overrides] Routes: could not find APPEARANCE page')
+        console.error('[Presearch Settings Overrides] Routes: could not find APPEARANCE page')
         return
       } else {
         r.THEMES = r.APPEARANCE.createChild('/themes');
@@ -49,7 +49,7 @@ RegisterPolymerTemplateModifications({
     // Toolbar prefs
     const bookmarkBarToggle = templateContent.querySelector('[pref="{{prefs.bookmark_bar.show_on_all_tabs}}"]')
     if (!bookmarkBarToggle) {
-      console.error(`[Brave Settings Overrides] Couldn't find bookmark bar toggle`)
+      console.error(`[Presearch Settings Overrides] Couldn't find bookmark bar toggle`)
     } else {
       bookmarkBarToggle.insertAdjacentHTML('beforebegin', `
         <settings-brave-appearance-sidebar prefs="{{prefs}}"></settings-brave-appearance-sidebar>
@@ -60,7 +60,7 @@ RegisterPolymerTemplateModifications({
     }
     const zoomLevel = templateContent.getElementById('zoomLevel')
     if (!zoomLevel || !zoomLevel.parentNode) {
-      console.error(`[Brave Settings Overrides] Couldn't find zoomLevel`)
+      console.error(`[Presearch Settings Overrides] Couldn't find zoomLevel`)
     } else {
       zoomLevel.parentNode.insertAdjacentHTML('afterend', `
         <settings-toggle-button
@@ -85,7 +85,7 @@ RegisterPolymerTemplateModifications({
     // Super referral themes prefs
     const pages = templateContent.getElementById('pages')
     if (!pages) {
-      console.error(`[Brave Settings Overrides] Couldn't find appearance_page #pages`)
+      console.error(`[Presearch Settings Overrides] Couldn't find appearance_page #pages`)
     } else {
       pages.insertAdjacentHTML('beforeend', `
         <template is="dom-if" route-path="/themes">

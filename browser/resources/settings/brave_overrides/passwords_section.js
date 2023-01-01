@@ -9,13 +9,13 @@ RegisterPolymerTemplateModifications({
   'passwords-section': (templateContent) => {
     const checkPasswordsLinkRow = templateContent.querySelector('#checkPasswordsLinkRow')
     if (!checkPasswordsLinkRow) {
-      console.error('[Brave Settings Overrides] Could not find checkPasswordsLinkRow in passwords_section')
+      console.error('[Presearch Settings Overrides] Could not find checkPasswordsLinkRow in passwords_section')
     } else {
       checkPasswordsLinkRow.remove()
     }
     const manageLink = templateContent.querySelector('#manageLink')
     if (!manageLink) {
-      console.error('[Brave Settings Overrides] Could not find manageLink in passwords_section')
+      console.error('[Presearch Settings Overrides] Could not find manageLink in passwords_section')
     } else {
       manageLink.remove()
     }

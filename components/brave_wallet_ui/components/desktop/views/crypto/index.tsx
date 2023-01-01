@@ -185,13 +185,7 @@ const CryptoView = (props: Props) => {
     }
   }
 
-  const onClickSettings = () => {
-    chrome.tabs.create({ url: 'chrome://settings/wallet' }, () => {
-      if (chrome.runtime.lastError) {
-        console.error('tabs.create failed: ' + chrome.runtime.lastError.message)
-      }
-    })
-  }
+  const onClickSettings = () => {}
 
   const onClickShowMore = () => {
     setShowMore(true)

@@ -23,28 +23,28 @@ RegisterPolymerComponentReplacement(
     static get properties() {
       const properties = SettingsSiteSettingsPageElement.properties
       if (!properties || !properties.lists_ || !properties.lists_.value) {
-        console.error('[Brave Settings Overrides] Could not find polymer lists_ property')
+        console.error('[Presearch Settings Overrides] Could not find polymer lists_ property')
         return
       }
       const oldListsGetter = properties.lists_.value
       properties.lists_.value = function () {
         const lists_ = oldListsGetter()
         if (!lists_) {
-          console.error('[Brave Settings Overrides] did not get lists_ data')
+          console.error('[Presearch Settings Overrides] did not get lists_ data')
           return
         }
         if (!lists_.permissionsBasic) {
-          console.error('[Brave Settings Overrides] did not get lists_.permissionsBasic data')
+          console.error('[Presearch Settings Overrides] did not get lists_.permissionsBasic data')
         } else {
           lists_.permissionsBasic = lists_.permissionsBasic.filter(item => !PERMISSIONS_BASIC_REMOVE_IDS.includes(item.id))
         }
         if (!lists_.contentAdvanced) {
-          console.error('[Brave Settings Overrides] did not get lists_.contentAdvanced data')
+          console.error('[Presearch Settings Overrides] did not get lists_.contentAdvanced data')
         } else {
           lists_.contentAdvanced = lists_.contentAdvanced.filter(item => !CONTENT_ADVANCED_REMOVE_IDS.includes(item.id))
         }
         if (!lists_.permissionsAdvanced) {
-          console.error('[Brave Settings Overrides] did not get lists_.permissionsAdvanced data')
+          console.error('[Presearch Settings Overrides] did not get lists_.permissionsAdvanced data')
         } else {
           if (!loadTimeData.getBoolean('isIdleDetectionFeatureEnabled')) {
             let indexForIdleDetection = lists_.permissionsAdvanced.findIndex(item => item.id === ContentSettingsTypes.IDLE_DETECTION)

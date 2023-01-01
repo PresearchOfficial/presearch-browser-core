@@ -9,7 +9,7 @@ RegisterPolymerTemplateModifications({
   'settings-printing-page': (templateContent) => {
     const link = templateContent.getElementById('cloudPrinters')
     if (!link) {
-      console.error('[Brave Settings Overrides] Could not find cloudPrinters id on printing page.')
+      console.error('[Presearch Settings Overrides] Could not find cloudPrinters id on printing page.')
     } else {
       link.setAttribute('hidden', 'true')
     }

@@ -29,40 +29,40 @@ RegisterPolymerTemplateModifications({
     // the template back on and remove the google signin prompt.
     const signinTemplate = templateContent.querySelector('template[is=dom-if][if="[[signinAllowed_]]"]')
     if (!signinTemplate) {
-      console.error('[Brave Settings Overrides] People Page cannot find signin template')
+      console.error('[Presearch Settings Overrides] People Page cannot find signin template')
       return
     }
     const syncSetupLink = templateContent.querySelector('#sync-setup')
     if (syncSetupLink) {
       syncSetupLink.remove()
     } else {
-      console.error('[Brave Settings Overrides] People Page cannot find sync-setup link')
+      console.error('[Presearch Settings Overrides] People Page cannot find sync-setup link')
     }
     const syncSetup = templateContent.querySelector('template[is=dom-if][route-path="/syncSetup"]')
     if (syncSetup) {
       syncSetup.remove()
     } else {
-      console.error('[Brave Settings Overrides] People Page cannot find syncSetup template')
+      console.error('[Presearch Settings Overrides] People Page cannot find syncSetup template')
     }
     const syncSetupAdvanced = templateContent.querySelector('template[is=dom-if][route-path="/syncSetup/advanced"]')
     if (syncSetupAdvanced) {
       syncSetupAdvanced.remove()
     } else {
-      console.error('[Brave Settings Overrides] People Page cannot find syncSetup/advanced template')
+      console.error('[Presearch Settings Overrides] People Page cannot find syncSetup/advanced template')
     }
     // always show the template content
     signinTemplate.setAttribute('if', 'true')
     // remove the google account button
     const manageGoogleAccount = signinTemplate.content.querySelector('#manage-google-account')
     if (!manageGoogleAccount) {
-      console.error('[Brave Settings Overrides] Could not find the google account settings item', templateContent, templateContent.textContent)
+      console.error('[Presearch Settings Overrides] Could not find the google account settings item', templateContent, templateContent.textContent)
       return
     }
     manageGoogleAccount.remove()
     // Edit profile item needs to know it's the first in the section
     const firstItem = signinTemplate.content.querySelector('#edit-profile')
     if (!firstItem) {
-      console.error('[Brave Settings Overrides] Could not find #edit-profile item in people_page')
+      console.error('[Presearch Settings Overrides] Could not find #edit-profile item in people_page')
       return
     }
     firstItem.classList.add('first')

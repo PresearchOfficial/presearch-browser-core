@@ -9,7 +9,7 @@ RegisterPolymerTemplateModifications({
   'settings-safety-check-passwords-child': (templateContent) => {
     const safetyCheckChild = templateContent.getElementById('safetyCheckChild')
     if (!safetyCheckChild) {
-      console.error('[Brave Settings Overrides] Could not find safetyCheckChild id on safety check passwords child page.')
+      console.error('[Presearch Settings Overrides] Could not find safetyCheckChild id on safety check passwords child page.')
     } else {
       safetyCheckChild.setAttribute('hidden', 'true')
     }

@@ -210,12 +210,6 @@ handler.on(WalletActions.newUnapprovedTxAdded.getType(), async (store: Store, pa
   pageHandler.showApprovePanelUI()
 })
 
-handler.on(WalletPageActions.openWalletSettings.getType(), async (store) => {
-  chrome.tabs.create({ url: 'chrome://settings/wallet' }, () => {
-    if (chrome.runtime.lastError) {
-      console.error('tabs.create failed: ' + chrome.runtime.lastError.message)
-    }
-  })
-})
+handler.on(WalletPageActions.openWalletSettings.getType(), async (store) => {})
 
 export default handler.middleware

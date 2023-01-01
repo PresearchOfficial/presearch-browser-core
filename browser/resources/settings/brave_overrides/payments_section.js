@@ -9,7 +9,7 @@ RegisterPolymerTemplateModifications({
   'settings-payments-section': (templateContent) => {
     const manageLink = templateContent.querySelector('#manageLink')
     if (!manageLink) {
-      console.error('[Brave Settings Overrides] Could not find manage payments link')
+      console.error('[Presearch Settings Overrides] Could not find manage payments link')
     }
     manageLink.remove()
   }

@@ -24,7 +24,7 @@ RegisterPolymerTemplateModifications({
     if (!section.querySelector('a#release-notes')) {
       const version = section.querySelector('#updateStatusMessage ~ .secondary')
       if (!version) {
-        console.error('[Brave Settings Overrides] Could not find version div')
+        console.error('[Presearch Settings Overrides] Could not find version div')
       }
       const parent = version.parentNode
       const wrapper = document.createElement('a')

@@ -37,7 +37,7 @@ function getMenuElement (templateContent, href) {
         return menuEl
       }
     }
-    console.error(`[Brave Settings Overrides] Could not find menu item '${href}'`)
+    console.error(`[Presearch Settings Overrides] Could not find menu item '${href}'`)
   }
   return menuEl
 }
@@ -208,14 +208,14 @@ RegisterPolymerTemplateModifications({
     titleEl.textContent = loadTimeData.getString('settings')
     const topMenuEl = templateContent.querySelector('#topMenu')
     if (!topMenuEl) {
-      console.error('[Brave Settings Overrides] Could not find topMenu element to add title after')
+      console.error('[Presearch Settings Overrides] Could not find topMenu element to add title after')
     } else {
       topMenuEl.insertAdjacentElement('afterbegin', titleEl)
     }
     // Advanced text
     const advancedToggle = templateContent.querySelector('#advancedButton span')
     if (!advancedToggle) {
-      console.error('[Brave Settings Overrides] Could not find advancedButton to modify text')
+      console.error('[Presearch Settings Overrides] Could not find advancedButton to modify text')
     }
     advancedToggle.textContent = loadTimeData.getString('braveAdditionalSettingsTitle')
     // Add 'Get Started' item
@@ -247,14 +247,7 @@ RegisterPolymerTemplateModifications({
       'shields',
     )
     newTabEl.insertAdjacentElement('afterend', shieldsEl)
-    // Add Rewards item
-    const rewardsEl = createMenuElement(
-      loadTimeData.getString('braveRewards'),
-      '/rewards',
-      'brave_settings:rewards',
-      'rewards',
-    )
-    shieldsEl.insertAdjacentElement('afterend', rewardsEl)
+    
     // Add Embed Blocking item
     const embedEl = createMenuElement(
       loadTimeData.getString('socialBlocking'),
@@ -262,21 +255,16 @@ RegisterPolymerTemplateModifications({
       'brave_settings:social-permissions',
       'socialBlocking',
     )
-    rewardsEl.insertAdjacentElement('afterend', embedEl)
+    shieldsEl.insertAdjacentElement('afterend', embedEl)
+
     // Add privacy
     const privacyEl = getMenuElement(templateContent, '/privacy')
     embedEl.insertAdjacentElement('afterend', privacyEl)
-    // Add Sync item
-    const syncEl = createMenuElement(
-      loadTimeData.getString('braveSync'),
-      '/braveSync',
-      'brave_settings:sync',
-      'braveSync',
-    )
-    privacyEl.insertAdjacentElement('afterend', syncEl)
+
     // Move search item
     const searchEl = getMenuElement(templateContent, '/search')
-    syncEl.insertAdjacentElement('afterend', searchEl)
+    privacyEl.insertAdjacentElement('afterend', searchEl)
+
     // Add Extensions item
     const extensionEl = createMenuElement(
       loadTimeData.getString('braveDefaultExtensions'),
@@ -286,21 +274,13 @@ RegisterPolymerTemplateModifications({
     )
     searchEl.insertAdjacentElement('afterend', extensionEl)
 
-    const walletEl = createMenuElement(
-      loadTimeData.getString('braveWallet'),
-      '/wallet',
-      'brave_settings:wallet',
-      'wallet',
-    )
-    extensionEl.insertAdjacentElement('afterend', walletEl)
-
     const ipfsEl = createMenuElement(
       loadTimeData.getString('braveIPFS'),
       '/ipfs',
       'brave_settings:ipfs',
       'ipfs',
     )
-    walletEl.insertAdjacentElement('afterend', ipfsEl)
+    extensionEl.insertAdjacentElement('afterend', ipfsEl)
 
     // Move autofill to advanced
     const autofillEl = getMenuElement(templateContent, '/autofill')
@@ -321,13 +301,13 @@ RegisterPolymerTemplateModifications({
     // Remove extensions link
     const extensionsLinkEl = templateContent.querySelector('#extensionsLink')
     if (!extensionsLinkEl) {
-      console.error('[Brave Settings Overrides] Could not find extensionsLinkEl to remove')
+      console.error('[Presearch Settings Overrides] Could not find extensionsLinkEl to remove')
     }
     extensionsLinkEl.remove()
     // Add version number to 'about' link
     const aboutEl = templateContent.querySelector('#about-menu')
     if (!aboutEl) {
-      console.error('[Brave Settings Overrides] Could not find about-menu element')
+      console.error('[Presearch Settings Overrides] Could not find about-menu element')
       return
     }
     const parent = aboutEl.parentNode

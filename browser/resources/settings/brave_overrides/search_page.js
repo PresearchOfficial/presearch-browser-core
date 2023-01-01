@@ -12,7 +12,7 @@ RegisterPolymerTemplateModifications({
   'settings-search-page': (templateContent) => {
     const enginesSubpageTrigger = templateContent.getElementById('enginesSubpageTrigger')
     if (!enginesSubpageTrigger) {
-      console.error(`[Brave Settings Overrides] Couldn't find enginesSubpageTrigger`)
+      console.error(`[Presearch Settings Overrides] Couldn't find enginesSubpageTrigger`)
     } else {
       // For some reason with the conditional, ts_library processes this toggle
       // out from HTML if we put it into brave_search_engines_page.html, so

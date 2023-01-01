@@ -29,13 +29,7 @@ export interface Props {
 function OnboardingWelcome (props: Props) {
   const { onRestore, onSetup, onClickImportMetaMask, isMetaMaskInitialized, isCryptoWalletsInitialized } = props
 
-  const onClickSettings = () => {
-    chrome.tabs.create({ url: 'chrome://settings/wallet' }, () => {
-      if (chrome.runtime.lastError) {
-        console.error('tabs.create failed: ' + chrome.runtime.lastError.message)
-      }
-    })
-  }
+  const onClickSettings = () => {}
 
   const walletAlertText = getLocale('braveWalletCryptoWalletsDescriptionTwo')
   const { beforeTag, duringTag, afterTag } = splitStringForTag(walletAlertText)

@@ -12,14 +12,14 @@ RegisterPolymerTemplateModifications({
     if (!loadTimeData.getBoolean('isIdleDetectionFeatureEnabled')) {
       const idleDetectionItem = templateContent.querySelector('[category="[[contentSettingsTypesEnum_.IDLE_DETECTION]]"]')
       if (!idleDetectionItem) {
-        console.error(`[Brave Settings Overrides] Couldn't find idle detection item`)
+        console.error(`[Presearch Settings Overrides] Couldn't find idle detection item`)
       } else {
         idleDetectionItem.hidden = true
       }
     }
     const firstPermissionItem = templateContent.querySelector('div.list-frame > site-details-permission:nth-child(1)')
     if (!firstPermissionItem) {
-      console.error(`[Brave Settings Overrides] Couldn't find first permission item`)
+      console.error(`[Presearch Settings Overrides] Couldn't find first permission item`)
     } else {
       firstPermissionItem.insertAdjacentHTML('beforebegin', `
         <site-details-permission

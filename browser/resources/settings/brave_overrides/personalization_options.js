@@ -11,7 +11,7 @@ RegisterPolymerTemplateModifications({
   'settings-personalization-options': (templateContent) => {
     const metricsReportingControl = templateContent.getElementById('metricsReportingControl')
     if (!metricsReportingControl) {
-      console.error(`[Brave Settings Overrides] Couldn't find metricsReportingControl`)
+      console.error(`[Presearch Settings Overrides] Couldn't find metricsReportingControl`)
     } else {
       metricsReportingControl.insertAdjacentHTML('beforebegin', `
         <settings-brave-personalization-options prefs="{{prefs}}"></settings-brave-personalization-options>

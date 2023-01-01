@@ -129,8 +129,7 @@ void BraveBrowserCommandController::InitBraveCommandState() {
   if (!is_guest_session) {
     UpdateCommandForBraveRewards();
     UpdateCommandForBraveWallet();
-    if (syncer::IsSyncAllowedByFlag())
-      UpdateCommandForBraveSync();
+    UpdateCommandForBraveSync();
   }
   UpdateCommandForBraveAdblock();
   UpdateCommandForWebcompatReporter();

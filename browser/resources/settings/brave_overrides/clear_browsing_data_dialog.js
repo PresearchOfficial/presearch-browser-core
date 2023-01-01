@@ -5,8 +5,7 @@
 
 import {html} from 'chrome://resources/polymer/v3_0/polymer/polymer_bundled.min.js'
 import {BraveClearBrowsingDataOnExitBehavior} from '../brave_clear_browsing_data_dialog/brave_clear_browsing_data_dialog_behavior.js'
-import {RegisterPolymerComponentBehaviors, RegisterPolymerTemplateModifications, RegisterStyleOverride} from 'chrome://brave-resources/polymer_overriding.js'
-import {loadTimeData} from '../i18n_setup.js'
+import {RegisterPolymerComponentBehaviors, RegisterStyleOverride} from 'chrome://brave-resources/polymer_overriding.js'
 
 RegisterStyleOverride(
   'settings-clear-browsing-data-dialog',
@@ -24,19 +23,4 @@ RegisterPolymerComponentBehaviors({
   'settings-clear-browsing-data-dialog': [
     BraveClearBrowsingDataOnExitBehavior
   ]
-})
-
-RegisterPolymerTemplateModifications({
-  'settings-clear-browsing-data-dialog': (templateContent) => {
-    const body = templateContent.querySelector('[slot="body"]')
-
-    if (!body) {
-      console.error(`[Brave Settings Overrides] cannot find 'slot="body"' in clear-browsing-data-dialog`)
-      return
-    }
-
-    body.insertAdjacentHTML(
-      'beforeend',
-      `<a id="rewards-reset-data" href="chrome://rewards/#manage-wallet">${loadTimeData.getString('resetRewardsData')}</a>`)
-  }
 })

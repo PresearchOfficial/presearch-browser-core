@@ -564,13 +564,7 @@ handler.on(PanelActions.expandWalletAddAsset.getType(), async (store) => {
   })
 })
 
-handler.on(PanelActions.openWalletSettings.getType(), async (store) => {
-  chrome.tabs.create({ url: 'chrome://settings/wallet' }, () => {
-    if (chrome.runtime.lastError) {
-      console.error('tabs.create failed: ' + chrome.runtime.lastError.message)
-    }
-  })
-})
+handler.on(PanelActions.openWalletSettings.getType(), async (store) => {})
 
 handler.on(WalletActions.transactionStatusChanged.getType(), async (store: Store, payload: TransactionStatusChanged) => {
   const state = getPanelState(store)

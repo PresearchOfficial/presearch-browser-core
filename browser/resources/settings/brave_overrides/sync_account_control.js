@@ -10,11 +10,11 @@ RegisterPolymerTemplateModifications({
     const banner = templateContent.querySelector('#banner')
     const promo_header = templateContent.querySelector('#promo-header')
     if (!banner) {
-      console.error('[Brave Settings Overrides] Could not find sync banner')
+      console.error('[Presearch Settings Overrides] Could not find sync banner')
       return
     }
     if (!promo_header) {
-      console.error('[Brave Settings Overrides] Could not find promo header')
+      console.error('[Presearch Settings Overrides] Could not find promo header')
       return
     }
     banner.hidden = true

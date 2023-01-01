@@ -617,13 +617,7 @@ handler.on(WalletActions.cancelTransaction.getType(), async (store: Store, paylo
   }
 })
 
-handler.on(WalletActions.expandWalletNetworks.getType(), async (store) => {
-  chrome.tabs.create({ url: 'chrome://settings/wallet/networks' }, () => {
-    if (chrome.runtime.lastError) {
-      console.error('tabs.create failed: ' + chrome.runtime.lastError.message)
-    }
-  })
-})
+handler.on(WalletActions.expandWalletNetworks.getType(), async (store) => {})
 
 handler.on(WalletActions.setSelectedNetworkFilter.getType(), async (store: Store, payload: BraveWallet.NetworkInfo) => {
   const state = getWalletState(store)
