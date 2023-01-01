@@ -91,7 +91,7 @@ Polymer({
 
     // PrefControlMixin checks for a pref being valid, so have to fake it,
     // same as upstream.
-    const setTorEnabledPref = (enabled) => this.setTorEnabledPref_(enabled);
+    const setTorEnabledPref = this.setTorEnabledPref_(false);
     this.addWebUIListener('tor-enabled-changed', setTorEnabledPref);
     this.browserProxy_.isTorEnabled().then(setTorEnabledPref);
 
@@ -123,7 +123,7 @@ Polymer({
   },
 
   onTorEnabledChange_: function() {
-    this.browserProxy_.setTorEnabled(this.$.torEnabled.checked);
+    this.browserProxy_.setTorEnabled(false);
   },
 
   setWidevineEnabledPref_: function (enabled) {
