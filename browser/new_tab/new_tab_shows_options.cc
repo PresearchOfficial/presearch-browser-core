@@ -50,16 +50,6 @@ GURL GetNewTabPageURL(Profile* profile) {
 base::Value GetNewTabShowsOptionsList(Profile* profile) {
   base::Value list(base::Value::Type::LIST);
 
-  base::Value dashboard_option(base::Value::Type::DICTIONARY);
-  dashboard_option.SetIntKey(
-      "value",
-      static_cast<int>(NewTabPageShowsOptions::kDashboard));
-  dashboard_option.SetStringKey(
-      "name",
-      l10n_util::GetStringUTF8(
-          IDS_SETTINGS_NEW_TAB_NEW_TAB_PAGE_SHOWS_DASHBOARD));
-  list.Append(std::move(dashboard_option));
-
   base::Value homepage_option(base::Value::Type::DICTIONARY);
   homepage_option.SetIntKey(
       "value",
