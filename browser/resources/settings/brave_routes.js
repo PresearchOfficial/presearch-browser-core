@@ -9,13 +9,13 @@ import {loadTimeData} from './i18n_setup.js'
 export default function addBraveRoutes(r) {
   const isGuest = loadTimeData.getBoolean('isGuest')
   if (!r.BASIC) {
-    console.error('[Brave Settings Overrides] Routes: could not find BASIC page')
+    console.error('[Presearch Settings Overrides] Routes: could not find BASIC page')
   }
   if (pageVisibility.getStarted) {
     r.GET_STARTED = r.BASIC.createSection('/getStarted', 'getStarted')
     // bring back people's /manageProfile (now in getStarted)
     r.MANAGE_PROFILE = r.GET_STARTED.createChild('/manageProfile');
-    // We re-section people page into getStarted section (see people_page Brave
+    // We re-section people page into getStarted section (see people_page Presearch
     // override), so we need to adjust the route accordingly in order for the
     // direct navigation to presearch://settings/importData to work.
     if (r.IMPORT_DATA) {
@@ -51,22 +51,22 @@ export default function addBraveRoutes(r) {
     if (r.SITE_SETTINGS_ADS) {
       delete r.SITE_SETTINGS_ADS
     } else {
-      console.error('[Brave Settings Overrides] could not find expected route site_settings_ads')
+      console.error('[Presearch Settings Overrides] could not find expected route site_settings_ads')
     }
   } else if (!isGuest) {
-    console.error('[Brave Settings Overrides] Routes: could not find SITE_SETTINGS page')
+    console.error('[Presearch Settings Overrides] Routes: could not find SITE_SETTINGS page')
   }
   // Autofill route is moved to advanced,
   // otherwise its sections won't show up when opened.
   if (r.AUTOFILL && r.ADVANCED) {
     r.AUTOFILL.parent = r.ADVANCED
   } else if (!isGuest) {
-    console.error('[Brave Settings Overrides] Could not move autofill route to advanced route', r)
+    console.error('[Presearch Settings Overrides] Could not move autofill route to advanced route', r)
   }
   // Safety check route is moved to advanced.
   if (r.SAFETY_CHECK && r.ADVANCED) {
     r.SAFETY_CHECK.parent = r.ADVANCED
   } else if (!isGuest) {
-    console.error('[Brave Settings Overrides] Could not move safety check route to advanced route', r)
+    console.error('[Presearch Settings Overrides] Could not move safety check route to advanced route', r)
   }
 }

@@ -10,7 +10,12 @@ const alwaysTrue = {
   get: () => true
 }
 
+const alwaysFalse = {
+  get: () => false
+}
+
 const alwaysTrueProxy = new Proxy({}, alwaysTrue)
+const alwaysFalseProxy = new Proxy({}, alwaysFalse)
 
 function getPageVisibility () {
   // Use chromium value defined in page_visibility.js in guest mode
@@ -47,7 +52,8 @@ function getPageVisibility () {
     appearance: alwaysTrueProxy,
     privacy: alwaysTrueProxy,
     // custom properties
-    braveSync: !loadTimeData.getBoolean('isSyncDisabled'),
+    braveSync: alwaysFalseProxy,
+    braveWallet: alwaysFalseProxy,
   }
   // Proxy so we can respond to any other property
   return new Proxy(staticProps, {
