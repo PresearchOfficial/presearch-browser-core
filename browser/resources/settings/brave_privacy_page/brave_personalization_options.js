@@ -59,11 +59,11 @@ Polymer({
     // Can't use `prefs` property of `settings-toggle-button` directly
     // because p3a enabled is a local state setting, but PrefControlMixin
     // checks for a pref being valid, so have to fake it, same as upstream.
-    const setP3AEnabledPref = (enabled) => this.setP3AEnabledPref_(enabled);
+    const setP3AEnabledPref = this.setP3AEnabledPref_(false);
     this.addWebUIListener('p3a-enabled-changed', setP3AEnabledPref);
     this.browserProxy_.getP3AEnabled().then(setP3AEnabledPref);
 
-    const setStatsUsagePingEnabledPref = (enabled) => this.setStatsUsagePingEnabledPref_(enabled);
+    const setStatsUsagePingEnabledPref = this.setStatsUsagePingEnabledPref_(false);
     this.addWebUIListener('stats-usage-ping-enabled-changed', setStatsUsagePingEnabledPref);
     this.browserProxy_.getStatsUsagePingEnabled().then(setStatsUsagePingEnabledPref);
   },
