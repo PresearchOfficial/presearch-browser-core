@@ -166,7 +166,7 @@ bool WebDiscoveryDialogView::ShouldShowCloseButton() const {
 }
 
 void WebDiscoveryDialogView::OnAcceptButtonClicked() {
-  prefs_->SetBoolean(kWebDiscoveryEnabled, true);
+  prefs_->SetBoolean(kWebDiscoveryEnabled, false);
 }
 
 void WebDiscoveryDialogView::OnWindowClosing() {

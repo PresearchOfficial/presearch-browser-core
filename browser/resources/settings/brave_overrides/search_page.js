@@ -17,17 +17,6 @@ RegisterPolymerTemplateModifications({
       // For some reason with the conditional, ts_library processes this toggle
       // out from HTML if we put it into brave_search_engines_page.html, so
       // instead adding it this way.
-<if expr="enable_extensions">
-      enginesSubpageTrigger.insertAdjacentHTML('beforebegin', `
-        <settings-toggle-button id="webDiscoveryEnabled"
-          class="cr-row"
-          pref="{{prefs.brave.web_discovery_enabled}}"
-          label="${I18nBehavior.i18n('braveWebDiscoveryLabel')}"
-          sub-label="${I18nBehavior.i18n('braveWebDiscoverySubLabel')}"
-          learn-more-url="${I18nBehavior.i18n('webDiscoveryLearnMoreURL')}"
-        </settings-toggle-button>
-      `)
-</if>
       enginesSubpageTrigger.insertAdjacentHTML('beforebegin', `
         <settings-brave-search-page prefs="{{prefs}}"></settings-brave-search-page>
       `)
