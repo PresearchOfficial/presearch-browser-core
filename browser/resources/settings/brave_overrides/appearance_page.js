@@ -26,26 +26,7 @@ RegisterPolymerTemplateModifications({
       `)
     }
     const r = Router.getInstance().routes_
-    // Super-referral
-    // W/o super referral, we don't need to themes link option with themes sub
-    // page.
-    const hasSuperReferral = (
-      loadTimeData.valueExists(superReferralStringId) &&
-      loadTimeData.getString(superReferralStringId) !== ''
-    )
-    if (hasSuperReferral) {
-      // Routes
-      if (!r.APPEARANCE) {
-        console.error('[Presearch Settings Overrides] Routes: could not find APPEARANCE page')
-        return
-      } else {
-        r.THEMES = r.APPEARANCE.createChild('/themes');
-        // Hide chromium's theme section. It's replaced with our themes page.
-        if (theme) {
-          theme.remove()
-        }
-      }
-    }
+
     // Toolbar prefs
     const bookmarkBarToggle = templateContent.querySelector('[pref="{{prefs.bookmark_bar.show_on_all_tabs}}"]')
     if (!bookmarkBarToggle) {

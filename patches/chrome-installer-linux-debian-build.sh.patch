@@ -62,7 +62,7 @@ index 67c0de84efcd65f3c608083cac78c31af894b0a9..e716558029a1907f94c31f918524f65f
        exit 1
        ;;
    esac
-+  RELEASENOTES="https://brave.com/latest/"
++  RELEASENOTES="https://news.presearch.io/"
  }
  
  process_opts() {
