@@ -300,8 +300,7 @@ void BraveStatsUpdater::OnServerPingTimerFired() {
   if (base::CompareCaseInsensitiveASCII(today_ymd, last_check_ymd) == 0)
     return;
 
-  const bool reporting_enabled =
-      pref_service_->GetBoolean(kStatsReportingEnabled);
+  const bool reporting_enabled = false;
   if (!reporting_enabled) {
     if (g_testing_stats_updated_callback)
       g_testing_stats_updated_callback->Run(GURL(kInvalidUrl));
@@ -458,7 +457,7 @@ void BraveStatsUpdater::SendUserTriggeredPing() {
 void RegisterLocalStatePrefs(PrefRegistrySimple* registry) {
   registry->RegisterBooleanPref(kFirstCheckMade, false);
   registry->RegisterBooleanPref(kThresholdCheckMade, false);
-  registry->RegisterBooleanPref(kStatsReportingEnabled, true);
+  registry->RegisterBooleanPref(kStatsReportingEnabled, false);
   registry->RegisterStringPref(kThresholdQuery, std::string());
   registry->RegisterIntegerPref(kLastCheckWOY, 0);
   registry->RegisterIntegerPref(kLastCheckMonth, 0);

@@ -72,26 +72,26 @@ Polymer({
     const pref = {
       key: '',
       type: chrome.settingsPrivate.PrefType.BOOLEAN,
-      value: enabled,
+      value: false,
     };
     this.p3aEnabledPref_ = pref;
   },
 
   onP3AEnabledChange_: function() {
-    this.browserProxy_.setP3AEnabled(this.$.p3aEnabled.checked);
+    this.browserProxy_.setP3AEnabled(false);
   },
 
   setStatsUsagePingEnabledPref_: function (enabled) {
     const pref = {
       key: '',
       type: chrome.settingsPrivate.PrefType.BOOLEAN,
-      value: enabled,
+      value: false,
     };
     this.statsUsagePingEnabledPref_ = pref;
   },
 
   onStatsUsagePingEnabledChange_: function() {
-    this.browserProxy_.setStatsUsagePingEnabled(this.$.statsUsagePingEnabled.checked);
+    this.browserProxy_.setStatsUsagePingEnabled(false);
   },
 
   shouldShowRestart_: function(enabled) {

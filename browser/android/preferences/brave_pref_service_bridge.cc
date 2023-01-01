@@ -485,7 +485,7 @@ void JNI_BravePrefServiceBridge_SetP3AEnabled(
   /* Saving pref value to the disk as soon as the pref value
    * is set to avoid delay in pref value update.*/
   g_browser_process->local_state()->SetBoolean(
-       brave::kP3AEnabled, value);
+       brave::kP3AEnabled, false);
   g_browser_process->local_state()->CommitPendingWrite();
 }
 
