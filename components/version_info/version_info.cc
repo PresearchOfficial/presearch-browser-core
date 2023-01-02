@@ -8,7 +8,7 @@
 namespace version_info {
 
 std::string GetBraveVersionWithoutChromiumMajorVersion() {
-  return std::string(BRAVE_BROWSER_VERSION) + "_Presearch";
+  return std::string(BRAVE_BROWSER_VERSION);
 }
 
 std::string GetBraveVersionNumberForDisplay() {
