@@ -8,14 +8,5 @@ import {RegisterPolymerTemplateModifications} from 'chrome://brave-resources/pol
 import '../brave_privacy_page/brave_personalization_options.m.js'
 
 RegisterPolymerTemplateModifications({
-  'settings-personalization-options': (templateContent) => {
-    const metricsReportingControl = templateContent.getElementById('metricsReportingControl')
-    if (!metricsReportingControl) {
-      console.error(`[Presearch Settings Overrides] Couldn't find metricsReportingControl`)
-    } else {
-      metricsReportingControl.insertAdjacentHTML('beforebegin', `
-        <settings-brave-personalization-options prefs="{{prefs}}"></settings-brave-personalization-options>
-      `)
-    }
-  },
+  'settings-personalization-options': (templateContent) => {},
 })

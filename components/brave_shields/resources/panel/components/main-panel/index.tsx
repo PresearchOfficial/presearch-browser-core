@@ -24,10 +24,6 @@ function MainPanel () {
     await getPanelBrowserAPI().dataHandler.openWebCompatWindow()
   }
 
-  const handleLearnMoreClick = () => {
-    chrome.tabs.create({ url: 'https://brave.com/privacy-features/', active: true })
-  }
-
   const onSettingsClick = () => {
     chrome.tabs.create({ url: 'chrome://settings/shields', active: true })
   }
@@ -100,9 +96,7 @@ function MainPanel () {
       </S.SiteTitleBox>
       <S.CountBox>
         <S.BlockNote>
-          {braveShieldsBlockedNote.beforeTag}
-          <a href="#" onClick={handleLearnMoreClick}>{braveShieldsBlockedNote.duringTag}</a>
-          {braveShieldsBlockedNote.afterTag}
+          {braveShieldsBlockedNote}
         </S.BlockNote>
         <S.BlockCount
           title={siteBlockInfo?.totalBlockedResources.toString()}

@@ -181,7 +181,7 @@ RegisterPolymerTemplateModifications({
       sectionSocialBlocking.insertAdjacentElement('afterend', sectionPrivacy)
       // Move search
       const sectionSearch = getSectionElement(actualTemplate.content, 'search')
-      sectionSocialBlocking.insertAdjacentElement('afterend', sectionSearch)
+      sectionPrivacy.insertAdjacentElement('afterend', sectionSearch)
       // Insert extensions
       sectionSearch.insertAdjacentElement('afterend', sectionExtensions)
       // Insert IPFS
