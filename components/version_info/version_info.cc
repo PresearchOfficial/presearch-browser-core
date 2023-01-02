@@ -8,16 +8,16 @@
 namespace version_info {
 
 std::string GetBraveVersionWithoutChromiumMajorVersion() {
-  return std::string(BRAVE_BROWSER_VERSION) + " Pre";
+  return std::string(BRAVE_BROWSER_VERSION) + "_Presearch";
 }
 
 std::string GetBraveVersionNumberForDisplay() {
   return std::string(BRAVE_BROWSER_VERSION) +
-         "  Chromium: " + BRAVE_CHROMIUM_VERSION + " Pre";
+         "  Chromium: " + BRAVE_CHROMIUM_VERSION + "_Presearch";
 }
 
 std::string GetBraveChromiumVersionNumber() {
-  return std::string(BRAVE_CHROMIUM_VERSION) + " Pre";
+  return std::string(BRAVE_CHROMIUM_VERSION) + "_Presearch";
 }
 
 }  // namespace version_info
