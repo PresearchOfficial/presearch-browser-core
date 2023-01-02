@@ -16,17 +16,17 @@ const char kRewardsUpholdSupport[] = "https://uphold.com/en/brave/support";
 const char kP3ALearnMoreURL[] = "https://presearch.com/";
 const char kP3ASettingsLink[] = "chrome://settings/privacy";
 const char kImportDataHelpURL[] =
-    "https://support.brave.com/hc/en-us/articles/360019782291#safari";
+    "https://support.presearch.io/hc/en-us/articles/360019782291#safari";
 const char kCryptoWalletsLearnMoreURL[] =
-    "https://support.brave.com/hc/en-us/articles/360034535452";
+    "https://support.presearch.io/hc/en-us/articles/360034535452";
 const char kPermissionPromptLearnMoreUrl[] =
     "https://github.com/brave/brave-browser/wiki/Web-API-Permissions";
 const char kSpeedreaderLearnMoreUrl[] =
-    "https://support.brave.com/hc/en-us/articles/"
+    "https://support.presearch.io/hc/en-us/articles/"
     "360045031392-What-is-SpeedReader";
 const char kWebDiscoveryLearnMoreUrl[] =
     "https://brave.com/privacy/browser/#web-discovery-project";
 const char kBraveSearchUrl[] = "https://search.brave.com/";
 const char kWidevineLearnMoreUrl[] =
-    "https://support.brave.com/hc/en-us/articles/"
+    "https://support.presearch.io/hc/en-us/articles/"
     "360023851591-How-do-I-view-DRM-protected-content-";

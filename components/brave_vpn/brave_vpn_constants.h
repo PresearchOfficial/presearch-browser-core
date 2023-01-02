@@ -74,7 +74,7 @@ constexpr char kManageUrlStaging[] = "http://account.bravesoftware.com/";
 constexpr char kManageUrlDev[] = "https://account.brave.software/";
 
 // TODO(simonhong): Update when vpn feedback url is ready.
-constexpr char kFeedbackUrl[] = "http://support.brave.com/";
+constexpr char kFeedbackUrl[] = "http://support.presearch.io/";
 constexpr char kAboutUrl[] = "https://brave.com/firewall-vpn/";
 
 constexpr char kBraveVPNEntryName[] = "BraveVPN";

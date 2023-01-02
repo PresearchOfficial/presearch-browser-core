@@ -67,7 +67,7 @@ export default class TorTab extends React.PureComponent<Props, {}> {
             {duringTag}
             </Link>
           {afterTag}
-          {!isConnecting && <Link href='https://support.brave.com/' target='_blank' style={{ margin: '0 0 0 5px' }}>{getLocale('torHelpContactSupport')}</Link>}
+          {!isConnecting && <Link href='https://support.presearch.io/' target='_blank' style={{ margin: '0 0 0 5px' }}>{getLocale('torHelpContactSupport')}</Link>}
         </Text>
       )
     }

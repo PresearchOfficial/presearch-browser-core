@@ -41,7 +41,7 @@ export default class QwantTab extends React.PureComponent<{}, {}> {
           <TorContent />
           <Separator />
           <FakeButton
-            href='https://support.brave.com/hc/en-us/articles/360018121491'
+            href='https://support.presearch.io/hc/en-us/articles/360018121491'
             target='_blank'
           >
             {getLocale('boxTorButton')}

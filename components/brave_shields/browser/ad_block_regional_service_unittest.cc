@@ -13,7 +13,7 @@ TEST(AdBlockRegionalServiceTest, UserModelLanguages) {
                                         "https://brave.com",
                                         "Testing Filter List",
                                         {"fr"},
-                                        "https://support.brave.com",
+                                        "https://support.presearch.io",
                                         "componentid",
                                         "base64publickey",
                                         "Filter list for testing purposes"));

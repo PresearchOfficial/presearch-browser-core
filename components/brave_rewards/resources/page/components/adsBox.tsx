@@ -214,7 +214,7 @@ class AdsBox extends React.Component<Props, State> {
               </ControlWrapper>
             </Column>
             <div>
-              {getLocale('adsSubdivisionTargetingDescription')} <a href={'https://support.brave.com/hc/en-us/articles/360026361072-Brave-Ads-FAQ'} target={'_blank'}>{getLocale('adsSubdivisionTargetingLearn')}</a>
+              {getLocale('adsSubdivisionTargetingDescription')} <a href={'https://support.presearch.io/hc/en-us/articles/360026361072-Brave-Ads-FAQ'} target={'_blank'}>{getLocale('adsSubdivisionTargetingLearn')}</a>
             </div>
           </> : null }
       </Grid>

@@ -59,7 +59,7 @@ export default class PrivateTab extends React.PureComponent<{}, {}> {
           </HeaderBox>
           <PrivacyEyeImage src={privacyEyeImg} />
           <Text isStandalonePrivatePage={true}>{locale.headerText1}</Text>
-          <Text isStandalonePrivatePage={true}>{locale.headerText2} <Link href='https://support.brave.com/hc/en-us/articles/360017840332' target='_blank' isStandalonePrivatePage={true}>{locale.headerButton}</Link></Text>
+          <Text isStandalonePrivatePage={true}>{locale.headerText2} <Link href='https://support.presearch.io/hc/en-us/articles/360017840332' target='_blank' isStandalonePrivatePage={true}>{locale.headerButton}</Link></Text>
         </Grid3Columns>
         {
           this.showAlternativePrivateSearchEngineToggle

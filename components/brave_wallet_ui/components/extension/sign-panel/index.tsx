@@ -92,7 +92,7 @@ function SignPanel (props: Props) {
   }
 
   const onClickLearnMore = () => {
-    window.open('https://support.brave.com/hc/en-us/articles/4409513799693', '_blank')
+    window.open('https://support.presearch.io/hc/en-us/articles/4409513799693', '_blank')
   }
 
   const signMessageQueueInfo = React.useMemo(() => {

@@ -206,7 +206,7 @@ class SettingsPage extends React.Component<Props, State> {
             id={'redirect-modal-device-limit-reached'}
             errorText={[getLocale('redirectModalDeviceLimitReachedText')]}
             titleText={getLocale('redirectModalDeviceLimitReachedTitle')}
-            learnMore={'https://support.brave.com/hc/en-us/articles/360056508071'}
+            learnMore={'https://support.presearch.io/hc/en-us/articles/360056508071'}
             buttonText={getLocale('redirectModalClose')}
             walletType={walletType}
             isMobile={true}
@@ -236,7 +236,7 @@ class SettingsPage extends React.Component<Props, State> {
               getLocale('redirectModalFlaggedWalletText2'),
               getLocale('redirectModalFlaggedWalletText3'),
               getLocale('redirectModalFlaggedWalletText4')]}
-            errorTextLink={'https://support.brave.com/hc/en-us/articles/4494596374925'}
+            errorTextLink={'https://support.presearch.io/hc/en-us/articles/4494596374925'}
             titleText={getLocale('redirectModalFlaggedWalletTitle')}
             buttonText={getLocale('redirectModalClose')}
             walletType={walletType}
@@ -262,7 +262,7 @@ class SettingsPage extends React.Component<Props, State> {
             id={'redirect-modal-mismatched-provider-accounts'}
             errorText={[getLocale('redirectModalMismatchedProviderAccountsText').replace('$1', getWalletProviderName(externalWallet))]}
             titleText={getLocale('redirectModalMismatchedProviderAccountsTitle')}
-            learnMore={'https://support.brave.com/hc/en-us/articles/360034841711-What-is-a-verified-wallet-'}
+            learnMore={'https://support.presearch.io/hc/en-us/articles/360034841711-What-is-a-verified-wallet-'}
             buttonText={getLocale('redirectModalClose')}
             walletType={walletType}
             isMobile={true}

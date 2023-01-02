@@ -33,7 +33,7 @@ export function PromoMobile () {
           title={locale.getString('promoTitle')}
           copy={locale.getString('promoCopy')}
           onDismissPromo={actionLogger('onDismissPromo')}
-          link={'https://support.brave.com/'}
+          link={'https://support.presearch.io/'}
         />
       </div>
     </LocaleContext.Provider>

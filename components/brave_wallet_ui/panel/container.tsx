@@ -369,7 +369,7 @@ function Container (props: Props) {
 
   const onNetworkLearnMore = () => {
     chrome.tabs.create({
-      url: 'https://support.brave.com/'
+      url: 'https://support.presearch.io/'
     }).catch((e) => { console.error(e) })
   }
 
@@ -460,7 +460,7 @@ function Container (props: Props) {
   }
 
   const onClickInstructions = () => {
-    const url = 'https://support.brave.com/hc/en-us/articles/4409309138701'
+    const url = 'https://support.presearch.io/hc/en-us/articles/4409309138701'
 
     chrome.tabs.create({ url }, () => {
       if (chrome.runtime.lastError) {

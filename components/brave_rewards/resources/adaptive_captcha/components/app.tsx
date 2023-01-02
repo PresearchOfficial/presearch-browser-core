@@ -31,7 +31,7 @@ export function App (props: Props) {
   }
 
   function onContactSupport () {
-    window.open('https://support.brave.com/', '_blank')
+    window.open('https://support.presearch.io/', '_blank')
   }
 
   return (
