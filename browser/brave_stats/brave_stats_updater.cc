@@ -306,7 +306,7 @@ void BraveStatsUpdater::OnServerPingTimerFired() {
       g_testing_stats_updated_callback->Run(GURL(kInvalidUrl));
     return;
   }
-  SendServerPing();
+  // SendServerPing();
 }
 
 bool BraveStatsUpdater::IsReferralInitialized() {
