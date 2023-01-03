@@ -40,17 +40,6 @@
 
 namespace brave {
 
-void ShowCrashReportPermissionAskDialog(Browser* browser) {
-  // On macOS, this dialog is not destroyed properly when session crashed bubble
-  // is launched directly.
-  base::SequencedTaskRunnerHandle::Get()->PostTask(
-      FROM_HERE, base::BindOnce(&ScheduleSessionCrashedBubble));
-}
-
-}  // namespace brave
-
-namespace {
-
 void ScheduleSessionCrashedBubble() {
   // It's ok to use lastly used browser because there will be only one when
   // this launched after un-cleaned exit.
@@ -58,4 +47,11 @@ void ScheduleSessionCrashedBubble() {
     SessionCrashedBubble::ShowIfNotOffTheRecordProfile(
         browser, /*skip_tab_checking=*/false);
 }
-}  // namespace
+
+void ShowCrashReportPermissionAskDialog(Browser* browser) {
+  // On macOS, this dialog is not destroyed properly when session crashed bubble
+  // is launched directly.
+  base::SequencedTaskRunnerHandle::Get()->PostTask(
+      FROM_HERE, base::BindOnce(&ScheduleSessionCrashedBubble));
+}
+}  // namespace brave
