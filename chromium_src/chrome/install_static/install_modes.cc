@@ -21,7 +21,7 @@ std::wstring GetUnregisteredKeyPathForProduct() {
 
 std::wstring GetClientsKeyPath(const wchar_t* app_guid) {
 #if defined(OFFICIAL_BUILD)
-  return std::wstring(L"Software\\BraveSoftware\\Update\\Clients\\")
+  return std::wstring(L"Software\\PresearchSoftware\\Update\\Clients\\")
       .append(app_guid);
 #else
   return GetUnregisteredKeyPathForProduct();
@@ -30,7 +30,7 @@ std::wstring GetClientsKeyPath(const wchar_t* app_guid) {
 
 std::wstring GetClientStateKeyPath(const wchar_t* app_guid) {
 #if defined(OFFICIAL_BUILD)
-  return std::wstring(L"Software\\BraveSoftware\\Update\\ClientState\\")
+  return std::wstring(L"Software\\PresearchSoftware\\Update\\ClientState\\")
       .append(app_guid);
 #else
   return GetUnregisteredKeyPathForProduct();
@@ -39,7 +39,7 @@ std::wstring GetClientStateKeyPath(const wchar_t* app_guid) {
 
 std::wstring GetClientStateMediumKeyPath(const wchar_t* app_guid) {
 #if defined(OFFICIAL_BUILD)
-  return std::wstring(L"Software\\BraveSoftware\\Update\\ClientStateMedium\\")
+  return std::wstring(L"Software\\PresearchSoftware\\Update\\ClientStateMedium\\")
       .append(app_guid);
 #else
   return GetUnregisteredKeyPathForProduct();

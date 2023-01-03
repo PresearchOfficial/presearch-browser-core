@@ -862,7 +862,7 @@ Berechtigungen, die du Apps bereits gewährt hast, gelten möglicherweise für d
 <translation id="1823098433522728610">Dieses Dokument enthält sensible Inhalte.</translation>
 <translation id="18245044880483936">Sicherungsdaten werden nicht auf das Google Drive-Speicherkontingent deines Kindes angerechnet.</translation>
 <translation id="1825565032302550710">Port muss zwischen 1024 und 65535 liegen</translation>
-<translation id="1826192255355608658">Lesezeichen, Passwörter, Verlauf und mehr in deinem Brave-Browser synchronisieren</translation>
+<translation id="1826192255355608658">Lesezeichen, Passwörter, Verlauf und mehr in deinem Presearch-Browser synchronisieren</translation>
 <translation id="1826516787628120939">Überprüfung läuft</translation>
 <translation id="1827738518074806965">Kunstgalerie</translation>
 <translation id="1828378091493947763">Dieses Plug-in wird auf diesem Gerät nicht unterstützt</translation>
@@ -914,7 +914,7 @@ Berechtigungen, die du Apps bereits gewährt hast, gelten möglicherweise für d
 <translation id="5547994882402969646">Die Passwortüberprüfung ist in Brave nicht verfügbar</translation>
 <translation id="1868617395637139709">Standortermittlung für Android-Apps und -Dienste nutzen.</translation>
 <translation id="1869433484041798909">Lesezeichen-Schaltfläche</translation>
-<translation id="7175072311426658869">In Brave-Browser öffnen</translation>
+<translation id="7175072311426658869">In Presearch-Browser öffnen</translation>
 <translation id="187145082678092583">Weniger Apps</translation>
 <translation id="1871463148436682760">Sehr schön!</translation>
 <translation id="1871534214638631766">Zugehörige Informationen durch Rechtsklick mit der Maus oder langes Drücken einblenden</translation>
@@ -2197,7 +2197,7 @@ Servernachricht: <ph name="SERVER_MSG"/></translation>
 <translation id="5418694430960033386">Entweder verfügt Brave nicht mehr über genügend Arbeitsspeicher oder der Prozess für die Webseite wurde aus einem anderen Grund beendet. Aktualisiere die Seite oder rufe eine andere Seite auf.</translation>
 <translation id="3084958266922136097">Bildschirmschoner deaktivieren</translation>
 <translation id="3085412380278336437">Die Website kann deine Kamera verwenden</translation>
-<translation id="3085431803365340433">Brave-Browser konnte nicht aktualisiert werden</translation>
+<translation id="3085431803365340433">Presearch-Browser konnte nicht aktualisiert werden</translation>
 <translation id="3088052000289932193">Die Website verwendet ein MIDI-Gerät</translation>
 <translation id="3088128611727407543">App-Profil wird vorbereitet...</translation>
 <translation id="3088325635286126843">&amp;Umbenennen...</translation>
@@ -2407,7 +2407,7 @@ Servernachricht: <ph name="SERVER_MSG"/></translation>
 <translation id="3320630259304269485">Safe Browsing (Schutz vor schädlichen Websites) und andere Sicherheitseinstellungen</translation>
 <translation id="3323295311852517824">{NUM_FILES,plural, =0{Diese Daten enthalten vertrauliche oder schädliche Inhalte. Entferne diese Inhalte und versuche es noch einmal.}=1{Diese Datei enthält vertrauliche oder schädliche Inhalte. Entferne diese Inhalte und versuche es noch einmal.}other{Diese Dateien enthalten vertrauliche oder schädliche Inhalte. Entferne diese Inhalte und versuche es noch einmal.}}</translation>
 <translation id="3323521181261657960">Bonus! Gerätenutzungsdauer verlängert</translation>
-<translation id="9044258386077615750">Änderungen, die du hier vornimmst, werden nur auf den Brave-Browser angewendet. Wenn du die Einstellungen des Lacros Brave-Browsers ändern möchtest, öffne den Lacros Brave-Browser und rufe die Einstellungen auf.</translation>
+<translation id="9044258386077615750">Änderungen, die du hier vornimmst, werden nur auf den Presearch-Browser angewendet. Wenn du die Einstellungen des Lacros Brave-Browsers ändern möchtest, öffne den Lacros Presearch-Browser und rufe die Einstellungen auf.</translation>
 <translation id="3325804108816646710">Es wird nach verfügbaren Profilen gesucht…</translation>
 <translation id="3325910708063135066">Kamera und Mikrofon wurden in den Mac-Systemeinstellungen ausgeschaltet</translation>
 <translation id="3327050066667856415">Chromebooks sind auf Sicherheit ausgelegt. Dein Gerät ist automatisch vor Malware geschützt – ganz ohne zusätzliche Software.</translation>
@@ -3899,7 +3899,7 @@ Möchtest du <ph name="CONTROL_PANEL_APPLET_NAME"/> starten?</translation>
 <translation id="4824037980212326045">Linux-Sicherung und ‑Wiederherstellung</translation>
 <translation id="4824958205181053313">Synchronisierung abbrechen?</translation>
 <translation id="4827675678516992122">Verbindung nicht möglich</translation>
-<translation id="4536267179863600153">Erweiterte Rechtschreibprüfung im Brave-Browser (Texte werden an Brave gesendet, um Rechtschreibvorschläge zu erhalten)</translation>
+<translation id="4536267179863600153">Erweiterte Rechtschreibprüfung im Presearch-Browser (Texte werden an Brave gesendet, um Rechtschreibvorschläge zu erhalten)</translation>
 <translation id="4827904420700932487">QR-Code für dieses Bild erstellen</translation>
 <translation id="4827970183019354123">URL-Prüfung</translation>
 <translation id="482952334869563894">USB-Geräte vom Anbieter <ph name="VENDOR_ID"/></translation>
@@ -4653,7 +4653,7 @@ Du kannst dieser Aktion mehrere Schalter zuweisen.</translation>
 <translation id="558918721941304263">Apps werden geladen...</translation>
 <translation id="5591644692203457362">Jede erweiterte Schlüsselverwendung</translation>
 <translation id="5592595402373377407">Noch nicht genügend Daten vorhanden</translation>
-<translation id="4620609007674235583">Brave-Browser</translation>
+<translation id="4620609007674235583">Presearch-Browser</translation>
 <translation id="5595485650161345191">Adresse bearbeiten</translation>
 <translation id="5596627076506792578">Weitere Optionen</translation>
 <translation id="5600348067066185292">Die Installation ist einfach und gelingt in wenigen Schritten. Du musst noch einmal alles bestätigen, bevor Änderungen an deinem Computer vorgenommen werden.</translation>
@@ -5151,7 +5151,7 @@ Du kannst dieser Aktion mehrere Schalter zuweisen.</translation>
 <translation id="6112294629795967147">Zum Anpassen der Größe tippen</translation>
 <translation id="6112727384379533756">Ticket hinzufügen</translation>
 <translation id="6112931163620622315">Smartphone prüfen</translation>
-<translation id="8589850327914845460">Hier kannst du die Standardsuchmaschine für den Brave-Browser und <ph name="DEVICE_TYPE"/> Launcher festlegen</translation>
+<translation id="8589850327914845460">Hier kannst du die Standardsuchmaschine für den Presearch-Browser und <ph name="DEVICE_TYPE"/> Launcher festlegen</translation>
 <translation id="6113942107547980621">Wenn du Smart Lock verwenden möchtest, wechsle zum Profil des Hauptnutzers deines Smartphones</translation>
 <translation id="6116921718742659598">Sprach- und Eingabeeinstellungen ändern</translation>
 <translation id="6119927814891883061">Gerät als „<ph name="DEVICE_NAME"/>“ benennen</translation>
@@ -5657,7 +5657,7 @@ Du kannst dieser Aktion mehrere Schalter zuweisen.</translation>
 <translation id="6608166463665411119">eSIM zurücksetzen</translation>
 <translation id="6610002944194042868">Übersetzungsoptionen</translation>
 <translation id="6611972847767394631">Hier findest du deine Tabs</translation>
-<translation id="6613668613087513143">Auf diesem Gerät ist nicht genügend Platz, um dieses Update durchzuführen. Bereinige <ph name="NECESSARY_SPACE"/> auf dem Gerät und versuch es dann noch einmal im Brave-Browser.</translation>
+<translation id="6613668613087513143">Auf diesem Gerät ist nicht genügend Platz, um dieses Update durchzuführen. Bereinige <ph name="NECESSARY_SPACE"/> auf dem Gerät und versuch es dann noch einmal im Presearch-Browser.</translation>
 <translation id="6615455863669487791">Zeigen</translation>
 <translation id="6618097958368085618">Trotzdem beibehalten</translation>
 <translation id="6618744767048954150">Läuft</translation>
@@ -5781,7 +5781,7 @@ Du kannst dieser Aktion mehrere Schalter zuweisen.</translation>
 <translation id="6740234557573873150"><ph name="FILE_NAME"/> angehalten</translation>
 <translation id="6741063444351041466"><ph name="BEGIN_LINK"/>Dein Administrator<ph name="END_LINK"/> hat Safe Browsing deaktiviert</translation>
 <translation id="6742339027238151589">Zugänglich für Skript</translation>
-<translation id="6554048679786998977">Erstellt automatisch Untertitel für Medien im Brave-Browser. Audioinhalte und Untertitel werden ausschließlich auf dem Gerät verarbeitet.</translation>
+<translation id="6554048679786998977">Erstellt automatisch Untertitel für Medien im Presearch-Browser. Audioinhalte und Untertitel werden ausschließlich auf dem Gerät verarbeitet.</translation>
 <translation id="6743841972744298686">Synchronisierungseinstellungen</translation>
 <translation id="6745592621698551453">Jetzt aktualisieren</translation>
 <translation id="6746124502594467657">Nach unten</translation>
@@ -6845,7 +6845,7 @@ Drücke zum Entfernen der Zuweisung einen bereits zugewiesenen Schalter oder ein
 <translation id="7799299114731150374">Der Hintergrund wurde festgelegt</translation>
 <translation id="7799817062559422778">Heller Modus</translation>
 <translation id="7800518121066352902">&amp;Gegen den Uhrzeigersinn drehen</translation>
-<translation id="1040069800786635119">Änderungen, die du hier vornimmst, werden nur auf den Lacros Brave-Browser angewendet. Wenn du deine Einstellungen für den Brave-Browser ändern möchtest, öffne den Brave-Browser und rufe die Einstellungen auf.</translation>
+<translation id="1040069800786635119">Änderungen, die du hier vornimmst, werden nur auf den Lacros Presearch-Browser angewendet. Wenn du deine Einstellungen für den Presearch-Browser ändern möchtest, öffne den Presearch-Browser und rufe die Einstellungen auf.</translation>
 <translation id="780301667611848630">Kein Interesse</translation>
 <translation id="7804072833593604762">Tab geschlossen</translation>
 <translation id="7805768142964895445">Status</translation>
@@ -8022,7 +8022,7 @@ Speichere deine Schlüsseldatei an einem sicheren Ort. Du benötigst die Datei, 
 <translation id="8991520179165052608">Die Website kann dein Mikrofon verwenden</translation>
 <translation id="899384117894244799">Nutzer mit eingeschränktem Zugriff entfernen</translation>
 <translation id="899403249577094719">Basis-URL für Netscape-Zertifikate</translation>
-<translation id="7113572760575285642">Dein persönlicher Brave-Browser – auf allen Geräten</translation>
+<translation id="7113572760575285642">Dein persönlicher Presearch-Browser – auf allen Geräten</translation>
 <translation id="899676909165543803">Der Fingerabdrucksensor ist die Taste rechts unten auf der Tastatur. Berühre ihn leicht mit dem Finger.</translation>
 <translation id="8999560016882908256">Syntaxfehler in Abschnitt: <ph name="ERROR_LINE"/></translation>
 <translation id="9003647077635673607">Auf allen Websites zulassen</translation>

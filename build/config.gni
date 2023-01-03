@@ -123,11 +123,11 @@ if (is_win) {
     brave_product_dir_name_suffix = "-Development"
   }
   brave_product_dir_name =
-      "BraveSoftware/Brave-Browser$brave_product_dir_name_suffix"
+      "PresearchSoftware/Presearch-Browser$brave_product_dir_name_suffix"
 
   if (base_sparkle_update_url == "") {
     base_sparkle_update_url =
-        "https://updates.bravesoftware.com/sparkle/Brave-Browser"
+        "https://updates.bravesoftware.com/sparkle/Presearch-Browser"
   }
 }
 

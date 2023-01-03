@@ -24,7 +24,7 @@ export const defaultTopSitesData = [
   },
   {
     name: 'Facebook',
-    url: 'https://www.facebook.com/BraveSoftware/',
+    url: 'https://www.facebook.com/PresearchSoftware/',
     favicon: FacebookFavicon,
     background: 'rgba(255,255,255,0.8)'
   },

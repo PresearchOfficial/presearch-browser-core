@@ -6,7 +6,7 @@
 # You can obtain one at http://mozilla.org/MPL/2.0/. */
 
 
-CHROMIUM_POLICY_KEY = 'SOFTWARE\\\\Policies\\\\BraveSoftware\\\\Brave'
+CHROMIUM_POLICY_KEY = 'SOFTWARE\\\\Policies\\\\PresearchSoftware\\\\Brave'
 
 
 def AddBravePolicies(template_file_contents):

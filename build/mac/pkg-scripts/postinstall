@@ -33,7 +33,7 @@ fi
 
 appNameNoDash=$(echo $appName | sed "s/-/ /g")
 installationAppPath="$installationPath/${appNameNoDash}.app"
-userDataDir="$HOME/Library/Application Support/BraveSoftware/${appName}"
+userDataDir="$HOME/Library/Application Support/PresearchSoftware/${appName}"
 promoCodePath="$userDataDir/promoCode"
 
 # pkg runs this script as root so we need to get current username

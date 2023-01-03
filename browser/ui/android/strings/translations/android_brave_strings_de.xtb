@@ -57,7 +57,7 @@
 <translation id="7142548388914389999">Erlaubt Produktanalyse, die den Datenschutz respektiert (P3A)</translation>
 <translation id="5254037869598726291">Mit anonymisierten P3A-Informationen kann Brave die Gesamtnutzung einschätzen und sicherstellen, dass wir beliebte Funktionen verbessern.</translation>
 <translation id="933652931229970927">Automatisch Diagnoseberichte senden</translation>
-<translation id="5987838417172370108">Helfen Sie mit, die Produktstabilität von Brave zu verbessern, indem Sie automatisch Diagnoseberichte senden, wenn der Brave-Browser abstürzt oder einfriert.</translation>
+<translation id="5987838417172370108">Helfen Sie mit, die Produktstabilität von Brave zu verbessern, indem Sie automatisch Diagnoseberichte senden, wenn der Presearch-Browser abstürzt oder einfriert.</translation>
 <translation id="7977176350719484850">Geschätzte nicht heruntergeladene\nDatenmenge</translation>
 <translation id="9008534313521214777">Ca. Zeit\ngespart</translation>
 <translation id="6572660632052512096">Desktop-Modus</translation>
@@ -103,7 +103,7 @@
 <translation id="48520986898237073">Weiter zur Wallet:</translation>
 <translation id="3570367516044491911">Als Standardbrowser setzen</translation>
 <translation id="6800338374677644736">Als Standardbrowser festlegen</translation>
-<translation id="19715420010996093">Wählen Sie Brave-Browser und tippen Sie auf „Immer“</translation>
+<translation id="19715420010996093">Wählen Sie Presearch-Browser und tippen Sie auf „Immer“</translation>
 <translation id="3546439402724649282">Brave ist bereits aus Ihr Standardbrowser gesetzt.</translation>
 <translation id="8389661903259423907">Sie haben bereits einen Standardbrowser festgelegt. Sie können den Standardbrowser in Ihren App-Einstellungen ändern.</translation>
 <translation id="8826007068782654809">Vielen Dank</translation>
@@ -856,7 +856,7 @@ Wenn Sie diese Anfrage nicht akzeptieren, wird das VPN nicht erneut verbunden un
 <translation id="3378339846292573874">Vorgeschlagenes Token hinzufügen</translation>
 <translation id="2322227405137827074">Möchten Sie dieses Token importieren?</translation>
 <translation id="1324417023773393937">Brave Browser</translation>
-<translation id="6044189892950611565">Benachrichtigungskanal für den Brave-Browser</translation>
+<translation id="6044189892950611565">Benachrichtigungskanal für den Presearch-Browser</translation>
 <translation id="7228169875515099943">DATEN</translation>
 <translation id="2218918398178303658">DNS über HTTPS</translation>
 <translation id="6602036279006002239">HINWEIS: Dieser Ersteller ist derzeit nicht konfiguriert, Trinkgelder aus deinem Wallet zu erhalten. Ihre Trinkgelder verbleiben als ausstehend in Ihrer Wallet und es wird 90 Tage lang automatisch weiter versucht.</translation>
