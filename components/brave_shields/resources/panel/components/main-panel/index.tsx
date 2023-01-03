@@ -13,7 +13,7 @@ function MainPanel () {
   const { siteBlockInfo } = React.useContext(DataContext)
 
   const braveShieldsStatusText = splitStringForTag(siteBlockInfo?.isShieldsEnabled ? getLocale('braveShieldsUp') : getLocale('braveShieldsDown'))
-  const braveShieldsBlockedNote = splitStringForTag(getLocale('braveShieldsBlockedNote'))
+  const braveShieldsBlockedNote = getLocale('braveShieldsBlockedNote')
   const braveShieldsBrokenText = splitStringForTag(getLocale('braveShieldsBroken'))
 
   const handleToggleChange = async (isOn: boolean) => {
