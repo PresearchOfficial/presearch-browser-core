@@ -33,4 +33,3 @@ const char ipfs_companion_beta_extension_id[] =
     "hjoieblefckbooibpepigmacodalfndh";
 
 const char google_translate_extension_id[] = "aapbdbdomjkkjkaonfhkkikfgjllcleb";
-
