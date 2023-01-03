@@ -11,7 +11,7 @@ index b31d14a673bb536c55ca146a3ad0100f6814e13f..32d252ca7c72d3d1e7ef1a4ddb4ef2fb
 +     <uses-permission-sdk-23 android:name="android.permission.READ_CONTACTS"/>
 +-->
      <uses-permission-sdk-23 android:name="android.permission.REORDER_TASKS"/>
-     <uses-permission-sdk-23 android:name="android.permission.REQUEST_INSTALL_PACKAGES"/>
+-    <uses-permission-sdk-23 android:name="android.permission.REQUEST_INSTALL_PACKAGES"/>
  
      <uses-permission android:name="android.permission.CAMERA" />
      <uses-permission android:name="android.permission.DOWNLOAD_WITHOUT_NOTIFICATION" />
