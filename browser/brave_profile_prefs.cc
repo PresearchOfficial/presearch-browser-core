@@ -336,10 +336,6 @@ void RegisterProfilePrefs(user_prefs::PrefRegistrySyncable* registry) {
   registry->RegisterBooleanPref(kNewTabPageShowGemini, false);
   registry->RegisterBooleanPref(kNewTabPageHideAllWidgets, false);
 
-  registry->RegisterIntegerPref(
-      kNewTabPageShowsOptions,
-      static_cast<int>(NewTabPageShowsOptions::kDashboard));
-
 #if BUILDFLAG(ENABLE_CUSTOM_BACKGROUND)
   registry->RegisterBooleanPref(kNewTabPageCustomBackgroundEnabled, false);
 #endif

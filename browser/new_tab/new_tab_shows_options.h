@@ -17,7 +17,6 @@ class Value;
 namespace brave {
 
 enum class NewTabPageShowsOptions {
-  kDashboard,
   kHomepage,
   kBlankpage
 };
