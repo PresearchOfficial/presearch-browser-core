@@ -32,12 +32,7 @@ namespace {
 
 bool ShouldShowTorProfileButton(Profile* profile) {
   DCHECK(profile);
-#if BUILDFLAG(ENABLE_TOR)
-  return !TorProfileServiceFactory::IsTorDisabled() &&
-         !profile->IsTor();
-#else
   return false;
-#endif
 }
 
 int GetProfileMenuTitleId(Profile* profile) {
