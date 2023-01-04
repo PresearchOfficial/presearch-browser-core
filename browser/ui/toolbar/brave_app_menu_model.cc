@@ -163,17 +163,18 @@ void BraveAppMenuModel::InsertBraveMenuItems() {
   // at BraveBrowserCommandController.
 
   // Step 1. Configure tab & windows section.
-  if (IsCommandIdEnabled(IDC_NEW_TOR_CONNECTION_FOR_SITE)) {
-    InsertItemWithStringIdAt(
-        GetIndexOfCommandId(IDC_NEW_WINDOW),
-        IDC_NEW_TOR_CONNECTION_FOR_SITE,
-        IDS_NEW_TOR_CONNECTION_FOR_SITE);
-  }
-  if (IsCommandIdEnabled(IDC_NEW_OFFTHERECORD_WINDOW_TOR)) {
-    InsertItemWithStringIdAt(GetIndexOfCommandId(IDC_NEW_INCOGNITO_WINDOW) + 1,
-                             IDC_NEW_OFFTHERECORD_WINDOW_TOR,
-                             IDS_NEW_OFFTHERECORD_WINDOW_TOR);
-  }
+  // Hide and disable Tor by commenting the 2 following cases 
+  // if (IsCommandIdEnabled(IDC_NEW_TOR_CONNECTION_FOR_SITE)) {
+  //   InsertItemWithStringIdAt(
+  //       GetIndexOfCommandId(IDC_NEW_WINDOW),
+  //       IDC_NEW_TOR_CONNECTION_FOR_SITE,
+  //       IDS_NEW_TOR_CONNECTION_FOR_SITE);
+  // }
+  // if (IsCommandIdEnabled(IDC_NEW_OFFTHERECORD_WINDOW_TOR)) {
+  //   InsertItemWithStringIdAt(GetIndexOfCommandId(IDC_NEW_INCOGNITO_WINDOW) + 1,
+  //                            IDC_NEW_OFFTHERECORD_WINDOW_TOR,
+  //                            IDS_NEW_OFFTHERECORD_WINDOW_TOR);
+  // }
 
   // Step 2. Configure second section that includes history, downloads and
   // bookmark. Then, insert brave items.

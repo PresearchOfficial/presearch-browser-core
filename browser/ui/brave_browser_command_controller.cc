@@ -176,9 +176,9 @@ void BraveBrowserCommandController::UpdateCommandForWebcompatReporter() {
 void BraveBrowserCommandController::UpdateCommandForTor() {
   // Enable new tor connection only for tor profile.
   UpdateCommandEnabled(IDC_NEW_TOR_CONNECTION_FOR_SITE,
-                       browser_->profile()->IsTor());
+                       false);
   UpdateCommandEnabled(IDC_NEW_OFFTHERECORD_WINDOW_TOR,
-                       !brave::IsTorDisabledForProfile(browser_->profile()));
+                       false);
 }
 #endif
 
