@@ -202,7 +202,7 @@ bool BraveVPNButton::IsConnected() {
 }
 
 void BraveVPNButton::OnButtonPressed(const ui::Event& event) {
-  chrome::ExecuteCommand(browser_, IDC_SHOW_BRAVE_VPN_PANEL);
+  // chrome::ExecuteCommand(browser_, IDC_SHOW_BRAVE_VPN_PANEL);
 }
 
 BEGIN_METADATA(BraveVPNButton, LabelButton)

@@ -59,10 +59,10 @@ namespace settings {
 const char16_t kWebRTCLearnMoreURL[] =
     u"https://support.presearch.org/";
 const char16_t kBraveBuildInstructionsUrl[] =
-    u" https://support.presearch.org/";
+    u"https://github.com/PresearchOfficial/presearch-browser-android/blob/main/README.md";
 const char16_t kBraveLicenseUrl[] = u"https://mozilla.org/MPL/2.0/";
 const char16_t kBraveReleaseTagPrefix[] =
-    u"https://github.com/PresearchOfficial/presearch-browser-android/releases/tag/v";
+    u"https://github.com/PresearchOfficial/presearch-browser-android";
 const char16_t kGoogleLoginLearnMoreURL[] =
     u"https://github.com/brave/brave-browser/wiki/"
     u"Allow-Google-login---Third-Parties-and-Extensions";

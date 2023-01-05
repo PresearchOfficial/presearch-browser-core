@@ -205,26 +205,6 @@ void BraveAppMenuModel::InsertBraveMenuItems() {
                              IDS_SHOW_EXTENSIONS);
   }
 
-  if (IsCommandIdEnabled(IDC_SHOW_BRAVE_REWARDS)) {
-    InsertItemWithStringIdAt(GetIndexOfBraveRewardsItem(),
-                             IDC_SHOW_BRAVE_REWARDS,
-                             IDS_SHOW_BRAVE_REWARDS);
-  }
-
-  // Insert wallet menu after download menu.
-  if (IsCommandIdEnabled(IDC_SHOW_BRAVE_WALLET)) {
-    InsertItemWithStringIdAt(GetIndexOfCommandId(IDC_SHOW_DOWNLOADS) + 1,
-                             IDC_SHOW_BRAVE_WALLET,
-                             IDS_SHOW_BRAVE_WALLET);
-  }
-
-  // Insert sync menu
-  if (IsCommandIdEnabled(IDC_SHOW_BRAVE_SYNC)) {
-    InsertItemWithStringIdAt(GetIndexOfBraveSyncItem(),
-                             IDC_SHOW_BRAVE_SYNC,
-                             IDS_SHOW_BRAVE_SYNC);
-  }
-
 #if BUILDFLAG(ENABLE_SIDEBAR)
   if (sidebar::CanUseSidebar(browser())) {
     sub_menus_.push_back(std::make_unique<SidebarMenuModel>(browser()));
@@ -234,30 +214,11 @@ void BraveAppMenuModel::InsertBraveMenuItems() {
   }
 #endif
 
-#if BUILDFLAG(ENABLE_BRAVE_VPN)
-  const bool show_menu_item = IsCommandIdEnabled(IDC_BRAVE_VPN_MENU);
-  const bool show_panel_item = IsCommandIdEnabled(IDC_SHOW_BRAVE_VPN_PANEL);
-
-  if (show_menu_item) {
-    sub_menus_.push_back(std::make_unique<BraveVPNMenuModel>(browser()));
-    InsertSubMenuWithStringIdAt(GetIndexOfBraveVPNItem(), IDC_BRAVE_VPN_MENU,
-                                IDS_BRAVE_VPN_MENU, sub_menus_.back().get());
-  } else if (show_panel_item) {
-    InsertItemWithStringIdAt(GetIndexOfBraveVPNItem(), IDC_SHOW_BRAVE_VPN_PANEL,
-                             IDS_BRAVE_VPN_MENU);
-  }
-#endif
-
   // Insert adblock menu at last. Assumed this is always enabled.
   DCHECK(IsCommandIdEnabled(IDC_SHOW_BRAVE_ADBLOCK));
   InsertItemWithStringIdAt(GetIndexOfBraveAdBlockItem(),
                            IDC_SHOW_BRAVE_ADBLOCK,
                            IDS_SHOW_BRAVE_ADBLOCK);
-
-  // Insert webcompat reporter item.
-  InsertItemWithStringIdAt(GetIndexOfCommandId(IDC_ABOUT),
-                           IDC_SHOW_BRAVE_WEBCOMPAT_REPORTER,
-                           IDS_SHOW_BRAVE_WEBCOMPAT_REPORTER);
 
 #if BUILDFLAG(ENABLE_IPFS_LOCAL_NODE)
   if (IsCommandIdEnabled(IDC_APP_MENU_IPFS)) {
@@ -281,9 +242,7 @@ void BraveAppMenuModel::InsertBraveMenuItems() {
           IDC_APP_MENU_IPFS_PUBLISH_LOCAL_FOLDER,
           IDS_APP_MENU_IPFS_PUBLISH_LOCAL_FOLDER, keys_command_index);
     }
-    int index = IsCommandIdEnabled(IDC_SHOW_BRAVE_SYNC)
-                    ? GetIndexOfBraveSyncItem() + 1
-                    : GetIndexOfBraveAdBlockItem();
+    int index = GetIndexOfBraveAdBlockItem();
     InsertSubMenuWithStringIdAt(index, IDC_APP_MENU_IPFS, IDS_APP_MENU_IPFS,
                                 &ipfs_submenu_model_);
 
@@ -450,12 +409,8 @@ void BraveAppMenuModel::InsertAlternateProfileItems() {
 
 int BraveAppMenuModel::GetIndexOfBraveAdBlockItem() const {
   // Insert as a last item in second section.
-  std::vector<int> commands_to_check = {IDC_SHOW_BRAVE_VPN_PANEL,
-                                        IDC_BRAVE_VPN_MENU,
-                                        IDC_SIDEBAR_SHOW_OPTION_MENU,
-                                        IDC_SHOW_BRAVE_SYNC,
+  std::vector<int> commands_to_check = {IDC_SIDEBAR_SHOW_OPTION_MENU,
                                         IDC_MANAGE_EXTENSIONS,
-                                        IDC_SHOW_BRAVE_WALLET,
                                         IDC_SHOW_DOWNLOADS};
 
   return GetProperItemIndex(commands_to_check, true);
@@ -474,7 +429,7 @@ int BraveAppMenuModel::GetIndexOfBraveSyncItem() const {
   // Insert sync menu under extensions menu. If extensions menu is not
   // available, check above items.
   std::vector<int> commands_to_check = {
-      IDC_MANAGE_EXTENSIONS, IDC_SHOW_BRAVE_WALLET, IDC_SHOW_DOWNLOADS};
+      IDC_MANAGE_EXTENSIONS, IDC_SHOW_DOWNLOADS};
 
   return GetProperItemIndex(commands_to_check, true);
 }
@@ -482,7 +437,7 @@ int BraveAppMenuModel::GetIndexOfBraveSyncItem() const {
 #if BUILDFLAG(ENABLE_SIDEBAR)
 int BraveAppMenuModel::GetIndexOfBraveSidebarItem() const {
   std::vector<int> commands_to_check = {
-      IDC_SHOW_BRAVE_SYNC, IDC_MANAGE_EXTENSIONS, IDC_SHOW_BRAVE_WALLET,
+      IDC_MANAGE_EXTENSIONS,
       IDC_SHOW_DOWNLOADS};
 
   return GetProperItemIndex(commands_to_check, true);
@@ -492,8 +447,7 @@ int BraveAppMenuModel::GetIndexOfBraveSidebarItem() const {
 int BraveAppMenuModel::GetIndexOfBraveVPNItem() const {
 #if BUILDFLAG(ENABLE_BRAVE_VPN)
   std::vector<int> commands_to_check = {
-      IDC_SIDEBAR_SHOW_OPTION_MENU, IDC_SHOW_BRAVE_SYNC, IDC_MANAGE_EXTENSIONS,
-      IDC_SHOW_BRAVE_WALLET, IDC_SHOW_DOWNLOADS};
+      IDC_SIDEBAR_SHOW_OPTION_MENU, IDC_MANAGE_EXTENSIONS, IDC_SHOW_DOWNLOADS};
 
   return GetProperItemIndex(commands_to_check, true);
 #else
