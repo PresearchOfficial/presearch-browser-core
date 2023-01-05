@@ -40,7 +40,7 @@ GURL GetNewTabPageURL(Profile* profile) {
     // NewTab route will handle for blank page.
     return GURL();
   } else {
-    return GURL(https://presearch.com);
+    return GURL("https://presearch.com");
   }
 
   return GURL();
