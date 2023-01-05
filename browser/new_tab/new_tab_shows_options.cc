@@ -36,13 +36,7 @@ GURL GetNewTabPageURL(Profile* profile) {
     if (prefs->GetBoolean(prefs::kHomePageIsNewTabPage))
       return GURL("https://presearch.com"); // Default to presearch search link
     return GURL(prefs->GetString(prefs::kHomePage));
-  } else if (option == NewTabPageShowsOptions::kBlankpage) {
-    // NewTab route will handle for blank page.
-    return GURL();
-  } else {
-    return GURL("https://presearch.com");
-  }
-
+  } 
   return GURL();
 }
 
