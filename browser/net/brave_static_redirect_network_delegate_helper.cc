@@ -117,7 +117,7 @@ int OnBeforeURLRequest_StaticRedirectWorkForGURL(
 
   if (crxDownload_pattern.MatchesURL(request_url)) {
     replacements.SetSchemeStr("https");
-    replacements.SetHostStr("ad-blocking-lists.presearch.com");
+    replacements.SetHostStr("crxdownload.brave.com");
     *new_url = request_url.ReplaceComponents(replacements);
     return net::OK;
   }
