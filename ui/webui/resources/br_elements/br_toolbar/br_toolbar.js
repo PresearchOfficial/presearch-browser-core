@@ -30,22 +30,12 @@ Polymer({
     // Tooltip to display on the menu button.
     menuLabel: String,
 
-    // Promotional toolstip string, shown in narrow mode if showMenuPromo is
-    // true.
-    menuPromo: String,
-
     // Value is proxied through to cr-toolbar-search-field. When true,
     // the search field will show a processing spinner.
     spinnerActive: Boolean,
 
     // Controls whether the menu button is shown at the start of the menu.
     showMenu: {type: Boolean, value: false},
-
-    // Whether to show menu promo tooltip.
-    showMenuPromo: {
-      type: Boolean,
-      value: false,
-    },
 
     // Controls whether the search field is shown.
     showSearch: {type: Boolean, value: true},
@@ -66,8 +56,6 @@ Polymer({
       type: Number,
       value: 900,
     },
-
-    closeMenuPromo: String,
 
     noSearch: {
       observer: 'noSearchChanged_',
@@ -113,15 +101,6 @@ Polymer({
     this.$.search.hidden = this.noSearch
   },
 
-  /**
-   * @param {string} title
-   * @param {boolean} showMenuPromo
-   * @return {string} The title if the menu promo isn't showing, else "".
-   */
-  titleIfNotShowMenuPromo_: function(title, showMenuPromo) {
-    return showMenuPromo ? '' : title;
-  },
-
   getNavItemSelectedClassName: function(itemName) {
     // which navigation item is the current page?
     let currentWebUIName = document.location.hostname
@@ -136,37 +115,6 @@ Polymer({
     return ''
   },
 
-  notifyIfExtraSlotFilled() {
-    const slotIsFilled = this.toolbarExtraSlot.assignedNodes().length !== 0
-    const classNameFilled = '-slot-filled'
-    if (slotIsFilled) {
-      this.toolbarExtraElement.classList.add(classNameFilled)
-    } else {
-      this.toolbarExtraElement.classList.remove(classNameFilled)
-    }
-  },
-
-  initSlotFilledDetection: function() {
-    // Style the 'extra items' slot only if it containts
-    // content.
-    const toolbarExtraElement = this.$$('.toolbar-extra')
-    if (!toolbarExtraElement) {
-      console.error('Could not find "toolbar-extra" element')
-      return
-    }
-    const toolbarExtraSlot = toolbarExtraElement.querySelector('slot')
-    if (!toolbarExtraSlot) {
-      console.error('Could not find "toolbar-extra" slot')
-      return
-    }
-    this.toolbarExtraElement = toolbarExtraElement
-    this.toolbarExtraSlot = toolbarExtraSlot
-    this.notifyIfExtraSlotFilled()
-    toolbarExtraSlot.addEventListener('slotchange',  (e) => {
-      this.notifyIfExtraSlotFilled()
-    })
-  },
-
   initStrings: function() {
     this.historyTitle = loadTimeData.getString('brToolbarHistoryTitle')
     this.settingsTitle = loadTimeData.getString('brToolbarSettingsTitle')
@@ -176,7 +124,6 @@ Polymer({
 
   /** @override */
   attached: function() {
-    this.initSlotFilledDetection()
     this.initStrings()
     this.initFontLoadDetection()
   },
