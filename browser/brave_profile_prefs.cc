@@ -320,21 +320,23 @@ void RegisterProfilePrefs(user_prefs::PrefRegistrySyncable* registry) {
                                 base::Value(false));
 
   // Importer: selected data types
-  registry->RegisterBooleanPref(kImportDialogExtensions, true);
-  registry->RegisterBooleanPref(kImportDialogPayments, true);
+  registry->RegisterBooleanPref(kImportDialogExtensions, false);
+  registry->RegisterBooleanPref(kImportDialogPayments, false);
 
   // IPFS companion extension
   registry->RegisterBooleanPref(kIPFSCompanionEnabled, false);
 
   // New Tab Page
-  registry->RegisterBooleanPref(kNewTabPageShowClock, true);
+  registry->RegisterBooleanPref(kNewTabPageShowClock, false);
   registry->RegisterStringPref(kNewTabPageClockFormat, "");
-  registry->RegisterBooleanPref(kNewTabPageShowStats, true);
-  registry->RegisterBooleanPref(kNewTabPageShowRewards, true);
+  registry->RegisterBooleanPref(kNewTabPageShowStats, false);
+  registry->RegisterBooleanPref(kNewTabPageShowRewards, false);
   registry->RegisterBooleanPref(kNewTabPageShowBinance, false);
-  registry->RegisterBooleanPref(kNewTabPageShowBraveTalk, true);
+  registry->RegisterBooleanPref(kNewTabPageShowBraveTalk, false);
   registry->RegisterBooleanPref(kNewTabPageShowGemini, false);
   registry->RegisterBooleanPref(kNewTabPageHideAllWidgets, false);
+  registry->RegisterIntegerPref(kNewTabPageShowsOptions,
+                  static_cast<int>(NewTabPageShowsOptions::kHomepage));
 
 #if BUILDFLAG(ENABLE_CUSTOM_BACKGROUND)
   registry->RegisterBooleanPref(kNewTabPageCustomBackgroundEnabled, false);
@@ -368,8 +370,8 @@ void RegisterProfilePrefs(user_prefs::PrefRegistrySyncable* registry) {
 #endif
 
   // Autocomplete in address bar
-  registry->RegisterBooleanPref(kAutocompleteEnabled, true);
-  registry->RegisterBooleanPref(kTopSiteSuggestionsEnabled, true);
+  registry->RegisterBooleanPref(kAutocompleteEnabled, false);
+  registry->RegisterBooleanPref(kTopSiteSuggestionsEnabled, false);
   registry->RegisterBooleanPref(kBraveSuggestedSiteSuggestionsEnabled, false);
 
   // Password leak detection should be disabled
