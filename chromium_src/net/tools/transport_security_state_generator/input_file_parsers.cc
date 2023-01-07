@@ -349,7 +349,7 @@ tL4ndQavEi51mI38AjEAi/V3bNTIZargCyzuFJ0nN6T5U6VR5CmD1/iQMVtCnwr1
 /q4AaOeMSQ+2b1tbFfLn
 -----END CERTIFICATE-----
 
-xmamyINFO
+DigiCertGlobalRootCA
 -----BEGIN CERTIFICATE-----
 MIIF9zCCBN+gAwIBAgIQAlEY/ifvBbwtMcD8hdX5SzANBgkqhkiG9w0BAQsFADBu
 MQswCQYDVQQGEwJVUzEVMBMGA1UEChMMRGlnaUNlcnQgSW5jMRkwFwYDVQQLExB3
@@ -438,7 +438,7 @@ bool ParseJSON(base::StringPiece json,
           "DSTRootCA_X3",
           "ISRGRootCA_X1",
           "ISRGRootCA_X2",
-          "xmamyINFO"
+          "DigiCertGlobalRootCA"
         ]
       }
     ],
