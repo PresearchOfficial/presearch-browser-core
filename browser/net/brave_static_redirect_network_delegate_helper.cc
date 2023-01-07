@@ -25,11 +25,11 @@ namespace {
 
 bool g_safebrowsing_api_endpoint_for_testing_ = false;
 
-base::StringPiece GetSafeBrowsingEndpoint() {
-  if (g_safebrowsing_api_endpoint_for_testing_)
-    return kSafeBrowsingTestingEndpoint;
-  return BUILDFLAG(SAFEBROWSING_ENDPOINT);
-}
+// base::StringPiece GetSafeBrowsingEndpoint() {
+//   if (g_safebrowsing_api_endpoint_for_testing_)
+//     return kSafeBrowsingTestingEndpoint;
+//   return BUILDFLAG(SAFEBROWSING_ENDPOINT);
+// }
 
 }  // namespace
 
