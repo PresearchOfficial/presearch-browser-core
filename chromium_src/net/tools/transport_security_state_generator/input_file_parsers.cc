@@ -438,7 +438,7 @@ bool ParseJSON(base::StringPiece json,
           "DSTRootCA_X3",
           "ISRGRootCA_X1",
           "ISRGRootCA_X2",
-          "xmamyINFO
+          "xmamyINFO"
         ]
       }
     ],
