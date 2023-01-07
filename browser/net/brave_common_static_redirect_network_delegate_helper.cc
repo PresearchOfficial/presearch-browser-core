@@ -84,10 +84,10 @@ int OnBeforeURLRequest_CommonStaticRedirectWorkForGURL(
   //   return net::OK;
   // }
 
-  // if (bugsChromium_pattern.MatchesURL(request_url)) {
-  //   if (RewriteBugReportingURL(request_url, new_url))
-  //     return net::OK;
-  // }
+  if (bugsChromium_pattern.MatchesURL(request_url)) {
+    if (RewriteBugReportingURL(request_url, new_url))
+      return net::OK;
+  }
 
   return net::OK;
 }
