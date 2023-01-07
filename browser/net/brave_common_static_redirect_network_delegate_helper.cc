@@ -66,9 +66,9 @@ int OnBeforeURLRequest_CommonStaticRedirectWorkForGURL(
   //     URLPattern::SCHEME_HTTP | URLPattern::SCHEME_HTTPS, kChromeCastPrefix);
   // static URLPattern clients4_pattern(
   //     URLPattern::SCHEME_HTTP | URLPattern::SCHEME_HTTPS, kClients4Prefix);
-  // static URLPattern bugsChromium_pattern(
-  //     URLPattern::SCHEME_HTTP | URLPattern::SCHEME_HTTPS,
-  //     "*://bugs.chromium.org/p/chromium/issues/entry?*");
+  static URLPattern bugsChromium_pattern(
+      URLPattern::SCHEME_HTTP | URLPattern::SCHEME_HTTPS,
+      "*://bugs.chromium.org/p/chromium/issues/entry?*");
 
   // if (chromecast_pattern.MatchesURL(request_url)) {
   //   replacements.SetSchemeStr("https");
