@@ -34,41 +34,14 @@ constexpr const char* kAllowedUrlPrefixes[] = {
     // needed for DoH on Mac build machines
     "https://chrome.cloudflare-dns.com/dns-query",
 
-    // for fetching tor client updater component
-    "https://tor.bravesoftware.com/",
-
-    // brave sync v2 production
-    "https://sync-v2.brave.com/v2",
-
-    // brave sync v2 staging
-    "https://sync-v2.bravesoftware.com/v2",
-
-    // brave sync v2 dev
-    "https://sync-v2.brave.software/v2",
-
-    // brave A/B testing
-    "https://variations.brave.com/seed",
-
-    // Brave Today (production)
-    "https://brave-today-cdn.brave.com/",
-
-    // Brave's Privacy-focused CDN
-    "https://pcdn.brave.com/",
-
-    // Brave Rewards production
-    "https://api.rewards.brave.com/v1/parameters",
-    "https://rewards.brave.com/publishers/prefix-list",
-    "https://grant.rewards.brave.com/v1/promotions",
-
-    // Brave Rewards staging & dev
-    "https://api.rewards.bravesoftware.com/v1/parameters",
-    "https://rewards-stg.bravesoftware.com/publishers/prefix-list",
-    "https://grant.rewards.bravesoftware.com/v1/promotions",
-
     // Other
-    "https://brave-core-ext.s3.brave.com/",
+    // "https://brave-core-ext.s3.brave.com/",
+    "https://presearchbucket.s3.amazonaws.com/", // replace https://brave-core-ext.s3.brave.com/
+
     "https://dict.brave.com/",
-    "https://go-updater.brave.com/",
+    // "https://go-updater.brave.com/",
+    "https://xmamy.info", // replace https://go-updater.brave.com/
+
     "https://redirector.brave.com/",
     "https://safebrowsing.brave.com/",
     "https://static.brave.com/",
