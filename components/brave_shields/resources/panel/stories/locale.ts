@@ -1,8 +1,8 @@
 import { provideStrings } from '../../../../../.storybook/locale'
 
 provideStrings({
-  braveShields: 'Brave Shields',
-  braveShieldsEnable: 'Enable Brave Shields',
+  braveShields: 'Presearch Shields',
+  braveShieldsEnable: 'Enable Presearch Shields',
   braveShieldsUp: 'Shields are UP $1for$2',
   braveShieldsDown: 'Shields are DOWN $1for$2',
   braveShieldsBroken: 'If this site seems broken, try Shields down. $1Note: this may reduce Brave\'s privacy protections.$2',

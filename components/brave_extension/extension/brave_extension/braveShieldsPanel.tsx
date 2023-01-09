@@ -46,6 +46,6 @@ Promise.all([
   )
 })
 .catch((error: any) => {
-  console.error('Problem mounting brave shields')
+  console.error('Problem mounting presearch shields')
   console.error(error)
 })

@@ -161,7 +161,7 @@
 <translation id="8275038454117074363">Importer</translation>
 <translation id="2088479175984386785">Importer de…</translation>
 <translation id="5540323067375019678">Gérez vos protections</translation>
-<translation id="3278033011827237847">Protégez-vous contre les publicités et les trackers portant atteinte à la vie privée lorsque vous naviguez avec Brave Shields. Réglez Shields sur « faible » si un site ne semble pas fonctionner correctement.</translation>
+<translation id="3278033011827237847">Protégez-vous contre les publicités et les trackers portant atteinte à la vie privée lorsque vous naviguez avec Presearch Shields. Réglez Shields sur « faible » si un site ne semble pas fonctionner correctement.</translation>
 <translation id="3366308997091824722">Réglages du bouclier</translation>
 <translation id="4764692524839457597">par défaut</translation>
 <translation id="3108122610701115301">Définir le réglage par défaut</translation>
@@ -171,7 +171,7 @@
 <translation id="3829010735958850433">Sauter la visite guidée</translation>
 <translation id="1201402288615127009">Suivant</translation>
 <translation id="7954950242989581218">Naviguez en toute sécurité</translation>
-<translation id="2188651882929633653">Brave Shields bloque les éléments louches qui essayent de vous suivre sur le web, dont la plupart des publicités. Réglez Shields sur « bas » si un site ne semble pas fonctionner. Brave utilise <ph name="BEGIN_LINK_P3A"/>une analyse de produits entièrement privée<ph name="END_LINK_P3A"/> pour estimer l'utilisation générale de certaines fonctionnalités. Vous pouvez désactiver cela dans <ph name="BEGIN_LINK_P3A_SETTINGS"/>Réglages<ph name="END_LINK_P3A_SETTINGS"/>.</translation>
+<translation id="2188651882929633653">Presearch Shields bloque les éléments louches qui essayent de vous suivre sur le web, dont la plupart des publicités. Réglez Shields sur « bas » si un site ne semble pas fonctionner. Brave utilise <ph name="BEGIN_LINK_P3A"/>une analyse de produits entièrement privée<ph name="END_LINK_P3A"/> pour estimer l'utilisation générale de certaines fonctionnalités. Vous pouvez désactiver cela dans <ph name="BEGIN_LINK_P3A_SETTINGS"/>Réglages<ph name="END_LINK_P3A_SETTINGS"/>.</translation>
 <translation id="4851215387785619212">Publicités privées de Brave</translation>
 <translation id="3114984266384096064">Gagnez des [[currency]] en regardant des annonces privées Brave. Les annonces sont présentées en fonction de vos centres d'intérêt, tels qu'ils sont déduits de votre comportement de navigation. Vos données personnelles ou votre historique de navigation ne quittent jamais votre navigateur.</translation>
 <translation id="6112368337882254910">Auto-Contribuer</translation>

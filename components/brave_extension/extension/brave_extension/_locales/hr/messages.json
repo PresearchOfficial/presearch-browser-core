@@ -189,7 +189,7 @@
   },
   "shieldsExplanation": {
     "message": "Na mrežnim se mjestima obično nalaze kolačići i skripte kojima se pokušavate identificirati vi i vaš uređaj (obično ugrađeni u oglase). Njima se želi saznati tko ste i pratiti vas na internetu — praćenje što radite na svakom mrežnom mjestu. Brave blokira navedene stavke kako biste mogli pregledavati internet, a da vas se pritom ne prati.",
-    "description": "Message in read-only view explaining what Brave Shields do"
+    "description": "Message in read-only view explaining what Presearch Shields do"
   },
   "blockedResoucesExplanation": {
     "message": "Blokirani elementi za praćenje na više mrežnih mjesta i ostale čudne stavke",

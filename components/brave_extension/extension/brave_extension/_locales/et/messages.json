@@ -189,7 +189,7 @@
   },
   "shieldsExplanation": {
     "message": "Saidid sisaldavad tihti küpsiseid ja skripte, mis üritavad teid ja teie seadet tuvastada (tihti on need manustatud reklaamidesse). Need soovivad teada saada, kes te olete ja teid veebis jälitada, ehk jälgida, mida igal saidil teete. Brave blokeerib need asjad, et saaksite sirvida ilma, et keegi teid jälitaks.",
-    "description": "Message in read-only view explaining what Brave Shields do"
+    "description": "Message in read-only view explaining what Presearch Shields do"
   },
   "blockedResoucesExplanation": {
     "message": "Saitidevahelised jälitajad ja muud kahtlased asjad on blokeeritud",

@@ -5,7 +5,7 @@
 [
   {
     "namespace": "braveShields",
-    "description": "Use the <code>chrome.braveShields</code> API to receive notifications about the status of brave shields.",
+    "description": "Use the <code>chrome.braveShields</code> API to receive notifications about the status of presearch shields.",
     "compiler_options": {
       "implemented_in": "brave/browser/extensions/api/brave_shields_api.h"
     },
@@ -49,7 +49,7 @@
       {
         "name": "setBraveShieldsEnabled",
         "type": "function",
-        "description": "Set brave shields control type for a url",
+        "description": "Set presearch shields control type for a url",
         "parameters": [
           {
             "name": "enabled",
@@ -99,7 +99,7 @@
       {
         "name": "getBraveShieldsEnabled",
         "type": "function",
-        "description": "Get brave shields control type for a url",
+        "description": "Get presearch shields control type for a url",
         "parameters": [
           {
             "name": "url",

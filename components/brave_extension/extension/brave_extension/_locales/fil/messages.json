@@ -189,7 +189,7 @@
   },
   "shieldsExplanation": {
     "message": "Ang mga site ay kadalasang may kasamang cookies at mga script na susubukang tukuyin ka at ang iyong device (kadalasang naka-embed sa mga ad). Gusto ng mga itong makilala at masundan ka sa buong web — kung saan sinusubaybayan ng mga ito kung ano ang ginagawa mo sa bawat site. Bina-block ng Brave ang mga bagay na ito nang sa gayon ay makapag-browse ka nang hindi nasusundan sa kahit saan.",
-    "description": "Message in read-only view explaining what Brave Shields do"
+    "description": "Message in read-only view explaining what Presearch Shields do"
   },
   "blockedResoucesExplanation": {
     "message": "Naka-block ang mga cross-site na tracker at iba pang hindi kanais-nais na bagay",

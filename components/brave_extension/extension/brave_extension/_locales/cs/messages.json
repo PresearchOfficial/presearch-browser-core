@@ -189,7 +189,7 @@
   },
   "shieldsExplanation": {
     "message": "Na stránkách se často objevují cookies a skripty, které se snaží identifikovat vás a vaše zařízení (často jsou součástí reklam). Chtějí zjistit, kdo jste a sledovat vás na síti - stopovat tak vaši aktivitu na všech stránkách. Brave tyto věci blokuje, takže můžete brouzdat po internetu, aniž byste byli sledováni.",
-    "description": "Message in read-only view explaining what Brave Shields do"
+    "description": "Message in read-only view explaining what Presearch Shields do"
   },
   "blockedResoucesExplanation": {
     "message": "Mezistránkové trackery a jiné podivnosti blokovány",

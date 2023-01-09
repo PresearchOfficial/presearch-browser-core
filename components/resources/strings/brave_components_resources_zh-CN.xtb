@@ -161,7 +161,7 @@
 <translation id="8275038454117074363">导入</translation>
 <translation id="2088479175984386785">导入自...</translation>
 <translation id="5540323067375019678">管理 Shield</translation>
-<translation id="3278033011827237847">让您在用 Brave Shields 浏览期间受到保护，免受侵犯隐私的广告和追踪器之害。如果站点没有正常工作，请将“Set Shields”设置为“down”。</translation>
+<translation id="3278033011827237847">让您在用 Presearch Shields 浏览期间受到保护，免受侵犯隐私的广告和追踪器之害。如果站点没有正常工作，请将“Set Shields”设置为“down”。</translation>
 <translation id="3366308997091824722">Shield 设置</translation>
 <translation id="4764692524839457597">默认</translation>
 <translation id="3108122610701115301">设为默认</translation>
@@ -171,7 +171,7 @@
 <translation id="3829010735958850433">跳过欢迎导览</translation>
 <translation id="1201402288615127009">下一步</translation>
 <translation id="7954950242989581218">Browse 安然无恙</translation>
-<translation id="2188651882929633653">Brave Shields 拦截了尝试在 Web 上—跟踪您的大部分恶意内容（包括许多广告）。如果某个站点无法正常运行，请将“设置为关闭”。Brave 使用 <ph name="BEGIN_LINK_P3A"/>completely private product analytics<ph name="END_LINK_P3A"/> 来估算特定功能的整体使用情况。您可以在 <ph name="BEGIN_LINK_P3A_SETTINGS"/>Settings<ph name="END_LINK_P3A_SETTINGS"/>中将其关闭。</translation>
+<translation id="2188651882929633653">Presearch Shields 拦截了尝试在 Web 上—跟踪您的大部分恶意内容（包括许多广告）。如果某个站点无法正常运行，请将“设置为关闭”。Brave 使用 <ph name="BEGIN_LINK_P3A"/>completely private product analytics<ph name="END_LINK_P3A"/> 来估算特定功能的整体使用情况。您可以在 <ph name="BEGIN_LINK_P3A_SETTINGS"/>Settings<ph name="END_LINK_P3A_SETTINGS"/>中将其关闭。</translation>
 <translation id="4851215387785619212">Brave 专属广告</translation>
 <translation id="3114984266384096064">通过观看 Brave 专属广告来赚取 [[currency]]。展示的广告是基于您的兴趣（根据您的浏览行为推断而来的）。没有任何个人数据或浏览历史记录会离开您的浏览器。</translation>
 <translation id="6112368337882254910">自动贡献</translation>
@@ -1207,7 +1207,7 @@
 <translation id="1992750560347846445">报告站点</translation>
 <translation id="2387532482048804818">如果此站点在启用 Shields 后无法正常工作，请告诉我们。</translation>
 <translation id="3795015906457257780">您正在没有 Brave 隐私保护的情况下浏览本网站。</translation>
-<translation id="7194012750329511146">Brave Shields
+<translation id="7194012750329511146">Presearch Shields
 <ph name="NUMBER"/> 个跟踪器、广告及更多项目已被阻止</translation>
 <translation id="1742469581923031760">正在连接...</translation>
 <translation id="1287487756047817908">正在断开连接...</translation>

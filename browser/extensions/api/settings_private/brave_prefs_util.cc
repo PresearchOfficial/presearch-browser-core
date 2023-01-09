@@ -95,7 +95,7 @@ const PrefsUtil::TypedPrefMap& BravePrefsUtil::GetAllowlistedKeys() {
       settings_api::PrefType::PREF_TYPE_BOOLEAN;
   (*s_brave_allowlist)[kImportDialogPayments] =
       settings_api::PrefType::PREF_TYPE_BOOLEAN;
-  // Default Brave shields
+  // Default Presearch Shields
   (*s_brave_allowlist)[kShieldsAdvancedViewEnabled] =
       settings_api::PrefType::PREF_TYPE_BOOLEAN;
   (*s_brave_allowlist)[kShieldsStatsBadgeVisible] =

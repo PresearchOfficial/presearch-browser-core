@@ -1,7 +1,7 @@
 <?xml version="1.0" ?>
 <!DOCTYPE translationbundle>
 <translationbundle lang="ko">
-<translation id="7307834434086582547">Brave Shields 활성화/비활성화</translation>
+<translation id="7307834434086582547">Presearch Shields 활성화/비활성화</translation>
 <translation id="3570081523466826008">연결을 HTTPS로 업그레이드</translation>
 <translation id="2278950434998763147">일부 웹사이트를 일반 HTTP 대신 보안 HTTPS를 사용하여 엽니다.</translation>
 <translation id="5510493033031835532">AMP 페이지 자동 리디렉션</translation>
@@ -17,7 +17,7 @@
 <translation id="8877432762827303535">온라인 결제</translation>
 <translation id="6583902294974160967">지원</translation>
 <translation id="1799030480311994998">기능</translation>
-<translation id="2005732746077850308">Brave Shields 및 프라이버시</translation>
+<translation id="2005732746077850308">Presearch Shields 및 프라이버시</translation>
 <translation id="4692623383562244444">검색 엔진</translation>
 <translation id="1468415711258933398">일반 탭</translation>
 <translation id="3377025655491224618">비공개 탭</translation>
@@ -70,7 +70,7 @@
 <translation id="410351446219883937">자동재생</translation>
 <translation id="7445411102860286510">사이트에서 음소거된 동영상을 자동재생하도록 허용(권장)</translation>
 <translation id="7837721118676387834">특정 사이트에서 음소거된 동영상이 자동재생되도록 허용합니다.</translation>
-<translation id="181905442828471321">Brave Shields 전역 기본값</translation>
+<translation id="181905442828471321">Presearch Shields 전역 기본값</translation>
 <translation id="2675679258824361492">기타 프라이버시 설정</translation>
 <translation id="8026334261755873520">인터넷 사용 기록 삭제</translation>
 <translation id="5965081608816406060">백그라운드 동영상 재생</translation>
@@ -88,7 +88,7 @@
 <translation id="986879628471635371">온보딩 문제 해결</translation>
 <translation id="5808759341041733958">기본 검색 엔진 선택</translation>
 <translation id="1331593888918588693">나중에 언제든 앱 설정에서 기본 설정을 변경하실 수 있습니다.</translation>
-<translation id="5806601733251372221">Brave Shields</translation>
+<translation id="5806601733251372221">Presearch Shields</translation>
 <translation id="8537217141725709400"><ph name="TOKEN"/> 적립</translation>
 <translation id="3333887201479867589">Brave Rewards</translation>
 <translation id="5870330605209713397">개인 정보 보호 광고를 보셔서 기본적으로 선호하는 사이트와 작성자를 지원하세요.</translation>
@@ -868,12 +868,12 @@
 <translation id="4282642752844565114">글자 수가 올바르지 않습니다</translation>
 <translation id="8267327690882073581">월렛 검증하기</translation>
 <translation id="6589609065569680305">트래커 &amp; 광고가 이 페이지에서 차단되었습니다.</translation>
-<translation id="1283922192221545319">Brave Shields가 방금 나의 프라이버시를 보호했습니다.</translation>
+<translation id="1283922192221545319">Presearch Shields가 방금 나의 프라이버시를 보호했습니다.</translation>
 <translation id="3286927551967858325">살펴보기</translation>
 <translation id="6227291358910554399">이 웹 사이트에서 동영상을 시청하는 동안 광고가 차단됩니다.</translation>
 <translation id="7802980684512102010">광고 없는 동영상은 데이터를 덜 사용합니다.</translation>
 <translation id="2046475855484346614">10개 이상의 트래커 &amp; 광고가 이 페이지에서 차된되었습니다.</translation>
-<translation id="5806208250835099572">Brave Shields는 모든 사이트에서 나의 온라인 프라이버시를 보호합니다.</translation>
+<translation id="5806208250835099572">Presearch Shields는 모든 사이트에서 나의 온라인 프라이버시를 보호합니다.</translation>
 <translation id="5617673581653540121">이제 연결이 암호화되었습니다.</translation>
 <translation id="4055107796760496928">가능한 경우, Brave에서 자동으로 안전한 연결로 업그레이드해줍니다.</translation>
 <translation id="8869714780588464835">뉴스 공유</translation>

@@ -25,10 +25,10 @@ const locale = {
   fakeSearchProvider2: 'Google (default)',
   // fourth screen
   // protectYourPrivacy: 'Manage your shields',
-  // adjustProtectionLevel: 'Protect against privacy-invading ads and trackers while browsing with Brave Shields. Set Shields to "down" if a site doesn’t seem to be working properly.',
+  // adjustProtectionLevel: 'Protect against privacy-invading ads and trackers while browsing with Presearch Shields. Set Shields to "down" if a site doesn’t seem to be working properly.',
   // showMeWhere: 'Show Shields',
   p3aHead: 'Browse safe and sound',
-  p3aBody: 'Brave Shields blocks the creepy stuff that tries to track you across the web — including most ads. Brave uses completely private product analytics to estimate the overall usage of certain features. Turn this off in ',
+  p3aBody: 'Presearch Shields blocks the creepy stuff that tries to track you across the web — including most ads. Brave uses completely private product analytics to estimate the overall usage of certain features. Turn this off in ',
   p3aSettings: 'Settings',
   p3aLink1: '#',
   p3aLink2: '#',

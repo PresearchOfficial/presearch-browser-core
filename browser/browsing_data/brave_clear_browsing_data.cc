@@ -98,7 +98,7 @@ bool BrowsingDataRemovalWatcher::GetClearBrowsingDataOnExitSettings(
     *origin_mask |= content::BrowsingDataRemover::ORIGIN_TYPE_PROTECTED_WEB;
   }
 
-  // Note: this will also delete Brave Shields site-specific settings.
+  // Note: this will also delete Presearch Shields site-specific settings.
   // Corresponds to "Content settings" checkbox in the Clear Browsing Data
   // dialog.
   if (prefs->GetBoolean(browsing_data::prefs::kDeleteSiteSettingsOnExit))

@@ -189,7 +189,7 @@
   },
   "shieldsExplanation": {
     "message": "Sovint els llocs inclouen galetes i scripts que proven d'identificar-te a tu i al teu dispositiu (sovint incrustats en anuncis). Volen esbrinar qui ets i seguir-te a través de la xarxa, rastrejant el que fas a cada lloc. Brave bloca aquestes coses de manera que puguis navegar sense que et segueixin.",
-    "description": "Message in read-only view explaining what Brave Shields do"
+    "description": "Message in read-only view explaining what Presearch Shields do"
   },
   "blockedResoucesExplanation": {
     "message": "Rastrejadors entre dominis i altres coses inquietants blocades",

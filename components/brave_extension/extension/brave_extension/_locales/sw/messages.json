@@ -189,7 +189,7 @@
   },
   "shieldsExplanation": {
     "message": "Mara nyingi tovuti inajumuisha vidakuzi na hati ambazo hujaribu kukutambua wewe na kifaa chako (mara nyingi hupachikwa katika matangazo). Zinataka kujua wewe ni  nani na kukufuata kwenye wavuti — kufuatilia unachokifanya kwenye kila tovuti. Brave huzuia mambo haya ili uweze kuvinjari bila kufuatiliwa.",
-    "description": "Message in read-only view explaining what Brave Shields do"
+    "description": "Message in read-only view explaining what Presearch Shields do"
   },
   "blockedResoucesExplanation": {
     "message": "Vishambulizi vya tovuti nzima na mambo mengine ya ajabu yaliyozuiwa.",

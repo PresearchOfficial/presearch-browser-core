@@ -1,7 +1,7 @@
 <?xml version="1.0" ?>
 <!DOCTYPE translationbundle>
 <translationbundle lang="id">
-<translation id="7307834434086582547">Aktifkan/Nonaktifkan Brave Shields</translation>
+<translation id="7307834434086582547">Aktifkan/Nonaktifkan Presearch Shields</translation>
 <translation id="3570081523466826008">Tingkatkan koneksi ke HTTPS</translation>
 <translation id="2278950434998763147">Membuka sejumlah situs dengan menggunakan koneksi HTTPS aman ketimbang HTTP biasa.</translation>
 <translation id="5510493033031835532">Halaman AMP yang diarahkan otomatis</translation>
@@ -88,7 +88,7 @@
 <translation id="986879628471635371">Pengenalan Penyelesaian Masalah</translation>
 <translation id="5808759341041733958">Pilih mesin pencarian default</translation>
 <translation id="1331593888918588693">Anda dapat selalu mengganti preferensi nanti di pengaturan aplikasi.</translation>
-<translation id="5806601733251372221">Brave Shields</translation>
+<translation id="5806601733251372221">Presearch Shields</translation>
 <translation id="8537217141725709400">Dapatkan <ph name="TOKEN"/></translation>
 <translation id="3333887201479867589">Brave Rewards</translation>
 <translation id="5870330605209713397">dengan melihat iklan yang menghormati privasi dan mendukung situs dan kreator favorit Anda secara default.</translation>
@@ -336,7 +336,7 @@ Anda yakin ingin melakukan hal ini?</translation>
 <translation id="769702552748212954">Izinkan semua pemindaian sidik jari</translation>
 <translation id="876424292214881779">Iklan dan hal mencurigakan lainnya diblokir</translation>
 <translation id="6930134873084561197">Situs kerap memiliki cookie dan skrip yang berupaya mengidentifikasi Anda dan perangkat Anda. Mereka ingin mengetahui siapa Anda dan mengikuti Anda ke seantero web - melacak aktivitas Anda di setiap situs.\n\nBrave memblokir hal-hal ini agar Anda dapat meramban tanpa diikuti.</translation>
-<translation id="8553998445606452168">Seputar Brave Shields</translation>
+<translation id="8553998445606452168">Seputar Presearch Shields</translation>
 <translation id="8912304686498704084">PASANG</translation>
 <translation id="4963218453264888510">TURUN</translation>
 <translation id="7474113515179313724">Anda sedang meramban situs ini tanpa perlindungan privasi Brave. Apakah ini tidak berfungsi dengan benar jika memasang Shield?</translation>
@@ -869,12 +869,12 @@ Jika Anda tidak menerima permintaan ini, VPN tidak akan tersambung kembali dan s
 <translation id="4282642752844565114">Jumlah kata tidak tepat</translation>
 <translation id="8267327690882073581">Verifikasi Dompet</translation>
 <translation id="6589609065569680305">Pelacak &amp; iklan diblokir di halaman ini.</translation>
-<translation id="1283922192221545319">Brave Shields baru saja melindungi privasi Anda.</translation>
+<translation id="1283922192221545319">Presearch Shields baru saja melindungi privasi Anda.</translation>
 <translation id="3286927551967858325">Lihat</translation>
 <translation id="6227291358910554399">Iklan diblokir saat menonton video di situs web ini.</translation>
 <translation id="7802980684512102010">Video tanpa iklan menggunakan kuota data lebih sedikit.</translation>
 <translation id="2046475855484346614">10+ pelacak &amp; iklan diblokir di halaman ini.</translation>
-<translation id="5806208250835099572">Brave Shields melindungi privasi daring Anda di setiap situs.</translation>
+<translation id="5806208250835099572">Presearch Shields melindungi privasi daring Anda di setiap situs.</translation>
 <translation id="5617673581653540121">Koneksi Anda sekarang dienkripsi.</translation>
 <translation id="4055107796760496928">Jika tersedia, Brave secara otomatis mengubah koneksi jadi koneksi aman.</translation>
 <translation id="8869714780588464835">Bagikan kabar</translation>

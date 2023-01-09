@@ -1,7 +1,7 @@
 <?xml version="1.0" ?>
 <!DOCTYPE translationbundle>
 <translationbundle lang="fi">
-<translation id="7307834434086582547">Ota Brave Shields käyttöön tai poista se käytöstä</translation>
+<translation id="7307834434086582547">Ota Presearch Shields käyttöön tai poista se käytöstä</translation>
 <translation id="3570081523466826008">Nosta yhteystasoksi HTTPS</translation>
 <translation id="2278950434998763147">Avaa joitakin sivustoja käyttämällä suojattua HTTPS-yhteyttä pelkän HTTP:n sijaan.</translation>
 <translation id="5510493033031835532">AMP-sivujen automaattinen uudelleenohjaus</translation>
@@ -88,7 +88,7 @@
 <translation id="986879628471635371">Perehdytysprosessin vianetsintä</translation>
 <translation id="5808759341041733958">Valitse oletusarvoinen hakukone</translation>
 <translation id="1331593888918588693">Voit aina vaihtaa mieltymyksiäsi sovelluksen asetuksissa.</translation>
-<translation id="5806601733251372221">Brave Shields</translation>
+<translation id="5806601733251372221">Presearch Shields</translation>
 <translation id="8537217141725709400">Ansaitse <ph name="TOKEN"/>s</translation>
 <translation id="3333887201479867589">Brave Rewards</translation>
 <translation id="5870330605209713397">katsomalla tietosuojaa kunnioittavia mainokaisa sekä tukemalla suosikkisivujasi ja kehittäjiäsi oletusarvoisesti.</translation>
@@ -337,7 +337,7 @@ Haluatko varmasti tehdä tämän?</translation>
 <translation id="769702552748212954">Salli kaikki sormenjälkitunnistaminen</translation>
 <translation id="876424292214881779">Estetyt mainokset ja muut epäilyttävät kohteet</translation>
 <translation id="6930134873084561197">Sivustoilla on usein evästeitä ja merkkijonoja, joita käytetään sinun ja laitteesi tunnistamiseen. Ne tahtovat selvittää henkilöllisyytesi sekä seurata sinua verkossa, tarkkaillen jokaisen sivuston käyttöä.\n\nBrave estää kyseiset seuraimet, joten voit rauhassa selata nettiä ilman tarkkailijoita.</translation>
-<translation id="8553998445606452168">Tietoja Brave Shieldsistä</translation>
+<translation id="8553998445606452168">Tietoja Presearch Shieldsistä</translation>
 <translation id="8912304686498704084">YLÖS</translation>
 <translation id="4963218453264888510">ALAS</translation>
 <translation id="7474113515179313724">Selaat tätä sivustoa ilman Braven tietosuojaa. Eikö se toimi kunnolla, kun Shields on käytössä?</translation>
@@ -870,7 +870,7 @@ Jos et hyväksy tätä pyyntöä, yhteyttä VPN:ään ei muodosta uudelleen ja I
 <translation id="4282642752844565114">Sanojen lukumäärä on virheellinen</translation>
 <translation id="8267327690882073581">Vahvista kukkaro</translation>
 <translation id="6589609065569680305">Seurantalaitteet &amp; mainokset estetty tällä sivulla.</translation>
-<translation id="1283922192221545319">Brave Shields suojeli juuri yksityisyyttäsi.</translation>
+<translation id="1283922192221545319">Presearch Shields suojeli juuri yksityisyyttäsi.</translation>
 <translation id="3286927551967858325">Käy katsomassa</translation>
 <translation id="6227291358910554399">Mainokset on estetty, kun katsot videoita tällä sivulla.</translation>
 <translation id="7802980684512102010">Videot ilman mainoksia käyttävät vähemmän dataa.</translation>

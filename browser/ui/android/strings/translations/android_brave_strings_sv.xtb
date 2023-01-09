@@ -1,7 +1,7 @@
 <?xml version="1.0" ?>
 <!DOCTYPE translationbundle>
 <translationbundle lang="sv">
-<translation id="7307834434086582547">Aktivera/Inaktivera Brave Shields</translation>
+<translation id="7307834434086582547">Aktivera/Inaktivera Presearch Shields</translation>
 <translation id="3570081523466826008">Uppgradera anslutningar till HTTPS</translation>
 <translation id="2278950434998763147">Öppnar vissa webbplatser med en säker HTTPS-anslutning i stället för vanlig HTTP.</translation>
 <translation id="5510493033031835532">Automatiskt omdirigerade AMP-sidor</translation>
@@ -17,7 +17,7 @@
 <translation id="8877432762827303535">Betalning online</translation>
 <translation id="6583902294974160967">Support</translation>
 <translation id="1799030480311994998">Funktioner</translation>
-<translation id="2005732746077850308">Brave Shields och sekretess</translation>
+<translation id="2005732746077850308">Presearch Shields och sekretess</translation>
 <translation id="4692623383562244444">Sökmotorer</translation>
 <translation id="1468415711258933398">Standardflik</translation>
 <translation id="3377025655491224618">Privat flik</translation>
@@ -70,7 +70,7 @@
 <translation id="410351446219883937">Automatisk uppspelning</translation>
 <translation id="7445411102860286510">Tillåt att webbplatser automatiskt spelar upp videor utan ljud (rekommenderas)</translation>
 <translation id="7837721118676387834">Tillåt automatisk uppspelning av videor utan ljud för en specifik webbplats.</translation>
-<translation id="181905442828471321">Brave Shields globala standardinställningar</translation>
+<translation id="181905442828471321">Presearch Shields globala standardinställningar</translation>
 <translation id="2675679258824361492">Andra sekretessinställningar</translation>
 <translation id="8026334261755873520">Rensa webbinformation</translation>
 <translation id="5965081608816406060">Videouppspelning i bakgrunden</translation>
@@ -88,7 +88,7 @@
 <translation id="986879628471635371">Felsökning onboarding</translation>
 <translation id="5808759341041733958">Välj ordinarie sökmotor</translation>
 <translation id="1331593888918588693">Du kan alltid ändra dina inställningar senare i appen.</translation>
-<translation id="5806601733251372221">Brave Shields</translation>
+<translation id="5806601733251372221">Presearch Shields</translation>
 <translation id="8537217141725709400">Tjäna <ph name="TOKEN"/>s</translation>
 <translation id="3333887201479867589">Brave Rewards</translation>
 <translation id="5870330605209713397">Genom att titta på annonser som värnar din integritet och stödja dina favoritsajter och -skapare.</translation>
@@ -870,12 +870,12 @@ Om du inte accepterar denna begäran kommer VPN inte att ansluta igen och din in
 <translation id="4282642752844565114">Felaktigt antal ord</translation>
 <translation id="8267327690882073581">Verifiera plånbok</translation>
 <translation id="6589609065569680305">Spårare &amp; annonser blockas på denna sida.</translation>
-<translation id="1283922192221545319">Brave Shields skyddade precis din integritet.</translation>
+<translation id="1283922192221545319">Presearch Shields skyddade precis din integritet.</translation>
 <translation id="3286927551967858325">Ta en titt</translation>
 <translation id="6227291358910554399">Annonser blockas när du tittar på videor på denna sajt.</translation>
 <translation id="7802980684512102010">Videor utan annonser använder mindre data.</translation>
 <translation id="2046475855484346614">Fler än 10 spårare &amp; annonser blockas på denna sida.</translation>
-<translation id="5806208250835099572">Brave Shields skyddar din integritet online på varje sajt.</translation>
+<translation id="5806208250835099572">Presearch Shields skyddar din integritet online på varje sajt.</translation>
 <translation id="5617673581653540121">Din anslutning är nu krypterad.</translation>
 <translation id="4055107796760496928">Brave uppgraderar dig automatiskt till en säker anslutning om sådan finns att tillgå.</translation>
 <translation id="8869714780588464835">Dela nyheterna</translation>

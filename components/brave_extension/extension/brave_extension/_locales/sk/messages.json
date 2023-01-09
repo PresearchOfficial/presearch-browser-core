@@ -189,7 +189,7 @@
   },
   "shieldsExplanation": {
     "message": "Stránky často obsahujú súbory cookie a programy, ktoré sa vás a vaše zariadenie snažia identifikovať (často sú súčasťou reklám). Snažia sa zistiť, kto ste a sledovať vás na webe a pozorovať vaše aktivity na každej stránke. Brave tieto nastavenia blokuje a umožňuje vám prehliadať sieť bez toho, aby ste boli sledovaní.",
-    "description": "Message in read-only view explaining what Brave Shields do"
+    "description": "Message in read-only view explaining what Presearch Shields do"
   },
   "blockedResoucesExplanation": {
     "message": "Blokujeme pokusy špehovať vás na stránkach a iné nechutné praktiky",

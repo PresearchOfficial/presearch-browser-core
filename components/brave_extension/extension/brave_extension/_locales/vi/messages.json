@@ -189,7 +189,7 @@
   },
   "shieldsExplanation": {
     "message": "Các trang thường có cookie và tập lệnh tìm cách xác định danh tính của bạn và thiết bị của bạn (thường được nhúng trong quảng cáo). Họ muốn tìm hiểu xem bạn là ai và theo dõi bạn trên mạng - theo dõi hoạt động của bạn trên mọi trang. Brave chặn những thứ này để bạn có thể lướt web mà không bị theo dõi.",
-    "description": "Message in read-only view explaining what Brave Shields do"
+    "description": "Message in read-only view explaining what Presearch Shields do"
   },
   "blockedResoucesExplanation": {
     "message": "Trình theo dõi chéo và những thứ nguy hiểm khác đã bị chặn",

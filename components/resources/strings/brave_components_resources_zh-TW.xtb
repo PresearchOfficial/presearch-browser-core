@@ -171,7 +171,7 @@
 <translation id="3829010735958850433">略過迎賓導覽</translation>
 <translation id="1201402288615127009">繼續</translation>
 <translation id="7954950242989581218">安全瀏覽</translation>
-<translation id="2188651882929633653">Brave Shields 封鎖整個網路上嘗試追蹤您的可怕事物—包括大部分的廣告。如果網站似乎無法正常運作，請將 Shields 設為「關閉」。Brave 使用<ph name="BEGIN_LINK_P3A"/>完全隱密產品分析<ph name="END_LINK_P3A"/>估計特定功能的整體使用情況。您可以在<ph name="BEGIN_LINK_P3A_SETTINGS"/>設定<ph name="END_LINK_P3A_SETTINGS"/>中關閉此功能。</translation>
+<translation id="2188651882929633653">Presearch Shields 封鎖整個網路上嘗試追蹤您的可怕事物—包括大部分的廣告。如果網站似乎無法正常運作，請將 Shields 設為「關閉」。Brave 使用<ph name="BEGIN_LINK_P3A"/>完全隱密產品分析<ph name="END_LINK_P3A"/>估計特定功能的整體使用情況。您可以在<ph name="BEGIN_LINK_P3A_SETTINGS"/>設定<ph name="END_LINK_P3A_SETTINGS"/>中關閉此功能。</translation>
 <translation id="4851215387785619212">Brave 私密廣告</translation>
 <translation id="3114984266384096064">透過觀看 Brave 私密廣告來賺取 [[currency]]。我們會從您的瀏覽行為判斷您的喜好，並據此投放廣告。您的瀏覽器不會洩漏任何個人資料或瀏覽記錄。</translation>
 <translation id="6112368337882254910">自動捐獻</translation>
@@ -1206,7 +1206,7 @@
 <translation id="1992750560347846445">回報網站狀況</translation>
 <translation id="2387532482048804818">告訴我們網站是否在啟用 Shields 後就無法正常運作。</translation>
 <translation id="3795015906457257780">目前您是在缺少 Brave 隱私防護的情況下檢視這個網站。</translation>
-<translation id="7194012750329511146">Brave Shields
+<translation id="7194012750329511146">Presearch Shields
 已封鎖 <ph name="NUMBER"/> 個追蹤程式、廣告等項目</translation>
 <translation id="1742469581923031760">連線中…</translation>
 <translation id="1287487756047817908">正在中斷連線…</translation>

@@ -161,7 +161,7 @@
 <translation id="8275038454117074363">Importera</translation>
 <translation id="2088479175984386785">Importera från …</translation>
 <translation id="5540323067375019678">Hantera dina sköldar</translation>
-<translation id="3278033011827237847">Skydda mot integritetskränkande annonser och spårare medan du surfar med Brave Shields. Sätt Shields till "nere" om en webbplats inte verkar fungera korrekt.</translation>
+<translation id="3278033011827237847">Skydda mot integritetskränkande annonser och spårare medan du surfar med Presearch Shields. Sätt Shields till "nere" om en webbplats inte verkar fungera korrekt.</translation>
 <translation id="3366308997091824722">Skyddsinställningar</translation>
 <translation id="4764692524839457597">standard</translation>
 <translation id="3108122610701115301">Ange som standard</translation>
@@ -171,7 +171,7 @@
 <translation id="3829010735958850433">Hoppa över välkomstturen</translation>
 <translation id="1201402288615127009">Nästa</translation>
 <translation id="7954950242989581218">Surfa säkert och tryggt</translation>
-<translation id="2188651882929633653">Brave Shields blockerar de läskiga sakerna som försöker spåra dig över nätet — inklusive de flesta annonser. Sätt Shields till “nere” om en webbplats inte verkar fungera. Brave använder <ph name="BEGIN_LINK_P3A"/>fullständigt privat produktanalys<ph name="END_LINK_P3A"/> för att uppskatta den totala användningen av vissa funktioner. Du kan stänga av detta i <ph name="BEGIN_LINK_P3A_SETTINGS"/>Inställningar<ph name="END_LINK_P3A_SETTINGS"/>.</translation>
+<translation id="2188651882929633653">Presearch Shields blockerar de läskiga sakerna som försöker spåra dig över nätet — inklusive de flesta annonser. Sätt Shields till “nere” om en webbplats inte verkar fungera. Brave använder <ph name="BEGIN_LINK_P3A"/>fullständigt privat produktanalys<ph name="END_LINK_P3A"/> för att uppskatta den totala användningen av vissa funktioner. Du kan stänga av detta i <ph name="BEGIN_LINK_P3A_SETTINGS"/>Inställningar<ph name="END_LINK_P3A_SETTINGS"/>.</translation>
 <translation id="4851215387785619212">Braves privata annonser</translation>
 <translation id="3114984266384096064">Tjäna [[currency]] genom att titta på Brave Private Ads. Annonserna som visas baseras på dina intressen, vilka härleds från ditt surfbeteende. Inga personuppgifter eller surfhistorik lämnar någonsin din webbläsare.</translation>
 <translation id="6112368337882254910">Bidra automatiskt</translation>
@@ -1206,7 +1206,7 @@
 <translation id="1992750560347846445">Rapportera webbplats</translation>
 <translation id="2387532482048804818">Berätta för oss om webbplatsen inte fungerade korrekt när Shields är aktiverat.</translation>
 <translation id="3795015906457257780">Du visar den här webbplatsen utan Braves sekretesskydd.</translation>
-<translation id="7194012750329511146">Brave Shields
+<translation id="7194012750329511146">Presearch Shields
 <ph name="NUMBER"/> spårare, annonser med mera är blockerade</translation>
 <translation id="1742469581923031760">Ansluter…</translation>
 <translation id="1287487756047817908">Kopplar från…</translation>

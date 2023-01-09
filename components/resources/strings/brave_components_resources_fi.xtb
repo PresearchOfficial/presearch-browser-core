@@ -161,7 +161,7 @@
 <translation id="8275038454117074363">Tuo</translation>
 <translation id="2088479175984386785">Tuo kohteesta...</translation>
 <translation id="5540323067375019678">Hallitse suojiasi</translation>
-<translation id="3278033011827237847">Suojaudu yksityisyyttäsi uhkaavilta mainoksilta ja seuraimilta selauksen aikana Brave Shieldsin avulla. Aseta Shields "alas", jos sivusto ei toimi kunnolla.</translation>
+<translation id="3278033011827237847">Suojaudu yksityisyyttäsi uhkaavilta mainoksilta ja seuraimilta selauksen aikana Presearch Shieldsin avulla. Aseta Shields "alas", jos sivusto ei toimi kunnolla.</translation>
 <translation id="3366308997091824722">Suoja-asetukset</translation>
 <translation id="4764692524839457597">oletus</translation>
 <translation id="3108122610701115301">Määritä oletusarvoiset</translation>
@@ -171,7 +171,7 @@
 <translation id="3829010735958850433">Ohita tervetuliaiskierros</translation>
 <translation id="1201402288615127009">Seuraava</translation>
 <translation id="7954950242989581218">Selaa turvallisesti ja huoletta</translation>
-<translation id="2188651882929633653">Brave Shields estää kaiken ikävän, joka yrittää jäljittää sinua pitkin verkkoa, — muun muassa suurimman osan mainoksista. Aseta Shieldsin tilaksi “pois”, jos sivusto ei vaikuta toimivan. Brave käyttää <ph name="BEGIN_LINK_P3A"/>täysin yksityistä tuoteanalytiikkaa<ph name="END_LINK_P3A"/> arvioidakseen tiettyjen ominaisuuksien kokonaiskäytön. Voit poistaa sen käytöstä <ph name="BEGIN_LINK_P3A_SETTINGS"/>asetuksista<ph name="END_LINK_P3A_SETTINGS"/>.</translation>
+<translation id="2188651882929633653">Presearch Shields estää kaiken ikävän, joka yrittää jäljittää sinua pitkin verkkoa, — muun muassa suurimman osan mainoksista. Aseta Shieldsin tilaksi “pois”, jos sivusto ei vaikuta toimivan. Brave käyttää <ph name="BEGIN_LINK_P3A"/>täysin yksityistä tuoteanalytiikkaa<ph name="END_LINK_P3A"/> arvioidakseen tiettyjen ominaisuuksien kokonaiskäytön. Voit poistaa sen käytöstä <ph name="BEGIN_LINK_P3A_SETTINGS"/>asetuksista<ph name="END_LINK_P3A_SETTINGS"/>.</translation>
 <translation id="4851215387785619212">Braven yksityiset mainokset</translation>
 <translation id="3114984266384096064">Ansaitse [[currency]] katsomalla Brave-yksityismainoksia. Näytetyt mainokset perustuvat kiinnostuksen kohteisiisi siten kuin ne on päätelty selauskäyttäytymisesi perusteella. Henkilötiedot tai selaushistoria eivät koskaan poistu selaimeltasi.</translation>
 <translation id="6112368337882254910">Osallistu automaattisesti</translation>

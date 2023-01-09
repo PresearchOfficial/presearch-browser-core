@@ -189,7 +189,7 @@
   },
   "shieldsExplanation": {
     "message": "Tapak biasanya mengandungi kuki dan skrip yang akan cuba mengenal pasti diri anda dan peranti anda (biasanya dibenamkan ke dalam iklan). Kuki dan skrip ini ingin mengenal pasti identiti anda dan mengikut anda di serata web - menjejak aktiviti anda di setiap tapak. Brave akan menyekat ini semua agar anda boleh belayar tanpa diikuti.",
-    "description": "Message in read-only view explaining what Brave Shields do"
+    "description": "Message in read-only view explaining what Presearch Shields do"
   },
   "blockedResoucesExplanation": {
     "message": "Penjejak silang tapak dan perkara mencurigakan lain yang disekat",

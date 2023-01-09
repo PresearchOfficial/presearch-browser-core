@@ -189,7 +189,7 @@
   },
   "shieldsExplanation": {
     "message": "Vietnēs bieži ir iekļauti sīkfaili un skripti, kas mēģina identificēt jūs un jūsu ierīci (bieži iegulti reklāmās). Tie vēlas noskaidrot, kas jūs esat, un sekot jums visā tīmeklī — sekojot tam, ko jūs darāt katrā vietnē. Brave tos bloķē, lai jūs varētu veikt pārlūkošanu, netiekot izsekoti.",
-    "description": "Message in read-only view explaining what Brave Shields do"
+    "description": "Message in read-only view explaining what Presearch Shields do"
   },
   "blockedResoucesExplanation": {
     "message": "Bloķēti starpvietņu izsekotāji un citas nejaukas lietas",

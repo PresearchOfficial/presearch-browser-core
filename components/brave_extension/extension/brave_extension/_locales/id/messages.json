@@ -189,7 +189,7 @@
   },
   "shieldsExplanation": {
     "message": "Situs kerap memiliki cookie dan script yang mencoba mengidentifikasi Anda dan perangkat (kerap disematkan ke dalam iklan). Mereka ingin menyelidiki siapa Anda dan mengikuti Anda ke seluruh web — melacak apa yang Anda lakukan di setiap situs. Brave memblokir ini agar Anda dapat meramban tanpa diikuti.",
-    "description": "Message in read-only view explaining what Brave Shields do"
+    "description": "Message in read-only view explaining what Presearch Shields do"
   },
   "blockedResoucesExplanation": {
     "message": "Pelacak cross-site dan hal berbahaya lainnya diblokir",

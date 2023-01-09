@@ -189,7 +189,7 @@
   },
   "shieldsExplanation": {
     "message": "साइट में अक्सर कुकीज़ और स्क्रिप्ट होते हैं जो आपकी और आपके डिवाइस की पहचान करने का प्रयास करते हैं (अक्सर विज्ञापनों में शामिल होते हैं)। वे जानना चाहते हैं कि आप कौन हैं और पूरे वेब पर आपको फ़ॉलो करते हैं — प्रत्येक साइट पर आपकी गतिविधि को ट्रैक करते हैं। Brave इन चीज़ों को अवरुद्ध करता है ताकि किसी के द्वारा फ़ॉलो किए बिना आप ब्राउज कर सके।",
-    "description": "Message in read-only view explaining what Brave Shields do"
+    "description": "Message in read-only view explaining what Presearch Shields do"
   },
   "blockedResoucesExplanation": {
     "message": "क्रॉस-साइट ट्रैकर और अन्य हानिकारक चीज़ों को अवरुद्ध कर दिया गया है",

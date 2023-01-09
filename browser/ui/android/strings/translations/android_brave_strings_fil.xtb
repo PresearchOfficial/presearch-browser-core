@@ -1,7 +1,7 @@
 <?xml version="1.0" ?>
 <!DOCTYPE translationbundle>
 <translationbundle lang="fil">
-<translation id="7307834434086582547">I-enable/I-disable ang Brave Shields</translation>
+<translation id="7307834434086582547">I-enable/I-disable ang Presearch Shields</translation>
 <translation id="3570081523466826008">I-upgrade sa HTTPS ang mga koneksyon</translation>
 <translation id="2278950434998763147">Nagbubukas ang ilang site gamit ang secure HTTPS connection sa halip na plain HTTP.</translation>
 <translation id="5510493033031835532">Mag-auto-redirect ng mga AMP page</translation>
@@ -17,7 +17,7 @@
 <translation id="8877432762827303535">Online checkout</translation>
 <translation id="6583902294974160967">Suporta</translation>
 <translation id="1799030480311994998">Mga feature</translation>
-<translation id="2005732746077850308">Brave Shields at Privacy</translation>
+<translation id="2005732746077850308">Presearch Shields at Privacy</translation>
 <translation id="4692623383562244444">Mga search engine</translation>
 <translation id="1468415711258933398">Karaniwang Tab</translation>
 <translation id="3377025655491224618">Pribadong Tab</translation>
@@ -70,7 +70,7 @@
 <translation id="410351446219883937">I-autoplay</translation>
 <translation id="7445411102860286510">Payagan ang mga site na awtomatikong mag-play ng mga naka-mute na video (inirerekomenda)</translation>
 <translation id="7837721118676387834">Payagan ang pag-autoplay ng mga naka-mute na video para sa isang partikular na site.</translation>
-<translation id="181905442828471321">Mga global default ng Brave shields</translation>
+<translation id="181905442828471321">Mga global default ng Presearch Shields</translation>
 <translation id="2675679258824361492">Iba pang mga setting sa privacy</translation>
 <translation id="8026334261755873520">I-clear ang data sa pag-browse</translation>
 <translation id="5965081608816406060">Pag-playback ng video sa background</translation>
@@ -88,7 +88,7 @@
 <translation id="986879628471635371">Pag-troubleshoot sa onboarding</translation>
 <translation id="5808759341041733958">Pumili ng default na search engine</translation>
 <translation id="1331593888918588693">Puwede mong baguhin kailanman ang iyong kagustuhan sa mga setting ng app.</translation>
-<translation id="5806601733251372221">Brave Shields</translation>
+<translation id="5806601733251372221">Presearch Shields</translation>
 <translation id="8537217141725709400">Magkaroon ng <ph name="TOKEN"/></translation>
 <translation id="3333887201479867589">Mga Reward ng Brave</translation>
 <translation id="5870330605209713397">sa pamamagitan ng pagtingin sa mga ad na nagpapahalaga sa privacy at suportahan ang iyong mga paboritong site at creator bilang default.</translation>
@@ -337,7 +337,7 @@ Sigurado ka bang gusto mo itong gawin?</translation>
 <translation id="769702552748212954">Payagan ang lahat ng fingerprinting</translation>
 <translation id="876424292214881779">Mga ad at iba pang hindi kanais-nais na bagay na na-block</translation>
 <translation id="6930134873084561197">Madalas na nagsasama ang mga site ng cookies at mga script na sumusubok na kumilala sa iyo at sa iyong device. Gusto nilang malaman kung sino ka at susundan ka sa buong web-susubaybayan kung ano ang ginagawa mo sa bawat site.\n\nBina-block ng Brave ang mga bagay na ito para makapag-browse ka nang hindi nasusundan.</translation>
-<translation id="8553998445606452168">Tungkol sa Brave Shields</translation>
+<translation id="8553998445606452168">Tungkol sa Presearch Shields</translation>
 <translation id="8912304686498704084">PATAAS</translation>
 <translation id="4963218453264888510">PABABA</translation>
 <translation id="7474113515179313724">Bina-browse mo ang site na ito nang wala ng mga proteksyon sa privacy ng Brave. Hindi ba ito gumagana nang maayos nang naka-on ang Shields?</translation>
@@ -870,12 +870,12 @@ Kung hindi mo tatanggapin ang kahilingang ito, hindi kokonekta ulit ang VPN at h
 <translation id="4282642752844565114">Hindi wastong bilang ng mga salita</translation>
 <translation id="8267327690882073581">I-verify ang Wallet</translation>
 <translation id="6589609065569680305">Mga tracker at ad na na-block sa page na ito.</translation>
-<translation id="1283922192221545319">Pinrotektahan ng Brave Shields ang iyong privacy.</translation>
+<translation id="1283922192221545319">Pinrotektahan ng Presearch Shields ang iyong privacy.</translation>
 <translation id="3286927551967858325">Tingnan mo</translation>
 <translation id="6227291358910554399">Bina-block ang mga ad habang nanonood ng mga video sa website na ito.</translation>
 <translation id="7802980684512102010">Gumagamit ng mas kaunting data ang mga video na walang ad.</translation>
 <translation id="2046475855484346614">10+ tracker at ad ang na-block sa page na ito.</translation>
-<translation id="5806208250835099572">Pinoprotektahan ng Brave Shields ang iyong privacy online sa lahat ng site.</translation>
+<translation id="5806208250835099572">Pinoprotektahan ng Presearch Shields ang iyong privacy online sa lahat ng site.</translation>
 <translation id="5617673581653540121">Naka-encrypt na ngayon ang iyong koneksyon.</translation>
 <translation id="4055107796760496928">Kung available, awtomatiko kang ina-upgrade ng Brave sa isang secure na koneksyon.</translation>
 <translation id="8869714780588464835">Ibahagi ang balita</translation>

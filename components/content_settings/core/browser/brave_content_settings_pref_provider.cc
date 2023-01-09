@@ -253,7 +253,7 @@ void BravePrefProvider::MigrateShieldsSettingsFromResourceIds() {
         if (!IsShieldsContentSettingsTypeName(shields_preference_name))
           continue;
 
-        // Drop a "global" value of brave shields, that actually shouldn't exist
+        // Drop a "global" value of presearch shields, that actually shouldn't exist
         // at all since we don't have any global toggle for this.
         if (shields_preference_name == brave_shields::kBraveShields &&
             patterns_string == "*,*") {

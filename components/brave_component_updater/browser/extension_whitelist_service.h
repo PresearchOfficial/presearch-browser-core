@@ -24,7 +24,7 @@ class BravePDFDownloadTest;
 
 namespace brave_component_updater {
 
-// The brave shields service in charge of extension whitelist
+// The presearch shields service in charge of extension whitelist
 class ExtensionWhitelistService : public LocalDataFilesObserver {
  public:
   using GetDATFileDataResult =

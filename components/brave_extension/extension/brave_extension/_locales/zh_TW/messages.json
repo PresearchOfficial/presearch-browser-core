@@ -189,7 +189,7 @@
   },
   "shieldsExplanation": {
     "message": "網站經常包含試圖辨識您與您的裝置的 cookies 與指令碼（通常會嵌入到廣告中）。他們希望了解您的身份，並在網路上追蹤您，每個網站上都是。Brave 會阻擋這些事情，這樣您就可以不被追蹤地瀏覽網頁。",
-    "description": "Message in read-only view explaining what Brave Shields do"
+    "description": "Message in read-only view explaining what Presearch Shields do"
   },
   "blockedResoucesExplanation": {
     "message": "已封鎖跨頁面追蹤器與其他令人毛骨悚然的事物",

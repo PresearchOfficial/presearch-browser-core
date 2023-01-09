@@ -189,7 +189,7 @@
   },
   "shieldsExplanation": {
     "message": "غالبًا ما تتضمن المواقع ملفات تعريف الارتباط والبرامج النصية التي تحاول تحديد هويتك وجهازك (غالبًا ما تكون مضمنة في الإعلانات). إنهم يريدون معرفة ماهيتك ومتابعتك عبر شبكة الإنترنت - يتتبعون بذلك ما تفعله في كل موقع. يحجب Brave هذه الأشياء لكي تتمكن من التصفح دون التعرض للمتابعة.",
-    "description": "Message in read-only view explaining what Brave Shields do"
+    "description": "Message in read-only view explaining what Presearch Shields do"
   },
   "blockedResoucesExplanation": {
     "message": "تم حجب برامج التتبع عبر المواقع وغيرها من العناصر المريبة",

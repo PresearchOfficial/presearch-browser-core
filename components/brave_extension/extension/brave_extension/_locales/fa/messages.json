@@ -189,7 +189,7 @@
   },
   "shieldsExplanation": {
     "message": "سایت‌ها اغلب شامل کوکی‌ها و اسکریپت‌هایی می‌شوند که درتلاش هستند شما و دستگاهتان را شناسایی کنند (اغلب در آگهی‌های جاسازی شده‌اند). آن‌ها می‌خواهند با ردیابی آنچه در سایت‌ها انجام می‌دهید، شما را شناسایی و در سراسر وب دنبال کنند. Brave این موارد را مسدود می‌کند تا بتوانید بدون اینکه در همه جا دنبال شوید مرور انجام دهید.",
-    "description": "Message in read-only view explaining what Brave Shields do"
+    "description": "Message in read-only view explaining what Presearch Shields do"
   },
   "blockedResoucesExplanation": {
     "message": "ردیاب‌های بین سایتی و سایر موارد غیرعادی مسدود شدند",

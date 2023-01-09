@@ -70,7 +70,7 @@
 <translation id="410351446219883937">Samodejno predvajanje</translation>
 <translation id="7445411102860286510">Dovoli spletnim mestom samodejno predvajanje videoposnetkov z izklopljenim zvokom (priporočljivo)</translation>
 <translation id="7837721118676387834">Dovoli samodejno predvajanje videoposnetkov z izklopljenim zvokom za določeno spletno mesto.</translation>
-<translation id="181905442828471321">Globalne privzete vrednosti za Brave shields</translation>
+<translation id="181905442828471321">Globalne privzete vrednosti za Presearch Shields</translation>
 <translation id="2675679258824361492">Druge nastavitve zasebnosti</translation>
 <translation id="8026334261755873520">Izbriši podatke brskanja</translation>
 <translation id="5965081608816406060">Predvajanje videoposnetka v ozadju</translation>
@@ -336,7 +336,7 @@ Ali ste prepričani, da želite to storiti?</translation>
 <translation id="769702552748212954">Dovoli vsa ustvarjanja prstnih odtisov</translation>
 <translation id="876424292214881779">Oglasi in ostali neželeni poskusi blokirani</translation>
 <translation id="6930134873084561197">Spletna mesta pogosto vključujejo piškotke in skripte, ki poskušajo prepoznati vas in vašo napravo. Želijo ugotoviti, kdo ste in vas spremljati po spletu - spremljati, kaj počnete na vsakem posameznem spletnem mestu.\nBrave to blokira, da lahko brskate, ne da bi vas povsod spremljali.</translation>
-<translation id="8553998445606452168">O Brave Shields</translation>
+<translation id="8553998445606452168">O Presearch Shields</translation>
 <translation id="8912304686498704084">GOR</translation>
 <translation id="4963218453264888510">DOL</translation>
 <translation id="7474113515179313724">Na tej spletni strani brskate brez brez zaščite zasebnosti Brave. Ali stan ne deluje pravilno z zaščito Shields?</translation>
@@ -869,12 +869,12 @@ Ali ste prepričani, da želite to storiti?</translation>
 <translation id="4282642752844565114">Nepravilno število besed</translation>
 <translation id="8267327690882073581">Preveri denarnico</translation>
 <translation id="6589609065569680305">Sledilci i oglasi so na tej strani blokirani.</translation>
-<translation id="1283922192221545319">Brave Shields je pravkar zaščitil vašo zasebnost.</translation>
+<translation id="1283922192221545319">Presearch Shields je pravkar zaščitil vašo zasebnost.</translation>
 <translation id="3286927551967858325">Oglejte si</translation>
 <translation id="6227291358910554399">Med gledanjem videoposnetkov na tej spletni strani so oglasi blokirani.</translation>
 <translation id="7802980684512102010">Videoposnetki brez oglasov porabijo manj podatkov.</translation>
 <translation id="2046475855484346614">10+ sledilcev i oglasi so na tej strani blokirani.</translation>
-<translation id="5806208250835099572">Brave Shields ščiti vašo spletno zasebnost na vseh spletnih mestih.</translation>
+<translation id="5806208250835099572">Presearch Shields ščiti vašo spletno zasebnost na vseh spletnih mestih.</translation>
 <translation id="5617673581653540121">Vaša povezava je zdaj šifrirana.</translation>
 <translation id="4055107796760496928">Če je na voljo, vas Brave samodejno nadgradi na varno povezavo.</translation>
 <translation id="8869714780588464835">Delite novice z drugimi</translation>

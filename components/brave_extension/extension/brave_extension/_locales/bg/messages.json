@@ -189,7 +189,7 @@
   },
   "shieldsExplanation": {
     "message": "Сайтовете често включват бисквитки и скриптове, които се опитват да идентифицират вас и вашето устройство (често са вградени в рекламите). Те искат да разберат кой сте и да ви следват из нета, проследявайки какво правите на всеки сайт. Brave блокира тези неща, така че да браузвате без да ви следват.",
-    "description": "Message in read-only view explaining what Brave Shields do"
+    "description": "Message in read-only view explaining what Presearch Shields do"
   },
   "blockedResoucesExplanation": {
     "message": "Блокирани са проследяващи устройства през сайтове и други неприятни неща",

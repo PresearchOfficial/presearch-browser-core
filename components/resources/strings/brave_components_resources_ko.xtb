@@ -161,7 +161,7 @@
 <translation id="8275038454117074363">가져오기</translation>
 <translation id="2088479175984386785">다음에서 가져오기...</translation>
 <translation id="5540323067375019678">차단 관리</translation>
-<translation id="3278033011827237847">Brave Shields로 탐색하는 동안 개인 정보를 침해하는 광고와 추적기로부터 보호를 받으세요. 사이트가 제대로 작동하지 않는 것처럼 보이면 Shields를 "해제"로 설정하세요.</translation>
+<translation id="3278033011827237847">Presearch Shields로 탐색하는 동안 개인 정보를 침해하는 광고와 추적기로부터 보호를 받으세요. 사이트가 제대로 작동하지 않는 것처럼 보이면 Shields를 "해제"로 설정하세요.</translation>
 <translation id="3366308997091824722">차단 설정</translation>
 <translation id="4764692524839457597">기본</translation>
 <translation id="3108122610701115301">기본값으로 설정</translation>
@@ -171,7 +171,7 @@
 <translation id="3829010735958850433">시작 안내 건너뛰기</translation>
 <translation id="1201402288615127009">다음</translation>
 <translation id="7954950242989581218">안전하게 검색하세요</translation>
-<translation id="2188651882929633653">Brave Shields는 웹상에서 사용자를 추적하고 하는 것들과 대부분의 광고를 차단합니다. 사이트가 작동하지 않는 것 같으면 Shield를 "down"으로 설정하세요. Brave는 <ph name="BEGIN_LINK_P3A"/>완전 비공개 제품 분석<ph name="END_LINK_P3A"/>을 사용하여 특정 기능의 전체 사용량을 추정합니다. <ph name="BEGIN_LINK_P3A_SETTINGS"/>설정<ph name="END_LINK_P3A_SETTINGS"/>에서 이 기능을 사용 중지할 수 있습니다.</translation>
+<translation id="2188651882929633653">Presearch Shields는 웹상에서 사용자를 추적하고 하는 것들과 대부분의 광고를 차단합니다. 사이트가 작동하지 않는 것 같으면 Shield를 "down"으로 설정하세요. Brave는 <ph name="BEGIN_LINK_P3A"/>완전 비공개 제품 분석<ph name="END_LINK_P3A"/>을 사용하여 특정 기능의 전체 사용량을 추정합니다. <ph name="BEGIN_LINK_P3A_SETTINGS"/>설정<ph name="END_LINK_P3A_SETTINGS"/>에서 이 기능을 사용 중지할 수 있습니다.</translation>
 <translation id="4851215387785619212">Brave Private Ads</translation>
 <translation id="3114984266384096064">Brave Private Ads를 보면 [[currency]]가 적립됩니다. 광고는 사용자의 관심사를 기반으로 표시되며 브라우저의 성능을 저해하지 않습니다. 개인 데이터나 인터넷 사용 기록은 절대 브라우저에 남지 않습니다.</translation>
 <translation id="6112368337882254910">자동 기부</translation>
@@ -1177,9 +1177,9 @@
 <translation id="6951743416068151209">Tor 프록시 URI</translation>
 <translation id="1671503397662036257">Tor 연결 상태</translation>
 <translation id="6024292492796847324">토르 초기화 진행률</translation>
-<translation id="8458987127502506209">Brave Shields 활성화</translation>
+<translation id="8458987127502506209">Presearch Shields 활성화</translation>
 <translation id="7509914170164691086">다음에 대해 실드 <ph name="LINK_BEFORE"/>활성화됨<ph name="LINK_AFTER"/></translation>
-<translation id="260764436039299868">Brave Shields <ph name="LINK_BEFORE"/>비활성화됨<ph name="LINK_AFTER"/></translation>
+<translation id="260764436039299868">Presearch Shields <ph name="LINK_BEFORE"/>비활성화됨<ph name="LINK_AFTER"/></translation>
 <translation id="7709075156958117386">사이트가 깨져 보이면, 실드를 비활성화해 보세요.
     <ph name="LINK_BEFORE"/>참고: 이렇게 하면 Brave의 프라이버시 보호 수준이 낮아집니다.<ph name="LINK_AFTER"/></translation>
 <translation id="8377155647357436161">트래커, 광고 등이 차단됨 <ph name="LINK_BEFORE"/>자세히 알아보기<ph name="LINK_AFTER"/></translation>
@@ -1206,7 +1206,7 @@
 <translation id="1992750560347846445">사이트 신고</translation>
 <translation id="2387532482048804818">실드를 활성화했을 때 사이트가 제대로 작동하지 않으면 알려주세요.</translation>
 <translation id="3795015906457257780">Brave 프라이버시 보호 없이 이 사이트를 보는 중</translation>
-<translation id="7194012750329511146">Brave Shields
+<translation id="7194012750329511146">Presearch Shields
 <ph name="NUMBER"/> 트래커, 광고 등 차단</translation>
 <translation id="1742469581923031760">연결 중…</translation>
 <translation id="1287487756047817908">연결 해제 중…</translation>

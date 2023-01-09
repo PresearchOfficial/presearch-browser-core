@@ -18,7 +18,7 @@ float FarbleDeviceMemory(blink::ExecutionContext* context) {
       blink::ApproximatedDeviceMemory::GetApproximatedDeviceMemory();
   blink::WebContentSettingsClient* settings =
       GetContentSettingsClientFor(context);
-  // If Brave Shields are down or anti-fingerprinting is off for this site,
+  // If Presearch Shields are down or anti-fingerprinting is off for this site,
   // return the true value.
   if (!settings || settings->GetBraveFarblingLevel() == BraveFarblingLevel::OFF)
     return true_value;

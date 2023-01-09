@@ -23,7 +23,7 @@ using brave_component_updater::BraveComponent;
 
 namespace brave_shields {
 
-// The brave shields service in charge of checking brave shields like ad-block,
+// The presearch shields service in charge of checking presearch shields like ad-block,
 // tracking protection, etc.
 class BaseBraveShieldsService {
  public:

@@ -1,7 +1,7 @@
 <?xml version="1.0" ?>
 <!DOCTYPE translationbundle>
 <translationbundle lang="uk">
-<translation id="7307834434086582547">Увімкнути/Вимкнути Brave Shields</translation>
+<translation id="7307834434086582547">Увімкнути/Вимкнути Presearch Shields</translation>
 <translation id="3570081523466826008">Оновити зв’язки до HTTPS</translation>
 <translation id="2278950434998763147">Відкриває деякі сайти, використовуючи безпечне з’єднання HTTPS замість звичайного HTTP.</translation>
 <translation id="5510493033031835532">Автоматичне переспрямування сторінок AMP</translation>
@@ -88,7 +88,7 @@
 <translation id="986879628471635371">Інтегрування виявлення та вирішення проблем</translation>
 <translation id="5808759341041733958">Виберіть усталений пошуковик</translation>
 <translation id="1331593888918588693">Ви можете змінити свій вибір у будь-який час у налаштуваннях додатка.</translation>
-<translation id="5806601733251372221">Brave Shields</translation>
+<translation id="5806601733251372221">Presearch Shields</translation>
 <translation id="8537217141725709400">Заробляйте <ph name="TOKEN"/></translation>
 <translation id="3333887201479867589">Винагороди Brave</translation>
 <translation id="5870330605209713397">переглядаючи оголошення, що не порушують конфіденційності, і автоматично підтримуйте свої улюблені сайти та творців.</translation>

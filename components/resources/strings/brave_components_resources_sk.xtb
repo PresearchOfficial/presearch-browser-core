@@ -171,7 +171,7 @@
 <translation id="3829010735958850433">Preskočiť prehliadku na uvítanie</translation>
 <translation id="1201402288615127009">Ďalej</translation>
 <translation id="7954950242989581218">Surfujte bezpečne a riadne</translation>
-<translation id="2188651882929633653">Brave Shields blokuje hrozné veci, ktoré sa vás snažia sledovať na webe — vrátane väčšiny reklám. Nastavte Štíty na “dole” ak sa zdá, že stránka nefunguje. Brave používa <ph name="BEGIN_LINK_P3A"/>úplne súkromný analýzu produktov<ph name="END_LINK_P3A"/> na odhadovanie celkového využitia určitých funkcií. Toto môžete vypnúť v <ph name="BEGIN_LINK_P3A_SETTINGS"/>nastaveniach<ph name="END_LINK_P3A_SETTINGS"/>.</translation>
+<translation id="2188651882929633653">Presearch Shields blokuje hrozné veci, ktoré sa vás snažia sledovať na webe — vrátane väčšiny reklám. Nastavte Štíty na “dole” ak sa zdá, že stránka nefunguje. Brave používa <ph name="BEGIN_LINK_P3A"/>úplne súkromný analýzu produktov<ph name="END_LINK_P3A"/> na odhadovanie celkového využitia určitých funkcií. Toto môžete vypnúť v <ph name="BEGIN_LINK_P3A_SETTINGS"/>nastaveniach<ph name="END_LINK_P3A_SETTINGS"/>.</translation>
 <translation id="4851215387785619212">Súkromné reklamy Brave</translation>
 <translation id="3114984266384096064">Získajte [[currency]] prezeraním súkromných reklám Brave. Prezentované reklamy sú na základe vašich záujmov, ako to vyplýva z vášho správania pri prehliadaní. Z vášho prehliadača nikdy neodídu žiadne osobné údaje ani história prehliadania.</translation>
 <translation id="6112368337882254910">Automaticky prispieť</translation>
@@ -1206,7 +1206,7 @@
 <translation id="1992750560347846445">Nahlásiť webovú stránku</translation>
 <translation id="2387532482048804818">Povedzte nám, ak webová stránka so zapnutými štítmi nefungovala správne.</translation>
 <translation id="3795015906457257780">Túto stránku si prehliadate bez ochrany osobných údajov Brave.</translation>
-<translation id="7194012750329511146">Brave Shields
+<translation id="7194012750329511146">Presearch Shields
 <ph name="NUMBER"/> Trackery, reklamy a ďalšie blokované položky</translation>
 <translation id="1742469581923031760">Pripájanie…</translation>
 <translation id="1287487756047817908">Odpájanie…</translation>

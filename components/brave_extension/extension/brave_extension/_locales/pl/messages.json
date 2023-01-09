@@ -189,7 +189,7 @@
   },
   "shieldsExplanation": {
     "message": "Strony często zawierają pliki cookie i skrypty, które próbują zidentyfikować Ciebie i Twoje urządzenie (często wbudowane w reklamy). Chcą ustalić kim jesteś i śledzić Cię w Internecie - sprawdzać co robisz na każdej stronie. Brave blokuje te rzeczy, dzięki czemu możesz przeglądać witryny bez obserwowania Ciebie.",
-    "description": "Message in read-only view explaining what Brave Shields do"
+    "description": "Message in read-only view explaining what Presearch Shields do"
   },
   "blockedResoucesExplanation": {
     "message": "Skrypty śledzące i inne przerażające rzeczy zostały zablokowane",

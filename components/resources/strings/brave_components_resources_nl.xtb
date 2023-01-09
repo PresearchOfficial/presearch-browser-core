@@ -161,7 +161,7 @@
 <translation id="8275038454117074363">Importeren</translation>
 <translation id="2088479175984386785">Importeren van...</translation>
 <translation id="5540323067375019678">Je schilden beheren</translation>
-<translation id="3278033011827237847">Bescherm tegen privacy schendende advertenties en trackers tijdens het browsen met Brave Shields. Stel Shields in op 'neer' als een website niet naar behoren lijkt te werken.</translation>
+<translation id="3278033011827237847">Bescherm tegen privacy schendende advertenties en trackers tijdens het browsen met Presearch Shields. Stel Shields in op 'neer' als een website niet naar behoren lijkt te werken.</translation>
 <translation id="3366308997091824722">Shield instellingen</translation>
 <translation id="4764692524839457597">standaard</translation>
 <translation id="3108122610701115301">Stel standaard in</translation>
@@ -171,7 +171,7 @@
 <translation id="3829010735958850433">Welkomstour overslaan</translation>
 <translation id="1201402288615127009">Volgende</translation>
 <translation id="7954950242989581218">Blader veilig en wel</translation>
-<translation id="2188651882929633653">Brave Shields blokkeert alle enge zaken die u op internet proberen te volgen, — inclusief de meeste reclames. Schakel Shields “uit” als een site niet lijkt te werken. Brave gebruikt een <ph name="BEGIN_LINK_P3A"/>volledig privé productanalyse<ph name="END_LINK_P3A"/> om het totale gebruik van bepaalde functie te schatten. U kunt dit uitschakelen in de <ph name="BEGIN_LINK_P3A_SETTINGS"/>Instellingen<ph name="END_LINK_P3A_SETTINGS"/>.</translation>
+<translation id="2188651882929633653">Presearch Shields blokkeert alle enge zaken die u op internet proberen te volgen, — inclusief de meeste reclames. Schakel Shields “uit” als een site niet lijkt te werken. Brave gebruikt een <ph name="BEGIN_LINK_P3A"/>volledig privé productanalyse<ph name="END_LINK_P3A"/> om het totale gebruik van bepaalde functie te schatten. U kunt dit uitschakelen in de <ph name="BEGIN_LINK_P3A_SETTINGS"/>Instellingen<ph name="END_LINK_P3A_SETTINGS"/>.</translation>
 <translation id="4851215387785619212">Brave-privéadvertenties</translation>
 <translation id="3114984266384096064">Verdien [[currency]] door advertenties van Brave te bekijken. De gepresenteerde advertenties zijn gebaseerd op uw interesses, afgeleid uit uw browsegedrag. Persoonlijke gegevens en de browsergeschiedenis worden nooit gedeeld buiten de browser.</translation>
 <translation id="6112368337882254910">Auto-Contribute</translation>
@@ -1206,7 +1206,7 @@
 <translation id="1992750560347846445">Website rapporteren</translation>
 <translation id="2387532482048804818">Laat ons weten of de website niet goed werkte terwijl Shields geactiveerd waren.</translation>
 <translation id="3795015906457257780">U bekijkt deze website zonder enige privacybescherming van Brave.</translation>
-<translation id="7194012750329511146">Brave Shields
+<translation id="7194012750329511146">Presearch Shields
 <ph name="NUMBER"/> Trackers, advertenties en meer geblokkeerd</translation>
 <translation id="1742469581923031760">Verbinden…</translation>
 <translation id="1287487756047817908">Verbinding verbreken…</translation>

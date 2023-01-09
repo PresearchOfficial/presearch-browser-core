@@ -201,7 +201,7 @@ void RegisterProfilePrefs(user_prefs::PrefRegistrySyncable* registry) {
   // F/u issue: https://github.com/brave/brave-browser/issues/7000
   registry->RegisterBooleanPref(kAskWidevineInstall, true);
 
-  // Default Brave shields
+  // Default Presearch Shields
   registry->RegisterBooleanPref(kHTTPSEVerywhereControlType, true);
   registry->RegisterBooleanPref(kNoScriptControlType, false);
   registry->RegisterBooleanPref(kAdControlType, true);

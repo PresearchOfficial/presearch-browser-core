@@ -202,7 +202,7 @@ def main():
     adblock_lists_dir = os.path.join(adblock_dir, 'lists')
     adblock_preamble = 'These licenses do not apply to any of the code ' \
         'shipped with the Brave Browser, but may apply to lists downloaded ' \
-        'after installation for use with the Brave Shields feature. The ' \
+        'after installation for use with the Presearch Shields feature. The ' \
         'Brave Browser and such lists are separate and independent works.'
 
     adblock_components = list_sub_components(adblock_lists_dir)

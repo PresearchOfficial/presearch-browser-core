@@ -47,7 +47,7 @@ class AdBlockCustomFiltersProvider;
 class AdBlockRegionalCatalogProvider;
 class AdBlockSubscriptionServiceManager;
 
-// The brave shields service in charge of ad-block checking and init.
+// The presearch shields service in charge of ad-block checking and init.
 class AdBlockService {
  public:
   class SourceProviderObserver : public AdBlockResourceProvider::Observer,

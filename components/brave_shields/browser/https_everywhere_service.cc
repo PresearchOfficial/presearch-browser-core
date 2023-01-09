@@ -370,7 +370,7 @@ void HTTPSEverywhereService::SetIgnorePortForTest(bool ignore) {
 
 ///////////////////////////////////////////////////////////////////////////////
 
-// The brave shields factory. Using the Brave Shields as a singleton
+// The presearch shields factory. Using the Presearch Shields as a singleton
 // is the job of the browser process.
 std::unique_ptr<HTTPSEverywhereService> HTTPSEverywhereServiceFactory(
     scoped_refptr<base::SequencedTaskRunner> task_runner) {

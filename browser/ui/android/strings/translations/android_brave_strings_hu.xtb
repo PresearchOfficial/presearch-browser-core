@@ -1,7 +1,7 @@
 <?xml version="1.0" ?>
 <!DOCTYPE translationbundle>
 <translationbundle lang="hu">
-<translation id="7307834434086582547">Brave Shields engedélyezése/ letiltása</translation>
+<translation id="7307834434086582547">Presearch Shields engedélyezése/ letiltása</translation>
 <translation id="3570081523466826008">Kapcsolat bővítése HTTPS-re</translation>
 <translation id="2278950434998763147">Bizonyos oldalakat biztonságos HTTPS-kapcsolat használatával nyit meg egyszerű HTTP helyett.</translation>
 <translation id="5510493033031835532">AMP-oldalak automatikus átirányítása</translation>
@@ -335,7 +335,7 @@ Biztosan végrehajtja a műveletet?</translation>
 <translation id="769702552748212954">Minden ujjlenyomat-beállítás engedélyezése</translation>
 <translation id="876424292214881779">Blokkoltuk a hirdetéseket és más bizarr dolgokat</translation>
 <translation id="6930134873084561197">A weboldalak gyakran olyan sütiket és parancsfájlokat tartalmaznak, amelyek azonosítani akarnak téged vagy a készülékedet. Megpróbálják kideríteni, hogy ki vagy, és követik webes tevékenységedet minden oldalon\n\nA Brave letiltja ezeket a dolgokat, így követés nélkül böngészhetsz.</translation>
-<translation id="8553998445606452168">Bővebben a Brave Shieldsről</translation>
+<translation id="8553998445606452168">Bővebben a Presearch Shieldsről</translation>
 <translation id="8912304686498704084">FEL</translation>
 <translation id="4963218453264888510">LE</translation>
 <translation id="7474113515179313724">A Brave adatvédelmi rendszere nélkül böngészel. Nem működik megfelelően ha be van kapcsolva Shields?</translation>
@@ -868,7 +868,7 @@ Ha nem fogadja el ezt a kérelmet, a VPN nem kapcsolódik újra, és az internet
 <translation id="4282642752844565114">Szavak száma helytelen</translation>
 <translation id="8267327690882073581">Ellenőrizd a pénztárcát</translation>
 <translation id="6589609065569680305">Követők és reklámok blokkolva ezen az oldalon.</translation>
-<translation id="1283922192221545319">A Brave Shields most védte meg adataidat.</translation>
+<translation id="1283922192221545319">A Presearch Shields most védte meg adataidat.</translation>
 <translation id="3286927551967858325">Vessen egy pillantást</translation>
 <translation id="6227291358910554399">A reklámok blokkolva vannak, míg videót nézel ezen az oldalon.</translation>
 <translation id="7802980684512102010">A reklámok nélküli videók kevesebb adatot használnak.</translation>

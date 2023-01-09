@@ -1,7 +1,7 @@
 <?xml version="1.0" ?>
 <!DOCTYPE translationbundle>
 <translationbundle lang="zh-TW">
-<translation id="7307834434086582547">啟用/停用 Brave Shields</translation>
+<translation id="7307834434086582547">啟用/停用 Presearch Shields</translation>
 <translation id="3570081523466826008">升級連線至 HTTPS</translation>
 <translation id="2278950434998763147">使用安全的 HTTPS 連線而非普通的 HTTP 開啟某些網站。</translation>
 <translation id="5510493033031835532">自動重新導向 AMP 頁面</translation>
@@ -70,7 +70,7 @@
 <translation id="410351446219883937">自動播放</translation>
 <translation id="7445411102860286510">允許網站自動播放靜音的影片 (建議)</translation>
 <translation id="7837721118676387834">允許特定網站自動播放靜音的影片。</translation>
-<translation id="181905442828471321">Brave shields 全域預設值</translation>
+<translation id="181905442828471321">Presearch Shields 全域預設值</translation>
 <translation id="2675679258824361492">其他私隱設定</translation>
 <translation id="8026334261755873520">清除瀏覽資料</translation>
 <translation id="5965081608816406060">背景影片播放</translation>
@@ -334,7 +334,7 @@
 <translation id="769702552748212954">允許所有指紋追蹤</translation>
 <translation id="876424292214881779">已封鎖廣告與其他令人毛骨悚然的東西</translation>
 <translation id="6930134873084561197">網站時常包含 cookies 和 scripts，它們會試著辨認你和你的裝置。它們想要知道你是誰，並追蹤您在每個網站做什麼。\n\n Brave 會封鎖這些東西，讓您在不被跟蹤的狀態下進行瀏覽。</translation>
-<translation id="8553998445606452168">關於 Brave Shields</translation>
+<translation id="8553998445606452168">關於 Presearch Shields</translation>
 <translation id="8912304686498704084">开启</translation>
 <translation id="4963218453264888510">关闭</translation>
 <translation id="7474113515179313724">您正在沒有受到 Brave 的隱私保護下瀏覽此網站。是因為 Shields up 功能哪裡出錯了嗎？</translation>
@@ -867,12 +867,12 @@
 <translation id="4282642752844565114">字數不正確</translation>
 <translation id="8267327690882073581">驗證錢包</translation>
 <translation id="6589609065569680305">此頁面上被封鎖的追蹤器與廣告。</translation>
-<translation id="1283922192221545319">Brave Shields 保護您的隱私。</translation>
+<translation id="1283922192221545319">Presearch Shields 保護您的隱私。</translation>
 <translation id="3286927551967858325">看一看</translation>
 <translation id="6227291358910554399">在此網站上觀看影片時，廣告被封鎖。</translation>
 <translation id="7802980684512102010">沒有廣告的影片使用的流量更少。</translation>
 <translation id="2046475855484346614">在此頁面上已封鎖了超過 10 個追蹤器與廣告。</translation>
-<translation id="5806208250835099572">Brave Shields 保護您在每個網站上的線上隱私。</translation>
+<translation id="5806208250835099572">Presearch Shields 保護您在每個網站上的線上隱私。</translation>
 <translation id="5617673581653540121">您的連線已加密。</translation>
 <translation id="4055107796760496928">若可用，Brave 將會自動升級到安全連線。</translation>
 <translation id="8869714780588464835">分享新聞</translation>

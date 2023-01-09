@@ -73,10 +73,10 @@ void WebcompatReportUploader::CreateAndStartURLLoader(
           sender: "Brave Web Compatibility Reporting"
           description:
             "A user-initiated report of a website that appears broken as a"
-            "result of having Brave Shields enabled."
+            "result of having Presearch Shields enabled."
           trigger:
             "Though the 'Report a Broken Site' option of the help menu or"
-            "the Brave Shields panel."
+            "the Presearch Shields panel."
           data: "Broken URL, IP address; user provided additional details and contact information."
           destination: OTHER
           destination_other: "Brave developers"

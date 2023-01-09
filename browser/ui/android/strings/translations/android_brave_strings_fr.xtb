@@ -70,7 +70,7 @@
 <translation id="410351446219883937">Lecture automatique</translation>
 <translation id="7445411102860286510">Autoriser les sites à lire automatiquement des vidéos dont le son est coupé (recommandé)</translation>
 <translation id="7837721118676387834">Autorisez la lecture automatique des vidéos dont le son est coupé pour un site spécifique.</translation>
-<translation id="181905442828471321">Paramètres globaux par défaut de Brave Shields</translation>
+<translation id="181905442828471321">Paramètres globaux par défaut de Presearch Shields</translation>
 <translation id="2675679258824361492">Autres paramètres de confidentialité</translation>
 <translation id="8026334261755873520">Effacer les données de navigation</translation>
 <translation id="5965081608816406060">Lecture vidéo en arrière-plan</translation>
@@ -88,7 +88,7 @@
 <translation id="986879628471635371">Intégration du dépannage</translation>
 <translation id="5808759341041733958">Choisissez le moteur de recherche par défaut</translation>
 <translation id="1331593888918588693">Vous pouvez toujours modifier vos préférences plus tard dans les paramètres de l'application.</translation>
-<translation id="5806601733251372221">Brave Shields</translation>
+<translation id="5806601733251372221">Presearch Shields</translation>
 <translation id="8537217141725709400">Gagnez des <ph name="TOKEN"/>s</translation>
 <translation id="3333887201479867589">Récompenses Brave</translation>
 <translation id="5870330605209713397">en affichant des annonces respectueuses de la vie privée et en soutenant vos sites et créateurs préférés par défaut.</translation>
@@ -335,7 +335,7 @@ Voulez-vous vraiment continuer ?</translation>
 <translation id="769702552748212954">Autoriser toutes les empreintes digitales</translation>
 <translation id="876424292214881779">publicités et autres éléments indésirables bloqués</translation>
 <translation id="6930134873084561197">Les sites incluent souvent des cookies et des scripts qui tentent de vous identifier, vous et votre appareil. Ils veulent savoir qui vous êtes et vous suivre sur le web en pistant ce que vous faites sur chaque site.\n\nBrave bloque ces éléments afin que vous puissiez naviguer sans être suivi.</translation>
-<translation id="8553998445606452168">À propos de Brave Shields</translation>
+<translation id="8553998445606452168">À propos de Presearch Shields</translation>
 <translation id="8912304686498704084">HAUT</translation>
 <translation id="4963218453264888510">BAS</translation>
 <translation id="7474113515179313724">Vous naviguez sur ce site sans les protections de la vie privée de Brave. Rencontrez-vous des problèmes lorsque Shields est activé ?</translation>
@@ -868,12 +868,12 @@ Si vous n'acceptez pas cette demande, le VPN ne se reconnectera pas et votre con
 <translation id="4282642752844565114">Nombre de mots incorrect</translation>
 <translation id="8267327690882073581">Vérifier le portefeuille</translation>
 <translation id="6589609065569680305">Trackers et publicités bloqués sur cette page.</translation>
-<translation id="1283922192221545319">Brave Shields vient de protéger votre confidentialité.</translation>
+<translation id="1283922192221545319">Presearch Shields vient de protéger votre confidentialité.</translation>
 <translation id="3286927551967858325">Voir le site</translation>
 <translation id="6227291358910554399">Les publicités sont bloquées pendant le visionnage des vidéos sur ce site.</translation>
 <translation id="7802980684512102010">Les vidéos sans publicité utilisent moins de données.</translation>
 <translation id="2046475855484346614">Plus de 10 trackers et publicités bloqués sur cette page.</translation>
-<translation id="5806208250835099572">Brave Shields protège votre confidentialité en ligne sur tous les sites.</translation>
+<translation id="5806208250835099572">Presearch Shields protège votre confidentialité en ligne sur tous les sites.</translation>
 <translation id="5617673581653540121">Votre connexion est désormais cryptée.</translation>
 <translation id="4055107796760496928">Si disponible, Brave vous surclasse automatiquement vers une connexion sécurisée.</translation>
 <translation id="8869714780588464835">Partager la nouvelle</translation>

@@ -1,7 +1,7 @@
 <?xml version="1.0" ?>
 <!DOCTYPE translationbundle>
 <translationbundle lang="th">
-<translation id="7307834434086582547">เปิด/ปิดใช้งาน Brave Shields</translation>
+<translation id="7307834434086582547">เปิด/ปิดใช้งาน Presearch Shields</translation>
 <translation id="3570081523466826008">อัปเกรดการเชื่อมต่อเป็น HTTPS</translation>
 <translation id="2278950434998763147">เปิดบางเว็บไซต์โดยใช้การเชื่อมต่อ HTTPS ที่ปลอดภัยแทน HTTP ธรรมดา</translation>
 <translation id="5510493033031835532">เปลี่ยนเส้นทางหน้า AMP อัตโนมัติ</translation>
@@ -70,7 +70,7 @@
 <translation id="410351446219883937">เล่นอัตโนมัติ</translation>
 <translation id="7445411102860286510">อนุญาตให้เว็บไซต์เล่นวิดีโอที่ปิดเสียงโดยอัตโนมัติ (แนะนำ)</translation>
 <translation id="7837721118676387834">อนุญาตให้เล่นวิดีโอที่ปิดเสียงโดยอัตโนมัติสำหรับบางเว็บไซต์</translation>
-<translation id="181905442828471321">ค่าเริ่มต้นทั่วไปของ Brave Shields</translation>
+<translation id="181905442828471321">ค่าเริ่มต้นทั่วไปของ Presearch Shields</translation>
 <translation id="2675679258824361492">การตั้งค่าความเป็นส่วนตัวอื่นๆ</translation>
 <translation id="8026334261755873520">ล้างข้อมูลการท่องเว็บ</translation>
 <translation id="5965081608816406060">การเล่นวิดีโอในเบื้องหลัง</translation>
@@ -88,7 +88,7 @@
 <translation id="986879628471635371">การแก้ไขปัญหาการเตรียมความพร้อม</translation>
 <translation id="5808759341041733958">เลื่อกเอนจิ้นค้นหาเริ่มต้น</translation>
 <translation id="1331593888918588693">คุณสามารถเปลี่ยนการตั้งค่าในภายหลังได้เสมอในการตั้งค่าแอป</translation>
-<translation id="5806601733251372221">Brave Shields</translation>
+<translation id="5806601733251372221">Presearch Shields</translation>
 <translation id="8537217141725709400">รับ <ph name="TOKEN"/></translation>
 <translation id="3333887201479867589">Brave Rewards</translation>
 <translation id="5870330605209713397">ด้วยการดูโฆษณาที่เคารพความเป็นส่วนตัวและสนับสนุนเว็บและครีเอเตอร์คนโปรดของคุณ</translation>
@@ -337,7 +337,7 @@
 <translation id="769702552748212954">อนุญาตการสร้างลายนิ้วมือทั้งหมด</translation>
 <translation id="876424292214881779">บล็อกโฆษณาและสิ่งที่น่ากลัวต่างๆ ถูกแล้ว</translation>
 <translation id="6930134873084561197">หลายเว็บไซต์มักใส่คุกกี้และสคริปต์ที่พยายามระบุตัวตนคุณและอุปกรณ์ของคุณ พวกเขาอยากรู้ว่าคุณเป็นใครและติดตามคุณผ่านการติดตามเว็บสิ่งที่คุณทำบนทุกเว็บไซต์\n\nBrave บล็อกสิ่งเหล่านี้เพื่อที่คุณสามารถค้นหาโดยไม่ถูกติดตามตัว</translation>
-<translation id="8553998445606452168">เกี่ยวกับ Brave Shields</translation>
+<translation id="8553998445606452168">เกี่ยวกับ Presearch Shields</translation>
 <translation id="8912304686498704084">ขึ้น</translation>
 <translation id="4963218453264888510">ลง</translation>
 <translation id="7474113515179313724">คุณกำลังค้นเว็บนี้โดยไม่มีการป้องกันความเป็นส่วนตัวของ Brave เว็บนี้ทำงานไม่ถูกต้องเมื่อเปิด Shields หรือ?</translation>
@@ -870,12 +870,12 @@
 <translation id="4282642752844565114">จำนวนคำไม่ถูกต้อง</translation>
 <translation id="8267327690882073581">ยืนยันวอลเล็ท</translation>
 <translation id="6589609065569680305">เครื่องมือติดตามและโฆษณาถูกบล็อกในหน้านี้</translation>
-<translation id="1283922192221545319">Brave Shields ปกป้องความเป็นส่วนตัวของคุณ</translation>
+<translation id="1283922192221545319">Presearch Shields ปกป้องความเป็นส่วนตัวของคุณ</translation>
 <translation id="3286927551967858325">ลองดู</translation>
 <translation id="6227291358910554399">โฆษณาถูกบล็อกขณะดูวิดีโอบนเว็บไซต์นี้</translation>
 <translation id="7802980684512102010">วิดีโอที่ไม่มีโฆษณาใช้ข้อมูลน้อยกว่า</translation>
 <translation id="2046475855484346614">เครื่องมือติดตามและโฆษณามากกว่า 10 รายการถูกบล็อกในหน้านี้</translation>
-<translation id="5806208250835099572">Brave Shields ปกป้องความเป็นส่วนตัวทางออนไลน์ของคุณในทุกเว็บไซต์</translation>
+<translation id="5806208250835099572">Presearch Shields ปกป้องความเป็นส่วนตัวทางออนไลน์ของคุณในทุกเว็บไซต์</translation>
 <translation id="5617673581653540121">การเชื่อมต่อของคุณได้รับการเข้ารหัสแล้ว</translation>
 <translation id="4055107796760496928">หากทำได้ Brave จะอัปเกรดคุณเป็นการเชื่อมต่อที่ปลอดภัยโดยอัตโนมัติ</translation>
 <translation id="8869714780588464835">แบ่งปันข่าวสาร</translation>

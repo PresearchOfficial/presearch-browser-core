@@ -1,7 +1,7 @@
 <?xml version="1.0" ?>
 <!DOCTYPE translationbundle>
 <translationbundle lang="ja">
-<translation id="7307834434086582547">Brave Shieldsを有効/無効にします</translation>
+<translation id="7307834434086582547">Presearch Shieldsを有効/無効にします</translation>
 <translation id="3570081523466826008">接続をHTTPSにアップグレードする</translation>
 <translation id="2278950434998763147">HTTPではなく、安全なHTTPSを使用してサイトを開きます。</translation>
 <translation id="5510493033031835532">AMPページを自動でリダイレクト</translation>
@@ -17,7 +17,7 @@
 <translation id="8877432762827303535">オンラインチェックアウト</translation>
 <translation id="6583902294974160967">サポート</translation>
 <translation id="1799030480311994998">機能</translation>
-<translation id="2005732746077850308">Brave Shields &amp; プライバシー</translation>
+<translation id="2005732746077850308">Presearch Shields &amp; プライバシー</translation>
 <translation id="4692623383562244444">検索エンジン</translation>
 <translation id="1468415711258933398">通常タブ</translation>
 <translation id="3377025655491224618">プライベートタブ</translation>
@@ -70,7 +70,7 @@
 <translation id="410351446219883937">自動再生</translation>
 <translation id="7445411102860286510">ミュートされた動画の自動再生をサイトに許可する（推奨）</translation>
 <translation id="7837721118676387834">特定のサイトに対し、ミュートされた動画の自動再生を許可します。</translation>
-<translation id="181905442828471321">Brave Shields グローバルデフォルト</translation>
+<translation id="181905442828471321">Presearch Shields グローバルデフォルト</translation>
 <translation id="2675679258824361492">その他のプライバシー設定</translation>
 <translation id="8026334261755873520">閲覧履歴データの削除</translation>
 <translation id="5965081608816406060">バックグラウンドでの動画再生</translation>
@@ -88,7 +88,7 @@
 <translation id="986879628471635371">トラブルシューティングのチュートリアル</translation>
 <translation id="5808759341041733958">既定の検索エンジンを選択してください</translation>
 <translation id="1331593888918588693">アプリの設定で、後からいつでも設定を変更することができます。</translation>
-<translation id="5806601733251372221">Brave Shields</translation>
+<translation id="5806601733251372221">Presearch Shields</translation>
 <translation id="8537217141725709400"><ph name="TOKEN"/>を獲得</translation>
 <translation id="3333887201479867589">Brave Rewards</translation>
 <translation id="5870330605209713397">プライバシーを侵害しない広告を閲覧して、お気に入りのサイトやクリエイターをデフォルト設定でサポートしましょう。</translation>
@@ -335,7 +335,7 @@
 <translation id="769702552748212954">すべてのフィンガープリントを許可する</translation>
 <translation id="876424292214881779">ブロック済の広告およびその他の不審な通信</translation>
 <translation id="6930134873084561197">多くの場合、ウェブサイトにはあなた(のデバイス)を識別するためにクッキーとスクリプトが含まれます。あなたが誰であるかを判別・追跡しあなたが他のサイトで何をしているかを知ろうとします。\n\nBraveはこれらをブロックし、あなたが追跡されることなくブラウザできるようにします。</translation>
-<translation id="8553998445606452168">Brave Shieldsについて</translation>
+<translation id="8553998445606452168">Presearch Shieldsについて</translation>
 <translation id="8912304686498704084">オン</translation>
 <translation id="4963218453264888510">オフ</translation>
 <translation id="7474113515179313724">現在、Braveのプライバシー保護機能なしでこのサイトを閲覧しています。Shieldsを有効にするとサイトに問題がありましたか？</translation>
@@ -868,12 +868,12 @@
 <translation id="4282642752844565114">間違ったワード数</translation>
 <translation id="8267327690882073581">ウォレットを認証</translation>
 <translation id="6589609065569680305">トラッカー＆広告がこのページでブロックされています。</translation>
-<translation id="1283922192221545319">Brave Shieldsは、あなたのプライバシーを保護しました。</translation>
+<translation id="1283922192221545319">Presearch Shieldsは、あなたのプライバシーを保護しました。</translation>
 <translation id="3286927551967858325">見てみる</translation>
 <translation id="6227291358910554399">このウェブサイトで動画を見ている間、広告はブロックされます。</translation>
 <translation id="7802980684512102010">広告のない動画は、使用するデータが少なくなります。</translation>
 <translation id="2046475855484346614">10以上のトラッカー＆広告がこのページでブロックされています。</translation>
-<translation id="5806208250835099572">Brave Shieldsは、すべてのサイトであなたのオンラインプライバシーを保護します。</translation>
+<translation id="5806208250835099572">Presearch Shieldsは、すべてのサイトであなたのオンラインプライバシーを保護します。</translation>
 <translation id="5617673581653540121">これで、あなたの接続が暗号化されました。</translation>
 <translation id="4055107796760496928">可能な場合、Braveは自動的に安全な接続にアップブレード致します。</translation>
 <translation id="8869714780588464835">ニュースをシェア</translation>

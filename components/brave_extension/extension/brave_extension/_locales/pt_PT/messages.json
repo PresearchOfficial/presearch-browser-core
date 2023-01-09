@@ -189,7 +189,7 @@
   },
   "shieldsExplanation": {
     "message": "Frequentemente, os sites incluem cookies e scripts que procuram proceder à sua identificação e à do dispositivo (geralmente incorporados em anúncios). A sua função consiste em descobrir quem você é e segui-lo pela web - monitorizando tudo o que faz em cada site. Brave bloqueia estas coisas, para que possa navegar sem ser seguido. ",
-    "description": "Message in read-only view explaining what Brave Shields do"
+    "description": "Message in read-only view explaining what Presearch Shields do"
   },
   "blockedResoucesExplanation": {
     "message": "Rastreadores entre ''site'' e outras coisas assustadoras são bloqueadas",

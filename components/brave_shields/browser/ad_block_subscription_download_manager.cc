@@ -32,7 +32,7 @@ const net::NetworkTrafficAnnotationTag
             "brave_shields_ad_block_subscription",
             R"(
         semantics {
-          sender: "Brave Shields"
+          sender: "Presearch Shields"
           description:
             "Brave periodically downloads updates to third-party filter lists "
             "added by users on presearch://adblock."

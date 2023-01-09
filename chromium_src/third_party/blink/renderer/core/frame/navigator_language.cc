@@ -20,7 +20,7 @@ void NavigatorLanguage::EnsureUpdatedLanguage() {
   NavigatorLanguage_ChromiumImpl::EnsureUpdatedLanguage();
   blink::WebContentSettingsClient* settings =
       brave::GetContentSettingsClientFor(execution_context_);
-  // If Brave Shields are down or anti-fingerprinting is off for this site,
+  // If Presearch Shields are down or anti-fingerprinting is off for this site,
   // do nothing.
   if (!settings || settings->GetBraveFarblingLevel() == BraveFarblingLevel::OFF)
     return;

@@ -105,7 +105,7 @@ export const requestShieldPanelData = (tabId: number) =>
       console.error('[Shields]: Can\'t request shields panel data for tabId: ' + tabId + '. ', error))
 
 /**
- * Changes the brave shields setting at origin to be allowed or blocked.
+ * Changes the presearch shields setting at origin to be allowed or blocked.
  * @param {string} origin the origin of the site to change the setting for
  * @param {string} setting 'allow' or 'block'
  * @return a promise which resolves when the setting is set

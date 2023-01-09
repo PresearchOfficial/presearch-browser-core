@@ -189,7 +189,7 @@
   },
   "shieldsExplanation": {
     "message": "Las páginas web incluyen a menudo “cookies” y “scripts” (normalmente integrados en anuncios) que intentan identificarte a ti y a tu dispositivo. Quieren saber quién eres y seguirte por toda la web, registrando lo que haces en cada página. Brave bloquea estos elementos para que puedas navegar sin que te rastreen.",
-    "description": "Message in read-only view explaining what Brave Shields do"
+    "description": "Message in read-only view explaining what Presearch Shields do"
   },
   "blockedResoucesExplanation": {
     "message": "Rastreadores y otros elementos amenazantes bloqueados",

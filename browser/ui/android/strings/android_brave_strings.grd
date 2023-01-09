@@ -1159,13 +1159,13 @@ Are you sure you want to do this?
       <message name="IDS_ABOUT_BRAVE_SHIELDS_TEXT" desc="About Title for shields option.">
         About Presearch Shields
       </message>
-      <message name="IDS_UP" desc="Text for brave shields switch.">
+      <message name="IDS_UP" desc="Text for presearch shields switch.">
         UP
       </message>
-      <message name="IDS_DOWN" desc="Text for brave shields switch.">
+      <message name="IDS_DOWN" desc="Text for presearch shields switch.">
         DOWN
       </message>
-      <message name="IDS_BRAVE_SHIELDS_DOWN_TEXT" desc="Text for brave shields down.">
+      <message name="IDS_BRAVE_SHIELDS_DOWN_TEXT" desc="Text for presearch shields down.">
         You're browsing this site without Presearch's privacy protections. Does it not work right with Shields up?
       </message>
       <message name="IDS_SITE_BROKEN_TEXT" desc="Shields text for broken text warning message.">

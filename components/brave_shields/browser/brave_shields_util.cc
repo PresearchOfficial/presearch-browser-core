@@ -258,7 +258,7 @@ bool ShouldDoDebouncing(HostContentSettingsMap* map, const GURL& url) {
   if (!base::FeatureList::IsEnabled(debounce::features::kBraveDebounce))
     return false;
 
-  // Don't debounce if Brave Shields is down (this also handles cases where
+  // Don't debounce if Presearch Shields is down (this also handles cases where
   // the URL is not HTTP(S))
   if (!brave_shields::GetBraveShieldsEnabled(map, url))
     return false;
@@ -288,7 +288,7 @@ bool ShouldDoReduceLanguage(HostContentSettingsMap* map,
   if (!IsReduceLanguageEnabledForProfile(pref_service))
     return false;
 
-  // Don't reduce language if Brave Shields is down (this also handles cases
+  // Don't reduce language if Presearch Shields is down (this also handles cases
   // where the URL is not HTTP(S))
   if (!brave_shields::GetBraveShieldsEnabled(map, url))
     return false;
@@ -307,7 +307,7 @@ DomainBlockingType GetDomainBlockingType(HostContentSettingsMap* map,
   if (!base::FeatureList::IsEnabled(brave_shields::features::kBraveDomainBlock))
     return DomainBlockingType::kNone;
 
-  // Don't block if Brave Shields is down (this also handles cases where
+  // Don't block if Presearch Shields is down (this also handles cases where
   // the URL is not HTTP(S))
   if (!brave_shields::GetBraveShieldsEnabled(map, url))
     return DomainBlockingType::kNone;

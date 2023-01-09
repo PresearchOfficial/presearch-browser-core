@@ -161,7 +161,7 @@
 <translation id="8275038454117074363">I-import</translation>
 <translation id="2088479175984386785">Mag-import mula sa...</translation>
 <translation id="5540323067375019678">Pamahalaan ang iyong mga shield</translation>
-<translation id="3278033011827237847">Protektahan laban sa mga ad at tracker na lumalabag sa privacy habang nagba-browse gamit ang Brave Shields. I-set ang Shields sa "down" kung hindi mukhang gumagana nang tama ang isang site.</translation>
+<translation id="3278033011827237847">Protektahan laban sa mga ad at tracker na lumalabag sa privacy habang nagba-browse gamit ang Presearch Shields. I-set ang Shields sa "down" kung hindi mukhang gumagana nang tama ang isang site.</translation>
 <translation id="3366308997091824722">Mga Setting ng Shield</translation>
 <translation id="4764692524839457597">default</translation>
 <translation id="3108122610701115301">I-set bilang default</translation>
@@ -171,7 +171,7 @@
 <translation id="3829010735958850433">Laktawan ang welcome tour</translation>
 <translation id="1201402288615127009">Susunod</translation>
 <translation id="7954950242989581218">Mag-browse nang ligtas at maayos</translation>
-<translation id="2188651882929633653">Bina-block ng Brave Shields ang mga nakakatakot na bagay na sumusubok na i-track ka sa web — kabilang ang karamihan sa mga ad. Itakda ang Shields sa “down” kung mukhang hindi gumagana ang isang site. Gumagamit ang Brave ng <ph name="BEGIN_LINK_P3A"/>ganap na pribadong analytics ng produkto<ph name="END_LINK_P3A"/> upang matantya ang kabuuang paggamit ng mga partikular na feature. Puwede mo itong i-off sa <ph name="BEGIN_LINK_P3A_SETTINGS"/>Settings<ph name="END_LINK_P3A_SETTINGS"/>.</translation>
+<translation id="2188651882929633653">Bina-block ng Presearch Shields ang mga nakakatakot na bagay na sumusubok na i-track ka sa web — kabilang ang karamihan sa mga ad. Itakda ang Shields sa “down” kung mukhang hindi gumagana ang isang site. Gumagamit ang Brave ng <ph name="BEGIN_LINK_P3A"/>ganap na pribadong analytics ng produkto<ph name="END_LINK_P3A"/> upang matantya ang kabuuang paggamit ng mga partikular na feature. Puwede mo itong i-off sa <ph name="BEGIN_LINK_P3A_SETTINGS"/>Settings<ph name="END_LINK_P3A_SETTINGS"/>.</translation>
 <translation id="4851215387785619212">Mga Pribadong Ad ng Brave</translation>
 <translation id="3114984266384096064">Kumita ng [[currency]] sa pamamagitan ng panonood ng Ads ng Brave Private. Ang ipinapakitang mga ad ay nakabatay sa iyong mga interes, gaya ng natukoy sa iyong gawi sa pag-browse. Walang lalabas na personal na data o history sa pag-browse sa iyong browser kailanman.</translation>
 <translation id="6112368337882254910">Awtomatikong Mag-ambag</translation>
@@ -1206,7 +1206,7 @@
 <translation id="1992750560347846445">Iulat ang site</translation>
 <translation id="2387532482048804818">Sabihin sa amin kung hindi gumagana nang maayos ang site habang naka-on ang Shields</translation>
 <translation id="3795015906457257780">Tinitingnan mo ang site na ito nang walang proteksyon sa privacy ng Brave.</translation>
-<translation id="7194012750329511146">Brave Shields
+<translation id="7194012750329511146">Presearch Shields
 <ph name="NUMBER"/> Mga na-block na tracker, ad, at higit pa</translation>
 <translation id="1742469581923031760">Kumokonekta</translation>
 <translation id="1287487756047817908">Dinidiskonekta</translation>

@@ -189,7 +189,7 @@
   },
   "shieldsExplanation": {
     "message": "Οι ιστοσελίδες περιλαμβάνουν συχνά cookies και δέσμες ενεργειών που προσπαθούν να αναγνωρίσουν εσάς και τη συσκευή σας (συχνά ενσωματωμένα σε διαφημίσεις). Θέλουν να βρουν ποιος είστε και σας ακολουθούν στον ιστό — παρακολουθώντας τι κάνετε σε κάθε ιστοσελίδα. Το Brave μπλοκάρει αυτά τα πράγματα έτσι ώστε να μπορείτε να περιηγείστε χωρίς να σας ακολουθούν.",
-    "description": "Message in read-only view explaining what Brave Shields do"
+    "description": "Message in read-only view explaining what Presearch Shields do"
   },
   "blockedResoucesExplanation": {
     "message": "Αποκλείστηκαν οι διατοποθεσιακοί ιχνηλάτες και άλλα ανατριχιαστικά πράγματα",

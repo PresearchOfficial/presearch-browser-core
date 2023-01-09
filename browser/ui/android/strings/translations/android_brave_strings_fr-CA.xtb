@@ -1,7 +1,7 @@
 <?xml version="1.0" ?>
 <!DOCTYPE translationbundle>
 <translationbundle lang="fr-CA">
-<translation id="7307834434086582547">Activer/désactiver Brave Shields</translation>
+<translation id="7307834434086582547">Activer/désactiver Presearch Shields</translation>
 <translation id="3570081523466826008">Mettre à niveau les connexions vers le HTTPS</translation>
 <translation id="2278950434998763147">Ouvre certains sites avec une connexion HTTPS sécurisée, au lieu d'une simple connexion HTTP.</translation>
 <translation id="5510493033031835532">Redirection automatique des pages AMP</translation>
@@ -70,7 +70,7 @@
 <translation id="410351446219883937">Lecture automatique</translation>
 <translation id="7445411102860286510">Autoriser les sites à lire automatiquement des vidéos dont le son est désactivé (recommandé)</translation>
 <translation id="7837721118676387834">Autorisez la lecture automatique des vidéos dont le son est désactivé pour un site en particulier.</translation>
-<translation id="181905442828471321">Paramètres globaux par défaut de Brave Shields</translation>
+<translation id="181905442828471321">Paramètres globaux par défaut de Presearch Shields</translation>
 <translation id="2675679258824361492">Autres paramètres de confidentialité</translation>
 <translation id="8026334261755873520">Effacer les données de navigation</translation>
 <translation id="5965081608816406060">Lecture de vidéo en arrière-plan</translation>
@@ -337,7 +337,7 @@ Voulez-vous vraiment continuer?</translation>
 <translation id="769702552748212954">Autoriser toutes les empreintes digitales</translation>
 <translation id="876424292214881779">publicités et autres éléments indésirables bloqués</translation>
 <translation id="6930134873084561197">Les sites incluent souvent des cookies et des scripts qui tentent de vous identifier, vous et votre appareil. Ils veulent savoir qui vous êtes et vous suivre sur le web en suivant ce que vous faites sur chaque site. Brave bloque ces éléments afin que vous puissiez naviguer sans être suivi.</translation>
-<translation id="8553998445606452168">À propos de Brave Shields</translation>
+<translation id="8553998445606452168">À propos de Presearch Shields</translation>
 <translation id="8912304686498704084">Haut</translation>
 <translation id="4963218453264888510">Bas</translation>
 <translation id="7474113515179313724">Vous naviguez sur ce site sans les protections de la vie privée de Brave. Cela ne fonctionne-t-il pas bien avec Shields activé ?</translation>
@@ -870,12 +870,12 @@ Si vous n'acceptez pas cette demande, le VPN ne se reconnectera pas et votre con
 <translation id="4282642752844565114">Nombre de mots incorrect</translation>
 <translation id="8267327690882073581">Vérifiez le portefeuille</translation>
 <translation id="6589609065569680305">Trackers, annonces bloquées sur cette page.</translation>
-<translation id="1283922192221545319">Brave Shields vient de protéger votre vie privée.</translation>
+<translation id="1283922192221545319">Presearch Shields vient de protéger votre vie privée.</translation>
 <translation id="3286927551967858325">Jeter un coup d'œil</translation>
 <translation id="6227291358910554399">Les publicités sont bloquées pendant le visionnage des vidéos sur ce site.</translation>
 <translation id="7802980684512102010">Les vidéos sans publicité utilisent moins de données.</translation>
 <translation id="2046475855484346614">Plus de 10 trackers, annonces bloquées sur cette page.</translation>
-<translation id="5806208250835099572">Brave Shields protège votre vie privée en ligne sur chaque site.</translation>
+<translation id="5806208250835099572">Presearch Shields protège votre vie privée en ligne sur chaque site.</translation>
 <translation id="5617673581653540121">Votre connexion est maintenant cryptée.</translation>
 <translation id="4055107796760496928">Si elle est disponible, Brave vous met automatiquement à niveau vers une connexion sécurisée.</translation>
 <translation id="8869714780588464835">Partager la nouvelle</translation>

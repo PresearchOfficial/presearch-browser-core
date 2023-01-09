@@ -161,7 +161,7 @@
 <translation id="8275038454117074363">Importálás</translation>
 <translation id="2088479175984386785">Importálás forrása...</translation>
 <translation id="5540323067375019678">Adatvédelmi pajzsok kezelése</translation>
-<translation id="3278033011827237847">Megóv az adatbiztonságot veszélyeztető hirdetésektől és nyomkövetőktől Brave Shields-szel való böngészés közben. Állítsd a Shields-et „le” re, ha úgy tűnik, hogy egy oldal nem működik megfelelően.</translation>
+<translation id="3278033011827237847">Megóv az adatbiztonságot veszélyeztető hirdetésektől és nyomkövetőktől Presearch Shields-szel való böngészés közben. Állítsd a Shields-et „le” re, ha úgy tűnik, hogy egy oldal nem működik megfelelően.</translation>
 <translation id="3366308997091824722">Pajzs beállítások</translation>
 <translation id="4764692524839457597">alapértelmezett</translation>
 <translation id="3108122610701115301">Alapértelmezett beállítása</translation>
@@ -171,7 +171,7 @@
 <translation id="3829010735958850433">Üdvözlő bemutató átugrása</translation>
 <translation id="1201402288615127009">Következő</translation>
 <translation id="7954950242989581218">Böngéssz biztonságban</translation>
-<translation id="2188651882929633653">A Brave Shields blokkolja a fura dolgokat, amelyek megpróbálják nyomon követni az interneten — beleértve a hirdetéseket. Kapcsolja “ki” a Shields funkciót, amennyibe egy oldal nem működik. A Brave <ph name="BEGIN_LINK_P3A"/>teljesen bizalmas termék analitikát <ph name="END_LINK_P3A"/> használ egy adott funkció teljes használatának megbecsléséhez. Ezt kikapcsolhatja a <ph name="BEGIN_LINK_P3A_SETTINGS"/>beállításokban<ph name="END_LINK_P3A_SETTINGS"/>.</translation>
+<translation id="2188651882929633653">A Presearch Shields blokkolja a fura dolgokat, amelyek megpróbálják nyomon követni az interneten — beleértve a hirdetéseket. Kapcsolja “ki” a Shields funkciót, amennyibe egy oldal nem működik. A Brave <ph name="BEGIN_LINK_P3A"/>teljesen bizalmas termék analitikát <ph name="END_LINK_P3A"/> használ egy adott funkció teljes használatának megbecsléséhez. Ezt kikapcsolhatja a <ph name="BEGIN_LINK_P3A_SETTINGS"/>beállításokban<ph name="END_LINK_P3A_SETTINGS"/>.</translation>
 <translation id="4851215387785619212">Brave privát hirdetések</translation>
 <translation id="3114984266384096064">Keressen [[currency]] összeget Brave privát hirdetések megtekintésével. A megjelenített hirdetések az Ön érdeklődésén alapulnak, melyre a böngészési szokásaiból következtettünk. A böngészőjét semmilyen személyes adat vagy böngészési előzmény nem hagyja el.</translation>
 <translation id="6112368337882254910">Automatikus támogatás</translation>

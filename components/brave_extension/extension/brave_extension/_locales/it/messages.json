@@ -189,7 +189,7 @@
   },
   "shieldsExplanation": {
     "message": "I siti spesso includono cookie e script che provano a identificare te e il tuo dispositivo (spesso inseriti negli annunci). Vogliono capire chi sei e ti seguono nel web — tracciano ciò che fai su ciascun sito. Brave blocca queste cose in modo che tu possa navigare senza essere inseguito.",
-    "description": "Message in read-only view explaining what Brave Shields do"
+    "description": "Message in read-only view explaining what Presearch Shields do"
   },
   "blockedResoucesExplanation": {
     "message": "Tracciamento cross-site e altre cose inquietanti bloccate",

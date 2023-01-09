@@ -1,7 +1,7 @@
 <?xml version="1.0" ?>
 <!DOCTYPE translationbundle>
 <translationbundle lang="iw">
-<translation id="7307834434086582547">הפעל / כבה את Brave Shields</translation>
+<translation id="7307834434086582547">הפעל / כבה את Presearch Shields</translation>
 <translation id="3570081523466826008">שדרג חיבורים ל-HTTPS</translation>
 <translation id="2278950434998763147">פותח אתרים נתמכים בצורה מאובטחת באמצעות HTTPS במקום HTTP</translation>
 <translation id="5510493033031835532">הפניה אוטומטית של דפי AMP</translation>
@@ -70,7 +70,7 @@
 <translation id="410351446219883937">הפעלה אוטומטית</translation>
 <translation id="7445411102860286510">אתרים יוכלו להפעיל באופן אוטומטי סרטונים מושתקים (מומלץ)</translation>
 <translation id="7837721118676387834">אפשר הפעלה אוטומטית של סרטונים מושתקים באתר ספציפי.</translation>
-<translation id="181905442828471321">הגדרות ברירת מחדל של Brave Shields</translation>
+<translation id="181905442828471321">הגדרות ברירת מחדל של Presearch Shields</translation>
 <translation id="2675679258824361492">הגדרות פרטיות אחרות</translation>
 <translation id="8026334261755873520">ניקוי נתוני גלישה</translation>
 <translation id="5965081608816406060">הפעלת וידאו ברקע</translation>
@@ -88,7 +88,7 @@
 <translation id="986879628471635371">פתרון תקלות מובנה</translation>
 <translation id="5808759341041733958">בחר מנוע חיפוש ברירת מחדל</translation>
 <translation id="1331593888918588693">תמיד תוכלו לשנות את העדפתכם בהמשך דרך הגדרות האפליקציה.</translation>
-<translation id="5806601733251372221">Brave Shields</translation>
+<translation id="5806601733251372221">Presearch Shields</translation>
 <translation id="8537217141725709400">הרווח/י <ph name="TOKEN"/>s</translation>
 <translation id="3333887201479867589">תגמולי Brave</translation>
 <translation id="5870330605209713397">על ידי צפייה בפרסומות השומרות על הפרטיות ותמיכה באתרים והיוצרים המועדפים עליך כברירת מחדל.</translation>
@@ -337,7 +337,7 @@
 <translation id="769702552748212954">אפשר כל לקיחת טביעות אצבע</translation>
 <translation id="876424292214881779">פרסומות ומטרדים אחרים נחסמו</translation>
 <translation id="6930134873084561197">אתרים כוללים לעתים קרובות קובצי עוגייה וסקריפטים שמנסים לזהות אותך ואת המכשיר שלך. הם רוצים להבין מי את/ה ולעקוב אחריך ברחבי האינטרנט - בעודם עוקבים אחר מה שאת/ה עושה בכל אתר.\n\n Braveחוסם את הדברים האלה כך שתוכל/י לגלוש בלי שיעקבו אחריך.</translation>
-<translation id="8553998445606452168">אודות Brave Shields</translation>
+<translation id="8553998445606452168">אודות Presearch Shields</translation>
 <translation id="8912304686498704084">למעלה</translation>
 <translation id="4963218453264888510">למטה</translation>
 <translation id="7474113515179313724">הנך גולש/ת באתר זה ללא הגנת הפרטיות של Brave. האם זה לא עובד כמו שצריך עם Shields?</translation>
@@ -871,12 +871,12 @@
 <translation id="4282642752844565114">מספר המילים שגוי</translation>
 <translation id="8267327690882073581">אימות ארנק</translation>
 <translation id="6589609065569680305">כלי מעקב וamp;amp; פרסומות חסומים בעמוד זה.</translation>
-<translation id="1283922192221545319">Brave Shields שמר עכשיו על פרטיותך.</translation>
+<translation id="1283922192221545319">Presearch Shields שמר עכשיו על פרטיותך.</translation>
 <translation id="3286927551967858325">תנ/י מבט</translation>
 <translation id="6227291358910554399">באתר זה הפרסומות חסומות בעת צפייה בסרטונים.</translation>
 <translation id="7802980684512102010">סרטים בלי פרסומות משתמשים בפחות נתונים.</translation>
-<translation id="2046475855484346614">יותר מ-10 כלי מעקב וBrave Shields פרסומות נחסמו בעמוד זה.</translation>
-<translation id="5806208250835099572">Brave Shields שומר על פרטיותך המקוונת בכל האתרים.</translation>
+<translation id="2046475855484346614">יותר מ-10 כלי מעקב וPresearch Shields פרסומות נחסמו בעמוד זה.</translation>
+<translation id="5806208250835099572">Presearch Shields שומר על פרטיותך המקוונת בכל האתרים.</translation>
 <translation id="5617673581653540121">החיבור שלך מוצפן עכשיו.</translation>
 <translation id="4055107796760496928">בכפוף לזמינות, Brave ישדרג אותך לחיבור מאובטח באופן אוטומטי.</translation>
 <translation id="8869714780588464835">שתף את החדשות עם אחרים</translation>

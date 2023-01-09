@@ -171,7 +171,7 @@
 <translation id="3829010735958850433">Die Einführung überspringen</translation>
 <translation id="1201402288615127009">Weiter</translation>
 <translation id="7954950242989581218">Sicheres Surfen</translation>
-<translation id="2188651882929633653">Brave Shields blockiert das gruselige Zeug, das versucht, Sie im Web zu verfolgen – einschließlich der meisten Anzeigen. Stellen Sie Shields auf „aus“, falls eine Seite nicht zu funktionieren scheint. Brave nutzt <ph name="BEGIN_LINK_P3A"/>eine komplett private Produktanalyse<ph name="END_LINK_P3A"/>, um die Gesamtnutzung bestimmter Funktionen zu ermitteln. Sie können dies in den <ph name="BEGIN_LINK_P3A_SETTINGS"/>Einstellungen<ph name="END_LINK_P3A_SETTINGS"/> ändern.</translation>
+<translation id="2188651882929633653">Presearch Shields blockiert das gruselige Zeug, das versucht, Sie im Web zu verfolgen – einschließlich der meisten Anzeigen. Stellen Sie Shields auf „aus“, falls eine Seite nicht zu funktionieren scheint. Brave nutzt <ph name="BEGIN_LINK_P3A"/>eine komplett private Produktanalyse<ph name="END_LINK_P3A"/>, um die Gesamtnutzung bestimmter Funktionen zu ermitteln. Sie können dies in den <ph name="BEGIN_LINK_P3A_SETTINGS"/>Einstellungen<ph name="END_LINK_P3A_SETTINGS"/> ändern.</translation>
 <translation id="4851215387785619212">Private Anzeigen von Brave</translation>
 <translation id="3114984266384096064">Verdienen Sie [[currency]], indem Sie sich Brave Privat-Ads ansehen. Die Werbung, die Ihnen angezeigt wird, basiert auf Ihren Interessen, die aus Ihrem Surfverhalten abgeleitet werden. Weder personenbezogene Daten noch Ihr Browserverlauf verlassen jemals Ihren Browser.</translation>
 <translation id="6112368337882254910">Auto-Beitrag</translation>
@@ -1177,7 +1177,7 @@
 <translation id="6951743416068151209">Tor Proxy URL</translation>
 <translation id="1671503397662036257">Tor Verbindungsstatus</translation>
 <translation id="6024292492796847324">Tor Initialisierung Fortschritt</translation>
-<translation id="8458987127502506209">Brave Shields aktivieren</translation>
+<translation id="8458987127502506209">Presearch Shields aktivieren</translation>
 <translation id="7509914170164691086">Schutz ist AKTIV <ph name="LINK_BEFORE"/>für<ph name="LINK_AFTER"/></translation>
 <translation id="260764436039299868">Schutz ist DEAKTIVIERT <ph name="LINK_BEFORE"/>für<ph name="LINK_AFTER"/></translation>
 <translation id="7709075156958117386">Wenn diese Seite kaputt zu sein scheint, versuchen Sie es mit deaktiviertem Schutz.
