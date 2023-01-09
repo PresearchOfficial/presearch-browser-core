@@ -34,10 +34,10 @@ network::ResourceRequest OnBeforeSystemRequest(
   GURL new_url;
   brave::OnBeforeURLRequest_BlockSafeBrowsingReportingURLs(url_request.url,
                                                            &new_url);
-  brave::OnBeforeURLRequest_StaticRedirectWorkForGURL(url_request.url,
-                                                      &new_url);
-  brave::OnBeforeURLRequest_CommonStaticRedirectWorkForGURL(url_request.url,
-                                                            &new_url);
+  // brave::OnBeforeURLRequest_StaticRedirectWorkForGURL(url_request.url,
+  //                                                     &new_url);
+  // brave::OnBeforeURLRequest_CommonStaticRedirectWorkForGURL(url_request.url,
+  //                                                           &new_url);
   network::ResourceRequest patched_request = url_request;
   if (!new_url.is_empty()) {
     patched_request.url = new_url;

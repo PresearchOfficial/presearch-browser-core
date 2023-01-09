@@ -12,12 +12,13 @@
 namespace brave {
 
 bool ShouldAddBraveServicesKeyHeader(const GURL& url) {
-  static URLPattern brave_proxy_pattern(URLPattern::SCHEME_HTTPS,
-                                        kBraveProxyPattern);
-  static URLPattern bravesoftware_proxy_pattern(URLPattern::SCHEME_HTTPS,
-                                                kBraveSoftwareProxyPattern);
-  return brave_proxy_pattern.MatchesURL(url) ||
-         bravesoftware_proxy_pattern.MatchesURL(url);
+  // static URLPattern brave_proxy_pattern(URLPattern::SCHEME_HTTPS,
+  //                                       kBraveProxyPattern);
+  // static URLPattern bravesoftware_proxy_pattern(URLPattern::SCHEME_HTTPS,
+  //                                               kBraveSoftwareProxyPattern);
+  // return brave_proxy_pattern.MatchesURL(url) ||
+  //        bravesoftware_proxy_pattern.MatchesURL(url);
+  return false;
 }
 
 }  // namespace brave
