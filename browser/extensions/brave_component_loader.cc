@@ -132,28 +132,28 @@ void BraveComponentLoader::AddDefaultComponentExtensions(
   }
 
   // Enable rewards extension if already opted-in
-  CheckRewardsStatus();
+  // CheckRewardsStatus();
 }
 
 void BraveComponentLoader::AddRewardsExtension() {
   const base::CommandLine& command_line =
       *base::CommandLine::ForCurrentProcess();
-  if (!command_line.HasSwitch(switches::kDisableBraveRewardsExtension) &&
-      !Exists(brave_rewards_extension_id)) {
-    base::FilePath brave_rewards_path(FILE_PATH_LITERAL(""));
-    brave_rewards_path =
-        brave_rewards_path.Append(FILE_PATH_LITERAL("brave_rewards"));
-    Add(IDR_BRAVE_REWARDS, brave_rewards_path);
-  }
+  // if (!command_line.HasSwitch(switches::kDisableBraveRewardsExtension) &&
+  //     !Exists(brave_rewards_extension_id)) {
+  //   base::FilePath brave_rewards_path(FILE_PATH_LITERAL(""));
+  //   brave_rewards_path =
+  //       brave_rewards_path.Append(FILE_PATH_LITERAL("brave_rewards"));
+  //   Add(IDR_BRAVE_REWARDS, brave_rewards_path);
+  // }
 }
 
 void BraveComponentLoader::CheckRewardsStatus() {
   const bool is_ac_enabled =
       profile_prefs_->GetBoolean(brave_rewards::prefs::kAutoContributeEnabled);
 
-  if (is_ac_enabled) {
-    AddRewardsExtension();
-  }
+  // if (is_ac_enabled) {
+  //   AddRewardsExtension();
+  // }
 }
 
 #if BUILDFLAG(ETHEREUM_REMOTE_CLIENT_ENABLED)
