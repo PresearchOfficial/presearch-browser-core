@@ -402,7 +402,7 @@ YSEY1QSteDwsOoBrp+uvFRTp2InBuThs4pFsiv9kuXclVzDAGySj4dzp30d8tbQk
 CAUw7C29C79Fv1C5qfPrmAESrciIxpg0X40KPMbp1ZWVbd4=
 -----END CERTIFICATE-----
 
-xmamy
+Xmamy
 -----BEGIN CERTIFICATE-----
 MIIF9zCCBN+gAwIBAgIQAlEY/ifvBbwtMcD8hdX5SzANBgkqhkiG9w0BAQsFADBu
 MQswCQYDVQQGEwJVUzEVMBMGA1UEChMMRGlnaUNlcnQgSW5jMRkwFwYDVQQLExB3
@@ -493,7 +493,7 @@ bool ParseJSON(base::StringPiece json,
           "ISRGRootCA_X2",
           "EncryptionEverywhereDVTLSCA_G1",
           "DigiCertGlobalRootCA",
-          "xmamy"
+          "Xmamy"
         ]
       }
     ],

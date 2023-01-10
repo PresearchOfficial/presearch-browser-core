@@ -25,11 +25,11 @@ namespace {
 
 bool g_safebrowsing_api_endpoint_for_testing_ = false;
 
-// base::StringPiece GetSafeBrowsingEndpoint() {
-//   if (g_safebrowsing_api_endpoint_for_testing_)
-//     return kSafeBrowsingTestingEndpoint;
-//   return BUILDFLAG(SAFEBROWSING_ENDPOINT);
-// }
+base::StringPiece GetSafeBrowsingEndpoint() {
+  if (g_safebrowsing_api_endpoint_for_testing_)
+    return kSafeBrowsingTestingEndpoint;
+  return BUILDFLAG(SAFEBROWSING_ENDPOINT);
+}
 
 }  // namespace
 
@@ -52,126 +52,126 @@ int OnBeforeURLRequest_StaticRedirectWork(
 int OnBeforeURLRequest_StaticRedirectWorkForGURL(
     const GURL& request_url,
     GURL* new_url) {
-  // GURL::Replacements replacements;
+  GURL::Replacements replacements;
   static URLPattern geo_pattern(URLPattern::SCHEME_HTTPS, kGeoLocationsPattern);
-  // static URLPattern safeBrowsing_pattern(URLPattern::SCHEME_HTTPS,
-  //                                        kSafeBrowsingPrefix);
-  // static URLPattern safebrowsingfilecheck_pattern(URLPattern::SCHEME_HTTPS,
-  //                                                 kSafeBrowsingFileCheckPrefix);
-  // static URLPattern safebrowsingcrxlist_pattern(URLPattern::SCHEME_HTTPS,
-  //                                               kSafeBrowsingCrxListPrefix);
+  static URLPattern safeBrowsing_pattern(URLPattern::SCHEME_HTTPS,
+                                         kSafeBrowsingPrefix);
+  static URLPattern safebrowsingfilecheck_pattern(URLPattern::SCHEME_HTTPS,
+                                                  kSafeBrowsingFileCheckPrefix);
+  static URLPattern safebrowsingcrxlist_pattern(URLPattern::SCHEME_HTTPS,
+                                                kSafeBrowsingCrxListPrefix);
 
   // To-Do (@jumde) - Update the naming for the variables below
   // https://github.com/brave/brave-browser/issues/10314
-  // static URLPattern crlSet_pattern1(
-  //     URLPattern::SCHEME_HTTP | URLPattern::SCHEME_HTTPS, kCRLSetPrefix1);
-  // static URLPattern crlSet_pattern2(
-  //     URLPattern::SCHEME_HTTP | URLPattern::SCHEME_HTTPS, kCRLSetPrefix2);
-  // static URLPattern crlSet_pattern3(
-  //     URLPattern::SCHEME_HTTP | URLPattern::SCHEME_HTTPS, kCRLSetPrefix3);
-  // static URLPattern crlSet_pattern4(
-  //     URLPattern::SCHEME_HTTP | URLPattern::SCHEME_HTTPS, kCRLSetPrefix4);
-  // static URLPattern crxDownload_pattern(
-  //     URLPattern::SCHEME_HTTP | URLPattern::SCHEME_HTTPS, kCRXDownloadPrefix);
-  // static URLPattern autofill_pattern(
-  //     URLPattern::SCHEME_HTTPS, kAutofillPrefix);
-  // static URLPattern gvt1_pattern(
-  //     URLPattern::SCHEME_HTTP | URLPattern::SCHEME_HTTPS, "*://*.gvt1.com/*");
-  // static URLPattern googleDl_pattern(
-  //     URLPattern::SCHEME_HTTP | URLPattern::SCHEME_HTTPS,
-  //     "*://dl.google.com/*");
+  static URLPattern crlSet_pattern1(
+      URLPattern::SCHEME_HTTP | URLPattern::SCHEME_HTTPS, kCRLSetPrefix1);
+  static URLPattern crlSet_pattern2(
+      URLPattern::SCHEME_HTTP | URLPattern::SCHEME_HTTPS, kCRLSetPrefix2);
+  static URLPattern crlSet_pattern3(
+      URLPattern::SCHEME_HTTP | URLPattern::SCHEME_HTTPS, kCRLSetPrefix3);
+  static URLPattern crlSet_pattern4(
+      URLPattern::SCHEME_HTTP | URLPattern::SCHEME_HTTPS, kCRLSetPrefix4);
+  static URLPattern crxDownload_pattern(
+      URLPattern::SCHEME_HTTP | URLPattern::SCHEME_HTTPS, kCRXDownloadPrefix);
+  static URLPattern autofill_pattern(
+      URLPattern::SCHEME_HTTPS, kAutofillPrefix);
+  static URLPattern gvt1_pattern(
+      URLPattern::SCHEME_HTTP | URLPattern::SCHEME_HTTPS, "*://*.gvt1.com/*");
+  static URLPattern googleDl_pattern(
+      URLPattern::SCHEME_HTTP | URLPattern::SCHEME_HTTPS,
+      "*://dl.google.com/*");
 
-  // static URLPattern widevine_gvt1_pattern(
-  //     URLPattern::SCHEME_HTTP | URLPattern::SCHEME_HTTPS,
-  //     kWidevineGvt1Prefix);
-  // static URLPattern widevine_google_dl_pattern(
-  //     URLPattern::SCHEME_HTTP | URLPattern::SCHEME_HTTPS,
-  //     kWidevineGoogleDlPrefix);
+  static URLPattern widevine_gvt1_pattern(
+      URLPattern::SCHEME_HTTP | URLPattern::SCHEME_HTTPS,
+      kWidevineGvt1Prefix);
+  static URLPattern widevine_google_dl_pattern(
+      URLPattern::SCHEME_HTTP | URLPattern::SCHEME_HTTPS,
+      kWidevineGoogleDlPrefix);
 
   if (geo_pattern.MatchesURL(request_url)) {
     *new_url = GURL(BUILDFLAG(GOOGLEAPIS_URL));
     return net::OK;
   }
 
-  // auto safebrowsing_endpoint = GetSafeBrowsingEndpoint();
-  // if (!safebrowsing_endpoint.empty() &&
-  //     safeBrowsing_pattern.MatchesHost(request_url)) {
-  //   replacements.SetHostStr(safebrowsing_endpoint);
-  //   *new_url = request_url.ReplaceComponents(replacements);
-  //   return net::OK;
-  // }
+  auto safebrowsing_endpoint = GetSafeBrowsingEndpoint();
+  if (!safebrowsing_endpoint.empty() &&
+      safeBrowsing_pattern.MatchesHost(request_url)) {
+    replacements.SetHostStr(safebrowsing_endpoint);
+    *new_url = request_url.ReplaceComponents(replacements);
+    return net::OK;
+  }
 
-  // if (!safebrowsing_endpoint.empty() &&
-  //     safebrowsingfilecheck_pattern.MatchesHost(request_url)) {
-  //   replacements.SetHostStr(kBraveSafeBrowsingSslProxy);
-  //   *new_url = request_url.ReplaceComponents(replacements);
-  //   return net::OK;
-  // }
+  if (!safebrowsing_endpoint.empty() &&
+      safebrowsingfilecheck_pattern.MatchesHost(request_url)) {
+    replacements.SetHostStr(kBraveSafeBrowsingSslProxy);
+    *new_url = request_url.ReplaceComponents(replacements);
+    return net::OK;
+  }
 
-  // if (!safebrowsing_endpoint.empty() &&
-  //     safebrowsingcrxlist_pattern.MatchesHost(request_url)) {
-  //   replacements.SetHostStr(kBraveSafeBrowsing2Proxy);
-  //   *new_url = request_url.ReplaceComponents(replacements);
-  //   return net::OK;
-  // }
+  if (!safebrowsing_endpoint.empty() &&
+      safebrowsingcrxlist_pattern.MatchesHost(request_url)) {
+    replacements.SetHostStr(kBraveSafeBrowsing2Proxy);
+    *new_url = request_url.ReplaceComponents(replacements);
+    return net::OK;
+  }
 
-  // if (crxDownload_pattern.MatchesURL(request_url)) {
-  //   replacements.SetSchemeStr("https");
-  //   replacements.SetHostStr("crxdownload.brave.com");
-  //   *new_url = request_url.ReplaceComponents(replacements);
-  //   return net::OK;
-  // }
+  if (crxDownload_pattern.MatchesURL(request_url)) {
+    replacements.SetSchemeStr("https");
+    replacements.SetHostStr("crxdownload.brave.com");
+    *new_url = request_url.ReplaceComponents(replacements);
+    return net::OK;
+  }
 
-  // if (autofill_pattern.MatchesURL(request_url)) {
-  //   replacements.SetSchemeStr("https");
-  //   replacements.SetHostStr(kBraveStaticProxy);
-  //   *new_url = request_url.ReplaceComponents(replacements);
-  //   return net::OK;
-  // }
+  if (autofill_pattern.MatchesURL(request_url)) {
+    replacements.SetSchemeStr("https");
+    replacements.SetHostStr(kBraveStaticProxy);
+    *new_url = request_url.ReplaceComponents(replacements);
+    return net::OK;
+  }
 
-  // if (crlSet_pattern1.MatchesURL(request_url)) {
-  //   replacements.SetSchemeStr("https");
-  //   replacements.SetHostStr("redirector.brave.com");
-  //   *new_url = request_url.ReplaceComponents(replacements);
-  //   return net::OK;
-  // }
+  if (crlSet_pattern1.MatchesURL(request_url)) {
+    replacements.SetSchemeStr("https");
+    replacements.SetHostStr("redirector.brave.com");
+    *new_url = request_url.ReplaceComponents(replacements);
+    return net::OK;
+  }
 
-  // if (crlSet_pattern2.MatchesURL(request_url)) {
-  //   replacements.SetSchemeStr("https");
-  //   replacements.SetHostStr("redirector.brave.com");
-  //   *new_url = request_url.ReplaceComponents(replacements);
-  //   return net::OK;
-  // }
+  if (crlSet_pattern2.MatchesURL(request_url)) {
+    replacements.SetSchemeStr("https");
+    replacements.SetHostStr("redirector.brave.com");
+    *new_url = request_url.ReplaceComponents(replacements);
+    return net::OK;
+  }
 
-  // if (crlSet_pattern3.MatchesURL(request_url)) {
-  //   replacements.SetSchemeStr("https");
-  //   replacements.SetHostStr("redirector.brave.com");
-  //   *new_url = request_url.ReplaceComponents(replacements);
-  //   return net::OK;
-  // }
+  if (crlSet_pattern3.MatchesURL(request_url)) {
+    replacements.SetSchemeStr("https");
+    replacements.SetHostStr("redirector.brave.com");
+    *new_url = request_url.ReplaceComponents(replacements);
+    return net::OK;
+  }
 
-  // if (crlSet_pattern4.MatchesURL(request_url)) {
-  //   replacements.SetSchemeStr("https");
-  //   replacements.SetHostStr("redirector.brave.com");
-  //   *new_url = request_url.ReplaceComponents(replacements);
-  //   return net::OK;
-  // }
+  if (crlSet_pattern4.MatchesURL(request_url)) {
+    replacements.SetSchemeStr("https");
+    replacements.SetHostStr("redirector.brave.com");
+    *new_url = request_url.ReplaceComponents(replacements);
+    return net::OK;
+  }
 
-  // if (gvt1_pattern.MatchesURL(request_url) &&
-  //     !widevine_gvt1_pattern.MatchesURL(request_url)) {
-  //   replacements.SetSchemeStr("https");
-  //   replacements.SetHostStr(kBraveRedirectorProxy);
-  //   *new_url = request_url.ReplaceComponents(replacements);
-  //   return net::OK;
-  // }
+  if (gvt1_pattern.MatchesURL(request_url) &&
+      !widevine_gvt1_pattern.MatchesURL(request_url)) {
+    replacements.SetSchemeStr("https");
+    replacements.SetHostStr(kBraveRedirectorProxy);
+    *new_url = request_url.ReplaceComponents(replacements);
+    return net::OK;
+  }
 
-  // if (googleDl_pattern.MatchesURL(request_url) &&
-  //     !widevine_google_dl_pattern.MatchesURL(request_url)) {
-  //   replacements.SetSchemeStr("https");
-  //   replacements.SetHostStr(kBraveRedirectorProxy);
-  //   *new_url = request_url.ReplaceComponents(replacements);
-  //   return net::OK;
-  // }
+  if (googleDl_pattern.MatchesURL(request_url) &&
+      !widevine_google_dl_pattern.MatchesURL(request_url)) {
+    replacements.SetSchemeStr("https");
+    replacements.SetHostStr(kBraveRedirectorProxy);
+    *new_url = request_url.ReplaceComponents(replacements);
+    return net::OK;
+  }
 
   return net::OK;
 }
