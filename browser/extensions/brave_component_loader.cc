@@ -136,8 +136,8 @@ void BraveComponentLoader::AddDefaultComponentExtensions(
 }
 
 void BraveComponentLoader::AddRewardsExtension() {
-  const base::CommandLine& command_line =
-      *base::CommandLine::ForCurrentProcess();
+  // const base::CommandLine& command_line =
+  //     *base::CommandLine::ForCurrentProcess();
   // if (!command_line.HasSwitch(switches::kDisableBraveRewardsExtension) &&
   //     !Exists(brave_rewards_extension_id)) {
   //   base::FilePath brave_rewards_path(FILE_PATH_LITERAL(""));
@@ -148,8 +148,8 @@ void BraveComponentLoader::AddRewardsExtension() {
 }
 
 void BraveComponentLoader::CheckRewardsStatus() {
-  const bool is_ac_enabled =
-      profile_prefs_->GetBoolean(brave_rewards::prefs::kAutoContributeEnabled);
+  // const bool is_ac_enabled =
+  //     profile_prefs_->GetBoolean(brave_rewards::prefs::kAutoContributeEnabled);
 
   // if (is_ac_enabled) {
   //   AddRewardsExtension();
