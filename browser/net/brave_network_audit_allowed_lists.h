@@ -35,7 +35,7 @@ constexpr const char* kAllowedUrlPrefixes[] = {
     "https://chrome.cloudflare-dns.com/dns-query",
 
     // Other
-    // "https://brave-core-ext.s3.brave.com/",
+    "https://brave-core-ext.s3.brave.com/",
     "https://presearchbucket.s3.amazonaws.com/", // replace https://brave-core-ext.s3.brave.com/
 
     "https://dict.brave.com/",
