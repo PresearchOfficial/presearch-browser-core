@@ -8,7 +8,7 @@
   </outputs>
   <release seq="1">
     <includes>
-      <!-- WebUI Brave Rewards Page resources -->
+      <!-- WebUI Presearch Rewards Page resources -->
       <include name="IDR_BRAVE_REWARDS_ANDROID_PAGE_HTML" file="android_page/brave_rewards_page.html" type="BINDATA" />
       <if expr="not is_android">
         <include name="IDR_BRAVE_REWARDS_PAGE_HTML" file="page/brave_rewards_page.html" type="BINDATA" />
@@ -19,11 +19,11 @@
       <include name="IDR_BRAVE_REWARDS_FAVICON" file="page/img/favicon.ico" type="BINDATA" />
       <include name="IDR_BRAVE_REWARDS_IMG_TAP" file="page/promos/assets/tap_bg.svg" type="BINDATA" />
 
-      <!-- WebUI Brave Rewards Internals resources -->
+      <!-- WebUI Presearch Rewards Internals resources -->
       <include name="IDR_BRAVE_REWARDS_INTERNALS_HTML" file="internals/brave_rewards_internals.html" type="BINDATA" />
 
       <if expr="not is_android">
-        <!-- WebUI Brave Rewards Tip resources -->
+        <!-- WebUI Presearch Rewards Tip resources -->
         <include name="IDR_BRAVE_REWARDS_TIP_HTML" file="tip/index.html" type="BINDATA" />
       </if>
     </includes>

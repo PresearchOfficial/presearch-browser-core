@@ -23,7 +23,7 @@
 <translation id="1055184225775184556">&amp;Отмяна на добавянето</translation>
 <translation id="1056663316309890343">Фотографски софтуер</translation>
 <translation id="1056898198331236512">Предупреждение</translation>
-<translation id="1248991947169346185"><ph name="PLAY_CHROME_DINO_GAME_FOCUSED_FRIENDLY_MATCH_TEXT"/>. Натиснете Tab и след това Enter, за да играете играта с динозавъра в Brave</translation>
+<translation id="1248991947169346185"><ph name="PLAY_CHROME_DINO_GAME_FOCUSED_FRIENDLY_MATCH_TEXT"/>. Натиснете Tab и след това Enter, за да играете играта с динозавъра в Presearch</translation>
 <translation id="1058479211578257048">Картите се запазват...</translation>
 <translation id="10614374240317010">Незапазвани никога</translation>
 <translation id="1062160989074299343">Prc10 (плик)</translation>
@@ -40,7 +40,7 @@
 <translation id="1088860948719068836">Добавяне на името на картодържателя</translation>
 <translation id="1089439967362294234">Промяна на паролата</translation>
 <translation id="1096545575934602868">Това поле не трябва да съдържа повече от <ph name="MAX_ITEMS_LIMIT"/> записа. Всички допълнителни записи ще бъдат отхвърлени.</translation>
-<translation id="7584468665743195331">Бутон „Възобновяване на пътешествието“. Натиснете Enter, за да възобновите пътешествието си и да прегледате съответната активност в историята си в Brave</translation>
+<translation id="7584468665743195331">Бутон „Възобновяване на пътешествието“. Натиснете Enter, за да възобновите пътешествието си и да прегледате съответната активност в историята си в Presearch</translation>
 <translation id="1101672080107056897">Грешка при действието</translation>
 <translation id="1103523840287552314">Винаги да се превежда от <ph name="LANGUAGE"/></translation>
 <translation id="1110994991967754504">Избиране на разрешението за <ph name="PERMISSION_NAME"/></translation>
@@ -49,7 +49,7 @@
 <translation id="1123753900084781868">Понастоящем функцията „Надписи на живо“ не е налице</translation>
 <translation id="1125573121925420732">Възможно е да виждате предупреждения често, докато уебсайтовете актуализират мерките си за сигурност. Това би трябвало скоро да се подобри.</translation>
 <translation id="112840717907525620">Кешът на правилото е в добро състояние</translation>
-<translation id="3186248837008742887">Бутон „Превод на страницата“. Натиснете Enter, за да преведете тази страница с Brave Преводач</translation>
+<translation id="3186248837008742887">Бутон „Превод на страницата“. Натиснете Enter, за да преведете тази страница с Presearch Преводач</translation>
 <translation id="1131264053432022307">Копирано от вас изображение</translation>
 <translation id="1147769322402934017">Онлайн фотогалерии</translation>
 <translation id="1150979032973867961">Сървърът не можа да докаже, че е <ph name="DOMAIN"/>; операционната система на компютъра ви няма доверие на сертификата му за сигурност. Това може да се дължи на неправилно конфигуриране или на прихващане на връзката ви от атакуващ.</translation>
@@ -77,12 +77,12 @@
 <translation id="1204602502194308272">Риби и аквариуми</translation>
 <translation id="1206967143813997005">Невалиден първоначален подпис</translation>
 <translation id="1209206284964581585">Скриване засега</translation>
-<translation id="8250355499536962710">Бутон за създаване на формуляр. Натиснете Enter, за да създадете бързо формуляр в Brave Формуляри</translation>
+<translation id="8250355499536962710">Бутон за създаване на формуляр. Натиснете Enter, за да създадете бързо формуляр в Presearch Формуляри</translation>
 <translation id="121201262018556460">Направихте опит да се свържете с/ъс <ph name="DOMAIN"/>, но сървърът предостави сертификат, съдържащ слаб ключ. Възможно е извършител на атака да е пробил личния ключ и сървърът да не е този, който очаквате (възможно е да сте се свързали с извършител на атака).</translation>
 <translation id="1219129156119358924">Сигурност на системата</translation>
 <translation id="1222060260947439312">Дясна тава</translation>
 <translation id="1225570101506606926">Билярд</translation>
-<translation id="2735968720006267833">Brave ще намира отстъпки вместо вас</translation>
+<translation id="2735968720006267833">Presearch ще намира отстъпки вместо вас</translation>
 <translation id="1227224963052638717">Неизвестно правило.</translation>
 <translation id="1228893227497259893">Грешен идентификатор на обект</translation>
 <translation id="1232569758102978740">Неозаглавен</translation>
@@ -92,8 +92,8 @@
 <translation id="124116460088058876">Още езици</translation>
 <translation id="1243027604378859286">Автор:</translation>
 <translation id="1246424317317450637">Удебелен текст</translation>
-<translation id="1052005765108026699">За да платите по-бързо следващия път, запазете картата, името и адреса си за фактуриране в профила си в Brave.</translation>
-<translation id="2900208483223661703">Бутон за създаване на таблица. Натиснете Enter, за да създадете бързо таблица в Brave Таблици</translation>
+<translation id="1052005765108026699">За да платите по-бързо следващия път, запазете картата, името и адреса си за фактуриране в профила си в Presearch.</translation>
+<translation id="2900208483223661703">Бутон за създаване на таблица. Натиснете Enter, за да създадете бързо таблица в Presearch Таблици</translation>
 <translation id="1253921432148366685"><ph name="TYPE_1"/>, <ph name="TYPE_2"/> (синхронизирани)</translation>
 <translation id="1256368399071562588">&lt;p&gt;Ако опитате да посетите уебсайт и той не се отваря, първо, пробвайте да изпълните следните стъпки за отстраняване на неизправности:&lt;/p&gt;
 &lt;ol&gt;
@@ -103,16 +103,16 @@
 &lt;/ol&gt;</translation>
 <translation id="1257286744552378071">Въведохте паролата си на сайт, който не се управлява от организацията ви. За да защитите профила си, не използвайте паролата си повторно в други приложения и сайтове.</translation>
 <translation id="1257553931232494454">нива на промяна на мащаба</translation>
-<translation id="8101828947363663989"><ph name="MANAGE_CHROME_SETTINGS_FOCUSED_FRIENDLY_MATCH_TEXT"/>. Натиснете Tab и след това – Enter, за да управлявате настройките си за Brave</translation>
+<translation id="8101828947363663989"><ph name="MANAGE_CHROME_SETTINGS_FOCUSED_FRIENDLY_MATCH_TEXT"/>. Натиснете Tab и след това – Enter, за да управлявате настройките си за Presearch</translation>
 <translation id="1263231323834454256">Списък за четене</translation>
 <translation id="1264309058268477500">Алтернативна</translation>
 <translation id="1264974993859112054">Спорт</translation>
-<translation id="53564677632020212">Бързо създаване на сайт в Brave Сайтове</translation>
+<translation id="53564677632020212">Бързо създаване на сайт в Presearch Сайтове</translation>
 <translation id="1270502636509132238">Начин на вземане</translation>
 <translation id="1281476433249504884">Стакер 1</translation>
 <translation id="1285320974508926690">Този сайт да не се превежда никога</translation>
 <translation id="1292571435393770077">Тава 16</translation>
-<translation id="1209478311331937175">„Софтуер на компютъра ви пречи на Brave да се свърже безопасно с мрежата“ (само на компютри под Windows)</translation>
+<translation id="1209478311331937175">„Софтуер на компютъра ви пречи на Presearch да се свърже безопасно с мрежата“ (само на компютри под Windows)</translation>
 <translation id="1294154142200295408">Варианти във формат за командния ред</translation>
 <translation id="129553762522093515">Наскоро затворени</translation>
 <translation id="1296930489679394997">Продажби</translation>
@@ -130,7 +130,7 @@
 <translation id="1323433172918577554">Показване на още</translation>
 <translation id="132390688737681464">Запазване и попълване на адреси</translation>
 <translation id="1330449323196174374">Сгъване на левия край навътре</translation>
-<translation id="4274264486214599895">Стартиране на играта с динозавъра в Brave</translation>
+<translation id="4274264486214599895">Стартиране на играта с динозавъра в Presearch</translation>
 <translation id="1333989956347591814">Активността ви <ph name="BEGIN_EMPHASIS"/>може да остане видима<ph name="END_EMPHASIS"/> за:
 <ph name="BEGIN_LIST"/>
 <ph name="LIST_ITEM"/>уебсайтовете, които посещавате;
@@ -202,7 +202,7 @@
 <translation id="1492194039220927094">Разпространение на правилата:</translation>
 <translation id="14938948731065592">Компютърна периферия</translation>
 <translation id="1495677929897281669">Назад към раздела</translation>
-<translation id="1812569385220097122">Показване на картите от профила ви в Brave</translation>
+<translation id="1812569385220097122">Показване на картите от профила ви в Presearch</translation>
 <translation id="150536342253161096">Местни новини</translation>
 <translation id="1507202001669085618">&lt;p&gt;Ще виждате това съобщение за грешка, ако използвате портал за Wi-Fi, където трябва да влезете в профил, преди да можете да преминете онлайн.&lt;/p&gt;
 &lt;p&gt;За да отстраните грешката, кликнете върху &lt;strong&gt;Свързване&lt;/strong&gt; на страницата, която опитвате да отворите.&lt;/p&gt;</translation>
@@ -211,7 +211,7 @@
 <translation id="1517433312004943670">Телефонният номер е задължителен</translation>
 <translation id="1519264250979466059">Дата на версията</translation>
 <translation id="1521159554480556801">Влакна и текстилни изкуства</translation>
-<translation id="5524011986660000129">Brave Таблици</translation>
+<translation id="5524011986660000129">Presearch Таблици</translation>
 <translation id="1527263332363067270">Изчаква се връзка…</translation>
 <translation id="1529521330346880926">10 x 15 (плик)</translation>
 <translation id="1529789484829130889">Тава 8</translation>
@@ -225,7 +225,7 @@
 <translation id="1549470594296187301">Трябва да активирате JavaScript, за да използвате тази функция.</translation>
 <translation id="155039086686388498">Engineering-D</translation>
 <translation id="1551884710160394169">Софтуер без парично заплащане или с пробен период</translation>
-<translation id="1705567146636171298">Актуализиране на Brave</translation>
+<translation id="1705567146636171298">Актуализиране на Presearch</translation>
 <translation id="1555130319947370107">синьо</translation>
 <translation id="1559447966090556585">Да получавате ли известия?</translation>
 <translation id="1559528461873125649">Няма такъв файл или директория</translation>
@@ -244,7 +244,7 @@
 <translation id="1592005682883173041">Достъп до локални данни</translation>
 <translation id="1594030484168838125">Избор</translation>
 <translation id="1596296697375291157">Трилъри, криминални и детективски филми</translation>
-<translation id="8523167061098356223">Играене на играта с динозавъра в Brave</translation>
+<translation id="8523167061098356223">Играене на играта с динозавъра в Presearch</translation>
 <translation id="161042844686301425">синьозелено</translation>
 <translation id="1611101756749861742">Втора ролка</translation>
 <translation id="1615402009686901181">Заснемането на екрана, когато се вижда поверително съдържание, е деактивирано чрез администраторско правило</translation>
@@ -262,16 +262,16 @@
 <translation id="1640244768702815859">Опитайте да <ph name="BEGIN_LINK"/>отворите началната страница на сайта<ph name="END_LINK"/>.</translation>
 <translation id="1641976391427233992">Отлагане на отпечатването до</translation>
 <translation id="164212631332220697">Плащане с <ph name="CARD_DETAIL"/>.</translation>
-<translation id="9108890623444393630">Бутон за промяна на паролата за Brave. Натиснете Enter, за да промените паролата за профила си в Brave</translation>
+<translation id="9108890623444393630">Бутон за промяна на паролата за Presearch. Натиснете Enter, за да промените паролата за профила си в Presearch</translation>
 <translation id="1644574205037202324">История</translation>
 <translation id="1645368109819982629">Неподдържан протокол</translation>
-<translation id="1995056549836388472">Управление на настройките ви за Brave</translation>
+<translation id="1995056549836388472">Управление на настройките ви за Presearch</translation>
 <translation id="1652415888492971589">JIS B8</translation>
-<translation id="3848846802033604519">Brave опрости тази страница, за да улесни четенето ѝ. Оригиналната страница бе извлечена през защитена връзка.</translation>
+<translation id="3848846802033604519">Presearch опрости тази страница, за да улесни четенето ѝ. Оригиналната страница бе извлечена през защитена връзка.</translation>
 <translation id="1656489000284462475">Вземане</translation>
 <translation id="1658918301167915956">устройства с Bluetooth</translation>
 <translation id="1662550410081243962">Запазване и попълване на начини на плащане</translation>
-<translation id="1838576226863399477">Картите и адресите са от Brave. Можете да ги управлявате от <ph name="BEGIN_LINK"/>настройките<ph name="END_LINK"/>.</translation>
+<translation id="1838576226863399477">Картите и адресите са от Presearch. Можете да ги управлявате от <ph name="BEGIN_LINK"/>настройките<ph name="END_LINK"/>.</translation>
 <translation id="1671391448414634642">От сега нататък страниците на <ph name="SOURCE_LANGUAGE"/> ще се превеждат на <ph name="TARGET_LANGUAGE"/>.</translation>
 <translation id="1674504678466460478"><ph name="SOURCE_LANGUAGE"/> на <ph name="TARGET_LANGUAGE"/></translation>
 <translation id="1682696192498422849">Късата страна напред</translation>
@@ -319,8 +319,8 @@
 за да конфигурират сигурността и други свойства за даден сайт.</translation>
 <translation id="1778646502362731194">JIS B0</translation>
 <translation id="1787142507584202372">Тук ще се показват отворените ви раздели</translation>
-<translation id="3480410886581896628">Brave Smart Lock</translation>
-<translation id="8114214752558951503"><ph name="MANAGE_GOOGLE_ACCOUNT_FOCUSED_FRIENDLY_MATCH_TEXT"/>. Натиснете Tab и след това Enter, за да управлявате информацията си и настройките за поверителност и сигурност в профила си в Brave</translation>
+<translation id="3480410886581896628">Presearch Smart Lock</translation>
+<translation id="8114214752558951503"><ph name="MANAGE_GOOGLE_ACCOUNT_FOCUSED_FRIENDLY_MATCH_TEXT"/>. Натиснете Tab и след това Enter, за да управлявате информацията си и настройките за поверителност и сигурност в профила си в Presearch</translation>
 <translation id="1798447301915465742"><ph name="MULTIPLE_ACTIONS_FOCUSED_FRIENDLY_MATCH_TEXT"/>. Възможни са няколко действия. Натискайте Tab, за да преминавате циклично между тях</translation>
 <translation id="1800473098294731951">B9</translation>
 <translation id="1803020234906945288">Здравословно хранене</translation>
@@ -347,7 +347,7 @@
 <translation id="1871284979644508959">Задължително поле</translation>
 <translation id="1873899211667975540">Рок музика</translation>
 <translation id="1875025161375567525">Тава за фотохартия</translation>
-<translation id="85321348617848915">Brave Формуляри</translation>
+<translation id="85321348617848915">Presearch Формуляри</translation>
 <translation id="187918866476621466">Отваряне на страниците при стартиране</translation>
 <translation id="1883255238294161206">Свиване на списъка</translation>
 <translation id="1884843295353628214">Джаз</translation>
@@ -355,7 +355,7 @@
 <translation id="1898423065542865115">Филтриране</translation>
 <translation id="1901443836186977402">{1,plural, =1{Сървърът не можа да докаже, че е <ph name="DOMAIN"/>. Сертификатът му за сигурност е изтекъл през последния ден. Това може да се дължи на неправилно конфигуриране или на прехващане на връзката ви от извършител на атака. Понастоящем часовникът на компютъра ви показва <ph name="CURRENT_DATE"/>. Това изглежда ли правилно? Ако не е, трябва да сверите системния часовник и след това да опресните страницата.}other{Сървърът не можа да докаже, че е <ph name="DOMAIN"/>. Сертификатът му за сигурност е изтекъл преди # дни. Това може да се дължи на неправилно конфигуриране или на прехващане на връзката ви от извършител на атака. Понастоящем часовникът на компютъра ви показва <ph name="CURRENT_DATE"/>. Това правилно ли е? Ако не е, трябва да сверите системния си часовник и след това да опресните страницата.}}</translation>
 <translation id="1902576642799138955">Период на валидност</translation>
-<translation id="6932104141210291380">Бутон за създаване на бележка. Натиснете Enter, за да създадете бързо бележка в Brave Keep</translation>
+<translation id="6932104141210291380">Бутон за създаване на бележка. Натиснете Enter, за да създадете бързо бележка в Presearch Keep</translation>
 <translation id="1908217026282415406">Използване и местене на камерата</translation>
 <translation id="191374271204266022">Копиране като JSON</translation>
 <translation id="1914326953223720820">Услуга за разкомпресиране</translation>
@@ -365,13 +365,13 @@
 <translation id="1919367280705858090">Получаване на помощ за конкретно съобщение за грешка</translation>
 <translation id="192020519938775529">{COUNT,plural, =0{Няма}=1{1 сайт}other{# сайта}}</translation>
 <translation id="1924727005275031552">Нов</translation>
-<translation id="2926892173992041302">Бутон за стартиране на проверка на безопасността в Brave. Натиснете Enter, за да стартирате такава проверка от настройките на браузъра</translation>
+<translation id="2926892173992041302">Бутон за стартиране на проверка на безопасността в Presearch. Натиснете Enter, за да стартирате такава проверка от настройките на браузъра</translation>
 <translation id="1939175642807587452">Може да поиска разрешение да изпраща известия</translation>
 <translation id="1943994668912612445">Дизайн</translation>
 <translation id="1947454675006758438">Телбодиране горе вдясно</translation>
 <translation id="1956486093533522234">Намиране, обезопасяване или изтриване на устройството ви</translation>
 <translation id="1958218078413065209">Най-високият ви резултат е <ph name="SCORE"/>.</translation>
-<translation id="990584554013599191">Помогнете за всеобщото подобряване на сигурността в мрежата, като изпращате до Brave <ph name="BEGIN_WHITEPAPER_LINK"/>URL адресите на някои от страниците, които посещавате, ограничена системна информация и част от съдържанието на страниците<ph name="END_WHITEPAPER_LINK"/>. <ph name="BEGIN_PRIVACY_PAGE_LINK"/>Декларация за поверителност<ph name="END_PRIVACY_PAGE_LINK"/></translation>
+<translation id="990584554013599191">Помогнете за всеобщото подобряване на сигурността в мрежата, като изпращате до Presearch <ph name="BEGIN_WHITEPAPER_LINK"/>URL адресите на някои от страниците, които посещавате, ограничена системна информация и част от съдържанието на страниците<ph name="END_WHITEPAPER_LINK"/>. <ph name="BEGIN_PRIVACY_PAGE_LINK"/>Декларация за поверителност<ph name="END_PRIVACY_PAGE_LINK"/></translation>
 <translation id="1962204205936693436">Отметки от <ph name="DOMAIN"/></translation>
 <translation id="1973335181906896915">Грешка при сериализирането</translation>
 <translation id="1974060860693918893">Разширени</translation>
@@ -387,8 +387,8 @@
 <translation id="2001146170449793414">{COUNT,plural, =1{и още 1}other{и още #}}</translation>
 <translation id="2003709556000175978">Задайте повторно паролата си сега</translation>
 <translation id="2003775180883135320">Четворно перфориране в горната част</translation>
-<translation id="2342444980304536062">Управление на разрешенията и съхраняваните данни от сайтовете от настройките на Brave</translation>
-<translation id="6955198705411680473">Бутон „Управление на настройките за достъпност“. Натиснете Enter, за да персонализирате инструментите за достъпност в настройките на Brave</translation>
+<translation id="2342444980304536062">Управление на разрешенията и съхраняваните данни от сайтовете от настройките на Presearch</translation>
+<translation id="6955198705411680473">Бутон „Управление на настройките за достъпност“. Натиснете Enter, за да персонализирате инструментите за достъпност в настройките на Presearch</translation>
 <translation id="2025115093177348061">Обогатена реалност</translation>
 <translation id="2025186561304664664">За прокси сървъра е зададена автоматична конфигурация.</translation>
 <translation id="2025891858974379949">Незащитено съдържание</translation>
@@ -398,7 +398,7 @@
 <translation id="2036983605131262583">Алтернативна ролка</translation>
 <translation id="2040894699575719559">Местоположението е блокирано</translation>
 <translation id="2042213636306070719">Тава 7</translation>
-<translation id="3163988908275223348">Влезте в профила си в Brave, за да използвате запазените в него пароли</translation>
+<translation id="3163988908275223348">Влезте в профила си в Presearch, за да използвате запазените в него пароли</translation>
 <translation id="205212645995975601">Готвене на барбекю и грил</translation>
 <translation id="2053111141626950936">Страниците на <ph name="LANGUAGE"/> няма да се превеждат.</translation>
 <translation id="2053553514270667976">Пощенски код</translation>
@@ -411,7 +411,7 @@
 <translation id="20817612488360358">За използване са зададени системни настройки за прокси сървъра, но е посочена и изрична конфигурация.</translation>
 <translation id="2082238445998314030">Резултат <ph name="RESULT_NUMBER"/> от <ph name="TOTAL_RESULTS"/></translation>
 <translation id="2085876078937250610">Запазване…</translation>
-<translation id="7333248841044450790">Бутон „Управление на синхронизирането“. Натиснете Enter, за да управлявате данните, които да се синхронизират, от настройките на Brave</translation>
+<translation id="7333248841044450790">Бутон „Управление на синхронизирането“. Натиснете Enter, за да управлявате данните, които да се синхронизират, от настройките на Presearch</translation>
 <translation id="2091887806945687916">Звук</translation>
 <translation id="2094505752054353250">Несъответствие в домейна</translation>
 <translation id="2096368010154057602">Департамент</translation>
@@ -451,7 +451,7 @@
 <translation id="2185836064961771414">Американски футбол</translation>
 <translation id="2187317261103489799">Откриване (по подразбиране)</translation>
 <translation id="2188375229972301266">Няколко перфорации в долната част</translation>
-<translation id="2257044501874719257">Паролата, която току-що използвахте, е разкрита при нарушение на сигурността на данните. За да защитите профилите си, мениджърът на паролите в Brave ви препоръчва да я промените сега и след това да проверите запазените си пароли.</translation>
+<translation id="2257044501874719257">Паролата, която току-що използвахте, е разкрита при нарушение на сигурността на данните. За да защитите профилите си, мениджърът на паролите в Presearch ви препоръчва да я промените сега и след това да проверите запазените си пароли.</translation>
 <translation id="219906046732893612">Подобрение на дома</translation>
 <translation id="2202020181578195191">Въведете валидна година на изтичане</translation>
 <translation id="22081806969704220">Тава 3</translation>
@@ -488,7 +488,7 @@
 <translation id="2293443924986248631">Когато тази функция е включена, сайтовете не могат да използват „бисквитки“, които проследяват активността ви в мрежата. Функциите в някои сайтове може да не работят правилно.</translation>
 <translation id="2295290966866883927">URL адресите на страниците, които посещавате, се изпращат до Google Cloud или до трети страни за анализ. Възможно е например да бъдат сканирани за откриване на опасни уебсайтове.</translation>
 <translation id="2297722699537546652">B5 (плик)</translation>
-<translation id="2144551375735610273">Бутон „Управление на „бисквитките“. Натиснете Enter, за да управлявате предпочитанията си за „бисквитките“ от настройките на Brave</translation>
+<translation id="2144551375735610273">Бутон „Управление на „бисквитките“. Натиснете Enter, за да управлявате предпочитанията си за „бисквитките“ от настройките на Presearch</translation>
 <translation id="2300306941146563769">Не е качено</translation>
 <translation id="2310021320168182093">Chou2 (плик)</translation>
 <translation id="2316159751672436664">Персонализиране на инструментите за достъпност в настройките на Chrome OS</translation>
@@ -506,7 +506,7 @@
 <translation id="2346319942568447007">Копирано от вас изображение</translation>
 <translation id="2350796302381711542">Да се разреши ли на <ph name="HANDLER_HOSTNAME"/> да отваря вместо <ph name="REPLACED_HANDLER_TITLE"/> всички връзки от типа „<ph name="PROTOCOL"/>“?</translation>
 <translation id="2354001756790975382">Други отметки</translation>
-<translation id="2354430244986887761">Brave Безопасно сърфиране наскоро <ph name="BEGIN_LINK"/>откри опасни приложения<ph name="END_LINK"/> на <ph name="SITE"/>.</translation>
+<translation id="2354430244986887761">Presearch Безопасно сърфиране наскоро <ph name="BEGIN_LINK"/>откри опасни приложения<ph name="END_LINK"/> на <ph name="SITE"/>.</translation>
 <translation id="2355395290879513365">Извършители на атаки може да са в състояние да видят изображенията, които преглеждате на този сайт, и да ви подведат, като ги променят.</translation>
 <translation id="2356070529366658676">Попитайте ме</translation>
 <translation id="2357481397660644965">Устройството ви се управлява от <ph name="DEVICE_MANAGER"/>, а профилът ви се управлява от <ph name="ACCOUNT_MANAGER"/>.</translation>
@@ -516,9 +516,9 @@
 <translation id="236340516568226369">Меню с бутони за преоразмеряване</translation>
 <translation id="2367567093518048410">Ниво</translation>
 <translation id="2380886658946992094">Legal</translation>
-<translation id="5475992123321966556">Персонализиране на инструментите за достъпност в настройките на Brave</translation>
+<translation id="5475992123321966556">Персонализиране на инструментите за достъпност в настройките на Presearch</translation>
 <translation id="2384307209577226199">Зададено по подразбиране в корпоративна среда</translation>
-<translation id="5244533701344680487">Актуализирайте Brave от настройките на браузъра</translation>
+<translation id="5244533701344680487">Актуализирайте Presearch от настройките на браузъра</translation>
 <translation id="2386255080630008482">Сертификатът на сървъра е анулиран.</translation>
 <translation id="239293030466334554">Кабриолети</translation>
 <translation id="2392959068659972793">Да се показват правилата без зададена стойност</translation>
@@ -530,7 +530,7 @@
 <translation id="2413155254802890957">Стар</translation>
 <translation id="2413528052993050574">Сървърът не можа да докаже, че е <ph name="DOMAIN"/>; възможно е сертификатът му за сигурност да е оттеглен. Това може да се дължи на неправилно конфигуриране или на прихващане на връзката ви от атакуващ.</translation>
 <translation id="2414886740292270097">Тъмно</translation>
-<translation id="2089192652156377984">Управление на профила в Brave. Натиснете Enter, за да управлявате информацията си и настройките за поверителност и сигурност в профила си в Brave</translation>
+<translation id="2089192652156377984">Управление на профила в Presearch. Натиснете Enter, за да управлявате информацията си и настройките за поверителност и сигурност в профила си в Presearch</translation>
 <translation id="2436186046335138073">Да се разреши ли на <ph name="HANDLER_HOSTNAME"/> да отваря всички връзки от типа „<ph name="PROTOCOL"/>“?</translation>
 <translation id="2438874542388153331">Четворно перфориране отдясно</translation>
 <translation id="2448295565072560657">Периферните устройства, свързани с това устройство, докато сте в профила си</translation>
@@ -539,7 +539,7 @@
 <translation id="2465402087343596252">Architecture-E</translation>
 <translation id="2465655957518002998">Избиране на начин на бърза доставка</translation>
 <translation id="2465688316154986572">Телбодиране</translation>
-<translation id="4058615531773510267">Управление на файловете, които сте изтеглили с Brave</translation>
+<translation id="4058615531773510267">Управление на файловете, които сте изтеглили с Presearch</translation>
 <translation id="2466004615675155314">Показване на информация от мрежата</translation>
 <translation id="2467272921457885625">Спецификации на хардуера и статистически данни за устройството, като например историята на използване на процесора/RAM паметта</translation>
 <translation id="2467694685043708798"><ph name="BEGIN_LINK"/>Стартирайте мрежова диагностика<ph name="END_LINK"/></translation>
@@ -557,7 +557,7 @@
 <translation id="2505268675989099013">Защита на профила</translation>
 <translation id="2509167091171468975">Гастрономи и магазини за хранителни стоки</translation>
 <translation id="2512101340618156538">Не е разрешено (по подразбиране)</translation>
-<translation id="3233967599412104589">Бутон за задаване на Brave като браузър по подразбиране. Натиснете Enter за задаване на Brave като браузъра по подразбиране за системата в настройките на iOS</translation>
+<translation id="3233967599412104589">Бутон за задаване на Presearch като браузър по подразбиране. Натиснете Enter за задаване на Presearch като браузъра по подразбиране за системата в настройките на iOS</translation>
 <translation id="2515629240566999685">Проверете сигнала в района.</translation>
 <translation id="2521385132275182522">Телбодиране долу вдясно</translation>
 <translation id="2521736961081452453">Създаване на формуляр</translation>
@@ -571,7 +571,7 @@
 <translation id="2542106216580219892">Сърфинг</translation>
 <translation id="2544546346215446551">Администраторът рестартира устройството ви</translation>
 <translation id="2544644783021658368">Един документ</translation>
-<translation id="5342827302598046226">Задаване на Brave като браузър по подразбиране</translation>
+<translation id="5342827302598046226">Задаване на Presearch като браузър по подразбиране</translation>
 <translation id="2546283357679194313">„Бисквитки“ и данни за сайтове</translation>
 <translation id="2547466893236767989">Уеб дизайн и разработка</translation>
 <translation id="254947805923345898">Стойността на правилото не е валидна.</translation>
@@ -586,7 +586,7 @@
 <translation id="2570734079541893434">Управление на настройките</translation>
 <translation id="2573834589046842510">Печатарска и издателска дейност</translation>
 <translation id="257674075312929031">Група</translation>
-<translation id="1447512280692323528">Бутон „Управление на настройките за сигурност“. Натиснете Enter, за да управлявате Безопасно сърфиране и други функции от настройките на Brave</translation>
+<translation id="1447512280692323528">Бутон „Управление на настройките за сигурност“. Натиснете Enter, за да управлявате Безопасно сърфиране и други функции от настройките на Presearch</translation>
 <translation id="2586657967955657006">Буферна памет</translation>
 <translation id="2587730715158995865">От <ph name="ARTICLE_PUBLISHER"/>. Прочетете тази и още <ph name="OTHER_ARTICLE_COUNT"/> статии.</translation>
 <translation id="2587841377698384444">ID на API за директории:</translation>
@@ -602,14 +602,14 @@
 <translation id="2623663032199728144">Може да извежда запитвания за използване на информацията за екраните ви</translation>
 <translation id="2625385379895617796">Часовникът ви е напред</translation>
 <translation id="262745152991669301">Може да поиска разрешение да се свързва с USB устройства</translation>
-<translation id="2915787201097107005">За да използвате най-високото ниво на сигурност на Brave, <ph name="BEGIN_ENHANCED_PROTECTION_LINK"/>включете подобрената защита<ph name="END_ENHANCED_PROTECTION_LINK"/></translation>
+<translation id="2915787201097107005">За да използвате най-високото ниво на сигурност на Presearch, <ph name="BEGIN_ENHANCED_PROTECTION_LINK"/>включете подобрената защита<ph name="END_ENHANCED_PROTECTION_LINK"/></translation>
 <translation id="2634124572758952069">IP адресът на сървъра на <ph name="HOST_NAME"/> не можа да бъде намерен.</translation>
 <translation id="2639739919103226564">Състояние:</translation>
 <translation id="2643134278432436513">Грижи за косата</translation>
 <translation id="2647852283046201479">Стратегически игри</translation>
 <translation id="264810637653812429">Няма намерени съвместими устройства.</translation>
 <translation id="2649204054376361687"><ph name="CITY"/>, <ph name="COUNTRY"/></translation>
-<translation id="9078005688100552065"><ph name="CLEAR_BROWSING_DATA_FOCUSED_FRIENDLY_MATCH_TEXT"/>. Натиснете Tab и след това – Enter, за да изчистите историята на сърфиране, „бисквитките“, кеша и др. в настройките на Brave</translation>
+<translation id="9078005688100552065"><ph name="CLEAR_BROWSING_DATA_FOCUSED_FRIENDLY_MATCH_TEXT"/>. Натиснете Tab и след това – Enter, за да изчистите историята на сърфиране, „бисквитките“, кеша и др. в настройките на Presearch</translation>
 <translation id="2650446666397867134">Достъпът до файла бе отказан</translation>
 <translation id="2653659639078652383">Изпращане</translation>
 <translation id="2660779039299703961">Събитие</translation>
@@ -636,10 +636,10 @@
 <translation id="2705137772291741111">Запазеното (кеширано) копие на този сайт не можа да се прочете.</translation>
 <translation id="2709516037105925701">Автоматично попълване</translation>
 <translation id="2713444072780614174">бяло</translation>
-<translation id="4131157740532436004"><ph name="UPDATE_CREDIT_CARD_FOCUSED_FRIENDLY_MATCH_TEXT"/>. Натиснете Tab и след това – Enter, за да управлявате информацията си за плащане и данните за кредитните си карти в настройките на Brave</translation>
+<translation id="4131157740532436004"><ph name="UPDATE_CREDIT_CARD_FOCUSED_FRIENDLY_MATCH_TEXT"/>. Натиснете Tab и след това – Enter, за да управлявате информацията си за плащане и данните за кредитните си карти в настройките на Presearch</translation>
 <translation id="271663710482723385">Натиснете |<ph name="ACCELERATOR1"/>| + |<ph name="ACCELERATOR2"/>| за изход от режима на цял екран</translation>
 <translation id="2721148159707890343">Заявката е успешна</translation>
-<translation id="4054726005361352357">Стартиране на проверка на безопасността от настройките на Brave</translation>
+<translation id="4054726005361352357">Стартиране на проверка на безопасността от настройките на Presearch</translation>
 <translation id="2726001110728089263">Странична тава</translation>
 <translation id="2728127805433021124">Сертификатът на сървъра е подписан със слаб алгоритъм.</translation>
 <translation id="2730326759066348565"><ph name="BEGIN_LINK"/>Стартирайте диагностика на свързаността<ph name="END_LINK"/></translation>
@@ -659,7 +659,7 @@
 <translation id="2792012897584536778">Администраторите на това устройство са настроили сертификати за сигурност, които може да им дадат възможност да виждат съдържанието на посещаваните от вас уебсайтове.</translation>
 <translation id="2799020568854403057">На хоризонта се задава сайт с опасни приложения</translation>
 <translation id="2799223571221894425">Стартиране отново</translation>
-<translation id="2803306138276472711">Brave Безопасно сърфиране наскоро <ph name="BEGIN_LINK"/>откри злонамерен софтуер<ph name="END_LINK"/> на <ph name="SITE"/>. Уебсайтовете, които обикновено са надеждни, понякога се заразяват с опасен софтуер.</translation>
+<translation id="2803306138276472711">Presearch Безопасно сърфиране наскоро <ph name="BEGIN_LINK"/>откри злонамерен софтуер<ph name="END_LINK"/> на <ph name="SITE"/>. Уебсайтовете, които обикновено са надеждни, понякога се заразяват с опасен софтуер.</translation>
 <translation id="2807052079800581569">Позиция на изображението по оста Y</translation>
 <translation id="2820957248982571256">Сканира се...</translation>
 <translation id="2824775600643448204">Лента за адреси и за търсене</translation>
@@ -674,7 +674,7 @@
 <translation id="286512204874376891">Виртуалната карта прикрива действителната ви, за да ви защити от потенциална измама. <ph name="IDS_AUTOFILL_VIRTUAL_CARD_ENROLLMENT_LEARN_MORE_LINK_LABEL"/></translation>
 <translation id="287596039013813457">Приятелско</translation>
 <translation id="28761159517501904">Филми</translation>
-<translation id="1117301625415017890"><ph name="MANAGE_SECURITY_SETTINGS_FOCUSED_FRIENDLY_MATCH_TEXT"/>. Натиснете Tab и след това Enter, за да управлявате Безопасно сърфиране и други функции от настройките на Brave</translation>
+<translation id="1117301625415017890"><ph name="MANAGE_SECURITY_SETTINGS_FOCUSED_FRIENDLY_MATCH_TEXT"/>. Натиснете Tab и след това Enter, за да управлявате Безопасно сърфиране и други функции от настройките на Presearch</translation>
 <translation id="2878197950673342043">Кръстосано сгъване</translation>
 <translation id="2878424575911748999">A1</translation>
 <translation id="2880660355386638022">Разположение на прозорците</translation>
@@ -702,7 +702,7 @@
 <translation id="2943895734390379394">Време на качване:</translation>
 <translation id="2945026002409061480">Онлайн общности</translation>
 <translation id="2948083400971632585">Можете да деактивирате всички конфигурирани за дадена връзка прокси сървъри от страницата „Настройки“.</translation>
-<translation id="3955566820843143766">Игнорирано, защото машината не е регистрирана за управление на облака в браузъра Brave.</translation>
+<translation id="3955566820843143766">Игнорирано, защото машината не е регистрирана за управление на облака в браузъра Presearch.</translation>
 <translation id="2951588413176968965">Моята пощенска кутия</translation>
 <translation id="295526156371527179">Предупреждение: Това правило не бе обединено като речник според посоченото в правилото, тъй като не е речник.</translation>
 <translation id="2955913368246107853">Затваряне на лентата за търсене</translation>
@@ -734,13 +734,13 @@
 <translation id="3029752078111257850">Световни новини</translation>
 <translation id="3037605927509011580">Ужас!</translation>
 <translation id="3041612393474885105">Информация за сертификата</translation>
-<translation id="8418829431154568330">Историята на „Отдалечен работен плот на Brave“, включително клейма за дата и час, хостове и идентификатори за клиентски сесии.</translation>
+<translation id="8418829431154568330">Историята на „Отдалечен работен плот на Presearch“, включително клейма за дата и час, хостове и идентификатори за клиентски сесии.</translation>
 <translation id="3060227939791841287">C9 (плик)</translation>
 <translation id="3061707000357573562">Услуга за корекции</translation>
 <translation id="306573536155379004">Играта е стартирана.</translation>
 <translation id="3068991664510324412">Компютърни и видеоигри</translation>
 <translation id="3080254622891793721">Графика</translation>
-<translation id="254030672859277244">Позволете на Brave да използва кошниците ви, за да намира персонализирани отстъпки, когато са налични</translation>
+<translation id="254030672859277244">Позволете на Presearch да използва кошниците ви, за да намира персонализирани отстъпки, когато са налични</translation>
 <translation id="3086579638707268289">Активността ви в мрежата се наблюдава</translation>
 <translation id="3087734570205094154">Най-долу</translation>
 <translation id="3095940652251934233">Statement</translation>
@@ -779,7 +779,7 @@
 <translation id="3194737229810486521"><ph name="URL"/> иска да съхранява за постоянно данни на устройството ви</translation>
 <translation id="3195213714973468956"><ph name="PRINTER_NAME"/> на <ph name="SERVER_NAME"/></translation>
 <translation id="3197136577151645743">Може да поиска разрешение да разпознава кога използвате устройството активно</translation>
-<translation id="6629751330289763215"><ph name="MANAGE_SYNC_FOCUSED_FRIENDLY_MATCH_TEXT"/>. Натиснете Tab и след това Enter, за да управлявате данните, които да се синхронизират, от настройките на Brave</translation>
+<translation id="6629751330289763215"><ph name="MANAGE_SYNC_FOCUSED_FRIENDLY_MATCH_TEXT"/>. Натиснете Tab и след това Enter, за да управлявате данните, които да се синхронизират, от настройките на Presearch</translation>
 <translation id="320323717674993345">Анулиране на плащането</translation>
 <translation id="3203366800380907218">От мрежата</translation>
 <translation id="3207960819495026254">С отметка</translation>
@@ -800,15 +800,15 @@
 <translation id="3240683217920639535"><ph name="MANAGE_CHROME_THEMES_FOCUSED_FRIENDLY_MATCH_TEXT"/>. Натиснете Tab и след това Enter, за да персонализирате облика на браузъра си</translation>
 <translation id="3240791268468473923">Листът за несъответстващи идентификационни данни за сигурни плащания е отворен</translation>
 <translation id="324180406144491771">Връзките от тип <ph name="HOST_NAME"/> са блокирани</translation>
-<translation id="5195034764845981810">Този сайт определя интересите, които другите сайтове могат да използват, за да ви показват реклами. Той също така получава информация за интересите ви от Brave, за да ви показва по-подходящи реклами.</translation>
+<translation id="5195034764845981810">Този сайт определя интересите, които другите сайтове могат да използват, за да ви показват реклами. Той също така получава информация за интересите ви от Presearch, за да ви показва по-подходящи реклами.</translation>
 <translation id="3249151924975132674">Студентски заеми и финансиране на обучение в колежи</translation>
 <translation id="3249845759089040423">Приятно</translation>
 <translation id="3250640885957938546">Реклама и маркетинг</translation>
 <translation id="3252266817569339921">френски</translation>
 <translation id="3256863843508922226">Пенсиониране и пенсии</translation>
-<translation id="6900454207575412115"><ph name="CREATE_GOOGLE_CALENDAR_EVENT_FOCUSED_FRIENDLY_MATCH_TEXT"/>. Натиснете Tab и след това Enter, за да създадете бързо събитие в Brave Календар</translation>
+<translation id="6900454207575412115"><ph name="CREATE_GOOGLE_CALENDAR_EVENT_FOCUSED_FRIENDLY_MATCH_TEXT"/>. Натиснете Tab и след това Enter, за да създадете бързо събитие в Presearch Календар</translation>
 <translation id="3261488570342242926">Научете повече за виртуалните карти</translation>
-<translation id="3893393287627341086">Бутон „Управление на настройките на Brave“. Натиснете Enter, за да отворите настройките на браузъра</translation>
+<translation id="3893393287627341086">Бутон „Управление на настройките на Presearch“. Натиснете Enter, за да отворите настройките на браузъра</translation>
 <translation id="3266793032086590337">Стойност (несъвместима)</translation>
 <translation id="3268451620468152448">Отворени раздели</translation>
 <translation id="3270156322180235608">Въздушен транспорт</translation>
@@ -821,7 +821,7 @@
 <translation id="3287510313208355388">Изтегляне, когато съм онлайн</translation>
 <translation id="3288238092761586174">Може да се наложи <ph name="URL"/> да предприеме допълнителни стъпки за потвърждаване на плащането ви</translation>
 <translation id="3293642807462928945">Научете повече за правилото <ph name="POLICY_NAME"/></translation>
-<translation id="5894665462526421022">Преглеждайте и управлявайте паролите си в настройките на Brave</translation>
+<translation id="5894665462526421022">Преглеждайте и управлявайте паролите си в настройките на Presearch</translation>
 <translation id="3303855915957856445">Няма намерени резултати от търсенето</translation>
 <translation id="3304073249511302126">сканиране за устройства с Bluetooth</translation>
 <translation id="33073482541490531">Паролата, която току-що използвахте, е разкрита при нарушение на сигурността на данните. Мениджърът на паролите ви препоръчва да я промените сега.</translation>
@@ -845,12 +845,12 @@
 <translation id="3366477098757335611">Преглед на картите</translation>
 <translation id="3369192424181595722">Грешка в часовника</translation>
 <translation id="3369459162151165748">Части и аксесоари за превозни средства</translation>
-<translation id="2273851479262317744">Задаване на Brave като браузър по подразбиране</translation>
+<translation id="2273851479262317744">Задаване на Presearch като браузър по подразбиране</translation>
 <translation id="3371076217486966826"><ph name="URL"/> иска да:
       • създаде триизмерна карта на заобикалящата ви среда и да следи позицията на камерата;
       • използва камерата ви.</translation>
 <translation id="337363190475750230">Обезпечаването е отменено</translation>
-<translation id="7740652748540081864">Стартиране на проверка на безопасността в Brave</translation>
+<translation id="7740652748540081864">Стартиране на проверка на безопасността в Presearch</translation>
 <translation id="3377144306166885718">Сървърът използва остаряла версия на TLS.</translation>
 <translation id="3377188786107721145">Грешка при синтактичния анализ на правилото</translation>
 <translation id="3377736046129930310">Използване на опцията за заключване на екрана за по-бързо потвърждаване на картите</translation>
@@ -877,7 +877,7 @@
 <translation id="3431636764301398940">Запазване на картата на това устройство</translation>
 <translation id="3432601291244612633">Затваряне на страницата</translation>
 <translation id="3435738964857648380">Сигурност</translation>
-<translation id="4527130811319726464">Използване на паролите, запазени в профила ви в Brave</translation>
+<translation id="4527130811319726464">Използване на паролите, запазени в профила ви в Presearch</translation>
 <translation id="3440783957068352691">квадрат</translation>
 <translation id="3443726618221119081">Juuro-Ku-Kai</translation>
 <translation id="3447661539832366887">Собственикът на това устройство е изключил играта с динозавъра.</translation>
@@ -900,7 +900,7 @@
 <translation id="350069200438440499">Име на файла:</translation>
 <translation id="3507936815618196901">Създаване на триизмерна карта на заобикалящата ви среда и следене на позицията на камерата</translation>
 <translation id="3512163584740124171">Това правило е пренебрегнато, защото друго правило от същата група е с по-висок приоритет.</translation>
-<translation id="6733862566637706294">Бутон „Управление на адресите“. Натиснете Enter, за да добавяте адреси и да ги управлявате от настройките на Brave</translation>
+<translation id="6733862566637706294">Бутон „Управление на адресите“. Натиснете Enter, за да добавяте адреси и да ги управлявате от настройките на Presearch</translation>
 <translation id="3518941727116570328">Обработване на няколко обекта</translation>
 <translation id="3528171143076753409">Сертификатът на сървъра не е надежден.</translation>
 <translation id="3528485271872257980">тъмнокафяво</translation>
@@ -917,7 +917,7 @@
 <translation id="3575121482199441727">Разрешаване за този сайт</translation>
 <translation id="3576616784287504635">Вградена страница на адрес <ph name="SITE"/> изпраща съобщение</translation>
 <translation id="3577902790357386792">Гимнастика</translation>
-<translation id="230476913390177517">Brave ще ви съобщи, когато страницата бъде готова. &lt;a&gt;Отказ&lt;/a&gt;</translation>
+<translation id="230476913390177517">Presearch ще ви съобщи, когато страницата бъде готова. &lt;a&gt;Отказ&lt;/a&gt;</translation>
 <translation id="3582930987043644930">Добавете име</translation>
 <translation id="3583757800736429874">&amp;Възстановяване на преместването</translation>
 <translation id="3584299510153766161">Двойно перфориране в долната част</translation>
@@ -933,7 +933,7 @@
 <translation id="3611395257124510155">Виртуална карта за <ph name="CARD_IDENTIFIER"/></translation>
 <translation id="3614103345592970299">Размер 2</translation>
 <translation id="361438452008624280">Списъчен запис „<ph name="LANGUAGE_ID"/>“: Неизвестен или неподдържан език.</translation>
-<translation id="3274500070896023877"><ph name="RUN_CHROME_SAFETY_CHECK_FOCUSED_FRIENDLY_MATCH_TEXT"/>. Натиснете Tab и след това Enter, за да стартирате проверка на безопасността от настройките на Brave</translation>
+<translation id="3274500070896023877"><ph name="RUN_CHROME_SAFETY_CHECK_FOCUSED_FRIENDLY_MATCH_TEXT"/>. Натиснете Tab и след това Enter, за да стартирате проверка на безопасността от настройките на Presearch</translation>
 <translation id="3615877443314183785">Въведете валидна дата на изтичане</translation>
 <translation id="36224234498066874">Изчистване на данните за сърфирането...</translation>
 <translation id="362276910939193118">Цялата история</translation>
@@ -943,9 +943,9 @@
 <translation id="3631244953324577188">Биометрика</translation>
 <translation id="3632503704576938756">Споделянето на екрана е възобновено</translation>
 <translation id="3632892046558972264">Споделянето на екрана е на пауза</translation>
-<translation id="1367445511302842209">Бутон „Актуализиране на Brave“. Натиснете Enter, за да актуализирате Brave от настройките</translation>
+<translation id="1367445511302842209">Бутон „Актуализиране на Presearch“. Натиснете Enter, за да актуализирате Presearch от настройките</translation>
 <translation id="3634530185120165534">Тава 5</translation>
-<translation id="5334218736598399301">Запазване в профила в Brave</translation>
+<translation id="5334218736598399301">Запазване в профила в Presearch</translation>
 <translation id="3640766068866876100">Index-4 x 6-Ext</translation>
 <translation id="3642638418806704195">Приложение:</translation>
 <translation id="3650584904733503804">Потвърждаването е успешно</translation>
@@ -955,7 +955,7 @@
 <translation id="3658742229777143148">Ревизия</translation>
 <translation id="3664782872746246217">Ключови думи:</translation>
 <translation id="3667704023705708645">Рисков капитал</translation>
-<translation id="2770043515970619538">Отметки в Brave</translation>
+<translation id="2770043515970619538">Отметки в Presearch</translation>
 <translation id="3671540257457995106">Да се разреши ли преоразмеряване?</translation>
 <translation id="3675563144891642599">Трета ролка</translation>
 <translation id="3676592649209844519">Идент. № на устройството:</translation>
@@ -977,14 +977,14 @@
 <translation id="3715597595485130451">Свързване с Wi-Fi</translation>
 <translation id="3717027428350673159"><ph name="BEGIN_LINK"/>Проверете конфигурацията на прокси сървъра, защитната стена и DNS<ph name="END_LINK"/>.</translation>
 <translation id="372429172604983730">Тази грешка може да се дължи на приложение, като например антивирусна програма или софтуер за защитна стена или за филтриране на съдържание в мрежата.</translation>
-<translation id="3838210050876514022"><ph name="CREATE_GOOGLE_SLIDE_FOCUSED_FRIENDLY_MATCH_TEXT"/>. Натиснете Tab и след това Enter, за да създадете бързо презентация в Brave Презентации</translation>
+<translation id="3838210050876514022"><ph name="CREATE_GOOGLE_SLIDE_FOCUSED_FRIENDLY_MATCH_TEXT"/>. Натиснете Tab и след това Enter, за да създадете бързо презентация в Presearch Презентации</translation>
 <translation id="373042150751172459">B4 (плик)</translation>
 <translation id="3733139489341305600">Автономни автомобили</translation>
 <translation id="3736520371357197498">Ако разбирате рисковете за сигурността си, може <ph name="BEGIN_LINK"/>да посетите този ненадежден сайт<ph name="END_LINK"/> преди премахването на опасните програми.</translation>
 <translation id="3738166223076830879">Браузърът се управлява от администратора ви.</translation>
 <translation id="3740319564441798148">Автобусни и железопътни линии на дълги разстояния</translation>
 <translation id="3744111561329211289">Синхронизиране на заден план</translation>
-<translation id="4098534208927606680">След като потвърдите картата си, данните за нея от профила ви в Brave ще бъдат споделени с този сайт.</translation>
+<translation id="4098534208927606680">След като потвърдите картата си, данните за нея от профила ви в Presearch ще бъдат споделени с този сайт.</translation>
 <translation id="3748148204939282805">Извършители на атака, използващи <ph name="BEGIN_BOLD"/><ph name="SITE"/><ph name="END_BOLD"/>, може да ви подведат да направите нещо опасно, като например да инсталирате софтуер или да разкриете лична информация (например пароли, телефонни номера или номера на кредитни карти). <ph name="BEGIN_LEARN_MORE_LINK"/>Научете повече<ph name="END_LEARN_MORE_LINK"/></translation>
 <translation id="3748912308089554501">Авиационна промишленост</translation>
 <translation id="3754210790023674521">Изход от „Картина в картината“</translation>
@@ -995,8 +995,8 @@
 <translation id="3761718714832595332">Скриване на състоянието</translation>
 <translation id="3765588406864124894">Пощенска кутия 9</translation>
 <translation id="3767485424735936570">Според администраторско правило копирането и поставянето на съдържание в(ъв) „<ph name="VM_NAME"/>“ не се препоръчва</translation>
-<translation id="8247912309816231326"><ph name="CREATE_GOOGLE_KEEP_NOTE_FOCUSED_FRIENDLY_MATCH_TEXT"/>. Натиснете Tab и след това Enter, за да създадете бързо бележка в Brave Keep</translation>
-<translation id="5141491707451394486">Искате ли тази карта да се запази на устройството и в профила ви в Brave?</translation>
+<translation id="8247912309816231326"><ph name="CREATE_GOOGLE_KEEP_NOTE_FOCUSED_FRIENDLY_MATCH_TEXT"/>. Натиснете Tab и след това Enter, за да създадете бързо бележка в Presearch Keep</translation>
+<translation id="5141491707451394486">Искате ли тази карта да се запази на устройството и в профила ви в Presearch?</translation>
 <translation id="3780694243617746492">Изходен контейнер</translation>
 <translation id="3781428340399460090">ярко розово</translation>
 <translation id="3783418713923659662">Mastercard</translation>
@@ -1022,7 +1022,7 @@
 <translation id="3831915413245941253">От <ph name="ENROLLMENT_DOMAIN"/> са инсталирани разширения за допълнителни функции. Разширенията имат достъп до част от данните ви.</translation>
 <translation id="3832522519263485449">Няколко перфорации отляво</translation>
 <translation id="3835233591525155343">Използването на устройството ви</translation>
-<translation id="5749930378398424146"><ph name="CREATE_GOOGLE_DOC_FOCUSED_FRIENDLY_MATCH_TEXT"/>. Натиснете Tab и след това Enter, за да създадете бързо документ в Brave Документи</translation>
+<translation id="5749930378398424146"><ph name="CREATE_GOOGLE_DOC_FOCUSED_FRIENDLY_MATCH_TEXT"/>. Натиснете Tab и след това Enter, за да създадете бързо документ в Presearch Документи</translation>
 <translation id="385051799172605136">Назад</translation>
 <translation id="3858027520442213535">Актуализиране на датата и часа</translation>
 <translation id="3858860766373142691">Име</translation>
@@ -1037,7 +1037,7 @@
 <translation id="3901925938762663762">Картата е с изтекла валидност</translation>
 <translation id="3906600011954732550">B5-Extra</translation>
 <translation id="3906954721959377182">Таблет</translation>
-<translation id="2650609753175229582"><ph name="URL"/> иска разрешение за възпроизвеждане на защитено съдържание. Идентичността на устройството ви ще бъде потвърдена от Brave и този сайт може да осъществи достъп до нея.</translation>
+<translation id="2650609753175229582"><ph name="URL"/> иска разрешение за възпроизвеждане на защитено съдържание. Идентичността на устройството ви ще бъде потвърдена от Presearch и този сайт може да осъществи достъп до нея.</translation>
 <translation id="3909695131102177774"><ph name="LABEL"/> – <ph name="ERROR"/></translation>
 <translation id="3927932062596804919">Отказ</translation>
 <translation id="393316646445601645">Интернет и телекомуникации</translation>
@@ -1069,7 +1069,7 @@
 <translation id="4010758435855888356">Да се разреши ли достъпът до хранилището?</translation>
 <translation id="4014128326099193693">{COUNT,plural, =1{PDF документ, съдържащ {COUNT} страница}other{PDF документ, съдържащ {COUNT} страници}}</translation>
 <translation id="4023431997072828269">Тъй като този формуляр се изпраща посредством незащитена връзка, информацията ви ще е видима за други хора.</translation>
-<translation id="3356024105713905662">Бутон за управление на настройките за поверителност в Brave. Натиснете Enter, за да отворите настройките за поверителност за профила си в Brave.</translation>
+<translation id="3356024105713905662">Бутон за управление на настройките за поверителност в Presearch. Натиснете Enter, за да отворите настройките за поверителност за профила си в Presearch.</translation>
 <translation id="4030383055268325496">&amp;Отмяна на добавянето</translation>
 <translation id="4040350669425716613">Колежи и университети</translation>
 <translation id="4056223980640387499">Сепия</translation>
@@ -1084,16 +1084,16 @@
 <translation id="4075941231477579656">Touch ID</translation>
 <translation id="4079302484614802869">За конфигурацията на прокси сървъра е зададено да използва URL адрес на скрипт във формат .pac, а не фиксирани прокси сървъри.</translation>
 <translation id="4082393374666368382">Настройки – Управление</translation>
-<translation id="8049340108547416244">Бутон за създаване на събитие. Натиснете Enter, за да създадете бързо събитие в Brave Календар</translation>
+<translation id="8049340108547416244">Бутон за създаване на събитие. Натиснете Enter, за да създадете бързо събитие в Presearch Календар</translation>
 <translation id="4088981014127559358">Изместване на изображението от страна 1 по оста Y</translation>
 <translation id="4089152113577680600">Тава 14</translation>
 <translation id="4098354747657067197">Внимание: измамен сайт</translation>
 <translation id="4099048595830172239">Според администраторско правило споделянето на екрана с(ъс) „<ph name="APPLICATION_TITLE"/>“, когато се вижда поверително съдържание, не се препоръчва:</translation>
-<translation id="5393384033795488834"><ph name="CUSTOMIZE_CHROME_FONTS_FOCUSED_FRIENDLY_MATCH_TEXT"/>. Натиснете Tab и след това – Enter, за да персонализирате шрифтовете в Brave и размера им</translation>
+<translation id="5393384033795488834"><ph name="CUSTOMIZE_CHROME_FONTS_FOCUSED_FRIENDLY_MATCH_TEXT"/>. Натиснете Tab и след това – Enter, за да персонализирате шрифтовете в Presearch и размера им</translation>
 <translation id="4101413244023615925">Текст и графика</translation>
 <translation id="410148943680000050">Настолна издателска дейност</translation>
 <translation id="4103249731201008433">Серийният номер на устройството е невалиден</translation>
-<translation id="1823668038006695695">Бутон за създаване на сайт. Натиснете Enter, за да създадете бързо сайт в Brave Сайтове</translation>
+<translation id="1823668038006695695">Бутон за създаване на сайт. Натиснете Enter, за да създадете бързо сайт в Presearch Сайтове</translation>
 <translation id="4110652170750985508">Преглед на плащането ви</translation>
 <translation id="4111546256784973544">Пейнтбол</translation>
 <translation id="4112140312785995938">Придвижване назад</translation>
@@ -1158,7 +1158,7 @@
 <translation id="4275830172053184480">Рестартиране на устройството ви</translation>
 <translation id="4277028893293644418">Повторно задаване на паролата</translation>
 <translation id="4278390842282768270">Разрешено</translation>
-<translation id="8314946990939758167">{NUM_CARDS,plural, =1{Тази карта е запазена в профила ви в Brave}other{Тези карти са запазени в профила ви в Brave}}</translation>
+<translation id="8314946990939758167">{NUM_CARDS,plural, =1{Тази карта е запазена в профила ви в Presearch}other{Тези карти са запазени в профила ви в Presearch}}</translation>
 <translation id="4287885627794386150">Отговаря на условията за изпробване, но не е активно</translation>
 <translation id="4297502707443874121">Миниизображение на страницата <ph name="THUMBNAIL_PAGE"/></translation>
 <translation id="4298000214066716287">Инвестиране</translation>
@@ -1180,8 +1180,8 @@
 <translation id="4329871760342656885">Грешка при синтактичния анализ на правилото: <ph name="ERROR"/></translation>
 <translation id="4331519897422864041">Стакер 5</translation>
 <translation id="4331708818696583467">Няма защита</translation>
-<translation id="5792122559159836842">Тази реклама бе премахната от Brave, защото използваше твърде много от ресурсите на устройството ви.</translation>
-<translation id="6116812392674177288">Този компютър не се управлява корпоративно, така че правилото може да инсталира автоматично само разширения от уеб магазина на Brave. URL адресът за актуализация за уеб магазина на Brave е <ph name="CWS_UPDATE_URL"/>.</translation>
+<translation id="5792122559159836842">Тази реклама бе премахната от Presearch, защото използваше твърде много от ресурсите на устройството ви.</translation>
+<translation id="6116812392674177288">Този компютър не се управлява корпоративно, така че правилото може да инсталира автоматично само разширения от уеб магазина на Presearch. URL адресът за актуализация за уеб магазина на Presearch е <ph name="CWS_UPDATE_URL"/>.</translation>
 <translation id="4346197816712207223">Приемани кредитни карти</translation>
 <translation id="4346833872170306413">Roc-16K</translation>
 <translation id="4348834659292907206">Връзката със сайта <ph name="SITE"/> не е защитена</translation>
@@ -1219,7 +1219,7 @@
 <translation id="4441832193888514600">Пренебрегнато, защото правилото може да бъде зададено само като правило за потребители в облака.</translation>
 <translation id="4450893287417543264">Да не се показва отново</translation>
 <translation id="4451135742916150903">Може да поиска разрешение да се свързва с HID устройства</translation>
-<translation id="8416018650396907203">Паролата, която току-що използвахте, е разкрита при нарушение на сигурността на данните. За да защитите профилите си, мениджърът на паролите в Brave ви препоръчва да проверите запазените си пароли.</translation>
+<translation id="8416018650396907203">Паролата, която току-що използвахте, е разкрита при нарушение на сигурността на данните. За да защитите профилите си, мениджърът на паролите в Presearch ви препоръчва да проверите запазените си пароли.</translation>
 <translation id="4455222631300069614">Променете паролата си сега</translation>
 <translation id="4460315069258617173">Разрешено, докато не затворите разделите със сайта</translation>
 <translation id="4464826014807964867">Уебсайтове, които разполагат с информация от организацията ви</translation>
@@ -1229,8 +1229,8 @@
 <translation id="4477949251180341057">Мрежова сигурност</translation>
 <translation id="4482953324121162758">Този сайт няма да се превежда.</translation>
 <translation id="4490717597759821841">A7</translation>
-<translation id="3966104135245031874">Синхронизираните пароли да се шифроват с идентификационните данни за профила ви в Brave</translation>
-<translation id="3614771894046523359">Тези функции са деактивирани по подразбиране. Те няма да бъдат налице в бъдещите версии на Brave.</translation>
+<translation id="3966104135245031874">Синхронизираните пароли да се шифроват с идентификационните данни за профила ви в Presearch</translation>
+<translation id="3614771894046523359">Тези функции са деактивирани по подразбиране. Те няма да бъдат налице в бъдещите версии на Presearch.</translation>
 <translation id="4493480324863638523">Невалиден URL адрес. Трябва да е URL адрес със стандартна схема, напр. http://example.com или https://example.com.</translation>
 <translation id="4500587658229086076">незащитено съдържание</translation>
 <translation id="4503882053543859973">Architecture-D</translation>
@@ -1238,10 +1238,10 @@
 <translation id="4506599922270137252">Свържете се със системния администратор.</translation>
 <translation id="450710068430902550">Споделяне с администратор</translation>
 <translation id="4508814173490746936">Touch ID не можа да се използва</translation>
-<translation id="7581711177899574338"><ph name="TRANSLATE_FOCUSED_FRIENDLY_MATCH_TEXT"/>. Натиснете Tab и след това – Enter, за да преведете тази страница с Brave Преводач</translation>
+<translation id="7581711177899574338"><ph name="TRANSLATE_FOCUSED_FRIENDLY_MATCH_TEXT"/>. Натиснете Tab и след това – Enter, за да преведете тази страница с Presearch Преводач</translation>
 <translation id="4510487217173779431">Chou4 (плик)</translation>
 <translation id="4514308731478712184">Изключване на пътешествията</translation>
-<translation id="4892470328555495647">Картите и адресите са от Brave и профила ви в Brave (<ph name="ACCOUNT_EMAIL"/>). Можете да ги управлявате от <ph name="BEGIN_LINK"/>настройките<ph name="END_LINK"/>.</translation>
+<translation id="4892470328555495647">Картите и адресите са от Presearch и профила ви в Presearch (<ph name="ACCOUNT_EMAIL"/>). Можете да ги управлявате от <ph name="BEGIN_LINK"/>настройките<ph name="END_LINK"/>.</translation>
 <translation id="4517607026994743406">Comm-10 (плик)</translation>
 <translation id="4521157617044179198"><ph name="WIDTH"/> × <ph name="HEIGHT"/> мм (<ph name="ORIENTATION"/>)</translation>
 <translation id="4521916730539354575">Лява тава</translation>
@@ -1267,10 +1267,10 @@
 <translation id="4600854749408232102">C6/C5 (плик)</translation>
 <translation id="4602465984861132303">Боулинг</translation>
 <translation id="4606870351894164739">Въздействащо</translation>
-<translation id="7265018635737406618">Бутон за преглед на съветите за Brave. Натиснете Enter, за да научите повече за функциите на браузъра</translation>
-<translation id="8338928872956435647">Вижте съветите за Brave</translation>
+<translation id="7265018635737406618">Бутон за преглед на съветите за Presearch. Натиснете Enter, за да научите повече за функциите на браузъра</translation>
+<translation id="8338928872956435647">Вижте съветите за Presearch</translation>
 <translation id="4617273035598175554">Софтуер за графика и анимация</translation>
-<translation id="6398431831028858802">Това правило не може да се зададе на ниво потребителски профил в Brave и ще бъде пренебрегнато.</translation>
+<translation id="6398431831028858802">Това правило не може да се зададе на ниво потребителски профил в Presearch и ще бъде пренебрегнато.</translation>
 <translation id="4628948037717959914">Снимка</translation>
 <translation id="4631649115723685955">Опцията за връщане на пари при покупка е свързана</translation>
 <translation id="4636930964841734540">Информация</translation>
@@ -1287,7 +1287,7 @@
 <translation id="4673460618347856347">Играта с динозавъра, стартиране</translation>
 <translation id="467662567472608290">Сървърът не можа да докаже, че е <ph name="DOMAIN"/>; сертификатът му за сигурност съдържа грешки. Това може да се дължи на неправилно конфигуриране или на прихващане на връзката ви от атакуващ.</translation>
 <translation id="4677585247300749148"><ph name="URL"/> иска да реагира на събития за достъпност</translation>
-<translation id="8197094463444457125">Brave Презентации</translation>
+<translation id="8197094463444457125">Presearch Презентации</translation>
 <translation id="4682496302933121474">Да се преведе ли страницата?</translation>
 <translation id="468314109939257734">Преглед на номера на виртуалната ви карта</translation>
 <translation id="4691835149146451662">Architecture-A (плик)</translation>
@@ -1318,22 +1318,22 @@
 <translation id="4751476147751820511">Сензори за движение или светлина</translation>
 <translation id="4754461935447132332">Не е разрешено за незащитени сайтове</translation>
 <translation id="4756388243121344051">&amp;История</translation>
-<translation id="1015173303159845845">Току-що въведохте паролата си в измамнически сайт. За да защитите профилите си, Brave препоръчва да проверите запазените си пароли.</translation>
+<translation id="1015173303159845845">Току-що въведохте паролата си в измамнически сайт. За да защитите профилите си, Presearch препоръчва да проверите запазените си пароли.</translation>
 <translation id="4758311279753947758">Добавяне на информация за връзка</translation>
 <translation id="4761104368405085019">Използване на микрофона ви</translation>
-<translation id="1980929286541331105">Стартиране на проверка на безопасността в Brave</translation>
+<translation id="1980929286541331105">Стартиране на проверка на безопасността в Presearch</translation>
 <translation id="4764776831041365478">До уеб страницата на адрес <ph name="URL"/> може временно да няма достъп или да е преместена за постоянно на нов уеб адрес.</translation>
 <translation id="4766713847338118463">Двуточково телбодиране в долната част</translation>
 <translation id="4771973620359291008">Възникна неизвестна грешка.</translation>
 <translation id="477945296921629067">{NUM_POPUPS,plural, =1{Блокиран е изскачащ прозорец}other{Блокирани са # изскач. прозореца}}</translation>
 <translation id="4780366598804516005">Пощенска кутия 1</translation>
-<translation id="752757955979594126">Управление на профила в Brave</translation>
+<translation id="752757955979594126">Управление на профила в Presearch</translation>
 <translation id="4785689107224900852">Превключване към този раздел</translation>
 <translation id="4786804728079074733">Волейбол</translation>
 <translation id="4791134497475588553">Инсталираните приложения за Linux и кога са използвани последно</translation>
 <translation id="4792686369684665359">Информацията, която сте напът да изпратите, не е защитена</translation>
 <translation id="4796594887379589189">Идентификатор за отчитане на задания</translation>
-<translation id="7110430050177876111">Въведете датата на валидност и кода за проверка за <ph name="CREDIT_CARD"/>, за да актуализирате данните за картата си. След като я потвърдите, данните за нея от профила ви в Brave ще бъдат споделени с този сайт.</translation>
+<translation id="7110430050177876111">Въведете датата на валидност и кода за проверка за <ph name="CREDIT_CARD"/>, за да актуализирате данните за картата си. След като я потвърдите, данните за нея от профила ви в Presearch ще бъдат споделени с този сайт.</translation>
 <translation id="4800132727771399293">Прегледайте датата на валидност и кода за проверка и оптитайте отново</translation>
 <translation id="480334179571489655">Грешка поради правило на източника</translation>
 <translation id="4803924862070940586"><ph name="FORMATTED_TOTAL_AMOUNT"/> <ph name="CURRENCY_CODE"/></translation>
@@ -1342,12 +1342,12 @@
 <translation id="4813512666221746211">Грешка в мрежата</translation>
 <translation id="4816492930507672669">Да се побере в страницата</translation>
 <translation id="4819347708020428563">Искате ли да редактирате поясненията в стандартния изглед?</translation>
-<translation id="551961240839010112"><ph name="CREATE_GOOGLE_SHEET_FOCUSED_FRIENDLY_MATCH_TEXT"/>. Натиснете Tab и след това Enter, за да създадете бързо таблица в Brave Таблици</translation>
+<translation id="551961240839010112"><ph name="CREATE_GOOGLE_SHEET_FOCUSED_FRIENDLY_MATCH_TEXT"/>. Натиснете Tab и след това Enter, за да създадете бързо таблица в Presearch Таблици</translation>
 <translation id="4825507807291741242">Впечатляващо</translation>
 <translation id="483241715238664915">Включване на предупрежденията</translation>
 <translation id="4834250788637067901">Начини на плащане, оферти и адреси посредством Google Pay</translation>
 <translation id="4838327282952368871">Замечтано</translation>
-<translation id="246176083348620700">Преглед на историята ви в Brave</translation>
+<translation id="246176083348620700">Преглед на историята ви в Presearch</translation>
 <translation id="484462545196658690">Автоматично</translation>
 <translation id="484671803914931257">Получаване на отстъпки за <ph name="MERCHANT_NAME"/> и др.</translation>
 <translation id="4850886885716139402">Изглед</translation>
@@ -1355,7 +1355,7 @@
 <translation id="485316830061041779">немски</translation>
 <translation id="4853901935952445031">След февруари 2022 г. този сайт няма да може да използва API за U2F. Ако вие сте собственикът на сайта, трябва да преминете към API за удостоверяване в мрежата.</translation>
 <translation id="4854362297993841467">Този начин на бърза доставка не се поддържа. Опитайте с друг.</translation>
-<translation id="3418609161696289726">Бързо създаване на бележка в Brave Keep</translation>
+<translation id="3418609161696289726">Бързо създаване на бележка в Presearch Keep</translation>
 <translation id="485902285759009870">Кодът се потвърждава...</translation>
 <translation id="4866506163384898554">Натиснете |<ph name="ACCELERATOR1"/>| + |<ph name="ACCELERATOR2"/>|, за да се покаже курсорът</translation>
 <translation id="4876188919622883022">Опростен изглед</translation>
@@ -1403,7 +1403,7 @@
 <translation id="4995216769782533993">Потвърдете кода за сигурност, за да споделите данните за картата си с този сайт</translation>
 <translation id="4995474875135717171">Последна промяна:</translation>
 <translation id="4995749490935861684"><ph name="CUSTOMIZE_SEARCH_ENGINES_FOCUSED_FRIENDLY_MATCH_TEXT"/>. Натиснете Tab и след това – Enter, за да управлявате настройките за търсене в сайтовете и основната си търсеща машина</translation>
-<translation id="3676215163710610678">Ако настройката е активирана, копие на картата ви ще се съхранява в Brave на това устройство с цел по-бързо попълване на формуляри.</translation>
+<translation id="3676215163710610678">Ако настройката е активирана, копие на картата ви ще се съхранява в Presearch на това устройство с цел по-бързо попълване на формуляри.</translation>
 <translation id="5011561501798487822">Установен език</translation>
 <translation id="5015510746216210676">Име на компютъра:</translation>
 <translation id="5017554619425969104">Копиран от вас текст</translation>
@@ -1414,14 +1414,14 @@
 <translation id="5029568752722684782">Изчистване на копието</translation>
 <translation id="5030338702439866405">Издаден от</translation>
 <translation id="503069730517007720">За <ph name="SOFTWARE_NAME"/> се изисква основен сертификат, но такъв не е инсталиран. Системният ви администратор трябва да прегледа инструкциите за конфигуриране на <ph name="SOFTWARE_NAME"/>, за да отстрани проблема. <ph name="FURTHER_EXPLANATION"/></translation>
-<translation id="6425384654920630035">Всичко за Brave Преводач</translation>
+<translation id="6425384654920630035">Всичко за Presearch Преводач</translation>
 <translation id="503498442187459473"><ph name="HOST"/> иска да използва камерата и микрофона ви</translation>
 <translation id="5035135400558156732">Градинарство</translation>
 <translation id="5039762155821394373">Размер на шрифта</translation>
 <translation id="5039804452771397117">Разрешаване</translation>
 <translation id="5040262127954254034">Поверителност</translation>
 <translation id="5043480802608081735">Копирана от вас връзка</translation>
-<translation id="7991773990221474814">Паролата, която току-що използвахте, е разкрита при нарушение на сигурността на данните. Brave Асистент може да я промени автоматично.</translation>
+<translation id="7991773990221474814">Паролата, която току-що използвахте, е разкрита при нарушение на сигурността на данните. Presearch Асистент може да я промени автоматично.</translation>
 <translation id="5045550434625856497">Грешна парола</translation>
 <translation id="5051305769747448211">Комедия на живо</translation>
 <translation id="5056425809654826431">{NUM_FILES,plural, =1{За да изпратите този файл чрез „Споделяне наблизо“, освободете място (<ph name="DISK_SPACE_SIZE"/>) на устройството си}other{За да изпратите тези файлове чрез „Споделяне наблизо“, освободете място (<ph name="DISK_SPACE_SIZE"/>) на устройството си}}</translation>
@@ -1441,7 +1441,7 @@
 <translation id="5088142053160410913">Съобщение до оператора</translation>
 <translation id="5089810972385038852">Щат</translation>
 <translation id="5093232627742069661">Z-образно сгъване</translation>
-<translation id="4906192414477726331">Сървърът не можа да докаже, че е <ph name="DOMAIN"/>; Brave няма доверие на сертификата му за сигурност. Това може да се дължи на неправилно конфигуриране или на прихващане на връзката ви от атакуващ.</translation>
+<translation id="4906192414477726331">Сървърът не можа да докаже, че е <ph name="DOMAIN"/>; Presearch няма доверие на сертификата му за сигурност. Това може да се дължи на неправилно конфигуриране или на прихващане на връзката ви от атакуващ.</translation>
 <translation id="5095208057601539847">Провинция</translation>
 <translation id="5097099694988056070">Статистически данни за устройството, например за използването на процесора/RAM паметта</translation>
 <translation id="5097501891273180634">A2</translation>
@@ -1474,8 +1474,8 @@
 <translation id="5161334686036120870">Тема:</translation>
 <translation id="5161506081086828129">Стакер 9</translation>
 <translation id="5164798890604758545">Въвеждане на текст</translation>
-<translation id="2996889577833788807">Въведете кода за проверка за <ph name="CREDIT_CARD"/>. След като потвърдите картата си, данните за нея от профила ви в Brave ще бъдат споделени с този сайт.</translation>
-<translation id="8515152881111950319">Възможно е да загубите достъп до профила си в организацията или самоличността ви да бъде открадната. Brave препоръчва да промените паролата си сега.</translation>
+<translation id="2996889577833788807">Въведете кода за проверка за <ph name="CREDIT_CARD"/>. След като потвърдите картата си, данните за нея от профила ви в Presearch ще бъдат споделени с този сайт.</translation>
+<translation id="8515152881111950319">Възможно е да загубите достъп до профила си в организацията или самоличността ви да бъде открадната. Presearch препоръчва да промените паролата си сега.</translation>
 <translation id="5171045022955879922">Търсете или въведете URL адрес</translation>
 <translation id="5171689220826475070">Fanfold-European</translation>
 <translation id="5172758083709347301">Машината</translation>
@@ -1484,7 +1484,7 @@
 <translation id="51918995459521422"><ph name="ORIGIN"/> иска да изтегли няколко файла</translation>
 <translation id="519422657042045905">Няма достъп до режима за пояснения</translation>
 <translation id="5201306358585911203">Страница, вградена в тази страница, изпраща съобщение</translation>
-<translation id="4885094043301349997">Brave разкри паролата, която току-що използвахте, при нарушение на сигурността на данните. Brave Асистент може да я промени автоматично.</translation>
+<translation id="4885094043301349997">Presearch разкри паролата, която току-що използвахте, при нарушение на сигурността на данните. Presearch Асистент може да я промени автоматично.</translation>
 <translation id="5205222826937269299">Името е задължително</translation>
 <translation id="5209518306177824490">Пръстов отпечатък SHA-1</translation>
 <translation id="5209670883520018268">Тава 20</translation>
@@ -1500,7 +1500,7 @@
 <translation id="5234764350956374838">Отхвърляне</translation>
 <translation id="5242889659037569123">Багаж и пътнически принадлежности</translation>
 <translation id="5250209940322997802">„Свързване с мрежа“</translation>
-<translation id="6055400808586511449">Научете повече за функциите на Brave</translation>
+<translation id="6055400808586511449">Научете повече за функциите на Presearch</translation>
 <translation id="5251803541071282808">Облак</translation>
 <translation id="5252000469029418751">C7 (плик)</translation>
 <translation id="5254043433801397071">Оптимизиране на съдържанието за отпечатване</translation>
@@ -1521,7 +1521,7 @@
 <translation id="5287456746628258573">Този сайт използва остаряла конфигурация за сигурност, която може да разкрие информацията ви (например пароли или номера на кредитни карти) при изпращането ѝ до него.</translation>
 <translation id="5288108484102287882">При проверката на стойностите на правилата възникнаха предупреждения</translation>
 <translation id="5288393065350884210">Счетоводство и одит</translation>
-<translation id="782502454152246205">Връзката със сайта е защитена, освен ако Brave не ви съобщи друго.</translation>
+<translation id="782502454152246205">Връзката със сайта е защитена, освен ако Presearch не ви съобщи друго.</translation>
 <translation id="5289384342738547352">Обработване на няколко документа</translation>
 <translation id="5293919335876685914">Купета</translation>
 <translation id="5296589789433599000">Готварство и рецепти</translation>
@@ -1540,14 +1540,14 @@
 <translation id="5324080437450482387">Избиране на информация за връзка</translation>
 <translation id="5329858041417644019">Браузърът ви не се управлява</translation>
 <translation id="5332219387342487447">Начин за доставка</translation>
-<translation id="5038014878861342914">Brave разкри паролата, която току-що използвахте, при нарушение на сигурността на данните. За да защитите профилите си, ви препоръчваме да проверите запазените си пароли.</translation>
+<translation id="5038014878861342914">Presearch разкри паролата, която току-що използвахте, при нарушение на сигурността на данните. За да защитите профилите си, ви препоръчваме да проверите запазените си пароли.</translation>
 <translation id="5334013548165032829">Подробните системни регистрационни файлове</translation>
 <translation id="5334145288572353250">Да се запази ли адресът?</translation>
 <translation id="5335920952954443287">Туптящо сърце</translation>
 <translation id="5340250774223869109">Приложението е блокирано</translation>
 <translation id="534295439873310000">Устройства с NFC</translation>
 <translation id="5344579389779391559">Тази страница може да опита да ви таксува пари</translation>
-<translation id="145631537248113690">Бутон „Персонализиране на шрифтовете в Brave“. Натиснете Enter, за да персонализирате шрифтовете в Brave и размера им</translation>
+<translation id="145631537248113690">Бутон „Персонализиране на шрифтовете в Presearch“. Натиснете Enter, за да персонализирате шрифтовете в Presearch и размера им</translation>
 <translation id="5355557959165512791">В момента не можете да посетите сайта <ph name="SITE"/>, защото сертификатът му е анулиран. Обикновено грешките в мрежата и атаките срещу нея са временни, така че тази страница вероятно ще работи по-късно.</translation>
 <translation id="5356837363448394805">Изчервяване</translation>
 <translation id="5357848622083956825">Визуални изкуства и дизайн</translation>
@@ -1555,7 +1555,7 @@
 <translation id="5363309033720083897">Сериен порт, разрешен от администратора ви</translation>
 <translation id="5371425731340848620">Актуализиране на картата</translation>
 <translation id="5377026284221673050">„Часовникът ви е назад“, „Часовникът ви е напред“ или „&lt;span class="error-code"&gt;NET::ERR_CERT_DATE_INVALID&lt;/span&gt;“</translation>
-<translation id="6943284267010400133">Бутон за създаване на презентация. Натиснете Enter, за да създадете бързо презентация в Brave Презентации</translation>
+<translation id="6943284267010400133">Бутон за създаване на презентация. Натиснете Enter, за да създадете бързо презентация в Presearch Презентации</translation>
 <translation id="5385857628869214740">Хумор</translation>
 <translation id="5386426401304769735">Веригата от сертификати за този сайт съдържа сертификат, подписан с SHA-1.</translation>
 <translation id="538659543871111977">A4-Tab</translation>
@@ -1563,7 +1563,7 @@
 <translation id="5398772614898833570">Рекламите са блокирани</translation>
 <translation id="5400836586163650660">сиво</translation>
 <translation id="540969355065856584">Сървърът не можа да докаже, че е <ph name="DOMAIN"/>. Понастоящем сертификатът му за сигурност не е валиден. Това може да се дължи на неправилно конфигуриране или на прихващане на връзката ви от извършител на атака.</translation>
-<translation id="9079419934310259761">Този сайт получава информация за интересите ви от Brave, за да ви показва по-подходящи реклами</translation>
+<translation id="9079419934310259761">Този сайт получава информация за интересите ви от Presearch, за да ви показва по-подходящи реклами</translation>
 <translation id="541416427766103491">Стакер 4</translation>
 <translation id="5421136146218899937">Изчистване на данните за сърфирането...</translation>
 <translation id="5426179911063097041"><ph name="SITE"/> иска да ви изпраща известия</translation>
@@ -1602,7 +1602,7 @@
 <translation id="5528532273234423708">Автоматизиране на дома</translation>
 <translation id="55293785478302737">Зашиване на ръба</translation>
 <translation id="553484882784876924">Prc6 (плик)</translation>
-<translation id="6477838366754392112">Бутон „Изчистване на данните за сърфирането“. Натиснете Enter, за да изчистите историята на сърфиране, „бисквитките“, кеша и др. в настройките на Brave</translation>
+<translation id="6477838366754392112">Бутон „Изчистване на данните за сърфирането“. Натиснете Enter, за да изчистите историята на сърфиране, „бисквитките“, кеша и др. в настройките на Presearch</translation>
 <translation id="5536214594743852365">Показване на секцията „<ph name="SECTION"/>“</translation>
 <translation id="5539243836947087108">Подложка</translation>
 <translation id="5540224163453853">Заявената статия не можа да бъде намерена.</translation>
@@ -1610,7 +1610,7 @@
 <translation id="5541086400771735334">Пощенска кутия 7</translation>
 <translation id="5541546772353173584">Добавяне на имейл адрес</translation>
 <translation id="5545756402275714221">Статии за вас</translation>
-<translation id="6084314943327785510">Brave периодично проверява паролите ви в списъци, които са били публикувани онлайн. Когато го прави, паролите и потребителските ви имена са шифровани, така че да не могат да бъдат прочетени от никого, включително от Brave.</translation>
+<translation id="6084314943327785510">Presearch периодично проверява паролите ви в списъци, които са били публикувани онлайн. Когато го прави, паролите и потребителските ви имена са шифровани, така че да не могат да бъдат прочетени от никого, включително от Presearch.</translation>
 <translation id="5556459405103347317">Повторно зареждане</translation>
 <translation id="5560088892362098740">Дата на изтичане</translation>
 <translation id="55635442646131152">Структура на документа</translation>
@@ -1630,7 +1630,7 @@
 <translation id="5607240918979444548">Architecture-C</translation>
 <translation id="5610142619324316209">Проверете връзката.</translation>
 <translation id="5610807607761827392">Можете да управлявате картите и адресите от <ph name="BEGIN_LINK"/>настройките<ph name="END_LINK"/>.</translation>
-<translation id="2012723355262040739">Преведете тази страница с Brave Преводач</translation>
+<translation id="2012723355262040739">Преведете тази страница с Presearch Преводач</translation>
 <translation id="5612720917913232150"><ph name="URL"/> иска да използва местоположението на компютъра ви</translation>
 <translation id="561669346091975195">Телевизионни научнофантастични и фентъзи предавания</translation>
 <translation id="5617949217645503996"><ph name="HOST_NAME"/> ви пренасочи твърде много пъти.</translation>
@@ -1668,9 +1668,9 @@
 <translation id="5720705177508910913">Текущият потребител</translation>
 <translation id="5723287205918986743">Отбранителна промишленост</translation>
 <translation id="5728056243719941842">C5 (плик)</translation>
-<translation id="3006790309890592320">Brave препоръчва да зададете повторно паролата си, ако сте я използвали и на други сайтове.</translation>
+<translation id="3006790309890592320">Presearch препоръчва да зададете повторно паролата си, ако сте я използвали и на други сайтове.</translation>
 <translation id="5736165827969430182">Металургия и минно дело</translation>
-<translation id="5576538372759072019">{NUM_CARDS,plural, =1{Запазване на картата в профила ви в Brave}other{Запазване на картите в профила ви в Brave}}</translation>
+<translation id="5576538372759072019">{NUM_CARDS,plural, =1{Запазване на картата в профила ви в Presearch}other{Запазване на картите в профила ви в Presearch}}</translation>
 <translation id="5743638595296120378">Покупка на превозно средство</translation>
 <translation id="5743898850056428078">Състезания с мотори</translation>
 <translation id="5745733273847572235">Може да поиска достъп до местоположението ви</translation>
@@ -1688,14 +1688,14 @@
 <translation id="5784606427469807560">При потвърждаването на картата ви възникна проблем. Проверете връзката си с интернет и опитайте отново.</translation>
 <translation id="5785756445106461925">Освен това тази страница включва други ресурси, които не са защитени. Докато се предават, те могат да бъдат видени от други хора и да бъдат модифицирани от извършител на атака, така че да се промени изгледът на страницата.</translation>
 <translation id="5786044859038896871">Искате ли да се попълнят данните за кредитната ви карта?</translation>
-<translation id="3985758120980526872">Brave разкри паролата, която току-що използвахте, при нарушение на сигурността на данните. Препоръчваме ви да я промените сега.</translation>
+<translation id="3985758120980526872">Presearch разкри паролата, която току-що използвахте, при нарушение на сигурността на данните. Препоръчваме ви да я промените сега.</translation>
 <translation id="5789643057113097023">.</translation>
 <translation id="5803412860119678065">Искате ли да се попълнят данните за <ph name="CARD_DETAIL"/>?</translation>
 <translation id="5804241973901381774">Разрешения</translation>
-<translation id="5937482014241669139">Преглед на историята ви в Brave</translation>
+<translation id="5937482014241669139">Преглед на историята ви в Presearch</translation>
 <translation id="5808542072418270309">Симулационни игри</translation>
 <translation id="5810442152076338065">Връзката ви с/ъс <ph name="DOMAIN"/> е шифрована с остарял криптографски пакет.</translation>
-<translation id="7295730649911402188">При откриване на събития, свързани със сигурността, от Brave данните за тях се изпращат до администратора ви. Те могат да включват URL адресите на посещаваните от вас страници в Brave, имената на файловете или метаданните, както и потребителското име, с което влизате в уеб базирани приложения, в профила си на устройството си и в браузъра.</translation>
+<translation id="7295730649911402188">При откриване на събития, свързани със сигурността, от Presearch данните за тях се изпращат до администратора ви. Те могат да включват URL адресите на посещаваните от вас страници в Presearch, имената на файловете или метаданните, както и потребителското име, с което влизате в уеб базирани приложения, в профила си на устройството си и в браузъра.</translation>
 <translation id="5813119285467412249">&amp;Възстановяване на добавянето</translation>
 <translation id="5813309815819933152">Телевизионни риалити шоута</translation>
 <translation id="5813753398265398978">Физика</translation>
@@ -1729,7 +1729,7 @@
 <translation id="5920262536204764679">{NUM_COOKIES,plural, =1{Използва се 1}other{Използват се #}}</translation>
 <translation id="592031860219554105">Фигурно пързаляне</translation>
 <translation id="5921185718311485855">Включено</translation>
-<translation id="2687595201721621314">Картата да се запази ли в профила в Brave?</translation>
+<translation id="2687595201721621314">Картата да се запази ли в профила в Presearch?</translation>
 <translation id="5922853866070715753">Почти готово</translation>
 <translation id="5928444777041341328">Дом и градина</translation>
 <translation id="5932224571077948991">На сайта се показват натрапчиви или подвеждащи реклами</translation>
@@ -1753,7 +1753,7 @@
 <translation id="598637245381783098">Приложението за плащане не може да се отвори</translation>
 <translation id="5989320800837274978">Не са посочени нито фиксирани прокси сървъри, нито URL адрес на скрипт във формат .pac.</translation>
 <translation id="5992691462791905444">Z-образно сгъване на A3 до размер A4</translation>
-<translation id="7409510288691071929">Управление на информацията ви и настройките за поверителност и сигурност в профила ви в Brave</translation>
+<translation id="7409510288691071929">Управление на информацията ви и настройките за поверителност и сигурност в профила ви в Presearch</translation>
 <translation id="6000758707621254961"><ph name="RESULT_COUNT"/> резултата за „<ph name="SEARCH_TEXT"/>“</translation>
 <translation id="6006484371116297560">Класическа тема</translation>
 <translation id="6008122969617370890">Подредба от N до 1</translation>
@@ -1784,7 +1784,7 @@
 <translation id="6051221802930200923">В момента не можете да посетите <ph name="SITE"/>, защото уебсайтът използва метод за допълнително потвърждаване на сертификатите. Обикновено грешките в мрежата и атаките срещу нея са временни, така че тази страница вероятно ще работи по-късно.</translation>
 <translation id="6051898664905071243">Брой страници:</translation>
 <translation id="6052284303005792909">•</translation>
-<translation id="8949595277192194257">Паролата, която току-що използвахте, е разкрита при нарушение на сигурността на данните. Мениджърът на паролите в Brave ви препоръчва да я промените сега.</translation>
+<translation id="8949595277192194257">Паролата, която току-що използвахте, е разкрита при нарушение на сигурността на данните. Мениджърът на паролите в Presearch ви препоръчва да я промените сега.</translation>
 <translation id="6055888660316801977">Лист за несъответстващи идентификационни данни за сигурни плащания</translation>
 <translation id="6058977677006700226">Искате ли да използвате картите си на всичките си устройства?</translation>
 <translation id="6059925163896151826">USB устройства</translation>
@@ -1800,10 +1800,10 @@
 <translation id="6105460996796456817">Създаване на сайт</translation>
 <translation id="6106989379647458772">Уеб страницата на адрес <ph name="PAGE"/> може временно да не е налице или да е била преместена на нов уеб адрес.</translation>
 <translation id="6107012941649240045">Издаден на</translation>
-<translation id="8233947174119245051">В профила ви в Brave може да има други видове история на сърфиране, съхранявани на адрес <ph name="BEGIN_LINK"/>myactivity.google.com<ph name="END_LINK"/></translation>
+<translation id="8233947174119245051">В профила ви в Presearch може да има други видове история на сърфиране, съхранявани на адрес <ph name="BEGIN_LINK"/>myactivity.google.com<ph name="END_LINK"/></translation>
 <translation id="6116338172782435947">Да преглежда текста и изображенията, копирани в буферната памет</translation>
 <translation id="6120179357481664955">Помните ли идентификационния си номер за UPI?</translation>
-<translation id="5972135347314259717">Конектори за Brave Enterprise</translation>
+<translation id="5972135347314259717">Конектори за Presearch Enterprise</translation>
 <translation id="6127379762771434464">Елементът бе премахнат</translation>
 <translation id="6146055958333702838">Проверете всички кабели и рестартирайте маршрутизаторите, модемите или другите мрежови
 устройства, които може да използвате.</translation>
@@ -1822,10 +1822,10 @@
 <translation id="6195371403461054755">Геология</translation>
 <translation id="6196640612572343990">Блокиране на „бисквитките“ на трети страни</translation>
 <translation id="6203231073485539293">Проверете връзката си с интернет</translation>
-<translation id="8385639954311581596">Адресът да се премахне ли от Brave?</translation>
+<translation id="8385639954311581596">Адресът да се премахне ли от Presearch?</translation>
 <translation id="622039917539443112">Паралелно сгъване</translation>
-<translation id="6221345481584921695">Brave Безопасно сърфиране наскоро <ph name="BEGIN_LINK"/>откри злонамерен софтуер<ph name="END_LINK"/> на <ph name="SITE"/>. Уебсайтовете, които обикновено са надеждни, понякога се заразяват с опасен софтуер. Въпросното съдържание произлиза от <ph name="SUBRESOURCE_HOST"/> – известен разпространител на злонамерени програми.</translation>
-<translation id="8997875939727100757"><ph name="MANAGE_CHROME_ACCESSIBILITY_FOCUSED_FRIENDLY_MATCH_TEXT"/>. Натиснете Tab и след това Enter, за да персонализирате инструментите за достъпност в настройките на Brave</translation>
+<translation id="6221345481584921695">Presearch Безопасно сърфиране наскоро <ph name="BEGIN_LINK"/>откри злонамерен софтуер<ph name="END_LINK"/> на <ph name="SITE"/>. Уебсайтовете, които обикновено са надеждни, понякога се заразяват с опасен софтуер. Въпросното съдържание произлиза от <ph name="SUBRESOURCE_HOST"/> – известен разпространител на злонамерени програми.</translation>
+<translation id="8997875939727100757"><ph name="MANAGE_CHROME_ACCESSIBILITY_FOCUSED_FRIENDLY_MATCH_TEXT"/>. Натиснете Tab и след това Enter, за да персонализирате инструментите за достъпност в настройките на Presearch</translation>
 <translation id="6229649258872345286">Семейни пътувания</translation>
 <translation id="6232271601416750929">Натурални козметични продукти</translation>
 <translation id="6233160458685643793">Ухилено лице</translation>
@@ -1834,27 +1834,27 @@
 <translation id="6240447795304464094">Лого на Google Pay</translation>
 <translation id="6241121617266208201">Скриване на предложенията</translation>
 <translation id="624499991300733384">Услуга за създаване на PDF файлове</translation>
-<translation id="3917320044622606497"><ph name="MANAGE_CHROME_DOWNLOADS_FOCUSED_FRIENDLY_MATCH_TEXT"/>. Натиснете Tab и след това – Enter, за да управлявате файловете, които сте изтеглили с Brave</translation>
+<translation id="3917320044622606497"><ph name="MANAGE_CHROME_DOWNLOADS_FOCUSED_FRIENDLY_MATCH_TEXT"/>. Натиснете Tab и след това – Enter, за да управлявате файловете, които сте изтеглили с Presearch</translation>
 <translation id="6254436959401408446">Няма достатъчно памет за отваряне на тази страница</translation>
 <translation id="6259156558325130047">&amp;Възстановяване на пренареждането</translation>
 <translation id="6263376278284652872">Отметки от <ph name="DOMAIN"/></translation>
 <translation id="6264485186158353794">Назад към безопасната страница</translation>
 <translation id="6265794661083428563">Копиране на стойността на правилото „<ph name="POLICY_NAME"/>“</translation>
 <translation id="6266934640124581640">светло синьо-зелено</translation>
-<translation id="1300170712564922349">Възобновете пътешествието си, за да прегледате съответната активност в историята си в Brave</translation>
-<translation id="9136010393039243713">Brave Актуализиране</translation>
+<translation id="1300170712564922349">Възобновете пътешествието си, за да прегледате съответната активност в историята си в Presearch</translation>
+<translation id="9136010393039243713">Presearch Актуализиране</translation>
 <translation id="6276112860590028508">Страниците от списъка ви за четене се показват тук</translation>
-<translation id="7954557091400543500">За да платите по-бързо следващия път, запазете картата и адреса си за фактуриране в профила си в Brave.</translation>
+<translation id="7954557091400543500">За да платите по-бързо следващия път, запазете картата и адреса си за фактуриране в профила си в Presearch.</translation>
 <translation id="6279183038361895380">Натиснете |<ph name="ACCELERATOR"/>|, за да се покаже курсорът</translation>
 <translation id="6280223929691119688">Този адрес за бърза доставка не се поддържа. Изберете друг.</translation>
 <translation id="6282194474023008486">Пощенски код</translation>
-<translation id="9069724554626063339">Бутон „Управление на изтеглянията с Brave“. Натиснете Enter, за да управлявате файловете, които сте изтеглили с Brave</translation>
+<translation id="9069724554626063339">Бутон „Управление на изтеглянията с Presearch“. Натиснете Enter, за да управлявате файловете, които сте изтеглили с Presearch</translation>
 <translation id="6289939620939689042">Цвят на страницата</translation>
 <translation id="6290238015253830360">Предложените ви статии ще се показват тук</translation>
 <translation id="6293309776179964942">JIS B5</translation>
 <translation id="6295618774959045776">Код за сигурност:</translation>
 <translation id="6300452962057769623">{0,plural, =0{Устройството ви ще се рестартира сега}=1{Устройството ви ще се рестартира след 1 секунда}other{Устройството ви ще се рестартира след # секунди}}</translation>
-<translation id="5880900081429361525">Brave Асистент в Brave се спира</translation>
+<translation id="5880900081429361525">Presearch Асистент в Presearch се спира</translation>
 <translation id="6305205051461490394">Няма достъп до <ph name="URL"/>.</translation>
 <translation id="6312113039770857350">Уеб страницата не е налице</translation>
 <translation id="6316226860534107313">Скутери и мотопеди</translation>
@@ -1862,7 +1862,7 @@
 <translation id="6319249456820053699">Фотоапарати и видеокамери</translation>
 <translation id="6321917430147971392">Проверете настройките си за DNS</translation>
 <translation id="6322182122604171028">Windows Hello не можа да се използва</translation>
-<translation id="7962450223988560278">Задаване на Brave като браузъра по подразбиране за системата в настройките на iOS</translation>
+<translation id="7962450223988560278">Задаване на Presearch като браузъра по подразбиране за системата в настройките на iOS</translation>
 <translation id="6328639280570009161">Опитайте да деактивирате предвижданията за мрежата</translation>
 <translation id="6328784461820205019">„Връзката ви не е частна“, „&lt;span class="error-code"&gt;NET::ERR_CERT_AUTHORITY_INVALID&lt;/span&gt;“, „&lt;span class="error-code"&gt;ERR_CERT_COMMON_NAME_INVALID&lt;/span&gt;“, „&lt;span class="error-code"&gt;NET::ERR_CERT_WEAK_SIGNATURE_ALGORITHM&lt;/span&gt;“, „&lt;span class="error-code"&gt;ERR_CERT_SYMANTEC_LEGACY&lt;/span&gt;“ или „Грешка при SSL сертификатите“</translation>
 <translation id="6328786501058569169">Този сайт е измамен</translation>
@@ -1895,7 +1895,7 @@
 <translation id="6425092077175753609">Material</translation>
 <translation id="6427730057873428458">Сгъване на двата края навътре</translation>
 <translation id="6428450836711225518">Потвърдете телефонния си номер</translation>
-<translation id="7772223497488184427">Промяна на паролата за Brave</translation>
+<translation id="7772223497488184427">Промяна на паролата за Presearch</translation>
 <translation id="6433490469411711332">Редактиране на информацията за връзка</translation>
 <translation id="6433595998831338502"><ph name="HOST_NAME"/> отказа да установи връзка.</translation>
 <translation id="6438025220577812695">Аз ще я променя</translation>
@@ -1923,7 +1923,7 @@
 <translation id="6502626736864595182">Доставчици на форуми и чат услуги</translation>
 <translation id="6502991525169604759">Без промените ви</translation>
 <translation id="6506959208958864820">Плик</translation>
-<translation id="3960299545138990065">Рестартирайте Brave.</translation>
+<translation id="3960299545138990065">Рестартирайте Presearch.</translation>
 <translation id="6513005815064132016">Може да поиска разрешение да следи позицията на камерата ви</translation>
 <translation id="6517596291481585650">Предупреждение: Това правило не бе обединено като списък според посоченото в правилото, тъй като не е списък.</translation>
 <translation id="6518133107902771759">Потвърждаване</translation>
@@ -1945,11 +1945,11 @@
 <translation id="6579630537141957243">Да се свърже ли MIDI устройство?</translation>
 <translation id="6579990219486187401">светлорозово</translation>
 <translation id="6583674473685352014">B6 (плик)</translation>
-<translation id="7784744142989128075">История в Brave</translation>
-<translation id="5302585261530504168">Brave разкри паролата, която току-що използвахте, при нарушение на сигурността на данните. За да защитите профилите си, ви препоръчваме да я промените сега и след това да проверите запазените си пароли.</translation>
+<translation id="7784744142989128075">История в Presearch</translation>
+<translation id="5302585261530504168">Presearch разкри паролата, която току-що използвахте, при нарушение на сигурността на данните. За да защитите профилите си, ви препоръчваме да я промените сега и след това да проверите запазените си пароли.</translation>
 <translation id="6587923378399804057">Копирана от вас връзка</translation>
 <translation id="6591833882275308647">Устройството ви <ph name="DEVICE_TYPE"/> не е управлявано</translation>
-<translation id="7150996650768688560">Бутон „Управление на настройките за сайтовете“. Натиснете Enter, за да управлявате разрешенията и съхраняваните данни от сайтовете от настройките на Brave</translation>
+<translation id="7150996650768688560">Бутон „Управление на настройките за сайтовете“. Натиснете Enter, за да управлявате разрешенията и съхраняваните данни от сайтовете от настройките на Presearch</translation>
 <translation id="6596325263575161958">Опции за шифроване</translation>
 <translation id="6609880536175561541">Prc7 (плик)</translation>
 <translation id="6611723696964473273">Икономически новини</translation>
@@ -1964,8 +1964,8 @@
 <translation id="663260587451432563">JIS B4</translation>
 <translation id="6643016212128521049">Изчистване</translation>
 <translation id="6645291930348198241">Осъществява достъп до „бисквитки“ и данни за сайтове.</translation>
-<translation id="1375868315964791309">{COUNT,plural, =0{Няма}=1{От 1 сайт (няма да излезете от профила си в Brave)}other{От # сайта (няма да излезете от профила си в Brave)}}</translation>
-<translation id="6678472970290886941">Администраторът ви може отдалечено да променя настройките на браузъра. Възможно е активността на това устройство да се управлява и извън Brave.</translation>
+<translation id="1375868315964791309">{COUNT,plural, =0{Няма}=1{От 1 сайт (няма да излезете от профила си в Presearch)}other{От # сайта (няма да излезете от профила си в Presearch)}}</translation>
+<translation id="6678472970290886941">Администраторът ви може отдалечено да променя настройките на браузъра. Възможно е активността на това устройство да се управлява и извън Presearch.</translation>
 <translation id="6648524591329069940">Серифен шрифт</translation>
 <translation id="6651270836885078973">Управлява се от:</translation>
 <translation id="6652101503459149953">Използване на Windows Hello</translation>
@@ -1982,8 +1982,8 @@
 <translation id="6688743156324860098">Актуализира се…</translation>
 <translation id="6688775486821967877">В момента няма достъп до виртуалната карта. Опитайте отново по-късно</translation>
 <translation id="6689249931105087298">Относително с компенсиране на черните точки</translation>
-<translation id="5406652219015697259">Brave предлага да запази картите ви в профила ви в Brave, защото сте влезли в него. Можете да промените това поведение от настройките. Името на картодържателя е от профила ви.</translation>
-<translation id="6522914004575214087"><ph name="FIND_MY_PHONE_FOCUSED_FRIENDLY_MATCH_TEXT"/>. Натиснете Tab и след това Enter, за да преминете към „Намиране на устройството ми“ в профила ви Brave</translation>
+<translation id="5406652219015697259">Presearch предлага да запази картите ви в профила ви в Presearch, защото сте влезли в него. Можете да промените това поведение от настройките. Името на картодържателя е от профила ви.</translation>
+<translation id="6522914004575214087"><ph name="FIND_MY_PHONE_FOCUSED_FRIENDLY_MATCH_TEXT"/>. Натиснете Tab и след това Enter, за да преминете към „Намиране на устройството ми“ в профила ви Presearch</translation>
 <translation id="6696588630955820014">Бутон „Споделяне на този раздел“. Натиснете Enter, за да споделите този раздел чрез изпращане на връзката, създаване на QR код, предаване и др.</translation>
 <translation id="6698381487523150993">Създадено:</translation>
 <translation id="6702919718839027939">Представяне</translation>
@@ -2026,7 +2026,7 @@
 <translation id="6826993739343257035">Да се разреши ли AR?</translation>
 <translation id="6828866289116430505">Генетика</translation>
 <translation id="6831043979455480757">Превод</translation>
-<translation id="2427219270600431645">Запазете картата и данните си за таксуване в профила си в Brave, за да плащате по-бързо и сигурно</translation>
+<translation id="2427219270600431645">Запазете картата и данните си за таксуване в профила си в Presearch, за да плащате по-бързо и сигурно</translation>
 <translation id="6839929833149231406">Район</translation>
 <translation id="6846340164947227603">Използване на номер на виртуална карта...</translation>
 <translation id="6852204201400771460">Искате ли да презаредите приложението?</translation>
@@ -2035,11 +2035,11 @@
 <translation id="6869334554832814367">Потребителски заеми</translation>
 <translation id="6873456682041376666">Горна тава</translation>
 <translation id="6874604403660855544">&amp;Възстановяване на добавянето</translation>
-<translation id="5856252669085142737">Бързо създаване на нов документ в Brave Документи</translation>
+<translation id="5856252669085142737">Бързо създаване на нов документ в Presearch Документи</translation>
 <translation id="6883221904761970440">Листът за удостоверяване на идентификационни данни за сигурни плащания е затворен</translation>
 <translation id="6884662655240309489">Размер 1</translation>
 <translation id="6886577214605505410"><ph name="LOCATION_TITLE"/> <ph name="SHORT_URL"/></translation>
-<translation id="7265969755975834932">Brave опрости тази страница, за да улесни четенето ѝ. Оригиналната страница бе извлечена през незащитена връзка.</translation>
+<translation id="7265969755975834932">Presearch опрости тази страница, за да улесни четенето ѝ. Оригиналната страница бе извлечена през незащитена връзка.</translation>
 <translation id="6890443033788248019">Да се разреши ли достъпът до местоположението?</translation>
 <translation id="6891596781022320156">Нивото на правилото не се поддържа.</translation>
 <translation id="6895143722905299846">Виртуален номер:</translation>
@@ -2054,7 +2054,7 @@
 <translation id="6915804003454593391">Потребител:</translation>
 <translation id="6916954549222464607">Финансово планиране и управление</translation>
 <translation id="6917795328362592458">Паролата, която току-що използвахте, е разкрита при нарушение на сигурността на данните. За да защитите профилите си, мениджърът на паролите ви препоръчва да проверите запазените си пароли.</translation>
-<translation id="6722453239914327220">Това име е от профила ви в Brave</translation>
+<translation id="6722453239914327220">Това име е от профила ви в Presearch</translation>
 <translation id="6939469646605424232">Телевизионни драми</translation>
 <translation id="6944692733090228304">Въведохте паролата си на сайт, който не се управлява от <ph name="BEGIN_BOLD"/><ph name="ORG_NAME"/><ph name="END_BOLD"/>. За да защитите профила си, не използвайте паролата си повторно в други приложения и сайтове.</translation>
 <translation id="6945221475159498467">Избиране</translation>
@@ -2066,7 +2066,7 @@
 <translation id="695140971690006676">Повторно задаване на всичко</translation>
 <translation id="6954049078461159956">Хокей</translation>
 <translation id="6957887021205513506">Изглежда, че сертификатът на сървъра е подправен.</translation>
-<translation id="774679539085757206">Управление на настройките за поверителност в Brave в профила ви в Brave</translation>
+<translation id="774679539085757206">Управление на настройките за поверителност в Presearch в профила ви в Presearch</translation>
 <translation id="695864015080711809">Работни места и образование</translation>
 <translation id="6961733224437895943">Жилищно застраховане</translation>
 <translation id="6961844873822989059">Може да поиска разрешение да използва шрифтовете, инсталирани на устройството ви</translation>
@@ -2079,12 +2079,12 @@
 <translation id="696703987787944103">Естествено</translation>
 <translation id="6968269510885595029">Използване на ключа ви за сигурност</translation>
 <translation id="6970216967273061347">Окръг</translation>
-<translation id="8485851762575764192">Бързо създаване на презентация в Brave Презентации</translation>
+<translation id="8485851762575764192">Бързо създаване на презентация в Presearch Презентации</translation>
 <translation id="6972629891077993081">HID устройства</translation>
 <translation id="6973656660372572881">Посочени са както фиксирани прокси сървъри, така и URL адрес на скрипт във формат .pac.</translation>
 <translation id="6973932557599545801">За съжаление, не мога да помогна. Моля, продължете ръчно.</translation>
 <translation id="6978236010531171013">Споделяне въпреки това</translation>
-<translation id="6979158407327259162">Brave Диск</translation>
+<translation id="6979158407327259162">Presearch Диск</translation>
 <translation id="6979440798594660689">Заглушаване (стандартно)</translation>
 <translation id="6979983982287291980">Изтеглените от вас файлове се изпращат до Google Cloud или до трети страни за анализ. Възможно е например да бъдат сканирани за чувствителни данни или злонамерен софтуер.</translation>
 <translation id="6989763994942163495">Показване на разширените настройки...</translation>
@@ -2100,14 +2100,14 @@
 <translation id="7029809446516969842">Пароли</translation>
 <translation id="7030436163253143341">Сертификатът не е валиден</translation>
 <translation id="7031646650991750659">Кои приложения от Google Play сте инсталирали</translation>
-<translation id="8918349693525256593"><ph name="MANAGE_GOOGLE_PRIVACY_FOCUSED_FRIENDLY_MATCH_TEXT"/>. Натиснете Tab и след това Enter, за да управлявате настройките за поверителност за профила си в Brave</translation>
+<translation id="8918349693525256593"><ph name="MANAGE_GOOGLE_PRIVACY_FOCUSED_FRIENDLY_MATCH_TEXT"/>. Натиснете Tab и след това Enter, за да управлявате настройките за поверителност за профила си в Presearch</translation>
 <translation id="7050187094878475250">Опитахте да се свържете с/ъс <ph name="DOMAIN"/>, но сървърът предостави сертификат, чийто период на валидност е твърде дълъг, за да е надежден.</translation>
 <translation id="705310974202322020">{NUM_CARDS,plural, =1{Тази карта не може да бъде запазена в момента}other{Тези карти не могат да бъдат запазени в момента}}</translation>
 <translation id="7053983685419859001">Блокиране</translation>
 <translation id="7058163556978339998"><ph name="BROWSER"/> потвърди, че сертификатът на този уебсайт е издаден от <ph name="ISSUER"/>.</translation>
 <translation id="7061777300866737982">Сигурност и охрана на дома</translation>
 <translation id="7062635574500127092">синьо-зелено</translation>
-<translation id="5320462991730735481">Добавяне на адреси и управлението им от настройките на Brave</translation>
+<translation id="5320462991730735481">Добавяне на адреси и управлението им от настройките на Presearch</translation>
 <translation id="7064851114919012435">Информация за връзка</translation>
 <translation id="7067633076996245366">Соул и R&amp;B</translation>
 <translation id="7068733155164172741">Въведете <ph name="OTP_LENGTH"/>-цифрения код</translation>
@@ -2118,11 +2118,11 @@
 <translation id="7083258188081898530">Тава 9</translation>
 <translation id="7086090958708083563">Качване, заявено от потребител</translation>
 <translation id="7087282848513945231">Област</translation>
-<translation id="1313878436434241688"><ph name="MANAGE_SITE_SETTINGS_FOCUSED_FRIENDLY_MATCH_TEXT"/>. Натиснете Tab и след това Enter, за да управлявате разрешенията и съхраняваните данни от сайтовете от настройките на Brave</translation>
+<translation id="1313878436434241688"><ph name="MANAGE_SITE_SETTINGS_FOCUSED_FRIENDLY_MATCH_TEXT"/>. Натиснете Tab и след това Enter, за да управлявате разрешенията и съхраняваните данни от сайтовете от настройките на Presearch</translation>
 <translation id="7096937462164235847">Идентичността на този уебсайт е потвърдена.</translation>
 <translation id="7101893872976785596">Филми на ужасите</translation>
 <translation id="7102079138917191645">Строителство и поддръжка</translation>
-<translation id="6793825086874189463">Стартиране на играта с динозавъра в Brave</translation>
+<translation id="6793825086874189463">Стартиране на играта с динозавъра в Presearch</translation>
 <translation id="7108338896283013870">Скриване</translation>
 <translation id="7108634116785509031"><ph name="HOST"/> иска да използва камерата ви</translation>
 <translation id="7108819624672055576">Разрешено от разширение</translation>
@@ -2176,12 +2176,12 @@
 <translation id="7260504762447901703">Отмяна на достъпа</translation>
 <translation id="7275334191706090484">Управлявани отметки</translation>
 <translation id="7277998515889183784">Грим и козметика</translation>
-<translation id="2837210582972105306"><ph name="CHANGE_GOOGLE_PASSWORD_FOCUSED_FRIENDLY_MATCH_TEXT"/>. Натиснете Tab и след това Enter, за да промените паролата за профила си в Brave</translation>
+<translation id="2837210582972105306"><ph name="CHANGE_GOOGLE_PASSWORD_FOCUSED_FRIENDLY_MATCH_TEXT"/>. Натиснете Tab и след това Enter, за да промените паролата за профила си в Presearch</translation>
 <translation id="7292031607255951991">Име на получателя</translation>
 <translation id="7298195798382681320">Препоръчително</translation>
 <translation id="7300012071106347854">кобалтовосиньо</translation>
 <translation id="7304030187361489308">Висока</translation>
-<translation id="244157907932852817">Управление на настройките за поверителност за профила в Brave</translation>
+<translation id="244157907932852817">Управление на настройките за поверителност за профила в Presearch</translation>
 <translation id="7305756307268530424">Стартиране с по-бавна скорост</translation>
 <translation id="7308436126008021607">синхронизиране на заден план</translation>
 <translation id="7310392214323165548">Устройството ще се рестартира много скоро</translation>
@@ -2204,13 +2204,13 @@
 <translation id="7353601530677266744">Команден ред</translation>
 <translation id="7354880545102894991">Нискобюджетни пътувания и пътувания в последния момент</translation>
 <translation id="7359588939039777303">Рекламите са блокирани.</translation>
-<translation id="7308957539693927108">Когато Brave намери отстъпки, те ще се показват при плащането</translation>
-<translation id="5417725730200908216"><ph name="MANAGE_ADDRESSES_FOCUSED_FRIENDLY_MATCH_TEXT"/>. Натиснете Tab и след това Enter, за да добавяте адреси и да ги управлявате от настройките на Brave</translation>
+<translation id="7308957539693927108">Когато Presearch намери отстъпки, те ще се показват при плащането</translation>
+<translation id="5417725730200908216"><ph name="MANAGE_ADDRESSES_FOCUSED_FRIENDLY_MATCH_TEXT"/>. Натиснете Tab и след това Enter, за да добавяте адреси и да ги управлявате от настройките на Presearch</translation>
 <translation id="7365849542400970216">Да се разреши ли достъп до данните за използването на устройството ви?</translation>
 <translation id="7366362069757178916">Приложения за обработване на плащания</translation>
 <translation id="7372973238305370288">резултат от търсенето</translation>
 <translation id="7374461526650987610">Манипулатори на протоколи</translation>
-<translation id="3898257577441589237">Причината за този проблем е сертификат, инсталиран на устройството ви от вас или от друг потребител. Сертификатът е известен с това, че се използва за наблюдение и прехващане на мрежи и Brave му няма доверие. Въпреки че съществуват някои легитимни случаи за наблюдение, като например училищна или фирмена мрежа, Brave иска да се увери, че знаете, че това се случва, дори ако не можете да го спрете. Наблюдението може да става във всеки браузър или приложение, които осъществяват достъп до мрежата.</translation>
+<translation id="3898257577441589237">Причината за този проблем е сертификат, инсталиран на устройството ви от вас или от друг потребител. Сертификатът е известен с това, че се използва за наблюдение и прехващане на мрежи и Presearch му няма доверие. Въпреки че съществуват някои легитимни случаи за наблюдение, като например училищна или фирмена мрежа, Presearch иска да се увери, че знаете, че това се случва, дори ако не можете да го спрете. Наблюдението може да става във всеки браузър или приложение, които осъществяват достъп до мрежата.</translation>
 <translation id="7375818412732305729">Прикачване на файл</translation>
 <translation id="7377249249140280793"><ph name="RELATIVE_DATE"/> - <ph name="FULL_DATE"/></translation>
 <translation id="7378594059915113390">Контроли за мултимедия</translation>
@@ -2234,7 +2234,7 @@
 &lt;li&gt;За &lt;strong&gt;Startup type&lt;/strong&gt; изберете &lt;strong&gt;Disabled&lt;/strong&gt;.
 &lt;li&gt;Под &lt;strong&gt;Service status&lt;/strong&gt; кликнете върху &lt;strong&gt;Stop&lt;/strong&gt;.
 &lt;li&gt;Кликнете върху &lt;strong&gt;Приложи&lt;/strong&gt; и след това – върху &lt;strong&gt;OK&lt;/strong&gt;.
-&lt;li&gt;Посетете &lt;a href="https://support.google.com/chrome/answer/6098869"&gt;Помощния център на Brave&lt;/a&gt;, за да научите как да премахнете за постоянно софтуера от компютъра си.
+&lt;li&gt;Посетете &lt;a href="https://support.google.com/chrome/answer/6098869"&gt;Помощния център на Presearch&lt;/a&gt;, за да научите как да премахнете за постоянно софтуера от компютъра си.
 &lt;/ol&gt;</translation>
 <translation id="741007362987735528">Wide-Format</translation>
 <translation id="7410471291937727359">Очарователно</translation>
@@ -2242,7 +2242,7 @@
 <translation id="7418620734632363981">Програмиране</translation>
 <translation id="7419106976560586862">Път на потребителския профил</translation>
 <translation id="7421067045979951561">манипулатори на протоколи</translation>
-<translation id="1451399671339759400">Бутон „Преглед на историята ви в Brave“. Натиснете Enter, за да прегледате и управлявате историята си на сърфиране в настройките на Brave</translation>
+<translation id="1451399671339759400">Бутон „Преглед на историята ви в Presearch“. Натиснете Enter, за да прегледате и управлявате историята си на сърфиране в настройките на Presearch</translation>
 <translation id="7427366580982928791">Безопасност на децата в интернет</translation>
 <translation id="7437289804838430631">Добавяне на информация за връзка</translation>
 <translation id="7437490109271760224">Игри с карти</translation>
@@ -2262,9 +2262,9 @@
 <translation id="748745328507845862">Концерти и музикални фестивали</translation>
 <translation id="7489473601138133813">Ресурси и планиране на кариерата</translation>
 <translation id="7495528107193238112">Това съдържание е блокирано. Свържете се със собственика на сайта, за да отстрани проблема.</translation>
-<translation id="7812541223399526596">Бутон за създаване на документ. Натиснете Enter, за да създадете бързо документ в Brave Документи</translation>
+<translation id="7812541223399526596">Бутон за създаване на документ. Натиснете Enter, за да създадете бързо документ в Presearch Документи</translation>
 <translation id="7501853161948120656">Образователни ресурси</translation>
-<translation id="2957285558977211818">Brave <ph name="BEGIN_EMPHASIS"/>няма да съхранява<ph name="END_EMPHASIS"/> следната информация:
+<translation id="2957285558977211818">Presearch <ph name="BEGIN_EMPHASIS"/>няма да съхранява<ph name="END_EMPHASIS"/> следната информация:
 <ph name="BEGIN_LIST"/>
 <ph name="LIST_ITEM"/>историята на сърфирането ви;
 <ph name="LIST_ITEM"/>„бисквитките“ и данните за сайтовете;
@@ -2290,7 +2290,7 @@
 <translation id="7542995811387359312">Автоматичното попълване на кредитната карта е деактивирано, защото този формуляр не използва защитена връзка.</translation>
 <translation id="7548892272833184391">Отстраняване на грешки във връзката</translation>
 <translation id="7549584377607005141">За да се покаже правилно тази уеб страница, са необходими по-рано въведените от вас данни. Можете да ги изпратите отново, но така ще повторите всяко изпълнено от нея действие.</translation>
-<translation id="5474381306981932386">Потребителското име на устройството ви и в Brave</translation>
+<translation id="5474381306981932386">Потребителското име на устройството ви и в Presearch</translation>
 <translation id="7551484245293639699">Застраховка при пътуване</translation>
 <translation id="755279583747225797">Експериментът е активен</translation>
 <translation id="7552846755917812628">Изпробвайте следните съвети:</translation>
@@ -2305,10 +2305,10 @@
 <translation id="7569983096843329377">черно</translation>
 <translation id="7575207903026901870">Бутон за премахване на предложенията. Натиснете Enter, за да премахнете това предложение.</translation>
 <translation id="7577900504646297215">Управление на интересите</translation>
-<translation id="405970181812690156">Извършвайте бързи плащания в сайтове и приложения от всякакви устройства посредством картите, които сте запазили в Brave.</translation>
+<translation id="405970181812690156">Извършвайте бързи плащания в сайтове и приложения от всякакви устройства посредством картите, които сте запазили в Presearch.</translation>
 <translation id="7579442726219254162">Неизвестна променлива <ph name="VARIABLE"/> в управляваната конфигурация в(ъв) <ph name="APPLICATION_ID"/>.</translation>
 <translation id="7581199239021537589">Изместване на изображението от страна 2 по оста Y</translation>
-<translation id="4790068920551988473">Бързо създаване на събитие в Brave Календар</translation>
+<translation id="4790068920551988473">Бързо създаване на събитие в Presearch Календар</translation>
 <translation id="7583969447617676942">Юридически и правни услуги</translation>
 <translation id="7591288787774558753">Да се сподели ли поверително съдържание?</translation>
 <translation id="7591636454931265313"><ph name="EMBEDDED_URL"/> иска да използва „бисквитки“ и данни за сайтове на <ph name="TOP_LEVEL_URL"/></translation>
@@ -2318,14 +2318,14 @@
 <translation id="7600965453749440009">Никога да не се превежда от <ph name="LANGUAGE"/></translation>
 <translation id="7610193165460212391">Стойността е извън обхват <ph name="VALUE"/>.</translation>
 <translation id="7613889955535752492">Валидна до: <ph name="EXPIRATION_MONTH"/>/<ph name="EXPIRATION_YEAR"/></translation>
-<translation id="5704205738724476508"><ph name="MANAGE_PASSWORDS_FOCUSED_FRIENDLY_MATCH_TEXT"/>. Натиснете Tab и след това – Enter, за да прегледате и управлявате паролите си в настройките на Brave</translation>
-<translation id="8565825862287624454">Администраторът ви е включил Brave Enterprise Connectors в браузъра ви. Тези конектори имат достъп до някои от данните ви.</translation>
+<translation id="5704205738724476508"><ph name="MANAGE_PASSWORDS_FOCUSED_FRIENDLY_MATCH_TEXT"/>. Натиснете Tab и след това – Enter, за да прегледате и управлявате паролите си в настройките на Presearch</translation>
+<translation id="8565825862287624454">Администраторът ви е включил Presearch Enterprise Connectors в браузъра ви. Тези конектори имат достъп до някои от данните ви.</translation>
 <translation id="7619838219691048931">Последен лист</translation>
 <translation id="7625242817712715120">Според администраторско правило не се препоръчва отпечатването на това съдържание</translation>
 <translation id="762844065391966283">Един по един</translation>
 <translation id="7631444403134069754">Лека атлетика</translation>
 <translation id="7633909222644580952">Данни за ефективността и сигнали за сривове</translation>
-<translation id="6386821459680628976">Кредитната карта да се премахне ли от Brave?</translation>
+<translation id="6386821459680628976">Кредитната карта да се премахне ли от Presearch?</translation>
 <translation id="7637586430889951925">{COUNT,plural, =0{Няма}=1{1 парола в профила ви (за <ph name="DOMAIN_LIST"/>)}other{# пароли в профила ви (за <ph name="DOMAIN_LIST"/>)}}</translation>
 <translation id="7638605456503525968">Серийни портове</translation>
 <translation id="7639968568612851608">тъмносиво</translation>
@@ -2344,7 +2344,7 @@
 <translation id="7669907849388166732">{COUNT,plural, =1{Действията с данни, означени като поверителни (1 действие след влизането в профила). <ph name="BEGIN_LINK"/>Научете повече<ph name="END_LINK"/>}other{Действията с данни, означени като поверителни (# действия след влизането в профила). <ph name="BEGIN_LINK"/>Научете повече<ph name="END_LINK"/>}}</translation>
 <translation id="7673278391011283842">Пощенска кутия 6</translation>
 <translation id="7676643023259824263">Търсене на текста от буферната памет, <ph name="TEXT"/></translation>
-<translation id="4628681623692678085">Преглед и управление на историята ви на сърфиране в настройките на Brave</translation>
+<translation id="4628681623692678085">Преглед и управление на историята ви на сърфиране в настройките на Presearch</translation>
 <translation id="7679947978757153706">Бейзбол</translation>
 <translation id="7681273392938116652">Фентъзи спортове</translation>
 <translation id="7682287625158474539">Адрес за доставка</translation>
@@ -2366,12 +2366,12 @@
 <translation id="7716375162095500223">Още не е качено или пренебрегнато</translation>
 <translation id="7716424297397655342">Този сайт не може да се зареди от кеш паметта</translation>
 <translation id="7723047071702270851">Редактиране на картата</translation>
-<translation id="1296098648902562076">Бързо създаване на формуляр в Brave Формуляри</translation>
+<translation id="1296098648902562076">Бързо създаване на формуляр в Presearch Формуляри</translation>
 <translation id="773466115871691567">Страниците на <ph name="SOURCE_LANGUAGE"/> да се превеждат винаги</translation>
 <translation id="7740996059027112821">Стандартна</translation>
 <translation id="77424286611022110">На този сайт се показват натрапчиви или подвеждащи реклами. <ph name="LEARN_MORE_LINK_TEXT"/></translation>
 <translation id="774634243536837715">Блокирахме опасно съдържание.</translation>
-<translation id="921286857694606205">Персонализиране на шрифтовете в Brave и размера им</translation>
+<translation id="921286857694606205">Персонализиране на шрифтовете в Presearch и размера им</translation>
 <translation id="7752995774971033316">Не се управлява</translation>
 <translation id="7755624218968747854">Основна ролка</translation>
 <translation id="7757555340166475417">Dai-Pa-Kai</translation>
@@ -2396,7 +2396,7 @@
 <translation id="7805571567667010077">Управлява се от организацията ви</translation>
 <translation id="7805768142964895445">Състояние</translation>
 <translation id="7812922009395017822">Mir</translation>
-<translation id="4670564340385807132">Предложението за формуляри да се премахне ли от Brave?</translation>
+<translation id="4670564340385807132">Предложението за формуляри да се премахне ли от Presearch?</translation>
 <translation id="781440967107097262">Да се сподели ли буферната памет?</translation>
 <translation id="7815407501681723534"><ph name="NUMBER_OF_RESULTS"/> <ph name="SEARCH_RESULTS"/> за „<ph name="SEARCH_STRING"/>“</translation>
 <translation id="7822320754433038727">Лов и стрелба</translation>
@@ -2406,7 +2406,7 @@
 <translation id="7855695075675558090"><ph name="TOTAL_LABEL"/> <ph name="FORMATTED_TOTAL_AMOUNT"/> <ph name="CURRENCY_CODE"/></translation>
 <translation id="7862185352068345852">Искате ли да напуснете сайта?</translation>
 <translation id="7865448901209910068">Най-добра скорост</translation>
-<translation id="7971990257511863579">Промяна на паролата за профила ви в Brave</translation>
+<translation id="7971990257511863579">Промяна на паролата за профила ви в Presearch</translation>
 <translation id="7877007680666472091">идентификатори на защитено съдържание</translation>
 <translation id="7878562273885520351">Възможно е паролата ви да е компрометирана</translation>
 <translation id="7880146494886811634">Запазване на адрес</translation>
@@ -2421,7 +2421,7 @@
 <translation id="793209273132572360">Да се актуализира ли адресът?</translation>
 <translation id="7932579305932748336">Покритие</translation>
 <translation id="79338296614623784">Въведете валиден телефонен номер</translation>
-<translation id="8329449853370113380"><ph name="URL"/> иска да възпроизвежда защитено съдържание. Идентичността на устройството ви ще бъде удостоверена от Brave.</translation>
+<translation id="8329449853370113380"><ph name="URL"/> иска да възпроизвежда защитено съдържание. Идентичността на устройството ви ще бъде удостоверена от Presearch.</translation>
 <translation id="7935318582918952113">DOM Distiller</translation>
 <translation id="7937554595067888181">Изтича на <ph name="EXPIRATION_DATE_ABBR"/></translation>
 <translation id="7938958445268990899">Сертификатът на сървъра още не е валиден.</translation>
@@ -2430,8 +2430,8 @@
 <translation id="7942349550061667556">червено</translation>
 <translation id="7943893128817522649">Може да поиска разрешение да изтегли автоматично няколко файла</translation>
 <translation id="7947285636476623132">Проверете годината на валидност и опитайте отново</translation>
-<translation id="3227327027957060968"><ph name="SEE_CHROME_TIPS_FOCUSED_FRIENDLY_MATCH_TEXT"/>. Натиснете Tab и след това Enter, за да научите повече за функциите на Brave</translation>
-<translation id="1535074845255182168">Управление на предпочитанията ви за „бисквитките“ от настройките на Brave</translation>
+<translation id="3227327027957060968"><ph name="SEE_CHROME_TIPS_FOCUSED_FRIENDLY_MATCH_TEXT"/>. Натиснете Tab и след това Enter, за да научите повече за функциите на Presearch</translation>
+<translation id="1535074845255182168">Управление на предпочитанията ви за „бисквитките“ от настройките на Presearch</translation>
 <translation id="7951415247503192394">(32 бита)</translation>
 <translation id="7953569069500808819">Зашиване на горния ръб</translation>
 <translation id="7956713633345437162">Мобилни отметки</translation>
@@ -2447,7 +2447,7 @@
 <translation id="7981260203882740562">Свързана с(ъс)</translation>
 <translation id="798134797138789862">Може да поиска разрешение да използва устройства и данни за виртуална реалност</translation>
 <translation id="7983008347525536475">Автомобили с висока проходимост</translation>
-<translation id="8896585555528145662">В момента не можете да посетите <ph name="SITE"/>, защото уебсайтът изпрати кодирани идентификационни данни, които Brave не може да обработи. Обикновено грешките в мрежата и атаките срещу нея са временни, така че тази страница вероятно ще работи по-късно.</translation>
+<translation id="8896585555528145662">В момента не можете да посетите <ph name="SITE"/>, защото уебсайтът изпрати кодирани идентификационни данни, които Presearch не може да обработи. Обикновено грешките в мрежата и атаките срещу нея са временни, така че тази страница вероятно ще работи по-късно.</translation>
 <translation id="7986319120639858961"><ph name="CARD_TITLE"/> <ph name="TIME"/> <ph name="BOOKMARKED"/> <ph name="TITLE"/> <ph name="DOMAIN"/></translation>
 <translation id="799149739215780103">Подвързване</translation>
 <translation id="7992044431894087211">Споделянето на екрана с(ъс) <ph name="APPLICATION_TITLE"/> бе възобновено</translation>
@@ -2460,7 +2460,7 @@
 <translation id="8025119109950072390">Извършителите на атаки, използващи този сайт, може да ви подведат да направите нещо опасно, като например да инсталирате софтуер или да разкриете лична информация (например пароли, телефонни номера или номера на кредитни карти).</translation>
 <translation id="8026334261755873520">Изчистване на данните за сърфирането</translation>
 <translation id="8027077570865220386">Тава 15</translation>
-<translation id="814401020562419411"><ph name="CREATE_GOOGLE_FORM_FOCUSED_FRIENDLY_MATCH_TEXT"/>. Натиснете Tab и след това Enter, за да създадете бързо формуляр в Brave Формуляри</translation>
+<translation id="814401020562419411"><ph name="CREATE_GOOGLE_FORM_FOCUSED_FRIENDLY_MATCH_TEXT"/>. Натиснете Tab и след това Enter, за да създадете бързо формуляр в Presearch Формуляри</translation>
 <translation id="8028960012888758725">Отрязване след отпечатване</translation>
 <translation id="8034522405403831421">Тази страница е на <ph name="SOURCE_LANGUAGE"/>. Да се преведе ли на <ph name="TARGET_LANGUAGE"/>?</translation>
 <translation id="8035152190676905274">Писалка</translation>
@@ -2476,10 +2476,10 @@
 <translation id="8057711352706143257">Софтуерът <ph name="SOFTWARE_NAME"/> не е конфигуриран правилно. Обикновено проблемът се отстранява с деинсталиране на <ph name="SOFTWARE_NAME"/>. <ph name="FURTHER_EXPLANATION"/></translation>
 <translation id="8058009102480785916">Хранително-вкусова промишленост</translation>
 <translation id="8066955247577885446">За съжаление, нещо се обърка.</translation>
-<translation id="5442778523450464826">Току-що въведохте паролата си в измамнически сайт. Brave може да помогне. За да промените паролата си и да уведомите Brave за това, че профилът ви може да е изложен на риск, кликнете върху „Защита на профила“.</translation>
+<translation id="5442778523450464826">Току-що въведохте паролата си в измамнически сайт. Presearch може да помогне. За да промените паролата си и да уведомите Presearch за това, че профилът ви може да е изложен на риск, кликнете върху „Защита на профила“.</translation>
 <translation id="8070439594494267500">Икона на приложението</translation>
 <translation id="8074253406171541171">10 x 13 (плик)</translation>
-<translation id="7738019368151747786">Бързо създаване на таблица в Brave Таблици</translation>
+<translation id="7738019368151747786">Бързо създаване на таблица в Presearch Таблици</translation>
 <translation id="8075898834294118863">Управление на настройките за сайтовете</translation>
 <translation id="8078141288243656252">Добавянето на пояснения не е възможно, когато документът е завъртян</translation>
 <translation id="8079031581361219619">Искате ли да презаредите сайта?</translation>
@@ -2501,7 +2501,7 @@
 <translation id="8116925261070264013">Заглушени</translation>
 <translation id="8118489163946903409">Начин на плащане</translation>
 <translation id="8123046743443732598">Настолни компютри</translation>
-<translation id="1930033552459819898">Бутон за персонализиране на Brave. Натиснете Enter, за да персонализирате облика на браузъра си</translation>
+<translation id="1930033552459819898">Бутон за персонализиране на Presearch. Натиснете Enter, за да персонализирате облика на браузъра си</translation>
 <translation id="8126056688005753476">Приключенски пътешествия</translation>
 <translation id="8127301229239896662"><ph name="SOFTWARE_NAME"/> не се инсталира правилно на компютъра ви или в мрежата. Помолете системния си администратор да реши този проблем.</translation>
 <translation id="8131740175452115882">Потвърждаване</translation>
@@ -2510,7 +2510,7 @@
 <translation id="8150722005171944719">Файлът на адрес <ph name="URL"/> не може да бъде прочетен.  Възможно е да е премахнат, преместен или разрешенията му да предотвратяват достъпа.</translation>
 <translation id="8157295877370077682">Напускане на сайта</translation>
 <translation id="8163866351304776260">Четворно перфориране отляво</translation>
-<translation id="4351627595884993315">Brave предлага да запази картите ви в профила ви в Brave, защото сте влезли в него. Можете да промените това поведение от настройките.</translation>
+<translation id="4351627595884993315">Presearch предлага да запази картите ви в профила ви в Presearch, защото сте влезли в него. Можете да промените това поведение от настройките.</translation>
 <translation id="8176440868214972690">Администраторът на това устройство изпрати известна информация, като например настройки или правила, до долупосочените уебсайтове.</translation>
 <translation id="8184538546369750125">Използване на глобалната стандартна стойност (разрешаване)</translation>
 <translation id="8186706823560132848">Софтуер</translation>
@@ -2555,7 +2555,7 @@
 <translation id="8281084378435768645">Large-Photo</translation>
 <translation id="8281886186245836920">Пропускане</translation>
 <translation id="8282947398454257691">Достъп до уникалния идентификатор на устройството ви</translation>
-<translation id="4596532552309852907">Управление на Безопасно сърфиране и други функции от настройките на Brave</translation>
+<translation id="4596532552309852907">Управление на Безопасно сърфиране и други функции от настройките на Presearch</translation>
 <translation id="8286036467436129157">Вход</translation>
 <translation id="8288807391153049143">Показване на сертификата</translation>
 <translation id="8289355894181816810">Свържете се със системния си администратор, ако не сте сигурни какво означава това.</translation>
@@ -2591,7 +2591,7 @@
 <translation id="8381674639488873545">Тези таксувания може да са еднократни или периодични и е възможно да не са явни. <ph name="BEGIN_LINK"/>Показване въпреки това<ph name="END_LINK"/></translation>
 <translation id="8390725133630534698">Споделянето от <ph name="ORIGIN_NAME"/> в(ъв) <ph name="VM_NAME"/> е блокирано от администраторски правила</translation>
 <translation id="8398790343843005537">Намиране на телефона ви</translation>
-<translation id="15931837016421186">Управление на данните, които да се синхронизират, от настройките на Brave</translation>
+<translation id="15931837016421186">Управление на данните, които да се синхронизират, от настройките на Presearch</translation>
 <translation id="8409413588194360210">приложения за обработване на плащания</translation>
 <translation id="8412145213513410671">Сривове (<ph name="CRASH_COUNT"/>)</translation>
 <translation id="8412392972487953978">Трябва да въведете един и същи пропуск два пъти.</translation>
@@ -2600,7 +2600,7 @@
 <ph name="DEBUG_INFO"/></translation>
 <translation id="8424582179843326029"><ph name="FIRST_LABEL"/>, <ph name="SECOND_LABEL"/>, <ph name="THIRD_LABEL"/></translation>
 <translation id="8428213095426709021">Настройки</translation>
-<translation id="5808418475906247813"><ph name="MANAGE_COOKIES_FOCUSED_FRIENDLY_MATCH_TEXT"/>. Натиснете Tab и след това Enter, за да управлявате предпочитанията си за „бисквитките“ от настройките на Brave</translation>
+<translation id="5808418475906247813"><ph name="MANAGE_COOKIES_FOCUSED_FRIENDLY_MATCH_TEXT"/>. Натиснете Tab и след това Enter, за да управлявате предпочитанията си за „бисквитките“ от настройките на Presearch</translation>
 <translation id="8433057134996913067">Ще излезете от повечето уебсайтове.</translation>
 <translation id="8434840396568290395">Домашни любимци</translation>
 <translation id="8437238597147034694">&amp;Отмяна на преместването</translation>
@@ -2616,20 +2616,20 @@
 <translation id="8473863474539038330">Адреси и др.</translation>
 <translation id="8474910779563686872">Показване на подробностите за програмисти</translation>
 <translation id="8479754468255770962">Телбодиране долу вляво</translation>
-<translation id="5142582872611298328">За да използвате картите от профила си в Brave, влезте в Brave</translation>
+<translation id="5142582872611298328">За да използвате картите от профила си в Presearch, влезте в Presearch</translation>
 <translation id="8488350697529856933">Прилага се към</translation>
 <translation id="8490137692873530638">Стакер 10</translation>
 <translation id="8493948351860045254">Освобождаване на място</translation>
 <translation id="8498891568109133222"><ph name="HOST_NAME"/> не отговаря твърде дълго време.</translation>
-<translation id="230699814587342492">Пароли в Brave</translation>
+<translation id="230699814587342492">Пароли в Presearch</translation>
 <translation id="8503813439785031346">Потребителско име</translation>
 <translation id="8507227106804027148">Команден ред</translation>
 <translation id="8508648098325802031">Икона за търсене</translation>
 <translation id="8511402995811232419">Управление на „бисквитките“</translation>
 <translation id="851353418319061866">Проверка на точността</translation>
 <translation id="8519753333133776369">HID устройство, разрешено от администратора ви</translation>
-<translation id="1426902392270366682">Brave може да ви помогне да защитите профила си в Brave и да промените паролата си.</translation>
-<translation id="1215802963054007211">Изчистете историята си на сърфиране, „бисквитките“, кеша и др. в настройките на Brave</translation>
+<translation id="1426902392270366682">Presearch може да ви помогне да защитите профила си в Presearch и да промените паролата си.</translation>
+<translation id="1215802963054007211">Изчистете историята си на сърфиране, „бисквитките“, кеша и др. в настройките на Presearch</translation>
 <translation id="853332391023689529">Товарни пикапи</translation>
 <translation id="8533619373899488139">Посетете &lt;strong&gt;chrome://policy&lt;/strong&gt;, за да видите блокираните URL адреси и другите правила, наложени от системния ви администратор.</translation>
 <translation id="8539500321752640291">Да се предоставят ли две разрешения?</translation>
@@ -2672,7 +2672,7 @@
 <translation id="868922510921656628">Страници на набор</translation>
 <translation id="869891660844655955">Дата на валидност</translation>
 <translation id="8699041776323235191">HID устройство</translation>
-<translation id="4959770473590669345">Бутон за стартиране на играта с динозавъра в Brave. Натиснете Enter, за да играете</translation>
+<translation id="4959770473590669345">Бутон за стартиране на играта с динозавъра в Presearch. Натиснете Enter, за да играете</translation>
 <translation id="8703575177326907206">Връзката ви с <ph name="DOMAIN"/> не е шифрована.</translation>
 <translation id="8705331520020532516">Сериен номер</translation>
 <translation id="8708134712139312373">Може да поиска разрешение да се свързва с устройства с Bluetooth</translation>
@@ -2687,10 +2687,10 @@
 <translation id="8725066075913043281">Опитайте отново</translation>
 <translation id="8726549941689275341">Размер на страниците:</translation>
 <translation id="8730621377337864115">Готово</translation>
-<translation id="1769647018144434441">Бутон „Управление на паролите“. Натиснете Enter, за да прегледате и управлявате паролите в настройките на Brave</translation>
+<translation id="1769647018144434441">Бутон „Управление на паролите“. Натиснете Enter, за да прегледате и управлявате паролите в настройките на Presearch</translation>
 <translation id="8734529307927223492">Вашият <ph name="DEVICE_TYPE"/> се управлява от <ph name="MANAGER"/></translation>
 <translation id="8737685506611670901">Да отваря връзки от типа „<ph name="PROTOCOL"/>“ вместо <ph name="REPLACED_HANDLER_TITLE"/></translation>
-<translation id="6326805297893828864">За установяване на сигурна връзка е необходимо часовникът ви да е верен. Това е така, защото сертификатите, с които уебсайтовете се идентифицират, са валидни само за конкретни периоди от време. Тъй като часовникът на устройството ви не е верен, Brave не може да потвърди тези сертификати.</translation>
+<translation id="6326805297893828864">За установяване на сигурна връзка е необходимо часовникът ви да е верен. Това е така, защото сертификатите, с които уебсайтовете се идентифицират, са валидни само за конкретни периоди от време. Тъй като часовникът на устройството ви не е верен, Presearch не може да потвърди тези сертификати.</translation>
 <translation id="8740359287975076522">&lt;abbr id="dnsDefinition"&gt;DNS адресът&lt;/abbr&gt; на <ph name="HOST_NAME"/> не можа да бъде намерен. Проблемът се диагностицира.</translation>
 <translation id="8742371904523228557"><ph name="ONE_TIME_CODE"/> е кодът ви за <ph name="ORIGIN"/></translation>
 <translation id="874918643257405732">Запазване на отметка към този раздел</translation>
@@ -2698,22 +2698,22 @@
 <translation id="8758885506338294482">Състезания по видеоигри</translation>
 <translation id="8759274551635299824">Тази карта е изтекла</translation>
 <translation id="87601671197631245">Този сайт използва остаряла конфигурация за сигурност, която може да разкрие информацията ви (например пароли, съобщения или кредитни карти) при изпращането ѝ до него.</translation>
-<translation id="8761567432415473239">Brave Безопасно сърфиране наскоро <ph name="BEGIN_LINK"/>откри опасни програми<ph name="END_LINK"/> на <ph name="SITE"/>.</translation>
+<translation id="8761567432415473239">Presearch Безопасно сърфиране наскоро <ph name="BEGIN_LINK"/>откри опасни програми<ph name="END_LINK"/> на <ph name="SITE"/>.</translation>
 <translation id="8763927697961133303">USB устройство</translation>
 <translation id="8766943070169463815">Листът за удостоверяване на идентификационни данни за сигурни плащания е отворен</translation>
 <translation id="877985182522063539">A4</translation>
 <translation id="8785658048882205566">Мотоциклети</translation>
 <translation id="8790007591277257123">&amp;Възстановяване на изтриването</translation>
-<translation id="5304100303568917877">Възможно е да загубите достъп до профила си в/ъв <ph name="ORG_NAME"/> или самоличността ви да бъде открадната. Brave препоръчва да промените паролата си сега.</translation>
+<translation id="5304100303568917877">Възможно е да загубите достъп до профила си в/ъв <ph name="ORG_NAME"/> или самоличността ви да бъде открадната. Presearch препоръчва да промените паролата си сега.</translation>
 <translation id="8792626944327216835">микрофон</translation>
-<translation id="9156291179464624174">Домейнът <ph name="ENROLLMENT_DOMAIN"/> е включил Brave Enterprise Connectors в браузъра ви. Тези конектори имат достъп до някои от данните ви.</translation>
+<translation id="9156291179464624174">Домейнът <ph name="ENROLLMENT_DOMAIN"/> е включил Presearch Enterprise Connectors в браузъра ви. Тези конектори имат достъп до някои от данните ви.</translation>
 <translation id="8798099450830957504">По подразбиране</translation>
 <translation id="8798739476508189189">Търсите флаговете за браузъра? Посетете</translation>
 <translation id="8805819170075074995">Списъчен запис „<ph name="LANGUAGE_ID"/>“: Записът е пренебрегнат, защото е включен и в правилото SpellcheckLanguage.</translation>
 <translation id="8806285662264631610">Продукти за баня и за тялото</translation>
 <translation id="8807160976559152894">Отрязване след всяка страница</translation>
-<translation id="7527893726197732596">Настройки на Brave</translation>
-<translation id="7674607358106534914"><ph name="UPDATE_CHROME_FOCUSED_FRIENDLY_MATCH_TEXT"/>. Натиснете Tab и след това – Enter, за да актуализирате Brave от настройките</translation>
+<translation id="7527893726197732596">Настройки на Presearch</translation>
+<translation id="7674607358106534914"><ph name="UPDATE_CHROME_FOCUSED_FRIENDLY_MATCH_TEXT"/>. Натиснете Tab и след това – Enter, за да актуализирате Presearch от настройките</translation>
 <translation id="882338992931677877">Слот за ръчно подаване</translation>
 <translation id="883848425547221593">Други отметки</translation>
 <translation id="884264119367021077">Адрес за доставка</translation>
@@ -2722,8 +2722,8 @@
 <translation id="8852567725116633427">Микроавтомобили и субкомпактни автомобили</translation>
 <translation id="885306012106043620">Тенис</translation>
 <translation id="8855742650226305367">Танци</translation>
-<translation id="7487066225574140895">Споделяне с Brave</translation>
-<translation id="4764754838347156633">Brave препоръчва да зададете повторно паролата си за <ph name="BEGIN_BOLD"/><ph name="ORG_NAME"/><ph name="END_BOLD"/>, ако сте я използвали и на други сайтове.</translation>
+<translation id="7487066225574140895">Споделяне с Presearch</translation>
+<translation id="4764754838347156633">Presearch препоръчва да зададете повторно паролата си за <ph name="BEGIN_BOLD"/><ph name="ORG_NAME"/><ph name="END_BOLD"/>, ако сте я използвали и на други сайтове.</translation>
 <translation id="885906927438988819">Ако изписването е правилно, <ph name="BEGIN_LINK"/>стартирайте мрежова диагностика в Windows<ph name="END_LINK"/>.</translation>
 <translation id="8866132857352163524">Саундтракове</translation>
 <translation id="8866481888320382733">Грешка при синтактичния анализ на настройките за правилото</translation>
@@ -2743,12 +2743,12 @@
 <translation id="8903921497873541725">Увеличаване на мащаба</translation>
 <translation id="890485472659500557">Engineering-C</translation>
 <translation id="890493561996401738">Бутон за премахване на предложенията. Натиснете Enter, за да премахнете – <ph name="REMOVE_BUTTON_FOCUSED_FRIENDLY_MATCH_TEXT"/></translation>
-<translation id="2684652081942622950">Профил в Brave</translation>
-<translation id="4102271590580840789">Бутон „Управление на начините на плащане“. Натиснете Enter, за да управлявате информацията си за плащане и данните за кредитните си карти в настройките на Brave</translation>
+<translation id="2684652081942622950">Профил в Presearch</translation>
+<translation id="4102271590580840789">Бутон „Управление на начините на плащане“. Натиснете Enter, за да управлявате информацията си за плащане и данните за кредитните си карти в настройките на Presearch</translation>
 <translation id="8922013791253848639">Рекламите на този сайт да са разрешени винаги</translation>
 <translation id="892588693504540538">Перфориране горе вдясно</translation>
 <translation id="8930330541574156305">Недвижими имоти</translation>
-<translation id="7757992844965332255">Искате ли да запазите тази карта в профила си в Brave?</translation>
+<translation id="7757992844965332255">Искате ли да запазите тази карта в профила си в Presearch?</translation>
 <translation id="8932102934695377596">Часовникът ви е назад</translation>
 <translation id="893332455753468063">Добавяне на име</translation>
 <translation id="8942355029279167844">Администраторът ви е разрешил на <ph name="APP_NAME"/> да събира диагностични данни с цел подобряване на практическата работа с продукта. За повече информация вижте <ph name="BEGIN_LINK"/>https://www.parallels.com/pcep<ph name="END_LINK"/>.</translation>
@@ -2762,9 +2762,9 @@
 <translation id="8971063699422889582">Сертификатът на сървъра е с изтекла валидност.</translation>
 <translation id="8975012916872825179">Включва информация като телефонни номера, имейл адреси и адреси за доставка</translation>
 <translation id="8975263830901772334">Имената на отпечатваните от вас файлове</translation>
-<translation id="8978053250194585037">Brave Безопасно сърфиране наскоро <ph name="BEGIN_LINK"/>откри фишинг<ph name="END_LINK"/> на <ph name="SITE"/>. Сайтовете за фишинг се представят за други уебсайтове с цел да ви подведат.</translation>
+<translation id="8978053250194585037">Presearch Безопасно сърфиране наскоро <ph name="BEGIN_LINK"/>откри фишинг<ph name="END_LINK"/> на <ph name="SITE"/>. Сайтовете за фишинг се представят за други уебсайтове с цел да ви подведат.</translation>
 <translation id="8983369100812962543">Вече можете да преоразмерявате приложението</translation>
-<translation id="447219378802101672"><ph name="VIEW_CHROME_HISTORY_FOCUSED_FRIENDLY_MATCH_TEXT"/>. Натиснете Tab и след това – Enter, за да прегледате историята си на сърфиране в Brave</translation>
+<translation id="447219378802101672"><ph name="VIEW_CHROME_HISTORY_FOCUSED_FRIENDLY_MATCH_TEXT"/>. Натиснете Tab и след това – Enter, за да прегледате историята си на сърфиране в Presearch</translation>
 <translation id="8987927404178983737">Месец</translation>
 <translation id="8989148748219918422"><ph name="ORGANIZATION"/> [<ph name="COUNTRY"/>]</translation>
 <translation id="8992061558343343009">Търсите версията на системата? Посетете</translation>
@@ -2790,7 +2790,7 @@
 <translation id="9036306139374661733">Да се разреши ли достъпът до микрофона?</translation>
 <translation id="9038649477754266430">Използване на услуга за предвиждане с цел по-бързо зареждане на страниците</translation>
 <translation id="9039213469156557790">Освен това тази страница включва други ресурси, които не са защитени. Докато се предават, те могат да бъдат видени от други хора и да бъдат модифицирани от извършител на атака, така че да се промени поведението на страницата.</translation>
-<translation id="6093455506390049122">Бутон „Намиране на устройството ми“. Натиснете Enter, за да преминете към „Намиране на устройството ми“ в профила ви Brave</translation>
+<translation id="6093455506390049122">Бутон „Намиране на устройството ми“. Натиснете Enter, за да преминете към „Намиране на устройството ми“ в профила ви Presearch</translation>
 <translation id="9042617223719777575">Тава с голяма вместимост</translation>
 <translation id="9044359186343685026">Използване на Touch ID</translation>
 <translation id="9045525010788763347"><ph name="RESULT_MODIFIED_DATE"/> – <ph name="RESULT_PRODUCT_SOURCE"/></translation>
@@ -2808,18 +2808,18 @@
 <translation id="908796725011587895">Колежански спортове</translation>
 <translation id="9089260154716455634">Пренебрегване на правилата:</translation>
 <translation id="9095388113577226029">Още езици...</translation>
-<translation id="7650489975492745604"><ph name="SET_CHROME_AS_DEFAULT_BROWSER_FOCUSED_FRIENDLY_MATCH_TEXT"/>, натиснете Tab и след това Enter за задаване на Brave като браузъра по подразбиране за системата в настройките на iOS</translation>
+<translation id="7650489975492745604"><ph name="SET_CHROME_AS_DEFAULT_BROWSER_FOCUSED_FRIENDLY_MATCH_TEXT"/>, натиснете Tab и след това Enter за задаване на Presearch като браузъра по подразбиране за системата в настройките на iOS</translation>
 <translation id="9096679202588811390">Телевизионни предавания и програми</translation>
 <translation id="9101630580131696064">Тава 1</translation>
 <translation id="9103537084693478942">Видеософтуер</translation>
-<translation id="6373940988468425649">Обикновено <ph name="SITE"/> използва шифроване за защита на информацията ви. Когато Brave опита да установи връзка с/ъс <ph name="SITE"/> този път, уебсайтът върна необичайни и неправилни идентификационни данни. Това може да се случи, когато извършител на атака пробва да се представи за <ph name="SITE"/> или връзката е прекъсната от екран за вход в Wi-Fi. Информацията ви продължава да е защитена, тъй като Brave спря връзката, преди да бъдат обменени данни.</translation>
+<translation id="6373940988468425649">Обикновено <ph name="SITE"/> използва шифроване за защита на информацията ви. Когато Presearch опита да установи връзка с/ъс <ph name="SITE"/> този път, уебсайтът върна необичайни и неправилни идентификационни данни. Това може да се случи, когато извършител на атака пробва да се представи за <ph name="SITE"/> или връзката е прекъсната от екран за вход в Wi-Fi. Информацията ви продължава да е защитена, тъй като Presearch спря връзката, преди да бъдат обменени данни.</translation>
 <translation id="9106062320799175032">Добавяне на адрес за фактуриране</translation>
 <translation id="9107467864910557787">Браузърът ви се управлява от <ph name="MANAGER"/></translation>
 <translation id="91108059142052966">Споделянето на екрана с(ъс) <ph name="APPLICATION_TITLE"/>, когато се вижда поверително съдържание, е деактивирано от администраторски правила</translation>
 <translation id="9114524666733003316">Картата се потвърждава...</translation>
-<translation id="3582535072753734287">Този браузър не се управлява от дружество или друга организация. Възможно е активността на устройството да се управлява извън Brave. <ph name="BEGIN_LINK"/>Научете повече<ph name="END_LINK"/></translation>
+<translation id="3582535072753734287">Този браузър не се управлява от дружество или друга организация. Възможно е активността на устройството да се управлява извън Presearch. <ph name="BEGIN_LINK"/>Научете повече<ph name="END_LINK"/></translation>
 <translation id="9117930699067497412">Свежо</translation>
-<translation id="2628864952962474930"><ph name="HISTORY_CLUSTERS_SEARCH_FOCUSED_FRIENDLY_MATCH_TEXT"/>, натиснете Tab и след това Enter, за да продължите пътешествието си и да прегледате съответната активност в историята си в Brave</translation>
+<translation id="2628864952962474930"><ph name="HISTORY_CLUSTERS_SEARCH_FOCUSED_FRIENDLY_MATCH_TEXT"/>, натиснете Tab и след това Enter, за да продължите пътешествието си и да прегледате съответната активност в историята си в Presearch</translation>
 <translation id="9119042192571987207">Качено</translation>
 <translation id="9122954576417194280">Търговия със стоки и фючърси</translation>
 <translation id="9128016270925453879">Правилата са заредени</translation>
@@ -2833,7 +2833,7 @@
 <translation id="9148088599418889305">Избиране на начин на доставка</translation>
 <translation id="9148507642005240123">&amp;Отмяна на редактирането</translation>
 <translation id="9150045010208374699">Използване на камерата ви</translation>
-<translation id="5874192512642998555">Администраторът ви може отдалечено да променя настройките на браузъра. Възможно е активността на това устройство да се управлява и извън Brave. <ph name="BEGIN_LINK"/>Научете повече<ph name="END_LINK"/></translation>
+<translation id="5874192512642998555">Администраторът ви може отдалечено да променя настройките на браузъра. Възможно е активността на това устройство да се управлява и извън Presearch. <ph name="BEGIN_LINK"/>Научете повече<ph name="END_LINK"/></translation>
 <translation id="9154194610265714752">Актуализирано</translation>
 <translation id="9155211586651734179">свързаните периферни аудиоустройства;</translation>
 <translation id="9157595877708044936">Настройва се...</translation>
@@ -2849,8 +2849,8 @@
 <translation id="917450738466192189">Сертификатът на сървъра е невалиден.</translation>
 <translation id="9174623988242579721">Персонализирани превозни средства и такива с подобрени технически характеристики</translation>
 <translation id="9174917557437862841">Бутон за превключване между раздели. Натиснете Enter, за да преминете към този раздел</translation>
-<translation id="5129795253416930127">Управлявайте информацията си за плащане и данните за кредитните си карти в настройките на Brave</translation>
-<translation id="9183302530794969518">Brave Документи</translation>
+<translation id="5129795253416930127">Управлявайте информацията си за плащане и данните за кредитните си карти в настройките на Presearch</translation>
+<translation id="9183302530794969518">Presearch Документи</translation>
 <translation id="9183425211371246419"><ph name="HOST_NAME"/> използва неподдържан протокол.</translation>
 <translation id="9187461866967718678">Екстремни спортове</translation>
 <translation id="9191834167571392248">Перфориране долу вляво</translation>
@@ -2859,19 +2859,19 @@
 <translation id="920511547311754821">Не можете да намерите кода си? <ph name="IDS_AUTOFILL_CARD_UNMASK_OTP_INPUT_DIALOG_NEW_CODE_MESSAGE"/></translation>
 <translation id="9207861905230894330">Добавянето на статията не бе успешно.</translation>
 <translation id="9213433120051936369">Персонализиране на облика</translation>
-<translation id="2206050430829841793">Приложение пречи на Brave да се свърже безопасно с този сайт</translation>
+<translation id="2206050430829841793">Приложение пречи на Presearch да се свърже безопасно с този сайт</translation>
 <translation id="9219103736887031265">Изображения</translation>
-<translation id="142389341645668510">Персонализиране на Brave</translation>
+<translation id="142389341645668510">Персонализиране на Presearch</translation>
 <translation id="933712198907837967">Diners Club</translation>
 <translation id="935608979562296692">ИЗЧИСТВАНЕ НА ФОРМУЛЯРА</translation>
 <translation id="936474030629450166">Super-B</translation>
-<translation id="7486559383537872796">Възможно е да загубите достъп до профила си в Brave. Brave препоръчва да промените паролата си сега. Ще получите подкана за влизане в профила си.</translation>
+<translation id="7486559383537872796">Възможно е да загубите достъп до профила си в Presearch. Presearch препоръчва да промените паролата си сега. Ще получите подкана за влизане в профила си.</translation>
 <translation id="937457230470581909">Зоопаркове, аквариуми и резервати</translation>
 <translation id="939736085109172342">Нова папка</translation>
 <translation id="940053046584497293">Пътувания и транспорт</translation>
 <translation id="945522503751344254">Изпращане на отзиви</translation>
 <translation id="945855313015696284">Проверете информацията по-долу и изтрийте невалидните карти</translation>
-<translation id="1283739678317676574"><ph name="CREATE_GOOGLE_SITE_FOCUSED_FRIENDLY_MATCH_TEXT"/>. Натиснете Tab и след това Enter, за да създадете бързо сайт в Brave Сайтове</translation>
+<translation id="1283739678317676574"><ph name="CREATE_GOOGLE_SITE_FOCUSED_FRIENDLY_MATCH_TEXT"/>. Натиснете Tab и след това Enter, за да създадете бързо сайт в Presearch Сайтове</translation>
 <translation id="950736567201356821">Тройно перфориране в горната част</translation>
 <translation id="961663415146723894">Подвързване на долната част</translation>
 <translation id="962484866189421427">Въпросното съдържание може да се опита да инсталира измамни приложения, които се представят за нещо друго или събират данни, които може да се използват за проследяването ви. <ph name="BEGIN_LINK"/>Научете повече<ph name="END_LINK"/></translation>
@@ -2910,7 +2910,7 @@
 <translation id="8794378783472961468">Сърфирането ви обаче не е невидимо. При преминаване в поверителен режим то не се скрива от работодателя ви и от доставчика ви на интернет услуги, нито от уебсайтовете, които посещавате.</translation>
 <translation id="5673623523506565506">Сега можете да сърфирате насаме и други профили, които използват това устройство, няма да видят вашата активност. Изтеглените файлове и отметки обаче ще бъдат запазени.</translation>
 <translation id="3812568169637430422">Сега можете да сърфирате насаме и други профили, които използват това устройство, няма да видят вашата активност. Все пак, изтеглените файлове, отметки и елементи от списъка за четене ще бъдат запазени.</translation>
-<translation id="6085043210649933880">Поверителен режим в Brave</translation>
+<translation id="6085043210649933880">Поверителен режим в Presearch</translation>
 <translation id="3683567996395248272">Какво прави поверителният режим</translation>
 <translation id="8817208096236092047">Когато затворите всички поверителни раздели, вашата активност в тези раздели се изчиства от това устройство:
           <ph name="BEGIN_LIST"/>
@@ -2925,7 +2925,7 @@
           <ph name="LIST_ITEM"/>работодателите или училищата могат да проследят активността при сърфиране<ph name="END_LIST_ITEM"/>
           <ph name="LIST_ITEM"/>доставчиците на интернет услуги могат да наблюдават уеб трафика<ph name="END_LIST_ITEM"/>
         <ph name="END_LIST"/></translation>
-<translation id="6043883615739972429"><ph name="BEGIN_LINK"/>Научете повече за поверителния режим в Brave<ph name="END_LINK"/></translation>
+<translation id="6043883615739972429"><ph name="BEGIN_LINK"/>Научете повече за поверителния режим в Presearch<ph name="END_LINK"/></translation>
 <translation id="9153679102508470540">Блокиране на бисквитките на трети страни в поверителен режим</translation>
 <translation id="5395368798429603306">Отваряне на раздел „Поверително“</translation>
 <translation id="40442660395682483">Отворете нов раздел „Поверително“, за да разглеждате поверително</translation>
@@ -2943,9 +2943,9 @@
 <translation id="1090109565956608696">Не е разрешено в поверетелен режим</translation>
 <translation id="6934396344327597525">Ще напуснете частния режим, за да платите чрез външно приложение. Искате ли да продължите?</translation>
 <translation id="7948746210201997548">{NUM_DAYS, plural,
-     =0 {Когато тази контрола е включена и състоянието е активно, Brave определя коя голяма група профили, или „кохорта“, е подобна на скорошната активност при сърфиране. Рекламодателите могат да избират реклами за групата и вашата активност при сърфиране е поверителна на устройството ви. Групата ви се актуализира всеки ден.}
-     =1 {Когато тази контрола е включена и състоянието е активно, Brave определя коя голяма група профили, или „кохорта“, е подобна на скорошната активност при сърфиране. Рекламодателите могат да избират реклами за групата и вашата активност при сърфиране е поверителна на устройството ви. Групата ви се актуализира всеки ден.}
-     other {Когато тази контрола е включена и състоянието е активно, Brave определя коя голяма група профили, или „кохорта“, е подобна на скорошната активност при сърфиране. Рекламодателите могат да избират реклами за групата и вашата активност при сърфиране е поверителна на устройството ви. Групата ви се актуализира на всеки {NUM_DAYS} дни.}}</translation>
+     =0 {Когато тази контрола е включена и състоянието е активно, Presearch определя коя голяма група профили, или „кохорта“, е подобна на скорошната активност при сърфиране. Рекламодателите могат да избират реклами за групата и вашата активност при сърфиране е поверителна на устройството ви. Групата ви се актуализира всеки ден.}
+     =1 {Когато тази контрола е включена и състоянието е активно, Presearch определя коя голяма група профили, или „кохорта“, е подобна на скорошната активност при сърфиране. Рекламодателите могат да избират реклами за групата и вашата активност при сърфиране е поверителна на устройството ви. Групата ви се актуализира всеки ден.}
+     other {Когато тази контрола е включена и състоянието е активно, Presearch определя коя голяма група профили, или „кохорта“, е подобна на скорошната активност при сърфиране. Рекламодателите могат да избират реклами за групата и вашата активност при сърфиране е поверителна на устройството ви. Групата ви се актуализира на всеки {NUM_DAYS} дни.}}</translation>
 <translation id="2446780203663220049">Профили и общество</translation>
 <translation id="1426112902089905810">&lt;h4&gt;Стъпка 1: Влезте в портала&lt;/h4&gt;
 &lt;p&gt;Wi-Fi мрежите на места като кафенета или летища изискват да влезете в профил. За да видите страницата за вход, посетете страница, която използва &lt;code&gt;http://&lt;/code&gt;.&lt;/p&gt;
@@ -2955,11 +2955,11 @@
 &lt;/ol&gt;
 &lt;h4&gt;Стъпка 2: Отворете страницата в режим „инкогнито“ (само за компютър)&lt;/h4&gt;
 &lt;p&gt;Отворете страницата, която опитвате да посетите, в прозорец в режим „инкогнито“.&lt;/p&gt;
-&lt;p&gt;Ако страницата се отвори, значи дадено разширение за Brave не работи правилно. Изключете го, за да отстраните грешката.&lt;/p&gt;
+&lt;p&gt;Ако страницата се отвори, значи дадено разширение за Presearch не работи правилно. Изключете го, за да отстраните грешката.&lt;/p&gt;
 &lt;h4&gt;Стъпка 3: Актуализирайте операционната си система&lt;/h4&gt;
 &lt;p&gt;Уверете се, че операционната система на устройството ви е актуална.&lt;/p&gt;
 &lt;h4&gt;Стъпка 4: Временно изключете антивирусния си софтуер&lt;/h4&gt;
-&lt;p&gt;Ще виждате това съобщение за грешка, ако имате антивирусен софтуер, осигуряващ защита за HTTPS или сканиране на HTTPS. Подобни програми възпрепятстват защитните функции на Brave.&lt;/p&gt;
+&lt;p&gt;Ще виждате това съобщение за грешка, ако имате антивирусен софтуер, осигуряващ защита за HTTPS или сканиране на HTTPS. Подобни програми възпрепятстват защитните функции на Presearch.&lt;/p&gt;
 &lt;p&gt;За да отстраните проблема, изключете антивирусния софтуер. Ако след това успеете да отворите страницата, деактивирайте този софтуер, когато посещавате защитени сайтове.&lt;/p&gt;
 &lt;p&gt;Не забравяйте да включите отново антивирусната програма, когато сте готови.&lt;/p&gt;
 &lt;h4&gt;Стъпка 5: Получете допълнителна помощ&lt;/h4&gt;

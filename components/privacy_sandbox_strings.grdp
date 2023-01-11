@@ -6,9 +6,9 @@
   </message>
   <message name="IDS_PRIVACY_SANDBOX_FLOC_DESCRIPTION" desc="Description of how FLoC works displayed to the user.">
     {NUM_DAYS, plural,
-     =0 {When this control is on and the status is active, Brave determines which large group of profiles, or "cohort," your recent browsing activity is most similar to. Advertisers can select ads for the group and your browsing activity is kept private on your device. Your group is updated every day.}
-     =1 {When this control is on and the status is active, Brave determines which large group of profiles, or "cohort," your recent browsing activity is most similar to. Advertisers can select ads for the group and your browsing activity is kept private on your device. Your group is updated every day.}
-     other {When this control is on and the status is active, Brave determines which large group of profiles, or "cohort," your recent browsing activity is most similar to. Advertisers can select ads for the group and your browsing activity is kept private on your device. Your group is updated every {NUM_DAYS} days.}}
+     =0 {When this control is on and the status is active, Presearch determines which large group of profiles, or "cohort," your recent browsing activity is most similar to. Advertisers can select ads for the group and your browsing activity is kept private on your device. Your group is updated every day.}
+     =1 {When this control is on and the status is active, Presearch determines which large group of profiles, or "cohort," your recent browsing activity is most similar to. Advertisers can select ads for the group and your browsing activity is kept private on your device. Your group is updated every day.}
+     other {When this control is on and the status is active, Presearch determines which large group of profiles, or "cohort," your recent browsing activity is most similar to. Advertisers can select ads for the group and your browsing activity is kept private on your device. Your group is updated every {NUM_DAYS} days.}}
   </message>
   <message name="IDS_PRIVACY_SANDBOX_FLOC_TIME_TO_NEXT_COMPUTE" desc="Description of how long until the user's FLoC ID is recomputed, in days.">
     {NUM_DAYS, plural,
@@ -481,7 +481,7 @@
   <message name="IDS_PRIVACY_SANDBOX_TOPICS_TAXONOMY_V1_TOPIC_ID_147" desc="Taxonomy Member. Meaning: [software for use in video production, recording, editing, and playback; also includes video player software, digital video workstation software; examples include Windows Movie Maker, iMovie, and Adobe After Effects] Existing Ref: http://tc-message/message/FatCatTaxonomy_Verticals4/8159620650642307448">
     Video software
   </message>
-  <message name="IDS_PRIVACY_SANDBOX_TOPICS_TAXONOMY_V1_TOPIC_ID_148" desc="Taxonomy Member. Meaning: [Applications designed for browsing the web/internet. Web browsers enable users to access, navigate and interact with text, images, video and other media and information found on a web page located on the internet. Popular examples include Brave, Internet Explorer, and Mozilla Firefox.] Existing Ref: http://tc-message/message/FatCatTaxonomy_Verticals4/5184464415905481973">
+  <message name="IDS_PRIVACY_SANDBOX_TOPICS_TAXONOMY_V1_TOPIC_ID_148" desc="Taxonomy Member. Meaning: [Applications designed for browsing the web/internet. Web browsers enable users to access, navigate and interact with text, images, video and other media and information found on a web page located on the internet. Popular examples include Presearch, Internet Explorer, and Mozilla Firefox.] Existing Ref: http://tc-message/message/FatCatTaxonomy_Verticals4/5184464415905481973">
     Web browsers
   </message>
   <message name="IDS_PRIVACY_SANDBOX_TOPICS_TAXONOMY_V1_TOPIC_ID_149" desc="Taxonomy Member. Meaning: [Umbrella category that encompasses consumer and business financial services, such as banking, loans, credit, investing, insurance, etc.] Existing Ref: http://tc-message/message/FatCatTaxonomy_Verticals4/2844460539416377578">
@@ -694,7 +694,7 @@
   <message name="IDS_PRIVACY_SANDBOX_TOPICS_TAXONOMY_V1_TOPIC_ID_218" desc="Taxonomy Member. Meaning: [Plans and services for phones, whether landline or mobile. Companies that facilitate landline telephone service and provide long distance or local calling plans, as well as wireless carriers. Also includes mobile broadband providers.] Existing Ref: http://tc-message/message/FatCatTaxonomy_Verticals4/8095959427480563136">
     Phone service providers
   </message>
-  <message name="IDS_PRIVACY_SANDBOX_TOPICS_TAXONOMY_V1_TOPIC_ID_219" desc="Taxonomy Member. Meaning: [a system that allows users to search for information on the internet such as Brave, Bing, Yahoo! Search, etc.] Existing Ref: http://tc-message/message/FatCatTaxonomy_Verticals4/1055826165163308557">
+  <message name="IDS_PRIVACY_SANDBOX_TOPICS_TAXONOMY_V1_TOPIC_ID_219" desc="Taxonomy Member. Meaning: [a system that allows users to search for information on the internet such as Presearch, Bing, Yahoo! Search, etc.] Existing Ref: http://tc-message/message/FatCatTaxonomy_Verticals4/1055826165163308557">
     Search engines
   </message>
   <message name="IDS_PRIVACY_SANDBOX_TOPICS_TAXONOMY_V1_TOPIC_ID_220" desc="Taxonomy Member. Meaning: [a mobile phone offering advanced capabilities beyond calling and texting, such as music playback, cameras, internet connection, etc.] Existing Ref: http://tc-message/message/FatCatTaxonomy_Verticals4/4069828937326256925">

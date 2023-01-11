@@ -7,7 +7,7 @@
     This site may attempt to track you across other sites
   </message>
   <message name="IDS_DOMAIN_BLOCK_PRIMARY_PARAGRAPH" desc="Main paragraph of domain block interstitial page.">
-    Brave has prevented the following site from loading:
+    Presearch has prevented the following site from loading:
   </message>
   <message name="IDS_DOMAIN_BLOCK_EXPLANATION" desc="Second paragraph of domain block interstitial page.">
     This site may try to link some of your personal data with a cookie before showing the content.

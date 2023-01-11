@@ -14,7 +14,7 @@
   <!-- Same as IDS_OMNIBOX_PEDAL_RUN_CHROME_SAFETY_CHECK_HINT but
        with "safety check" capitalized to "Safety Check". -->
   <message name="IDS_ANDROID_OMNIBOX_PEDAL_RUN_CHROME_SAFETY_CHECK_HINT" desc="The button text contents to suggest pedal action, RUN_CHROME_SAFETY_CHECK">
-    Run Brave Safety Check
+    Run Presearch Safety Check
   </message>
   <!-- Same as IDS_OMNIBOX_PEDAL_LAUNCH_INCOGNITO_HINT but
        with "window" changed to "tab". -->
@@ -44,7 +44,7 @@
   </message>
   <!-- Same as IDS_OMNIBOX_PEDAL_SET_CHROME_AS_DEFAULT_BROWSER_HINT, but title case instead of sentence case -->
   <message name="IDS_IOS_OMNIBOX_PEDAL_SET_CHROME_AS_DEFAULT_BROWSER_HINT" desc="In Title Case: The button text contents to suggest pedal action, SET_CHROME_AS_DEFAULT_BROWSER">
-    Set Brave as Default Browser
+    Set Presearch as Default Browser
   </message>
   <!-- Same as IDS_OMNIBOX_PEDAL_UPDATE_CREDIT_CARD_HINT, but title case instead of sentence case -->
   <message name="IDS_IOS_OMNIBOX_PEDAL_UPDATE_CREDIT_CARD_HINT" desc="In Title Case: The button text contents to suggest pedal action, UPDATE_CREDIT_CARD">
@@ -56,7 +56,7 @@
   </message>
   <!-- Same as IDS_OMNIBOX_PEDAL_RUN_CHROME_SAFETY_CHECK_HINT but title case instead of sentence case -->
   <message name="IDS_IOS_OMNIBOX_PEDAL_RUN_CHROME_SAFETY_CHECK_HINT" desc="In Title Case: The button text contents to suggest pedal action, RUN_CHROME_SAFETY_CHECK">
-    Run Brave Safety Check
+    Run Presearch Safety Check
   </message>
   <!-- Same as IDS_OMNIBOX_PEDAL_MANAGE_CHROME_SETTINGS_HINT but title case instead of sentence case -->
   <message name="IDS_IOS_OMNIBOX_PEDAL_MANAGE_CHROME_SETTINGS_HINT" desc="In Title Case: The button text contents to suggest pedal action, MANAGE_CHROME_SETTINGS">
@@ -64,11 +64,11 @@
   </message>
   <!-- Same as IDS_OMNIBOX_PEDAL_VIEW_CHROME_HISTORY_HINT but title case instead of sentence case -->
   <message name="IDS_IOS_OMNIBOX_PEDAL_VIEW_CHROME_HISTORY_HINT" desc="In Title Case: The button text contents to suggest pedal action, VIEW_CHROME_HISTORY">
-    View Your Brave History
+    View Your Presearch History
   </message>
   <!-- Same as IDS_OMNIBOX_PEDAL_PLAY_CHROME_DINO_GAME_HINT but title case instead of sentence case -->
   <message name="IDS_IOS_OMNIBOX_PEDAL_PLAY_CHROME_DINO_GAME_HINT" desc="In Title Case: The button text contents to suggest pedal action, PLAY_CHROME_DINO_GAME">
-    Play Brave Dino Game
+    Play Presearch Dino Game
   </message>
   <!-- iOS Omnibox Actions non-title strings -->
   <!-- Same as IDS_OMNIBOX_PEDAL_LAUNCH_INCOGNITO_SUGGESTION_CONTENTS but with "window" changed to "tab" -->
@@ -82,7 +82,7 @@
   </message>
 
   <message name="IDS_AUTOCOMPLETE_SEARCH_DESCRIPTION" desc="Description for the default search match.">
-    <ph name="ENGINE">$1<ex>Brave</ex></ph> Search
+    <ph name="ENGINE">$1<ex>Presearch</ex></ph> Search
   </message>
   <message name="IDS_EMPTY_KEYWORD_VALUE" desc="Shown in the location bar drop down when the user enters a string that matches a chrome keyword, but they haven't entered any text following the chrome keyword">
     &lt;Type search term&gt;
@@ -152,13 +152,13 @@
     Google Docs
   </message>
   <message name="IDS_DRIVE_SUGGESTION_FORM" desc="Google Docs product name, for use in omnibox Form result descriptions.">
-    Brave Forms
+    Presearch Forms
   </message>
-  <message name="IDS_DRIVE_SUGGESTION_SPREADSHEET" desc="Brave Sheets product name, for use in omnibox Sheets result descriptions.">
-    Brave Sheets
+  <message name="IDS_DRIVE_SUGGESTION_SPREADSHEET" desc="Presearch Sheets product name, for use in omnibox Sheets result descriptions.">
+    Presearch Sheets
   </message>
-    <message name="IDS_DRIVE_SUGGESTION_PRESENTATION" desc="Brave Slides product name, for use in omnibox Slides result descriptions.">
-    Brave Slides
+    <message name="IDS_DRIVE_SUGGESTION_PRESENTATION" desc="Presearch Slides product name, for use in omnibox Slides result descriptions.">
+    Presearch Slides
   </message>
   <message name="IDS_DRIVE_SUGGESTION_GENERAL" desc="Google Drive product name, for use in general omnibox Drive file result descriptions.">
     Google Drive
@@ -174,12 +174,12 @@
   </message>
   <if expr="use_titlecase">
     <then>
-      <message name="IDS_ACCURACY_CHECK_VERBOSE_STATE" meaning="Text for feature that encourages the user to think about how accurate the content is" desc="This text appears in the address bar chip, which states the title of the feature shown in the page info bubble below (see screenshot). With this feature, the user will see a reminder on the page they're visiting that encourages the user to think about how accurate the content is. You may translate 'Accuracy' as 'Trustworthiness' or 'Reliability,' if those terms work better in your language. The 'Accuracy Check' is a noun; avoid translating this as an imperative command. Brave does not verify accuracy by providing this feature; avoid any translation that implies Brave or Brave verification.">
+      <message name="IDS_ACCURACY_CHECK_VERBOSE_STATE" meaning="Text for feature that encourages the user to think about how accurate the content is" desc="This text appears in the address bar chip, which states the title of the feature shown in the page info bubble below (see screenshot). With this feature, the user will see a reminder on the page they're visiting that encourages the user to think about how accurate the content is. You may translate 'Accuracy' as 'Trustworthiness' or 'Reliability,' if those terms work better in your language. The 'Accuracy Check' is a noun; avoid translating this as an imperative command. Presearch does not verify accuracy by providing this feature; avoid any translation that implies Presearch or Presearch verification.">
         Accuracy Check
       </message>
     </then>
     <else>
-      <message name="IDS_ACCURACY_CHECK_VERBOSE_STATE" meaning="Text for feature that encourages the user to think about how accurate the content is" desc="This text appears in the  address bar chip, which states the title of the feature shown in the page info bubble below (see screenshot). With this feature, the user will see a reminder on the page they're visiting that encourages the user to think about how accurate the content is. You may translate 'Accuracy' as 'Trustworthiness' or 'Reliability,' if those terms work better in your language. The 'Accuracy Check' is a noun; avoid translating this as an imperative command. Brave does not verify accuracy by providing this feature; avoid any translation that implies Brave or Brave verification.">
+      <message name="IDS_ACCURACY_CHECK_VERBOSE_STATE" meaning="Text for feature that encourages the user to think about how accurate the content is" desc="This text appears in the  address bar chip, which states the title of the feature shown in the page info bubble below (see screenshot). With this feature, the user will see a reminder on the page they're visiting that encourages the user to think about how accurate the content is. You may translate 'Accuracy' as 'Trustworthiness' or 'Reliability,' if those terms work better in your language. The 'Accuracy Check' is a noun; avoid translating this as an imperative command. Presearch does not verify accuracy by providing this feature; avoid any translation that implies Presearch or Presearch verification.">
         Accuracy check
       </message>
     </else>
@@ -191,13 +191,13 @@
     Resume your journey
   </message>
   <message name="IDS_OMNIBOX_ACTION_HISTORY_CLUSTERS_SEARCH_SUGGESTION_CONTENTS" desc="The button tooltip for the History Clusters omnibox action. Clicking this button takes users to a view of their browsing history related to the attached suggestion.">
-    Resume your journey to see relevant activity in your Brave history
+    Resume your journey to see relevant activity in your Presearch history
   </message>
   <message name="IDS_ACC_OMNIBOX_ACTION_HISTORY_CLUSTERS_SEARCH_SUFFIX" desc="Suffix for spoken suggestion description with action button to explain keystroke used to Search History Clusters.">
-    <ph name="HISTORY_CLUSTERS_SEARCH_FOCUSED_FRIENDLY_MATCH_TEXT">$1<ex>dog food</ex></ph>, press Tab, then Enter to resume your journey and see relevant activity in your Brave history
+    <ph name="HISTORY_CLUSTERS_SEARCH_FOCUSED_FRIENDLY_MATCH_TEXT">$1<ex>dog food</ex></ph>, press Tab, then Enter to resume your journey and see relevant activity in your Presearch history
   </message>
   <message name="IDS_ACC_OMNIBOX_ACTION_HISTORY_CLUSTERS_SEARCH" desc="Announcement when the Search History Clusters action button is focused.">
-    Resume your journey button, press Enter to resume your journey and see relevant activity in your Brave history
+    Resume your journey button, press Enter to resume your journey and see relevant activity in your Presearch history
   </message>
 
   <!-- Accessibility labels for autocomplete match types.
@@ -296,19 +296,19 @@
 
   <!-- Site Search/Keyword mode Starter Pack strings. -->
   <message name="IDS_SEARCH_ENGINES_STARTER_PACK_BOOKMARKS_NAME" desc="The name of the chrome bookmarks search engine as it appears on chrome://settings/searchEngines">
-    Brave Bookmarks
+    Presearch Bookmarks
   </message>
   <message name="IDS_SEARCH_ENGINES_STARTER_PACK_BOOKMARKS_KEYWORD" desc="The keyword required to trigger bookmarks search in keyword mode. This will be prepended with an '@'.">
     Bookmarks
   </message>
   <message name="IDS_SEARCH_ENGINES_STARTER_PACK_HISTORY_NAME" desc="The name of the chrome history search engine as it appears on chrome://settings/searchEngines">
-    Brave History
+    Presearch History
   </message>
   <message name="IDS_SEARCH_ENGINES_STARTER_PACK_HISTORY_KEYWORD" desc="The keyword required to trigger history search in keyword mode. This will be prepended with an '@'.">
     History
   </message>
   <message name="IDS_SEARCH_ENGINES_STARTER_PACK_SETTINGS_NAME" desc="The name of the chrome settings search engine as it appears on chrome://settings/searchEngines">
-    Brave Settings
+    Presearch Settings
   </message>
   <message name="IDS_SEARCH_ENGINES_STARTER_PACK_SETTINGS_KEYWORD" desc="The keyword required to trigger settings search in keyword mode. This will be prepended with an '@'.">
     Settings

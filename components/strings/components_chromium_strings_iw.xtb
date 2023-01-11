@@ -2,12 +2,12 @@
 <!DOCTYPE translationbundle>
 <translationbundle lang="iw">
 <translation id="130631256467250065">השינויים ייכנסו לתוקף בפעם הבאה שהמכשיר יופעל מחדש.</translation>
-<translation id="7999989146447764333">‏דיווח על התרסקויות אינו זמין ב-Brave.</translation>
-<translation id="1953231710324290369">‏זהו דף מאובטח של Brave</translation>
-<translation id="4847979153841887006">‏לוגו של Brave</translation>
-<translation id="7932149101545999102">‏Brave קיים הודות לפרויקט הקוד הפתוח של <ph name="BEGIN_LINK_CHROMIUM"/> Brave‏<ph name="END_LINK_CHROMIUM"/> ו<ph name="BEGIN_LINK_OSS"/>תוכנות קוד פתוח<ph name="END_LINK_OSS"/> אחרות.</translation>
+<translation id="7999989146447764333">‏דיווח על התרסקויות אינו זמין ב-Presearch.</translation>
+<translation id="1953231710324290369">‏זהו דף מאובטח של Presearch</translation>
+<translation id="4847979153841887006">‏לוגו של Presearch</translation>
+<translation id="7932149101545999102">‏Presearch קיים הודות לפרויקט הקוד הפתוח של <ph name="BEGIN_LINK_CHROMIUM"/> Presearch‏<ph name="END_LINK_CHROMIUM"/> ו<ph name="BEGIN_LINK_OSS"/>תוכנות קוד פתוח<ph name="END_LINK_OSS"/> אחרות.</translation>
 <translation id="8746410156982274638">‏יש לעבור אל
-          תפריט Brave‏ &gt;
+          תפריט Presearch‏ &gt;
           <ph name="SETTINGS_TITLE"/>
           ‏&gt;
           <ph name="ADVANCED_TITLE"/>
@@ -16,21 +16,21 @@
           ‏&gt;
           הגדרות LAN
           ולבטל את הבחירה באפשרות "שימוש בשרת proxy עבור רשת LAN‏".</translation>
-<translation id="303960458633076466">‏הדף הזה נחסם על ידי Brave</translation>
-<translation id="2017237562285586622">‏שינוי הגדרות חומת האש או האנטי-וירוס כדי לאפשר ל-Brave
+<translation id="303960458633076466">‏הדף הזה נחסם על ידי Presearch</translation>
+<translation id="2017237562285586622">‏שינוי הגדרות חומת האש או האנטי-וירוס כדי לאפשר ל-Presearch
           לגשת לרשת.</translation>
 <translation id="2505647373045235387">‏ההגדרה הראשונית של ChromeOS לא הושלמה.</translation>
 <translation id="8619622797841001082">‏יש לעבור אל
-          תפריט Brave‏ &gt;
+          תפריט Presearch‏ &gt;
           <ph name="SETTINGS_TITLE"/>
           ‏&gt;
           <ph name="ADVANCED_TITLE"/>
           ‏&gt;
           <ph name="PROXIES_TITLE"/>
           ולבדוק שהתצורה שלך מוגדרת לאפשרות "ללא שרת proxy‏" או "ישיר".</translation>
-<translation id="9156965752763025780">‏השינויים שביצעת ייכנסו לתוקף בפעם הבאה שתפעיל מחדש את Brave‏.</translation>
+<translation id="9156965752763025780">‏השינויים שביצעת ייכנסו לתוקף בפעם הבאה שתפעיל מחדש את Presearch‏.</translation>
 <translation id="4068928808254189629">‏יש להיכנס אל
-        תפריט Brave &gt;
+        תפריט Presearch &gt;
         <ph name="SETTINGS_TITLE"/>
         &gt;
         <ph name="ADVANCED_TITLE"/>
@@ -40,5 +40,5 @@
 <translation id="8187289872471304532">‏יש לעבור אל
           'יישומים' &gt; 'העדפות מערכת' &gt; 'רשת' &gt; 'מתקדם' &gt; שרתי Proxy'
           ולבטל את הבחירה בשרתי proxy שנבחרו.</translation>
-<translation id="88187049159266777">‏כיבוי Brave לא בוצע כהלכה.</translation>
+<translation id="88187049159266777">‏כיבוי Presearch לא בוצע כהלכה.</translation>
 </translationbundle>

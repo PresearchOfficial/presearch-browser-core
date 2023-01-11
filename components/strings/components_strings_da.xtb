@@ -23,7 +23,7 @@
 <translation id="1055184225775184556">&amp;Fortryd tilføjelse</translation>
 <translation id="1056663316309890343">Fotosoftware</translation>
 <translation id="1056898198331236512">Advarsel</translation>
-<translation id="1248991947169346185"><ph name="PLAY_CHROME_DINO_GAME_FOCUSED_FRIENDLY_MATCH_TEXT"/> – tryk på Tab-tasten og derefter Enter for at starte Dino Run-spillet i Brave</translation>
+<translation id="1248991947169346185"><ph name="PLAY_CHROME_DINO_GAME_FOCUSED_FRIENDLY_MATCH_TEXT"/> – tryk på Tab-tasten og derefter Enter for at starte Dino Run-spillet i Presearch</translation>
 <translation id="1058479211578257048">Gemmer kort...</translation>
 <translation id="10614374240317010">Gemmes aldrig</translation>
 <translation id="1062160989074299343">Prc10 (Envelope)</translation>
@@ -40,7 +40,7 @@
 <translation id="1088860948719068836">Tilføj navn på kort</translation>
 <translation id="1089439967362294234">Skift adgangskode</translation>
 <translation id="1096545575934602868">Dette felt må ikke have mere end <ph name="MAX_ITEMS_LIMIT"/> poster. Alle yderligere poster kasseres.</translation>
-<translation id="7584468665743195331">Knappen Genoptag din søgning – tryk på Enter for at genoptage din søgning og se relevant aktivitet i din Brave-historik</translation>
+<translation id="7584468665743195331">Knappen Genoptag din søgning – tryk på Enter for at genoptage din søgning og se relevant aktivitet i din Presearch-historik</translation>
 <translation id="1101672080107056897">Fejlhandling</translation>
 <translation id="1103523840287552314">Oversæt altid <ph name="LANGUAGE"/></translation>
 <translation id="1110994991967754504">Vælg tilladelse til <ph name="PERMISSION_NAME"/></translation>
@@ -49,7 +49,7 @@
 <translation id="1123753900084781868">Livetekstning er ikke tilgængelig lige nu</translation>
 <translation id="1125573121925420732">Advarsler kan almindeligt forekomme, når websites opdaterer deres sikkerhed. Dette forbedres snart.</translation>
 <translation id="112840717907525620">Cache for politik er OK</translation>
-<translation id="3186248837008742887">Knappen Oversæt side – tryk på Enter for at oversætte denne side med Brave Oversæt</translation>
+<translation id="3186248837008742887">Knappen Oversæt side – tryk på Enter for at oversætte denne side med Presearch Oversæt</translation>
 <translation id="1131264053432022307">Billede, du har kopieret</translation>
 <translation id="1147769322402934017">Online billedgallerier</translation>
 <translation id="1150979032973867961">Denne server kunne ikke bevise, at den er <ph name="DOMAIN"/>, da operativsystemet på din computer ikke har tillid til sikkerhedscertifikatet. Dette kan skyldes en fejlkonfiguration, eller at en hacker har opfanget din forbindelse.</translation>
@@ -77,12 +77,12 @@ Ellers vil det blive blokeret af dine privatlivsindstillinger. Det giver det ind
 <translation id="1204602502194308272">Fisk og akvarier</translation>
 <translation id="1206967143813997005">Ugyldig første signatur</translation>
 <translation id="1209206284964581585">Skjul indtil videre</translation>
-<translation id="8250355499536962710">Knappen Opret formular, tryk på Enter for hurtigt at oprette en ny formular i Brave Analyse</translation>
+<translation id="8250355499536962710">Knappen Opret formular, tryk på Enter for hurtigt at oprette en ny formular i Presearch Analyse</translation>
 <translation id="121201262018556460">Du har forsøgt at få fat i <ph name="DOMAIN"/>, men serveren har præsenteret et certifikat med en svag nøgle. En hacker kan have knækket den private nøgle, og serveren er muligvis ikke den forventede server (du kommunikerer muligvis med en hacker).</translation>
 <translation id="1219129156119358924">Systemsikkerhed</translation>
 <translation id="1222060260947439312">Højre bakke</translation>
 <translation id="1225570101506606926">Billard</translation>
-<translation id="2735968720006267833">Brave finder rabatter til dig</translation>
+<translation id="2735968720006267833">Presearch finder rabatter til dig</translation>
 <translation id="1227224963052638717">Ukendt politik.</translation>
 <translation id="1228893227497259893">Forkert enheds-id</translation>
 <translation id="1232569758102978740">Unavngivet</translation>
@@ -92,8 +92,8 @@ Ellers vil det blive blokeret af dine privatlivsindstillinger. Det giver det ind
 <translation id="124116460088058876">Flere sprog</translation>
 <translation id="1243027604378859286">Forfatter:</translation>
 <translation id="1246424317317450637">Fed</translation>
-<translation id="1052005765108026699">Gem dit kort, dit navn og din faktureringsadresse på din Brave-konto for at betale hurtigere næste gang.</translation>
-<translation id="2900208483223661703">Knappen Opret regneark, tryk på Enter for hurtigt at oprette et nyt Brave-regneark</translation>
+<translation id="1052005765108026699">Gem dit kort, dit navn og din faktureringsadresse på din Presearch-konto for at betale hurtigere næste gang.</translation>
+<translation id="2900208483223661703">Knappen Opret regneark, tryk på Enter for hurtigt at oprette et nyt Presearch-regneark</translation>
 <translation id="1253921432148366685"><ph name="TYPE_1"/>, <ph name="TYPE_2"/> (synkroniseret)</translation>
 <translation id="1256368399071562588">&lt;p&gt;Hvis du forsøger at besøge et website, og det ikke åbnes, kan du starte med at prøve at rette fejlen med følgende fejlfindingstrin:&lt;/p&gt;
     &lt;ol&gt;
@@ -103,16 +103,16 @@ Ellers vil det blive blokeret af dine privatlivsindstillinger. Det giver det ind
     &lt;/ol&gt;</translation>
 <translation id="1257286744552378071">Du indtastede din adgangskode på et website, der ikke administreres af din organisation. Du kan beskytte din konto ved at undgå at bruge din adgangskode i andre apps og på andre websites.</translation>
 <translation id="1257553931232494454">zoomniveauer</translation>
-<translation id="8101828947363663989"><ph name="MANAGE_CHROME_SETTINGS_FOCUSED_FRIENDLY_MATCH_TEXT"/>, tryk på Tab-tasten efterfulgt af Enter for at administrere dine Brave-indstillinger</translation>
+<translation id="8101828947363663989"><ph name="MANAGE_CHROME_SETTINGS_FOCUSED_FRIENDLY_MATCH_TEXT"/>, tryk på Tab-tasten efterfulgt af Enter for at administrere dine Presearch-indstillinger</translation>
 <translation id="1263231323834454256">Læseliste</translation>
 <translation id="1264309058268477500">Alternativ</translation>
 <translation id="1264974993859112054">Sport</translation>
-<translation id="53564677632020212">Opret hurtigt et nyt website i Brave Sites</translation>
+<translation id="53564677632020212">Opret hurtigt et nyt website i Presearch Sites</translation>
 <translation id="1270502636509132238">Afhentningsmetode</translation>
 <translation id="1281476433249504884">Stabler 1</translation>
 <translation id="1285320974508926690">Oversæt aldrig dette website</translation>
 <translation id="1292571435393770077">Bakke 16</translation>
-<translation id="1209478311331937175">"Der er software på computeren, som forhindrer, at Brave kan oprette en sikker forbindelse til nettet" (kun Windows-computere)</translation>
+<translation id="1209478311331937175">"Der er software på computeren, som forhindrer, at Presearch kan oprette en sikker forbindelse til nettet" (kun Windows-computere)</translation>
 <translation id="1294154142200295408">Variationer i kommandolinjer</translation>
 <translation id="129553762522093515">Senest lukkede</translation>
 <translation id="1296930489679394997">Salg</translation>
@@ -130,7 +130,7 @@ Ellers vil det blive blokeret af dine privatlivsindstillinger. Det giver det ind
 <translation id="1323433172918577554">Se flere</translation>
 <translation id="132390688737681464">Gem og udfyld adresser</translation>
 <translation id="1330449323196174374">Portfals i venstre side</translation>
-<translation id="4274264486214599895">Spil Brave Dino-spillet</translation>
+<translation id="4274264486214599895">Spil Presearch Dino-spillet</translation>
 <translation id="1333989956347591814">Din aktivitet <ph name="BEGIN_EMPHASIS"/>er muligvis stadig synlig<ph name="END_EMPHASIS"/> for:
         <ph name="BEGIN_LIST"/>
           <ph name="LIST_ITEM"/>Websites, du besøger
@@ -202,7 +202,7 @@ Ellers vil det blive blokeret af dine privatlivsindstillinger. Det giver det ind
 <translation id="1492194039220927094">Underretning om politikker:</translation>
 <translation id="14938948731065592">Computerudstyr</translation>
 <translation id="1495677929897281669">Tilbage til fanen</translation>
-<translation id="1812569385220097122">Vis kort fra din Brave-konto</translation>
+<translation id="1812569385220097122">Vis kort fra din Presearch-konto</translation>
 <translation id="150536342253161096">Lokale nyheder</translation>
 <translation id="1507202001669085618">&lt;p&gt;Denne fejl vises, hvis du bruger en Wi-Fi-portal, hvor du skal logge ind, før du kan komme på nettet.&lt;/p&gt;
     &lt;p&gt;Du kan rette fejlen ved at klikke på &lt;strong&gt;Opret forbindelse&lt;/strong&gt; på den side, du forsøger at åbne.&lt;/p&gt;</translation>
@@ -211,7 +211,7 @@ Ellers vil det blive blokeret af dine privatlivsindstillinger. Det giver det ind
 <translation id="1517433312004943670">Telefonnummer er påkrævet</translation>
 <translation id="1519264250979466059">Versionsdato</translation>
 <translation id="1521159554480556801">Fiber- og tekstilkunst</translation>
-<translation id="5524011986660000129">Brave Sheets</translation>
+<translation id="5524011986660000129">Presearch Sheets</translation>
 <translation id="1527263332363067270">Venter på forbindelse…</translation>
 <translation id="1529521330346880926">10x15 (Envelope)</translation>
 <translation id="1529789484829130889">Bakke 8</translation>
@@ -225,7 +225,7 @@ Ellers vil det blive blokeret af dine privatlivsindstillinger. Det giver det ind
 <translation id="1549470594296187301">JavaScript skal være aktiveret, før du kan bruge denne funktion.</translation>
 <translation id="155039086686388498">Engineering-D</translation>
 <translation id="1551884710160394169">Freeware og shareware</translation>
-<translation id="1705567146636171298">Opdater Brave</translation>
+<translation id="1705567146636171298">Opdater Presearch</translation>
 <translation id="1555130319947370107">Blå</translation>
 <translation id="1559447966090556585">Vil du have notifikationer?</translation>
 <translation id="1559528461873125649">Filen eller mappen findes ikke</translation>
@@ -244,7 +244,7 @@ Ellers vil det blive blokeret af dine privatlivsindstillinger. Det giver det ind
 <translation id="1592005682883173041">Lokal dataadgang</translation>
 <translation id="1594030484168838125">Vælg</translation>
 <translation id="1596296697375291157">Thrillere, kriminal- og mysteriefilm</translation>
-<translation id="8523167061098356223">Spil Dino Run-spillet i Brave</translation>
+<translation id="8523167061098356223">Spil Dino Run-spillet i Presearch</translation>
 <translation id="161042844686301425">Cyan</translation>
 <translation id="1611101756749861742">Anden papirrulle</translation>
 <translation id="1615402009686901181">Administratorpolitikken deaktiverer screenshots, når fortroligt indhold er synligt</translation>
@@ -262,16 +262,16 @@ Ellers vil det blive blokeret af dine privatlivsindstillinger. Det giver det ind
 <translation id="1640244768702815859">Prøv at <ph name="BEGIN_LINK"/>gå til websitets startside<ph name="END_LINK"/>.</translation>
 <translation id="1641976391427233992">Forsink output indtil</translation>
 <translation id="164212631332220697">Betal med <ph name="CARD_DETAIL"/> ved kassen.</translation>
-<translation id="9108890623444393630">Knappen Skift Brave-adgangskode, tryk på Enter for at ændre adgangskoden til din Brave-konto</translation>
+<translation id="9108890623444393630">Knappen Skift Presearch-adgangskode, tryk på Enter for at ændre adgangskoden til din Presearch-konto</translation>
 <translation id="1644574205037202324">Historik</translation>
 <translation id="1645368109819982629">Ikke-understøttet protokol</translation>
-<translation id="1995056549836388472">Administrer dine Brave-indstillinger</translation>
+<translation id="1995056549836388472">Administrer dine Presearch-indstillinger</translation>
 <translation id="1652415888492971589">JIS B8</translation>
-<translation id="3848846802033604519">Brave har forenklet denne side for at gøre den nemmere at læse. Brave har hentet den oprindelige side via en sikker forbindelse.</translation>
+<translation id="3848846802033604519">Presearch har forenklet denne side for at gøre den nemmere at læse. Presearch har hentet den oprindelige side via en sikker forbindelse.</translation>
 <translation id="1656489000284462475">Afhentning</translation>
 <translation id="1658918301167915956">Bluetooth-enheder</translation>
 <translation id="1662550410081243962">Gem og udfyld betalingsmetoder</translation>
-<translation id="1838576226863399477">Kort og adresser stammer fra Brave. Du kan administrere dem i <ph name="BEGIN_LINK"/>Indstillinger<ph name="END_LINK"/>.</translation>
+<translation id="1838576226863399477">Kort og adresser stammer fra Presearch. Du kan administrere dem i <ph name="BEGIN_LINK"/>Indstillinger<ph name="END_LINK"/>.</translation>
 <translation id="1671391448414634642">Sider på <ph name="SOURCE_LANGUAGE"/> oversættes fremover til <ph name="TARGET_LANGUAGE"/>.</translation>
 <translation id="1674504678466460478"><ph name="SOURCE_LANGUAGE"/> til <ph name="TARGET_LANGUAGE"/></translation>
 <translation id="1682696192498422849">Kort kant først</translation>
@@ -321,8 +321,8 @@ Ellers vil det blive blokeret af dine privatlivsindstillinger. Det giver det ind
     websiteoperatorer til at konfigurere sikkerhed og andre egenskaber for et website.</translation>
 <translation id="1778646502362731194">JIS B0</translation>
 <translation id="1787142507584202372">Dine åbne faner vises her</translation>
-<translation id="3480410886581896628">Brave Smart Lock</translation>
-<translation id="8114214752558951503"><ph name="MANAGE_GOOGLE_ACCOUNT_FOCUSED_FRIENDLY_MATCH_TEXT"/>, tryk på Tab-tasten efterfulgt af Enter for hurtigt at administrere dine oplysninger, dit privatliv og beskyttelsen på din Brave-konto</translation>
+<translation id="3480410886581896628">Presearch Smart Lock</translation>
+<translation id="8114214752558951503"><ph name="MANAGE_GOOGLE_ACCOUNT_FOCUSED_FRIENDLY_MATCH_TEXT"/>, tryk på Tab-tasten efterfulgt af Enter for hurtigt at administrere dine oplysninger, dit privatliv og beskyttelsen på din Presearch-konto</translation>
 <translation id="1798447301915465742"><ph name="MULTIPLE_ACTIONS_FOCUSED_FRIENDLY_MATCH_TEXT"/>, flere handlinger er tilgængelige, tryk på Tab-tasten for at gennemse dem</translation>
 <translation id="1800473098294731951">B9</translation>
 <translation id="1803020234906945288">Sund kost</translation>
@@ -349,7 +349,7 @@ Ellers vil det blive blokeret af dine privatlivsindstillinger. Det giver det ind
 <translation id="1871284979644508959">Skal udfyldes</translation>
 <translation id="1873899211667975540">Rockmusik</translation>
 <translation id="1875025161375567525">Fotobakke</translation>
-<translation id="85321348617848915">Brave Analyse</translation>
+<translation id="85321348617848915">Presearch Analyse</translation>
 <translation id="187918866476621466">Åbn opstartssider</translation>
 <translation id="1883255238294161206">Skjul liste</translation>
 <translation id="1884843295353628214">Jazz</translation>
@@ -357,7 +357,7 @@ Ellers vil det blive blokeret af dine privatlivsindstillinger. Det giver det ind
 <translation id="1898423065542865115">Filtrering</translation>
 <translation id="1901443836186977402">{1,plural, =1{Denne server kunne ikke bevise, at den er <ph name="DOMAIN"/>, da sikkerhedscertifikatet udløb inden for det seneste døgn. Dette kan skyldes en fejlkonfiguration, eller at en hacker har opfanget din forbindelse. Din computers ur er i øjeblikket indstillet til <ph name="CURRENT_DATE"/>. Er det korrekt? Hvis ikke, skal du indstille uret korrekt og derefter opdatere denne side.}one{Denne server kunne ikke bevise, at den er <ph name="DOMAIN"/>, da sikkerhedscertifikatet udløb for # dag siden. Dette kan skyldes en fejlkonfiguration, eller at en hacker har opfanget din forbindelse. Uret på din computer er indstillet til <ph name="CURRENT_DATE"/>. Er det korrekt? Hvis ikke, skal du indstille uret korrekt og opdatere denne side.}other{Denne server kunne ikke bevise, at den er <ph name="DOMAIN"/>, da sikkerhedscertifikatet udløb for # dage siden. Dette kan skyldes en fejlkonfiguration, eller at en hacker har opfanget din forbindelse. Uret på din computer er indstillet til <ph name="CURRENT_DATE"/>. Er det korrekt? Hvis ikke, skal du indstille uret korrekt og opdatere denne side.}}</translation>
 <translation id="1902576642799138955">Gyldighedsperiode</translation>
-<translation id="6932104141210291380">Knappen Opret note, tryk på Enter for hurtigt at oprette en ny note i Brave Keep</translation>
+<translation id="6932104141210291380">Knappen Opret note, tryk på Enter for hurtigt at oprette en ny note i Presearch Keep</translation>
 <translation id="1908217026282415406">Kamerabrug og -bevægelse</translation>
 <translation id="191374271204266022">Kopiér som JSON</translation>
 <translation id="1914326953223720820">Udpakningstjeneste</translation>
@@ -367,13 +367,13 @@ Ellers vil det blive blokeret af dine privatlivsindstillinger. Det giver det ind
 <translation id="1919367280705858090">Få hjælp til en specifik fejlmeddelelse</translation>
 <translation id="192020519938775529">{COUNT,plural, =0{Ingen}=1{1 website}one{# website}other{# websites}}</translation>
 <translation id="1924727005275031552">Ny</translation>
-<translation id="2926892173992041302">Knappen "Kør Brave-sikkerhedstjek" – tryk på Enter for at køre sikkerhedstjekket i Brave-indstillingerne</translation>
+<translation id="2926892173992041302">Knappen "Kør Presearch-sikkerhedstjek" – tryk på Enter for at køre sikkerhedstjekket i Presearch-indstillingerne</translation>
 <translation id="1939175642807587452">Websitet kan anmode om tilladelse til at sende notifikationer</translation>
 <translation id="1943994668912612445">Design</translation>
 <translation id="1947454675006758438">Hæftning øverst til højre</translation>
 <translation id="1956486093533522234">Find, beskyt og ryd din enhed</translation>
 <translation id="1958218078413065209">Din rekord er <ph name="SCORE"/>.</translation>
-<translation id="990584554013599191">Hjælp med at forbedre sikkerheden på nettet for alle brugere ved at sende <ph name="BEGIN_WHITEPAPER_LINK"/>webadresserne for nogle af de sider, du besøger, begrænsede systemoplysninger og noget sideindhold<ph name="END_WHITEPAPER_LINK"/> til Brave. <ph name="BEGIN_PRIVACY_PAGE_LINK"/>Privatlivspolitik<ph name="END_PRIVACY_PAGE_LINK"/></translation>
+<translation id="990584554013599191">Hjælp med at forbedre sikkerheden på nettet for alle brugere ved at sende <ph name="BEGIN_WHITEPAPER_LINK"/>webadresserne for nogle af de sider, du besøger, begrænsede systemoplysninger og noget sideindhold<ph name="END_WHITEPAPER_LINK"/> til Presearch. <ph name="BEGIN_PRIVACY_PAGE_LINK"/>Privatlivspolitik<ph name="END_PRIVACY_PAGE_LINK"/></translation>
 <translation id="1962204205936693436">Bogmærker fra <ph name="DOMAIN"/></translation>
 <translation id="1973335181906896915">Serialiseringsfejl</translation>
 <translation id="1974060860693918893">Avanceret</translation>
@@ -389,8 +389,8 @@ Ellers vil det blive blokeret af dine privatlivsindstillinger. Det giver det ind
 <translation id="2001146170449793414">{COUNT,plural, =1{og 1 mere}one{og # mere}other{og # mere}}</translation>
 <translation id="2003709556000175978">Nulstil din adgangskode nu</translation>
 <translation id="2003775180883135320">Fire huller øverst</translation>
-<translation id="2342444980304536062">Administrer tilladelser og data, der gemmes på websites, i Brave-indstillingerne</translation>
-<translation id="6955198705411680473">Knappen "Administrer indstillinger for hjælpefunktioner" – tryk på Enter for at tilpasse dine hjælpefunktioner i Brave-indstillingerne</translation>
+<translation id="2342444980304536062">Administrer tilladelser og data, der gemmes på websites, i Presearch-indstillingerne</translation>
+<translation id="6955198705411680473">Knappen "Administrer indstillinger for hjælpefunktioner" – tryk på Enter for at tilpasse dine hjælpefunktioner i Presearch-indstillingerne</translation>
 <translation id="2025115093177348061">Augmented reality</translation>
 <translation id="2025186561304664664">Proxyen konfigureres automatisk.</translation>
 <translation id="2025891858974379949">Usikkert indhold</translation>
@@ -400,7 +400,7 @@ Ellers vil det blive blokeret af dine privatlivsindstillinger. Det giver det ind
 <translation id="2036983605131262583">Alternativ papirrulle</translation>
 <translation id="2040894699575719559">Stedet er blokeret</translation>
 <translation id="2042213636306070719">Bakke 7</translation>
-<translation id="3163988908275223348">Log ind for at bruge de adgangskoder, du har gemt på din Brave-konto</translation>
+<translation id="3163988908275223348">Log ind for at bruge de adgangskoder, du har gemt på din Presearch-konto</translation>
 <translation id="205212645995975601">Grill</translation>
 <translation id="2053111141626950936">Sider på <ph name="LANGUAGE"/> oversættes ikke.</translation>
 <translation id="2053553514270667976">Postnummer</translation>
@@ -413,7 +413,7 @@ Ellers vil det blive blokeret af dine privatlivsindstillinger. Det giver det ind
 <translation id="20817612488360358">Indstillingerne for systemproxy er angivet at blive brugt, men en eksplicit proxykonfiguration er også angivet.</translation>
 <translation id="2082238445998314030">Resultat <ph name="RESULT_NUMBER"/> af <ph name="TOTAL_RESULTS"/></translation>
 <translation id="2085876078937250610">Gem…</translation>
-<translation id="7333248841044450790">Knappen Administrer synkronisering – tryk på Enter for at administrere, hvilke oplysninger der skal synkroniseres, i Brave-indstillingerne</translation>
+<translation id="7333248841044450790">Knappen Administrer synkronisering – tryk på Enter for at administrere, hvilke oplysninger der skal synkroniseres, i Presearch-indstillingerne</translation>
 <translation id="2091887806945687916">Lyd</translation>
 <translation id="2094505752054353250">Uoverensstemmelse mellem domæner</translation>
 <translation id="2096368010154057602">Afdeling</translation>
@@ -453,7 +453,7 @@ Ellers vil det blive blokeret af dine privatlivsindstillinger. Det giver det ind
 <translation id="2185836064961771414">Amerikansk fodbold</translation>
 <translation id="2187317261103489799">Registrer (standardindstilling)</translation>
 <translation id="2188375229972301266">Flere huller nederst</translation>
-<translation id="2257044501874719257">Den adgangskode, du lige har brugt, er blevet lækket i forbindelse med et brud på datasikkerheden. For at beskytte dine konti anbefaler Brave Adgangskodeadministrator, at du ændrer det nu og derefter tjekker dine gemte adgangskoder.</translation>
+<translation id="2257044501874719257">Den adgangskode, du lige har brugt, er blevet lækket i forbindelse med et brud på datasikkerheden. For at beskytte dine konti anbefaler Presearch Adgangskodeadministrator, at du ændrer det nu og derefter tjekker dine gemte adgangskoder.</translation>
 <translation id="219906046732893612">Boligforbedringer</translation>
 <translation id="2202020181578195191">Angiv et gyldigt udløbsår</translation>
 <translation id="22081806969704220">Bakke 3</translation>
@@ -490,7 +490,7 @@ Ellers vil det blive blokeret af dine privatlivsindstillinger. Det giver det ind
 <translation id="2293443924986248631">Når denne indstilling er aktiveret, kan websites ikke anvende cookies, der sporer din aktivitet på nettet. Funktioner på visse websites virker muligvis ikke.</translation>
 <translation id="2295290966866883927">Webadresserne for de sider, du besøger, sendes til Google Cloud eller tredjeparter, hvor de analyseres. De kan f.eks. undersøge, om nogen af de tilhørende websites er usikre.</translation>
 <translation id="2297722699537546652">B5 (Envelope)</translation>
-<translation id="2144551375735610273">Knappen Administrer cookies – tryk på Enter for at administrere dine cookiepræferencer i Brave-indstillingerne</translation>
+<translation id="2144551375735610273">Knappen Administrer cookies – tryk på Enter for at administrere dine cookiepræferencer i Presearch-indstillingerne</translation>
 <translation id="2300306941146563769">Ikke uploadet</translation>
 <translation id="2310021320168182093">Chou2 (Envelope)</translation>
 <translation id="2316159751672436664">Tilpas dine hjælpefunktioner i Chrome OS-indstillingerne</translation>
@@ -508,7 +508,7 @@ Ellers vil det blive blokeret af dine privatlivsindstillinger. Det giver det ind
 <translation id="2346319942568447007">Billede, du har kopieret</translation>
 <translation id="2350796302381711542">Vil du tillade, at <ph name="HANDLER_HOSTNAME"/> åbner alle <ph name="PROTOCOL"/>-links i stedet for <ph name="REPLACED_HANDLER_TITLE"/>?</translation>
 <translation id="2354001756790975382">Andre bogmærker</translation>
-<translation id="2354430244986887761">Brave Beskyttet browsing har for nylig <ph name="BEGIN_LINK"/>fundet skadelige apps<ph name="END_LINK"/> på <ph name="SITE"/>.</translation>
+<translation id="2354430244986887761">Presearch Beskyttet browsing har for nylig <ph name="BEGIN_LINK"/>fundet skadelige apps<ph name="END_LINK"/> på <ph name="SITE"/>.</translation>
 <translation id="2355395290879513365">Hackere kan muligvis se de billeder, du kigger på på dette website, og narre dig ved at ændre dem.</translation>
 <translation id="2356070529366658676">Spørg</translation>
 <translation id="2357481397660644965">Din enhed administreres af <ph name="DEVICE_MANAGER"/>, og din konto administreres af <ph name="ACCOUNT_MANAGER"/>.</translation>
@@ -518,9 +518,9 @@ Ellers vil det blive blokeret af dine privatlivsindstillinger. Det giver det ind
 <translation id="236340516568226369">Menu med skydeknapper til tilpasning af størrelse</translation>
 <translation id="2367567093518048410">Niveau</translation>
 <translation id="2380886658946992094">Legal</translation>
-<translation id="5475992123321966556">Tilpas dine hjælpefunktioner i Brave-indstillingerne</translation>
+<translation id="5475992123321966556">Tilpas dine hjælpefunktioner i Presearch-indstillingerne</translation>
 <translation id="2384307209577226199">Virksomhedsstandard</translation>
-<translation id="5244533701344680487">Opdater Brave i dine Brave-indstillinger</translation>
+<translation id="5244533701344680487">Opdater Presearch i dine Presearch-indstillinger</translation>
 <translation id="2386255080630008482">Serverens certifikat er blevet tilbagekaldt.</translation>
 <translation id="239293030466334554">Cabrioleter</translation>
 <translation id="2392959068659972793">Vis politikker uden nogen værdier</translation>
@@ -532,7 +532,7 @@ Ellers vil det blive blokeret af dine privatlivsindstillinger. Det giver det ind
 <translation id="2413155254802890957">Gammel</translation>
 <translation id="2413528052993050574">Denne server kunne ikke bevise, at den er <ph name="DOMAIN"/>, da sikkerhedscertifikatet muligvis er blevet tilbagekaldt. Dette kan skyldes en fejlkonfiguration, eller at en hacker har opfanget din forbindelse.</translation>
 <translation id="2414886740292270097">Mørk</translation>
-<translation id="2089192652156377984">Administrer Brave-konto, tryk på Enter for at administrere dine oplysninger, dit privatliv og beskyttelsen på din Brave-konto</translation>
+<translation id="2089192652156377984">Administrer Presearch-konto, tryk på Enter for at administrere dine oplysninger, dit privatliv og beskyttelsen på din Presearch-konto</translation>
 <translation id="2436186046335138073">Vil du tillade, at <ph name="HANDLER_HOSTNAME"/> åbner alle <ph name="PROTOCOL"/>-links?</translation>
 <translation id="2438874542388153331">Fire huller i højre side</translation>
 <translation id="2448295565072560657">Eksterne enheder, der er tilsluttet denne enhed, mens du er logget ind</translation>
@@ -541,7 +541,7 @@ Ellers vil det blive blokeret af dine privatlivsindstillinger. Det giver det ind
 <translation id="2465402087343596252">Architecture-E</translation>
 <translation id="2465655957518002998">Vælg leveringsmetode</translation>
 <translation id="2465688316154986572">Hæftning</translation>
-<translation id="4058615531773510267">Administrer de filer, du har downloadet i Brave</translation>
+<translation id="4058615531773510267">Administrer de filer, du har downloadet i Presearch</translation>
 <translation id="2466004615675155314">Se oplysninger fra nettet</translation>
 <translation id="2467272921457885625">Enhedens hardwarespecifikationer og statistik som f.eks. brugshistorik for CPU/RAM</translation>
 <translation id="2467694685043708798"><ph name="BEGIN_LINK"/>Køre Netværksdiagnosticering<ph name="END_LINK"/></translation>
@@ -559,7 +559,7 @@ Ellers vil det blive blokeret af dine privatlivsindstillinger. Det giver det ind
 <translation id="2505268675989099013">Beskyt konto</translation>
 <translation id="2509167091171468975">Forhandlere af købmandsvarer og mad</translation>
 <translation id="2512101340618156538">Ikke tilladt (standard)</translation>
-<translation id="3233967599412104589">Knappen Angiv Brave som standardbrowser, tryk på Enter for at angive Brave som systemets standardbrowser i iOS-indstillingerne</translation>
+<translation id="3233967599412104589">Knappen Angiv Presearch som standardbrowser, tryk på Enter for at angive Presearch som systemets standardbrowser i iOS-indstillingerne</translation>
 <translation id="2515629240566999685">Tjekke signalet i dit område</translation>
 <translation id="2521385132275182522">Hæftning nederst til højre</translation>
 <translation id="2521736961081452453">Opret formular</translation>
@@ -573,7 +573,7 @@ Ellers vil det blive blokeret af dine privatlivsindstillinger. Det giver det ind
 <translation id="2542106216580219892">Surfing</translation>
 <translation id="2544546346215446551">Administratoren har genstartet din enhed</translation>
 <translation id="2544644783021658368">Enkelt dokument</translation>
-<translation id="5342827302598046226">Angiv Brave som standardbrowser</translation>
+<translation id="5342827302598046226">Angiv Presearch som standardbrowser</translation>
 <translation id="2546283357679194313">Cookies og websitedata</translation>
 <translation id="2547466893236767989">Webdesign og -udvikling</translation>
 <translation id="254947805923345898">Værdien for politikken er ikke gyldig.</translation>
@@ -588,7 +588,7 @@ Ellers vil det blive blokeret af dine privatlivsindstillinger. Det giver det ind
 <translation id="2570734079541893434">Administrer indstillinger</translation>
 <translation id="2573834589046842510">Tryk og udgivelse</translation>
 <translation id="257674075312929031">Gruppe</translation>
-<translation id="1447512280692323528">Knappen "Administrer sikkerhedsindstillinger" – tryk på Enter for at administrere Beskyttet browsing m.m. i Brave-indstillingerne</translation>
+<translation id="1447512280692323528">Knappen "Administrer sikkerhedsindstillinger" – tryk på Enter for at administrere Beskyttet browsing m.m. i Presearch-indstillingerne</translation>
 <translation id="2586657967955657006">Udklipsholder</translation>
 <translation id="2587730715158995865">Fra <ph name="ARTICLE_PUBLISHER"/>. Læs denne og <ph name="OTHER_ARTICLE_COUNT"/> andre historier.</translation>
 <translation id="2587841377698384444">Id for Directory API:</translation>
@@ -604,14 +604,14 @@ Ellers vil det blive blokeret af dine privatlivsindstillinger. Det giver det ind
 <translation id="2623663032199728144">Kan anmode om at bruge oplysninger om dine skærme</translation>
 <translation id="2625385379895617796">Dit ur er foran</translation>
 <translation id="262745152991669301">Websitet kan anmode om tilladelse til at oprette forbindelse til USB-enheder</translation>
-<translation id="2915787201097107005"><ph name="BEGIN_ENHANCED_PROTECTION_LINK"/>Aktivér forbedret beskyttelse<ph name="END_ENHANCED_PROTECTION_LINK"/> for at få Braves højeste sikkerhedsniveau</translation>
+<translation id="2915787201097107005"><ph name="BEGIN_ENHANCED_PROTECTION_LINK"/>Aktivér forbedret beskyttelse<ph name="END_ENHANCED_PROTECTION_LINK"/> for at få Presearchs højeste sikkerhedsniveau</translation>
 <translation id="2634124572758952069">IP-adressen på serveren for <ph name="HOST_NAME"/> blev ikke fundet.</translation>
 <translation id="2639739919103226564">Status:</translation>
 <translation id="2643134278432436513">Hårpleje</translation>
 <translation id="2647852283046201479">Strategispil</translation>
 <translation id="264810637653812429">Der blev ikke fundet nogen kompatible enheder.</translation>
 <translation id="2649204054376361687"><ph name="CITY"/>, <ph name="COUNTRY"/></translation>
-<translation id="9078005688100552065"><ph name="CLEAR_BROWSING_DATA_FOCUSED_FRIENDLY_MATCH_TEXT"/>, tryk på Tab-tasten efterfulgt af Enter for at rydde browserhistorik, cookies, cache m.m. i Brave-indstillingerne</translation>
+<translation id="9078005688100552065"><ph name="CLEAR_BROWSING_DATA_FOCUSED_FRIENDLY_MATCH_TEXT"/>, tryk på Tab-tasten efterfulgt af Enter for at rydde browserhistorik, cookies, cache m.m. i Presearch-indstillingerne</translation>
 <translation id="2650446666397867134">Der blev nægtet adgang til filen</translation>
 <translation id="2653659639078652383">Send</translation>
 <translation id="2660779039299703961">Hændelse</translation>
@@ -638,10 +638,10 @@ Ellers vil det blive blokeret af dine privatlivsindstillinger. Det giver det ind
 <translation id="2705137772291741111">Den gemte (cachelagrede) kopi af dette website kunne ikke læses.</translation>
 <translation id="2709516037105925701">AutoFyld</translation>
 <translation id="2713444072780614174">Hvid</translation>
-<translation id="4131157740532436004"><ph name="UPDATE_CREDIT_CARD_FOCUSED_FRIENDLY_MATCH_TEXT"/> – tryk på Tab-tasten efterfulgt af Enter for at administrere oplysninger om dine betalinger og betalingskort i Brave-indstillingerne</translation>
+<translation id="4131157740532436004"><ph name="UPDATE_CREDIT_CARD_FOCUSED_FRIENDLY_MATCH_TEXT"/> – tryk på Tab-tasten efterfulgt af Enter for at administrere oplysninger om dine betalinger og betalingskort i Presearch-indstillingerne</translation>
 <translation id="271663710482723385">Tryk på |<ph name="ACCELERATOR1"/>| + |<ph name="ACCELERATOR2"/>| for at afslutte visning i fuld skærm</translation>
 <translation id="2721148159707890343">Anmodning lykkedes</translation>
-<translation id="4054726005361352357">Kør et sikkerhedstjek i Brave-indstillingerne</translation>
+<translation id="4054726005361352357">Kør et sikkerhedstjek i Presearch-indstillingerne</translation>
 <translation id="2726001110728089263">Sidebakke</translation>
 <translation id="2728127805433021124">Serverens certifikat er signeret ved hjælp af en svag signaturalgoritme.</translation>
 <translation id="2730326759066348565"><ph name="BEGIN_LINK"/>Køre Diagnosticering af forbindelse<ph name="END_LINK"/></translation>
@@ -661,7 +661,7 @@ Ellers vil det blive blokeret af dine privatlivsindstillinger. Det giver det ind
 <translation id="2792012897584536778">Administratorer for denne enhed har konfigureret sikkerhedscertifikater, som muligvis giver dem mulighed for at se indholdet af de websites, du besøger.</translation>
 <translation id="2799020568854403057">Det website, du er på vej til, indeholder skadelige apps</translation>
 <translation id="2799223571221894425">Genstart</translation>
-<translation id="2803306138276472711">Brave Beskyttet browsing <ph name="BEGIN_LINK"/>registrerede malware<ph name="END_LINK"/> på <ph name="SITE"/>. Websites, der normalt er sikre, bliver undertiden inficeret med malware.</translation>
+<translation id="2803306138276472711">Presearch Beskyttet browsing <ph name="BEGIN_LINK"/>registrerede malware<ph name="END_LINK"/> på <ph name="SITE"/>. Websites, der normalt er sikre, bliver undertiden inficeret med malware.</translation>
 <translation id="2807052079800581569">Billedposition Y</translation>
 <translation id="2820957248982571256">Scanner…</translation>
 <translation id="2824775600643448204">Adresse og søgelinje</translation>
@@ -676,7 +676,7 @@ Ellers vil det blive blokeret af dine privatlivsindstillinger. Det giver det ind
 <translation id="286512204874376891">Et virtuelt kort skjuler dit faktiske kort og beskytter dig på den måde mod potentiel svindel. <ph name="IDS_AUTOFILL_VIRTUAL_CARD_ENROLLMENT_LEARN_MORE_LINK_LABEL"/></translation>
 <translation id="287596039013813457">Afslappet</translation>
 <translation id="28761159517501904">Film</translation>
-<translation id="1117301625415017890"><ph name="MANAGE_SECURITY_SETTINGS_FOCUSED_FRIENDLY_MATCH_TEXT"/>– tryk på Tab-tasten efterfulgt af Enter for at administrere Beskyttet browsing m.m. i Brave-indstillingerne</translation>
+<translation id="1117301625415017890"><ph name="MANAGE_SECURITY_SETTINGS_FOCUSED_FRIENDLY_MATCH_TEXT"/>– tryk på Tab-tasten efterfulgt af Enter for at administrere Beskyttet browsing m.m. i Presearch-indstillingerne</translation>
 <translation id="2878197950673342043">Plakatfals</translation>
 <translation id="2878424575911748999">A1</translation>
 <translation id="2880660355386638022">Placering af vinduer</translation>
@@ -704,7 +704,7 @@ Ellers vil det blive blokeret af dine privatlivsindstillinger. Det giver det ind
 <translation id="2943895734390379394">Tidspunkt for upload:</translation>
 <translation id="2945026002409061480">Online fællesskaber</translation>
 <translation id="2948083400971632585">Du kan deaktivere alle proxyer, der er konfigureret for en forbindelse, fra siden Indstillinger.</translation>
-<translation id="3955566820843143766">Ignoreret, fordi maskinen ikke er tilmeldt via Skybaseret administration af Brave-browseren.</translation>
+<translation id="3955566820843143766">Ignoreret, fordi maskinen ikke er tilmeldt via Skybaseret administration af Presearch-browseren.</translation>
 <translation id="2951588413176968965">Min postkasse</translation>
 <translation id="295526156371527179">Advarsel! Denne politik blev ikke flettet som en ordbog som angivet af politikken, da den ikke er en ordbog.</translation>
 <translation id="2955913368246107853">Luk søgefeltet</translation>
@@ -736,13 +736,13 @@ Ellers vil det blive blokeret af dine privatlivsindstillinger. Det giver det ind
 <translation id="3029752078111257850">Udenrigsnyheder</translation>
 <translation id="3037605927509011580">Øv, surt!</translation>
 <translation id="3041612393474885105">Certifikatoplysninger</translation>
-<translation id="8418829431154568330">Historik for Brave Fjernskrivebord, herunder tidsstempler, hosts og id'er for klientsessioner</translation>
+<translation id="8418829431154568330">Historik for Presearch Fjernskrivebord, herunder tidsstempler, hosts og id'er for klientsessioner</translation>
 <translation id="3060227939791841287">C9 (Envelope)</translation>
 <translation id="3061707000357573562">Tjeneste til programrettelse</translation>
 <translation id="306573536155379004">Spillet er startet.</translation>
 <translation id="3068991664510324412">Computer- og videospil</translation>
 <translation id="3080254622891793721">Grafik</translation>
-<translation id="254030672859277244">Lad Brave bruge dine kurve til at finde tilpassede rabatter, når sådanne er tilgængelige</translation>
+<translation id="254030672859277244">Lad Presearch bruge dine kurve til at finde tilpassede rabatter, når sådanne er tilgængelige</translation>
 <translation id="3086579638707268289">Din aktivitet på nettet overvåges</translation>
 <translation id="3087734570205094154">Bund</translation>
 <translation id="3095940652251934233">Erklæring</translation>
@@ -781,7 +781,7 @@ Ellers vil det blive blokeret af dine privatlivsindstillinger. Det giver det ind
 <translation id="3194737229810486521"><ph name="URL"/> anmoder om at gemme data permanent på din enhed</translation>
 <translation id="3195213714973468956"><ph name="PRINTER_NAME"/> på <ph name="SERVER_NAME"/></translation>
 <translation id="3197136577151645743">Websitet kan anmode om tilladelse til at blive underrettet, når du aktivt bruger din enhed</translation>
-<translation id="6629751330289763215"><ph name="MANAGE_SYNC_FOCUSED_FRIENDLY_MATCH_TEXT"/>, tryk på Tab-tasten efterfulgt af Enter for at administrere, hvilke oplysninger der skal synkroniseres, i Brave-indstillingerne</translation>
+<translation id="6629751330289763215"><ph name="MANAGE_SYNC_FOCUSED_FRIENDLY_MATCH_TEXT"/>, tryk på Tab-tasten efterfulgt af Enter for at administrere, hvilke oplysninger der skal synkroniseres, i Presearch-indstillingerne</translation>
 <translation id="320323717674993345">Annuller betaling</translation>
 <translation id="3203366800380907218">Fra nettet</translation>
 <translation id="3207960819495026254">Gemt som bogmærke</translation>
@@ -802,15 +802,15 @@ Ellers vil det blive blokeret af dine privatlivsindstillinger. Det giver det ind
 <translation id="3240683217920639535"><ph name="MANAGE_CHROME_THEMES_FOCUSED_FRIENDLY_MATCH_TEXT"/>– tryk på Tab-tasten efterfulgt af Enter for at tilpasse din browsers udseende</translation>
 <translation id="3240791268468473923">Regneark uden matchende loginoplysninger til sikker betaling er åbent</translation>
 <translation id="324180406144491771">"<ph name="HOST_NAME"/>"-links er blokeret</translation>
-<translation id="5195034764845981810">Dette website definerer interesser, som andre websites kan bruge til at vise dig annoncer. Dette website henter også dine interesser fra Brave og bruger dem til at vise dig mere relevante annoncer.</translation>
+<translation id="5195034764845981810">Dette website definerer interesser, som andre websites kan bruge til at vise dig annoncer. Dette website henter også dine interesser fra Presearch og bruger dem til at vise dig mere relevante annoncer.</translation>
 <translation id="3249151924975132674">Studielån og uddannelsesfinansiering</translation>
 <translation id="3249845759089040423">Groovy</translation>
 <translation id="3250640885957938546">Reklame og marketing</translation>
 <translation id="3252266817569339921">Fransk</translation>
 <translation id="3256863843508922226">Fratrædelse og pension</translation>
-<translation id="6900454207575412115"><ph name="CREATE_GOOGLE_CALENDAR_EVENT_FOCUSED_FRIENDLY_MATCH_TEXT"/>, tryk på Tab-tasten efterfulgt af Enter for hurtigt at oprette en ny begivenhed i Brave Kalender</translation>
+<translation id="6900454207575412115"><ph name="CREATE_GOOGLE_CALENDAR_EVENT_FOCUSED_FRIENDLY_MATCH_TEXT"/>, tryk på Tab-tasten efterfulgt af Enter for hurtigt at oprette en ny begivenhed i Presearch Kalender</translation>
 <translation id="3261488570342242926">Få flere oplysninger om virtuelle kort</translation>
-<translation id="3893393287627341086">Knappen Administrer Brave-indstillinger, tryk på Enter for at gå til dine Brave-indstillinger</translation>
+<translation id="3893393287627341086">Knappen Administrer Presearch-indstillinger, tryk på Enter for at gå til dine Presearch-indstillinger</translation>
 <translation id="3266793032086590337">Værdi (modstridende)</translation>
 <translation id="3268451620468152448">Åbne faner</translation>
 <translation id="3270156322180235608">Flyrejser</translation>
@@ -823,7 +823,7 @@ Ellers vil det blive blokeret af dine privatlivsindstillinger. Det giver det ind
 <translation id="3287510313208355388">Download, når du er online</translation>
 <translation id="3288238092761586174"><ph name="URL"/> er muligvis nødt til at gennemføre yderligere trin for at bekræfte din betaling</translation>
 <translation id="3293642807462928945">Få flere oplysninger om politikken <ph name="POLICY_NAME"/></translation>
-<translation id="5894665462526421022">Se og administrer dine adgangskoder i Brave-indstillingerne</translation>
+<translation id="5894665462526421022">Se og administrer dine adgangskoder i Presearch-indstillingerne</translation>
 <translation id="3303855915957856445">Der blev ikke fundet nogen søgeresultater</translation>
 <translation id="3304073249511302126">Bluetooth-scanning</translation>
 <translation id="33073482541490531">Den adgangskode, du lige har brugt, er blevet lækket i forbindelse med et brud på datasikkerheden. Adgangskodeadministrator anbefaler, at du ændrer denne adgangskode nu.</translation>
@@ -847,12 +847,12 @@ Ellers vil det blive blokeret af dine privatlivsindstillinger. Det giver det ind
 <translation id="3366477098757335611">Se kort</translation>
 <translation id="3369192424181595722">Urfejl</translation>
 <translation id="3369459162151165748">Dele og tilbehør til biler</translation>
-<translation id="2273851479262317744">Angiv Brave som standardbrowser</translation>
+<translation id="2273851479262317744">Angiv Presearch som standardbrowser</translation>
 <translation id="3371076217486966826"><ph name="URL"/> vil gerne:
       • Oprette et 3D-kort over dine omgivelser og registrere kamerapositionen
       • Anvende dit kamera</translation>
 <translation id="337363190475750230">Deprovisioneret</translation>
-<translation id="7740652748540081864">Kør Brave-sikkerhedstjek</translation>
+<translation id="7740652748540081864">Kør Presearch-sikkerhedstjek</translation>
 <translation id="3377144306166885718">Serveren benyttede en forældet version af TSL.</translation>
 <translation id="3377188786107721145">Det opstod en fejl ved parsing af politik</translation>
 <translation id="3377736046129930310">Brug skærmlåsen til at bekræfte kort hurtigere</translation>
@@ -879,7 +879,7 @@ Ellers vil det blive blokeret af dine privatlivsindstillinger. Det giver det ind
 <translation id="3431636764301398940">Gem dette kort på denne enhed</translation>
 <translation id="3432601291244612633">Luk side</translation>
 <translation id="3435738964857648380">Sikkerhed</translation>
-<translation id="4527130811319726464">Brug de adgangskoder, der er gemt på din Brave-konto</translation>
+<translation id="4527130811319726464">Brug de adgangskoder, der er gemt på din Presearch-konto</translation>
 <translation id="3440783957068352691">firkant</translation>
 <translation id="3443726618221119081">Juuro-Ku-Kai</translation>
 <translation id="3447661539832366887">Ejeren af denne enhed har lukket dinosaurspillet.</translation>
@@ -902,7 +902,7 @@ Ellers vil det blive blokeret af dine privatlivsindstillinger. Det giver det ind
 <translation id="350069200438440499">Filnavn:</translation>
 <translation id="3507936815618196901">Oprette et 3D-kort over dine omgivelser og registrere kamerapositionen</translation>
 <translation id="3512163584740124171">Politikken ignoreres, da en anden politik fra samme politikgruppe har højere prioritet.</translation>
-<translation id="6733862566637706294">Knappen Administrer adresser – tryk på Enter for at tilføje og administrere adresser i Brave-indstillingerne</translation>
+<translation id="6733862566637706294">Knappen Administrer adresser – tryk på Enter for at tilføje og administrere adresser i Presearch-indstillingerne</translation>
 <translation id="3518941727116570328">Håndtering af flere objekter</translation>
 <translation id="3528171143076753409">Serverens certifikat er ikke troværdigt.</translation>
 <translation id="3528485271872257980">Mørkebrun</translation>
@@ -919,7 +919,7 @@ Ellers vil det blive blokeret af dine privatlivsindstillinger. Det giver det ind
 <translation id="3575121482199441727">Tillad for dette website</translation>
 <translation id="3576616784287504635">En integreret side på <ph name="SITE"/> siger</translation>
 <translation id="3577902790357386792">Gymnastik</translation>
-<translation id="230476913390177517">Brave giver dig besked, når denne side er klar. &lt;a&gt;Annuller&lt;/a&gt;</translation>
+<translation id="230476913390177517">Presearch giver dig besked, når denne side er klar. &lt;a&gt;Annuller&lt;/a&gt;</translation>
 <translation id="3582930987043644930">Tilføj navn</translation>
 <translation id="3583757800736429874">&amp;Annuller fortryd flytning</translation>
 <translation id="3584299510153766161">To huller nederst</translation>
@@ -935,7 +935,7 @@ Ellers vil det blive blokeret af dine privatlivsindstillinger. Det giver det ind
 <translation id="3611395257124510155">Virtuelt kort for <ph name="CARD_IDENTIFIER"/></translation>
 <translation id="3614103345592970299">Størrelse 2</translation>
 <translation id="361438452008624280">Listepost "<ph name="LANGUAGE_ID"/>": Ukendt eller ikke-understøttet sprog.</translation>
-<translation id="3274500070896023877"><ph name="RUN_CHROME_SAFETY_CHECK_FOCUSED_FRIENDLY_MATCH_TEXT"/>– tryk på Tab-tasten efterfulgt af Enter for at køre et sikkerhedstjek i Brave-indstillingerne</translation>
+<translation id="3274500070896023877"><ph name="RUN_CHROME_SAFETY_CHECK_FOCUSED_FRIENDLY_MATCH_TEXT"/>– tryk på Tab-tasten efterfulgt af Enter for at køre et sikkerhedstjek i Presearch-indstillingerne</translation>
 <translation id="3615877443314183785">Angiv en gyldig udløbsdato</translation>
 <translation id="36224234498066874">Ryd browserdata...</translation>
 <translation id="362276910939193118">Vis hele historikken</translation>
@@ -945,9 +945,9 @@ Ellers vil det blive blokeret af dine privatlivsindstillinger. Det giver det ind
 <translation id="3631244953324577188">Biometri</translation>
 <translation id="3632503704576938756">Skærmdeling er genoptaget</translation>
 <translation id="3632892046558972264">Skærmdeling er sat på pause</translation>
-<translation id="1367445511302842209">Knappen Opdater Brave – tryk på Enter for at opdatere Brave i dine Brave-indstillinger</translation>
+<translation id="1367445511302842209">Knappen Opdater Presearch – tryk på Enter for at opdatere Presearch i dine Presearch-indstillinger</translation>
 <translation id="3634530185120165534">Bakke 5</translation>
-<translation id="5334218736598399301">Gem på Brave-konto</translation>
+<translation id="5334218736598399301">Gem på Presearch-konto</translation>
 <translation id="3640766068866876100">Index-4x6-Ext</translation>
 <translation id="3642638418806704195">Program:</translation>
 <translation id="3650584904733503804">Valideringen er fuldført</translation>
@@ -957,7 +957,7 @@ Ellers vil det blive blokeret af dine privatlivsindstillinger. Det giver det ind
 <translation id="3658742229777143148">Revision</translation>
 <translation id="3664782872746246217">Søgeord:</translation>
 <translation id="3667704023705708645">Risikovillig kapital</translation>
-<translation id="2770043515970619538">Bogmærker i Brave</translation>
+<translation id="2770043515970619538">Bogmærker i Presearch</translation>
 <translation id="3671540257457995106">Vil du tillade valg af andre størrelser?</translation>
 <translation id="3675563144891642599">Tredje papirrulle</translation>
 <translation id="3676592649209844519">Enheds-id:</translation>
@@ -979,14 +979,14 @@ Ellers vil det blive blokeret af dine privatlivsindstillinger. Det giver det ind
 <translation id="3715597595485130451">Opret forbindelse til Wi-Fi</translation>
 <translation id="3717027428350673159"><ph name="BEGIN_LINK"/>Tjekke proxy-, firewall- og DNS-konfigurationen<ph name="END_LINK"/></translation>
 <translation id="372429172604983730">Apps, der kan forårsage denne fejl, er blandt andet antivirus-, firewall- og webfiltrerings- eller proxysoftware.</translation>
-<translation id="3838210050876514022"><ph name="CREATE_GOOGLE_SLIDE_FOCUSED_FRIENDLY_MATCH_TEXT"/>, tryk på Tab-tasten efterfulgt af Enter for hurtigt at oprette en ny Brave-præsentation i Slides</translation>
+<translation id="3838210050876514022"><ph name="CREATE_GOOGLE_SLIDE_FOCUSED_FRIENDLY_MATCH_TEXT"/>, tryk på Tab-tasten efterfulgt af Enter for hurtigt at oprette en ny Presearch-præsentation i Slides</translation>
 <translation id="373042150751172459">B4 (Envelope)</translation>
 <translation id="3733139489341305600">Selvkørende biler</translation>
 <translation id="3736520371357197498">Hvis du forstår den sikkerhedsrisiko, du udsætter dig for, kan du <ph name="BEGIN_LINK"/>gå til dette usikre website<ph name="END_LINK"/>, inden de farlige programmer er fjernet.</translation>
 <translation id="3738166223076830879">Din browser administreres af din administrator.</translation>
 <translation id="3740319564441798148">Langtursbus og -tog</translation>
 <translation id="3744111561329211289">Synkronisering i baggrunden</translation>
-<translation id="4098534208927606680">Når du bekræfter, deles kortoplysningerne på din Brave-konto med dette website.</translation>
+<translation id="4098534208927606680">Når du bekræfter, deles kortoplysningerne på din Presearch-konto med dette website.</translation>
 <translation id="3748148204939282805">Brugere med ondsindede hensigter <ph name="BEGIN_BOLD"/><ph name="SITE"/><ph name="END_BOLD"/> kan narre dig til at gøre noget farligt såsom at installere software eller afsløre dine personlige oplysninger (f.eks. adgangskoder, telefonnumre eller kreditkort). <ph name="BEGIN_LEARN_MORE_LINK"/>Få flere oplysninger<ph name="END_LEARN_MORE_LINK"/></translation>
 <translation id="3748912308089554501">Flybranchen</translation>
 <translation id="3754210790023674521">Afslut integreret billede</translation>
@@ -997,8 +997,8 @@ Ellers vil det blive blokeret af dine privatlivsindstillinger. Det giver det ind
 <translation id="3761718714832595332">Skjul status</translation>
 <translation id="3765588406864124894">Postkasse 9</translation>
 <translation id="3767485424735936570">Administratorpolitikken fraråder at kopiere og indsætte dette indhold i <ph name="VM_NAME"/></translation>
-<translation id="8247912309816231326"><ph name="CREATE_GOOGLE_KEEP_NOTE_FOCUSED_FRIENDLY_MATCH_TEXT"/>, tryk på Tab-tasten efterfulgt af Enter for hurtigt at oprette en ny note i Brave Keep</translation>
-<translation id="5141491707451394486">Vil du gemme dette kort på din Brave-konto og på denne enhed?</translation>
+<translation id="8247912309816231326"><ph name="CREATE_GOOGLE_KEEP_NOTE_FOCUSED_FRIENDLY_MATCH_TEXT"/>, tryk på Tab-tasten efterfulgt af Enter for hurtigt at oprette en ny note i Presearch Keep</translation>
+<translation id="5141491707451394486">Vil du gemme dette kort på din Presearch-konto og på denne enhed?</translation>
 <translation id="3780694243617746492">Outputbakke</translation>
 <translation id="3781428340399460090">Varm lyserød</translation>
 <translation id="3783418713923659662">Mastercard</translation>
@@ -1024,7 +1024,7 @@ Ellers vil det blive blokeret af dine privatlivsindstillinger. Det giver det ind
 <translation id="3831915413245941253"><ph name="ENROLLMENT_DOMAIN"/> har installeret udvidelser til yderligere funktioner. Udvidelser har adgang til nogle af dine data.</translation>
 <translation id="3832522519263485449">Flere huller i venstre side</translation>
 <translation id="3835233591525155343">Din enhedsbrug</translation>
-<translation id="5749930378398424146"><ph name="CREATE_GOOGLE_DOC_FOCUSED_FRIENDLY_MATCH_TEXT"/>, tryk på Tab-tasten efterfulgt af Enter for hurtigt at oprette et nyt Brave-dokument</translation>
+<translation id="5749930378398424146"><ph name="CREATE_GOOGLE_DOC_FOCUSED_FRIENDLY_MATCH_TEXT"/>, tryk på Tab-tasten efterfulgt af Enter for hurtigt at oprette et nyt Presearch-dokument</translation>
 <translation id="385051799172605136">Tilbage</translation>
 <translation id="3858027520442213535">Opdater dato og tid</translation>
 <translation id="3858860766373142691">Navn</translation>
@@ -1039,7 +1039,7 @@ Ellers vil det blive blokeret af dine privatlivsindstillinger. Det giver det ind
 <translation id="3901925938762663762">Kortet er udløbet</translation>
 <translation id="3906600011954732550">B5-Extra</translation>
 <translation id="3906954721959377182">Tablet</translation>
-<translation id="2650609753175229582"><ph name="URL"/> vil afspille beskyttet indhold. Din enheds identitet bekræftes af Brave, og dette website får muligvis adgang til enheden.</translation>
+<translation id="2650609753175229582"><ph name="URL"/> vil afspille beskyttet indhold. Din enheds identitet bekræftes af Presearch, og dette website får muligvis adgang til enheden.</translation>
 <translation id="3909695131102177774"><ph name="LABEL"/> <ph name="ERROR"/></translation>
 <translation id="3927932062596804919">Afvis</translation>
 <translation id="393316646445601645">Internet og telekommunikation</translation>
@@ -1071,7 +1071,7 @@ Ellers vil det blive blokeret af dine privatlivsindstillinger. Det giver det ind
 <translation id="4010758435855888356">Vil du give adgang til lagerpladsen?</translation>
 <translation id="4014128326099193693">{COUNT,plural, =1{PDF-dokument, der indeholder {COUNT} side}one{PDF-dokument, der indeholder {COUNT} side}other{PDF-dokument, der indeholder {COUNT} sider}}</translation>
 <translation id="4023431997072828269">Da denne formular indsendes via en forbindelse, som ikke er sikker, bliver dine oplysninger synlige for andre.</translation>
-<translation id="3356024105713905662">Knappen Administrer Brave-privatlivsindstillinger – tryk på Enter for at gå til privatlivsindstillingerne for din Brave-konto</translation>
+<translation id="3356024105713905662">Knappen Administrer Presearch-privatlivsindstillinger – tryk på Enter for at gå til privatlivsindstillingerne for din Presearch-konto</translation>
 <translation id="4030383055268325496">&amp;Fortryd tilføjelse</translation>
 <translation id="4040350669425716613">Gymnasier og universiteter</translation>
 <translation id="4056223980640387499">Sepia</translation>
@@ -1086,16 +1086,16 @@ Ellers vil det blive blokeret af dine privatlivsindstillinger. Det giver det ind
 <translation id="4075941231477579656">Touch ID</translation>
 <translation id="4079302484614802869">Proxykonfiguration er angivet til at anvende en webadresse for .pac-script, ikke faste proxyservere.</translation>
 <translation id="4082393374666368382">Indstillinger – administration</translation>
-<translation id="8049340108547416244">Knappen Opret begivenhed, tryk på Enter for hurtigt at oprette en ny begivenhed i Brave Kalender</translation>
+<translation id="8049340108547416244">Knappen Opret begivenhed, tryk på Enter for hurtigt at oprette en ny begivenhed i Presearch Kalender</translation>
 <translation id="4088981014127559358">Billedskift Y på side 1</translation>
 <translation id="4089152113577680600">Bakke 14</translation>
 <translation id="4098354747657067197">Vildledende website forude</translation>
 <translation id="4099048595830172239">Administratorpolitikken anbefaler, at du ikke deler din skærm med <ph name="APPLICATION_TITLE"/>, når fortroligt indhold er synligt:</translation>
-<translation id="5393384033795488834"><ph name="CUSTOMIZE_CHROME_FONTS_FOCUSED_FRIENDLY_MATCH_TEXT"/>, tryk på Tab-tasten efterfulgt af Enter for at tilpasse skriftstørrelser og skrifttyper i Brave</translation>
+<translation id="5393384033795488834"><ph name="CUSTOMIZE_CHROME_FONTS_FOCUSED_FRIENDLY_MATCH_TEXT"/>, tryk på Tab-tasten efterfulgt af Enter for at tilpasse skriftstørrelser og skrifttyper i Presearch</translation>
 <translation id="4101413244023615925">Tekst og grafik</translation>
 <translation id="410148943680000050">Desktop Publishing</translation>
 <translation id="4103249731201008433">Enhedens serienummer er ugyldigt</translation>
-<translation id="1823668038006695695">Knappen Opret website, tryk på Enter for hurtigt at oprette et nyt website i Brave Sites</translation>
+<translation id="1823668038006695695">Knappen Opret website, tryk på Enter for hurtigt at oprette et nyt website i Presearch Sites</translation>
 <translation id="4110652170750985508">Gennemgå din betaling</translation>
 <translation id="4111546256784973544">Paintball</translation>
 <translation id="4112140312785995938">Spol tilbage</translation>
@@ -1160,7 +1160,7 @@ Ellers vil det blive blokeret af dine privatlivsindstillinger. Det giver det ind
 <translation id="4275830172053184480">Genstart din enhed</translation>
 <translation id="4277028893293644418">Nulstil adgangskoden</translation>
 <translation id="4278390842282768270">Tilladt</translation>
-<translation id="8314946990939758167">{NUM_CARDS,plural, =1{Kortet er gemt på din Brave-konto}one{Kortet er gemt på din Brave-konto}other{Kortene er gemt på din Brave-konto}}</translation>
+<translation id="8314946990939758167">{NUM_CARDS,plural, =1{Kortet er gemt på din Presearch-konto}one{Kortet er gemt på din Presearch-konto}other{Kortene er gemt på din Presearch-konto}}</translation>
 <translation id="4287885627794386150">Kvalificeret til en prøveperiode, men ikke aktiv.</translation>
 <translation id="4297502707443874121">Miniature for siden <ph name="THUMBNAIL_PAGE"/></translation>
 <translation id="4298000214066716287">Investering</translation>
@@ -1182,8 +1182,8 @@ Ellers vil det blive blokeret af dine privatlivsindstillinger. Det giver det ind
 <translation id="4329871760342656885">Fejl i parsing af politik: <ph name="ERROR"/></translation>
 <translation id="4331519897422864041">Stabler 5</translation>
 <translation id="4331708818696583467">Ikke sikker</translation>
-<translation id="5792122559159836842">Denne annonce anvendte for mange ressourcer på din enhed, så Brave har fjernet den.</translation>
-<translation id="6116812392674177288">Denne computer registreres ikke som virksomhedsadministreret, så politikken kan kun automatisk installere udvidelser, der hostes i Brave Webshop. Opdateringswebadressen til Brave Webshop er "<ph name="CWS_UPDATE_URL"/>".</translation>
+<translation id="5792122559159836842">Denne annonce anvendte for mange ressourcer på din enhed, så Presearch har fjernet den.</translation>
+<translation id="6116812392674177288">Denne computer registreres ikke som virksomhedsadministreret, så politikken kan kun automatisk installere udvidelser, der hostes i Presearch Webshop. Opdateringswebadressen til Presearch Webshop er "<ph name="CWS_UPDATE_URL"/>".</translation>
 <translation id="4346197816712207223">Accepterede kreditkort</translation>
 <translation id="4346833872170306413">Roc-16K</translation>
 <translation id="4348834659292907206">Forbindelsen til <ph name="SITE"/> er ikke sikker</translation>
@@ -1221,7 +1221,7 @@ Ellers vil det blive blokeret af dine privatlivsindstillinger. Det giver det ind
 <translation id="4441832193888514600">Ignoreret, fordi politikken kun kan angives som en skybrugerpolitik.</translation>
 <translation id="4450893287417543264">Vis ikke igen</translation>
 <translation id="4451135742916150903">Websitet kan anmode om tilladelse til at oprette forbindelse til HID-enheder</translation>
-<translation id="8416018650396907203">Den adgangskode, du lige har brugt, er blevet lækket i forbindelse med et brud på datasikkerheden. For at beskytte dine konti anbefaler Brave Adgangskodeadministrator, at du tjekker dine gemte adgangskoder.</translation>
+<translation id="8416018650396907203">Den adgangskode, du lige har brugt, er blevet lækket i forbindelse med et brud på datasikkerheden. For at beskytte dine konti anbefaler Presearch Adgangskodeadministrator, at du tjekker dine gemte adgangskoder.</translation>
 <translation id="4455222631300069614">Skift din adgangskode nu</translation>
 <translation id="4460315069258617173">Tilladt, indtil du har lukket faner for dette website</translation>
 <translation id="4464826014807964867">Websites med oplysninger fra din organisation</translation>
@@ -1231,8 +1231,8 @@ Ellers vil det blive blokeret af dine privatlivsindstillinger. Det giver det ind
 <translation id="4477949251180341057">Netværkssikkerhed</translation>
 <translation id="4482953324121162758">Dette website kan ikke oversættes.</translation>
 <translation id="4490717597759821841">A7</translation>
-<translation id="3966104135245031874">Kryptér synkroniserede adgangskoder med din Brave-konto</translation>
-<translation id="3614771894046523359">Disse funktioner er som standard deaktiveret. De vil ikke være tilgængelige i fremtidige versioner af Brave.</translation>
+<translation id="3966104135245031874">Kryptér synkroniserede adgangskoder med din Presearch-konto</translation>
+<translation id="3614771894046523359">Disse funktioner er som standard deaktiveret. De vil ikke være tilgængelige i fremtidige versioner af Presearch.</translation>
 <translation id="4493480324863638523">Webadressen er ugyldig. Webadressen skal indeholde et standardskema, f.eks. http://eksempel.dk eller https://eksempel.dk.</translation>
 <translation id="4500587658229086076">usikkert indhold</translation>
 <translation id="4503882053543859973">Architecture-D</translation>
@@ -1240,10 +1240,10 @@ Ellers vil det blive blokeret af dine privatlivsindstillinger. Det giver det ind
 <translation id="4506599922270137252">Kontakte systemadministratoren</translation>
 <translation id="450710068430902550">Deling med administrator</translation>
 <translation id="4508814173490746936">Touch ID kunne ikke anvendes</translation>
-<translation id="7581711177899574338"><ph name="TRANSLATE_FOCUSED_FRIENDLY_MATCH_TEXT"/> – tryk på Tab-tasten efterfulgt af Enter for at oversætte denne side med Brave Oversæt</translation>
+<translation id="7581711177899574338"><ph name="TRANSLATE_FOCUSED_FRIENDLY_MATCH_TEXT"/> – tryk på Tab-tasten efterfulgt af Enter for at oversætte denne side med Presearch Oversæt</translation>
 <translation id="4510487217173779431">Chou4 (Envelope)</translation>
 <translation id="4514308731478712184">Deaktiver Søgninger</translation>
-<translation id="4892470328555495647">Kort og adresser stammer fra Brave og din Brave-konto (<ph name="ACCOUNT_EMAIL"/>). Du kan administrere dem i <ph name="BEGIN_LINK"/>Indstillinger<ph name="END_LINK"/>.</translation>
+<translation id="4892470328555495647">Kort og adresser stammer fra Presearch og din Presearch-konto (<ph name="ACCOUNT_EMAIL"/>). Du kan administrere dem i <ph name="BEGIN_LINK"/>Indstillinger<ph name="END_LINK"/>.</translation>
 <translation id="4517607026994743406">Comm-10 (Envelope)</translation>
 <translation id="4521157617044179198"><ph name="WIDTH"/> × <ph name="HEIGHT"/> mm (<ph name="ORIENTATION"/>)</translation>
 <translation id="4521916730539354575">Venstre bakke</translation>
@@ -1269,10 +1269,10 @@ Ellers vil det blive blokeret af dine privatlivsindstillinger. Det giver det ind
 <translation id="4600854749408232102">C6/C5 (Envelope)</translation>
 <translation id="4602465984861132303">Bowling</translation>
 <translation id="4606870351894164739">Virkningsfuld</translation>
-<translation id="7265018635737406618">Knappen Se tips til Brave, tryk på Enter for at få flere oplysninger om Brave-funktioner</translation>
-<translation id="8338928872956435647">Se tips til Brave</translation>
+<translation id="7265018635737406618">Knappen Se tips til Presearch, tryk på Enter for at få flere oplysninger om Presearch-funktioner</translation>
+<translation id="8338928872956435647">Se tips til Presearch</translation>
 <translation id="4617273035598175554">Grafik og animationssoftware</translation>
-<translation id="6398431831028858802">Denne politik kan ikke angives på Brave-profilniveauet og ignoreres.</translation>
+<translation id="6398431831028858802">Denne politik kan ikke angives på Presearch-profilniveauet og ignoreres.</translation>
 <translation id="4628948037717959914">Billede</translation>
 <translation id="4631649115723685955">Penge tilbage er tilknyttet</translation>
 <translation id="4636930964841734540">Oplysninger</translation>
@@ -1289,7 +1289,7 @@ Ellers vil det blive blokeret af dine privatlivsindstillinger. Det giver det ind
 <translation id="4673460618347856347">Dino-spillet, spil</translation>
 <translation id="467662567472608290">Denne server kunne ikke bevise, at den er <ph name="DOMAIN"/>, da sikkerhedscertifikatet indeholder fejl. Dette kan skyldes en fejlkonfiguration, eller at en hacker har opfanget din forbindelse.</translation>
 <translation id="4677585247300749148"><ph name="URL"/> anmoder om at reagere på handlinger foretaget i hjælpetilstand</translation>
-<translation id="8197094463444457125">Brave Slides</translation>
+<translation id="8197094463444457125">Presearch Slides</translation>
 <translation id="4682496302933121474">Vil du oversætte siden?</translation>
 <translation id="468314109939257734">Se dit virtuelle kortnummer</translation>
 <translation id="4691835149146451662">Architecture-A (Envelope)</translation>
@@ -1320,22 +1320,22 @@ Ellers vil det blive blokeret af dine privatlivsindstillinger. Det giver det ind
 <translation id="4751476147751820511">Bevægelses- eller lyssensorer</translation>
 <translation id="4754461935447132332">Ikke tilladt på websites, der ikke er sikre</translation>
 <translation id="4756388243121344051">&amp;Historik</translation>
-<translation id="1015173303159845845">Du har lige angivet din adgangskode på et vildledende website. Brave anbefaler, at du tjekker dine gemte adgangskoder for at sikre dine konti.</translation>
+<translation id="1015173303159845845">Du har lige angivet din adgangskode på et vildledende website. Presearch anbefaler, at du tjekker dine gemte adgangskoder for at sikre dine konti.</translation>
 <translation id="4758311279753947758">Tilføj kontaktoplysninger</translation>
 <translation id="4761104368405085019">Bruge din mikrofon</translation>
-<translation id="1980929286541331105">Kør Brave-sikkerhedstjekket</translation>
+<translation id="1980929286541331105">Kør Presearch-sikkerhedstjekket</translation>
 <translation id="4764776831041365478">Websiden på <ph name="URL"/> kan være midlertidigt nede, eller også er den permanent flyttet til en ny webadresse.</translation>
 <translation id="4766713847338118463">Dobbelthæftning nederst</translation>
 <translation id="4771973620359291008">Der er opstået en ukendt fejl.</translation>
 <translation id="477945296921629067">{NUM_POPUPS,plural, =1{Pop op-vinduet er blokeret}one{# pop op-vindue er blokeret}other{# pop op-vinduer er blokeret}}</translation>
 <translation id="4780366598804516005">Postkasse 1</translation>
-<translation id="752757955979594126">Administrer Brave-konto</translation>
+<translation id="752757955979594126">Administrer Presearch-konto</translation>
 <translation id="4785689107224900852">Skift til denne fane</translation>
 <translation id="4786804728079074733">Volleyball</translation>
 <translation id="4791134497475588553">Installerede Linux-apps og hvornår de sidst blev brugt</translation>
 <translation id="4792686369684665359">De oplysninger, du er ved at indsende, er ikke sikre</translation>
 <translation id="4796594887379589189">Jobkonto-id</translation>
-<translation id="7110430050177876111">Opdater dine kortoplysninger ved at indtaste udløbsdatoen og kontrolkoden for <ph name="CREDIT_CARD"/>. Når du bekræfter, deles kortoplysningerne på din Brave-konto med dette website.</translation>
+<translation id="7110430050177876111">Opdater dine kortoplysninger ved at indtaste udløbsdatoen og kontrolkoden for <ph name="CREDIT_CARD"/>. Når du bekræfter, deles kortoplysningerne på din Presearch-konto med dette website.</translation>
 <translation id="4800132727771399293">Kontrollér, om din kontrolkode og udløbsdato er korrekte, og prøv igen.</translation>
 <translation id="480334179571489655">Fejl i politik med samme oprindelse</translation>
 <translation id="4803924862070940586"><ph name="FORMATTED_TOTAL_AMOUNT"/> <ph name="CURRENCY_CODE"/></translation>
@@ -1344,12 +1344,12 @@ Ellers vil det blive blokeret af dine privatlivsindstillinger. Det giver det ind
 <translation id="4813512666221746211">Netværksfejl</translation>
 <translation id="4816492930507672669">Tilpas til siden</translation>
 <translation id="4819347708020428563">Vil du redigere annoteringer i standardvisningen?</translation>
-<translation id="551961240839010112"><ph name="CREATE_GOOGLE_SHEET_FOCUSED_FRIENDLY_MATCH_TEXT"/>, tryk på Tab-tasten efterfulgt af Enter for hurtigt at oprette et nyt Brave-regneark</translation>
+<translation id="551961240839010112"><ph name="CREATE_GOOGLE_SHEET_FOCUSED_FRIENDLY_MATCH_TEXT"/>, tryk på Tab-tasten efterfulgt af Enter for hurtigt at oprette et nyt Presearch-regneark</translation>
 <translation id="4825507807291741242">Kraftfuld</translation>
 <translation id="483241715238664915">Aktivér advarsler</translation>
 <translation id="4834250788637067901">Betalingsmetoder, tilbud og adresser, der bruger Google Pay</translation>
 <translation id="4838327282952368871">Drømmende</translation>
-<translation id="246176083348620700">Se din Brave-historik</translation>
+<translation id="246176083348620700">Se din Presearch-historik</translation>
 <translation id="484462545196658690">Automatisk</translation>
 <translation id="484671803914931257">Få rabat på <ph name="MERCHANT_NAME"/> og meget mere</translation>
 <translation id="4850886885716139402">Vis</translation>
@@ -1357,7 +1357,7 @@ Ellers vil det blive blokeret af dine privatlivsindstillinger. Det giver det ind
 <translation id="485316830061041779">Tysk</translation>
 <translation id="4853901935952445031">Efter februar 2022 kan dette website ikke anvende U2F API. Hvis du ejer websitet, skal du skifte til Web Authentication API.</translation>
 <translation id="4854362297993841467">Denne leveringsmetode er ikke tilgængelig. Prøv en anden metode.</translation>
-<translation id="3418609161696289726">Opret hurtigt en ny note i Brave Keep</translation>
+<translation id="3418609161696289726">Opret hurtigt en ny note i Presearch Keep</translation>
 <translation id="485902285759009870">Bekræfter koden...</translation>
 <translation id="4866506163384898554">Tryk på |<ph name="ACCELERATOR1"/>| + |<ph name="ACCELERATOR2"/>| for at se din markør</translation>
 <translation id="4876188919622883022">Enkel visning</translation>
@@ -1405,7 +1405,7 @@ Ellers vil det blive blokeret af dine privatlivsindstillinger. Det giver det ind
 <translation id="4995216769782533993">Bekræft sikkerhedskoden for at dele dine kortoplysninger med dette website</translation>
 <translation id="4995474875135717171">Ændret:</translation>
 <translation id="4995749490935861684"><ph name="CUSTOMIZE_SEARCH_ENGINES_FOCUSED_FRIENDLY_MATCH_TEXT"/>, tryk på Tab-tasten for at administrere websitesøgning og din standardsøgemaskine</translation>
-<translation id="3676215163710610678">Hvis denne indstilling er slået til, gemmer Brave en kopi af dit kort på denne enhed for at gøre det hurtigere at udfylde formularer.</translation>
+<translation id="3676215163710610678">Hvis denne indstilling er slået til, gemmer Presearch en kopi af dit kort på denne enhed for at gøre det hurtigere at udfylde formularer.</translation>
 <translation id="5011561501798487822">Registreret sprog</translation>
 <translation id="5015510746216210676">Maskinnavn:</translation>
 <translation id="5017554619425969104">Tekst, du har kopieret</translation>
@@ -1416,14 +1416,14 @@ Ellers vil det blive blokeret af dine privatlivsindstillinger. Det giver det ind
 <translation id="5029568752722684782">Slet kopi</translation>
 <translation id="5030338702439866405">Udstedt af</translation>
 <translation id="503069730517007720">Et rodcertifikat for "<ph name="SOFTWARE_NAME"/>" er påkrævet, men ikke installeret. Din IT-administrator bør kigge på konfigurationsvejledningen til "<ph name="SOFTWARE_NAME"/>" for at løse dette problem. <ph name="FURTHER_EXPLANATION"/></translation>
-<translation id="6425384654920630035">Om Brave Oversæt</translation>
+<translation id="6425384654920630035">Om Presearch Oversæt</translation>
 <translation id="503498442187459473"><ph name="HOST"/> anmoder om at bruge dit kamera og din mikrofon</translation>
 <translation id="5035135400558156732">Havearbejde</translation>
 <translation id="5039762155821394373">Skriftstørrelse</translation>
 <translation id="5039804452771397117">Tillad</translation>
 <translation id="5040262127954254034">Privatliv</translation>
 <translation id="5043480802608081735">Link, du har kopieret</translation>
-<translation id="7991773990221474814">Den adgangskode, du lige har brugt, er blevet lækket i forbindelse med et brud på datasikkerheden. Brave Assistent kan ændre din adgangskode automatisk.</translation>
+<translation id="7991773990221474814">Den adgangskode, du lige har brugt, er blevet lækket i forbindelse med et brud på datasikkerheden. Presearch Assistent kan ændre din adgangskode automatisk.</translation>
 <translation id="5045550434625856497">Ugyldig adgangskode</translation>
 <translation id="5051305769747448211">Livekomedier</translation>
 <translation id="5056425809654826431">{NUM_FILES,plural, =1{Hvis du vil sende denne fil ved hjælp af Deling tæt på, skal du frigøre plads (<ph name="DISK_SPACE_SIZE"/>) på din enhed}one{Hvis du vil sende denne fil ved hjælp af Deling tæt på, skal du frigøre plads (<ph name="DISK_SPACE_SIZE"/>) på din enhed}other{Hvis du vil sende disse filer ved hjælp af Deling tæt på, skal du frigøre plads (<ph name="DISK_SPACE_SIZE"/>) på din enhed}}</translation>
@@ -1443,7 +1443,7 @@ Ellers vil det blive blokeret af dine privatlivsindstillinger. Det giver det ind
 <translation id="5088142053160410913">Meddelelse til operator</translation>
 <translation id="5089810972385038852">Stat</translation>
 <translation id="5093232627742069661">Z-fals</translation>
-<translation id="4906192414477726331">Denne server kunne ikke bevise, at den er <ph name="DOMAIN"/>, da Brave ikke har tillid til sikkerhedscertifikatet. Dette kan skyldes en fejlkonfiguration, eller at en hacker har opfanget din forbindelse.</translation>
+<translation id="4906192414477726331">Denne server kunne ikke bevise, at den er <ph name="DOMAIN"/>, da Presearch ikke har tillid til sikkerhedscertifikatet. Dette kan skyldes en fejlkonfiguration, eller at en hacker har opfanget din forbindelse.</translation>
 <translation id="5095208057601539847">Provins</translation>
 <translation id="5097099694988056070">Enhedsstatistik som f.eks. CPU/RAM-forbrug</translation>
 <translation id="5097501891273180634">A2</translation>
@@ -1476,8 +1476,8 @@ Ellers vil det blive blokeret af dine privatlivsindstillinger. Det giver det ind
 <translation id="5161334686036120870">Emne:</translation>
 <translation id="5161506081086828129">Stabler 9</translation>
 <translation id="5164798890604758545">Tekst indtastes</translation>
-<translation id="2996889577833788807">Angiv kontrolkoden for <ph name="CREDIT_CARD"/>. Når du bekræfter, deles kortoplysningerne på din Brave-konto med dette website.</translation>
-<translation id="8515152881111950319">Du kan miste adgangen til din organisations konto eller udsættes for identitetstyveri. Brave anbefaler, at du skifter din adgangskode nu.</translation>
+<translation id="2996889577833788807">Angiv kontrolkoden for <ph name="CREDIT_CARD"/>. Når du bekræfter, deles kortoplysningerne på din Presearch-konto med dette website.</translation>
+<translation id="8515152881111950319">Du kan miste adgangen til din organisations konto eller udsættes for identitetstyveri. Presearch anbefaler, at du skifter din adgangskode nu.</translation>
 <translation id="5171045022955879922">Søg, eller angiv webadresse</translation>
 <translation id="5171689220826475070">Fanfold-European</translation>
 <translation id="5172758083709347301">Maskine</translation>
@@ -1486,7 +1486,7 @@ Ellers vil det blive blokeret af dine privatlivsindstillinger. Det giver det ind
 <translation id="51918995459521422"><ph name="ORIGIN"/> vil downloade flere filer</translation>
 <translation id="519422657042045905">Annotering er ikke tilgængelig</translation>
 <translation id="5201306358585911203">En integreret side på denne side siger</translation>
-<translation id="4885094043301349997">Brave har fundet den adgangskode, du netop har brugt, i forbindelse med et brud på datasikkerheden. Brave Assistent kan ændre din adgangskode automatisk.</translation>
+<translation id="4885094043301349997">Presearch har fundet den adgangskode, du netop har brugt, i forbindelse med et brud på datasikkerheden. Presearch Assistent kan ændre din adgangskode automatisk.</translation>
 <translation id="5205222826937269299">Navn påkrævet</translation>
 <translation id="5209518306177824490">SHA-1-fingeraftryk</translation>
 <translation id="5209670883520018268">Bakke 20</translation>
@@ -1502,7 +1502,7 @@ Ellers vil det blive blokeret af dine privatlivsindstillinger. Det giver det ind
 <translation id="5234764350956374838">Luk</translation>
 <translation id="5242889659037569123">Bagagetasker og rejsetilbehør</translation>
 <translation id="5250209940322997802">"Opret forbindelse til netværk"</translation>
-<translation id="6055400808586511449">Få flere oplysninger om Brave-funktioner</translation>
+<translation id="6055400808586511449">Få flere oplysninger om Presearch-funktioner</translation>
 <translation id="5251803541071282808">Skyen</translation>
 <translation id="5252000469029418751">C7 (Envelope)</translation>
 <translation id="5254043433801397071">Optimer udskriftsindhold</translation>
@@ -1523,7 +1523,7 @@ Ellers vil det blive blokeret af dine privatlivsindstillinger. Det giver det ind
 <translation id="5287456746628258573">Dette website benytter en forældet sikkerhedskonfiguration, der muligvis afslører dine oplysninger (f.eks. adgangskoder eller betalingskortnumre), når de sendes til dette website.</translation>
 <translation id="5288108484102287882">Validering af politikværdier har genereret advarsler</translation>
 <translation id="5288393065350884210">Revision og audit</translation>
-<translation id="782502454152246205">Websitets forbindelse er sikker, medmindre Brave angiver andet.</translation>
+<translation id="782502454152246205">Websitets forbindelse er sikker, medmindre Presearch angiver andet.</translation>
 <translation id="5289384342738547352">Håndtering af flere dokumenter</translation>
 <translation id="5293919335876685914">Coupémodeller</translation>
 <translation id="5296589789433599000">Madlavning og opskrifter</translation>
@@ -1542,14 +1542,14 @@ Ellers vil det blive blokeret af dine privatlivsindstillinger. Det giver det ind
 <translation id="5324080437450482387">Vælg kontaktoplysninger</translation>
 <translation id="5329858041417644019">Din browser administreres ikke</translation>
 <translation id="5332219387342487447">Leveringsmetode</translation>
-<translation id="5038014878861342914">Brave har fundet den adgangskode, du netop har brugt, i forbindelse med et brud på datasikkerheden. For at beskytte dine konti anbefaler vi, at du tjekker dine gemte adgangskoder.</translation>
+<translation id="5038014878861342914">Presearch har fundet den adgangskode, du netop har brugt, i forbindelse med et brud på datasikkerheden. For at beskytte dine konti anbefaler vi, at du tjekker dine gemte adgangskoder.</translation>
 <translation id="5334013548165032829">Detaljerede systemlogs</translation>
 <translation id="5334145288572353250">Vil du gemme adressen?</translation>
 <translation id="5335920952954443287">Bankende hjerte</translation>
 <translation id="5340250774223869109">Appen er blokeret</translation>
 <translation id="534295439873310000">NFC-enheder</translation>
 <translation id="5344579389779391559">Denne side forsøger muligvis at opkræve penge af dig</translation>
-<translation id="145631537248113690">Knappen Tilpas skrifttyper i Brave – tryk på Enter for at tilpasse skriftstørrelsen og skrifttypen i Brave</translation>
+<translation id="145631537248113690">Knappen Tilpas skrifttyper i Presearch – tryk på Enter for at tilpasse skriftstørrelsen og skrifttypen i Presearch</translation>
 <translation id="5355557959165512791">Du kan ikke besøge <ph name="SITE"/> lige nu, da dets certifikat er blevet tilbagekaldt. Netværksfejl og angreb er normalt midlertidige, så siden vil sandsynligvis fungere igen senere.</translation>
 <translation id="5356837363448394805">Rødmer</translation>
 <translation id="5357848622083956825">Visuel kunst og design</translation>
@@ -1557,7 +1557,7 @@ Ellers vil det blive blokeret af dine privatlivsindstillinger. Det giver det ind
 <translation id="5363309033720083897">Din administrator har tilladt denne serieport</translation>
 <translation id="5371425731340848620">Opdater kortet</translation>
 <translation id="5377026284221673050">"Dit ur er bagud" eller "Dit ur er forud" eller "&lt;span class="error-code"&gt;NET::ERR_CERT_DATE_INVALID&lt;/span&gt;"</translation>
-<translation id="6943284267010400133">Knappen Opret præsentation, tryk på Enter for hurtigt at oprette en ny Brave-præsentation i Slides</translation>
+<translation id="6943284267010400133">Knappen Opret præsentation, tryk på Enter for hurtigt at oprette en ny Presearch-præsentation i Slides</translation>
 <translation id="5385857628869214740">Humor</translation>
 <translation id="5386426401304769735">Certifikatkæden for dette website indeholder et certifikat, der er signeret med SHA-1.</translation>
 <translation id="538659543871111977">A4-Tab</translation>
@@ -1565,7 +1565,7 @@ Ellers vil det blive blokeret af dine privatlivsindstillinger. Det giver det ind
 <translation id="5398772614898833570">Annoncer er blokeret</translation>
 <translation id="5400836586163650660">Grå</translation>
 <translation id="540969355065856584">Denne server kunne ikke bevise, at den er <ph name="DOMAIN"/>, da dens sikkerhedscertifikat ikke er gyldigt i øjeblikket. Dette kan skyldes en fejlkonfiguration, eller at en hacker har opfanget din forbindelse.</translation>
-<translation id="9079419934310259761">Dette website henter dine interesser fra Brave og bruger dem til at vise dig mere relevante annoncer</translation>
+<translation id="9079419934310259761">Dette website henter dine interesser fra Presearch og bruger dem til at vise dig mere relevante annoncer</translation>
 <translation id="541416427766103491">Stabler 4</translation>
 <translation id="5421136146218899937">Ryd browserdata...</translation>
 <translation id="5426179911063097041"><ph name="SITE"/> vil gerne sende notifikationer til dig</translation>
@@ -1604,7 +1604,7 @@ Ellers vil det blive blokeret af dine privatlivsindstillinger. Det giver det ind
 <translation id="5528532273234423708">Hjemmeautomatisering</translation>
 <translation id="55293785478302737">Kanthæftning</translation>
 <translation id="553484882784876924">Prc6 (Envelope)</translation>
-<translation id="6477838366754392112">Knappen Ryd browserdata – tryk på Enter for at rydde browserhistorik, cookies, cache m.m. i Brave-indstillingerne</translation>
+<translation id="6477838366754392112">Knappen Ryd browserdata – tryk på Enter for at rydde browserhistorik, cookies, cache m.m. i Presearch-indstillingerne</translation>
 <translation id="5536214594743852365">Vis sektionen "<ph name="SECTION"/>"</translation>
 <translation id="5539243836947087108">Flåde</translation>
 <translation id="5540224163453853">Den anmodede artikel blev ikke fundet.</translation>
@@ -1612,7 +1612,7 @@ Ellers vil det blive blokeret af dine privatlivsindstillinger. Det giver det ind
 <translation id="5541086400771735334">Postkasse 7</translation>
 <translation id="5541546772353173584">Tilføj mailadresse</translation>
 <translation id="5545756402275714221">Artikler til dig</translation>
-<translation id="6084314943327785510">Brave tjekker regelmæssigt, om dine adgangskoder er på nogen lister over adgangskoder, der er blevet afsløret online. Dine adgangskoder og brugernavne krypteres under disse tjek, så de kan ikke læses af nogen, heller ikke Brave.</translation>
+<translation id="6084314943327785510">Presearch tjekker regelmæssigt, om dine adgangskoder er på nogen lister over adgangskoder, der er blevet afsløret online. Dine adgangskoder og brugernavne krypteres under disse tjek, så de kan ikke læses af nogen, heller ikke Presearch.</translation>
 <translation id="5556459405103347317">Genindlæs</translation>
 <translation id="5560088892362098740">Udløbsdato</translation>
 <translation id="55635442646131152">Indholdsfortegnelse</translation>
@@ -1632,7 +1632,7 @@ Ellers vil det blive blokeret af dine privatlivsindstillinger. Det giver det ind
 <translation id="5607240918979444548">Architecture-C</translation>
 <translation id="5610142619324316209">Tjekke din forbindelse</translation>
 <translation id="5610807607761827392">Du kan administrere kort og adresser i <ph name="BEGIN_LINK"/>Indstillinger<ph name="END_LINK"/>.</translation>
-<translation id="2012723355262040739">Oversæt denne side med Brave Oversæt</translation>
+<translation id="2012723355262040739">Oversæt denne side med Presearch Oversæt</translation>
 <translation id="5612720917913232150"><ph name="URL"/> anmoder om at anvende computerens placering</translation>
 <translation id="561669346091975195">Tv-shows om science-fiction og fantasy</translation>
 <translation id="5617949217645503996"><ph name="HOST_NAME"/> omdirigerede dig for mange gange.</translation>
@@ -1670,9 +1670,9 @@ Ellers vil det blive blokeret af dine privatlivsindstillinger. Det giver det ind
 <translation id="5720705177508910913">Aktuel bruger</translation>
 <translation id="5723287205918986743">Forsvarsindustri</translation>
 <translation id="5728056243719941842">C5 (Envelope)</translation>
-<translation id="3006790309890592320">Brave anbefaler, at du nulstiller din adgangskode, hvis du har brugt den på andre websites.</translation>
+<translation id="3006790309890592320">Presearch anbefaler, at du nulstiller din adgangskode, hvis du har brugt den på andre websites.</translation>
 <translation id="5736165827969430182">Metal og minedrift</translation>
-<translation id="5576538372759072019">{NUM_CARDS,plural, =1{Gem kortet på din Brave-konto}one{Gem kortet på din Brave-konto}other{Gem kortene på din Brave-konto}}</translation>
+<translation id="5576538372759072019">{NUM_CARDS,plural, =1{Gem kortet på din Presearch-konto}one{Gem kortet på din Presearch-konto}other{Gem kortene på din Presearch-konto}}</translation>
 <translation id="5743638595296120378">Indkøb af køretøj</translation>
 <translation id="5743898850056428078">Motorcykelløb</translation>
 <translation id="5745733273847572235">Websitet kan anmode om adgang til din lokation</translation>
@@ -1690,14 +1690,14 @@ Ellers vil det blive blokeret af dine privatlivsindstillinger. Det giver det ind
 <translation id="5784606427469807560">Der opstod et problem under bekræftelsen af dit kort. Kontrollér, at du har forbindelse til internettet, og prøv igen.</translation>
 <translation id="5785756445106461925">Desuden indeholder denne side andre ressourcer, som ikke er sikre. Disse ressourcer kan ses af andre under overførslen og kan ændres af en hacker, så siden ser anderledes ud.</translation>
 <translation id="5786044859038896871">Skal dine kortoplysninger udfyldes?</translation>
-<translation id="3985758120980526872">Brave har fundet den adgangskode, du netop har brugt, i forbindelse med et brud på datasikkerheden. Vi anbefaler, at du ændrer adgangskoden med det samme.</translation>
+<translation id="3985758120980526872">Presearch har fundet den adgangskode, du netop har brugt, i forbindelse med et brud på datasikkerheden. Vi anbefaler, at du ændrer adgangskoden med det samme.</translation>
 <translation id="5789643057113097023">.</translation>
 <translation id="5803412860119678065">Skal <ph name="CARD_DETAIL"/> udfyldes?</translation>
 <translation id="5804241973901381774">Tilladelser</translation>
-<translation id="5937482014241669139">Se din Brave-historik</translation>
+<translation id="5937482014241669139">Se din Presearch-historik</translation>
 <translation id="5808542072418270309">Simulationsspil</translation>
 <translation id="5810442152076338065">Din forbindelse til <ph name="DOMAIN"/> er krypteret ved hjælp af en forældet krypteringspakke.</translation>
-<translation id="7295730649911402188">Når sikkerhedshændelser rapporteres af Brave, sendes der relevante data om hændelserne til din administrator. Disse data kan omfatte webadresserne på de sider, du besøger i Brave, filnavne eller metadata samt det brugernavn, du bruger til at logge ind på webbaserede apps, på din enhed og i Brave.</translation>
+<translation id="7295730649911402188">Når sikkerhedshændelser rapporteres af Presearch, sendes der relevante data om hændelserne til din administrator. Disse data kan omfatte webadresserne på de sider, du besøger i Presearch, filnavne eller metadata samt det brugernavn, du bruger til at logge ind på webbaserede apps, på din enhed og i Presearch.</translation>
 <translation id="5813119285467412249">&amp;Annuller fortryd tilføjelse</translation>
 <translation id="5813309815819933152">Tv-realityshows</translation>
 <translation id="5813753398265398978">Fysik</translation>
@@ -1731,7 +1731,7 @@ Ellers vil det blive blokeret af dine privatlivsindstillinger. Det giver det ind
 <translation id="5920262536204764679">{NUM_COOKIES,plural, =1{1 i brug}one{# i brug}other{# i brug}}</translation>
 <translation id="592031860219554105">Skøjteløb</translation>
 <translation id="5921185718311485855">Til</translation>
-<translation id="2687595201721621314">Vil du gemme kortet på din Brave-konto?</translation>
+<translation id="2687595201721621314">Vil du gemme kortet på din Presearch-konto?</translation>
 <translation id="5922853866070715753">Næsten færdig</translation>
 <translation id="5928444777041341328">Hus og have</translation>
 <translation id="5932224571077948991">Websitet viser påtrængende eller vildledende annoncer</translation>
@@ -1755,7 +1755,7 @@ Ellers vil det blive blokeret af dine privatlivsindstillinger. Det giver det ind
 <translation id="598637245381783098">Betalingsappen kan ikke åbnes</translation>
 <translation id="5989320800837274978">Der er hverken angivet faste proxyservere eller en .pac-scriptwebadresse.</translation>
 <translation id="5992691462791905444">Z-fals med kant foroven</translation>
-<translation id="7409510288691071929">Administrer din konto, dit privatliv og beskyttelsen på din Brave-konto</translation>
+<translation id="7409510288691071929">Administrer din konto, dit privatliv og beskyttelsen på din Presearch-konto</translation>
 <translation id="6000758707621254961"><ph name="RESULT_COUNT"/> resultater for "<ph name="SEARCH_TEXT"/>"</translation>
 <translation id="6006484371116297560">Klassisk</translation>
 <translation id="6008122969617370890">N-til-1-rækkefølge</translation>
@@ -1786,7 +1786,7 @@ Ellers vil det blive blokeret af dine privatlivsindstillinger. Det giver det ind
 <translation id="6051221802930200923">Du kan ikke besøge <ph name="SITE"/> lige nu, da websitet bruger certifikatlåsning. Netværksfejl og angreb er normalt midlertidige, så siden vil sandsynligvis fungere igen senere.</translation>
 <translation id="6051898664905071243">Sideantal:</translation>
 <translation id="6052284303005792909">•</translation>
-<translation id="8949595277192194257">Den adgangskode, du lige har brugt, er blevet lækket i forbindelse med et brud på datasikkerheden. Brave Adgangskodeadministrator anbefaler, at du ændrer denne adgangskode nu.</translation>
+<translation id="8949595277192194257">Den adgangskode, du lige har brugt, er blevet lækket i forbindelse med et brud på datasikkerheden. Presearch Adgangskodeadministrator anbefaler, at du ændrer denne adgangskode nu.</translation>
 <translation id="6055888660316801977">Regneark uden matchende loginoplysninger til sikker betaling</translation>
 <translation id="6058977677006700226">Vil du bruge kortene på alle dine enheder?</translation>
 <translation id="6059925163896151826">USB-enheder</translation>
@@ -1802,10 +1802,10 @@ Ellers vil det blive blokeret af dine privatlivsindstillinger. Det giver det ind
 <translation id="6105460996796456817">Opret website</translation>
 <translation id="6106989379647458772">Websiden på <ph name="PAGE"/> kan være midlertidigt nede, eller også er den permanent flyttet til en ny webadresse.</translation>
 <translation id="6107012941649240045">Udstedt til</translation>
-<translation id="8233947174119245051">Din Brave-konto kan have andre former for browserhistorik på <ph name="BEGIN_LINK"/>myactivity.google.com<ph name="END_LINK"/></translation>
+<translation id="8233947174119245051">Din Presearch-konto kan have andre former for browserhistorik på <ph name="BEGIN_LINK"/>myactivity.google.com<ph name="END_LINK"/></translation>
 <translation id="6116338172782435947">Se tekst og billeder, der er kopieret til udklipsholderen</translation>
 <translation id="6120179357481664955">Skal dit UPI-id huskes?</translation>
-<translation id="5972135347314259717">Brave Enterprise-connectorer</translation>
+<translation id="5972135347314259717">Presearch Enterprise-connectorer</translation>
 <translation id="6127379762771434464">Elementet blev fjernet</translation>
 <translation id="6146055958333702838">Kontrollér eventuelle kabler, og genstart alle routere, modemmer eller andre
     netværksenheder, du bruger.</translation>
@@ -1824,10 +1824,10 @@ Ellers vil det blive blokeret af dine privatlivsindstillinger. Det giver det ind
 <translation id="6195371403461054755">Geologi</translation>
 <translation id="6196640612572343990">Bloker cookies fra tredjeparter</translation>
 <translation id="6203231073485539293">Kontrollér din internetforbindelse</translation>
-<translation id="8385639954311581596">Vil du fjerne adressen fra Brave?</translation>
+<translation id="8385639954311581596">Vil du fjerne adressen fra Presearch?</translation>
 <translation id="622039917539443112">Parallelfals</translation>
-<translation id="6221345481584921695">Brave Beskyttet browsing <ph name="BEGIN_LINK"/>registrerede malware<ph name="END_LINK"/> på <ph name="SITE"/> for nylig. Websites, der normalt er sikre, inficeres undertiden med malware. Det skadelige indhold kommer fra <ph name="SUBRESOURCE_HOST"/>, som er en kendt malwaredistributør.</translation>
-<translation id="8997875939727100757"><ph name="MANAGE_CHROME_ACCESSIBILITY_FOCUSED_FRIENDLY_MATCH_TEXT"/>– tryk på Tab-tasten efterfulgt af Enter for at tilpasse dine hjælpefunktioner i Brave-indstillingerne</translation>
+<translation id="6221345481584921695">Presearch Beskyttet browsing <ph name="BEGIN_LINK"/>registrerede malware<ph name="END_LINK"/> på <ph name="SITE"/> for nylig. Websites, der normalt er sikre, inficeres undertiden med malware. Det skadelige indhold kommer fra <ph name="SUBRESOURCE_HOST"/>, som er en kendt malwaredistributør.</translation>
+<translation id="8997875939727100757"><ph name="MANAGE_CHROME_ACCESSIBILITY_FOCUSED_FRIENDLY_MATCH_TEXT"/>– tryk på Tab-tasten efterfulgt af Enter for at tilpasse dine hjælpefunktioner i Presearch-indstillingerne</translation>
 <translation id="6229649258872345286">Familierejser</translation>
 <translation id="6232271601416750929">Bæredygtige skønhedsprodukter</translation>
 <translation id="6233160458685643793">Smiler bredt</translation>
@@ -1836,27 +1836,27 @@ Ellers vil det blive blokeret af dine privatlivsindstillinger. Det giver det ind
 <translation id="6240447795304464094">Google Pay-logo</translation>
 <translation id="6241121617266208201">Skjul forslag</translation>
 <translation id="624499991300733384">Tjeneste til udskriftssammensætning</translation>
-<translation id="3917320044622606497"><ph name="MANAGE_CHROME_DOWNLOADS_FOCUSED_FRIENDLY_MATCH_TEXT"/>, tryk på Tab-tasten efterfulgt af Enter for at administrere de filer, du har downloadet i Brave</translation>
+<translation id="3917320044622606497"><ph name="MANAGE_CHROME_DOWNLOADS_FOCUSED_FRIENDLY_MATCH_TEXT"/>, tryk på Tab-tasten efterfulgt af Enter for at administrere de filer, du har downloadet i Presearch</translation>
 <translation id="6254436959401408446">Der er ikke nok hukommelse til at åbne denne side</translation>
 <translation id="6259156558325130047">&amp;Annuller fortryd omarrangering</translation>
 <translation id="6263376278284652872"><ph name="DOMAIN"/>-bogmærker</translation>
 <translation id="6264485186158353794">Tilbage i sikkerhed</translation>
 <translation id="6265794661083428563">Kopiér værdien fra <ph name="POLICY_NAME"/>-politikken</translation>
 <translation id="6266934640124581640">Lys grønblå</translation>
-<translation id="1300170712564922349">Genoptag din søgning for at se relevant aktivitet i din Brave-historik</translation>
-<translation id="9136010393039243713">Brave Update</translation>
+<translation id="1300170712564922349">Genoptag din søgning for at se relevant aktivitet i din Presearch-historik</translation>
+<translation id="9136010393039243713">Presearch Update</translation>
 <translation id="6276112860590028508">Sider fra din læseliste vises her</translation>
-<translation id="7954557091400543500">Gem dit kort og din faktureringsadresse på din Brave-konto for at betale hurtigere næste gang.</translation>
+<translation id="7954557091400543500">Gem dit kort og din faktureringsadresse på din Presearch-konto for at betale hurtigere næste gang.</translation>
 <translation id="6279183038361895380">Tryk på |<ph name="ACCELERATOR"/>| at se markøren</translation>
 <translation id="6280223929691119688">Der kan ikke leveres til denne adresse. Vælg en anden adresse.</translation>
 <translation id="6282194474023008486">Postnummer</translation>
-<translation id="9069724554626063339">Knappen "Administrer downloads i Brave" – tryk på Enter for at administrere de filer, du har downloadet i Brave</translation>
+<translation id="9069724554626063339">Knappen "Administrer downloads i Presearch" – tryk på Enter for at administrere de filer, du har downloadet i Presearch</translation>
 <translation id="6289939620939689042">Farve på side</translation>
 <translation id="6290238015253830360">Forslag til artikler til dig vises her</translation>
 <translation id="6293309776179964942">JIS B5</translation>
 <translation id="6295618774959045776">CVC:</translation>
 <translation id="6300452962057769623">{0,plural, =0{Din enhed genstarter nu}=1{Din enhed genstarter om 1 sekund}one{Din enhed genstarter om # sekund}other{Din enhed genstarter om # sekunder}}</translation>
-<translation id="5880900081429361525">Brave Assistent i Brave stopper</translation>
+<translation id="5880900081429361525">Presearch Assistent i Presearch stopper</translation>
 <translation id="6305205051461490394"><ph name="URL"/> kan ikke nås.</translation>
 <translation id="6312113039770857350">Websiden er ikke tilgængelig</translation>
 <translation id="6316226860534107313">Scootere og knallerter</translation>
@@ -1864,7 +1864,7 @@ Ellers vil det blive blokeret af dine privatlivsindstillinger. Det giver det ind
 <translation id="6319249456820053699">Kameraer og videokameraer</translation>
 <translation id="6321917430147971392">Kontrollér dine DNS-indstillinger</translation>
 <translation id="6322182122604171028">Windows Hello kunne ikke anvendes</translation>
-<translation id="7962450223988560278">Angiv Brave som systemets standardbrowser i iOS-indstillingerne</translation>
+<translation id="7962450223988560278">Angiv Presearch som systemets standardbrowser i iOS-indstillingerne</translation>
 <translation id="6328639280570009161">Prøv at deaktivere netværksforslag</translation>
 <translation id="6328784461820205019">"Din forbindelse er ikke privat" eller "&lt;span class="error-code"&gt;NET::ERR_CERT_AUTHORITY_INVALID&lt;/span&gt;" eller "&lt;span class="error-code"&gt;ERR_CERT_COMMON_NAME_INVALID&lt;/span&gt;" eller "&lt;span class="error-code"&gt;NET::ERR_CERT_WEAK_SIGNATURE_ALGORITHM&lt;/span&gt;" eller "&lt;span class="error-code"&gt;ERR_CERT_SYMANTEC_LEGACY&lt;/span&gt;" eller "SSL-certifikatfejl"</translation>
 <translation id="6328786501058569169">Dette website er vildledende</translation>
@@ -1897,7 +1897,7 @@ Ellers vil det blive blokeret af dine privatlivsindstillinger. Det giver det ind
 <translation id="6425092077175753609">Material</translation>
 <translation id="6427730057873428458">Portfals</translation>
 <translation id="6428450836711225518">Bekræft dit telefonnummer</translation>
-<translation id="7772223497488184427">Skift Brave-adgangskode</translation>
+<translation id="7772223497488184427">Skift Presearch-adgangskode</translation>
 <translation id="6433490469411711332">Rediger kontaktoplysninger</translation>
 <translation id="6433595998831338502"><ph name="HOST_NAME"/> nægtede at oprette forbindelse.</translation>
 <translation id="6438025220577812695">Skift manuelt</translation>
@@ -1925,7 +1925,7 @@ Ellers vil det blive blokeret af dine privatlivsindstillinger. Det giver det ind
 <translation id="6502626736864595182">Forum- og chatleverandører</translation>
 <translation id="6502991525169604759">Uden dine ændringer</translation>
 <translation id="6506959208958864820">Kuvert</translation>
-<translation id="3960299545138990065">Genstart Brave</translation>
+<translation id="3960299545138990065">Genstart Presearch</translation>
 <translation id="6513005815064132016">Websitet kan anmode om tilladelse til at registrere din kameraposition</translation>
 <translation id="6517596291481585650">Advarsel! Denne politik blev ikke flettet som angivet i politikken, da den ikke er en liste.</translation>
 <translation id="6518133107902771759">Bekræft</translation>
@@ -1947,11 +1947,11 @@ Ellers vil det blive blokeret af dine privatlivsindstillinger. Det giver det ind
 <translation id="6579630537141957243">Vil du forbinde MIDI-enheden?</translation>
 <translation id="6579990219486187401">Lys pink</translation>
 <translation id="6583674473685352014">B6 (Envelope)</translation>
-<translation id="7784744142989128075">Brave-historik</translation>
-<translation id="5302585261530504168">Brave har fundet den adgangskode, du netop har brugt, i forbindelse med et brud på datasikkerheden. For at beskytte dine konti anbefaler vi, at du ændrer den med det samme og derefter tjekker dine gemte adgangskoder.</translation>
+<translation id="7784744142989128075">Presearch-historik</translation>
+<translation id="5302585261530504168">Presearch har fundet den adgangskode, du netop har brugt, i forbindelse med et brud på datasikkerheden. For at beskytte dine konti anbefaler vi, at du ændrer den med det samme og derefter tjekker dine gemte adgangskoder.</translation>
 <translation id="6587923378399804057">Link, du har kopieret</translation>
 <translation id="6591833882275308647">Din <ph name="DEVICE_TYPE"/> administreres ikke</translation>
-<translation id="7150996650768688560">Knappen Administrer indstillinger for websites – tryk på Enter for at administrere tilladelser og data, der gemmes på websites, i Brave-indstillingerne</translation>
+<translation id="7150996650768688560">Knappen Administrer indstillinger for websites – tryk på Enter for at administrere tilladelser og data, der gemmes på websites, i Presearch-indstillingerne</translation>
 <translation id="6596325263575161958">Krypteringsmuligheder</translation>
 <translation id="6609880536175561541">Prc7 (Envelope)</translation>
 <translation id="6611723696964473273">Nyheder om økonomi</translation>
@@ -1966,8 +1966,8 @@ Ellers vil det blive blokeret af dine privatlivsindstillinger. Det giver det ind
 <translation id="663260587451432563">JIS B4</translation>
 <translation id="6643016212128521049">Ryd</translation>
 <translation id="6645291930348198241">Adgang til cookies og websitedata.</translation>
-<translation id="1375868315964791309">{COUNT,plural, =0{Ingen}=1{Fra 1 website (du logges ikke ud af din Brave-konto)}one{Fra # website (du logges ikke ud af din Brave-konto)}other{Fra # websites (du logges ikke ud af din Brave-konto)}}</translation>
-<translation id="6678472970290886941">Din administrator kan ændre konfigurationen af din browser via fjernadgang. Aktivitet på denne enhed administreres muligvis også uden for Brave.</translation>
+<translation id="1375868315964791309">{COUNT,plural, =0{Ingen}=1{Fra 1 website (du logges ikke ud af din Presearch-konto)}one{Fra # website (du logges ikke ud af din Presearch-konto)}other{Fra # websites (du logges ikke ud af din Presearch-konto)}}</translation>
+<translation id="6678472970290886941">Din administrator kan ændre konfigurationen af din browser via fjernadgang. Aktivitet på denne enhed administreres muligvis også uden for Presearch.</translation>
 <translation id="6648524591329069940">Serif-skrifttype</translation>
 <translation id="6651270836885078973">Administreres af:</translation>
 <translation id="6652101503459149953">Brug Windows Hello</translation>
@@ -1984,8 +1984,8 @@ Ellers vil det blive blokeret af dine privatlivsindstillinger. Det giver det ind
 <translation id="6688743156324860098">Opdater…</translation>
 <translation id="6688775486821967877">Det virtuelle kort er ikke tilgængeligt lige nu. Prøv igen senere.</translation>
 <translation id="6689249931105087298">Relativ komprimering med sorte punkter</translation>
-<translation id="5406652219015697259">Brave tilbyder at gemme dine kort på din Brave-konto, fordi du er logget ind. Du kan ændre dette i indstillingerne. Kortindehaverens navn hentes fra din konto.</translation>
-<translation id="6522914004575214087"><ph name="FIND_MY_PHONE_FOCUSED_FRIENDLY_MATCH_TEXT"/> – tryk på Tab-tasten og derefter Enter for at finde din enhed på Brave-kontoen</translation>
+<translation id="5406652219015697259">Presearch tilbyder at gemme dine kort på din Presearch-konto, fordi du er logget ind. Du kan ændre dette i indstillingerne. Kortindehaverens navn hentes fra din konto.</translation>
+<translation id="6522914004575214087"><ph name="FIND_MY_PHONE_FOCUSED_FRIENDLY_MATCH_TEXT"/> – tryk på Tab-tasten og derefter Enter for at finde din enhed på Presearch-kontoen</translation>
 <translation id="6696588630955820014">Knappen "Del denne fane" – tryk på Enter for at dele denne fane ved at dele linket, oprette en QR-kode, caste m.m.</translation>
 <translation id="6698381487523150993">Oprettet:</translation>
 <translation id="6702919718839027939">Nutid</translation>
@@ -2028,7 +2028,7 @@ Ellers vil det blive blokeret af dine privatlivsindstillinger. Det giver det ind
 <translation id="6826993739343257035">Vil du tillade AR?</translation>
 <translation id="6828866289116430505">Genetik</translation>
 <translation id="6831043979455480757">Oversæt</translation>
-<translation id="2427219270600431645">Gem dit kort og dine faktureringsoplysninger på din Brave-konto for at betale hurtigere og mere sikkert</translation>
+<translation id="2427219270600431645">Gem dit kort og dine faktureringsoplysninger på din Presearch-konto for at betale hurtigere og mere sikkert</translation>
 <translation id="6839929833149231406">Område</translation>
 <translation id="6846340164947227603">Brug et virtuelt kortnummer...</translation>
 <translation id="6852204201400771460">Vil du genindlæse appen?</translation>
@@ -2037,11 +2037,11 @@ Ellers vil det blive blokeret af dine privatlivsindstillinger. Det giver det ind
 <translation id="6869334554832814367">Privatlån</translation>
 <translation id="6873456682041376666">Øverste bakke</translation>
 <translation id="6874604403660855544">&amp;Annuller fortryd tilføjelse</translation>
-<translation id="5856252669085142737">Opret hurtigt et nyt Brave-dokument</translation>
+<translation id="5856252669085142737">Opret hurtigt et nyt Presearch-dokument</translation>
 <translation id="6883221904761970440">Arket til godkendelse af loginoplysninger til sikker betaling er lukket</translation>
 <translation id="6884662655240309489">Størrelse 1</translation>
 <translation id="6886577214605505410"><ph name="LOCATION_TITLE"/> <ph name="SHORT_URL"/></translation>
-<translation id="7265969755975834932">Brave har forenklet denne side for at gøre den nemmere at læse. Brave har hentet den oprindelige side via en usikker forbindelse.</translation>
+<translation id="7265969755975834932">Presearch har forenklet denne side for at gøre den nemmere at læse. Presearch har hentet den oprindelige side via en usikker forbindelse.</translation>
 <translation id="6890443033788248019">Vil du give adgang til lokation?</translation>
 <translation id="6891596781022320156">Politikniveauet understøttes ikke.</translation>
 <translation id="6895143722905299846">Virtuelt nummer:</translation>
@@ -2056,7 +2056,7 @@ Ellers vil det blive blokeret af dine privatlivsindstillinger. Det giver det ind
 <translation id="6915804003454593391">Bruger:</translation>
 <translation id="6916954549222464607">Finansiel planlægning og styring</translation>
 <translation id="6917795328362592458">Den adgangskode, du lige har brugt, er blevet lækket i forbindelse med et brud på datasikkerheden. For at beskytte dine konti anbefaler Adgangskodeadministrator, at du tjekker dine gemte adgangskoder.</translation>
-<translation id="6722453239914327220">Dette navn er fra din Brave-konto</translation>
+<translation id="6722453239914327220">Dette navn er fra din Presearch-konto</translation>
 <translation id="6939469646605424232">Tv-drama</translation>
 <translation id="6944692733090228304">Du indtastede din adgangskode på et website, der ikke administreres af <ph name="BEGIN_BOLD"/><ph name="ORG_NAME"/><ph name="END_BOLD"/>. Du kan beskytte din konto ved at undgå at bruge din adgangskode i andre apps og på andre websites.</translation>
 <translation id="6945221475159498467">Vælg</translation>
@@ -2068,7 +2068,7 @@ Ellers vil det blive blokeret af dine privatlivsindstillinger. Det giver det ind
 <translation id="695140971690006676">Nulstil alle</translation>
 <translation id="6954049078461159956">Hockey</translation>
 <translation id="6957887021205513506">Serverens certifikat ser ud til at være en forfalskning.</translation>
-<translation id="774679539085757206">Administrer privatlivsindstillingerne på din Brave-konto</translation>
+<translation id="774679539085757206">Administrer privatlivsindstillingerne på din Presearch-konto</translation>
 <translation id="695864015080711809">Job og uddannelse</translation>
 <translation id="6961733224437895943">Indboforsikring</translation>
 <translation id="6961844873822989059">Websitet kan anmode om tilladelse til at bruge de skrifttyper, der er installeret på din enhed</translation>
@@ -2081,12 +2081,12 @@ Ellers vil det blive blokeret af dine privatlivsindstillinger. Det giver det ind
 <translation id="696703987787944103">Perceptuel</translation>
 <translation id="6968269510885595029">Brug din sikkerhedsnøgle</translation>
 <translation id="6970216967273061347">Distrikt</translation>
-<translation id="8485851762575764192">Opret hurtigt en ny Brave-præsentation i Slides</translation>
+<translation id="8485851762575764192">Opret hurtigt en ny Presearch-præsentation i Slides</translation>
 <translation id="6972629891077993081">HID-enheder</translation>
 <translation id="6973656660372572881">Både faste proxyservere og en webadresse for .pac-script angives.</translation>
 <translation id="6973932557599545801">Jeg kan desværre ikke hjælpe. Fortsæt på egen hånd.</translation>
 <translation id="6978236010531171013">Del alligevel</translation>
-<translation id="6979158407327259162">Brave Drev</translation>
+<translation id="6979158407327259162">Presearch Drev</translation>
 <translation id="6979440798594660689">Slå lyden fra (standard)</translation>
 <translation id="6979983982287291980">De filer, du downloader, sendes til Google Cloud eller tredjeparter, hvor de analyseres. De kan f.eks. blive scannet for følsomme oplysninger eller malware.</translation>
 <translation id="6989763994942163495">Vis avancerede indstillinger...</translation>
@@ -2102,14 +2102,14 @@ Ellers vil det blive blokeret af dine privatlivsindstillinger. Det giver det ind
 <translation id="7029809446516969842">Adgangskoder</translation>
 <translation id="7030436163253143341">Certifikatet er ikke gyldigt</translation>
 <translation id="7031646650991750659">Hvilke Google Play-apps, du har installeret</translation>
-<translation id="8918349693525256593"><ph name="MANAGE_GOOGLE_PRIVACY_FOCUSED_FRIENDLY_MATCH_TEXT"/> –tryk på Tab-tasten og derefter Enter for at administrere privatlivsindstillingerne for din Brave-konto</translation>
+<translation id="8918349693525256593"><ph name="MANAGE_GOOGLE_PRIVACY_FOCUSED_FRIENDLY_MATCH_TEXT"/> –tryk på Tab-tasten og derefter Enter for at administrere privatlivsindstillingerne for din Presearch-konto</translation>
 <translation id="7050187094878475250">Du forsøgte at gå til <ph name="DOMAIN"/>, men serveren præsenterede et certifikat, hvis gyldighedsperiode er for lang til at være pålidelig.</translation>
 <translation id="705310974202322020">{NUM_CARDS,plural, =1{Kortet kan ikke tilføjes lige nu}one{Kortet kan ikke tilføjes lige nu}other{Kortene kan ikke tilføjes lige nu}}</translation>
 <translation id="7053983685419859001">Bloker</translation>
 <translation id="7058163556978339998"><ph name="BROWSER"/> bekræftede, at <ph name="ISSUER"/> har udstedt dette websites certifikat.</translation>
 <translation id="7061777300866737982">Sikkerhed i hjemmet</translation>
 <translation id="7062635574500127092">Grønblå</translation>
-<translation id="5320462991730735481">Tilføj og administrer adresser i Brave-indstillingerne</translation>
+<translation id="5320462991730735481">Tilføj og administrer adresser i Presearch-indstillingerne</translation>
 <translation id="7064851114919012435">Kontaktoplysninger</translation>
 <translation id="7067633076996245366">Soul og R&amp;B</translation>
 <translation id="7068733155164172741">Angiv <ph name="OTP_LENGTH"/>-cifret kode</translation>
@@ -2120,11 +2120,11 @@ Ellers vil det blive blokeret af dine privatlivsindstillinger. Det giver det ind
 <translation id="7083258188081898530">Bakke 9</translation>
 <translation id="7086090958708083563">Brugeren anmodede om upload</translation>
 <translation id="7087282848513945231">Amt/region</translation>
-<translation id="1313878436434241688"><ph name="MANAGE_SITE_SETTINGS_FOCUSED_FRIENDLY_MATCH_TEXT"/>, tryk på Tab-tasten efterfulgt af Enter for at administrere tilladelser og data, der gemmes på websites, i Brave-indstillingerne</translation>
+<translation id="1313878436434241688"><ph name="MANAGE_SITE_SETTINGS_FOCUSED_FRIENDLY_MATCH_TEXT"/>, tryk på Tab-tasten efterfulgt af Enter for at administrere tilladelser og data, der gemmes på websites, i Presearch-indstillingerne</translation>
 <translation id="7096937462164235847">Dette websites identitet er ikke bekræftet.</translation>
 <translation id="7101893872976785596">Gyserfilm</translation>
 <translation id="7102079138917191645">Byggeri og vedligeholdelse</translation>
-<translation id="6793825086874189463">Spil Brave Dino-spillet</translation>
+<translation id="6793825086874189463">Spil Presearch Dino-spillet</translation>
 <translation id="7108338896283013870">Skjul</translation>
 <translation id="7108634116785509031"><ph name="HOST"/> anmoder om at bruge dit kamera</translation>
 <translation id="7108819624672055576">Tilladt med en udvidelse</translation>
@@ -2178,12 +2178,12 @@ Yderligere oplysninger:
 <translation id="7260504762447901703">Tilbagekald adgangstilladelsen</translation>
 <translation id="7275334191706090484">Administrerede bogmærker</translation>
 <translation id="7277998515889183784">Makeup og kosmetik</translation>
-<translation id="2837210582972105306"><ph name="CHANGE_GOOGLE_PASSWORD_FOCUSED_FRIENDLY_MATCH_TEXT"/>, tryk på Tab-tasten efterfulgt af Enter for at ændre adgangskoden til din Brave-konto</translation>
+<translation id="2837210582972105306"><ph name="CHANGE_GOOGLE_PASSWORD_FOCUSED_FRIENDLY_MATCH_TEXT"/>, tryk på Tab-tasten efterfulgt af Enter for at ændre adgangskoden til din Presearch-konto</translation>
 <translation id="7292031607255951991">Modtagernavn</translation>
 <translation id="7298195798382681320">Anbefalet</translation>
 <translation id="7300012071106347854">Koboltblå</translation>
 <translation id="7304030187361489308">Højt</translation>
-<translation id="244157907932852817">Administrer privatlivsindstillingerne for din Brave-konto</translation>
+<translation id="244157907932852817">Administrer privatlivsindstillingerne for din Presearch-konto</translation>
 <translation id="7305756307268530424">Start langsommere</translation>
 <translation id="7308436126008021607">synkronisering i baggrunden.</translation>
 <translation id="7310392214323165548">Enheden genstarter meget snart</translation>
@@ -2206,13 +2206,13 @@ Yderligere oplysninger:
 <translation id="7353601530677266744">Kommandolinje</translation>
 <translation id="7354880545102894991">Lavpris- og afbudsrejser</translation>
 <translation id="7359588939039777303">Annoncer er blokeret.</translation>
-<translation id="7308957539693927108">Når Brave finder tilgængelige rabatter, vises de ved kassen</translation>
-<translation id="5417725730200908216"><ph name="MANAGE_ADDRESSES_FOCUSED_FRIENDLY_MATCH_TEXT"/>, tryk på Tab-tasten efterfulgt af Enter for at tilføje og administrere adresser i Brave-indstillingerne</translation>
+<translation id="7308957539693927108">Når Presearch finder tilgængelige rabatter, vises de ved kassen</translation>
+<translation id="5417725730200908216"><ph name="MANAGE_ADDRESSES_FOCUSED_FRIENDLY_MATCH_TEXT"/>, tryk på Tab-tasten efterfulgt af Enter for at tilføje og administrere adresser i Presearch-indstillingerne</translation>
 <translation id="7365849542400970216">Kende din enhedsbrug?</translation>
 <translation id="7366362069757178916">Betalingshandlers</translation>
 <translation id="7372973238305370288">søgeresultat</translation>
 <translation id="7374461526650987610">Protokolhåndtering</translation>
-<translation id="3898257577441589237">Dette problem opstår på grund af et certifikat, som du eller en anden har installeret på din enhed. Certifikatet anvendes ofte til at overvåge og opfange netværk, og Brave har ikke tillid til det. Der findes legitime årsager til at overvåge, f.eks. på skole- og virksomhedsnetværk, men Brave vil sikre, at du er bevidst om det, når det sker, også selvom du ikke kan stoppe det. Overvågning kan finde sted i enhver browser eller app, der har adgang til nettet.</translation>
+<translation id="3898257577441589237">Dette problem opstår på grund af et certifikat, som du eller en anden har installeret på din enhed. Certifikatet anvendes ofte til at overvåge og opfange netværk, og Presearch har ikke tillid til det. Der findes legitime årsager til at overvåge, f.eks. på skole- og virksomhedsnetværk, men Presearch vil sikre, at du er bevidst om det, når det sker, også selvom du ikke kan stoppe det. Overvågning kan finde sted i enhver browser eller app, der har adgang til nettet.</translation>
 <translation id="7375818412732305729">En fil vedhæftes</translation>
 <translation id="7377249249140280793"><ph name="RELATIVE_DATE"/> - <ph name="FULL_DATE"/></translation>
 <translation id="7378594059915113390">Mediestyring</translation>
@@ -2236,7 +2236,7 @@ Yderligere oplysninger:
       &lt;li&gt;Vælg &lt;strong&gt;Deaktiveret&lt;/strong&gt; under &lt;strong&gt;Starttype&lt;/strong&gt;
       &lt;li&gt;Klik på &lt;strong&gt;Stop&lt;/strong&gt; under &lt;strong&gt;Tjenestestatus&lt;/strong&gt;
       &lt;li&gt;Klik på &lt;strong&gt;Anvend&lt;/strong&gt;, og klik derefter på &lt;strong&gt;OK&lt;/strong&gt;
-      &lt;li&gt;Gå til &lt;a href="https://support.google.com/chrome/answer/6098869"&gt;Hjælp til Brave&lt;/a&gt; for at se, hvordan du permanent fjerner softwaren fra din computer
+      &lt;li&gt;Gå til &lt;a href="https://support.google.com/chrome/answer/6098869"&gt;Hjælp til Presearch&lt;/a&gt; for at se, hvordan du permanent fjerner softwaren fra din computer
       &lt;/ol&gt;</translation>
 <translation id="741007362987735528">Wide-Format</translation>
 <translation id="7410471291937727359">Sød</translation>
@@ -2244,7 +2244,7 @@ Yderligere oplysninger:
 <translation id="7418620734632363981">Programmering</translation>
 <translation id="7419106976560586862">Profilsti</translation>
 <translation id="7421067045979951561">protokolhåndtering</translation>
-<translation id="1451399671339759400">Knappen Se din Brave-historik – tryk på Enter for at se og administrere din browserhistorik i Brave-indstillingerne</translation>
+<translation id="1451399671339759400">Knappen Se din Presearch-historik – tryk på Enter for at se og administrere din browserhistorik i Presearch-indstillingerne</translation>
 <translation id="7427366580982928791">Værktøjer til beskyttelse af børn på nettet</translation>
 <translation id="7437289804838430631">Tilføj kontaktoplysninger</translation>
 <translation id="7437490109271760224">Kortspil</translation>
@@ -2264,9 +2264,9 @@ Yderligere oplysninger:
 <translation id="748745328507845862">Koncerter og musikfestivaler</translation>
 <translation id="7489473601138133813">Karriereressourcer og -planlægning</translation>
 <translation id="7495528107193238112">Dette indhold er blokeret. Kontakt ejeren af websitet for at løse problemet.</translation>
-<translation id="7812541223399526596">Knappen Opret et Brave-dokument, tryk på Enter for hurtigt at oprette et nyt Brave-dokument</translation>
+<translation id="7812541223399526596">Knappen Opret et Presearch-dokument, tryk på Enter for hurtigt at oprette et nyt Presearch-dokument</translation>
 <translation id="7501853161948120656">Uddannelsesressourcer</translation>
-<translation id="2957285558977211818">Brave <ph name="BEGIN_EMPHASIS"/>gemmer ikke<ph name="END_EMPHASIS"/> følgende oplysninger:
+<translation id="2957285558977211818">Presearch <ph name="BEGIN_EMPHASIS"/>gemmer ikke<ph name="END_EMPHASIS"/> følgende oplysninger:
           <ph name="BEGIN_LIST"/>
             <ph name="LIST_ITEM"/>Din browserhistorik
             <ph name="LIST_ITEM"/>Cookies og websitedata
@@ -2292,7 +2292,7 @@ Yderligere oplysninger:
 <translation id="7542995811387359312">Automatisk udfyldning af kreditkort er deaktiveret, fordi formularen ikke bruger en sikker forbindelse.</translation>
 <translation id="7548892272833184391">Ret forbindelsesfejl</translation>
 <translation id="7549584377607005141">Denne webside kræver data, du tidligere har indtastet, før den kan vises korrekt. Du kan sende disse data igen, men hvis du gør dette, gentager du enhver handling, som denne side tidligere har foretaget.</translation>
-<translation id="5474381306981932386">Brugernavnet for din enhed og dit Brave-brugernavn</translation>
+<translation id="5474381306981932386">Brugernavnet for din enhed og dit Presearch-brugernavn</translation>
 <translation id="7551484245293639699">Rejseforsikring</translation>
 <translation id="755279583747225797">Prøveperioden er aktiv</translation>
 <translation id="7552846755917812628">Prøv de følgende tips:</translation>
@@ -2307,10 +2307,10 @@ Yderligere oplysninger:
 <translation id="7569983096843329377">Sort</translation>
 <translation id="7575207903026901870">Knappen Fjern forslag. Tryk på Enter for at fjerne dette forslag.</translation>
 <translation id="7577900504646297215">Administrer interesser</translation>
-<translation id="405970181812690156">Betal hurtigt på websites og i apps på alle enheder ved hjælp af kort, du har gemt med Brave.</translation>
+<translation id="405970181812690156">Betal hurtigt på websites og i apps på alle enheder ved hjælp af kort, du har gemt med Presearch.</translation>
 <translation id="7579442726219254162">Der er en ukendt variabel (<ph name="VARIABLE"/>) i den administrerede konfiguration af "<ph name="APPLICATION_ID"/>".</translation>
 <translation id="7581199239021537589">Billedskift Y på side 2</translation>
-<translation id="4790068920551988473">Opret hurtigt en ny begivenhed i Brave Kalender</translation>
+<translation id="4790068920551988473">Opret hurtigt en ny begivenhed i Presearch Kalender</translation>
 <translation id="7583969447617676942">Juridisk rådgivning</translation>
 <translation id="7591288787774558753">Vil du dele fortroligt indhold?</translation>
 <translation id="7591636454931265313"><ph name="EMBEDDED_URL"/> vil gerne benytte cookies og websitedata på <ph name="TOP_LEVEL_URL"/></translation>
@@ -2320,14 +2320,14 @@ Yderligere oplysninger:
 <translation id="7600965453749440009">Oversæt aldrig <ph name="LANGUAGE"/></translation>
 <translation id="7610193165460212391">Værdien er uden for intervallet <ph name="VALUE"/>.</translation>
 <translation id="7613889955535752492">Udløbsdato: <ph name="EXPIRATION_MONTH"/>/<ph name="EXPIRATION_YEAR"/></translation>
-<translation id="5704205738724476508"><ph name="MANAGE_PASSWORDS_FOCUSED_FRIENDLY_MATCH_TEXT"/> – tryk på Tab-tasten efterfulgt af Enter for at se og administrere dine adgangskoder i Brave-indstillingerne</translation>
-<translation id="8565825862287624454">Din administrator har aktiveret Brave Enterprise Connectors i din browser. Disse connectorer har adgang til nogle af dine data.</translation>
+<translation id="5704205738724476508"><ph name="MANAGE_PASSWORDS_FOCUSED_FRIENDLY_MATCH_TEXT"/> – tryk på Tab-tasten efterfulgt af Enter for at se og administrere dine adgangskoder i Presearch-indstillingerne</translation>
+<translation id="8565825862287624454">Din administrator har aktiveret Presearch Enterprise Connectors i din browser. Disse connectorer har adgang til nogle af dine data.</translation>
 <translation id="7619838219691048931">Sidste ark</translation>
 <translation id="7625242817712715120">Administratorpolitikken fraråder udskrivning af dette indhold</translation>
 <translation id="762844065391966283">Ét ad gangen</translation>
 <translation id="7631444403134069754">Atletik</translation>
 <translation id="7633909222644580952">Effektivitetsdata og nedbrudsrapporter</translation>
-<translation id="6386821459680628976">Vil du fjerne kreditkortet fra Brave?</translation>
+<translation id="6386821459680628976">Vil du fjerne kreditkortet fra Presearch?</translation>
 <translation id="7637586430889951925">{COUNT,plural, =0{Ingen}=1{1 adgangskode på din konto (til <ph name="DOMAIN_LIST"/>)}one{# adgangskode på din konto (til <ph name="DOMAIN_LIST"/>)}other{# adgangskoder på din konto (til <ph name="DOMAIN_LIST"/>)}}</translation>
 <translation id="7638605456503525968">Serieporte</translation>
 <translation id="7639968568612851608">Mørkegrå</translation>
@@ -2346,7 +2346,7 @@ Yderligere oplysninger:
 <translation id="7669907849388166732">{COUNT,plural, =1{Handlinger, som er foretaget i forbindelse med data, der er rapporteret som fortrolige (1 handling siden login). <ph name="BEGIN_LINK"/>Få flere oplysninger<ph name="END_LINK"/>}one{Handlinger, som er foretaget i forbindelse med data, der er rapporteret som fortrolige (# handling siden login). <ph name="BEGIN_LINK"/>Få flere oplysninger<ph name="END_LINK"/>}other{Handlinger, som er foretaget i forbindelse med data, der er rapporteret som fortrolige (# handlinger siden login). <ph name="BEGIN_LINK"/>Få flere oplysninger<ph name="END_LINK"/>}}</translation>
 <translation id="7673278391011283842">Postkasse 6</translation>
 <translation id="7676643023259824263">Søg efter tekst i udklipsholderen, <ph name="TEXT"/></translation>
-<translation id="4628681623692678085">Se og administrer din browserhistorik i Brave-indstillingerne</translation>
+<translation id="4628681623692678085">Se og administrer din browserhistorik i Presearch-indstillingerne</translation>
 <translation id="7679947978757153706">Baseball</translation>
 <translation id="7681273392938116652">Fantasisport</translation>
 <translation id="7682287625158474539">Forsendelse</translation>
@@ -2368,12 +2368,12 @@ Yderligere oplysninger:
 <translation id="7716375162095500223">Ignoreret eller endnu ikke uploadet</translation>
 <translation id="7716424297397655342">Dette website kan ikke indlæses fra cachen</translation>
 <translation id="7723047071702270851">Rediger kort</translation>
-<translation id="1296098648902562076">Opret hurtigt en ny formular i Brave Analyse</translation>
+<translation id="1296098648902562076">Opret hurtigt en ny formular i Presearch Analyse</translation>
 <translation id="773466115871691567">Oversæt altid sider på <ph name="SOURCE_LANGUAGE"/></translation>
 <translation id="7740996059027112821">Standard</translation>
 <translation id="77424286611022110">Dette website viser påtrængende eller vildledende annoncer. <ph name="LEARN_MORE_LINK_TEXT"/></translation>
 <translation id="774634243536837715">Farligt indhold er blokeret.</translation>
-<translation id="921286857694606205">Tilpas skriftstørrelser og skrifttyper i Brave</translation>
+<translation id="921286857694606205">Tilpas skriftstørrelser og skrifttyper i Presearch</translation>
 <translation id="7752995774971033316">Administreres ikke</translation>
 <translation id="7755624218968747854">Primær papirrulle</translation>
 <translation id="7757555340166475417">Dai-Pa-Kai</translation>
@@ -2398,7 +2398,7 @@ Yderligere oplysninger:
 <translation id="7805571567667010077">Administreret af din organisation</translation>
 <translation id="7805768142964895445">Status</translation>
 <translation id="7812922009395017822">Mir</translation>
-<translation id="4670564340385807132">Vil du fjerne formularforslaget fra Brave?</translation>
+<translation id="4670564340385807132">Vil du fjerne formularforslaget fra Presearch?</translation>
 <translation id="781440967107097262">Vil du dele din udklipsholder?</translation>
 <translation id="7815407501681723534">Der blev fundet <ph name="NUMBER_OF_RESULTS"/> <ph name="SEARCH_RESULTS"/> for "<ph name="SEARCH_STRING"/>"</translation>
 <translation id="7822320754433038727">Jagt og skydning</translation>
@@ -2408,7 +2408,7 @@ Yderligere oplysninger:
 <translation id="7855695075675558090"><ph name="TOTAL_LABEL"/> <ph name="CURRENCY_CODE"/> <ph name="FORMATTED_TOTAL_AMOUNT"/></translation>
 <translation id="7862185352068345852">Vil du forlade websitet?</translation>
 <translation id="7865448901209910068">Bedste hastighed</translation>
-<translation id="7971990257511863579">Skift adgangskoden til din Brave-konto</translation>
+<translation id="7971990257511863579">Skift adgangskoden til din Presearch-konto</translation>
 <translation id="7877007680666472091">beskyttede indholds-id'er</translation>
 <translation id="7878562273885520351">Din adgangskode kan være kompromitteret</translation>
 <translation id="7880146494886811634">Gem adresse</translation>
@@ -2423,7 +2423,7 @@ Yderligere oplysninger:
 <translation id="793209273132572360">Vil du opdater adressen?</translation>
 <translation id="7932579305932748336">Bestrygning</translation>
 <translation id="79338296614623784">Angiv et gyldigt telefonnummer</translation>
-<translation id="8329449853370113380"><ph name="URL"/> vil afspille beskyttet indhold. Din enheds identitet bekræftes af Brave.</translation>
+<translation id="8329449853370113380"><ph name="URL"/> vil afspille beskyttet indhold. Din enheds identitet bekræftes af Presearch.</translation>
 <translation id="7935318582918952113">DOM Distiller</translation>
 <translation id="7937554595067888181">Udløber <ph name="EXPIRATION_DATE_ABBR"/></translation>
 <translation id="7938958445268990899">Serverens certifikatet er endnu ikke gyldigt.</translation>
@@ -2432,8 +2432,8 @@ Yderligere oplysninger:
 <translation id="7942349550061667556">Rød</translation>
 <translation id="7943893128817522649">Websitet kan anmode om tilladelse til automatisk at downloade flere filer</translation>
 <translation id="7947285636476623132">Kontrollér, om udløbsåret er korrekt, og prøv igen.</translation>
-<translation id="3227327027957060968"><ph name="SEE_CHROME_TIPS_FOCUSED_FRIENDLY_MATCH_TEXT"/>, tryk på Tab-tasten efterfulgt af Enter for at få flere oplysninger om Brave-funktioner</translation>
-<translation id="1535074845255182168">Administrer dine cookiepræferencer i Brave-indstillingerne</translation>
+<translation id="3227327027957060968"><ph name="SEE_CHROME_TIPS_FOCUSED_FRIENDLY_MATCH_TEXT"/>, tryk på Tab-tasten efterfulgt af Enter for at få flere oplysninger om Presearch-funktioner</translation>
+<translation id="1535074845255182168">Administrer dine cookiepræferencer i Presearch-indstillingerne</translation>
 <translation id="7951415247503192394">(32-bit)</translation>
 <translation id="7953569069500808819">Kanthæftning øverst</translation>
 <translation id="7956713633345437162">Bogmærker på mobil</translation>
@@ -2449,7 +2449,7 @@ Yderligere oplysninger:
 <translation id="7981260203882740562">Tilknyttet</translation>
 <translation id="798134797138789862">Websitet kan anmode om tilladelse til at bruge virtual reality-enheder og -data</translation>
 <translation id="7983008347525536475">Firehjulstrækkere</translation>
-<translation id="8896585555528145662">Du kan ikke gå til <ph name="SITE"/> lige nu, da websitet sendte krypterede legitimationsoplysninger, som Brave ikke kan håndtere. Netværksfejl og angreb er normalt midlertidige, så denne side vil sandsynligvis fungere senere.</translation>
+<translation id="8896585555528145662">Du kan ikke gå til <ph name="SITE"/> lige nu, da websitet sendte krypterede legitimationsoplysninger, som Presearch ikke kan håndtere. Netværksfejl og angreb er normalt midlertidige, så denne side vil sandsynligvis fungere senere.</translation>
 <translation id="7986319120639858961"><ph name="CARD_TITLE"/> <ph name="TIME"/> <ph name="BOOKMARKED"/> <ph name="TITLE"/> <ph name="DOMAIN"/></translation>
 <translation id="799149739215780103">Bind</translation>
 <translation id="7992044431894087211">Skærmdelingen med <ph name="APPLICATION_TITLE"/> blev genoptaget</translation>
@@ -2462,7 +2462,7 @@ Yderligere oplysninger:
 <translation id="8025119109950072390">Hackere på dette website kan narre dig til at gøre noget farligt, såsom at installere software eller afsløre dine personlige oplysninger (f.eks. adgangskoder, telefonnumre eller kreditkort).</translation>
 <translation id="8026334261755873520">Ryd browserdata</translation>
 <translation id="8027077570865220386">Bakke 15</translation>
-<translation id="814401020562419411"><ph name="CREATE_GOOGLE_FORM_FOCUSED_FRIENDLY_MATCH_TEXT"/>, tryk på Tab-tasten efterfulgt af Enter for hurtigt at oprette en ny formular i Brave Analyse</translation>
+<translation id="814401020562419411"><ph name="CREATE_GOOGLE_FORM_FOCUSED_FRIENDLY_MATCH_TEXT"/>, tryk på Tab-tasten efterfulgt af Enter for hurtigt at oprette en ny formular i Presearch Analyse</translation>
 <translation id="8028960012888758725">Beskær efter tryk</translation>
 <translation id="8034522405403831421">Denne side er på <ph name="SOURCE_LANGUAGE"/>. Vil du oversætte den til <ph name="TARGET_LANGUAGE"/>?</translation>
 <translation id="8035152190676905274">Pen</translation>
@@ -2478,10 +2478,10 @@ Yderligere oplysninger:
 <translation id="8057711352706143257">"<ph name="SOFTWARE_NAME"/>" er ikke konfigureret korrekt. Problemet kan normalt løses ved at afinstallere "<ph name="SOFTWARE_NAME"/>". <ph name="FURTHER_EXPLANATION"/></translation>
 <translation id="8058009102480785916">Levnedsmiddelproduktion</translation>
 <translation id="8066955247577885446">Noget gik galt.</translation>
-<translation id="5442778523450464826">Du har lige angivet din adgangskode på et vildledende website. Brave kan hjælpe. Klik på Beskyt konto for at ændre din adgangskode og underrette Brave om, at din konto muligvis er kompromitteret.</translation>
+<translation id="5442778523450464826">Du har lige angivet din adgangskode på et vildledende website. Presearch kan hjælpe. Klik på Beskyt konto for at ændre din adgangskode og underrette Presearch om, at din konto muligvis er kompromitteret.</translation>
 <translation id="8070439594494267500">Appikon</translation>
 <translation id="8074253406171541171">10x13 (Envelope)</translation>
-<translation id="7738019368151747786">Opret hurtigt et nyt Brave-regneark</translation>
+<translation id="7738019368151747786">Opret hurtigt et nyt Presearch-regneark</translation>
 <translation id="8075898834294118863">Administrer indstillinger for websites</translation>
 <translation id="8078141288243656252">Der kan ikke annoteres ved rotering</translation>
 <translation id="8079031581361219619">Vil du genindlæse websitet?</translation>
@@ -2503,7 +2503,7 @@ Yderligere oplysninger:
 <translation id="8116925261070264013">Websites, hvor lyden er slået fra</translation>
 <translation id="8118489163946903409">Betalingsmetode</translation>
 <translation id="8123046743443732598">Stationære computere</translation>
-<translation id="1930033552459819898">Knappen "Tilpas Brave" – tryk på Enter for at tilpasse din browsers udseende.</translation>
+<translation id="1930033552459819898">Knappen "Tilpas Presearch" – tryk på Enter for at tilpasse din browsers udseende.</translation>
 <translation id="8126056688005753476">Oplevelsesrejser</translation>
 <translation id="8127301229239896662">"<ph name="SOFTWARE_NAME"/>" blev ikke korrekt installeret på computeren eller netværket. Bed din IT-administrator om at løse problemet.</translation>
 <translation id="8131740175452115882">Bekræft</translation>
@@ -2512,7 +2512,7 @@ Yderligere oplysninger:
 <translation id="8150722005171944719">Filen i <ph name="URL"/> kan ikke læses. Den kan være blevet fjernet, flyttet, eller også forhindrer filtilladelser muligvis adgangen.</translation>
 <translation id="8157295877370077682">Forlad website</translation>
 <translation id="8163866351304776260">Fire huller i venstre side</translation>
-<translation id="4351627595884993315">Brave tilbyder at gemme dine kort på din Brave-konto, fordi du er logget ind. Du kan ændre dette i indstillingerne.</translation>
+<translation id="4351627595884993315">Presearch tilbyder at gemme dine kort på din Presearch-konto, fordi du er logget ind. Du kan ændre dette i indstillingerne.</translation>
 <translation id="8176440868214972690">Administratoren af denne enhed har sendt nogle oplysninger til følgende websites, f.eks. indstillinger eller politikker.</translation>
 <translation id="8184538546369750125">Brug global standard (tillad)</translation>
 <translation id="8186706823560132848">Software</translation>
@@ -2557,7 +2557,7 @@ Yderligere oplysninger:
 <translation id="8281084378435768645">Large-Photo</translation>
 <translation id="8281886186245836920">Spring over</translation>
 <translation id="8282947398454257691">Kende dit unikke enheds-id</translation>
-<translation id="4596532552309852907">Administrer Beskyttet browsing m.m. i Brave-indstillingerne</translation>
+<translation id="4596532552309852907">Administrer Beskyttet browsing m.m. i Presearch-indstillingerne</translation>
 <translation id="8286036467436129157">Log ind</translation>
 <translation id="8288807391153049143">Vis certifikat</translation>
 <translation id="8289355894181816810">Kontakt din netværksadministrator, hvis du ikke er sikker på, hvad det betyder.</translation>
@@ -2593,7 +2593,7 @@ Yderligere oplysninger:
 <translation id="8381674639488873545">Disse debiteringer kan være enkeltstående eller gentagne og fremgår muligvis ikke tydeligt. <ph name="BEGIN_LINK"/>Vis alligevel<ph name="END_LINK"/></translation>
 <translation id="8390725133630534698">Administratorpolitikken tillader ikke, at du deler fra <ph name="ORIGIN_NAME"/> til <ph name="VM_NAME"/></translation>
 <translation id="8398790343843005537">Find din telefon</translation>
-<translation id="15931837016421186">Administrer, hvilke oplysninger der skal synkroniseres, i Brave-indstillingerne</translation>
+<translation id="15931837016421186">Administrer, hvilke oplysninger der skal synkroniseres, i Presearch-indstillingerne</translation>
 <translation id="8409413588194360210">betalingshandlers</translation>
 <translation id="8412145213513410671">Nedbrud (<ph name="CRASH_COUNT"/>)</translation>
 <translation id="8412392972487953978">Du skal angive den samme adgangssætning to gange.</translation>
@@ -2602,7 +2602,7 @@ Yderligere oplysninger:
 <ph name="DEBUG_INFO"/></translation>
 <translation id="8424582179843326029"><ph name="FIRST_LABEL"/> <ph name="SECOND_LABEL"/> <ph name="THIRD_LABEL"/></translation>
 <translation id="8428213095426709021">Indstillinger</translation>
-<translation id="5808418475906247813"><ph name="MANAGE_COOKIES_FOCUSED_FRIENDLY_MATCH_TEXT"/>, tryk på Tab-tasten efterfulgt af Enter for at administrere dine cookiepræferencer i Brave-indstillingerne</translation>
+<translation id="5808418475906247813"><ph name="MANAGE_COOKIES_FOCUSED_FRIENDLY_MATCH_TEXT"/>, tryk på Tab-tasten efterfulgt af Enter for at administrere dine cookiepræferencer i Presearch-indstillingerne</translation>
 <translation id="8433057134996913067">Dette logger dig ud af de fleste websites.</translation>
 <translation id="8434840396568290395">Kæledyr</translation>
 <translation id="8437238597147034694">&amp;Fortryd flytning</translation>
@@ -2618,20 +2618,20 @@ Yderligere oplysninger:
 <translation id="8473863474539038330">Adresser m.m.</translation>
 <translation id="8474910779563686872">Vis udvikleroplysninger</translation>
 <translation id="8479754468255770962">Hæftning nederst til venstre</translation>
-<translation id="5142582872611298328">Hvis du vil bruge kort fra din Brave-konto, skal du logge ind i Brave</translation>
+<translation id="5142582872611298328">Hvis du vil bruge kort fra din Presearch-konto, skal du logge ind i Presearch</translation>
 <translation id="8488350697529856933">Gælder for</translation>
 <translation id="8490137692873530638">Stabler 10</translation>
 <translation id="8493948351860045254">Frigør plads</translation>
 <translation id="8498891568109133222"><ph name="HOST_NAME"/> var for lang tid om at svare.</translation>
-<translation id="230699814587342492">Brave-adgangskoder</translation>
+<translation id="230699814587342492">Presearch-adgangskoder</translation>
 <translation id="8503813439785031346">Brugernavn</translation>
 <translation id="8507227106804027148">Kommandolinje</translation>
 <translation id="8508648098325802031">Søgeikon</translation>
 <translation id="8511402995811232419">Administrer cookies</translation>
 <translation id="851353418319061866">Troværdighedstjek</translation>
 <translation id="8519753333133776369">Din administrator har tilladt HID-enheden</translation>
-<translation id="1426902392270366682">Brave kan hjælpe dig med at beskytte din Brave-konto og ændre din adgangskode.</translation>
-<translation id="1215802963054007211">Ryd browserhistorik, cookies, cache m.m. i Brave-indstillingerne</translation>
+<translation id="1426902392270366682">Presearch kan hjælpe dig med at beskytte din Presearch-konto og ændre din adgangskode.</translation>
+<translation id="1215802963054007211">Ryd browserhistorik, cookies, cache m.m. i Presearch-indstillingerne</translation>
 <translation id="853332391023689529">Pickup-trucks</translation>
 <translation id="8533619373899488139">Gå til &lt;strong&gt;chrome://policy&lt;/strong&gt; for at se listen over blokerede webadresser og andre politikker, der håndhæves af din systemadministrator.</translation>
 <translation id="8539500321752640291">Vil du godkende 2 tilladelser?</translation>
@@ -2675,7 +2675,7 @@ Yderligere oplysninger:
 <translation id="868922510921656628">Sider pr. sæt</translation>
 <translation id="869891660844655955">Udløbsdato</translation>
 <translation id="8699041776323235191">HID-enhed</translation>
-<translation id="4959770473590669345">Knappen Spil Brave Dino, tryk på Enter for at spille Dino Run-spillet i Brave</translation>
+<translation id="4959770473590669345">Knappen Spil Presearch Dino, tryk på Enter for at spille Dino Run-spillet i Presearch</translation>
 <translation id="8703575177326907206">Din forbindelse til <ph name="DOMAIN"/> er ikke krypteret.</translation>
 <translation id="8705331520020532516">Serienummer</translation>
 <translation id="8708134712139312373">Websitet kan anmode om tilladelse til at oprette forbindelse til Bluetooth-enheder</translation>
@@ -2690,10 +2690,10 @@ Yderligere oplysninger:
 <translation id="8725066075913043281">Forsøg igen</translation>
 <translation id="8726549941689275341">Sidestørrelse:</translation>
 <translation id="8730621377337864115">Udfør</translation>
-<translation id="1769647018144434441">Knappen Administrer adgangskoder – tryk på Enter for at se og administrere dine adgangskoder i Brave-indstillingerne</translation>
+<translation id="1769647018144434441">Knappen Administrer adgangskoder – tryk på Enter for at se og administrere dine adgangskoder i Presearch-indstillingerne</translation>
 <translation id="8734529307927223492">Din <ph name="DEVICE_TYPE"/> administreres af <ph name="MANAGER"/></translation>
 <translation id="8737685506611670901">Åbne <ph name="PROTOCOL"/>-links i stedet for <ph name="REPLACED_HANDLER_TITLE"/></translation>
-<translation id="6326805297893828864">For at kunne oprette en sikker forbindelse skal dit ur være indstillet korrekt. Det er vigtigt, da de certifikater, som websites bruger til at identificere sig selv, kun er gyldige i bestemte tidsperioder. Da uret på din enhed går forkert, kan Brave ikke bekræfte disse certifikater.</translation>
+<translation id="6326805297893828864">For at kunne oprette en sikker forbindelse skal dit ur være indstillet korrekt. Det er vigtigt, da de certifikater, som websites bruger til at identificere sig selv, kun er gyldige i bestemte tidsperioder. Da uret på din enhed går forkert, kan Presearch ikke bekræfte disse certifikater.</translation>
 <translation id="8740359287975076522">&lt;abbr id="dnsDefinition"&gt;DNS-adressen&lt;/abbr&gt; for <ph name="HOST_NAME"/> blev ikke fundet. Diagnosticerer problemet.</translation>
 <translation id="8742371904523228557"><ph name="ONE_TIME_CODE"/> er din kode til <ph name="ORIGIN"/></translation>
 <translation id="874918643257405732">Tilføj denne fane som bogmærke</translation>
@@ -2701,22 +2701,22 @@ Yderligere oplysninger:
 <translation id="8758885506338294482">Videospilkonkurrencer (e-sport)</translation>
 <translation id="8759274551635299824">Kortet er udløbet</translation>
 <translation id="87601671197631245">Dette website benytter en forældet sikkerhedskonfiguration, der muligvis afslører dine oplysninger (f.eks. adgangskoder, meddelelser eller betalingskort), når de sendes til dette website.</translation>
-<translation id="8761567432415473239">Beskyttet browsing i Brave har for nylig <ph name="BEGIN_LINK"/>fundet skadelige programmer<ph name="END_LINK"/> på <ph name="SITE"/>.</translation>
+<translation id="8761567432415473239">Beskyttet browsing i Presearch har for nylig <ph name="BEGIN_LINK"/>fundet skadelige programmer<ph name="END_LINK"/> på <ph name="SITE"/>.</translation>
 <translation id="8763927697961133303">USB-enhed</translation>
 <translation id="8766943070169463815">Arket til godkendelse af loginoplysninger til sikker betaling er åbnet</translation>
 <translation id="877985182522063539">A4</translation>
 <translation id="8785658048882205566">Motorcykler</translation>
 <translation id="8790007591277257123">&amp;Annuller fortryd sletning</translation>
-<translation id="5304100303568917877">Du kan miste adgangen til din <ph name="ORG_NAME"/>-konto eller udsættes for identitetstyveri. Brave anbefaler, at du skifter din adgangskode nu.</translation>
+<translation id="5304100303568917877">Du kan miste adgangen til din <ph name="ORG_NAME"/>-konto eller udsættes for identitetstyveri. Presearch anbefaler, at du skifter din adgangskode nu.</translation>
 <translation id="8792626944327216835">mikrofon</translation>
-<translation id="9156291179464624174"><ph name="ENROLLMENT_DOMAIN"/> har aktiveret Brave Enterprise Connectors i din browser. Disse connectorer har adgang til nogle af dine data.</translation>
+<translation id="9156291179464624174"><ph name="ENROLLMENT_DOMAIN"/> har aktiveret Presearch Enterprise Connectors i din browser. Disse connectorer har adgang til nogle af dine data.</translation>
 <translation id="8798099450830957504">Standard</translation>
 <translation id="8798739476508189189">Leder du efter demofunktioner til browsere? Besøg</translation>
 <translation id="8805819170075074995">Listepost "<ph name="LANGUAGE_ID"/>": Posten blev ignoreret, fordi den også er inkluderet i politikken SpellcheckLanguage.</translation>
 <translation id="8806285662264631610">Bade- og hudplejeprodukter</translation>
 <translation id="8807160976559152894">Beskær efter hver side</translation>
-<translation id="7527893726197732596">Indstillinger for Brave</translation>
-<translation id="7674607358106534914"><ph name="UPDATE_CHROME_FOCUSED_FRIENDLY_MATCH_TEXT"/> – tryk på Tab-tasten efterfulgt af Enter for at opdatere Brave i dine Brave-indstillinger</translation>
+<translation id="7527893726197732596">Indstillinger for Presearch</translation>
+<translation id="7674607358106534914"><ph name="UPDATE_CHROME_FOCUSED_FRIENDLY_MATCH_TEXT"/> – tryk på Tab-tasten efterfulgt af Enter for at opdatere Presearch i dine Presearch-indstillinger</translation>
 <translation id="882338992931677877">Manuel papirbakke</translation>
 <translation id="883848425547221593">Andre bogmærker</translation>
 <translation id="884264119367021077">Leveringsadresse</translation>
@@ -2725,8 +2725,8 @@ Yderligere oplysninger:
 <translation id="8852567725116633427">Mikrobiler og minibiler</translation>
 <translation id="885306012106043620">Tennis</translation>
 <translation id="8855742650226305367">Dans</translation>
-<translation id="7487066225574140895">Deling med Brave</translation>
-<translation id="4764754838347156633">Brave anbefaler, at du nulstiller din adgangskode til <ph name="BEGIN_BOLD"/><ph name="ORG_NAME"/><ph name="END_BOLD"/>, hvis du har brugt den på andre websites.</translation>
+<translation id="7487066225574140895">Deling med Presearch</translation>
+<translation id="4764754838347156633">Presearch anbefaler, at du nulstiller din adgangskode til <ph name="BEGIN_BOLD"/><ph name="ORG_NAME"/><ph name="END_BOLD"/>, hvis du har brugt den på andre websites.</translation>
 <translation id="885906927438988819">Hvis stavningen er korrekt, kan du <ph name="BEGIN_LINK"/>prøve at køre Windows Netværksdiagnosticering<ph name="END_LINK"/>.</translation>
 <translation id="8866132857352163524">Lydspor</translation>
 <translation id="8866481888320382733">Der opstod en fejl ved parsing af indstillinger for politik</translation>
@@ -2746,12 +2746,12 @@ Yderligere oplysninger:
 <translation id="8903921497873541725">Zoom ind</translation>
 <translation id="890485472659500557">Engineering-C</translation>
 <translation id="890493561996401738">Knappen Fjern forslag. Tryk på Enter for at fjerne, <ph name="REMOVE_BUTTON_FOCUSED_FRIENDLY_MATCH_TEXT"/></translation>
-<translation id="2684652081942622950">Brave-konto</translation>
-<translation id="4102271590580840789">Knappen Administrer betalingsmetoder – tryk på Enter for at administrere oplysninger om dine betalinger og betalingskort i Brave-indstillingerne</translation>
+<translation id="2684652081942622950">Presearch-konto</translation>
+<translation id="4102271590580840789">Knappen Administrer betalingsmetoder – tryk på Enter for at administrere oplysninger om dine betalinger og betalingskort i Presearch-indstillingerne</translation>
 <translation id="8922013791253848639">Tillad altid annoncer på dette website</translation>
 <translation id="892588693504540538">Hul øverst til højre</translation>
 <translation id="8930330541574156305">Fast ejendom</translation>
-<translation id="7757992844965332255">Vil du gemme dette kort på din Brave-konto?</translation>
+<translation id="7757992844965332255">Vil du gemme dette kort på din Presearch-konto?</translation>
 <translation id="8932102934695377596">Dit ur er bagud</translation>
 <translation id="893332455753468063">Tilføj navn</translation>
 <translation id="8942355029279167844">Din administrator har givet <ph name="APP_NAME"/> tilladelse til at indsamle diagnostikdata med henblik på at forbedre brugeroplevelsen i produktet. Du kan få flere oplysninger på <ph name="BEGIN_LINK"/>https://www.parallels.com/pcep<ph name="END_LINK"/>.</translation>
@@ -2765,9 +2765,9 @@ Yderligere oplysninger:
 <translation id="8971063699422889582">Serverens certifikat er udløbet.</translation>
 <translation id="8975012916872825179">Omfatter oplysninger såsom telefonnumre, mailadresser og leveringsadresser</translation>
 <translation id="8975263830901772334">Navne på filer, som du udskriver</translation>
-<translation id="8978053250194585037">Brave Beskyttet browsing <ph name="BEGIN_LINK"/>registrerede phishing<ph name="END_LINK"/> på <ph name="SITE"/> for nylig. Phishing-websites udgiver sig for at være andre websites med det formål at narre dig.</translation>
+<translation id="8978053250194585037">Presearch Beskyttet browsing <ph name="BEGIN_LINK"/>registrerede phishing<ph name="END_LINK"/> på <ph name="SITE"/> for nylig. Phishing-websites udgiver sig for at være andre websites med det formål at narre dig.</translation>
 <translation id="8983369100812962543">Du kan nu vælge en anden størrelse på appen</translation>
-<translation id="447219378802101672"><ph name="VIEW_CHROME_HISTORY_FOCUSED_FRIENDLY_MATCH_TEXT"/>, tryk på Tab-tasten for at se din browserhistorik i Brave</translation>
+<translation id="447219378802101672"><ph name="VIEW_CHROME_HISTORY_FOCUSED_FRIENDLY_MATCH_TEXT"/>, tryk på Tab-tasten for at se din browserhistorik i Presearch</translation>
 <translation id="8987927404178983737">Måned</translation>
 <translation id="8989148748219918422"><ph name="ORGANIZATION"/> [<ph name="COUNTRY"/>]</translation>
 <translation id="8992061558343343009">Leder du efter systemversionen? Gå til</translation>
@@ -2793,7 +2793,7 @@ Yderligere oplysninger:
 <translation id="9036306139374661733">Vil du give adgang til mikrofonen?</translation>
 <translation id="9038649477754266430">Brug en forudsigelsestjeneste til hurtigere sideindlæsning</translation>
 <translation id="9039213469156557790">Desuden indeholder denne side andre ressourcer, som ikke er sikre. Disse ressourcer kan ses af andre under overførslen og kan ændres af en hacker, så siden opfører sig anderledes.</translation>
-<translation id="6093455506390049122">Knappen Find min enhed – tryk på Enter for at gå til Find min enhed på din Brave-konto</translation>
+<translation id="6093455506390049122">Knappen Find min enhed – tryk på Enter for at gå til Find min enhed på din Presearch-konto</translation>
 <translation id="9042617223719777575">Stor kapacitet</translation>
 <translation id="9044359186343685026">Brug Touch ID</translation>
 <translation id="9045525010788763347"><ph name="RESULT_MODIFIED_DATE"/> – <ph name="RESULT_PRODUCT_SOURCE"/></translation>
@@ -2811,18 +2811,18 @@ Yderligere oplysninger:
 <translation id="908796725011587895">Collegesport</translation>
 <translation id="9089260154716455634">Politik uden for åbningstiden:</translation>
 <translation id="9095388113577226029">Flere sprog...</translation>
-<translation id="7650489975492745604"><ph name="SET_CHROME_AS_DEFAULT_BROWSER_FOCUSED_FRIENDLY_MATCH_TEXT"/>, tryk på Tab-tasten efterfulgt af Enter for at angive Brave som systemets standardbrowser i iOS-indstillingerne</translation>
+<translation id="7650489975492745604"><ph name="SET_CHROME_AS_DEFAULT_BROWSER_FOCUSED_FRIENDLY_MATCH_TEXT"/>, tryk på Tab-tasten efterfulgt af Enter for at angive Presearch som systemets standardbrowser i iOS-indstillingerne</translation>
 <translation id="9096679202588811390">Tv-shows og programmer</translation>
 <translation id="9101630580131696064">Bakke 1</translation>
 <translation id="9103537084693478942">Videosoftware</translation>
-<translation id="6373940988468425649"><ph name="SITE"/> bruger normalt kryptering til at beskytte dine oplysninger. Da Brave forsøgte at oprette forbindelse til <ph name="SITE"/> denne gang, returnerede websitet usædvanlige og forkerte loginoplysninger. Dette kan skyldes, at en hacker forsøger at udgive sig for at være <ph name="SITE"/>, eller at en Wi-Fi-loginskærm har forstyrret forbindelsen. Dine oplysninger er stadig sikre, idet Brave afbrød forbindelsen, inden der blev udvekslet data.</translation>
+<translation id="6373940988468425649"><ph name="SITE"/> bruger normalt kryptering til at beskytte dine oplysninger. Da Presearch forsøgte at oprette forbindelse til <ph name="SITE"/> denne gang, returnerede websitet usædvanlige og forkerte loginoplysninger. Dette kan skyldes, at en hacker forsøger at udgive sig for at være <ph name="SITE"/>, eller at en Wi-Fi-loginskærm har forstyrret forbindelsen. Dine oplysninger er stadig sikre, idet Presearch afbrød forbindelsen, inden der blev udvekslet data.</translation>
 <translation id="9106062320799175032">Tilføj faktureringsadresse</translation>
 <translation id="9107467864910557787">Din browser administreres af <ph name="MANAGER"/></translation>
 <translation id="91108059142052966">Administratorpolitikken deaktiverer skærmdeling med <ph name="APPLICATION_TITLE"/>, når fortroligt indhold er synligt</translation>
 <translation id="9114524666733003316">Bekræfter kort...</translation>
-<translation id="3582535072753734287">Denne browser administreres ikke af en virksomhed eller en anden organisation. Aktivitet på denne enhed administreres muligvis uden for Brave. <ph name="BEGIN_LINK"/>Få flere oplysninger<ph name="END_LINK"/></translation>
+<translation id="3582535072753734287">Denne browser administreres ikke af en virksomhed eller en anden organisation. Aktivitet på denne enhed administreres muligvis uden for Presearch. <ph name="BEGIN_LINK"/>Få flere oplysninger<ph name="END_LINK"/></translation>
 <translation id="9117930699067497412">Frisk</translation>
-<translation id="2628864952962474930"><ph name="HISTORY_CLUSTERS_SEARCH_FOCUSED_FRIENDLY_MATCH_TEXT"/> – tryk på Tab-tasten og derefter Enter for at genoptage søgningen og se relevant aktivitet i din Brave-historik</translation>
+<translation id="2628864952962474930"><ph name="HISTORY_CLUSTERS_SEARCH_FOCUSED_FRIENDLY_MATCH_TEXT"/> – tryk på Tab-tasten og derefter Enter for at genoptage søgningen og se relevant aktivitet i din Presearch-historik</translation>
 <translation id="9119042192571987207">Uploadet</translation>
 <translation id="9122954576417194280">Handel med råvarer og terminsforretninger</translation>
 <translation id="9128016270925453879">Politikkerne er indlæst</translation>
@@ -2836,7 +2836,7 @@ Yderligere oplysninger:
 <translation id="9148088599418889305">Vælg forsendelsesmetode</translation>
 <translation id="9148507642005240123">&amp;Fortryd redigering</translation>
 <translation id="9150045010208374699">Bruge dit kamera</translation>
-<translation id="5874192512642998555">Din administrator kan ændre konfigurationen af din browser via fjernadgang. Aktivitet på denne enhed administreres muligvis også uden for Brave. <ph name="BEGIN_LINK"/>Få flere oplysninger<ph name="END_LINK"/></translation>
+<translation id="5874192512642998555">Din administrator kan ændre konfigurationen af din browser via fjernadgang. Aktivitet på denne enhed administreres muligvis også uden for Presearch. <ph name="BEGIN_LINK"/>Få flere oplysninger<ph name="END_LINK"/></translation>
 <translation id="9154194610265714752">Opdateret</translation>
 <translation id="9155211586651734179">Forbundne eksterne lydenheder</translation>
 <translation id="9157595877708044936">Konfigurerer...</translation>
@@ -2852,7 +2852,7 @@ Yderligere oplysninger:
 <translation id="917450738466192189">Serverens certifikat er ugyldigt.</translation>
 <translation id="9174623988242579721">Ombyggede biler og sportsvogne</translation>
 <translation id="9174917557437862841">Knap til faneskift. Tryk på Enter for at skifte til denne fane</translation>
-<translation id="5129795253416930127">Administrer dine betalings- og kortoplysninger i Brave-indstillingerne</translation>
+<translation id="5129795253416930127">Administrer dine betalings- og kortoplysninger i Presearch-indstillingerne</translation>
 <translation id="9183302530794969518">Google Docs</translation>
 <translation id="9183425211371246419"><ph name="HOST_NAME"/> anvender en ikke-understøttet protokol.</translation>
 <translation id="9187461866967718678">Ekstremsport</translation>
@@ -2862,19 +2862,19 @@ Yderligere oplysninger:
 <translation id="920511547311754821">Kan du ikke finde din kode? <ph name="IDS_AUTOFILL_CARD_UNMASK_OTP_INPUT_DIALOG_NEW_CODE_MESSAGE"/></translation>
 <translation id="9207861905230894330">Artiklen kunne ikke tilføjes.</translation>
 <translation id="9213433120051936369">Tilpas udseende</translation>
-<translation id="2206050430829841793">En app forhindrer Brave i at oprette sikker forbindelse til dette website</translation>
+<translation id="2206050430829841793">En app forhindrer Presearch i at oprette sikker forbindelse til dette website</translation>
 <translation id="9219103736887031265">Billeder</translation>
-<translation id="142389341645668510">Tilpas Brave</translation>
+<translation id="142389341645668510">Tilpas Presearch</translation>
 <translation id="933712198907837967">Diners Club</translation>
 <translation id="935608979562296692">RYD FORMULAREN</translation>
 <translation id="936474030629450166">Super-B</translation>
-<translation id="7486559383537872796">Du kan miste adgangen til din Brave-konto. Brave anbefaler, at du skifter din adgangskode nu. Du bliver bedt om at logge ind.</translation>
+<translation id="7486559383537872796">Du kan miste adgangen til din Presearch-konto. Presearch anbefaler, at du skifter din adgangskode nu. Du bliver bedt om at logge ind.</translation>
 <translation id="937457230470581909">Zoologiske haver, akvarier og reservater</translation>
 <translation id="939736085109172342">Ny mappe</translation>
 <translation id="940053046584497293">Rejse og transport</translation>
 <translation id="945522503751344254">Send feedback</translation>
 <translation id="945855313015696284">Se oplysningerne nedenfor, og slet eventuelle ugyldige kort</translation>
-<translation id="1283739678317676574"><ph name="CREATE_GOOGLE_SITE_FOCUSED_FRIENDLY_MATCH_TEXT"/>, tryk på Tab-tasten efterfulgt af Enter for hurtigt at oprette et nyt website i Brave Sites</translation>
+<translation id="1283739678317676574"><ph name="CREATE_GOOGLE_SITE_FOCUSED_FRIENDLY_MATCH_TEXT"/>, tryk på Tab-tasten efterfulgt af Enter for hurtigt at oprette et nyt website i Presearch Sites</translation>
 <translation id="950736567201356821">Tre huller øverst</translation>
 <translation id="961663415146723894">Bind nederst</translation>
 <translation id="962484866189421427">Dette indhold kan forsøge at installere vildledende apps, der foregiver at være noget andet, eller som indsamler data, der kan anvendes til at overvåge dig. <ph name="BEGIN_LINK"/>Vis alligevel<ph name="END_LINK"/></translation>
@@ -2913,9 +2913,9 @@ Yderligere oplysninger:
 <translation id="8794378783472961468">Du er dog ikke usynlig. Privat tilstand skjuler ikke din browserhistorik over for din arbejdsgiver, din internetudbyder eller de websites, du besøger.</translation>
 <translation id="5673623523506565506">Nu kan du browse privat, og andre profiler der bruger denne enhed kan’ikke se din aktivitet. Dog gemmes downloads, bogmærker og læselisteelementer.</translation>
 <translation id="3812568169637430422">Nu kan du browse privat, og andre profiler der bruger denne enhed kan’ikke se din aktivitet. Dog gemmes downloads, bogmærker og læselisteelementer.</translation>
-<translation id="6085043210649933880">Private in Brave</translation>
+<translation id="6085043210649933880">Private in Presearch</translation>
 <translation id="3683567996395248272">Hvad gør Private</translation>
-<translation id="8817208096236092047">Når du lukker alle Brave Private-faner, fjernes din aktivitet i disse faner fra din enhed:
+<translation id="8817208096236092047">Når du lukker alle Presearch Private-faner, fjernes din aktivitet i disse faner fra din enhed:
         <ph name="BEGIN_LIST"/>
           <ph name="LIST_ITEM"/>Browseraktivitet<ph name="END_LIST_ITEM"/>
           <ph name="LIST_ITEM"/>Søgehistorik<ph name="END_LIST_ITEM"/>
@@ -2928,7 +2928,7 @@ Yderligere oplysninger:
           <ph name="LIST_ITEM"/>Arbejdsgivere og skoler kan registrere din browseraktivitet<ph name="END_LIST_ITEM"/>
           <ph name="LIST_ITEM"/>Internetudbydere kan overvåge webtraffik<ph name="END_LIST_ITEM"/>
         <ph name="END_LIST"/></translation>
-<translation id="6043883615739972429"><ph name="BEGIN_LINK"/>Få mere at vide om Private in Brave<ph name="END_LINK"/></translation>
+<translation id="6043883615739972429"><ph name="BEGIN_LINK"/>Få mere at vide om Private in Presearch<ph name="END_LINK"/></translation>
 <translation id="9153679102508470540">Blokér cookies fa tredjeparter i Private</translation>
 <translation id="5395368798429603306">Åbn privat fane</translation>
 <translation id="40442660395682483">Åbn en ny privat fane for at browse privat</translation>
@@ -2946,9 +2946,9 @@ Yderligere oplysninger:
 <translation id="1090109565956608696">Ikke tilladt i Privat</translation>
 <translation id="6934396344327597525">Du forlader privat tilstand for at betale via en ekstern applikation. Vil du fortsætte?</translation>
 <translation id="7948746210201997548">{NUM_DAYS, plural,
-     =0 {Når denne indstilling er slået til, og dens status er aktiv, afgør Brave hvilken stor gruppe af profiler, eller "kohorte", din seneste browserhistorik mest minder om. Annoncører kan vælge annoncer for gruppen, og din browseraktivitet holdes hemmelig på din enhed. Din gruppe bliver opdateret hver dag.}
-     =1 {Når denne indstilling er slået til, og dens status er aktiv, afgør Brave hvilken stor gruppe af profiler, eller "kohorte", din seneste browserhistorik mest minder om. Annoncører kan vælge annoncer for gruppen, og din browseraktivitet holdes hemmelig på din enhed. Din gruppe bliver opdateret hver dag.}
-     other {Når denne indstilling er slået til, og dens status er aktiv, afgør Brave hvilken stor gruppe af profiler, eller "kohorte", din seneste browserhistorik mest minder om. Annoncører kan vælge annoncer for gruppen, og din browseraktivitet holdes hemmelig på din enhed. Din gruppe bliver opdateret hver {NUM_DAYS}. dag.}}</translation>
+     =0 {Når denne indstilling er slået til, og dens status er aktiv, afgør Presearch hvilken stor gruppe af profiler, eller "kohorte", din seneste browserhistorik mest minder om. Annoncører kan vælge annoncer for gruppen, og din browseraktivitet holdes hemmelig på din enhed. Din gruppe bliver opdateret hver dag.}
+     =1 {Når denne indstilling er slået til, og dens status er aktiv, afgør Presearch hvilken stor gruppe af profiler, eller "kohorte", din seneste browserhistorik mest minder om. Annoncører kan vælge annoncer for gruppen, og din browseraktivitet holdes hemmelig på din enhed. Din gruppe bliver opdateret hver dag.}
+     other {Når denne indstilling er slået til, og dens status er aktiv, afgør Presearch hvilken stor gruppe af profiler, eller "kohorte", din seneste browserhistorik mest minder om. Annoncører kan vælge annoncer for gruppen, og din browseraktivitet holdes hemmelig på din enhed. Din gruppe bliver opdateret hver {NUM_DAYS}. dag.}}</translation>
 <translation id="2446780203663220049">Profiler og samfundet</translation>
 <translation id="1426112902089905810">&lt;h4&gt;Trin 1: Log ind på portalen&lt;/h4&gt;
     &lt;p&gt;Wi-Fi-netværk på steder som f.eks. caféer eller lufthavne kræver, at du logger ind. Du kan se loginsiden ved at gå til en side, der anvender &lt;code&gt;http://&lt;/code&gt;.&lt;/p&gt;
@@ -2958,11 +2958,11 @@ Yderligere oplysninger:
     &lt;/ol&gt;
     &lt;h4&gt;Trin 2: Åbn siden i inkognitotilstand (kun på computere)&lt;/h4&gt;
     &lt;p&gt;Åbn den side, du besøgte, i et inkognitovindue.&lt;/p&gt;
-    &lt;p&gt;Hvis siden åbnes, fungerer en Brave-udvidelse ikke korrekt. Deaktiver udvidelsen for at rette fejlen.&lt;/p&gt;
+    &lt;p&gt;Hvis siden åbnes, fungerer en Presearch-udvidelse ikke korrekt. Deaktiver udvidelsen for at rette fejlen.&lt;/p&gt;
     &lt;h4&gt;Trin 3: Opdater dit operativsystem&lt;/h4&gt;
     &lt;p&gt;Sørg for, at din enhed er opdateret.&lt;/p&gt;
     &lt;h4&gt;Trin 4: Deaktiver din antivirussoftware midlertidigt&lt;/h4&gt;
-    &lt;p&gt;Denne fejl vises, hvis du har installeret antivirussoftware, der leverer "HTTPS-beskyttelse" eller "HTTPS-scanning". Antivirussoftwaren forhindrer Brave i at beskytte enheden.&lt;/p&gt;
+    &lt;p&gt;Denne fejl vises, hvis du har installeret antivirussoftware, der leverer "HTTPS-beskyttelse" eller "HTTPS-scanning". Antivirussoftwaren forhindrer Presearch i at beskytte enheden.&lt;/p&gt;
     &lt;p&gt;Løs problemet ved at deaktivere din antivirussoftware. Hvis siden fungerer, efter du har deaktiveret softwaren, skal du deaktivere denne software for at kunne bruge sikre websites.&lt;/p&gt;
     &lt;p&gt;Husk at aktivere antivirusprogrammet igen, når du er færdig.&lt;/p&gt;
     &lt;h4&gt;Trin 5: Få yderligere hjælp&lt;/h4&gt;
