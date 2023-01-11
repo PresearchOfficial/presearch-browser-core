@@ -506,7 +506,7 @@ bool ParseJSON(base::StringPiece json,
       // =====BEGIN BRAVE HOSTS JSON=====
       // Brave
       { "name": "adblock-data.s3.brave.com", "mode": "force-https", "policy": "custom", "pins": "brave"},
-      // { "name": "brave-core-ext.s3.brave.com", "mode": "force-https", "policy": "custom", "pins": "brave"},
+      { "name": "brave-core-ext.s3.brave.com", "mode": "force-https", "policy": "custom", "pins": "brave"},
       { "name": "presearchbucket.s3.amazonaws.com", "mode": "force-https", "policy": "custom", "pins": "brave"},
       { "name": "brave-today-cdn.brave.com", "mode": "force-https", "policy": "custom", "pins": "brave"},
       { "name": "clients4.brave.com", "mode": "force-https", "policy": "custom", "pins": "brave"},
