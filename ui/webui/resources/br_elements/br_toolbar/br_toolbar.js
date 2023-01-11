@@ -30,6 +30,8 @@ Polymer({
     // Tooltip to display on the menu button.
     menuLabel: String,
 
+
+
     // Value is proxied through to cr-toolbar-search-field. When true,
     // the search field will show a processing spinner.
     spinnerActive: Boolean,
@@ -115,6 +117,38 @@ Polymer({
     return ''
   },
 
+
+  notifyIfExtraSlotFilled() {
+    const slotIsFilled = this.toolbarExtraSlot.assignedNodes().length !== 0
+    const classNameFilled = '-slot-filled'
+    if (slotIsFilled) {
+      this.toolbarExtraElement.classList.add(classNameFilled)
+    } else {
+      this.toolbarExtraElement.classList.remove(classNameFilled)
+    }
+  },
+    
+  initSlotFilledDetection: function() {
+    // Style the 'extra items' slot only if it containts
+    // content.
+    const toolbarExtraElement = this.$$('.toolbar-extra')
+    if (!toolbarExtraElement) {
+      console.error('Could not find "toolbar-extra" element')
+      return
+    }
+    const toolbarExtraSlot = toolbarExtraElement.querySelector('slot')
+    if (!toolbarExtraSlot) {
+      console.error('Could not find "toolbar-extra" slot')
+      return
+    }
+    this.toolbarExtraElement = toolbarExtraElement
+    this.toolbarExtraSlot = toolbarExtraSlot
+    this.notifyIfExtraSlotFilled()
+    toolbarExtraSlot.addEventListener('slotchange',  (e) => {
+      this.notifyIfExtraSlotFilled()
+    })
+  },
+
   initStrings: function() {
     this.historyTitle = loadTimeData.getString('brToolbarHistoryTitle')
     this.settingsTitle = loadTimeData.getString('brToolbarSettingsTitle')
@@ -124,6 +158,7 @@ Polymer({
 
   /** @override */
   attached: function() {
+    this.initSlotFilledDetection()
     this.initStrings()
     this.initFontLoadDetection()
   },
