@@ -147,9 +147,9 @@ Polymer({
     window.open("chrome://extensions/shortcuts", "_self");
   },
 
-  openWebStoreUrl_: function() {
-    window.open(loadTimeData.getString('getMoreExtensionsUrl'));
-  },
+  // openWebStoreUrl_: function() {
+  //   window.open(loadTimeData.getString('getMoreExtensionsUrl'));
+  // },
 
   shouldShowRestartForGoogleLogin_: function(value) {
     return this.browserProxy_.wasSignInEnabledAtStartup() != value;
