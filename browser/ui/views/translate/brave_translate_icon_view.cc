@@ -55,17 +55,8 @@ void BraveTranslateIconView::OnInstallResult(
 }
 
 void BraveTranslateIconView::UpdateImpl() {
-  if (!GetWebContents())
-    return;
-
-  // Hide TranslateIcon & TranslateBubble when google translate extension is
-  // already installed.
-  if (translate::IsTranslateExtensionEnabled(
-          GetWebContents()->GetBrowserContext())) {
-    SetVisible(false);
-    TranslateBubbleView::CloseCurrentBubble();
-    return;
-  }
-
-  TranslateIconView::UpdateImpl();
+  // Never show TranslateIcon & TranslateBubble
+  SetVisible(false);
+  TranslateBubbleView::CloseCurrentBubble();
+  return;
 }
