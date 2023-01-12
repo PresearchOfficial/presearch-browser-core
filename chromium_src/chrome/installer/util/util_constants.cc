@@ -29,6 +29,6 @@ const char kGoogleUpdateIsMachineEnvVar[] = "BraveSoftwareUpdateIsMachine";
 
 }  // namespace env_vars
 
-const wchar_t kChromeExe[] = L"brave.exe";
+const wchar_t kChromeExe[] = L"presearch.exe";
 
 }  // namespace installer
