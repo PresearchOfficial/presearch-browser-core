@@ -25,7 +25,7 @@ namespace brave_shields {
 namespace {
 
 constexpr size_t kHashSize = 32;
-const char kAdBlockComponentName[] = "Brave Ad Block Updater (Default)";
+const char kAdBlockComponentName[] = "Brave Ad Block Updater";
 const char kAdBlockComponentId[] = "cffkpbalmllkdoenhmdmpbkajipdjfam";
 const char kAdBlockComponentBase64PublicKey[] =
     "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAs0qzJmHSgIiw7IGFCxij"
