@@ -1,0 +1,13 @@
+diff --git a/chrome/browser/ui/browser_command_controller.cc b/chrome/browser/ui/browser_command_controller.cc
+index 288cc6934c794a2eb68c5aa155c8280dd4762fb3..3c70a3b57216ca99ad4e31380d31dd71e96272c1 100644
+--- a/chrome/browser/ui/browser_command_controller.cc
++++ b/chrome/browser/ui/browser_command_controller.cc
+@@ -599,7 +599,7 @@ bool BrowserCommandController::ExecuteCommandWithDisposition(
+       ShowVirtualCardEnrollBubble(browser_);
+       break;
+     case IDC_TRANSLATE_PAGE:
+-      Translate(browser_);
++    //  Translate(browser_);
+       break;
+     case IDC_MANAGE_PASSWORDS_FOR_PAGE:
+       ManagePasswordsForPage(browser_);

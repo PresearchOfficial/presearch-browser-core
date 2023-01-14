@@ -1,0 +1,53 @@
+diff --git a/chrome/browser/ui/views/frame/browser_view.cc b/chrome/browser/ui/views/frame/browser_view.cc
+index e80efca66099fe34960ca283fe2979f7693d26ef..2a6c2a29277fa42d9618c8e918a8cb20d0d3e3ca 100644
+--- a/chrome/browser/ui/views/frame/browser_view.cc
++++ b/chrome/browser/ui/views/frame/browser_view.cc
+@@ -2424,29 +2424,29 @@ ShowTranslateBubbleResult BrowserView::ShowTranslateBubble(
+     const std::string& target_language,
+     translate::TranslateErrors::Type error_type,
+     bool is_user_gesture) {
+-  if (contents_web_view_->HasFocus() &&
+-      !GetLocationBarView()->IsMouseHovered() &&
+-      web_contents->IsFocusedElementEditable()) {
+-    return ShowTranslateBubbleResult::EDITABLE_FIELD_IS_ACTIVE;
+-  }
++//  if (contents_web_view_->HasFocus() &&
++//      !GetLocationBarView()->IsMouseHovered() &&
++//      web_contents->IsFocusedElementEditable()) {
++//    return ShowTranslateBubbleResult::EDITABLE_FIELD_IS_ACTIVE;
++//  }
+ 
+   ChromeTranslateClient::FromWebContents(web_contents)
+       ->GetTranslateManager()
+       ->GetLanguageState()
+-      ->SetTranslateEnabled(true);
+-
+-  if (IsMinimized())
+-    return ShowTranslateBubbleResult::BROWSER_WINDOW_MINIMIZED;
+-
+-  PageActionIconView* translate_icon =
+-      toolbar_button_provider()
+-          ->GetPageActionIconView(PageActionIconType::kTranslate);
+-  TranslateBubbleView::ShowBubble(
+-      toolbar_button_provider()->GetAnchorView(PageActionIconType::kTranslate),
+-      translate_icon, web_contents, step, source_language, target_language,
+-      error_type,
+-      is_user_gesture ? TranslateBubbleView::USER_GESTURE
+-                      : TranslateBubbleView::AUTOMATIC);
++      ->SetTranslateEnabled(false);
++
++//  if (IsMinimized())
++//    return ShowTranslateBubbleResult::BROWSER_WINDOW_MINIMIZED;
++
++//  PageActionIconView* translate_icon =
++//      toolbar_button_provider()
++//          ->GetPageActionIconView(PageActionIconType::kTranslate);
++//  TranslateBubbleView::ShowBubble(
++//      toolbar_button_provider()->GetAnchorView(PageActionIconType::kTranslate),
++//      translate_icon, web_contents, step, source_language, target_language,
++//      error_type,
++//      is_user_gesture ? TranslateBubbleView::USER_GESTURE
++//                      : TranslateBubbleView::AUTOMATIC);
+ 
+   return ShowTranslateBubbleResult::SUCCESS;
+ }
