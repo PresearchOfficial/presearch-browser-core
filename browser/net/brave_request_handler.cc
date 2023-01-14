@@ -108,9 +108,9 @@ void BraveRequestHandler::SetupCallbacks() {
       brave::OnBeforeStartTransaction_GlobalPrivacyControlWork);
   before_start_transaction_callbacks_.push_back(start_transaction_callback);
 
-  start_transaction_callback =
-      base::BindRepeating(brave::OnBeforeStartTransaction_BraveServiceKey);
-  before_start_transaction_callbacks_.push_back(start_transaction_callback);
+  // start_transaction_callback =
+  //     base::BindRepeating(brave::OnBeforeStartTransaction_BraveServiceKey);
+  // before_start_transaction_callbacks_.push_back(start_transaction_callback);
 
 #if BUILDFLAG(ENABLE_BRAVE_REFERRALS)
   start_transaction_callback =
