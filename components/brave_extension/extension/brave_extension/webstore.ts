@@ -7,8 +7,8 @@ const callback = (mutationsList: MutationRecord[], observer: MutationObserver) =
   buttons.forEach((button: Element) => {
     const text: string = button.textContent || ''
     if (textToMatch.includes(text)) {
-      // button.textContent = text.replace('Chrome', 'Presearch')
-      button.style.display = "none"
+      button.textContent = text.replace('Add to Chrome', 'Not supported')
+      button.setAttribute("disabled", "");
     }
   })
 }
