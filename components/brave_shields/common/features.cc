@@ -59,7 +59,7 @@ const base::Feature kBraveDarkModeBlock{"BraveDarkModeBlock",
                                         base::FEATURE_ENABLED_BY_DEFAULT};
 // load the cosmetic filter rules using sync ipc
 const base::Feature kCosmeticFilteringSyncLoad{
-    "CosmeticFilterSyncLoad", base::FEATURE_ENABLED_BY_DEFAULT};
+    "CosmeticFilterSyncLoad", base::FEATURE_DISABLED_BY_DEFAULT};
 // When enabled, an extension version of the panel will render
 const base::Feature kBraveShieldsPanelV1{"BraveShieldsPanelV1",
                                          base::FEATURE_DISABLED_BY_DEFAULT};
