@@ -5,6 +5,8 @@
 
 #include "brave/browser/net/brave_system_request_handler.h"
 
+#include "base/logging.h"
+
 #include "brave/browser/net/brave_block_safebrowsing_urls.h"
 #include "brave/browser/net/brave_common_static_redirect_network_delegate_helper.h"
 #include "brave/browser/net/brave_static_redirect_network_delegate_helper.h"
@@ -34,15 +36,17 @@ network::ResourceRequest OnBeforeSystemRequest(
   GURL new_url;
   brave::OnBeforeURLRequest_BlockSafeBrowsingReportingURLs(url_request.url,
                                                            &new_url);
-  brave::OnBeforeURLRequest_StaticRedirectWorkForGURL(url_request.url,
-                                                      &new_url);
-  brave::OnBeforeURLRequest_CommonStaticRedirectWorkForGURL(url_request.url,
-                                                            &new_url);
+  // brave::OnBeforeURLRequest_StaticRedirectWorkForGURL(url_request.url,
+  //                                                     &new_url);
+  // brave::OnBeforeURLRequest_CommonStaticRedirectWorkForGURL(url_request.url,
+  //                                                           &new_url);
+
+  LOG(ERROR) << "Mamy 1" << new_url;
   network::ResourceRequest patched_request = url_request;
   if (!new_url.is_empty()) {
     patched_request.url = new_url;
   }
-  AddBraveServicesKeyHeader(&patched_request);
+  LOG(ERROR) << "Mamy 2" << patched_request.url;
   return patched_request;
 }
 
