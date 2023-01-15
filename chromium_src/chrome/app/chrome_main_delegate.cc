@@ -71,12 +71,6 @@ bool ChromeMainDelegate::BasicStartupComplete(int* exit_code) {
     command_line.AppendSwitchASCII(switches::kComponentUpdater, source.c_str());
   }
 
-  // if (!base::CommandLine::ForCurrentProcess()->HasSwitch(
-  //         embedder_support::kOriginTrialPublicKey)) {
-  //   command_line.AppendSwitchASCII(embedder_support::kOriginTrialPublicKey,
-  //                                  kBraveOriginTrialsPublicKey);
-  // }
-
   std::string brave_sync_service_url = BUILDFLAG(BRAVE_SYNC_ENDPOINT);
 #if BUILDFLAG(IS_ANDROID)
   AdjustSyncServiceUrlForAndroid(&brave_sync_service_url);

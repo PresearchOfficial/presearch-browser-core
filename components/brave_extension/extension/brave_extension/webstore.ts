@@ -4,7 +4,7 @@ const callback = (mutationsList: MutationRecord[], observer: MutationObserver) =
   const buttons: NodeListOf<Element> = document.querySelectorAll('div.webstore-test-button-label')
 
   buttons.forEach((button: Element) => {
-    button.remove()
+    button.parentElement?.remove()
   })
 }
 

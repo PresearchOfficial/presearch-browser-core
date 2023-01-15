@@ -13,18 +13,6 @@
 #include "brave/common/brave_services_key_helper.h"
 #include "brave/common/network_constants.h"
 
-namespace {
-
-void AddBraveServicesKeyHeader(net::URLRequest* request) {
-  if (brave::ShouldAddBraveServicesKeyHeader(request->url())) {
-    request->SetExtraRequestHeaderByName(kBraveServicesKeyHeader,
-                                         BUILDFLAG(BRAVE_SERVICES_KEY),
-                                         true /* overrwrite */);
-  }
-}
-
-}  // namespace
-
 IOSChromeNetworkDelegate::~IOSChromeNetworkDelegate() = default;
 
 int IOSChromeNetworkDelegate::OnBeforeURLRequest(
@@ -33,6 +21,5 @@ int IOSChromeNetworkDelegate::OnBeforeURLRequest(
     GURL* new_url) {
   const auto result = IOSChromeNetworkDelegate_ChromiumImpl::OnBeforeURLRequest(
       request, std::move(callback), new_url);
-  ::AddBraveServicesKeyHeader(request);
   return result;
 }

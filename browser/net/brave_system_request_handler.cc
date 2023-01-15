@@ -23,30 +23,20 @@ std::string BraveServicesKeyForTesting() {
   return BUILDFLAG(BRAVE_SERVICES_KEY);
 }
 
-void AddBraveServicesKeyHeader(network::ResourceRequest* url_request) {
-  if (brave::ShouldAddBraveServicesKeyHeader(url_request->url)) {
-    url_request->headers.SetHeaderIfMissing(kBraveServicesKeyHeader,
-                                            BUILDFLAG(BRAVE_SERVICES_KEY));
-  }
-  return;
-}
-
 network::ResourceRequest OnBeforeSystemRequest(
     const network::ResourceRequest& url_request) {
   GURL new_url;
   brave::OnBeforeURLRequest_BlockSafeBrowsingReportingURLs(url_request.url,
                                                            &new_url);
-  // brave::OnBeforeURLRequest_StaticRedirectWorkForGURL(url_request.url,
-  //                                                     &new_url);
-  // brave::OnBeforeURLRequest_CommonStaticRedirectWorkForGURL(url_request.url,
-  //                                                           &new_url);
+  brave::OnBeforeURLRequest_StaticRedirectWorkForGURL(url_request.url,
+                                                      &new_url);
+  brave::OnBeforeURLRequest_CommonStaticRedirectWorkForGURL(url_request.url,
+                                                            &new_url);
 
-  LOG(ERROR) << "Mamy 1" << new_url;
   network::ResourceRequest patched_request = url_request;
   if (!new_url.is_empty()) {
     patched_request.url = new_url;
   }
-  LOG(ERROR) << "Mamy 2" << patched_request.url;
   return patched_request;
 }
 

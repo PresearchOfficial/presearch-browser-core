@@ -18,8 +18,6 @@ namespace brave {
 
 std::string BraveServicesKeyForTesting();
 
-void AddBraveServicesKeyHeader(network::ResourceRequest* url_request);
-
 network::ResourceRequest OnBeforeSystemRequest(
     const network::ResourceRequest& url_request);
 
