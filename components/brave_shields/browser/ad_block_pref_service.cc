@@ -68,8 +68,8 @@ void AdBlockPrefService::OnPreferenceChanged(const std::string& pref_name) {
   bool enabled = prefs_->GetBoolean(pref_name);
   ad_block_service_->EnableTag(tag, enabled);
   ad_block_service_->regional_service_manager()->EnableTag(tag, enabled);
-  ad_block_service_->custom_filters_service()->EnableTag(tag, enabled);
-  ad_block_service_->subscription_service_manager()->EnableTag(tag, enabled);
+  ad_block_service_->custom_filters_service()->EnableTag(tag, false);
+  ad_block_service_->subscription_service_manager()->EnableTag(tag, false);
 }
 
 }  // namespace brave_shields
