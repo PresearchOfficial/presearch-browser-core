@@ -8,9 +8,6 @@ import { connect } from 'react-redux'
 
 // Components
 import { AdBlockItemList } from './adBlockItemList'
-import { CustomSubscriptions } from './customSubscriptions'
-import { CustomFilters } from './customFilters'
-
 // Utils
 import * as adblockActions from '../actions/adblock_actions'
 
@@ -35,14 +32,6 @@ export class AdblockPage extends React.Component<Props, {}> {
         <AdBlockItemList
           actions={actions}
           resources={adblockData.settings.regionalLists}
-        />
-        <CustomSubscriptions
-          actions={actions}
-          subscriptions={adblockData.settings.listSubscriptions}
-        />
-        <CustomFilters
-          actions={actions}
-          rules={adblockData.settings.customFilters || ''}
         />
       </div>
     )
