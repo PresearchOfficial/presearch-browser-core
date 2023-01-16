@@ -96,7 +96,7 @@ AdBlockComponentInstallerPolicy::~AdBlockComponentInstallerPolicy() = default;
 
 bool AdBlockComponentInstallerPolicy::
     SupportsGroupPolicyEnabledComponentUpdates() const {
-  return true;
+  return false;
 }
 
 bool AdBlockComponentInstallerPolicy::RequiresNetworkEncryption() const {
