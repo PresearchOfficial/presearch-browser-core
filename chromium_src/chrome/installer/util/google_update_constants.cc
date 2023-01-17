@@ -28,7 +28,7 @@ namespace google_update {
 const wchar_t kChromeUpgradeCode[] = L"{AFE6A462-C574-4B8A-AF43-4CC60DF4563B}";
 const wchar_t kGoogleUpdateUpgradeCode[] =
     L"{B131C935-9BE6-41DA-9599-1F776BEB8019}";
-const wchar_t kGoogleUpdateSetupExe[] = L"BraveUpdateSetup.exe";
+const wchar_t kGoogleUpdateSetupExe[] = L"PresearchUpdateSetup.exe";
 const wchar_t kRegPathClients[] = L"Software\\PresearchSoftware\\Update\\Clients";
 const wchar_t kRegPathClientState[] =
     L"Software\\PresearchSoftware\\Update\\ClientState";

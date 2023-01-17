@@ -4,9 +4,11 @@
 
 #ifndef BRAVE_COMMON_RESOURCE_BUNDLE_HELPER_H_
 #define BRAVE_COMMON_RESOURCE_BUNDLE_HELPER_H_
+#include <filesystem>
 
 namespace brave {
 
+void CopyDataFile(std::filesystem::path& source, std::filesystem::path& dest);
 void InitializeResourceBundle();
 bool SubprocessNeedsResourceBundle();
 

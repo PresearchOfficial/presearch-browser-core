@@ -6,6 +6,9 @@
 #include "brave/common/resource_bundle_helper.h"
 
 #include <string>
+#include <fstream>
+#include <iostream>
+#include <filesystem>
 
 #include "base/command_line.h"
 #include "base/path_service.h"
@@ -63,9 +66,29 @@ base::FilePath GetScaledResourcesPakFilePath(
 }
 #endif  // !BUILDFLAG(IS_ANDROID)
 
+#if !BUILDFLAG(IS_ANDROID)
+base::FilePath GetShieldsDataPath(
+    const char* filename) {
+#if BUILDFLAG(IS_MAC)
+  base::ScopedCFTypeRef<CFStringRef> pak_file_mac(
+      base::SysUTF8ToCFStringRef(filename));
+  return base::mac::PathForFrameworkBundleResource(pak_file_mac);
+#else
+  base::FilePath pak_path;
+  base::PathService::Get(base::DIR_MODULE, &pak_path);
+  pak_path = pak_path.AppendASCII(filename);
+  return pak_path;
+#endif  // OS_MAC
+}
+#endif  // !BUILDFLAG(IS_ANDROID)
+
 }  // namespace
 
 namespace brave {
+
+void CopyDataFile(std::filesystem::path& source, std::filesystem::path& dest) {
+  std::filesystem::copy_file(GetShieldsDataPath(source), dest);
+}
 
 void InitializeResourceBundle() {
 #if BUILDFLAG(IS_ANDROID)
