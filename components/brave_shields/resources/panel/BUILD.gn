@@ -29,9 +29,9 @@ if (is_mac) {
 
   bundle_data("brave_shield_framework_bundle_data") {
     sources = [ "//brave/components/brave_shields/resources/panel/data/shields/manifest.json",
-                 //brave/components/brave_shields/resources/panel/data/shields/regional_catalog.json",
-                 //brave/components/brave_shields/resources/panel/data/shields/resources.json",
-                 //brave/components/brave_shields/resources/panel/data/shields/rs-ABPFilterParserData.dat" ]
+                "//brave/components/brave_shields/resources/panel/data/shields/regional_catalog.json",
+                "//brave/components/brave_shields/resources/panel/data/shields/resources.json",
+                "//brave/components/brave_shields/resources/panel/data/shields/rs-ABPFilterParserData.dat" ]
     outputs = [ "{{bundle_resources_dir}}/shields/{{source_file_part}}" ]
   }
 } else {
