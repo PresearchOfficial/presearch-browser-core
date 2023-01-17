@@ -8,7 +8,7 @@
 
 namespace brave {
 
-void CopyDataFile(std::filesystem::path& source, std::filesystem::path& dest);
+void CopyDataFile(const char* source, const char* dest);
 void InitializeResourceBundle();
 bool SubprocessNeedsResourceBundle();
 

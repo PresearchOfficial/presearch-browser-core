@@ -86,8 +86,8 @@ base::FilePath GetShieldsDataPath(
 
 namespace brave {
 
-void CopyDataFile(std::filesystem::path& source, std::filesystem::path& dest) {
-  std::filesystem::copy_file(GetShieldsDataPath(source), dest);
+void CopyDataFile(const char* source, const char* dest) {
+  std::filesystem::copy_file(GetShieldsDataPath(source).value(), dest);
 }
 
 void InitializeResourceBundle() {
