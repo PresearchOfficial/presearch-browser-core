@@ -68,7 +68,7 @@ base::FilePath GetScaledResourcesPakFilePath(
 
 #if !BUILDFLAG(IS_ANDROID)
 base::FilePath GetShieldsDataPath(
-    const char* filename) {
+    std::string filename) {
 #if BUILDFLAG(IS_MAC)
   base::ScopedCFTypeRef<CFStringRef> pak_file_mac(
       base::SysUTF8ToCFStringRef(filename));
@@ -86,8 +86,8 @@ base::FilePath GetShieldsDataPath(
 
 namespace brave {
 
-void CopyDataFile(const char* source, const char* dest) {
-  std::filesystem::copy_file(GetShieldsDataPath(source).value(), dest);
+void CopyDataFile(std::string source, std::string dest) {
+  std::filesystem::copy_file(GetShieldsDataPath(source).AsUTF8Unsafe(), dest);
 }
 
 void InitializeResourceBundle() {
