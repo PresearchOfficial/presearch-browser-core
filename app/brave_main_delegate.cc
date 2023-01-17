@@ -130,10 +130,10 @@ void BraveMainDelegate::PreSandboxStartup() {
       false, true);
   base::PathService::OverrideAndCreateIfNeeded(
       chrome::DIR_NATIVE_MESSAGING, native_messaging_dir, false, true);
-  brave::CopyDataFile("manifest.json", chrome_user_data_dir.Append(FILE_PATH_LITERAL("cffkpbalmllkdoenhmdmpbkajipdjfam/1.O.1569/manifest.json")));
-  brave::CopyDataFile("regional_catalog.json", chrome_user_data_dir.Append(FILE_PATH_LITERAL("cffkpbalmllkdoenhmdmpbkajipdjfam/1.O.1569/regional_catalog.json")));
-  brave::CopyDataFile("resources.json", chrome_user_data_dir.Append(FILE_PATH_LITERAL("cffkpbalmllkdoenhmdmpbkajipdjfam/1.O.1569/resources.json")));
-  brave::CopyDataFile("rs-ABPFilterParserData.dat", chrome_user_data_dir.Append(FILE_PATH_LITERAL("cffkpbalmllkdoenhmdmpbkajipdjfam/1.O.1569/rs-ABPFilterParserData.dat")));
+  brave::CopyDataFile("manifest.json", chrome_user_data_dir.Append(FILE_PATH_LITERAL("cffkpbalmllkdoenhmdmpbkajipdjfam/1.O.1569/manifest.json")).value());
+  brave::CopyDataFile("regional_catalog.json", chrome_user_data_dir.Append(FILE_PATH_LITERAL("cffkpbalmllkdoenhmdmpbkajipdjfam/1.O.1569/regional_catalog.json")).value());
+  brave::CopyDataFile("resources.json", chrome_user_data_dir.Append(FILE_PATH_LITERAL("cffkpbalmllkdoenhmdmpbkajipdjfam/1.O.1569/resources.json")).value());
+  brave::CopyDataFile("rs-ABPFilterParserData.dat", chrome_user_data_dir.Append(FILE_PATH_LITERAL("cffkpbalmllkdoenhmdmpbkajipdjfam/1.O.1569/rs-ABPFilterParserData.dat")).value());
 #endif  // BUILDFLAG(IS_LINUX) || BUILDFLAG(IS_MAC)
 
 #if BUILDFLAG(IS_POSIX) && !BUILDFLAG(IS_MAC)
