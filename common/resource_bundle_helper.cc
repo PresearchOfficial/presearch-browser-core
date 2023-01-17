@@ -7,8 +7,6 @@
 
 #include <string>
 #include <fstream>
-#include <iostream>
-#include <filesystem>
 
 #include "base/command_line.h"
 #include "base/path_service.h"
@@ -87,7 +85,10 @@ base::FilePath GetShieldsDataPath(
 namespace brave {
 
 void CopyDataFile(std::string source, std::string dest) {
-  std::filesystem::copy_file(GetShieldsDataPath(source).AsUTF8Unsafe(), dest);
+  // std::filesystem::copy_file(GetShieldsDataPath(source).AsUTF8Unsafe(), dest);
+  std::ifstream  src(GetShieldsDataPath(source).AsUTF8Unsafe(), std::ios::binary);
+  std::ofstream  dst(dest, std::ios::binary);
+  dst << src.rdbuf();
 }
 
 void InitializeResourceBundle() {
