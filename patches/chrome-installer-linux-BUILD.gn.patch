@@ -22,7 +22,7 @@ index 3f0414a3ee4011541275bf93662c5b889d2ae0c4..62226eb6bc4c4af0ce08e3d94a78b142
  strip_binary("strip_chrome_sandbox") {
    binary_input = "$root_out_dir/chrome_sandbox"
    deps = [ "//sandbox/linux:chrome_sandbox" ]
-+  binary_input = "$root_out_dir/brave_sandbox" symbol_output = "$root_out_dir/brave_sandbox.debug" stripped_binary_output = "$root_out_dir/brave_sandbox.stripped" deps += strip_chrome_sandbox_deps
++  binary_input = "$root_out_dir/presearch_sandbox" symbol_output = "$root_out_dir/presearch_sandbox.debug" stripped_binary_output = "$root_out_dir/presearch_sandbox.stripped" deps += strip_chrome_sandbox_deps
  }
  
  strip_binary("strip_libEGL_shlib") {

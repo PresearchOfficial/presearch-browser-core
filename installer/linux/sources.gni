@@ -18,8 +18,8 @@ common_packaging_files_excluded_sources = [
 ]
 
 brave_packaging_files_executables = [
-  "$root_out_dir/brave",
-  "$root_out_dir/brave_sandbox",
+  "$root_out_dir/presearch",
+  "$root_out_dir/presearch_sandbox",
 ]
 
 excluded_packaging_files_executables = [
