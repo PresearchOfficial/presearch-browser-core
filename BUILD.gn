@@ -450,7 +450,7 @@ action("create_dist_zips") {
     script = "//brave/script/create-dist.py"
 
     inputs = get_target_outputs(":brave_license_dist_resources")
-    inputs = get_target_outputs(":shields_data")
+    inputs += get_target_outputs(":shields_data")
 
     if (!is_mac && !is_android && !is_ios) {
       inputs += get_target_outputs(":brave_dist_resources")
