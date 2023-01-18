@@ -14,7 +14,7 @@ index 3f0414a3ee4011541275bf93662c5b889d2ae0c4..62226eb6bc4c4af0ce08e3d94a78b142
  strip_binary("strip_chrome_binary") {
    binary_input = "$root_out_dir/chrome"
    deps = [ "//chrome" ]
-+  binary_input = "$root_out_dir/brave" symbol_output = "$root_out_dir/brave.debug" stripped_binary_output = "$root_out_dir/brave.stripped" deps += strip_chrome_binary_deps
++  binary_input = "$root_out_dir/presearch" symbol_output = "$root_out_dir/presearch.debug" stripped_binary_output = "$root_out_dir/presearch.stripped" deps += strip_chrome_binary_deps
  }
  
  strip_binary("strip_chrome_crashpad_handler") {
