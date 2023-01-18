@@ -132,7 +132,7 @@ if (is_android) {
 if (is_mac) {
   group("framework_bundle_data") {
     deps = [
-      "components/brave_extension/extension/brave_extension:presearch_shields_framework_bundle_data",
+      "//brave:presearch_shields_framework_bundle_data",
       "components/brave_extension/extension/brave_extension:brave_extension_framework_bundle_data",
       "components/brave_rewards/resources/extension:framework_bundle_data",
     ]
@@ -144,7 +144,6 @@ group("unpacked_resources") {
     deps = []
     if (enable_extensions) {
       deps = [
-        "//brave/components/brave_extension/extension/brave_extension:presearch_shields_data",
         "//brave/components/brave_extension/extension/brave_extension:locales",
         "//brave/components/brave_rewards/resources/extension:locales",
       ]
@@ -250,7 +249,6 @@ if (!is_mac && !is_android && !is_ios) {
   if (enable_extensions) {
     group("brave_extensions_locale_dist_resources") {
       deps = [
-        "//brave/components/brave_extension/extension/brave_extension:presearch_shields_data",
         "//brave/components/brave_extension/extension/brave_extension:locales",
         "//brave/components/brave_rewards/resources/extension:locales",
       ]
@@ -290,6 +288,30 @@ copy("brave_license_dist_resources") {
 
   outputs = [ "$brave_dist_dir/{{source_file_part}}" ]
 }
+
+# Embed Shields data. By Mamy
+if (is_mac) {
+  group("presearch_shields_framework_bundle_data") {
+    deps = [ ":presearch_shields_framework_bundle_data_pre" ]
+  }
+
+  bundle_data("presearch_shields_framework_bundle_data_pre") {
+    sources = [ "//brave/_data/shields/manifest.json",
+                "//brave/_data/shields/regional_catalog.json",
+                "//brave/_data/shields/resources.json",
+                "//brave/_data/shields/rs-ABPFilterParserData.dat" ]
+    outputs = [ "{{bundle_resources_dir}}/{{source_file_part}}" ]
+  }
+} else {
+  copy("shields_data") {
+    sources = [ "//brave/_data/shields/manifest.json",
+                "//brave/_data/shields/regional_catalog.json",
+                "//brave/_data/shields/resources.json",
+                "//brave/_data/shields/rs-ABPFilterParserData.dat" ]
+    outputs = [ "$root_out_dir/{{source_file_part}}" ]
+  }
+}
+# Embed Shields data. By Mamy
 
 process_version("generate_version") {
   template_file = "version.version"
