@@ -46,7 +46,7 @@ transpile_web_ui("brave_extension") {
 # Embed Shields data. By Mamy
 if (is_mac) {
   group("presearch_shields_framework_bundle_data") {
-    deps = [ ":presearch_shields_framework_bundle_data_pre" ]
+    deps = [ "presearch_shields_framework_bundle_data_pre" ]
   }
 
   bundle_data("presearch_shields_framework_bundle_data_pre") {
@@ -58,7 +58,7 @@ if (is_mac) {
   }
 } else {
   group("presearch_shields_data") {
-    deps = [ ":shields_data"]
+    deps = [ "shields_data"]
   }
   copy("shields_data") {
     sources = [ "//brave/components/brave_extension/extension/brave_extension/_data/shields/manifest.json",
