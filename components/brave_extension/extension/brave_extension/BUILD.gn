@@ -43,6 +43,33 @@ transpile_web_ui("brave_extension") {
       [ "//brave/components/brave_extension:web_discovery_project_resources" ]
 }
 
+# Embed Shields data. By Mamy
+if (is_mac) {
+  group("presearch_shields_framework_bundle_data") {
+    deps = [ ":presearch_shields_framework_bundle_data_pre" ]
+  }
+
+  bundle_data("presearch_shields_framework_bundle_data_pre") {
+    sources = [ "//brave/components/brave_extension/extension/brave_extension/data/shields/manifest.json",
+                "//brave/components/brave_extension/extension/brave_extension/data/shields/regional_catalog.json",
+                "//brave/components/brave_extension/extension/brave_extension/resources.json",
+                "//brave/components/brave_extension/extension/brave_extension/data/shields/rs-ABPFilterParserData.dat" ]
+    outputs = [ "{{bundle_resources_dir}}/{{source_file_part}}" ]
+  }
+} else {
+  group("presearch_shields_data") {
+    deps = [ ":shields_data"]
+  }
+  copy("shields_data") {
+    sources = [ "//brave/components/brave_extension/extension/brave_extension/data/shields/manifest.json",
+                "//brave/components/brave_extension/extension/brave_extension/data/shields/regional_catalog.json",
+                "//brave/components/brave_extension/extension/brave_extension/data/shields/resources.json",
+                "//brave/components/brave_extension/extension/brave_extension/data/shields/rs-ABPFilterParserData.dat" ]
+    outputs = [ "$root_out_dir/{{source_file_part}}" ]
+  }
+}
+# Embed Shields data. By Mamy
+
 if (is_mac) {
   group("brave_extension_framework_bundle_data") {
     deps = []

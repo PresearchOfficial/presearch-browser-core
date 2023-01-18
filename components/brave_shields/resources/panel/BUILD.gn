@@ -20,30 +20,3 @@ pack_web_resources("brave_shields_panel_generated") {
   output_dir = "$root_gen_dir/brave/components/brave_shields/resources/panel"
   deps = [ ":brave_shields_panel_ui" ]
 }
-
-if (is_mac) {
-  group("presearch_shields_data") {
-    deps = []
-    deps += [ ":presearch_shields_framework_bundle_data" ]
-  }
-
-  bundle_data("presearch_shields_framework_bundle_data") {
-    sources = [ "//brave/components/brave_shields/resources/panel/data/shields/manifest.json",
-                "//brave/components/brave_shields/resources/panel/data/shields/regional_catalog.json",
-                "//brave/components/brave_shields/resources/panel/data/shields/resources.json",
-                "//brave/components/brave_shields/resources/panel/data/shields/rs-ABPFilterParserData.dat" ]
-    outputs = [ "{{bundle_resources_dir}}/{{source_file_part}}" ]
-  }
-} else {
-  group("presearch_shields_data") {
-    deps = []
-    deps += [ ":shields_data"]
-  }
-  copy("shields_data") {
-    sources = [ "//brave/components/brave_shields/resources/panel/data/shields/manifest.json",
-                "//brave/components/brave_shields/resources/panel/data/shields/regional_catalog.json",
-                "//brave/components/brave_shields/resources/panel/data/shields/resources.json",
-                "//brave/components/brave_shields/resources/panel/data/shields/rs-ABPFilterParserData.dat" ]
-    outputs = [ "$root_out_dir/{{source_file_part}}" ]
-  }
-}
