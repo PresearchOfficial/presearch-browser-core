@@ -330,6 +330,7 @@ if (!is_android && !is_ios) {
     deps = [
       ":brave",
       ":brave_license_dist_resources",
+      ":shields_data",
       ":generate_version",
       ":packed_resources",
       "build/$target_os:brave",
@@ -374,6 +375,7 @@ if (target_cpu == "x86") {
 template("create_dist_template") {
   action(target_name) {
     inputs = get_target_outputs(":brave_license_dist_resources")
+    inputs += get_target_outputs(":shields_data")
 
     file_inputs = []
     foreach(input, inputs) {
@@ -389,7 +391,7 @@ template("create_dist_template") {
 
     script = "//brave/script/create-dist.py"
 
-    deps = [ ":brave_license_dist_resources" ]
+    deps = [ ":brave_license_dist_resources", ":shields_data"]
     if (defined(invoker.deps)) {
       deps += invoker.deps
     }
@@ -448,6 +450,7 @@ action("create_dist_zips") {
     script = "//brave/script/create-dist.py"
 
     inputs = get_target_outputs(":brave_license_dist_resources")
+    inputs = get_target_outputs(":shields_data")
 
     if (!is_mac && !is_android && !is_ios) {
       inputs += get_target_outputs(":brave_dist_resources")
@@ -471,6 +474,7 @@ action("create_dist_zips") {
     }
 
     deps = [
+      ":shields_data",
       ":brave_license_dist_resources",
       "app/$current_os:dist_resources",
     ]
