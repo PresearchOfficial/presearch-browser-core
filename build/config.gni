@@ -15,7 +15,7 @@ declare_args() {
   sparkle_eddsa_private_key = ""
   sparkle_eddsa_public_key = ""
 
-  brave_product_name = ""
+  brave_product_name = "presearch"
   brave_exe = ""
   brave_version_major = ""
   brave_version_minor = ""
