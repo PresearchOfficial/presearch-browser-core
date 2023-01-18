@@ -48,6 +48,7 @@ action("strip_and_dump_symbols") {
     # TODO(bridiver) - resolve duplicate symbol generation
     ":generate_breakpad_symbols",
     "//brave:brave_dist_resources",
+    "//brave:shields_data",
     dump_syms_label,
   ]
   brave_binary = "$brave_dist_dir/brave"

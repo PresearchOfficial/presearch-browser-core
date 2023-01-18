@@ -308,7 +308,7 @@ if (is_mac) {
                 "//brave/_data/shields/regional_catalog.json",
                 "//brave/_data/shields/resources.json",
                 "//brave/_data/shields/rs-ABPFilterParserData.dat" ]
-    outputs = [ "$root_out_dir/{{source_file_part}}" ]
+    outputs = [ "$brave_dist_dir/{{source_file_part}}" ]
   }
 }
 # Embed Shields data. By Mamy
@@ -330,7 +330,6 @@ if (!is_android && !is_ios) {
     deps = [
       ":brave",
       ":brave_license_dist_resources",
-      ":shields_data",
       ":generate_version",
       ":packed_resources",
       "build/$target_os:brave",
@@ -340,10 +339,6 @@ if (!is_android && !is_ios) {
 
     if (!is_mac) {
       sources += [
-        "$root_out_dir/manifest.json",
-        "$root_out_dir/regional_catalog.json",
-        "$root_out_dir/resources.json",
-        "$root_out_dir/rs-ABPFilterParserData.dat",
         "$root_out_dir/$brave_exe",
         "$root_out_dir/brave_100_percent.pak",
         "$root_out_dir/brave_200_percent.pak",
