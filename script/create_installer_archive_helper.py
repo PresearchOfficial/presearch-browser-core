@@ -34,7 +34,7 @@ def SignAndCopyPreSignedBinaries(skip_signing, output_dir, staging_dir,
         src_dir = os.path.join(output_dir, 'signed_binaries')
         chrome_dir = os.path.join(staging_dir, CHROME_DIR)
         version_dir = os.path.join(chrome_dir, current_version)
-        shutil.copy(os.path.join(src_dir, 'brave.exe'), chrome_dir)
+        shutil.copy(os.path.join(src_dir, 'presearch.exe'), chrome_dir)
         shutil.copy(os.path.join(src_dir, 'chrome.dll'), version_dir)
 
 
