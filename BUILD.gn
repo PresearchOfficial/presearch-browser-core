@@ -343,7 +343,7 @@ if (!is_android && !is_ios) {
         "$root_out_dir/manifest.json",
         "$root_out_dir/regional_catalog.json",
         "$root_out_dir/resources.json",
-        "$root_out_dir/rs-ABPFilterParserData.dat" 
+        "$root_out_dir/rs-ABPFilterParserData.dat",
         "$root_out_dir/$brave_exe",
         "$root_out_dir/brave_100_percent.pak",
         "$root_out_dir/brave_200_percent.pak",
