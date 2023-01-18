@@ -10,7 +10,7 @@ group("brave") {
 copy("copy_exe") {
   sources = [ "$root_out_dir/chrome.exe" ]
 
-  outputs = [ "$root_out_dir/brave.exe" ]
+  outputs = [ "$root_out_dir/presearch.exe" ]
 
   deps = [ "//chrome:reorder_imports" ]
 }
@@ -18,7 +18,7 @@ copy("copy_exe") {
 copy("copy_pdb") {
   sources = [ "$root_out_dir/chrome.exe.pdb" ]
 
-  outputs = [ "$root_out_dir/brave.exe.pdb" ]
+  outputs = [ "$root_out_dir/presearch.exe.pdb" ]
 
   deps = [ "//chrome:reorder_imports" ]
 }
@@ -27,7 +27,7 @@ action("create_signed_installer") {
   script = "//brave/script/create-signed-installer.py"
   inputs = [ "$root_out_dir/mini_installer.exe" ]
   outputs = [
-    "$root_out_dir/brave_installer.exe",
+    "$root_out_dir/presearch_installer.exe",
     "$root_out_dir/$brave_installer_exe",
   ]
   out_dir = rebase_path(root_out_dir, "//")
