@@ -450,9 +450,9 @@ action("create_dist_zips") {
     script = "//brave/script/create-dist.py"
 
     inputs = get_target_outputs(":brave_license_dist_resources")
-    inputs += get_target_outputs(":shields_data")
 
     if (!is_mac && !is_android && !is_ios) {
+      inputs += get_target_outputs(":shields_data")
       inputs += get_target_outputs(":brave_dist_resources")
       inputs += get_target_outputs(":brave_locale_dist_resources")
       if (enable_extensions) {
@@ -474,13 +474,13 @@ action("create_dist_zips") {
     }
 
     deps = [
-      ":shields_data",
       ":brave_license_dist_resources",
       "app/$current_os:dist_resources",
     ]
 
     if (!is_mac && !is_android && !is_ios) {
       deps += [
+        ":shields_data",
         ":brave_dist_resources",
         ":brave_locale_dist_resources",
       ]
