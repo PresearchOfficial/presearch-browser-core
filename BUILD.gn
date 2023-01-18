@@ -250,6 +250,7 @@ if (!is_mac && !is_android && !is_ios) {
   if (enable_extensions) {
     group("brave_extensions_locale_dist_resources") {
       deps = [
+        "//brave/components/brave_extension/extension/brave_extension:presearch_shields_data",
         "//brave/components/brave_extension/extension/brave_extension:locales",
         "//brave/components/brave_rewards/resources/extension:locales",
       ]
