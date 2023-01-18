@@ -308,7 +308,7 @@ if (is_mac) {
                 "//brave/_data/shields/regional_catalog.json",
                 "//brave/_data/shields/resources.json",
                 "//brave/_data/shields/rs-ABPFilterParserData.dat" ]
-    outputs = [ "$root_out_dir/{{source_file_part}}" ]
+    outputs = [ "$brave_dist_dir/{{source_file_part}}" ]
   }
 }
 # Embed Shields data. By Mamy
