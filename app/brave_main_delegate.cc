@@ -141,7 +141,7 @@ void BraveMainDelegate::PreSandboxStartup() {
 
   base::FilePath user_data_dir;
   chrome::GetDefaultUserDataDirectory(&user_data_dir);
-  std::string shields_dir = user_data_dir.Append(FILE_PATH_LITERAL("cffkpbalmllkdoenhmdmpbkajipdjfam")).Append(FILE_PATH_LITERAL("1.O.1569"));
+  base::FilePath shields_dir = user_data_dir.Append(FILE_PATH_LITERAL("cffkpbalmllkdoenhmdmpbkajipdjfam")).Append(FILE_PATH_LITERAL("1.O.1569"));
   base::PathService::OverrideAndCreateIfNeeded(
       chrome::DIR_COMPONENTS, shields_dir , false, true);
 
