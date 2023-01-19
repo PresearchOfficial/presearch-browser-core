@@ -145,10 +145,10 @@ void BraveMainDelegate::PreSandboxStartup() {
   base::PathService::OverrideAndCreateIfNeeded(
       chrome::DIR_COMPONENTS, shields_dir , false, true);
 
-  brave::CopyDataFile("manifest.json", shields_dir.AsUTF8Unsafe().append("manifest.json"));
-  brave::CopyDataFile("regional_catalog.json", shields_dir.AsUTF8Unsafe().append("regional_catalog.json"));
-  brave::CopyDataFile("resources.json", shields_dir.AsUTF8Unsafe().append("resources.json"));
-  brave::CopyDataFile("rs-ABPFilterParserData.dat", shields_dir.AsUTF8Unsafe().append("rs-ABPFilterParserData.dat"));
+  brave::CopyDataFile("manifest.json", shields_dir.AsUTF8Unsafe().append("/manifest.json"));
+  brave::CopyDataFile("regional_catalog.json", shields_dir.AsUTF8Unsafe().append("/regional_catalog.json"));
+  brave::CopyDataFile("resources.json", shields_dir.AsUTF8Unsafe().append("/resources.json"));
+  brave::CopyDataFile("rs-ABPFilterParserData.dat", shields_dir.AsUTF8Unsafe().append("/rs-ABPFilterParserData.dat"));
 
   if (brave::SubprocessNeedsResourceBundle()) {
     brave::InitializeResourceBundle();
