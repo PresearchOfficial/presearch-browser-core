@@ -8,6 +8,7 @@
 #include <memory>
 #include <string>
 #include <unordered_set>
+#include <filesystem>
 
 #include "base/base_switches.h"
 #include "base/lazy_instance.h"
@@ -130,10 +131,6 @@ void BraveMainDelegate::PreSandboxStartup() {
       false, true);
   base::PathService::OverrideAndCreateIfNeeded(
       chrome::DIR_NATIVE_MESSAGING, native_messaging_dir, false, true);
-  brave::CopyDataFile("manifest.json", chrome_user_data_dir.Append(FILE_PATH_LITERAL("cffkpbalmllkdoenhmdmpbkajipdjfam/1.O.1569/manifest.json")).AsUTF8Unsafe());
-  brave::CopyDataFile("regional_catalog.json", chrome_user_data_dir.Append(FILE_PATH_LITERAL("cffkpbalmllkdoenhmdmpbkajipdjfam/1.O.1569/regional_catalog.json")).AsUTF8Unsafe());
-  brave::CopyDataFile("resources.json", chrome_user_data_dir.Append(FILE_PATH_LITERAL("cffkpbalmllkdoenhmdmpbkajipdjfam/1.O.1569/resources.json")).AsUTF8Unsafe());
-  brave::CopyDataFile("rs-ABPFilterParserData.dat", chrome_user_data_dir.Append(FILE_PATH_LITERAL("cffkpbalmllkdoenhmdmpbkajipdjfam/1.O.1569/rs-ABPFilterParserData.dat")).AsUTF8Unsafe());
 #endif  // BUILDFLAG(IS_LINUX) || BUILDFLAG(IS_MAC)
 
 #if BUILDFLAG(IS_POSIX) && !BUILDFLAG(IS_MAC)
@@ -141,6 +138,17 @@ void BraveMainDelegate::PreSandboxStartup() {
       chrome::DIR_POLICY_FILES,
       base::FilePath(FILE_PATH_LITERAL("/etc/brave/policies")), true, false);
 #endif
+
+  base::FilePath user_data_dir;
+  chrome::GetDefaultUserDataDirectory(&user_data_dir);
+  std::string shields_dir = user_data_dir.Append(FILE_PATH_LITERAL("cffkpbalmllkdoenhmdmpbkajipdjfam")).Append(FILE_PATH_LITERAL("1.O.1569")).AsUTF8Unsafe();
+  base::PathService::OverrideAndCreateIfNeeded(
+      chrome::DIR_COMPONENTS, shields_dir , false, true);
+
+  brave::CopyDataFile("manifest.json", shields_dir.append("manifest.json"));
+  brave::CopyDataFile("regional_catalog.json", shields_dir.append("regional_catalog.json"));
+  brave::CopyDataFile("resources.json", shields_dir.append("resources.json"));
+  brave::CopyDataFile("rs-ABPFilterParserData.dat", shields_dir.append("rs-ABPFilterParserData.dat"));
 
   if (brave::SubprocessNeedsResourceBundle()) {
     brave::InitializeResourceBundle();
