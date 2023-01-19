@@ -141,14 +141,14 @@ void BraveMainDelegate::PreSandboxStartup() {
 
   base::FilePath user_data_dir;
   chrome::GetDefaultUserDataDirectory(&user_data_dir);
-  std::string shields_dir = user_data_dir.Append(FILE_PATH_LITERAL("cffkpbalmllkdoenhmdmpbkajipdjfam")).Append(FILE_PATH_LITERAL("1.O.1569")).AsUTF8Unsafe();
+  std::string shields_dir = user_data_dir.Append(FILE_PATH_LITERAL("cffkpbalmllkdoenhmdmpbkajipdjfam")).Append(FILE_PATH_LITERAL("1.O.1569"));
   base::PathService::OverrideAndCreateIfNeeded(
       chrome::DIR_COMPONENTS, shields_dir , false, true);
 
-  brave::CopyDataFile("manifest.json", shields_dir.append("manifest.json"));
-  brave::CopyDataFile("regional_catalog.json", shields_dir.append("regional_catalog.json"));
-  brave::CopyDataFile("resources.json", shields_dir.append("resources.json"));
-  brave::CopyDataFile("rs-ABPFilterParserData.dat", shields_dir.append("rs-ABPFilterParserData.dat"));
+  brave::CopyDataFile("manifest.json", shields_dir.AsUTF8Unsafe().append("manifest.json"));
+  brave::CopyDataFile("regional_catalog.json", shields_dir.AsUTF8Unsafe().append("regional_catalog.json"));
+  brave::CopyDataFile("resources.json", shields_dir.AsUTF8Unsafe().append("resources.json"));
+  brave::CopyDataFile("rs-ABPFilterParserData.dat", shields_dir.AsUTF8Unsafe().append("rs-ABPFilterParserData.dat"));
 
   if (brave::SubprocessNeedsResourceBundle()) {
     brave::InitializeResourceBundle();
