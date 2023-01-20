@@ -6480,7 +6480,7 @@ Inaatasan ka ng <ph name="DOMAIN"/> na panatilihing nakalagay ang iyong smart ca
 <translation id="7434757724413878233">Pag-accelerate ng mouse</translation>
 <translation id="7434969625063495310">Hindi maidagdag ang server sa pag-print. Pakisuri ang configuration ng server at subukan ulit.</translation>
 <translation id="7436921188514130341">Naku! Nagka-error habang pinapalitan ang pangalan.</translation>
-<translation id="8321050266740871088">Makikita ang karaniwang browser sa pamamagitan ng pag-type ng "Brave" sa Launcher.</translation>
+<translation id="8321050266740871088">Makikita ang karaniwang browser sa pamamagitan ng pag-type ng "Presearch" sa Launcher.</translation>
 <translation id="7439519621174723623">Magdagdag ng pangalan ng device para magpatuloy</translation>
 <translation id="7441736921018636843">Para baguhin ang setting na ito, <ph name="BEGIN_LINK"/>i-reset ang pag-sync<ph name="END_LINK"/> para alisin ang iyong passphrase sa pag-sync</translation>
 <translation id="7441830548568730290">Iba pang mga user</translation>
@@ -7608,7 +7608,7 @@ Ilagay ang iyong key file sa ligtas na lugar. Kailangan mo ito upang lumikha ng 
 <translation id="8554899698005018844">Walang wika</translation>
 <translation id="855604308879080518">Payagan ang mga Android app na mag-access ng mga USB device sa Chromebook na ito. Hihiling ng pahintulot sa tuwing magsasaksak ka ng USB device. Hihiling ang mga indibidwal na Android app ng mga karagdagang pahintulot.</translation>
 <translation id="8557022314818157177">Patuloy na pindutin ang iyong security key hanggang ma-capture ang fingerprint mo</translation>
-<translation id="2055442944008824554">I-on ang "Brave" sa Mga Serbisyo ng Lokasyon sa iyong Mac</translation>
+<translation id="2055442944008824554">I-on ang "Presearch" sa Mga Serbisyo ng Lokasyon sa iyong Mac</translation>
 <translation id="8557856025359704738">Ang susunod na pag-download ay sa <ph name="NEXT_DATE_DOWNLOAD"/>.</translation>
 <translation id="8560327176991673955">{COUNT,plural, =0{Buksan Lahat sa &amp;Bagong Window}=1{Buksan sa &amp;Bagong Window}one{Buksan Lahat ({COUNT}) sa &amp;Bagong Window}other{Buksan Lahat ({COUNT}) sa &amp;Bagong Window}}</translation>
 <translation id="8561206103590473338">Elepante</translation>

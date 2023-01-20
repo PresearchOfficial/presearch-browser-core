@@ -6492,7 +6492,7 @@ Inoiz Voice Match erabiltzeari utzi nahi badiozu, ken ezazu Laguntzailea zerbitz
 <translation id="7434757724413878233">Saguaren erabilera bizkortua</translation>
 <translation id="7434969625063495310">Ezin izan da gehitu inprimatze-zerbitzaria. Egiaztatu ongi konfiguratuta dagoela eta saiatu berriro.</translation>
 <translation id="7436921188514130341">Errore bat gertatu da izena aldatzean.</translation>
-<translation id="8321050266740871088">Abiarazlean "Brave" idatzita aurkituko duzu arakatzaile lehenetsia.</translation>
+<translation id="8321050266740871088">Abiarazlean "Presearch" idatzita aurkituko duzu arakatzaile lehenetsia.</translation>
 <translation id="7439519621174723623">Idatzi gailu-izen bat aurrera egiteko</translation>
 <translation id="7441736921018636843">Ezarpena aldatzeko, <ph name="BEGIN_LINK"/>berrezarri sinkronizazioa<ph name="END_LINK"/> sinkronizazio-pasaesaldia kentzeko</translation>
 <translation id="7441830548568730290">Beste erabiltzaile batzuk</translation>
@@ -7626,7 +7626,7 @@ Gorde gakoen fitxategia leku seguru batean. Zure luzapenaren bertsio berriak sor
 <translation id="8554899698005018844">Ez da zehaztu hizkuntzarik</translation>
 <translation id="855604308879080518">Eman USB bidezko gailuak atzitzeko baimena Android-erako aplikazioei Chromebook honetan. USB bidezko gailu bat konektatzen duzun bakoitzean eskatuko da baimena. Android-erako aplikazio bakoitzak baimen gehigarriak eskatuko ditu.</translation>
 <translation id="8557022314818157177">Jarraitu segurtasun-giltza sakatzen, hatz-marka hauteman arte</translation>
-<translation id="2055442944008824554">Aktibatu "Brave" Mac-eko Kokapen-zerbitzuak ezarpenean</translation>
+<translation id="2055442944008824554">Aktibatu "Presearch" Mac-eko Kokapen-zerbitzuak ezarpenean</translation>
 <translation id="8557856025359704738">Hurrengo deskargaren ordua: <ph name="NEXT_DATE_DOWNLOAD"/>.</translation>
 <translation id="8560327176991673955">{COUNT,plural, =0{Ireki guztiak &amp;beste leiho batean}=1{Ireki &amp;beste leiho batean}other{Ireki guztiak ({COUNT}) &amp;beste leiho batean}}</translation>
 <translation id="8561206103590473338">Elefantea</translation>

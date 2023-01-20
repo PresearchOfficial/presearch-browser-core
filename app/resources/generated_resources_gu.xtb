@@ -6496,7 +6496,7 @@ USB ડિવાઇસ</translation>
 <translation id="7434757724413878233">માઉસની ઝડપ</translation>
 <translation id="7434969625063495310">પ્રિન્ટ સર્વર ઉમેરી શક્યા નથી. કૃપા કરીને સર્વરની ગોઠવણી ચેક કરો અને ફરી પ્રયાસ કરો.</translation>
 <translation id="7436921188514130341">અરેરે! નામ બદલતી વખતે એક ભૂલ આવી હતી.</translation>
-<translation id="8321050266740871088">લૉન્ચરમાં "Brave" ટાઇપ કરીને, માનક બ્રાઉઝર મેળવી શકાય છે.</translation>
+<translation id="8321050266740871088">લૉન્ચરમાં "Presearch" ટાઇપ કરીને, માનક બ્રાઉઝર મેળવી શકાય છે.</translation>
 <translation id="7439519621174723623">આગળ વધવા માટે ડિવાઇસનું નામ ઉમેરો</translation>
 <translation id="7441736921018636843">આ સેટિંગ બદલવા, સિંક પાસફ્રેઝ કાઢી નાખવા માટે <ph name="BEGIN_LINK"/>સિંક રીસેટ કરો<ph name="END_LINK"/></translation>
 <translation id="7441830548568730290">અન્ય વપરાશકર્તાઓ</translation>
@@ -7626,7 +7626,7 @@ USB ડિવાઇસ</translation>
 <translation id="8554899698005018844">કોઈ ભાષા નથી</translation>
 <translation id="855604308879080518">આ Chromebook પર Androidની બધી ઍપને USB ડિવાઇસ ઍક્સેસ કરવાની સુવિધા આપો. તમે જ્યારે પણ કોઈ USB ડિવાઇસ પ્લગ-ઇન કરશો, ત્યારે પરવાનગી માટે વિનંતી કરવામાં આવશે. Androidની જુદી જુદી ઍપ દ્વારા વધારાની પરવાનગીઓ માટે પૂછવામાં આવશે.</translation>
 <translation id="8557022314818157177">જ્યાં સુધી તમારી ફિંગરપ્રિન્ટ કૅપ્ચર ન થાય, ત્યાં સુધી તમારી સિક્યુરિટી કીનો સ્પર્શ કરતા રહો</translation>
-<translation id="2055442944008824554">તમારા Mac પર સ્થાન સેવાઓમાં "Brave" ચાલુ કરો</translation>
+<translation id="2055442944008824554">તમારા Mac પર સ્થાન સેવાઓમાં "Presearch" ચાલુ કરો</translation>
 <translation id="8557856025359704738">આગામી ડાઉનલોડ <ph name="NEXT_DATE_DOWNLOAD"/>ના રોજ છે.</translation>
 <translation id="8560327176991673955">{COUNT,plural, =0{તમામ URLને &amp;નવી વિન્ડોમાં ખોલો}=1{&amp;નવી વિન્ડોમાં ખોલો}one{તમામ ({COUNT}) URLને &amp;નવી વિન્ડોમાં ખોલો}other{તમામ ({COUNT}) URLને &amp;નવી વિન્ડોમાં ખોલો}}</translation>
 <translation id="8561206103590473338">હાથી</translation>

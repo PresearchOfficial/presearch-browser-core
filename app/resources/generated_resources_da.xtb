@@ -6480,7 +6480,7 @@ Flere kontakter kan tildeles denne handling.</translation>
 <translation id="7434757724413878233">Acceleration af mus</translation>
 <translation id="7434969625063495310">Der kunne ikke tilføjes en printerserver. Tjek serverens konfiguration, og prøv igen.</translation>
 <translation id="7436921188514130341">Øv, surt! Der opstod en fejl under omdøbningen.</translation>
-<translation id="8321050266740871088">Du finder standardbrowseren ved at skrive "Brave" i Appliste.</translation>
+<translation id="8321050266740871088">Du finder standardbrowseren ved at skrive "Presearch" i Appliste.</translation>
 <translation id="7439519621174723623">Tilføj en enhed for at fortsætte</translation>
 <translation id="7441736921018636843">Hvis du vil ændre denne indstilling, skal du <ph name="BEGIN_LINK"/>nulstille synkronisering<ph name="END_LINK"/> for at fjerne din adgangssætning for synkronisering</translation>
 <translation id="7441830548568730290">Andre brugere</translation>
@@ -7606,7 +7606,7 @@ Opbevar din nøglefil på et sikkert sted. Du skal bruge den til at oprette nye 
 <translation id="8554899698005018844">Intet sprog</translation>
 <translation id="855604308879080518">Giv Android-apps adgangstilladelse til USB-enheder på denne Chromebook. Der anmodes om tilladelsen, hver gang du tilslutter en USB-enhed. Individuelle Android-apps anmoder om yderligere tilladelser.</translation>
 <translation id="8557022314818157177">Bliv ved med at røre din sikkerhedsnøgle, indtil dit fingeraftryk er registreret</translation>
-<translation id="2055442944008824554">Aktivér "Brave" i Lokationstjenester på din Mac</translation>
+<translation id="2055442944008824554">Aktivér "Presearch" i Lokationstjenester på din Mac</translation>
 <translation id="8557856025359704738">Næste download finder sted <ph name="NEXT_DATE_DOWNLOAD"/>.</translation>
 <translation id="8560327176991673955">{COUNT,plural, =0{Åbn alle i &amp;nyt vindue}=1{Åbn i &amp;nyt vindue}one{Åbn ({COUNT}) i &amp;nyt vindue}other{Åbn alle ({COUNT}) i &amp;nyt vindue}}</translation>
 <translation id="8561206103590473338">Elefant</translation>
