@@ -9,7 +9,7 @@
 PACKAGE="presearch-browser"
 
 # Filename of the main executable (for generating launcher scripts, etc.)
-PROGNAME=brave
+PROGNAME=presearch
 
 # Base directory for package installation.
 INSTALLDIR=/opt/presearch.com/presearch
