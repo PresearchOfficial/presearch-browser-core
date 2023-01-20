@@ -823,7 +823,7 @@ Rechten die je al hebt gegeven aan apps, kunnen van toepassing zijn op dit accou
 <translation id="1784707308176068866">Uitvoeren op de achtergrond wanneer dit wordt gevraagd door een samenwerkende systeemeigen app</translation>
 <translation id="1784849162047402014">Weinig schijfruimte beschikbaar op het apparaat</translation>
 <translation id="1787350673646245458">Gebruikersafbeelding</translation>
-<translation id="5770135830298799888">Krijg toegang tot je Brave-browsergegevens via <ph name="ACCOUNT_EMAIL"/></translation>
+<translation id="5770135830298799888">Krijg toegang tot je Presearch-browsergegevens via <ph name="ACCOUNT_EMAIL"/></translation>
 <translation id="1790976235243700817">Toegang intrekken</translation>
 <translation id="1791662854739702043">Geïnstalleerd</translation>
 <translation id="1792619191750875668">Uitgebreid scherm</translation>
@@ -865,7 +865,7 @@ Rechten die je al hebt gegeven aan apps, kunnen van toepassing zijn op dit accou
 <translation id="1823098433522728610">Dit document bevat gevoelige content.</translation>
 <translation id="18245044880483936">Back-upgegevens tellen niet mee voor de Drive-opslaglimiet van je kind.</translation>
 <translation id="1825565032302550710">Poort moet tussen 1024 en 65535 liggen</translation>
-<translation id="1826192255355608658">De bookmarks, wachtwoorden, geschiedenis en meer van je Brave-browser synchroniseren</translation>
+<translation id="1826192255355608658">De bookmarks, wachtwoorden, geschiedenis en meer van je Presearch-browser synchroniseren</translation>
 <translation id="1826516787628120939">Controleren</translation>
 <translation id="1827738518074806965">Kunstgalerie</translation>
 <translation id="1828378091493947763">Deze plug-in wordt niet ondersteund op dit apparaat</translation>
@@ -917,7 +917,7 @@ Rechten die je al hebt gegeven aan apps, kunnen van toepassing zijn op dit accou
 <translation id="5547994882402969646">Wachtwoordcheck is niet beschikbaar in Brave</translation>
 <translation id="1868617395637139709">Gebruik locatie voor Android-apps en -services.</translation>
 <translation id="1869433484041798909">Knop voor bookmark</translation>
-<translation id="7175072311426658869">Openen in de Brave-browser</translation>
+<translation id="7175072311426658869">Openen in de Presearch-browser</translation>
 <translation id="187145082678092583">Minder apps</translation>
 <translation id="1871463148436682760">Goed bezig!</translation>
 <translation id="1871534214638631766">Gerelateerde informatie bekijken als je met de rechtermuisknop klikt of lang drukt op content</translation>
@@ -2199,7 +2199,7 @@ Als je later besluit dat je niet wilt dat je kind Voice Match gebruikt, verwijde
 <translation id="5418694430960033386">Brave beschikt over onvoldoende geheugen of het webpaginaproces is om een andere reden beëindigd. Laad de pagina opnieuw of ga naar een andere pagina om door te gaan.</translation>
 <translation id="3084958266922136097">Screensaver uitzetten</translation>
 <translation id="3085412380278336437">Site kan je camera gebruiken</translation>
-<translation id="3085431803365340433">De Brave-browser kan niet worden geüpdatet</translation>
+<translation id="3085431803365340433">De Presearch-browser kan niet worden geüpdatet</translation>
 <translation id="3088052000289932193">De site gebruikt MIDI</translation>
 <translation id="3088128611727407543">App-profiel voorbereiden…</translation>
 <translation id="3088325635286126843">&amp;Naam wijzigen...</translation>
@@ -2409,7 +2409,7 @@ Foutcode: <ph name="ERROR_CODE"/>.</translation>
 <translation id="3320630259304269485">Safe Browsing (bescherming tegen gevaarlijke sites) en andere beveiligingsinstellingen</translation>
 <translation id="3323295311852517824">{NUM_FILES,plural, =0{Deze gegevens bevatten gevoelige of gevaarlijke content. Verwijder deze content en probeer het opnieuw.}=1{Dit bestand bevat gevoelige of gevaarlijke content. Verwijder deze content en probeer het opnieuw.}other{Deze bestanden bevatten gevoelige of gevaarlijke content. Verwijder deze content en probeer het opnieuw.}}</translation>
 <translation id="3323521181261657960">Bonus! Je hebt meer schermtijd gekregen</translation>
-<translation id="9044258386077615750">Wijzigingen die je hier aanbrengt, zijn alleen van toepassing op de Brave-browser. Als je wijzigingen wilt aanbrengen in de Lacros Brave-browserinstellingen, open je de Lacros Brave-browser en ga je naar Instellingen.</translation>
+<translation id="9044258386077615750">Wijzigingen die je hier aanbrengt, zijn alleen van toepassing op de Presearch-browser. Als je wijzigingen wilt aanbrengen in de Lacros Presearch-browserinstellingen, open je de Lacros Presearch-browser en ga je naar Instellingen.</translation>
 <translation id="3325804108816646710">Zoeken naar beschikbare profielen…</translation>
 <translation id="3325910708063135066">Camera en microfoon staan uit in Systeemvoorkeuren van je Mac</translation>
 <translation id="3327050066667856415">Chromebooks zijn ontworpen voor beveiliging. Je apparaat is automatisch beveiligd tegen malware. Je hebt geen extra software nodig.</translation>
@@ -3673,7 +3673,7 @@ Je kunt instellingen beheren via het kaartmenu of meer opties bekijken in het ge
 <translation id="5069510062541082828">Bevestig dat jij het bent als je wilt doorgaan met het opslaan van wachtwoorden in je Brave-account</translation>
 <translation id="4579453506923101210">Verbonden telefoon vergeten</translation>
 <translation id="4579581181964204535">Kan <ph name="HOST_NAME"/> niet casten.</translation>
-<translation id="7343272409020602342">Ga voor browsermeldingen naar <ph name="LINK_BEGIN"/>Brave-browserinstellingen<ph name="LINK_END"/></translation>
+<translation id="7343272409020602342">Ga voor browsermeldingen naar <ph name="LINK_BEGIN"/>Presearch-browserinstellingen<ph name="LINK_END"/></translation>
 <translation id="4581774856936278355">Fout bij het herstellen van Linux</translation>
 <translation id="4582297591746054421">Sites lezen je klembord meestal voor functies zoals behoud van opmaak van de tekst die je hebt gekopieerd</translation>
 <translation id="4582563038311694664">Alle instellingen opnieuw instellen</translation>
@@ -3899,7 +3899,7 @@ Foutcode: <ph name="ERROR_CODE"/>.</translation>
 <translation id="4824037980212326045">Back-up en herstel voor Linux</translation>
 <translation id="4824958205181053313">Synchronisatie annuleren?</translation>
 <translation id="4827675678516992122">Kan geen verbinding maken</translation>
-<translation id="4536267179863600153">Verbeterde spellingcontrole in Brave-browser (tekst wordt naar Brave gestuurd voor suggesties over de spelling)</translation>
+<translation id="4536267179863600153">Verbeterde spellingcontrole in Presearch-browser (tekst wordt naar Brave gestuurd voor suggesties over de spelling)</translation>
 <translation id="4827904420700932487">QR-code maken voor deze afbeelding</translation>
 <translation id="4827970183019354123">URL-checker</translation>
 <translation id="482952334869563894">USB-apparaten van leverancier <ph name="VENDOR_ID"/></translation>
@@ -4348,7 +4348,7 @@ Foutcode: <ph name="ERROR_CODE"/>.</translation>
 <translation id="5288678174502918605">Gesloten tabblad opni&amp;euw openen</translation>
 <translation id="52895863590846877">Pagina is niet in het <ph name="LANGUAGE"/></translation>
 <translation id="52912272896845572">Privésleutelbestand is ongeldig.</translation>
-<translation id="2986818636564877939">Maakt automatisch een ondertiteling voor media in de Brave-browser (momenteel alleen beschikbaar in het Engels). Audio en ondertiteling worden lokaal verwerkt en worden nooit doorgestuurd vanaf het apparaat.</translation>
+<translation id="2986818636564877939">Maakt automatisch een ondertiteling voor media in de Presearch-browser (momenteel alleen beschikbaar in het Engels). Audio en ondertiteling worden lokaal verwerkt en worden nooit doorgestuurd vanaf het apparaat.</translation>
 <translation id="529175790091471945">Dit apparaat formatteren</translation>
 <translation id="529296195492126134">Kortstondige modus wordt niet ondersteund. Neem contact op met je beheerder.</translation>
 <translation id="5293170712604732402">Instellingen terugzetten naar de oorspronkelijke standaardwaarden</translation>
@@ -4595,7 +4595,7 @@ Je kunt meerdere schakelaars toewijzen aan deze actie.</translation>
 <translation id="5539221284352502426">Het wachtwoord dat je hebt opgegeven, is afgewezen door de server. Mogelijke redenen zijn: Het wachtwoord is te kort. Het wachtwoord moet cijfers of symbolen bevatten. Het wachtwoord moet verschillen van eerdere wachtwoorden.</translation>
 <translation id="5541694225089836610">Actie is door de beheerder uitgezet</translation>
 <translation id="5542132724887566711">Profiel</translation>
-<translation id="4987607652212163034">Je account wordt beheerd door <ph name="MANAGER_NAME"/>. Je beheerder kan dit Brave-browserprofiel en de bijbehorende gegevens bekijken en bewerken. Je gegevens omvatten bookmarks, geschiedenis en wachtwoorden.</translation>
+<translation id="4987607652212163034">Je account wordt beheerd door <ph name="MANAGER_NAME"/>. Je beheerder kan dit Presearch-browserprofiel en de bijbehorende gegevens bekijken en bewerken. Je gegevens omvatten bookmarks, geschiedenis en wachtwoorden.</translation>
 <translation id="5542750926112347543">Cookies van <ph name="DOMAIN"/> geblokkeerd</translation>
 <translation id="5542949973455282971">Verbinding maken met <ph name="CARRIER_NAME"/></translation>
 <translation id="5543983818738093899">Status controleren…</translation>
@@ -4653,7 +4653,7 @@ Je kunt meerdere schakelaars toewijzen aan deze actie.</translation>
 <translation id="558918721941304263">Apps laden...</translation>
 <translation id="5591644692203457362">Willekeurg uitgebreid sleutelgebruik (anyExtendedKeyUsage)</translation>
 <translation id="5592595402373377407">Nog niet voldoende gegevens beschikbaar.</translation>
-<translation id="4620609007674235583">Brave-browser</translation>
+<translation id="4620609007674235583">Presearch-browser</translation>
 <translation id="5595485650161345191">Adres bewerken</translation>
 <translation id="5596627076506792578">Meer opties</translation>
 <translation id="5600348067066185292">De installatie vereist een paar simpele stappen. Je krijgt nog een kans om te bevestigen voordat er wijzigingen op je computer worden aangebracht.</translation>
@@ -5151,7 +5151,7 @@ Je kunt meerdere schakelaars toewijzen aan deze actie.</translation>
 <translation id="6112294629795967147">Tikken om het formaat aan te passen</translation>
 <translation id="6112727384379533756">Een ticket toevoegen</translation>
 <translation id="6112931163620622315">Controleer je telefoon</translation>
-<translation id="8589850327914845460">Stel de standaard zoekmachine in voor de Brave-browser en <ph name="DEVICE_TYPE"/> Launcher</translation>
+<translation id="8589850327914845460">Stel de standaard zoekmachine in voor de Presearch-browser en <ph name="DEVICE_TYPE"/> Launcher</translation>
 <translation id="6113942107547980621">Als je Smart Lock wilt gebruiken, schakel je over naar het primaire gebruikersprofiel op je telefoon</translation>
 <translation id="6116921718742659598">Taal- en invoerinstellingen wijzigen</translation>
 <translation id="6119927814891883061">Naam van apparaat wijzigen in <ph name="DEVICE_NAME"/></translation>
@@ -5217,7 +5217,7 @@ Je kunt instellingen beheren via het kaartmenu of meer opties bekijken in het ge
 <translation id="6181431612547969857">Download geblokkeerd</translation>
 <translation id="6184099524311454384">Tabbladen doorzoeken</translation>
 <translation id="6185132558746749656">Apparaatlocatie</translation>
-<translation id="6269192621359785662">Brave-browsersynchronisatie staat aan</translation>
+<translation id="6269192621359785662">Presearch-browsersynchronisatie staat aan</translation>
 <translation id="6190953336330058278">Telefoonhub-apps</translation>
 <translation id="619279033188484792">Recente foto's, media en meldingen van je telefoon bekijken op je <ph name="DEVICE_TYPE"/></translation>
 <translation id="6195005504600220730">Informatie over je browser, OS en apparaat lezen</translation>
@@ -5656,7 +5656,7 @@ Je kunt instellingen beheren via het kaartmenu of meer opties bekijken in het ge
 <translation id="6608166463665411119">E-simkaart resetten</translation>
 <translation id="6610002944194042868">Opties voor vertalen</translation>
 <translation id="6611972847767394631">Hier vind je je tabbladen</translation>
-<translation id="6613668613087513143">Er is niet voldoende ruimte op dit apparaat beschikbaar om deze update af te ronden. Maak <ph name="NECESSARY_SPACE"/> vrij op je apparaat en probeer het opnieuw vanuit je Brave-browser.</translation>
+<translation id="6613668613087513143">Er is niet voldoende ruimte op dit apparaat beschikbaar om deze update af te ronden. Maak <ph name="NECESSARY_SPACE"/> vrij op je apparaat en probeer het opnieuw vanuit je Presearch-browser.</translation>
 <translation id="6615455863669487791">Tonen</translation>
 <translation id="6618097958368085618">Toch behouden</translation>
 <translation id="6618744767048954150">Wordt uitgevoerd</translation>
@@ -5780,7 +5780,7 @@ Als <ph name="SUPERVISED_USER_NAME"/> hulp nodig heeft bij het lezen, laat je ki
 <translation id="6740234557573873150"><ph name="FILE_NAME"/> onderbroken</translation>
 <translation id="6741063444351041466"><ph name="BEGIN_LINK"/>Je beheerder<ph name="END_LINK"/> heeft Safe Browsing uitgezet</translation>
 <translation id="6742339027238151589">Toegankelijk voor script</translation>
-<translation id="6554048679786998977">Maakt automatisch een ondertiteling voor media in de Brave-browser. Audio en ondertiteling worden lokaal verwerkt en worden nooit doorgestuurd vanaf het apparaat.</translation>
+<translation id="6554048679786998977">Maakt automatisch een ondertiteling voor media in de Presearch-browser. Audio en ondertiteling worden lokaal verwerkt en worden nooit doorgestuurd vanaf het apparaat.</translation>
 <translation id="6743841972744298686">Synchronisatie-instellingen</translation>
 <translation id="6745592621698551453">Nu updaten</translation>
 <translation id="6746124502594467657">Omlaag</translation>
@@ -5945,7 +5945,7 @@ Als je later besluit dat je Voice Match niet wilt gebruiken, verwijder je dit ge
 <translation id="6902066522699286937">Stem om als voorbeeld te beluisteren</translation>
 <translation id="6902336033320348843">Sectie niet ondersteund: <ph name="ERROR_LINE"/></translation>
 <translation id="6902837902700739466">Apparaat koppelen aan domein</translation>
-<translation id="8347080852065577355">Je gegevens worden gesynchroniseerd voor alle Brave-browsers waarin je synchronisatie voor dit account hebt aangezet. Ga naar de <ph name="LINK_BEGIN"/>Brave OS-instellingen<ph name="LINK_END"/> voor de synchronisatieopties van Brave OS.</translation>
+<translation id="8347080852065577355">Je gegevens worden gesynchroniseerd voor alle Presearch-browsers waarin je synchronisatie voor dit account hebt aangezet. Ga naar de <ph name="LINK_BEGIN"/>Brave OS-instellingen<ph name="LINK_END"/> voor de synchronisatieopties van Brave OS.</translation>
 <translation id="6903590427234129279">Alles (<ph name="URL_COUNT"/>) openen</translation>
 <translation id="6903907808598579934">Synchronisatie aanzetten</translation>
 <translation id="6904344821472985372">Toegang tot bestand intrekken</translation>
@@ -6164,7 +6164,7 @@ Als je later besluit dat je Voice Match niet wilt gebruiken, verwijder je dit ge
 <translation id="711840821796638741">Beheerde bookmarks bekijken</translation>
 <translation id="711902386174337313">De lijst met je ingelogde apparaten lezen</translation>
 <translation id="8651796563067586593">Via deze pagina kun je je ingelogde Brave-accounts beheren. <ph name="LINK_BEGIN"/>Meer informatie<ph name="LINK_END"/></translation>
-<translation id="5450502361144700252">De Brave-browser en Android-verkeer worden geblokkeerd tenzij je verbinding maakt met een VPN</translation>
+<translation id="5450502361144700252">De Presearch-browser en Android-verkeer worden geblokkeerd tenzij je verbinding maakt met een VPN</translation>
 <translation id="7120865473764644444">Kan geen verbinding maken met de synchronisatieserver. Opnieuw proberen...</translation>
 <translation id="7121438501124788993">Ontwikkelaarsmodus</translation>
 <translation id="7121728544325372695">Slimme streepjes</translation>
@@ -6842,7 +6842,7 @@ Je kunt instellingen voor deze kaart beheren via het kaartmenu of meer opties be
 <translation id="7799299114731150374">Achtergrond is ingesteld</translation>
 <translation id="7799817062559422778">Lichte modus</translation>
 <translation id="7800518121066352902">Links&amp;om draaien</translation>
-<translation id="1040069800786635119">Wijzigingen die je hier aanbrengt, zijn alleen van toepassing op de Lacros Brave-browser. Als je wijzigingen wilt aanbrengen in je Brave-browserinstellingen, open je de Brave-browser en ga je naar Instellingen.</translation>
+<translation id="1040069800786635119">Wijzigingen die je hier aanbrengt, zijn alleen van toepassing op de Lacros Presearch-browser. Als je wijzigingen wilt aanbrengen in je Presearch-browserinstellingen, open je de Presearch-browser en ga je naar Instellingen.</translation>
 <translation id="780301667611848630">Nee, bedankt</translation>
 <translation id="7804072833593604762">Tabblad gesloten</translation>
 <translation id="7805768142964895445">Status</translation>

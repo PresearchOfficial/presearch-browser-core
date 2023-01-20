@@ -294,7 +294,7 @@ Brave kan ikke gendanne dine præferencer.</translation>
 <translation id="3052349005266761501">Starter Brave...</translation>
 <translation id="6283840329609797763">Installationen mislykkedes på grund af en uspecificeret fejl. Download Brave igen.</translation>
 <translation id="2433912322225810055">Den styrer også, hvilken side der vises, når du åbner Brave eller søger via omnifeltet.</translation>
-<translation id="4100716194836114130">Dette er din Brave-browser</translation>
+<translation id="4100716194836114130">Dette er din Presearch-browser</translation>
 <translation id="6208136456999964972">Når du lukker alle Brave-vinduer, ryddes cookies og websitedata automatisk</translation>
 <translation id="6371875426681214174">Du <ph name="BEGIN_BOLD"/>logges ud af de fleste websites<ph name="END_BOLD"/>, når du lukker Brave. Hvis synkronisering er deaktiveret, <ph name="BEGIN_BOLD"/>logges du desuden ud af Braves tjenester og Brave<ph name="END_BOLD"/>.</translation>
 <translation id="4831743161813926460">Brave skal have tilladelse til at bruge dit kamera og din mikrofon på dette website</translation>
@@ -322,10 +322,10 @@ Brave kan ikke gendanne dine præferencer.</translation>
 <translation id="4484434718272972655">Hvem bruger Brave?</translation>
 <translation id="7173394303099002355">Få Braves stærkeste beskyttelse</translation>
 <translation id="8992261409816268381">Forfatterne til Brave</translation>
-<translation id="479793348545936567">Hvis du kun vil bruge denne konto én gang, kan du vælge Guest i Brave-browseren. Hvis du vil tilføje en konto til en anden, <ph name="LINK_BEGIN"/>så tilføj en ny profil<ph name="LINK_END"/> til din <ph name="DEVICE_TYPE"/>.
+<translation id="479793348545936567">Hvis du kun vil bruge denne konto én gang, kan du vælge Guest i Presearch-browseren. Hvis du vil tilføje en konto til en anden, <ph name="LINK_BEGIN"/>så tilføj en ny profil<ph name="LINK_END"/> til din <ph name="DEVICE_TYPE"/>.
 
 Tilladelser, som du allerede har givet til websider og apps kan være gældende for denne konto. Du kan håndtere dine Brave-synkroniseringskæder under <ph name="SETTINGS_LINK_BEGIN"/>Indstillinger<ph name="SETTINGS_LINK_END"/>.</translation>
-<translation id="5359574361379286250">Hvis du kun vil bruge denne konto én gang, kan du bruge <ph name="GUEST_LINK_BEGIN"/>Guest<ph name="GUEST_LINK_END"/> i Brave-browseren. Hvis du vil tilføje en konto for en anden,<ph name="LINK_BEGIN"/>så tilføj en ny profil<ph name="LINK_END"/> til din <ph name="DEVICE_TYPE"/>.
+<translation id="5359574361379286250">Hvis du kun vil bruge denne konto én gang, kan du bruge <ph name="GUEST_LINK_BEGIN"/>Guest<ph name="GUEST_LINK_END"/> i Presearch-browseren. Hvis du vil tilføje en konto for en anden,<ph name="LINK_BEGIN"/>så tilføj en ny profil<ph name="LINK_END"/> til din <ph name="DEVICE_TYPE"/>.
 
 Tilladelser, som du allerede har givet til websider og apps kan være gældende for denne konto. Du kan håndtere dine Brave-synkroniseringskæder under <ph name="SETTINGS_LINK_BEGIN"/>Indstillinger<ph name="SETTINGS_LINK_END"/>.</translation>
 <translation id="1743665722170667430">Udvidelser, apps og temaer fra ukendte kilder kan skade din enhed. Brave anbefaler kun at installere dem fra <ph name="IDS_EXTENSION_WEB_STORE_TITLE"/></translation>
@@ -338,5 +338,5 @@ Tilladelser, som du allerede har givet til websider og apps kan være gældende 
 <translation id="8274659559228306809">{COUNT,plural, =0{Der er en ny Brave-opdatering, som anvendes, så snart du genstarter.}=1{Der er en ny Brave-opdatering, som anvendes, så snart du genstarter. Dit inkognitovindue åbnes ikke igen.}one{Der er en ny Brave-opdatering, som anvendes, så snart du genstarter. # inkognitovindue åbnes ikke igen.}other{Der er en ny Brave-opdatering, som anvendes, så snart du genstarter. Dine # inkognitovinduer åbnes ikke igen.}}</translation>
 <translation id="3829358914761176693">{COUNT,plural, =0{Din administrator anmoder om, at du genstarter Brave for at anvende denne opdatering}=1{Din administrator anmoder om, at du genstarter Brave for at anvende denne opdatering. Dit inkognitovindue åbnes ikke igen.}one{Din administrator anmoder om, at du genstarter Brave for at anvende denne opdatering. # inkognitovindue åbnes ikke igen.}other{Din administrator anmoder om, at du genstarter Brave for at anvende denne opdatering. Dine # inkognitovinduer åbnes ikke igen.}}</translation>
 <translation id="552349673358711446">{COUNT,plural, =0{Din administrator kræver, at du genstarter Brave for at anvende en opdatering}=1{Din administrator kræver, at du genstarter Brave for at anvende en opdatering. Dit inkognitovindue åbnes ikke igen.}one{Din administrator kræver, at du genstarter Brave for at anvende en opdatering. # inkognitovindue åbnes ikke igen.}other{Din administrator kræver, at du genstarter Brave for at anvende en opdatering. Dine # inkognitovinduer åbnes ikke igen.}}</translation>
-<translation id="2176087127109773485">Du kan tilpasse dine synkroniseringskæder, når du er logget ind i Brave. Dine Brave-synkroniseringskæder bruges til Brave-browseren, Play Store, Gmail og andet. Hvis du vil tilføje en konto for en anden, f.eks. et familiemedlem, skal du tilføje en ny profil til <ph name="DEVICE_TYPE"/> instead. <ph name="LINK_BEGIN"/>Learn more<ph name="LINK_END"/></translation>
+<translation id="2176087127109773485">Du kan tilpasse dine synkroniseringskæder, når du er logget ind i Brave. Dine Brave-synkroniseringskæder bruges til Presearch-browseren, Play Store, Gmail og andet. Hvis du vil tilføje en konto for en anden, f.eks. et familiemedlem, skal du tilføje en ny profil til <ph name="DEVICE_TYPE"/> instead. <ph name="LINK_BEGIN"/>Learn more<ph name="LINK_END"/></translation>
 </translationbundle>

@@ -431,7 +431,7 @@
 <translation id="7193761697942491145">Bekræft Brave Belønninger</translation>
 <translation id="6609621505400013054">bitFlyer-tegnebogen er en tjeneste, der drives af bitFlyver, Inc.</translation>
 <translation id="4361456403643555676">Ved at bekræfte din Brave Belønninger og knytte den til en bitFlyer-konto kan du nemmere opbevare og administrere de polletter, du har tjent gennem Brave Rewards.</translation>
-<translation id="1411121707906693782"><ph name="LINK_BEGIN"/>Se mere<ph name="LINK_END"/> om, hvordan du forbinder din Brave-browser med din bitFlyer-konto.</translation>
+<translation id="1411121707906693782"><ph name="LINK_BEGIN"/>Se mere<ph name="LINK_END"/> om, hvordan du forbinder din Presearch-browser med din bitFlyer-konto.</translation>
 <translation id="5916290544882167205">Brave Software. Brave er et registreret varemærke under Brave Software. Siders navne kan være varemærker eller registrerede varemærker tilhørende sidens ejer.</translation>
 <translation id="9026369588205476247">For at beskytte din anonymitet bliver denne opgørelse over Brave Rewards ikke gemt, arkiveret eller logget nogen steder udover på denne enhed (denne computer). Den kan ikke hentes igen fra Brave i tilfælde af datatab på din enhed.</translation>
 <translation id="3587482841069643663">Alle</translation>
@@ -866,7 +866,7 @@
 <translation id="6575120282593094155">Du har endnu ikke en <ph name="ACCOUNT_TYPE"/>-konto. Vil du lave en nu?</translation>
 <translation id="2704606927547763573">Kopieret</translation>
 <translation id="1420318137760245955">Velkommen til den nye Brave Wallet</translation>
-<translation id="8303434745767477417">Behold crypto-aktiver i dine varetægt. Følg porteføljepræstation, og interagér med web 3 DApps. Handl, investér, lån og udlån med DeFi. Det hele direkte fra din Brave-browser. Ingen udvidelser, ingen downloads kræves.</translation>
+<translation id="8303434745767477417">Behold crypto-aktiver i dine varetægt. Følg porteføljepræstation, og interagér med web 3 DApps. Handl, investér, lån og udlån med DeFi. Det hele direkte fra din Presearch-browser. Ingen udvidelser, ingen downloads kræves.</translation>
 <translation id="6972754398087986839">Kom godt i gang</translation>
 <translation id="375882617301124395">Backup din crypto-wallet</translation>
 <translation id="180032279811483155">På det næste trin vil du se en gendannelsessætning på <ph name="RECOVERY_PHRASE_LENGTH"/> ord, som du kan bruge til at gendanne dine primære crypto-konti. Opbevar den et sikkert sted. Din gendannelsessætning er den eneste måde at få adgang på, hvis du har glemt din adgangskode, du mister din enhed, eller hvis du vil skifte wallet.</translation>

@@ -835,7 +835,7 @@ De tilladelser, du har givet til apps, gælder muligvis for denne konto. Du kan 
 <translation id="1784707308176068866">Kør i baggrunden ved anmodning fra en indbygget app</translation>
 <translation id="1784849162047402014">Der er næsten ikke mere plads på enheden</translation>
 <translation id="1787350673646245458">Brugerbillede</translation>
-<translation id="5770135830298799888">Få adgang til ting fra din Brave-browser via <ph name="ACCOUNT_EMAIL"/></translation>
+<translation id="5770135830298799888">Få adgang til ting fra din Presearch-browser via <ph name="ACCOUNT_EMAIL"/></translation>
 <translation id="1790976235243700817">Fjern adgang</translation>
 <translation id="1791662854739702043">Installeret</translation>
 <translation id="1792619191750875668">Udvidet display</translation>
@@ -877,7 +877,7 @@ De tilladelser, du har givet til apps, gælder muligvis for denne konto. Du kan 
 <translation id="1823098433522728610">Dette dokument har følsomt indhold.</translation>
 <translation id="18245044880483936">Backupdata tæller ikke med i dit barns kvote for Drev-lagerplads.</translation>
 <translation id="1825565032302550710">Porten skal være mellem 1024 og 65535</translation>
-<translation id="1826192255355608658">Synkroniser bogmærkerne, adgangskoderne, historikken m.m. i din Brave-browser</translation>
+<translation id="1826192255355608658">Synkroniser bogmærkerne, adgangskoderne, historikken m.m. i din Presearch-browser</translation>
 <translation id="1826516787628120939">Kontrollerer</translation>
 <translation id="1827738518074806965">Kunstgalleri</translation>
 <translation id="1828378091493947763">Dette plugin understøttes ikke på denne enhed</translation>
@@ -930,7 +930,7 @@ De tilladelser, du har givet til apps, gælder muligvis for denne konto. Du kan 
 <translation id="5547994882402969646">Kontrol af adgangskode er ikke tilgængelig i Brave</translation>
 <translation id="1868617395637139709">Brug lokation i Android-apps og -tjenester.</translation>
 <translation id="1869433484041798909">Knappen Bogmærke</translation>
-<translation id="7175072311426658869">Åbn i Brave-browseren</translation>
+<translation id="7175072311426658869">Åbn i Presearch-browseren</translation>
 <translation id="187145082678092583">Færre apps</translation>
 <translation id="1871463148436682760">Sådan!</translation>
 <translation id="1871534214638631766">Vis relaterede oplysninger, når du højreklikker eller trykker længe på indholdet</translation>
@@ -2426,7 +2426,7 @@ og tryk på Ctrl+Alt+lysstyrke ned for at zoome ud.</translation>
 <translation id="3320630259304269485">Beskyttet browsing (beskyttelse mod farlige websites) og andre sikkerhedsindstillinger</translation>
 <translation id="3323295311852517824">{NUM_FILES,plural, =0{Disse data har følsomt eller farligt indhold. Fjern indholdet, og prøv igen.}=1{Denne fil har følsomt eller farligt indhold. Fjern indholdet, og prøv igen.}one{Denne fil har følsomt eller farligt indhold. Fjern indholdet, og prøv igen.}other{Disse filer har følsomt eller farligt indhold. Fjern indholdet, og prøv igen.}}</translation>
 <translation id="3323521181261657960">Ekstra tid! Du har fået mere skærmtid</translation>
-<translation id="9044258386077615750">De ændringer, du foretager her, anvendes kun i Brave-browseren. Hvis du vil skifte indstillinger for din Lacros Brave-browser, skal du åbne Lacros Brave-browseren og gå til indstillingerne.</translation>
+<translation id="9044258386077615750">De ændringer, du foretager her, anvendes kun i Presearch-browseren. Hvis du vil skifte indstillinger for din Lacros Presearch-browser, skal du åbne Lacros Presearch-browseren og gå til indstillingerne.</translation>
 <translation id="3325804108816646710">Søger efter tilgængelige profiler…</translation>
 <translation id="3325910708063135066">Kameraet og mikrofonen er deaktiveret i Systemindstillinger for Mac</translation>
 <translation id="3327050066667856415">Chromebooks er udviklet med fokus på sikkerhed. Din enhed er automatisk beskyttet mod malware, uden at du skal hente ekstra software.</translation>
@@ -3692,7 +3692,7 @@ Vil du starte <ph name="CONTROL_PANEL_APPLET_NAME"/>?</translation>
 <translation id="5069510062541082828">Hvis du vil fortsætte med at gemme adgangskoder på din Brave-konto, skal du bekræfte din identitet</translation>
 <translation id="4579453506923101210">Glem den tilsluttede telefon</translation>
 <translation id="4579581181964204535"><ph name="HOST_NAME"/> kunne ikke castes.</translation>
-<translation id="7343272409020602342">Gå til <ph name="LINK_BEGIN"/>indstillingerne for Brave-browseren<ph name="LINK_END"/> for at gå til browsernotifikationerne</translation>
+<translation id="7343272409020602342">Gå til <ph name="LINK_BEGIN"/>indstillingerne for Presearch-browseren<ph name="LINK_END"/> for at gå til browsernotifikationerne</translation>
 <translation id="4581774856936278355">Der opstod en fejl ved gendannelsen af Linux</translation>
 <translation id="4582297591746054421">Websites læser normalt din udklipsholder for at kunne bevare formatet af den tekst, du kopierede</translation>
 <translation id="4582563038311694664">Nulstil alle indstillinger</translation>
@@ -3919,7 +3919,7 @@ Vil du starte <ph name="CONTROL_PANEL_APPLET_NAME"/>?</translation>
 <translation id="4824037980212326045">Backup og gendannelse i Linux</translation>
 <translation id="4824958205181053313">Vil du annullere synkroniseringen?</translation>
 <translation id="4827675678516992122">Der kunne ikke oprettes forbindelse</translation>
-<translation id="4536267179863600153">Forbedret stavekontrol i Brave-browseren (teksten sendes til Brave for at generere staveforslag)</translation>
+<translation id="4536267179863600153">Forbedret stavekontrol i Presearch-browseren (teksten sendes til Brave for at generere staveforslag)</translation>
 <translation id="4827904420700932487">Opret en QR-kode for dette billede</translation>
 <translation id="4827970183019354123">Webadressetjek</translation>
 <translation id="482952334869563894">USB-enheder fra leverandøren <ph name="VENDOR_ID"/></translation>
@@ -4368,7 +4368,7 @@ Vil du starte <ph name="CONTROL_PANEL_APPLET_NAME"/>?</translation>
 <translation id="5288678174502918605">G&amp;enåbn lukket fane</translation>
 <translation id="52895863590846877">Siden findes ikke på <ph name="LANGUAGE"/></translation>
 <translation id="52912272896845572">Den private nøglefil er ugyldig.</translation>
-<translation id="2986818636564877939">Der genereres automatisk undertekster til medier i Brave-browseren (i øjeblikket tilgængelig på engelsk). Lyd og undertekster behandles lokalt og forlader aldrig enheden.</translation>
+<translation id="2986818636564877939">Der genereres automatisk undertekster til medier i Presearch-browseren (i øjeblikket tilgængelig på engelsk). Lyd og undertekster behandles lokalt og forlader aldrig enheden.</translation>
 <translation id="529175790091471945">Formatér denne enhed</translation>
 <translation id="529296195492126134">Engangsbruger understøttes ikke. Kontakt din administrator</translation>
 <translation id="5293170712604732402">Gendan indstillinger til deres oprindelige standardkonfiguration</translation>
@@ -4615,7 +4615,7 @@ Flere kontakter kan tildeles denne handling.</translation>
 <translation id="5539221284352502426">Den angivne adgangskode blev afvist af serveren. Mulige årsager: Adgangskoden er for kort. Adgangskoden skal indeholde tal eller symboler. Adgangskoden skal være forskellig fra tidligere adgangskoder.</translation>
 <translation id="5541694225089836610">Handlingen er deaktiveret af din administrator</translation>
 <translation id="5542132724887566711">Profil</translation>
-<translation id="4987607652212163034">Din konto administreres af <ph name="MANAGER_NAME"/>. Din administrator kan se og redigere denne Brave-browserprofil og dens data. Dine data omfatter bogmærker, historikken og adgangskoder.</translation>
+<translation id="4987607652212163034">Din konto administreres af <ph name="MANAGER_NAME"/>. Din administrator kan se og redigere denne Presearch-browserprofil og dens data. Dine data omfatter bogmærker, historikken og adgangskoder.</translation>
 <translation id="5542750926112347543">Cookies fra <ph name="DOMAIN"/> er blokeret</translation>
 <translation id="5542949973455282971">Opretter forbindelse til <ph name="CARRIER_NAME"/></translation>
 <translation id="5543983818738093899">Kontrollerer status...</translation>
@@ -4673,7 +4673,7 @@ Flere kontakter kan tildeles denne handling.</translation>
 <translation id="558918721941304263">Indlæser apps...</translation>
 <translation id="5591644692203457362">Any Extended Key Usage</translation>
 <translation id="5592595402373377407">Der er ikke nok data til rådighed endnu.</translation>
-<translation id="4620609007674235583">Brave-browser</translation>
+<translation id="4620609007674235583">Presearch-browser</translation>
 <translation id="5595485650161345191">Rediger adresse</translation>
 <translation id="5596627076506792578">Flere valgmuligheder</translation>
 <translation id="5600348067066185292">Installationen er nem. Du vil have mulighed for at bekræfte igen, inden der foretages ændringer af din computer.</translation>
@@ -5174,7 +5174,7 @@ Flere kontakter kan tildeles denne handling.</translation>
 <translation id="6112294629795967147">Tryk for at vælge en anden størrelse</translation>
 <translation id="6112727384379533756">Tilføj en billet</translation>
 <translation id="6112931163620622315">Tjek din telefon</translation>
-<translation id="8589850327914845460">Angiv din standardsøgemaskine for Brave-browseren og applisten på din <ph name="DEVICE_TYPE"/></translation>
+<translation id="8589850327914845460">Angiv din standardsøgemaskine for Presearch-browseren og applisten på din <ph name="DEVICE_TYPE"/></translation>
 <translation id="6113942107547980621">Skift til den primære brugerprofil på din telefon for at bruge Smart Lock</translation>
 <translation id="6116921718742659598">Rediger indstillingerne for sprog og indtastning</translation>
 <translation id="6119927814891883061">Navngiv enheden: <ph name="DEVICE_NAME"/></translation>
@@ -5241,7 +5241,7 @@ Flere kontakter kan tildeles denne handling.</translation>
 <translation id="6181431612547969857">Downloaden blev blokeret</translation>
 <translation id="6184099524311454384">Søg i faner</translation>
 <translation id="6185132558746749656">Enhedslokation</translation>
-<translation id="6269192621359785662">Synkronisering af din Brave-browser er aktiveret</translation>
+<translation id="6269192621359785662">Synkronisering af din Presearch-browser er aktiveret</translation>
 <translation id="6190953336330058278">Phone Hub-apps</translation>
 <translation id="619279033188484792">Se de seneste billeder, mediefiler og notifikationer fra din telefon på din <ph name="DEVICE_TYPE"/></translation>
 <translation id="6195005504600220730">Læs oplysninger om din browser, dit operativsystem og din enhed</translation>
@@ -5680,7 +5680,7 @@ Flere kontakter kan tildeles denne handling.</translation>
 <translation id="6608166463665411119">Nulstil eSIM</translation>
 <translation id="6610002944194042868">Valgmuligheder for oversættelse</translation>
 <translation id="6611972847767394631">Find dine faner her</translation>
-<translation id="6613668613087513143">Der er ikke nok plads på denne enhed til at fuldføre denne opdatering. Frigør <ph name="NECESSARY_SPACE"/> på din enhed, og prøv igen via din Brave-browser.</translation>
+<translation id="6613668613087513143">Der er ikke nok plads på denne enhed til at fuldføre denne opdatering. Frigør <ph name="NECESSARY_SPACE"/> på din enhed, og prøv igen via din Presearch-browser.</translation>
 <translation id="6615455863669487791">Lad mig se</translation>
 <translation id="6618097958368085618">Behold alligevel</translation>
 <translation id="6618744767048954150">Kører</translation>
@@ -5804,7 +5804,7 @@ Flere kontakter kan tildeles denne handling.</translation>
 <translation id="6740234557573873150"><ph name="FILE_NAME"/> er sat på pause</translation>
 <translation id="6741063444351041466"><ph name="BEGIN_LINK"/>Din administrator<ph name="END_LINK"/> har deaktiveret Beskyttet browsing</translation>
 <translation id="6742339027238151589">Tilgængelig for script</translation>
-<translation id="6554048679786998977">Der genereres automatisk undertekster til medier i Brave-browseren. Lyd og undertekster behandles lokalt og forlader aldrig enheden.</translation>
+<translation id="6554048679786998977">Der genereres automatisk undertekster til medier i Presearch-browseren. Lyd og undertekster behandles lokalt og forlader aldrig enheden.</translation>
 <translation id="6743841972744298686">Indstillinger for synkronisering</translation>
 <translation id="6745592621698551453">Opdater nu</translation>
 <translation id="6746124502594467657">Flyt ned</translation>
@@ -5969,7 +5969,7 @@ Flere kontakter kan tildeles denne handling.</translation>
 <translation id="6902066522699286937">Eksempel på stemme</translation>
 <translation id="6902336033320348843">Sektionen understøttes ikke: <ph name="ERROR_LINE"/></translation>
 <translation id="6902837902700739466">Føj enheden til domænet</translation>
-<translation id="8347080852065577355">Dine data synkroniseres på tværs af alle Brave-browsere, hvor du har aktiveret synkronisering for denne konto. Du kan se valgmuligheder for Chrome OS-synkronisering i <ph name="LINK_BEGIN"/>Chrome OS-indstillingerne<ph name="LINK_END"/>.</translation>
+<translation id="8347080852065577355">Dine data synkroniseres på tværs af alle Presearch-browsere, hvor du har aktiveret synkronisering for denne konto. Du kan se valgmuligheder for Chrome OS-synkronisering i <ph name="LINK_BEGIN"/>Chrome OS-indstillingerne<ph name="LINK_END"/>.</translation>
 <translation id="6903590427234129279">Åbn alle (<ph name="URL_COUNT"/>)</translation>
 <translation id="6903907808598579934">Aktivér synkronisering</translation>
 <translation id="6904344821472985372">Tilbagekald filadgang</translation>
@@ -6188,7 +6188,7 @@ Flere kontakter kan tildeles denne handling.</translation>
 <translation id="711840821796638741">Vis administrerede bogmærker</translation>
 <translation id="711902386174337313">Læs listen over de enheder, hvor du er logget ind</translation>
 <translation id="8651796563067586593">Denne side giver dig mulighed for at administrere de Brave-konti, du er logget ind på. <ph name="LINK_BEGIN"/>Få flere oplysninger<ph name="LINK_END"/></translation>
-<translation id="5450502361144700252">Brave-browseren og Android-trafik blokeres, medmindre der oprettes forbindelse til et VPN-netværk</translation>
+<translation id="5450502361144700252">Presearch-browseren og Android-trafik blokeres, medmindre der oprettes forbindelse til et VPN-netværk</translation>
 <translation id="7120865473764644444">Der kunne ikke oprettes forbindelse til synkroniseringsserveren. Prøver igen…</translation>
 <translation id="7121438501124788993">Udviklertilstand</translation>
 <translation id="7121728544325372695">Smarte bindestreger</translation>
@@ -6867,7 +6867,7 @@ Tryk på en kontakt eller tast, der er tildelt en handling, for at fjerne tildel
 <translation id="7799299114731150374">Baggrunden blev indstillet</translation>
 <translation id="7799817062559422778">Lys tilstand</translation>
 <translation id="7800518121066352902">Roter m&amp;od uret</translation>
-<translation id="1040069800786635119">De ændringer, du foretager her, anvendes kun i Lacros Brave-browseren. Hvis du vil skifte indstillinger for din Brave-browser, skal du åbne Brave-browseren og gå til indstillingerne.</translation>
+<translation id="1040069800786635119">De ændringer, du foretager her, anvendes kun i Lacros Presearch-browseren. Hvis du vil skifte indstillinger for din Presearch-browser, skal du åbne Presearch-browseren og gå til indstillingerne.</translation>
 <translation id="780301667611848630">Nej tak</translation>
 <translation id="7804072833593604762">Fanen er lukket</translation>
 <translation id="7805768142964895445">Status</translation>

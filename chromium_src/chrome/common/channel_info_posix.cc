@@ -28,13 +28,13 @@ std::string GetDesktopName(base::Environment* env) {
   version_info::Channel product_channel(chrome::GetChannel());
   switch (product_channel) {
     case version_info::Channel::DEV:
-      return "brave-browser-dev.desktop";
+      return "presearch-browser-dev.desktop";
     case version_info::Channel::BETA:
-      return "brave-browser-beta.desktop";
+      return "presearch-browser-beta.desktop";
     case version_info::Channel::CANARY:
-      return "brave-browser-nightly.desktop";
+      return "presearch-browser-nightly.desktop";
     default:
-      return "brave-browser.desktop";
+      return "presearch-browser.desktop";
   }
 #endif  // defined(OFFICIAL_BUILD)
   // Allow $CHROME_DESKTOP to override the built-in value, so that development
@@ -43,7 +43,7 @@ std::string GetDesktopName(base::Environment* env) {
   std::string name;
   if (env->GetVar("CHROME_DESKTOP", &name) && !name.empty())
     return name;
-  return "brave-browser.desktop";
+  return "presearch-browser.desktop";
 }
 #endif  // BUILDFLAG(IS_LINUX)
 

@@ -196,7 +196,7 @@ indtil de verificerer, eller indtil der er gået 90 dage.</translation>
 <translation id="3132642509209154999">Denne kode er udløbet. Generér venligst en ny på din anden enhed, og prøv igen.</translation>
 <translation id="2859229680945501779">Hoden er ugyldig. Kontrollér at tidspunkt og tidszone er korrekt indstillet på din enhed.</translation>
 <translation id="3149880132460839085">Brave-synkronisering</translation>
-<translation id="3680755684186855422">Brave-synkronisering lader dig synkronisere bogmærkedata privat mellem dine Brave-browsers på dine diverse enheder.</translation>
+<translation id="3680755684186855422">Brave-synkronisering lader dig synkronisere bogmærkedata privat mellem dine Presearch-browsers på dine diverse enheder.</translation>
 <translation id="3735228155296883311">Du skal blot scanne koden fra din synkroniseringskæde, som du oprettede på en anden enhed. Eller start en ny synkroniseringskæde.</translation>
 <translation id="2614069607859982576">Under brug af en eksisterende synkroniseret enhed, skal du åbne Brave-indstillingerne og gå til Indstillinger og Synkronisering. Vælg "Tilføj ny enhed" og scan QR-koden, som vises på skærmen.</translation>
 <translation id="5241263629636958324">Kopieret til udklipsholder</translation>
@@ -377,13 +377,13 @@ Er du sikker på, du vil gennemføre?</translation>
 <translation id="3694122362646626770">Hjemmesider</translation>
 <translation id="2225863440766607138">Trackere</translation>
 <translation id="2993367530362078067"><ph name="COUNT"/><ph name="COUNT_TEXT"/></translation>
-<translation id="6737820963776538947">Du blokerede <ph name="COUNT"/> trackere og reklamer med Brave-browseren i de sidste tre timer.</translation>
+<translation id="6737820963776538947">Du blokerede <ph name="COUNT"/> trackere og reklamer med Presearch-browseren i de sidste tre timer.</translation>
 <translation id="3621193901658023971">Browse op til 6x gange hurtigere på store nyhedssider med Brave ved at blokere trackere og reklamer.</translation>
 <translation id="7427567994475794038">Aktivér Databeskyttelsesrapporter for at se hvor mange trackere og rekalmer der er blevet blokeret de sidste tre timer.</translation>
-<translation id="2053891538879944400">Du sparede <ph name="DATA"/> <ph name="DATA_TEXT"/> data med Brave-browseren.</translation>
+<translation id="2053891538879944400">Du sparede <ph name="DATA"/> <ph name="DATA_TEXT"/> data med Presearch-browseren.</translation>
 <translation id="8640064498452534195">Aktivér databeskyttelsesrapporter for at se hvor meget data du har sparet</translation>
 <translation id="2252497442547961651">Modig browser bruger i gennemsnit 40% mindre batteri. 🔋</translation>
-<translation id="1945330434665345785">Du blokerede <ph name="COUNT"/> trackere og reklamer med Brave-browseren sidste uge.</translation>
+<translation id="1945330434665345785">Du blokerede <ph name="COUNT"/> trackere og reklamer med Presearch-browseren sidste uge.</translation>
 <translation id="2883868922264431515">Optjen tokens ved at se datarespekterende reklamer og støtte dine yndlingshjemmesider.</translation>
 <translation id="7408493389591475748">Begynd at browse for at se databeskyttelsesrapportering</translation>
 <translation id="9080777565335515917">Indstil Brave som din standardbrowser for privat og sikker browsing.</translation>
@@ -511,7 +511,7 @@ Er du sikker på, du vil gennemføre?</translation>
 <translation id="1483493594462132177">Send</translation>
 <translation id="538450413584738399">Swap</translation>
 <translation id="1420318137760245955">Velkommen til den nye Brave Wallet</translation>
-<translation id="8339846196588658366">Opevar kryptoaktiver i din varetægt, og registrér porteføljepræstation. Det hele kan gøres direkte i din Brave-browser.</translation>
+<translation id="8339846196588658366">Opevar kryptoaktiver i din varetægt, og registrér porteføljepræstation. Det hele kan gøres direkte i din Presearch-browser.</translation>
 <translation id="4472575034687746823">Kom godt i gang</translation>
 <translation id="2759836790106646094">Lav en sikkerhedskopi af din tegnebog nu!</translation>
 <translation id="1078873179929044999">På det næste trin vil du se en gendannelsessætning på 12 ord, som du kan bruge til at gendanne dine primære crypto-konti. Opbevar den et sikkert sted. Din gendannelsessætning er den eneste måde at få adgang på, hvis du har glemt din adgangskode, du mister din enhed, eller hvis du vil skifte wallet.</translation>

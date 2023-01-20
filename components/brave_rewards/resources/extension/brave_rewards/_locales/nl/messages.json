@@ -571,7 +571,7 @@
     "description": ""
   },
   "onboardingPanelBitflyerLearnMore": {
-    "message": "$link_begin$Meer informatie$link_end$ over hoe u uw Brave-browser kunt koppelen aan uw bitFlyer-account.",
+    "message": "$link_begin$Meer informatie$link_end$ over hoe u uw Presearch-browser kunt koppelen aan uw bitFlyer-account.",
     "description": "",
     "placeholders": {
       "link_begin": {

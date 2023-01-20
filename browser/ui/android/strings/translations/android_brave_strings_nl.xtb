@@ -57,7 +57,7 @@
 <translation id="7142548388914389999">Productanalyse met privacybescherming (P3A) toestaan</translation>
 <translation id="5254037869598726291">Op basis van geanonimiseerde P3A-gegevens kan Brave het algemene gebruik schatten en kunnen we populaire functies verbeteren.</translation>
 <translation id="933652931229970927">Diagnostische rapporten automatisch verzenden</translation>
-<translation id="5987838417172370108">Help de productstabiliteit van Brave te verbeteren door automatisch diagnostische rapporten te verzenden wanneer de Brave-browser crasht of vastloopt.</translation>
+<translation id="5987838417172370108">Help de productstabiliteit van Brave te verbeteren door automatisch diagnostische rapporten te verzenden wanneer de Presearch-browser crasht of vastloopt.</translation>
 <translation id="7977176350719484850">Geschatte hoeveelheid\ndata bespaard</translation>
 <translation id="9008534313521214777">Gem. bespaarde\ntijd</translation>
 <translation id="6572660632052512096">Desktop-modus</translation>
@@ -195,7 +195,7 @@ deze maand...</translation>
 <translation id="3132642509209154999">Deze code is verlopen. Genereer een nieuwe code op je andere apparaat en probeer het opnieuw.</translation>
 <translation id="2859229680945501779">Deze code is ongeldig. Controleer of de tijd en tijdzone correct zijn ingesteld op uw apparaat.</translation>
 <translation id="3149880132460839085">Brave Sync</translation>
-<translation id="3680755684186855422">Met Brave Sync kun je bladwijzergegevens privé synchroniseren tussen de Brave-browsers op je apparaten.</translation>
+<translation id="3680755684186855422">Met Brave Sync kun je bladwijzergegevens privé synchroniseren tussen de Presearch-browsers op je apparaten.</translation>
 <translation id="3735228155296883311">Scan eenvoudig de code van je synchronisatieketen die je op een ander apparaat hebt gemaakt. Of start een nieuwe synchronisatieketen.</translation>
 <translation id="2614069607859982576">Open met een bestaand gesynchroniseerd apparaat de Brave-instellingen en nafigeer naar Instellingen &gt; Sync. Kies 'Nieuw apparaat toevoegen' en scan de QR-code die op het scherm verschijnt.</translation>
 <translation id="5241263629636958324">Gekopieerd naar het klembord</translation>
@@ -360,7 +360,7 @@ Weet je zeker dat je dit wilt doen?</translation>
 <translation id="5440744330377972191">Websites laden sneller</translation>
 <translation id="3000738865641747653">Minder gegevens laden betekent dat websites in Brave sneller laden - tot wel 8x sneller dan andere browsers.</translation>
 <translation id="8903462729414407077">Ontvang wekelijks updates</translation>
-<translation id="7450323860390658083">Wees op de hoogte van welke websites de grootste bedreiging vormen voor je privacy.\n\nAlleen jij kunt deze privacystatistieken zien. Je persoonlijke gegevens en browsergeschiedenis verlaten nooit de Brave-browser op je apparaat.</translation>
+<translation id="7450323860390658083">Wees op de hoogte van welke websites de grootste bedreiging vormen voor je privacy.\n\nAlleen jij kunt deze privacystatistieken zien. Je persoonlijke gegevens en browsergeschiedenis verlaten nooit de Presearch-browser op je apparaat.</translation>
 <translation id="6170159749517116894">Zet privacyrapporten aan</translation>
 <translation id="5966707198760109579">Week</translation>
 <translation id="8987927404178983737">Maand</translation>
@@ -858,7 +858,7 @@ Als je dit verzoek niet accepteert, maakt VPN niet opnieuw verbinding en is je i
 <translation id="4717431746210146708">Deze website toestaan om een netwerk toe te voegen?</translation>
 <translation id="3378339846292573874">Voorgestelde token toevoegen</translation>
 <translation id="2322227405137827074">Wil je deze token importeren?</translation>
-<translation id="1324417023773393937">Brave-browser</translation>
+<translation id="1324417023773393937">Presearch-browser</translation>
 <translation id="6044189892950611565">Meldingkanaal voor Brave Browser</translation>
 <translation id="7228169875515099943">GEGEVENS</translation>
 <translation id="2218918398178303658">DNS met HTTPS</translation>
