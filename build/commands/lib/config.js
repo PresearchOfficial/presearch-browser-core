@@ -254,7 +254,7 @@ Config.prototype.buildArgs = function () {
     is_universal_binary: this.isUniversalBinary,
     proprietary_codecs: true,
     ffmpeg_branding: "Chrome",
-    branding_path_component: "presearch",
+    branding_path_component: "brave",
     enable_nacl: false,
     enable_widevine: true,
     target_cpu: this.targetArch,
