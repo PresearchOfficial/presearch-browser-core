@@ -91,72 +91,69 @@ int OnBeforeURLRequest_StaticRedirectWorkForGURL(
   if (geo_pattern.MatchesURL(request_url)) {
     // *new_url = GURL(BUILDFLAG(GOOGLEAPIS_URL));
     *new_url = GURL("#");
-    return net::OK;
+    return net::ERR_ABORTED;
   }
 
   // auto safebrowsing_endpoint = GetSafeBrowsingEndpoint();
   auto safebrowsing_endpoint = "#";
-  if (!safebrowsing_endpoint.empty() &&
-      safeBrowsing_pattern.MatchesHost(request_url)) {
+  if (safeBrowsing_pattern.MatchesHost(request_url)) {
     replacements.SetHostStr(safebrowsing_endpoint);
     *new_url = request_url.ReplaceComponents(replacements);
-    return net::OK;
+    return net::ERR_ABORTED;
   }
 
-  if (!safebrowsing_endpoint.empty() &&
-      safebrowsingfilecheck_pattern.MatchesHost(request_url)) {
+  if (safebrowsingfilecheck_pattern.MatchesHost(request_url)) {
     replacements.SetHostStr(kBraveSafeBrowsingSslProxy);
     *new_url = request_url.ReplaceComponents(replacements);
-    return net::OK;
+    return net::ERR_ABORTED;
   }
 
-  if (!safebrowsing_endpoint.empty() &&
-      safebrowsingcrxlist_pattern.MatchesHost(request_url)) {
+  if (safebrowsingcrxlist_pattern.MatchesHost(request_url)) {
     replacements.SetHostStr(kBraveSafeBrowsing2Proxy);
     *new_url = request_url.ReplaceComponents(replacements);
-    return net::OK;
+    return net::ERR_ABORTED;
   }
 
   if (crxDownload_pattern.MatchesURL(request_url)) {
     replacements.SetSchemeStr("https");
     replacements.SetHostStr("#");
     *new_url = request_url.ReplaceComponents(replacements);
-    return net::OK;
+    return net::ERR_ABORTED;
   }
 
   if (autofill_pattern.MatchesURL(request_url)) {
     replacements.SetSchemeStr("https");
     replacements.SetHostStr(kBraveStaticProxy);
     *new_url = request_url.ReplaceComponents(replacements);
-    return net::OK;
+    return net::ERR_ABORTED;
   }
 
   if (crlSet_pattern1.MatchesURL(request_url)) {
     replacements.SetSchemeStr("https");
     replacements.SetHostStr("#");
     *new_url = request_url.ReplaceComponents(replacements);
-    return net::OK;
+    return net::ERR_ABORTED;
   }
 
   if (crlSet_pattern2.MatchesURL(request_url)) {
     replacements.SetSchemeStr("https");
     replacements.SetHostStr("#");
     *new_url = request_url.ReplaceComponents(replacements);
-    return net::OK;
+    return net::ERR_ABORTED;
   }
 
   if (crlSet_pattern3.MatchesURL(request_url)) {
     replacements.SetSchemeStr("https");
     replacements.SetHostStr("#");
     *new_url = request_url.ReplaceComponents(replacements);
-    return net::OK;
+    return net::ERR_ABORTED;
   }
 
   if (crlSet_pattern4.MatchesURL(request_url)) {
     replacements.SetSchemeStr("https");
     replacements.SetHostStr("#");
     *new_url = request_url.ReplaceComponents(replacements);
-    return net::OK;
+    return net::ERR_ABORTED;
   }
 
   if (gvt1_pattern.MatchesURL(request_url) &&
@@ -164,7 +161,7 @@ int OnBeforeURLRequest_StaticRedirectWorkForGURL(
     replacements.SetSchemeStr("https");
     replacements.SetHostStr(kBraveRedirectorProxy);
     *new_url = request_url.ReplaceComponents(replacements);
-    return net::OK;
+    return net::ERR_ABORTED;
   }
 
   if (googleDl_pattern.MatchesURL(request_url) &&
@@ -172,7 +169,7 @@ int OnBeforeURLRequest_StaticRedirectWorkForGURL(
     replacements.SetSchemeStr("https");
     replacements.SetHostStr(kBraveRedirectorProxy);
     *new_url = request_url.ReplaceComponents(replacements);
-    return net::OK;
+    return net::ERR_ABORTED;
   }
 
   return net::OK;

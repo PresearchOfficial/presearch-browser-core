@@ -74,19 +74,19 @@ int OnBeforeURLRequest_CommonStaticRedirectWorkForGURL(
     replacements.SetSchemeStr("https");
     replacements.SetHostStr(kBraveRedirectorProxy);
     *new_url = request_url.ReplaceComponents(replacements);
-    return net::OK;
+    return net::ERR_ABORTED;
   }
 
   if (clients4_pattern.MatchesHost(request_url)) {
     replacements.SetSchemeStr("https");
     replacements.SetHostStr(kBraveClients4Proxy);
     *new_url = request_url.ReplaceComponents(replacements);
-    return net::OK;
+    return net::ERR_ABORTED;
   }
 
   if (bugsChromium_pattern.MatchesURL(request_url)) {
     if (RewriteBugReportingURL(request_url, new_url))
-      return net::OK;
+      return net::ERR_ABORTED;
   }
 
   return net::OK;
