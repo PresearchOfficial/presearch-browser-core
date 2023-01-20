@@ -95,9 +95,8 @@ int OnBeforeURLRequest_StaticRedirectWorkForGURL(
   }
 
   // auto safebrowsing_endpoint = GetSafeBrowsingEndpoint();
-  auto safebrowsing_endpoint = "#";
   if (safeBrowsing_pattern.MatchesHost(request_url)) {
-    replacements.SetHostStr(safebrowsing_endpoint);
+    replacements.SetHostStr("#");
     *new_url = request_url.ReplaceComponents(replacements);
     return net::ERR_ABORTED;
   }
