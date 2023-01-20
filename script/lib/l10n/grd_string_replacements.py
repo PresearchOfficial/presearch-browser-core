@@ -24,7 +24,7 @@ branding_replacements = [
 # Strings we want to replace but that we need to use Transifex for
 # to translate the XTB files
 default_replacements = [
-    (r'Brave Web Store', r'Web Store'),
+    (r'Presearch Web Store', r'Web Store'),
     (r'You\'re incognito', r'This is a private window'),
     (r'an incognito', r'a private'),
     (r'an Incognito', r'a Private'),
@@ -45,26 +45,26 @@ default_replacements = [
 
 # Fix up some strings after aggressive first round replacement.
 fixup_replacements = [
-    (r'Brave Cloud Print', r'Google Cloud Print'),
-    (r'Brave Docs', r'Google Docs'),
-    (r'Brave Drive', r'Google Drive'),
-    (r'Brave OS', r'Chrome OS'),
-    (r'BraveOS', r'ChromeOS'),
-    (r'Brave Safe Browsing', r'Google Safe Browsing'),
+    (r'Presearch Cloud Print', r'Google Cloud Print'),
+    (r'Presearch Docs', r'Google Docs'),
+    (r'Presearch Drive', r'Google Drive'),
+    (r'Presearch OS', r'Chrome OS'),
+    (r'PresearchOS', r'ChromeOS'),
+    (r'Presearch Safe Browsing', r'Google Safe Browsing'),
     (r'Safe Browsing \(protects you and your device from dangerous sites\)',
      r'Google Safe Browsing (protects you and your device from dangerous sites)'
     ),
-    (r'Sends URLs of some pages you visit to Brave',
+    (r'Sends URLs of some pages you visit to Presearch',
      r'Sends URLs of some pages you visit to Google'),
     (r'Google Google', r'Google'),
-    (r'Brave Account', r'Brave sync chain'),
-    (r'Brave Lens', r'Google Lens'),
-    (r'Bravebook', r'Chromebook'),
-    (r'Bravecast', r'Chromecast'),
-    (r'Brave Cloud', r'Google Cloud'),
-    (r'Brave Pay', r'Google Pay'),
-    (r'Brave Photos', r'Google Photos'),
-    (r'Brave Projects', r'Chromium Projects'),
+    (r'Presearch Account', r'Presearch sync chain'),
+    (r'Presearch Lens', r'Google Lens'),
+    (r'Presearchbook', r'Chromebook'),
+    (r'Presearchcast', r'Chromecast'),
+    (r'Presearch Cloud', r'Google Cloud'),
+    (r'Presearch Pay', r'Google Pay'),
+    (r'Presearch Photos', r'Google Photos'),
+    (r'Presearch Projects', r'Chromium Projects'),
 ]
 
 

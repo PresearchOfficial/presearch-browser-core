@@ -18,7 +18,7 @@ index 6657390e3c31e81624c37a881639bf042563c6bc..d4232553512386d9b0b622744635b81f
  #endif
  
  // Copied from util_constants.cc.
-+const wchar_t kChromeExe[] = L"brave.exe";
++const wchar_t kChromeExe[] = L"presearch.exe";
 +#if 0
  const wchar_t kChromeExe[] = L"chrome.exe";
 +#endif
