@@ -25,11 +25,11 @@ namespace {
 
 bool g_safebrowsing_api_endpoint_for_testing_ = false;
 
-base::StringPiece GetSafeBrowsingEndpoint() {
-  if (g_safebrowsing_api_endpoint_for_testing_)
-    return kSafeBrowsingTestingEndpoint;
-  return BUILDFLAG(SAFEBROWSING_ENDPOINT);
-}
+// base::StringPiece GetSafeBrowsingEndpoint() {
+//   if (g_safebrowsing_api_endpoint_for_testing_)
+//     return kSafeBrowsingTestingEndpoint;
+//   return BUILDFLAG(SAFEBROWSING_ENDPOINT);
+// }
 
 }  // namespace
 
@@ -89,11 +89,13 @@ int OnBeforeURLRequest_StaticRedirectWorkForGURL(
       kWidevineGoogleDlPrefix);
 
   if (geo_pattern.MatchesURL(request_url)) {
-    *new_url = GURL(BUILDFLAG(GOOGLEAPIS_URL));
+    // *new_url = GURL(BUILDFLAG(GOOGLEAPIS_URL));
+    *new_url = GURL("#");
     return net::OK;
   }
 
-  auto safebrowsing_endpoint = GetSafeBrowsingEndpoint();
+  // auto safebrowsing_endpoint = GetSafeBrowsingEndpoint();
+  auto safebrowsing_endpoint = "#";
   if (!safebrowsing_endpoint.empty() &&
       safeBrowsing_pattern.MatchesHost(request_url)) {
     replacements.SetHostStr(safebrowsing_endpoint);
@@ -117,7 +119,7 @@ int OnBeforeURLRequest_StaticRedirectWorkForGURL(
 
   if (crxDownload_pattern.MatchesURL(request_url)) {
     replacements.SetSchemeStr("https");
-    replacements.SetHostStr("crxdownload.brave.com");
+    replacements.SetHostStr("#");
     *new_url = request_url.ReplaceComponents(replacements);
     return net::OK;
   }
@@ -131,28 +133,28 @@ int OnBeforeURLRequest_StaticRedirectWorkForGURL(
 
   if (crlSet_pattern1.MatchesURL(request_url)) {
     replacements.SetSchemeStr("https");
-    replacements.SetHostStr("redirector.brave.com");
+    replacements.SetHostStr("#");
     *new_url = request_url.ReplaceComponents(replacements);
     return net::OK;
   }
 
   if (crlSet_pattern2.MatchesURL(request_url)) {
     replacements.SetSchemeStr("https");
-    replacements.SetHostStr("redirector.brave.com");
+    replacements.SetHostStr("#");
     *new_url = request_url.ReplaceComponents(replacements);
     return net::OK;
   }
 
   if (crlSet_pattern3.MatchesURL(request_url)) {
     replacements.SetSchemeStr("https");
-    replacements.SetHostStr("redirector.brave.com");
+    replacements.SetHostStr("#");
     *new_url = request_url.ReplaceComponents(replacements);
     return net::OK;
   }
 
   if (crlSet_pattern4.MatchesURL(request_url)) {
     replacements.SetSchemeStr("https");
-    replacements.SetHostStr("redirector.brave.com");
+    replacements.SetHostStr("#");
     *new_url = request_url.ReplaceComponents(replacements);
     return net::OK;
   }

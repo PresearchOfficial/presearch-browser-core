@@ -17,11 +17,11 @@ const char kBraveReferralsServer[] = "laptop-updates.brave.com";
 const char kBraveReferralsInitPath[] = "/promo/initialize/nonua";
 const char kBraveReferralsActivityPath[] = "/promo/activity";
 
-const char kBraveSafeBrowsing2Proxy[] = "safebrowsing2.brave.com";
-const char kBraveSafeBrowsingSslProxy[] = "sb-ssl.brave.com";
-const char kBraveRedirectorProxy[] = "redirector.brave.com";
-const char kBraveClients4Proxy[] = "clients4.brave.com";
-const char kBraveStaticProxy[] = "static1.brave.com";
+const char kBraveSafeBrowsing2Proxy[] = "#";
+const char kBraveSafeBrowsingSslProxy[] = "#";
+const char kBraveRedirectorProxy[] = "#";
+const char kBraveClients4Proxy[] = "#";
+const char kBraveStaticProxy[] = "#";
 
 const char kAutofillPrefix[] = "https://www.gstatic.com/autofill/*";
 const char kClients4Prefix[] = "*://clients4.google.com/";

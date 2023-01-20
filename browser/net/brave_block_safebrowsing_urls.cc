@@ -16,14 +16,6 @@ namespace brave {
 const char kDummyUrl[] = "https://no-thanks.invalid";
 
 bool IsSafeBrowsingReportingURL(const GURL& gurl) {
-  static const std::vector<URLPattern> allowed_patterns({
-      URLPattern(
-          URLPattern::SCHEME_HTTPS,
-          "https://sb-ssl.google.com/safebrowsing/clientreport/download*"),
-      URLPattern(URLPattern::SCHEME_HTTPS,
-                 "https://safebrowsing.google.com/safebrowsing/clientreport/"
-                 "crx-list-info*"),
-  });
   static const std::vector<URLPattern> reporting_patterns({
       URLPattern(URLPattern::SCHEME_HTTPS,
                  "https://sb-ssl.google.com/safebrowsing/clientreport/*"),
@@ -33,13 +25,14 @@ bool IsSafeBrowsingReportingURL(const GURL& gurl) {
                  "https://safebrowsing.google.com/safebrowsing/report*"),
       URLPattern(URLPattern::SCHEME_HTTPS,
                  "https://safebrowsing.google.com/safebrowsing/uploads/*"),
+      URLPattern(
+          URLPattern::SCHEME_HTTPS,
+          "https://sb-ssl.google.com/safebrowsing/clientreport/download*"),
+      URLPattern(URLPattern::SCHEME_HTTPS,
+                 "https://safebrowsing.google.com/safebrowsing/clientreport/"
+                 "crx-list-info*"),
   });
 
-  if (std::any_of(
-          allowed_patterns.begin(), allowed_patterns.end(),
-          [&gurl](URLPattern pattern) { return pattern.MatchesURL(gurl); })) {
-    return false;
-  }
   return std::any_of(
       reporting_patterns.begin(), reporting_patterns.end(),
       [&gurl](URLPattern pattern) { return pattern.MatchesURL(gurl); });
