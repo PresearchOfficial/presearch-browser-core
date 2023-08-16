@@ -191,11 +191,11 @@ def main():
         {
             "name": "cxxbridge-cmd",
             "version": cxx_version,
-        },
-        {
-            "name": "cargo-audit",
-            "features": "vendored-openssl",
         }
+#        {
+#            "name": "cargo-audit",
+#            "features": "vendored-openssl",
+#        }
     ]
     for tool in tools:
         cargo_install(tool)

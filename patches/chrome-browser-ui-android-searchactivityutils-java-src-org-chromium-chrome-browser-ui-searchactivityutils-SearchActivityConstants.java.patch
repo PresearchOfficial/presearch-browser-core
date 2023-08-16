@@ -1,0 +1,24 @@
+diff --git a/chrome/browser/ui/android/searchactivityutils/java/src/org/chromium/chrome/browser/ui/searchactivityutils/SearchActivityConstants.java b/chrome/browser/ui/android/searchactivityutils/java/src/org/chromium/chrome/browser/ui/searchactivityutils/SearchActivityConstants.java
+index 1904bceedc2c034c7b893d7cbb14f4ae705ad200..396d7b0216dd222475ad71d402f3717d4b7b3f14 100644
+--- a/chrome/browser/ui/android/searchactivityutils/java/src/org/chromium/chrome/browser/ui/searchactivityutils/SearchActivityConstants.java
++++ b/chrome/browser/ui/android/searchactivityutils/java/src/org/chromium/chrome/browser/ui/searchactivityutils/SearchActivityConstants.java
+@@ -10,7 +10,8 @@ package org.chromium.chrome.browser.ui.searchactivityutils;
+ public class SearchActivityConstants {
+     /** Intent Action indicating that the Intent should initiate Text search. */
+     public static final String ACTION_START_TEXT_SEARCH =
+-            "org.chromium.chrome.browser.ui.searchactivityutils.ACTION_START_TEXT_SEARCH";
++	    "com.presearch.search.TextSearchActivity";
++	    /** "org.chromium.chrome.browser.ui.searchactivityutils.ACTION_START_TEXT_SEARCH"; */
+ 
+     /** Intent Action indicating that the Intent should initiate Search-Engine aided Text search. */
+     public static final String ACTION_START_EXTENDED_TEXT_SEARCH =
+@@ -24,7 +25,8 @@ public class SearchActivityConstants {
+      * Intent Action indicating that the Intent should initiate Search-Engine aided Voice search.
+      */
+     public static final String ACTION_START_EXTENDED_VOICE_SEARCH =
+-            "org.chromium.chrome.browser.ui.searchactivityutils.ACTION_START_EXTENDED_VOICE_SEARCH";
++	    "com.presearch.search.TextSearchActivity";
++           /** "org.chromium.chrome.browser.ui.searchactivityutils.ACTION_START_EXTENDED_VOICE_SEARCH"; */
+ 
+     /** Intent Action indicating that the Intent should initiate Lens assisted search. */
+     public static final String ACTION_START_LENS_SEARCH =
