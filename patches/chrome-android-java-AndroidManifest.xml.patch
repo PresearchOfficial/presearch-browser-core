@@ -1,120 +1,22 @@
 diff --git a/chrome/android/java/AndroidManifest.xml b/chrome/android/java/AndroidManifest.xml
-index b31d14a673bb536c55ca146a3ad0100f6814e13f..32d252ca7c72d3d1e7ef1a4ddb4ef2fb71235f26 100644
+index b31d14a673bb536c55ca146a3ad0100f6814e13f..b9ebb503a893db4cc6af69c6c3c43005694b1064 100644
 --- a/chrome/android/java/AndroidManifest.xml
 +++ b/chrome/android/java/AndroidManifest.xml
-@@ -59,18 +59,26 @@ by a child template that "extends" this file.
-     <uses-permission-sdk-23 android:name="android.permission.BLUETOOTH_SCAN"
-                             android:usesPermissionFlags="neverForLocation"/>
+@@ -33,9 +33,6 @@ by a child template that "extends" this file.
+       channels use "runtime permission" uses-permission-sdk-23 which provides
+       permission on Android M and later without a prompt.
+     -->
+-    {% if channel in ['default'] %}
+-        <uses-permission android:name="android.permission.REQUEST_INSTALL_PACKAGES"/>
+-    {% endif %}
  
--    <uses-permission-sdk-23 android:name="android.permission.READ_CONTACTS"/>
-+<!--
-+     <uses-permission-sdk-23 android:name="android.permission.READ_CONTACTS"/>
-+-->
+     <uses-permission-sdk-23 android:name="android.permission.BLUETOOTH_ADMIN" android:maxSdkVersion="30"/>
+     <uses-permission-sdk-23 android:name="android.permission.BLUETOOTH_CONNECT"/>
+@@ -61,7 +58,6 @@ by a child template that "extends" this file.
+ 
+     <uses-permission-sdk-23 android:name="android.permission.READ_CONTACTS"/>
      <uses-permission-sdk-23 android:name="android.permission.REORDER_TASKS"/>
 -    <uses-permission-sdk-23 android:name="android.permission.REQUEST_INSTALL_PACKAGES"/>
  
      <uses-permission android:name="android.permission.CAMERA" />
      <uses-permission android:name="android.permission.DOWNLOAD_WITHOUT_NOTIFICATION" />
-     <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
--    <uses-permission android:name="android.permission.GET_ACCOUNTS"/>
-+<!--
-+     <uses-permission android:name="android.permission.GET_ACCOUNTS"/>
-+-->
-     <uses-permission android:name="android.permission.INTERNET"/>
--    <uses-permission android:name="android.permission.MANAGE_ACCOUNTS"/>
-+<!--
-+     <uses-permission android:name="android.permission.MANAGE_ACCOUNTS"/>
-+-->
-     <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS"/>
--    <uses-permission android:name="android.permission.NFC"/>
-+<!--
-+     <uses-permission android:name="android.permission.NFC"/>
-+-->
-     <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
-     <uses-permission android:name="android.permission.QUERY_ALL_PACKAGES" />
-     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
-@@ -78,7 +86,9 @@ by a child template that "extends" this file.
-     <uses-permission-sdk-23 android:name="android.permission.READ_MEDIA_VIDEO"/>
-     <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED"/>
-     <uses-permission android:name="android.permission.RECORD_AUDIO"/>
--    <uses-permission android:name="android.permission.USE_CREDENTIALS"/>
-+<!--
-+     <uses-permission android:name="android.permission.USE_CREDENTIALS"/>
-+-->
-     <uses-permission-sdk-23 android:name="android.permission.USE_BIOMETRIC"/>
-     <uses-permission-sdk-23 android:name="android.permission.USE_FINGERPRINT"/>
-     <uses-permission android:name="android.permission.VIBRATE"/>
-@@ -123,7 +133,9 @@ by a child template that "extends" this file.
-     <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
-     <uses-permission android:name="com.android.launcher.permission.INSTALL_SHORTCUT"/>
- 
--    <uses-permission android:name="com.google.android.apps.now.CURRENT_ACCOUNT_ACCESS" />
-+<!--
-+     <uses-permission android:name="com.google.android.apps.now.CURRENT_ACCOUNT_ACCESS" />
-+--> <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE"/> <uses-permission android:name="android.permission.READ_SYNC_SETTINGS"/>
- 
-     {% block extra_uses_permissions %}
-     {% endblock %}
-@@ -170,6 +182,7 @@ by a child template that "extends" this file.
-     <!-- Set android:largeHeap to "true" to allow more than the default
-          Java heap limit (32Mb on Nexus S, 48Mb on Xoom). -->
-       <application android:name="{% block application_name %}org.chromium.chrome.browser.base.SplitChromeApplication{% endblock %}"
-+        android:requestLegacyExternalStorage="true"
-         android:icon="@drawable/ic_launcher"
-         android:roundIcon="@drawable/ic_launcher_round"
-         android:label="{% block application_label %}@string/app_name{% endblock %}"
-@@ -326,6 +339,7 @@ by a child template that "extends" this file.
-             <intent-filter>
-                 <action android:name="com.sec.android.airview.HOVER" />
-             </intent-filter>
-+            {% include "//brave/android/java/AndroidManifest_intent_filters.xml" %}
-             <meta-data android:name="android.app.searchable"
-                 android:resource="@xml/searchable" />
-         </activity-alias>
-@@ -975,7 +989,7 @@ by a child template that "extends" this file.
-         </receiver>
- 
-         <!-- Bookmarks widget -->
--        <receiver android:name="com.google.android.apps.chrome.appwidget.bookmarks.BookmarkThumbnailWidgetProvider"
-+	<!-- <receiver android:name="com.google.android.apps.chrome.appwidget.bookmarks.BookmarkThumbnailWidgetProvider"
-             android:label="@string/bookmark_widget_title"
-             android:exported="true">
-             <intent-filter>
-@@ -990,10 +1004,10 @@ by a child template that "extends" this file.
-             android:permission="android.permission.BIND_REMOTEVIEWS"
-             android:exported="false" />
-         <receiver android:name="org.chromium.chrome.browser.bookmarkswidget.BookmarkWidgetProxy"
--            android:exported="false" />
-+	android:exported="false" /> -->
- 
-         <!-- Search widget -->
--        <receiver
-+	<!-- <receiver
-                 android:name="org.chromium.chrome.browser.searchwidget.SearchWidgetProvider"
-                 android:label="@string/search_widget_title"
-                 android:exported="true">
-@@ -1003,7 +1017,7 @@ by a child template that "extends" this file.
-             <meta-data
-                     android:name="android.appwidget.provider"
-                     android:resource="@xml/search_widget_info" />
--        </receiver>
-+	</receiver> -->
- 
-         <!-- Search Activity -->
-         <activity android:name="org.chromium.chrome.browser.searchwidget.SearchActivity"
-@@ -1239,6 +1253,7 @@ by a child template that "extends" this file.
-             android:configChanges="orientation|keyboardHidden|keyboard|screenSize|mcc|mnc|screenLayout|smallestScreenSize" >
-         </activity>
- 
-+        {% include "//brave/android/java/AndroidManifest.xml" %}
-         {% block extra_application_definitions %}
-         {% endblock %}
-       {% endmacro %}
-@@ -1317,6 +1332,7 @@ by a child template that "extends" this file.
-       <!-- ARCore APK integration -->
-       <!-- This tag indicates that this application optionally uses ARCore. -->
-       <meta-data android:name="com.google.ar.core" android:value="optional" />
-+        <meta-data android:name="com.google.ar.core.min_apk_version" android:value="202940000"/><activity android:name="com.google.ar.core.InstallActivity" android:configChanges="keyboardHidden|orientation|screenSize" android:excludeFromRecents="true" android:exported="false" android:launchMode="singleTop" android:theme="@android:style/Theme.Material.Light.Dialog.Alert" />
-       {% endif %}
- 
-       <!-- Cast support -->

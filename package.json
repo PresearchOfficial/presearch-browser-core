@@ -1,6 +1,6 @@
 {
   "name": "presearch-core",
-  "version": "4.1.0",
+  "version": "4.3.2",
   "description": "Presearch Core is a set of changes, APIs and scripts used for customizing Chromium to make Presearch.",
   "main": "index.js",
   "scripts": {
